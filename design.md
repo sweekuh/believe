@@ -52,10 +52,12 @@ Reviewed at 375px (the target width) using the headless-browser screenshots in
 
 ## Findings, by priority
 
-### Implemented in this review (safe, aesthetic-preserving)
+> **Status:** all findings below are now **implemented** (the author asked to
+> follow every recommendation). The visual changes (#4, #5, #8) are mirrored
+> into `design-reference/believe-s1e1.html` so the approved source of truth and
+> the shipped app stay in sync. All 15 headless checks still pass.
 
-These are corrections, not redesigns — the look is unchanged to the eye, but
-the text is easier to read.
+### Tier 1 — legibility / accessibility corrections (aesthetic-preserving)
 
 1. **Source line failed contrast (WCAG AA).** `.src` was `#8a7d68` on the cream
    card — ≈**3.3:1**, below the 4.5:1 minimum for body text, and it's the
@@ -75,44 +77,39 @@ the text is easier to read.
    empty, so nothing renders. Backward-compatible; real citations are
    unaffected.
 
-All 15 headless checks still pass after these changes.
+### Tier 2 — readability tuning for the actual reader
 
-### Recommended (worth doing; low risk — needs a yes)
+4. **Body text bumped for older eyes.** Body went **19px → 20px** Newsreader,
+   reducing strain with no layout harm on the 620px column. Mirrored into the
+   design reference.
 
-4. **Nudge the body text up for older eyes.** Body is 19px Newsreader. For the
-   actual reader, **20–21px** would meaningfully reduce strain with no layout
-   harm on a 620px column. *Why it's flagged, not done:* it's the one change
-   that shifts the look slightly, and the design reference is the approved
-   baseline. Recommend bumping `body{font-size}` to **20px** (and mirroring it
-   in the reference so the two files stay in sync). One-line change.
+5. **The two italic serif intro blocks are now easier to read.** `.from-me`
+   ("Hi Mom…") and `.ep-intro` were italic serif in a muted blue (`#cdd7e3`) —
+   italic body runs are the toughest for aging eyes. Kept the *voice* but raised
+   line-height to **1.7** and brightened the color to **`#dde6ef`**. `.from-me`
+   mirrored into the design reference.
 
-5. **The two italic serif intro blocks are the hardest text to read.**
-   `.from-me` ("Hi Mom…") and `.ep-intro` are italic serif in a muted blue
-   (`#cdd7e3`) — italic body runs are the toughest for aging eyes. Keep the
-   *voice* (it's clearly Zach speaking), but consider raising line-height to
-   ~1.7 and/or nudging the color brighter. They're short, so impact is small,
-   but it's the first thing she reads.
+6. **"Saved ✓" now announces to assistive tech.** The confirmation was a visual
+   fade only. The `.saved` span now carries `role="status"`, and its text is set
+   on each save and cleared on fade-out, so the live region re-announces every
+   save (mirroring how the copy-all status already works).
 
-6. **"Saved ✓" isn't announced to assistive tech.** The confirmation is a
-   visual fade only. If screen-reader support matters, add `role="status"`
-   (or `aria-live="polite"`) to the `.saved` span so the confirmation is spoken.
-   The copy-all status already does this correctly — mirror it.
+### Tier 3 — guidance / polish
 
-### Consider (nice-to-have / future)
+7. **Picker label is more guiding.** "Pick an episode" → **"Pick the episode you
+   just watched"**, reinforcing the read-after-watching model for a first-time,
+   non-technical user (label text and the select's `aria-label`).
 
-7. **Picker label is a bit terse.** "Pick an episode" works, but a hair more
-   guidance ("Pick the episode you just watched") reinforces the read-after-
-   watching model for a first-time, non-technical user. Optional.
+8. **Reveal button no longer wraps.** Shortened "I've watched it — show me the
+   notes" → **"I've watched it — show the notes"**, which fits on one line at
+   375px. Mirrored into the design reference.
 
-8. **Long reveal-button label wraps to two lines** at 375px
-   ("I've watched it — show me the notes"). It's legible and tappable, so this
-   is cosmetic; if it bothers the author, shorten to "I've watched it — show the
-   notes."
+9. **Notes section no longer over-announces.** Removed `aria-live="polite"` from
+   the `#notes` container so revealing five cards doesn't read them all at once.
+   The reveal is user-initiated and the button's `aria-expanded` /
+   `aria-controls` already convey that the content expanded.
 
-9. **Notes section uses `aria-live="polite"` on the whole container.** When
-   revealed, a screen reader may announce all five cards at once. For her this
-   is almost certainly moot, but if SR polish is ever a goal, move the live
-   region off the bulk-content container.
+### Noted, no change needed
 
 10. **Google Fonts dependency.** The shipped site pulls Permanent Marker /
     Fraunces / Newsreader / Inter from Google. Fallbacks exist (`Georgia`,
@@ -132,7 +129,7 @@ All 15 headless checks still pass after these changes.
 | Text contrast on dark bg | ✅ after note-tip fix; muted blues (`#9fb2c9`) pass |
 | Text contrast on cards | ✅ after `.src` fix (was the one failure) |
 | Semantic gate wiring | ✅ `aria-expanded` / `aria-controls` / `aria-hidden` |
-| Save confirmation announced | ⚠️ visual only — see rec #6 |
+| Save confirmation announced | ✅ `role="status"` live region (fix #6) |
 | Language / viewport meta | ✅ `lang="en"`, responsive viewport |
 
 ---
@@ -156,6 +153,9 @@ after any styling change.
 
 The design is in good shape and true to its purpose — warm, personal, and
 restrained. It did not need a redesign; it needed **legibility tuning for the
-specific person reading it.** This review shipped three safe fixes (citation
-contrast, backup-tip legibility, orphan-dash cleanup) and leaves a short,
-prioritized list — led by a modest body-text bump — for the author to approve.
+specific person reading it.** All nine findings are now implemented — contrast
+and orphan-dash fixes, a body-text bump, calmer intro typography, a guiding
+picker label, a one-line reveal button, and two screen-reader corrections — with
+the visual changes mirrored into the design reference. The Google-Fonts
+dependency (#10) is a noted, acceptable trade-off for a static gift. All 15
+headless checks pass.

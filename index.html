@@ -28,7 +28,7 @@
       radial-gradient(120% 80% at 50% -10%, var(--bg-2), var(--bg) 60%);
     color:var(--paper);
     font-family:"Newsreader",Georgia,serif;
-    font-size:19px;
+    font-size:20px;
     line-height:1.6;
     padding:0 20px 80px;
   }
@@ -58,7 +58,7 @@
   .banner::after{bottom:-12px;right:-14px;transform:rotate(-24deg);}
 
   .from-me{
-    color:#cdd7e3;font-style:italic;text-align:center;
+    color:#dde6ef;font-style:italic;text-align:center;line-height:1.7;
     max-width:30em;margin:22px auto 6px;
   }
 
@@ -96,7 +96,7 @@
     margin:0 0 14px;text-align:center;color:#fff;
   }
   .ep-intro{
-    color:#cdd7e3;font-style:italic;text-align:center;
+    color:#dde6ef;font-style:italic;text-align:center;line-height:1.7;
     max-width:32em;margin:0 auto 6px;
   }
 
@@ -247,8 +247,8 @@
     <div class="banner" role="img" aria-label="A hand-lettered sign reading Believe">Believe</div>
 
     <div class="picker">
-      <label for="epPicker">Pick an episode</label>
-      <select id="epPicker" aria-label="Pick an episode"></select>
+      <label for="epPicker">Pick the episode you just watched</label>
+      <select id="epPicker" aria-label="Pick the episode you just watched"></select>
     </div>
 
     <p class="from-me" id="fromMom">Hi Mom — little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode.</p>
@@ -265,10 +265,10 @@
 
     <div class="gate" id="gate" hidden>
       <p id="gateText">Watched it? The notes below give a few things away.</p>
-      <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I’ve watched it — show me the notes</button>
+      <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I’ve watched it — show the notes</button>
     </div>
 
-    <section class="notes" id="notes" aria-hidden="true" aria-live="polite"></section>
+    <section class="notes" id="notes" aria-hidden="true"></section>
 
     <div class="toolbar" id="toolbar" hidden>
       <button class="copy-all" id="copyAllBtn">Copy all my notes</button>
@@ -410,13 +410,19 @@
 
       var saved = document.createElement("span");
       saved.className = "saved";
-      saved.textContent = "Saved ✓";
+      saved.setAttribute("role", "status");
 
       var savedTimer = null;
       function confirmSaved(){
+        // Set the text on each save so the role="status" live region re-announces
+        // it (an aria-live region only speaks when its content changes).
+        saved.textContent = "Saved ✓";
         saved.classList.add("show");
         if (savedTimer) clearTimeout(savedTimer);
-        savedTimer = setTimeout(function(){ saved.classList.remove("show"); }, 1800);
+        savedTimer = setTimeout(function(){
+          saved.classList.remove("show");
+          saved.textContent = "";
+        }, 1800);
       }
       function doSave(){
         setNote(card.id, ta.value.trim());
