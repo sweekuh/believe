@@ -1,0 +1,12 @@
+{
+  "name": "believe-tools",
+  "private": true,
+  "type": "module",
+  "description": "Dev-only headless-browser tooling for verifying the Believe app. NOT part of the shipped static site.",
+  "scripts": {
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}
