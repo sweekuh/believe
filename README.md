@@ -35,6 +35,11 @@ believe/
 - **"Copy all my notes"** gathers every note across the season as plain text
   to the clipboard. This is the only backup — `localStorage` is per-browser,
   per-device, and is erased if she clears browsing data.
+- **Display options** (a small toggle, top of the page): a **text-size**
+  control (Normal / Larger / Largest) that scales the reading text, and a
+  **high-contrast** toggle that deepens the dark theme and brightens dimmer
+  text for easier reading. Both default off/normal and are remembered per
+  browser (`believe:fontScale`, `believe:contrast`).
 
 ## Adding or editing content
 

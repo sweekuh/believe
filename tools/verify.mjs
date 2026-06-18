@@ -127,6 +127,28 @@ try {
   await new Promise(r => setTimeout(r, 300));
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
 
+  // Display options: panel toggle, text size, high contrast, and persistence
+  check("display options panel hidden by default", (await page.$eval("#settingsPanel", el => el.hidden)) === true);
+  await page.click("#settingsToggle");
+  await new Promise(r => setTimeout(r, 150));
+  check("display options toggle reveals the panel", (await page.$eval("#settingsPanel", el => el.hidden)) === false);
+
+  await page.click('.seg-btn[data-scale="1.3"]');
+  await new Promise(r => setTimeout(r, 100));
+  const scale = await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale").trim());
+  check("text size control sets --reader-scale", scale === "1.3");
+
+  await page.click("#hcToggle");
+  await new Promise(r => setTimeout(r, 100));
+  check("high contrast adds body.hc", (await page.$eval("body", el => el.classList.contains("hc"))) === true);
+  if (shots) await page.screenshot({ path: join(outDir, "05-display-options.png"), fullPage: true });
+
+  await page.reload({ waitUntil: "networkidle0" });
+  await new Promise(r => setTimeout(r, 400));
+  const scale2 = await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale").trim());
+  check("text size persists across reload", scale2 === "1.3");
+  check("high contrast persists across reload", (await page.$eval("body", el => el.classList.contains("hc"))) === true);
+
   check("no app console / network errors", errors.length === 0);
   if (errors.length) log("  errors:", errors);
 

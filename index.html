@@ -19,6 +19,7 @@
     --pitch:#3a7d44;       /* the idea: pitch green */
     --biscuit:#c76b7d;     /* a note from you */
     --tape:rgba(236,226,198,.45);
+    --reader-scale:1;     /* font-size control multiplies the reading text */
   }
   *{box-sizing:border-box;}
   html{ -webkit-text-size-adjust:100%; }
@@ -28,7 +29,7 @@
       radial-gradient(120% 80% at 50% -10%, var(--bg-2), var(--bg) 60%);
     color:var(--paper);
     font-family:"Newsreader",Georgia,serif;
-    font-size:19px;
+    font-size:calc(20px * var(--reader-scale));
     line-height:1.6;
     padding:0 20px 80px;
   }
@@ -58,7 +59,7 @@
   .banner::after{bottom:-12px;right:-14px;transform:rotate(-24deg);}
 
   .from-me{
-    color:#cdd7e3;font-style:italic;text-align:center;
+    color:#dde6ef;font-style:italic;text-align:center;line-height:1.7;
     max-width:30em;margin:22px auto 6px;
   }
 
@@ -96,7 +97,7 @@
     margin:0 0 14px;text-align:center;color:#fff;
   }
   .ep-intro{
-    color:#cdd7e3;font-style:italic;text-align:center;
+    color:#dde6ef;font-style:italic;text-align:center;line-height:1.7;
     max-width:32em;margin:0 auto 6px;
   }
 
@@ -145,7 +146,7 @@
   }
   .card h2{
     font-family:"Fraunces",serif;font-weight:600;
-    font-size:25px;line-height:1.15;margin:0 0 12px;color:var(--ink);
+    font-size:calc(25px * var(--reader-scale));line-height:1.15;margin:0 0 12px;color:var(--ink);
   }
   .card .moment{color:var(--ink-soft);margin:0 0 14px;}
   .card .idea{margin:0 0 14px;}
@@ -155,10 +156,10 @@
     font-family:"Fraunces",serif;font-style:italic;
   }
   .src{
-    font-family:"Inter",sans-serif;font-size:12.5px;
-    color:#8a7d68;margin-top:16px;line-height:1.45;
+    font-family:"Inter",sans-serif;font-size:calc(13px * var(--reader-scale));
+    color:#6b5f4c;margin-top:16px;line-height:1.45;
   }
-  .src a{color:#6e6049;}
+  .src a{color:#5a4a2e;}
 
   /* a place for her to add her own line */
   .yours{
@@ -173,7 +174,7 @@
   }
   .yours textarea{
     width:100%;min-height:70px;resize:vertical;
-    font-family:"Newsreader",Georgia,serif;font-size:16px;
+    font-family:"Newsreader",Georgia,serif;font-size:calc(16px * var(--reader-scale));
     font-style:italic;line-height:1.5;
     color:var(--ink);background:rgba(255,255,255,.5);
     border:1px solid var(--paper-edge);border-radius:5px;
@@ -221,9 +222,73 @@
 
   .note-tip{
     margin-top:30px;text-align:center;
-    font-family:"Inter",sans-serif;font-size:12.5px;
-    color:#7e8ea3;line-height:1.5;
+    font-family:"Inter",sans-serif;font-size:13.5px;
+    color:#9aaabf;line-height:1.5;
   }
+
+  /* ---- Display options (text size + high contrast) ---- */
+  .topbar{display:flex;justify-content:flex-end;padding:14px 0 0;}
+  .settings-toggle{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;
+    color:var(--paper);background:transparent;
+    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
+    padding:9px 16px;min-height:44px;cursor:pointer;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .settings-toggle:hover{border-color:rgba(243,232,208,.8);background:rgba(243,232,208,.06);}
+  .settings-toggle:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+  .settings-panel{
+    margin:10px 0 4px;padding:14px 16px;
+    background:rgba(255,255,255,.05);
+    border:1.5px solid rgba(243,232,208,.22);border-radius:14px;
+  }
+  .setting{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:14px;padding:8px 0;flex-wrap:wrap;
+  }
+  .setting + .setting{border-top:1px solid rgba(243,232,208,.14);}
+  .setting-label{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;color:var(--paper);
+  }
+  .seg{display:inline-flex;gap:6px;}
+  .seg-btn{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;
+    color:var(--paper);background:transparent;
+    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
+    padding:8px 14px;min-height:44px;cursor:pointer;
+  }
+  .seg-btn[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--paper);}
+  .seg-btn:focus-visible,.switch:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+  .switch{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;
+    color:var(--paper);background:transparent;
+    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
+    padding:8px 18px;min-height:44px;min-width:74px;cursor:pointer;
+  }
+  .switch[aria-checked="true"]{background:var(--pitch);color:#fff;border-color:var(--pitch);}
+
+  /* ---- High-contrast dark variant (opt-in) ---- */
+  body.hc{
+    --bg:#0d1117;          /* deeper dusk -> more pop for light text */
+    --bg-2:#161f2b;
+    --ink:#181109;         /* darker marker ink on the cream cards */
+    --ink-soft:#3b3328;
+    --pitch:#2f6b39;       /* deeper green: stronger contrast for tag/why */
+  }
+  body.hc .picker label,
+  body.hc .eyebrow,
+  body.hc .gate p,
+  body.hc .footer,
+  body.hc .copy-status,
+  body.hc .setting-label{color:#dae4f1;}
+  body.hc .note-tip{color:#c7d4e4;}
+  body.hc .src{color:#4d4434;}
+  body.hc .src a{color:#3c3017;}
+  body.hc .card{box-shadow:0 12px 30px rgba(0,0,0,.6);border:1px solid rgba(24,17,9,.18);}
+  body.hc .settings-toggle,
+  body.hc .seg-btn,
+  body.hc .switch,
+  body.hc button.copy-all{border-color:rgba(243,232,208,.78);}
 
   /* ---- Load error ---- */
   .loaderr{
@@ -243,12 +308,30 @@
 <body>
 <div class="wrap">
 
+  <div class="topbar">
+    <button class="settings-toggle" id="settingsToggle" aria-expanded="false" aria-controls="settingsPanel">⚙ Display options</button>
+  </div>
+  <div class="settings-panel" id="settingsPanel" hidden>
+    <div class="setting">
+      <span class="setting-label" id="fsLabel">Text size</span>
+      <div class="seg" role="group" aria-labelledby="fsLabel">
+        <button type="button" class="seg-btn" data-scale="1" aria-pressed="true">Normal</button>
+        <button type="button" class="seg-btn" data-scale="1.15" aria-pressed="false">Larger</button>
+        <button type="button" class="seg-btn" data-scale="1.3" aria-pressed="false">Largest</button>
+      </div>
+    </div>
+    <div class="setting">
+      <span class="setting-label" id="hcLabel">High contrast</span>
+      <button type="button" class="switch" id="hcToggle" role="switch" aria-checked="false" aria-labelledby="hcLabel">Off</button>
+    </div>
+  </div>
+
   <header>
     <div class="banner" role="img" aria-label="A hand-lettered sign reading Believe">Believe</div>
 
     <div class="picker">
-      <label for="epPicker">Pick an episode</label>
-      <select id="epPicker" aria-label="Pick an episode"></select>
+      <label for="epPicker">Pick the episode you just watched</label>
+      <select id="epPicker" aria-label="Pick the episode you just watched"></select>
     </div>
 
     <p class="from-me" id="fromMom">Hi Mom — little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode.</p>
@@ -265,10 +348,10 @@
 
     <div class="gate" id="gate" hidden>
       <p id="gateText">Watched it? The notes below give a few things away.</p>
-      <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I’ve watched it — show me the notes</button>
+      <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I’ve watched it — show the notes</button>
     </div>
 
-    <section class="notes" id="notes" aria-hidden="true" aria-live="polite"></section>
+    <section class="notes" id="notes" aria-hidden="true"></section>
 
     <div class="toolbar" id="toolbar" hidden>
       <button class="copy-all" id="copyAllBtn">Copy all my notes</button>
@@ -288,6 +371,9 @@
 
     var NOTE_PREFIX = "believe:note:";
     var LAST_EP_KEY = "believe:lastEpisode";
+    var FONT_KEY = "believe:fontScale";
+    var CONTRAST_KEY = "believe:contrast";
+    var ALLOWED_SCALES = ["1", "1.15", "1.3"];
 
     // Display contract for the grounding-reviewer's scores: withhold weakly-grounded
     // cards from the reader, and show the rest most-interesting-first. Cards with no
@@ -309,7 +395,11 @@
       toolbar: document.getElementById("toolbar"),
       copyAllBtn: document.getElementById("copyAllBtn"),
       copyStatus: document.getElementById("copyStatus"),
-      footer: document.getElementById("footer")
+      footer: document.getElementById("footer"),
+      settingsToggle: document.getElementById("settingsToggle"),
+      settingsPanel: document.getElementById("settingsPanel"),
+      segBtns: document.querySelectorAll(".seg-btn"),
+      hcToggle: document.getElementById("hcToggle")
     };
 
     var DATA = null;
@@ -360,13 +450,17 @@
       var article = document.createElement("article");
       article.className = "card";
 
+      // A lone dash ("—"/"-") is an author placeholder for "no source"; treat it as empty
+      // so it never renders as an orphan dash under the card.
+      var hasSource = !!(card.source && card.source.replace(/[—–-]/g, "").trim() !== "");
+
       var html = "";
       if (card.tag) html += '<span class="tag">' + escapeHtml(card.tag) + '</span>';
       if (card.title) html += '<h2></h2>';
       if (card.moment) html += '<p class="moment"></p>';
       if (card.idea) html += '<p class="idea"></p>';
       if (card.why) html += '<p class="why"></p>';
-      if (card.source && card.source !== "") html += '<p class="src"></p>';
+      if (hasSource) html += '<p class="src"></p>';
       article.innerHTML = html;
 
       // Rich text fields are author-written (trusted); inject as HTML to keep <em>/<strong>.
@@ -374,7 +468,7 @@
       if (card.moment) article.querySelector(".moment").innerHTML = card.moment;
       if (card.idea) article.querySelector(".idea").innerHTML = card.idea;
       if (card.why) article.querySelector(".why").innerHTML = card.why;
-      if (card.source && card.source !== "") article.querySelector(".src").innerHTML = card.source;
+      if (hasSource) article.querySelector(".src").innerHTML = card.source;
 
       if (!isPlaceholder(card)) article.appendChild(buildNoteBox(card));
       return article;
@@ -406,13 +500,19 @@
 
       var saved = document.createElement("span");
       saved.className = "saved";
-      saved.textContent = "Saved ✓";
+      saved.setAttribute("role", "status");
 
       var savedTimer = null;
       function confirmSaved(){
+        // Set the text on each save so the role="status" live region re-announces
+        // it (an aria-live region only speaks when its content changes).
+        saved.textContent = "Saved ✓";
         saved.classList.add("show");
         if (savedTimer) clearTimeout(savedTimer);
-        savedTimer = setTimeout(function(){ saved.classList.remove("show"); }, 1800);
+        savedTimer = setTimeout(function(){
+          saved.classList.remove("show");
+          saved.textContent = "";
+        }, 1800);
       }
       function doSave(){
         setNote(card.id, ta.value.trim());
@@ -577,6 +677,48 @@
       }
     });
 
+    // ---- Display options: text size + high contrast (persisted) ----
+    function applyScale(scale){
+      if (ALLOWED_SCALES.indexOf(scale) === -1) scale = "1";
+      document.documentElement.style.setProperty("--reader-scale", scale);
+      for (var i = 0; i < els.segBtns.length; i++){
+        els.segBtns[i].setAttribute("aria-pressed",
+          els.segBtns[i].getAttribute("data-scale") === scale ? "true" : "false");
+      }
+    }
+    function applyContrast(on){
+      document.body.classList.toggle("hc", on);
+      els.hcToggle.setAttribute("aria-checked", on ? "true" : "false");
+      els.hcToggle.textContent = on ? "On" : "Off";
+    }
+    function setupDisplayOptions(){
+      var savedScale = "1", savedContrast = false;
+      try {
+        savedScale = localStorage.getItem(FONT_KEY) || "1";
+        savedContrast = localStorage.getItem(CONTRAST_KEY) === "1";
+      } catch(e){}
+      applyScale(savedScale);
+      applyContrast(savedContrast);
+
+      els.settingsToggle.addEventListener("click", function(){
+        var open = els.settingsPanel.hidden;
+        els.settingsPanel.hidden = !open;
+        els.settingsToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      for (var i = 0; i < els.segBtns.length; i++){
+        els.segBtns[i].addEventListener("click", function(){
+          var scale = this.getAttribute("data-scale");
+          applyScale(scale);
+          try { localStorage.setItem(FONT_KEY, scale); } catch(e){}
+        });
+      }
+      els.hcToggle.addEventListener("click", function(){
+        var on = els.hcToggle.getAttribute("aria-checked") !== "true";
+        applyContrast(on);
+        try { localStorage.setItem(CONTRAST_KEY, on ? "1" : "0"); } catch(e){}
+      });
+    }
+
     // ---- Boot ----
     function start(){
       if (DATA.fromMom) els.fromMom.textContent = DATA.fromMom;
@@ -591,6 +733,10 @@
       } catch(e){}
       selectEpisode(startNum);
     }
+
+    // Display options don't depend on the episode data, so wire them up first —
+    // they keep working even if the fetch below fails.
+    setupDisplayOptions();
 
     fetch("./episodes.json", { cache: "no-cache" })
       .then(function(res){
