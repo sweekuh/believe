@@ -1,0 +1,395 @@
+{
+  "episode": { "season": 1, "number": 5, "title": "Tan Lines" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "WebFetch returned a global HTTP 403 this session (Wikipedia and TV Tropes both blocked), as warned by the hunter. All verdicts rest on my own independent WebSearch queries with corroboration across multiple independent result summaries (IMDb, Tunefind, lassoism, TV Tropes recap, showsnob, ladygeeksmedia, Brett Goldstein/Wikipedia, fictionhorizon, ted-lasso fandom). RESOLVED FLAGS: (1) Scoreline 3-2 vs. Watford with Sam scoring the late winner off a Roy pass is corroborated across multiple recaps/Grokipedia/TV Tropes — confirmed. (2) Sam fake-limp gag is corroborated beyond Fandom (TV Tropes recap, lassoism, showsnob) — confirmed. (3) Needle-drops (Dusty Springfield 'Wishin' and Hopin'', Sam Cooke 'Bring It on Home to Me', Mumford & Sons 'Forever') with scene placements confirmed across IMDb/Tunefind/lassoism. (4) WRITING CREDIT remains genuinely CONTESTED: many sources (incl. those quoting Wikipedia) list 'Brett Goldstein and Phoebe Walsh'; others list Goldstein solo. The Brett Goldstein/@phoebewalsh tweet is dated 2021 and refers to a Season 2 episode, NOT S1E5, so it is not evidence for this byline. The verifiable, uncontested core (Goldstein was hired into the writers' room first and later cast as Roy; this was an early writing credit for him; Hegarty's first episode) is confirmed; the exact byline count is held as contested and the card avoids asserting a solo credit.",
+  "facts": [
+    {
+      "id": "s1e5-embrace-change-theme",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent recaps (TV Tropes recap, showsnob, No Film School analysis, soccerchaplainsunited) confirm Ted's half-time speech that the team is broken and change—though scary—must be embraced, delivered the same day his marriage unravels. The dual-track reading (team and marriage) is widely shared.",
+      "verified_sources": [
+        "https://nofilmschool.com/ted-lasso-halftime-speech",
+        "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+        "https://soccerchaplainsunited.org/lessons-from-lasso-we-are-broken-we-need-to-change-change-is-scary/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 76,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-embrace-change-theme",
+        "tag": "Change is scary, and good",
+        "title": "The half-time turn",
+        "moment": "Down at the break, Ted tells the room the setup is broken and that change—though frightening—has to be embraced, then tears up his lineup. The same lesson is playing out in his marriage that day.",
+        "idea": "Real change feels like loss before it feels like growth. Naming a thing as broken is not despair; it is the first honest step toward something better.",
+        "why": "Watch how the speech works on two tracks at once: the team he is rebuilding and the marriage he is being asked to let go of. The episode rhymes them deliberately.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by recap and analysis pieces (No Film School, ShowSnob).",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Half-time 'embrace change' speech and its marriage parallel confirmed across multiple independent recaps and analyses.",
+        "sourcesChecked": [
+          "https://nofilmschool.com/ted-lasso-halftime-speech",
+          "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-team-over-ego",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across TV Tropes recap, showsnob, and Grokipedia/Wikipedia summaries: Ted benches Jamie at half-time despite Jamie having scored both goals, and the remaining players combine for Richmond's first win. The 'whole over the optimizing part' reading is the plain sense of the scene.",
+      "verified_sources": [
+        "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+        "https://grokipedia.com/page/Tan_Lines_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 76,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-team-over-ego",
+        "tag": "The team over the star",
+        "title": "Benching the goal-scorer",
+        "moment": "Jamie scored both of Richmond's goals, yet Ted sits him for the second half because he hoards the ball and treats teammates as props. Without him, the others pass, combine, and win.",
+        "idea": "A flourishing whole can outperform a collection of individually optimizing parts. Subordinating ego to the team is itself a kind of excellence, not a sacrifice of it.",
+        "why": "The first time the show ties its belief-and-effort ethos to a concrete result. The win arrives precisely because the selfish star is removed.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (ShowSnob, TV Tropes).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Jamie benched after scoring both goals; team combines for the win. Confirmed across multiple independent recaps.",
+        "sourcesChecked": [
+          "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-oklahoma-honesty",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via multiple sources (lassoism quote DB, fictionhorizon, ted-lasso fandom) that Ted explains the therapist's 'Oklahoma' honesty code word in S1E5, used here with Michelle; fictionhorizon and the Oklahoma fandom page confirm it recurs later when Rebecca uses it on Ted. Series-scope payoff is real but lowers spoiler_safety.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+        "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/",
+        "https://ted-lasso.fandom.com/wiki/Oklahoma"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 87,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e5-oklahoma-honesty",
+        "tag": "A word that demands the truth",
+        "title": "'Oklahoma'",
+        "moment": "Ted explains the code word their marriage therapist gave them: when one says 'Oklahoma,' the other must answer with complete honesty. Here it forces Michelle to admit she is not happy.",
+        "idea": "A pre-agreed permission to drop the performance. The word does not create honesty; it removes the excuse for hiding from it.",
+        "why": "Its first appearance plants a motif the series pays off later, when the word returns between Ted and Rebecca. Watch for who is brave enough to say it.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; later reuse traced by FictionHorizon and the Ted Lasso wiki.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Origin of the 'Oklahoma' honesty word in S1E5 and its later recurrence confirmed across multiple independent sources.",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+          "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-tan-lines-metaphor",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The plot facts the reading rests on (marriage and team both exposed to truth) are confirmed, but the specific 'tan line = mark left by exposure' interpretation traces mainly to a single review (ladygeeksmedia). It is a plausible critical reading, not an established fact, so I cap it as partially-confirmed.",
+      "verified_sources": [
+        "https://ladygeeksmedia.com/2021/07/17/ted-lasso-1x05-tan-lines-review/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 69,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-tan-lines-metaphor",
+        "tag": "What the title names",
+        "title": "Reading 'Tan Lines'",
+        "moment": "Across the episode, what was hidden gets brought into the light: an unhappy marriage, a broken team dynamic, feelings nobody was saying out loud.",
+        "idea": "A tan line is a mark left by exposure. The title reads as a metaphor for being exposed to a truth that, once seen, does not wash off.",
+        "why": "An interpretive lens, not a stated fact, but a useful one: it frames the whole hour as things surfacing rather than events merely happening.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; reading drawn from a LadyGeeks Media review.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Plot facts confirmed; the title-as-exposure-metaphor reading is one critic's interpretation, so held as partial.",
+        "sourcesChecked": [
+          "https://ladygeeksmedia.com/2021/07/17/ted-lasso-1x05-tan-lines-review/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-roy-respects-ted",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across TV Tropes recap and showsnob: after the benching, Roy backs Ted (telling the room to listen to him), his first real sign of respect after pilot-era contempt. The 'thaw earned through a values demonstration' framing matches the scene.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+        "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 69,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-roy-respects-ted",
+        "tag": "The first crack in Roy",
+        "title": "Roy comes around",
+        "moment": "After Ted makes the costly, unpopular call to bench the star, Roy—contemptuous of Ted since day one—backs him, telling the room to listen. It is his first sign of respect.",
+        "idea": "Respect is earned by a demonstrated value, not won by a speech. Roy thaws because Ted does a hard, principled thing, not because Ted asks him to.",
+        "why": "The seed of the Roy–Ted alliance that the season grows. Notice it turns on conduct, not charm.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (TV Tropes, ShowSnob).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy backing Ted after the benching, as his first sign of respect, confirmed across independent recaps.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+          "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-roy-jamie-fight-sam",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across TV Tropes recap, lassoism, and Grokipedia: Jamie ignores a downed Sam (even when Roy orders him to check on him), Roy and Jamie come to blows on the pitch. The loyalty/care-for-a-teammate reading is the plain sense.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+        "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+        "https://grokipedia.com/page/Tan_Lines_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-roy-jamie-fight-sam",
+        "tag": "What you owe the person beside you",
+        "title": "Roy throws down for Sam",
+        "moment": "When Sam goes down, Jamie won't even check on him—he wants to play on. Roy, incensed, comes to blows with his own teammate on the pitch.",
+        "idea": "Loyalty and basic care for a vulnerable teammate are a virtue, even when delivered by the gruffest man on the field. The fight frames the episode's question: what do you owe the people beside you?",
+        "why": "Jamie's indifference and Roy's fury are two answers to the same question. Roy's anger is, underneath, about decency.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (TV Tropes, lassoism).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Jamie ignoring injured Sam and the Roy/Jamie on-pitch fight confirmed across independent recaps.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+          "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-sam-give-the-people",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Originally Fandom-flagged, but corroborated beyond it: TV Tropes recap, lassoism, and showsnob all describe Roy discovering Sam is unhurt (he stayed down because of the fuss) and coaching him to fake a limp before 'recovering' for the crowd.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+        "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+        "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-sam-give-the-people",
+        "tag": "Give the crowd a comeback",
+        "title": "Sam's not-quite-injury",
+        "moment": "Roy checks on the floored Sam and finds he is fine—he stayed down only because everyone was fussing. Roy tells him to sell a limp, then bravely 'recover' and play on, because the crowd will love it.",
+        "idea": "A small, funny aside on showmanship in sport: the spectacle the fans want, manufactured on the spot. Also an early Roy-as-mentor beat with Sam.",
+        "why": "Easy to miss as a throwaway gag, but it's the first warm thread between Roy and Sam—care disguised as cynicism.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (TV Tropes, lassoism, ShowSnob).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Sam being unhurt and Roy coaching him to fake a limp for the crowd confirmed beyond Fandom across multiple recaps.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+          "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-keeley-pr-job",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across showsnob and TV Tropes recap: impressed by Keeley's promo/photoshoot work, Rebecca sincerely offers her a club PR/branding role (notably not as another sabotage of Ted) and Keeley accepts. Career-arc framing is a season/series throughline, lowering spoiler_safety.",
+      "verified_sources": [
+        "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-keeley-pr-job",
+        "tag": "A genuine offer, for once",
+        "title": "Keeley gets a real job",
+        "moment": "After Keeley runs a slick sponsor photoshoot, Rebecca offers her a full-time branding and PR role with the club—and means it kindly, to help Keeley grow, rather than as another quiet jab at Ted.",
+        "idea": "The launch point of Keeley's turn from model to marketing force, and a small sign of Rebecca's own thaw: a decision made to help someone rather than to harm.",
+        "why": "Watch Rebecca here. The offer is the first time her scheming gives way to genuine generosity—an early crack in her own arc.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (ShowSnob, TV Tropes).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rebecca sincerely offering Keeley a PR/branding job, which Keeley accepts, confirmed across independent recaps.",
+        "sourcesChecked": [
+          "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-brett-goldstein-wrote-it",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The verifiable core is confirmed: Goldstein was hired into the Ted Lasso writers' room first and was later cast as Roy after a Roy-scene audition (Wikipedia/Brett Goldstein), and this was an early writing credit for him; Hegarty directed his first episode. The EXACT byline is genuinely CONTESTED—many sources (incl. ones quoting Wikipedia) list 'Brett Goldstein and Phoebe Walsh,' others list Goldstein solo, and the Goldstein/@phoebewalsh tweet refers to a 2021 Season 2 episode, not S1E5. I therefore avoid asserting a solo credit and downgrade grounding for the byline ambiguity.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Brett_Goldstein",
+        "https://www.awardsdaily.com/2021/05/10/brett-goldstein-ted-lasso-season-1/",
+        "https://ted-lasso.fandom.com/wiki/Tan_Lines"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-brett-goldstein-wrote-it",
+        "tag": "The actor behind Roy helped write it",
+        "title": "Roy Kent in the writers' room",
+        "moment": "Behind the camera: one of the show's heaviest early hours—the one where Ted's marriage unravels—carries a writing credit for Brett Goldstein, the man who plays Roy Kent.",
+        "idea": "Goldstein was hired as a Ted Lasso writer first and only later cast as Roy, after he sent in a self-taped audition of Roy scenes. His writing is part of how he got the part.",
+        "why": "A nice irony to sit with: the gruffest, least sentimental character on screen was co-authored by the actor playing him. (Sources differ on whether the episode's byline is Goldstein alone or shared, so we credit him as a writer without pinning the exact billing.)",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; Brett Goldstein's writer-to-Roy path per Wikipedia and an Awards Daily interview. Exact episode byline is disputed across sources.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Goldstein hired as writer first, later cast as Roy—confirmed. Exact 'Tan Lines' byline (solo vs. Goldstein + Phoebe Walsh) is contested, so the card avoids asserting a solo credit.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Brett_Goldstein",
+          "https://www.awardsdaily.com/2021/05/10/brett-goldstein-ted-lasso-season-1/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-first-win-watford",
+      "type": "trivia",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across TV Tropes recap, Grokipedia, and the AFC Richmond/Watford fandom + results-tracker summaries: Richmond beats Watford F.C. 3-2 for its first win of the season, with Roy assisting Sam for the late winner after Jamie is benched. Both the opponent and the 3-2 scoreline (Sam scoring the decider) checked out across independent results.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+        "https://grokipedia.com/page/Tan_Lines_(Ted_Lasso)",
+        "https://antagonistblog.com/ted-lasso-win-loss-record-afc-richmond/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-first-win-watford",
+        "tag": "The first win",
+        "title": "Richmond 3, Watford 2",
+        "moment": "Against Watford, Richmond finally wins—3-2, its first victory of the season—when Roy makes the extra pass to Sam, who scores the late winner after Jamie has been benched.",
+        "idea": "The breakthrough comes specifically after the selfish star is removed, tying the show's belief-and-effort ethos to a concrete result for the first time.",
+        "why": "A milestone worth marking: the long losing streak ends here, and it ends on a team goal, not a solo one.",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; scoreline and opponent corroborated by recaps and a results tracker (TV Tropes, The Antagonist).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "First win vs. Watford, 3-2, Sam scoring the late winner off Roy's pass, confirmed across multiple independent recaps/trackers.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+          "https://antagonistblog.com/ted-lasso-win-loss-record-afc-richmond/"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-michelle-henry-cast",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Confirmed: Andrea Anders plays Michelle and Gus Turner plays Henry, both appearing in this episode (corroborated by Grokipedia and TV Tropes cast notes). NOT independently confirmed in my searches: that 'Tan Lines' is Henry's/the family's FIRST on-screen appearance, that this was Gus Turner's first TV role, or the recast-for-a-revival detail—so I hold those secondary claims and the card sticks to the confirmed cast facts.",
+      "verified_sources": [
+        "https://grokipedia.com/page/Tan_Lines_(Ted_Lasso)",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 53,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s1e5-music-needle-drops",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across IMDb soundtrack, Tunefind, and lassoism with per-scene placements: Dusty Springfield's 'Wishin' and Hopin'' opens, Sam Cooke's 'Bring It on Home to Me' plays during the Ted/Henry toy-bus scene, and Mumford & Sons' 'Forever' plays as Ted says goodbye to Henry. Marcus Mumford co-scored the series (widely documented).",
+      "verified_sources": [
+        "https://www.imdb.com/title/tt11044160/soundtrack/",
+        "https://www.tunefind.com/show/ted-lasso/season-1/100489",
+        "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php"
+      ],
+      "scores": { "grounding": 5, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e5-music-needle-drops",
+        "tag": "Songs of longing and home",
+        "title": "The needle-drops",
+        "moment": "Pop standards color the emotional beats: Dusty Springfield's 'Wishin' and Hopin'' over the open, Sam Cooke's 'Bring It on Home to Me' as Ted and Henry build a toy double-decker bus, and Mumford & Sons' 'Forever' as Ted says goodbye to his son.",
+        "idea": "The song choices lean into longing and home—the ache under a family visit that is also a goodbye. Marcus Mumford co-scored the series, so the Mumford cue sits close to the show's musical DNA.",
+        "why": "Listen for how the music does the grieving the dialogue holds back. The goodbye scene leans almost entirely on 'Forever.'",
+        "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; per-scene placements per IMDb, Tunefind, and lassoism soundtrack listings.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "All three needle-drops and their scene placements confirmed across IMDb, Tunefind, and lassoism.",
+        "sourcesChecked": [
+          "https://www.imdb.com/title/tt11044160/soundtrack/",
+          "https://www.tunefind.com/show/ted-lasso/season-1/100489"
+        ]
+      }
+    },
+    {
+      "id": "s1e5-oklahoma-musical-reference",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via lassoism quote DB and fictionhorizon: Ted's aside that adopting 'Oklahoma' as the honesty word 'did ruin the musical' for him—a reference to the Rodgers and Hammerstein musical 'Oklahoma!'. The quote/scene is documented in S1E5.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-quote.php?id=83",
+        "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 59,
+      "tier": "bronze",
+      "include": false
+    }
+  ]
+}
