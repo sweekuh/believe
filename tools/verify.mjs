@@ -106,6 +106,16 @@ try {
   });
   check("copy-all includes the saved note", /This one got me, Teddy\./.test(clip));
 
+  // Episode 8: scored cards exercise the display contract (filter + sort by interest)
+  await page.select("#epPicker", "8");
+  await new Promise(r => setTimeout(r, 300));
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
+  check("E8 shows 2 verified cards", e8titles.length === 2);
+  check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
+  if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
+
   await page.select("#epPicker", "2");
   await new Promise(r => setTimeout(r, 400));
   check("E2 title is Biscuits", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Biscuits");

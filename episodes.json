@@ -80,13 +80,23 @@
       "footer": "",
       "cards": [
         {
-          "id": "s1e3-placeholder",
-          "tag": "Coming soon",
-          "title": "Notes coming soon",
-          "moment": "",
-          "idea": "",
-          "why": "Zach is still writing these.",
-          "source": ""
+          "id": "s1e3-trent-crimm",
+          "tag": "Honest witness",
+          "title": "The reporter who came to expose him",
+          "moment": "Trent Crimm — the sharpest, most skeptical reporter on the beat — spends a full day shadowing Ted for a profile, expecting to confirm he’s a fraud, and finds himself quietly disarmed by how genuine Ted actually is.",
+          "idea": "The essay behind this asks what good journalism really owes us: not manufactured cynicism, and not flattery either, but the discipline of looking honestly and reporting what’s true even when it wrecks the story you walked in with. Trent’s piece lands well precisely because he let what he saw change his mind.",
+          "why": "Keep an eye on Trent across the series — this day is the seed of one of the show’s quietest arcs about integrity.",
+          "source": "Journalistic ethics; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 17.",
+          "category": "Ethics & character",
+          "interest": 3,
+          "grounding": 5,
+          "groundingStatus": "verified",
+          "groundingNotes": "S1E3 is titled “Trent Crimm: The Independent”; Rebecca pairs the cynical journalist with Ted for a day expecting an exposé, and Ted disarms him over dinner, yielding an honest profile. Journalistic ethics maps to ch. 17 (“What To Do with Tough Cookies”, the Baggetts).",
+          "sourcesChecked": [
+            "https://en.wikipedia.org/wiki/Ted_Lasso_season_1",
+            "https://www.wiley.com/en-us/Ted+Lasso+and+Philosophy:+No+Question+Is+Into+Touch-p-9781119891956",
+            "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119891963"
+          ]
         }
       ]
     },
@@ -165,13 +175,42 @@
       "footer": "",
       "cards": [
         {
-          "id": "s1e8-placeholder",
-          "tag": "Coming soon",
-          "title": "Notes coming soon",
-          "moment": "",
-          "idea": "",
-          "why": "Zach is still writing these.",
-          "source": ""
+          "id": "s1e8-darts-curiosity",
+          "tag": "Curiosity over judgment",
+          "title": "The darts scene",
+          "moment": "Goaded into a darts match by Rupert in front of everyone, Ted reveals he’s quietly very good — and explains that people wrote him off his whole life by judging instead of asking, landing the throws that matter as he says it.",
+          "idea": "The maxim Ted draws — <em>“be curious, not judgmental”</em> — he credits to Walt Whitman. Worth knowing: that exact sentence has never been found anywhere in Whitman’s writings and is widely treated as a misattribution. The sentiment is Whitman-ish; the line apparently isn’t his. The real point stands on its own — curiosity treats a person as someone you don’t fully know yet; judgment assumes you already do.",
+          "why": "A lovely irony: the show’s most-quoted piece of wisdom is itself something we pass around slightly wrong — which is basically the lesson. (And it’s the payoff the Pilot note pointed you toward.)",
+          "source": "Attributed to Walt Whitman in the show; no source located in his works (widely noted misattribution). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), Part III.",
+          "category": "Ethics & character",
+          "interest": 5,
+          "grounding": 5,
+          "groundingStatus": "attributed",
+          "groundingNotes": "Confirmed in S1E8 “The Diamond Dogs”: Ted is drawn into a darts bet with Rupert, plays as a rookie then reveals lifelong left-handed skill, and delivers the “be curious, not judgmental” monologue crediting Whitman. Snopes and others confirm this is a genuine misattribution — the line is not found in Whitman.",
+          "sourcesChecked": [
+            "https://www.snopes.com/fact-check/be-curious-not-judgmental-walt-whitman/",
+            "https://ace.nd.edu/blog/be-curious-not-judgmental-not-walt-whitman",
+            "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+          ]
+        },
+        {
+          "id": "s1e8-diamond-dogs",
+          "tag": "Friendship",
+          "title": "The Diamond Dogs assemble",
+          "moment": "The men around Ted start informally huddling to talk each other through their personal messes — no fixing, just showing up — a ritual they christen the “Diamond Dogs.”",
+          "idea": "Aristotle sorted friendship into three kinds: friendships of pleasure, of usefulness, and the highest — friendships of virtue, where you want what’s genuinely good for the other person for their own sake. The Diamond Dogs are that third kind in miniature: people helping each other become better, with no angle.",
+          "why": "Notice who’s let in and who holds back — the show uses this circle to track who’s willing to be known.",
+          "source": "Aristotle’s three friendships; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 7.",
+          "category": "Relationships",
+          "interest": 4,
+          "grounding": 5,
+          "groundingStatus": "verified",
+          "groundingNotes": "The informal Diamond Dogs support group is introduced and named in S1E8. Aristotle’s three friendship types (pleasure, utility, virtue) are the explicit subject of ch. 7 (“Ted Lasso’s Personal Dilemma Squad”, Loftin) and extended in ch. 8.",
+          "sourcesChecked": [
+            "https://ted-lasso.fandom.com/wiki/The_Diamond_Dogs",
+            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch7",
+            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch8"
+          ]
         }
       ]
     },
@@ -182,13 +221,22 @@
       "footer": "",
       "cards": [
         {
-          "id": "s1e9-placeholder",
-          "tag": "Coming soon",
-          "title": "Notes coming soon",
-          "moment": "",
-          "idea": "",
-          "why": "Zach is still writing these.",
-          "source": ""
+          "id": "s1e9-ted-vs-beard",
+          "tag": "Winning vs. growth",
+          "title": "Beard pushes back",
+          "moment": "After a painful stretch, Coach Beard breaks his usual loyalty and challenges Ted to his face — telling him that “success isn’t about wins and losses” only goes so far, and that sometimes you genuinely do need to try to win.",
+          "idea": "The show stages a real tension here, and refuses to settle it: is the point to grow into your best self, or to actually win? Ted preaches growth; Beard argues that waving off winning can become its own way of hiding. The essay on this scene leaves it honestly open — both men are partly right.",
+          "why": "This is the season testing whether Ted’s philosophy survives contact with reality — the setup for the finale.",
+          "source": "The ethics of winning vs. growth; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 12 (“Who Is Right, Ted or Beard?”).",
+          "category": "Ethics & character",
+          "interest": 4,
+          "grounding": 5,
+          "groundingStatus": "verified",
+          "groundingNotes": "In S1E9 “All Apologies”, Coach Beard snaps at Ted over benching Roy, arguing Ted’s “winning isn’t how we measure success” stance has limits for a relegation-threatened side and that they must try to win. Ch. 12 is titled “Who Is Right, Ted or Beard?” (Michael W. Austin).",
+          "sourcesChecked": [
+            "https://en.wikipedia.org/wiki/All_Apologies_(Ted_Lasso)",
+            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch12"
+          ]
         }
       ]
     },

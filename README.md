@@ -64,6 +64,44 @@ Rules:
 - Episodes 2–10 currently hold a single "coming soon" placeholder card.
   Replace the placeholder with real cards as they're written.
 
+## Grounding scores & the display contract
+
+Cards may carry verification/curation metadata, added by the **grounding
+reviewer** (see below). The app reads these at render time:
+
+| Field | Meaning |
+|-------|---------|
+| `grounding` (1–5) | How well the card's claims hold up to independent web checks. **Cards with `grounding` < 3 are withheld from the reader.** |
+| `interest` (1–5) | Editorial "oh, I never caught that" value. **Displayed cards are sorted by `interest`, highest first.** |
+| `category` | One of `Belief & hope`, `Ethics & character`, `Relationships`, `Redemption`, `Meta & trivia`, `Aesthetics`. |
+| `groundingStatus` | `verified` \| `attributed` \| `partial` \| `unverified` \| `disputed`. |
+| `groundingNotes` | What the reviewer found. |
+| `sourcesChecked` | URLs used to verify. |
+
+These fields are **optional and backward-compatible**: a card without them is
+shown and sorts neutrally (so the original E1 cards and the placeholders are
+unaffected). The thresholds live at the top of the script in `index.html`
+(`GROUNDING_MIN`, `DEFAULT_INTEREST`). None of this metadata is shown to the
+reader — it only decides *which* cards appear and *in what order*.
+
+### The fact pipeline (Claude Code skills)
+
+Two skills in `.claude/skills/` turn an episode into shippable cards, with an
+independent verification step in the middle (contract: `docs/facts-schema.md`):
+
+- **`episode-fact-hunter`** — breadth/discovery → `research/<ep>.candidates.json`.
+- **`grounding-reviewer`** — independently re-verifies every claim from primary
+  sources (via `WebSearch`/`WebFetch`), scores and ranks, gates inclusion, and
+  drafts ready-to-paste cards → `research/<ep>.reviewed.json`. It withholds
+  rather than inflates anything it can't corroborate.
+
+Invoke from Claude Code:
+
+> /episode-fact-hunter s1e2
+> /grounding-reviewer s1e2
+
+Then a human promotes the `include: true` cards into `episodes.json`.
+
 ## Running locally
 
 Opening `index.html` by double-click uses `file://`, and the browser blocks
