@@ -1,0 +1,200 @@
+{
+  "episode": { "season": 1, "number": 2, "title": "Biscuits" },
+  "generated_by": "episode-fact-hunter",
+  "hunter_notes": "WebFetch was globally returning HTTP 403 in this session (even example.com), so pages could not be opened directly. Every candidate below was corroborated via WebSearch result summaries that draw on the named pages, cross-checked against multiple independent sources where possible. hunter_confidence is capped accordingly and attribution/precision-dependent items are flagged for the reviewer to open the primary pages and verify. Director/writer/airdate confirmed across IMDb + Wikipedia summaries. Note: 'A Wrinkle in Time' was investigated and DROPPED because sources place it in S1E3 (Roy's gift), not this episode.",
+  "candidates": [
+    {
+      "id": "s1e2-be-a-goldfish",
+      "type": "philosophy",
+      "title": "Be a goldfish",
+      "detail": "Ted's most-quoted coaching idea is introduced here: after Sam is beaten in a drill and apologizes, Ted tells him the happiest animal is a goldfish, supposedly because of its very short memory, and urges him to let the bad moment go. The advice is a plain-language version of letting go of rumination and resetting attention to the next moment (often read alongside Stoic 'control what you can' framing, and as an everyday mindfulness/present-focus idea). Worth flagging that the 'goldfish has a ten-second memory' premise is itself a popular myth, which the show states as fact for the lesson's sake.",
+      "moment": "During training, a discouraged Sam apologizes after getting beaten; Ted crouches with him and offers the goldfish line, telling him to forget the play and move on.",
+      "sources": [
+        { "url": "https://www.thedigitalfix.com/ted-lasso/what-does-be-a-goldfish-mean", "note": "Explains the scene, the episode placement, and the 'forget and move on' meaning" },
+        { "url": "https://www.thickaccent.com/2023/03/13/the-many-ways-ted-lasso-be-a-goldfish-quote-has-inspired-real-people/", "note": "Corroborates scene and the let-it-go interpretation" },
+        { "url": "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c", "note": "Clip confirming the line is in S1E2 Biscuits" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-goldfish-memory-myth",
+      "type": "trivia",
+      "title": "The goldfish-memory myth behind the lesson",
+      "detail": "The coaching line rests on the common belief that goldfish have roughly a ten-second memory. That belief is a widely repeated myth; studies indicate goldfish can retain information for far longer. The show uses the folk-belief because it makes the emotional point land, not as a zoological claim. A nice meta-angle for the app: a true-as-metaphor, false-as-fact moment, parallel to how the project already handles the Whitman misattribution.",
+      "moment": "Ted frames the goldfish as the happiest animal because it forgets quickly; the sentiment is what matters, not the biology.",
+      "sources": [
+        { "url": "https://www.thedigitalfix.com/ted-lasso/what-does-be-a-goldfish-mean", "note": "States the ten-second-memory premise used in the scene" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-biscuits-with-the-boss",
+      "type": "theme",
+      "title": "Biscuits with the Boss",
+      "detail": "The episode names and establishes Ted's daily ritual of bringing Rebecca a pink box of homemade shortbread, which he calls 'Biscuits with the Boss.' It is the episode's throughline and a concrete model of building trust through small, consistent, unconditional gestures rather than grand ones, offered to someone who is secretly working against him. (E1's card already covers the ritual's existence; this candidate is about E2 naming it and making it a recurring beat.)",
+      "moment": "Ted arrives at Rebecca's office each morning with a little pink box of biscuits and gives the ritual its name.",
+      "sources": [
+        { "url": "https://www.thekitchn.com/the-official-ted-lasso-biscuit-recipe-23211497", "note": "Describes the pink-box shortbread ritual and 'Biscuits with the Boss' naming" },
+        { "url": "https://europe.stripes.com/lifestyle/pop-culture/biscuits-boss-ted-lasso-returns.html", "note": "Frames the ritual thematically (referenced via search summary)" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-biscuits-homemade-reveal",
+      "type": "callback",
+      "title": "Ted bakes the biscuits himself",
+      "detail": "Rebecca sends Higgins to scour Richmond's bakeries to identify Ted's biscuit supplier; the search fails because there is no supplier. The reveal that Ted bakes the shortbread himself pays off the running mystery within the episode and quietly deepens the 'no strings attached' kindness theme. Direction: this sets up/pays off inside the episode and seeds Rebecca's slow turn across the season.",
+      "moment": "Higgins reports he could not find the bakery; the episode reveals Ted is the baker, undercutting Rebecca's attempt to decode the gesture.",
+      "sources": [
+        { "url": "https://www.thekitchn.com/the-official-ted-lasso-biscuit-recipe-23211497", "note": "States Higgins's failed bakery search and that Ted bakes them himself" },
+        { "url": "https://bromabakery.com/ted-lasso-biscuits/", "note": "Corroborates the homemade-shortbread reveal" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-selhurst-park-irony",
+      "type": "easter-egg",
+      "title": "Richmond's ground is Crystal Palace's real stadium",
+      "detail": "AFC Richmond's fictional home (Nelson Road) is filmed at Selhurst Park, which in real life is the home ground of Premier League club Crystal Palace. Because Richmond plays Crystal Palace in this episode, Ted's rallying line about showing the visitors whose house it is becomes an in-joke: they are literally standing in Crystal Palace's actual house. An easy-to-miss real-world detail for fans who know London grounds.",
+      "moment": "Ted fires up the team before facing Crystal Palace at their home ground, unaware (in the joke's logic) that the venue is Crystal Palace's real stadium.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)", "note": "Wikipedia episode page noting Selhurst Park filming and the Crystal Palace irony (via search summary)" },
+        { "url": "https://lassoism.com/Ted-Lasso-S01E02-biscuits.php", "note": "Fan reference page listing the Selhurst Park / Crystal Palace detail" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-glad-all-over",
+      "type": "reference",
+      "title": "Glad All Over over the credits",
+      "detail": "The end-credits song is 'Glad All Over' by The Dave Clark Five, the anthem Crystal Palace fans sing at matches. Pairing the credits cue with the episode's opponent ties the music to the real-world club whose stadium doubles as Richmond's ground, a deliberate needle-drop nod for football fans.",
+      "moment": "As the episode closes on the Crystal Palace fixture, the credits roll over the club's signature anthem.",
+      "sources": [
+        { "url": "https://www.imdb.com/title/tt10989890/soundtrack/", "note": "IMDb soundtrack listing for the episode (via search summary)" },
+        { "url": "https://www.whatsong.org/tvshow/ted-lasso/episode/86062", "note": "Episode song list corroborating the credits track" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-the-exorcist-drill",
+      "type": "reference",
+      "title": "The 'Exorcist' possession drill",
+      "detail": "Ted names a training drill 'the Exorcist' because it is about possession, a pun on ball possession versus demonic possession in the 1973 horror film. A small example of Ted's relentless wordplay and his attempt to make football jargon his own.",
+      "moment": "Running an early drill, Ted christens it 'the Exorcist,' explaining it is all about possession.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-S01E02-biscuits.php", "note": "Reference page noting the Exorcist/possession pun" },
+        { "url": "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)", "note": "Episode page (via search summary) for corroboration" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-boots-in-the-boot",
+      "type": "reference",
+      "title": "Boots, cleats, and the boot",
+      "detail": "Beard corrects Ted that British football shoes are called 'boots,' which collides with 'boot' meaning a car's trunk, leading to layered wordplay capped by getting 'the boot' (being fired). It is an early, characteristic Ted Beard riff and a compact lesson in US/UK English differences that the show keeps mining.",
+      "moment": "Beard explains the British terms; Ted spins the overlapping meanings of 'boot' into a multi-layered joke about putting boots in the boot.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Boot", "note": "Wiki page documenting the US/UK boot wordplay (via search summary)" },
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=36", "note": "Quote page confirming the exchange is from this episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-rebecca-spice-girls",
+      "type": "trivia",
+      "title": "Spice Girls, twice",
+      "detail": "In a get-to-know-you exchange, Rebecca names the Spice Girls as both her first and her best concert, a quick, character-revealing beat that also plants a 1990s-British texture in contrast to Ted's American touchstones. Worth confirming exact phrasing from the scene rather than fan summaries.",
+      "moment": "Asked about first and best concerts, Rebecca gives the same answer both times: the Spice Girls.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=45", "note": "Quote page covering the first/best concert exchange (Ted's side)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-ted-kenny-rogers-beastie-boys",
+      "type": "trivia",
+      "title": "Kenny Rogers and the Beastie Boys",
+      "detail": "Ted gives his first concert as Kenny Rogers and his best as the Beastie Boys, the latter tagged in dialogue to HORDE Fest in 1995. The pairing sketches Ted's Kansas City Americana sensibility. A fan write-up further pins the show to Kansas City's Municipal Auditorium on May 3, 1995, which is fan-research precision the reviewer should verify against the actual line before any date/venue claim ships.",
+      "moment": "Tying up loose ends with Rebecca, Ted names Kenny Rogers as his first concert and the Beastie Boys at a 1995 festival as his best.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=45", "note": "Quote page giving Ted's first/best concert answers and the 1995 festival reference" },
+        { "url": "https://medium.com/@gregwall33_48351/ted-lassos-favorite-concert-may-3-1995-in-kansas-city-mo-e8d0d3e2a0c6", "note": "Fan piece asserting the specific Kansas City date/venue (treat as unverified precision)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-arlo-white-cameo",
+      "type": "production",
+      "title": "Arlo White plays himself",
+      "detail": "Real NBC Sports Premier League commentator Arlo White appears as himself, calling the match. Casting a genuine broadcaster is part of how the show builds football credibility; White recurs across the series as the in-world voice of Richmond's games.",
+      "moment": "Match commentary is delivered by Arlo White, introduced on the call as himself.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Arlo_White", "note": "Wiki page on Arlo White's recurring self-appearances (via search summary)" },
+        { "url": "https://screenrant.com/ted-lasso-real-life-footballers-soccer-pundits-every/", "note": "Lists real pundits/commentators appearing as themselves, including White" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-zach-braff-director",
+      "type": "production",
+      "title": "Zach Braff directed this one",
+      "detail": "Scrubs star and director Zach Braff helmed 'Biscuits,' brought in via his relationship with co-creator Bill Lawrence (Braff's Scrubs showrunner). In interviews Braff says this episode signaled the show would be more than a fish-out-of-water comedy and would, in classic Bill Lawrence fashion, aim to land an emotional gut-punch by the end. He also encouraged Sudeikis to play certain comic beats bigger.",
+      "moment": "Off-screen production fact: the episode credited to director Zach Braff, written by Joe Kelly from a story by Brendan Hunt and Jason Sudeikis.",
+      "sources": [
+        { "url": "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/", "note": "Braff interview about directing the episode and its tonal turn" },
+        { "url": "https://www.looper.com/494168/the-episode-of-ted-lasso-you-didnt-know-zach-braff-directed/", "note": "Corroborates Braff as director and the Bill Lawrence connection" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-soccer-girl-rickshaw-rig",
+      "type": "production",
+      "title": "Filming the 'Soccer Girl' on a rickshaw rig",
+      "detail": "A young girl ('Soccer Girl,' played by Shannon Hayes) outplays Ted with the ball in a park scene. Braff has described the logistical workaround for shooting real on-pitch football: heavy camera gear was barred on the field, so the crew used a lightweight remote head mounted on a rickshaw with large inflatable tires, operated from the sidelines while a grip sprinted alongside in cleats. A vivid bit of how the show gets convincing football footage.",
+      "moment": "In the park, a schoolgirl nutmegs and dribbles past Ted with ease, a humbling beat for the new gaffer.",
+      "sources": [
+        { "url": "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/", "note": "Braff discussing the Soccer Girl scene and the on-pitch camera rig" },
+        { "url": "https://awfulannouncing.com/pop-culture/ted-lasso-director-zach-braff-wasnt-allowed-cameras-onto-pitch-for-soccer-scenes.html", "note": "Corroborates the no-heavy-equipment rule and rickshaw-rig workaround" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-roy-water-pressure",
+      "type": "callback",
+      "title": "Ted fixes the water pressure",
+      "detail": "Roy discovers Ted has quietly fixed the locker-room shower's water pressure, a small unsolicited act of care aimed at a player who openly dislikes him. It is an early, low-key brick in the same wall as the biscuits: Ted earning trust through unglamorous service rather than speeches, and a seed for the eventual Ted Roy thaw.",
+      "moment": "Roy steps into the shower and finds the long-broken water pressure has been repaired, courtesy of Ted.",
+      "sources": [
+        { "url": "https://www.tvfanatic.com/shows/ted-lasso/episodes/season-1/bisquits/", "note": "Recap noting the fixed water pressure beat (via search summary)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e2-jamie-team-player",
+      "type": "theme",
+      "title": "Jamie and the team-player problem",
+      "detail": "Ted praises Jamie's talent but presses him to play for the team; Jamie briefly takes it on board, then reverts to selfishness after overhearing opponents mock Richmond, and turns on Ted's man-management. The thread frames the season's central tension between individual ego and collective trust, and previews Jamie's longer redemption arc.",
+      "moment": "Ted coaxes Jamie toward team play; stung by overheard trash talk, Jamie doubles down on going it alone and needles Ted's methods.",
+      "sources": [
+        { "url": "https://www.tvfanatic.com/shows/ted-lasso/episodes/season-1/bisquits/", "note": "Recap of the Jamie team-player beat and his reversal (via search summary)" },
+        { "url": "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)", "note": "Episode page corroborating the Jamie plotline (via search summary)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}
