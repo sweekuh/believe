@@ -1,0 +1,184 @@
+{
+  "episode": { "season": 1, "number": 5, "title": "Tan Lines" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WebFetch returned a global HTTP 403 this session (Wikipedia and TV Tropes both blocked), as warned. Every fact below is corroborated across multiple independent WebSearch result summaries rather than a single fetched page; hunter_confidence is capped accordingly. Reviewer should open the cited URLs directly to confirm. Paraphrase only — no dialogue reproduced. NOTE for reviewer: the brief mentioned 'Rebecca's mother,' but Rebecca's mother does not appear in this episode (that is a Season 2 thread); no such candidate is included. Also: the factsheet (sec. 6) tentatively placed 'She's a Rainbow' (Rolling Stones) in this episode — that is incorrect; it belongs to S2E5 'Rainbow.' The E5 needle-drops are Dusty Springfield, Sam Cooke, and Mumford & Sons. Writing credit shows a discrepancy across sources (Brett Goldstein solo vs. Goldstein + Phoebe Walsh) — flagged below.",
+  "candidates": [
+    {
+      "id": "s1e5-embrace-change-theme",
+      "type": "theme",
+      "title": "Change as the whole point",
+      "detail": "The episode's spine is the necessity of embracing change. At half-time, with Richmond tied, Ted tells the team the current setup is broken and that change — though frightening — is good and must be embraced, then benches his star to prove it. The speech doubles as Ted talking to himself about his marriage: he is being asked to accept that the relationship cannot simply be willed back to what it was. The team's first win and Ted's acceptance of his divorce are the same lesson on two tracks.",
+      "moment": "At half-time Ted urges the players to embrace change as a good thing, then radically alters the lineup; the same idea echoes in his marriage that day.",
+      "sources": [
+        { "url": "https://nofilmschool.com/ted-lasso-halftime-speech", "note": "Analysis of the half-time speech as the episode's thematic core, working on both team and personal levels" },
+        { "url": "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/", "note": "Recap of Ted's 'embrace change' half-time pep talk and benching of Jamie" },
+        { "url": "https://www.leaditlikelasso.com/blog/change-a-ted-lasso-guide-to-embracing-it", "note": "Essay using this episode to frame change as a theme" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-team-over-ego",
+      "type": "philosophy",
+      "title": "The team over the star",
+      "detail": "Ted benches Jamie Tartt in the second half despite Jamie having scored, because Jamie refuses to pass and treats his teammates as props for his own highlight reel. Without their selfish star, the players combine and win — Richmond's first victory of the season. The beat is a clean illustration of the common-good idea that a flourishing whole can outperform a collection of individually optimizing parts, and that subordinating ego to the team is itself a form of excellence.",
+      "moment": "Ted sits his goal-scoring star for the second half; the remaining players pass, combine, and score the winner.",
+      "sources": [
+        { "url": "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/", "note": "Recap of the benching and the team winning by working together" },
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Episode summary: Jamie benched, teamwork yields first win" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Tan_Lines", "note": "Episode page describing the tactical change and result" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-oklahoma-honesty",
+      "type": "callback",
+      "title": "The word 'Oklahoma'",
+      "detail": "Ted explains the code word he and Michelle were given by their marriage therapist: when one says 'Oklahoma,' the other must answer with complete honesty. It surfaces here as Michelle finally admits she is not happy. The device is a small ethics-of-honesty engine — a pre-agreed permission to drop the performance — and it pays off across the series, returning when Ted and Rebecca use it on each other in later seasons. Sets up a recurring motif from its first appearance.",
+      "moment": "Ted describes the therapist's honesty code word; it forces a truthful, painful exchange with Michelle.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Oklahoma", "note": "Origin of the 'Oklahoma' honesty code word with Ted and Michelle; later reuse" },
+        { "url": "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/", "note": "Explains the meaning and its recurrence across the series" },
+        { "url": "https://www.tedlassopod.com/oklahoma/", "note": "Discussion tying the word's first appearance to S1E5" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s1e5-tan-lines-metaphor",
+      "type": "theme",
+      "title": "What 'Tan Lines' names",
+      "detail": "The title works as a metaphor: a tan line is a mark left by exposure. The episode is about exposure — Ted and Michelle exposed to the truth of their marriage, the team exposed to real change, emotions and belief brought into the open. What was hidden under the surface (an unhappy marriage, a broken team dynamic) is brought into the light and leaves a mark that does not wash off.",
+      "moment": "The episode's events repeatedly expose what was hidden — in the marriage and on the pitch — the way sun leaves a tan line.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2021/07/17/ted-lasso-1x05-tan-lines-review/", "note": "Review reading the title as a metaphor for exposure — to emotion, belief, and truth" },
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Episode summary supporting the exposure/marriage reading" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-roy-respects-ted",
+      "type": "callback",
+      "title": "Roy starts to respect Ted",
+      "detail": "Roy has been openly contemptuous of Ted since the pilot. Here, after Ted benches Jamie for his selfishness — a costly, unpopular call — Roy acknowledges that it took courage. It is the first crack in Roy's hostility and a setup for the Roy–Ted alliance and the eventual Diamond Dogs / coaching arc. The thaw is earned through a values demonstration, not a speech.",
+      "moment": "After the match, Roy concedes to Ted that benching the star striker took real nerve — his first sign of respect.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Summary noting Ted earns Roy's respect by benching Jamie" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Roy_Kent", "note": "Character page tracing Roy's shift toward respecting Ted" },
+        { "url": "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/", "note": "Recap of Roy acknowledging Ted's bold call" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-roy-jamie-fight-sam",
+      "type": "philosophy",
+      "title": "Roy fights for a teammate",
+      "detail": "When Sam goes down apparently hurt, Jamie ignores him — even shoving him aside to take a free kick — and Roy is enraged enough to throw punches at his own teammate on the pitch, both drawing yellow cards. The moment crystallizes a virtue Roy embodies despite his gruffness: loyalty to the team and basic care for a vulnerable teammate. Jamie's indifference and Roy's fury frame the episode's question of what you owe the people beside you.",
+      "moment": "Jamie brushes off an injured Sam to take a kick; Roy, incensed, brawls with Jamie until the referees separate them.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Summary of Jamie ignoring injured Sam and the Roy/Jamie fight with yellow cards" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Tan_Lines", "note": "Episode page describing the on-pitch scuffle" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-sam-give-the-people",
+      "type": "easter-egg",
+      "title": "Sam's not-quite-injury",
+      "detail": "After the scuffle, Roy checks on Sam and learns he is actually fine — he stayed down only because everyone was fussing over him. Roy tells him to sell a limp and then play on, because the crowd will love the comeback. A small, funny aside on performance and showmanship in sport — the spectacle the fans want, manufactured on the spot — and an early Roy/Sam mentoring beat.",
+      "moment": "Roy discovers the floored Sam is unhurt and coaches him to fake a limp before bravely 'recovering' for the crowd.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Tan_Lines", "note": "Episode page describing Sam being fine and Roy telling him to feign a limp for the crowd" },
+        { "url": "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/", "note": "Recap covering the Sam injury gag" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-keeley-pr-job",
+      "type": "callback",
+      "title": "Keeley gets a real job",
+      "detail": "After Keeley organizes a slick sponsor photoshoot for Jamie, Rebecca offers her a full-time branding/PR role with the club — and, notably, offers it sincerely, to help Keeley grow, rather than as another quiet sabotage of Ted. It is the launch point of Keeley's career arc from model to marketing force, a throughline the series develops all the way to her running her own PR firm.",
+      "moment": "Impressed by Keeley's promo work, Rebecca offers her a genuine job handling the club's branding, and Keeley takes it.",
+      "sources": [
+        { "url": "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/", "note": "Recap of Rebecca offering Keeley a branding/PR job" },
+        { "url": "https://theeverygirl.com/keeley-jones-career-growth/", "note": "Traces Keeley's career arc beginning with this PR role" },
+        { "url": "https://www.salon.com/2023/03/18/ted-lasso-keeley/", "note": "Feature on Keeley taking control of her career, rooted in the PR turn" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e5-brett-goldstein-wrote-it",
+      "type": "production",
+      "title": "Roy Kent wrote this one",
+      "detail": "This episode was the first 'Ted Lasso' writing credit for Brett Goldstein — who plays Roy Kent. Goldstein was hired into the writers' room first; his writing is part of how he ended up cast as Roy. One of the show's most emotionally pivotal early episodes (the marriage unravels) was thus penned by the actor behind its gruffest character. FLAG: sources disagree on the byline — some list Goldstein alone, others list Brett Goldstein with Phoebe Walsh. Reviewer should confirm the exact credit. It was also director Elliot Hegarty's first episode on the show.",
+      "moment": "Behind the camera: an early, heavy episode written by the actor who plays Roy Kent.",
+      "sources": [
+        { "url": "https://www.awardsdaily.com/2021/05/10/brett-goldstein-ted-lasso-season-1/", "note": "Goldstein discusses writing 'Tan Lines' and his double duty as writer and Roy Kent" },
+        { "url": "https://en.wikipedia.org/wiki/Brett_Goldstein", "note": "Confirms Goldstein was hired as a writer first, then cast as Roy" },
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Episode writer/director credits and that both were firsts on the show; check byline (solo vs. Goldstein + Phoebe Walsh)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-first-win-watford",
+      "type": "trivia",
+      "title": "Richmond's first win",
+      "detail": "Against Watford F.C., AFC Richmond finally wins — its first victory of the season under Ted and a milestone in the team's losing streak. The breakthrough comes specifically after the star is benched, tying the show's belief-and-effort ethos to a concrete result for the first time. The scoreline is reported as 3-2 (Sam scoring the decisive goal); reviewer should confirm the exact score.",
+      "moment": "Richmond beats Watford for its first win of the season, sparked by the second-half lineup change.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Watford_F.C.", "note": "Watford as the opponent in Richmond's first win in 'Tan Lines'" },
+        { "url": "https://antagonistblog.com/ted-lasso-win-loss-record-afc-richmond/", "note": "Results tracker noting Richmond's first win this episode" },
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Episode summary of the first victory" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-michelle-henry-cast",
+      "type": "production",
+      "title": "Casting Ted's family",
+      "detail": "The episode introduces Ted's family on screen: Andrea Anders as his wife Michelle and Gus Turner as their young son Henry. It is Gus Turner's first television role; he played Henry across all three original seasons (the part was later recast for the revival as the character aged up). Their visit is the emotional engine of the episode and the moment Ted's marriage moves toward divorce.",
+      "moment": "Ted's wife and son arrive from America; the visit is the episode's emotional center.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Gus_Turner", "note": "Gus Turner as Henry; first TV role; played the part across seasons" },
+        { "url": "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)", "note": "Andrea Anders as Michelle and Gus Turner as Henry in this episode" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-music-needle-drops",
+      "type": "reference",
+      "title": "The needle-drops",
+      "detail": "The episode uses pop standards to color its emotional beats: Dusty Springfield's 'Wishin' and Hopin'' over the opening, Sam Cooke's 'Bring It on Home to Me' while Ted and Henry build a toy double-decker bus, and Mumford & Sons' 'Forever' as Ted says goodbye to his son. Marcus Mumford co-scored the series, so the Mumford needle-drop sits close to the show's musical DNA. The song choices lean into longing and home — the ache under a family visit that is also a goodbye.",
+      "moment": "Father-and-son scenes are scored with Sam Cooke and Mumford & Sons; the episode opens on Dusty Springfield.",
+      "sources": [
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-1/100489", "note": "Soundtrack list for 'Tan Lines'" },
+        { "url": "https://www.whatsong.org/tvshow/ted-lasso/episode/86244", "note": "Per-scene song placements for the episode" },
+        { "url": "https://www.imdb.com/title/tt11044160/soundtrack/", "note": "IMDb soundtrack listing for the episode" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e5-oklahoma-musical-reference",
+      "type": "reference",
+      "title": "Why 'Oklahoma,' of all words",
+      "detail": "The honesty code word is the name of the Rodgers and Hammerstein musical 'Oklahoma!' — and Ted notes the therapy device has spoiled the musical for him, since the songs now trigger the memory of hard truths. A small, characteristically Ted reference: a sunny American classic repurposed as a trigger for unwelcome honesty, folding his relentless optimism into the joke.",
+      "moment": "Ted remarks that adopting 'Oklahoma' as their truth word has ruined the musical of the same name for him.",
+      "sources": [
+        { "url": "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/", "note": "Explains the reference to the musical 'Oklahoma!' and why it ruined it for Ted" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Oklahoma", "note": "Notes the code word and Ted's aside about the musical" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}
