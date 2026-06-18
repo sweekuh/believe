@@ -1,0 +1,385 @@
+{
+  "episode": { "season": 1, "number": 4, "title": "For the Children" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "WebFetch returned a global HTTP 403 this session (Wikipedia and Fandom included), so every claim was re-derived independently from multiple corroborating WebSearch result summaries rather than a single fetched page. Grounding scores reflect that corroboration depth: multi-source claims earn 4-5, items resting on thin/season-level support are capped lower. The hunter's flagged items were scrutinized: the Richmond Theatre location is NOT single-source (multiple independent tourism/location guides confirm it); the GBP 1M auction figure and the 'Kids' closing-credits cue and Cam Cole's E2 'Biscuits' debut all corroborate cleanly; the production-design Emmy nomination is real but is a SEASON-level award, not an episode-specific honor, so the production-credits card was downgraded to partially-confirmed and fell below the gate.",
+  "facts": [
+    {
+      "id": "s1e4-accountability-jamie-apology",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps confirm Jamie offers Keeley a hollow apology and that Keeley names accountability before ending things in this episode; the breakup is the episode's moral spine. Placement in S1E4 verified across TV Tropes, ReadySteadyCut, and review sites.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/",
+        "https://ladygeeksmedia.com/2021/07/16/ted-lasso-1x04-for-the-children-review/"
+      ],
+      "scores": { "grounding": 5, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-accountability-jamie-apology",
+        "tag": "Accountability over apology",
+        "title": "The empty apology",
+        "moment": "Jamie tells Keeley he is sorry, but when she presses, he cannot say what he is actually sorry for; she tells him being accountable matters and walks away.",
+        "idea": "An apology is not the same as accountability. Saying sorry to make a feeling go away, without grasping the harm you caused, is just managing your own discomfort.",
+        "why": "Watch how the show separates the performance of contrition from real ownership. Keeley does not ask for a better apology; she asks whether he understands what he did, and he does not.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'; cf. <em>Ted Lasso and Philosophy</em>, ch. 20 'Being Accountable Matters'.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Hollow apology and accountability-driven breakup confirmed across multiple independent S1E4 recaps and reviews.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-roy-jamie-perspective-taking",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm Ted seats Roy and Jamie together, asks Roy what he was like at 23, and Roy — recognizing he was a cocky jerk too — proposes airing every grievance and moving on, aiming for mutual respect rather than friendship. Placement in S1E4 verified.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+      ],
+      "scores": { "grounding": 5, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e4-roy-jamie-perspective-taking",
+        "tag": "Empathy by perspective-taking",
+        "title": "Roy sees his younger self in Jamie",
+        "moment": "Prompted by Ted to recall what he was like at Jamie's age, Roy admits he was just as arrogant, then invites Jamie to lay out every grievance between them and move past it.",
+        "idea": "Empathy here is concrete: picture yourself at the other person's age and stage. Honest confrontation, fully aired, can produce respect even where it cannot produce friendship.",
+        "why": "Notice that the thaw only starts once Roy stops judging Jamie and recognizes the parallel. The goal he names is respect, not liking each other, which is a more honest and achievable target.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted's 'what were you like at 23' prompt and the air-it-out exercise aimed at mutual respect confirmed across independent S1E4 recaps.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-rupert-cruelty-as-honesty",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed that Rupert delivers backhanded 'compliments' (e.g. the 'courage' to wear that dress at her age), Ted clocks the stealth insult, and Rebecca reframes Rupert's so-called honesty as disguised cruelty rooted in manipulation. Placement in S1E4 verified across recaps and reviews.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://curiousgoldfish.com/blog/ted-lasso-episode-review-season-1-episode-4",
+        "https://ladygeeksmedia.com/2021/07/16/ted-lasso-1x04-for-the-children-review/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-rupert-cruelty-as-honesty",
+        "tag": "Brutal honesty as a mask",
+        "title": "Cruelty dressed as honesty",
+        "moment": "At the benefit, Rupert praises Rebecca's 'courage' to wear her dress at her age; Ted catches the stealth insult, and Rebecca later names his bluntness as disguised cruelty.",
+        "idea": "'I'm just being honest' can be a costume for contempt. The test is whose interest the candor serves: honesty meant to help, versus candor aimed to wound and to hide one's own insecurity.",
+        "why": "Watch how the line lands as a compliment and bites as an insult. Rebecca admits she once mistook this for noble frankness, which is exactly how cruelty disguised as honesty gets a pass.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rupert's backhanded compliments and Rebecca's reframe of his 'honesty' as cruelty confirmed across independent S1E4 recaps and reviews.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://curiousgoldfish.com/blog/ted-lasso-episode-review-season-1-episode-4"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-ted-empathy-for-rebecca",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed Ted notices Rupert rattling Rebecca and is present for her — he finds her crying outside and is a listening ear rather than trying to fix it. Note: the on-screen beat is largely in the alley, not literally standing beside her in the room, but the empathy-as-presence reading holds. Placement in S1E4 verified.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/",
+        "https://ladygeeksmedia.com/2021/07/16/ted-lasso-1x04-for-the-children-review/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-ted-empathy-for-rebecca",
+        "tag": "Empathy as presence",
+        "title": "Ted as a steady shoulder",
+        "moment": "When Rupert gets under Rebecca's skin, Ted notices, finds her upset, and simply stays with her as a listening ear instead of trying to win the room or fix it for her.",
+        "idea": "Sometimes empathy is not advice or rescue. It is staying present and curious about how someone is actually doing when a moment lands hard for them.",
+        "why": "An early, quiet beat in the Ted and Rebecca trust arc. Watch how little he tries to do, which is the point: he is there, not performing a solution.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted noticing Rebecca's distress and being present for her in S1E4 confirmed across independent recaps; rendered as empathy-as-presence.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-cam-cole-real-busker",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed Cam Cole is a real London busker / one-man band playing himself, recruited to perform at the S1E4 benefit, with 'Mama' his own song; multiple sources also confirm his first glimpse was in E2 'Biscuits' busking near Ted's flat. Corroborated across ScreenRant, Looper, Cheat Sheet, and Fandom.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-show-cam-cole-busker/",
+        "https://www.looper.com/493834/who-is-cam-cole-from-ted-lasso/",
+        "https://www.cheatsheet.com/entertainment/ted-lasso-meet-musician-who-blew-fans-away-season-1.html/",
+        "https://ted-lasso.fandom.com/wiki/Cam_Cole"
+      ],
+      "scores": { "grounding": 5, "insight": 3, "surprise": 5, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 84,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e4-cam-cole-real-busker",
+        "tag": "The busker is real",
+        "title": "The street musician plays himself",
+        "moment": "After Rupert sabotages the booked celebrity act, Ted brings in the busker he passes near his flat to perform at the benefit, and the crowd is won over.",
+        "idea": "The one-man band is Cam Cole, a genuine London street musician playing himself, not an actor. The song he performs, 'Mama', is his own; his viral busking led to the cameo.",
+        "why": "A real-world grace note that mirrors the episode's theme of overlooked talent. He even appears earlier in E2 'Biscuits', busking near Ted's flat, before this featured turn.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'; ScreenRant and Looper profiles of Cam Cole.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Cam Cole as a real busker playing himself, 'Mama' as his own song, and the earlier E2 glimpse confirmed across multiple independent profiles.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-show-cam-cole-busker/",
+          "https://www.looper.com/493834/who-is-cam-cole-from-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-robbie-williams-kids-irony",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed the booked star Robbie Williams cancels (with Ted implying Rupert engineered it, which Rupert does not deny) yet 'Kids' by Robbie Williams and Kylie Minogue plays over the S1E4 end credits. Cancellation in-story and the closing needle-drop both corroborated across recaps and soundtrack listings.",
+      "verified_sources": [
+        "https://www.tunefind.com/show/ted-lasso/season-1/100430",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+      ],
+      "scores": { "grounding": 5, "insight": 3, "surprise": 5, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e4-robbie-williams-kids-irony",
+        "tag": "The no-show still sings",
+        "title": "The cancelled star still performs",
+        "moment": "The benefit loses its booked celebrity singer, Robbie Williams, after Rupert is implied to have talked him out of it; then 'Kids' by Robbie Williams and Kylie Minogue plays over the end credits.",
+        "idea": "A quiet needle-drop joke: the artist who bailed on the gala still 'performs' for the episode itself over the credits.",
+        "why": "A reward for attentive viewers. The cancellation drives the plot's scramble for a replacement, then the soundtrack winks at it on the way out.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'; episode soundtrack (Tunefind).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "In-story Robbie Williams cancellation and 'Kids' (Williams & Minogue) over the S1E4 credits confirmed across recaps and soundtrack listings.",
+        "sourcesChecked": [
+          "https://www.tunefind.com/show/ted-lasso/season-1/100430",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-table-four-boring-table",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed Rebecca designates table four the 'boring table' (to Higgins' chagrin, since he is seated there) and then pointedly assigns Rupert to table four once he muscles into the gala. Corroborated across TV Tropes recap and the lassoism.com transcript.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://lassoism.com/Ted-Lasso-S01E04-for-the-children.php"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-table-four-boring-table",
+        "tag": "Petty justice",
+        "title": "The boring table",
+        "moment": "Rebecca brands table four the 'boring table', to Higgins' dismay since he is seated there, then assigns her gloating ex-husband to that exact table once he forces his way into the gala.",
+        "idea": "A small running gag that pays off its own setup: the throwaway 'boring table' line returns as a quiet act of revenge seating.",
+        "why": "Watch the early line so the later seating lands. It is a tidy bit of character writing, Rebecca's pettiness given a satisfying, contained payoff.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The 'boring table' setup and Rupert being assigned to table four confirmed via the TV Tropes recap and episode transcript.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://lassoism.com/Ted-Lasso-S01E04-for-the-children.php"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-keeley-discovers-jamie-plant",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed that during the date auction Keeley realizes a bidder for Jamie is a former lover he planted to inflate his desirability, and that this, layered onto the hollow apology, tips her into ending things. Placement in S1E4 verified across multiple recaps.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-keeley-discovers-jamie-plant",
+        "tag": "Manufactured desirability",
+        "title": "Jamie's rigged auction bid",
+        "moment": "At the auction of dates with players, Keeley realizes the woman bidding on Jamie is an ex he arranged to bid, staging his own popularity.",
+        "idea": "Jamie needs to look wanted more than he wants to be honest. Combined with his empty apology, the stunt shows Keeley exactly who he is.",
+        "why": "This is the concrete trigger for the breakup, and a quiet setup for the Keeley and Roy pairing the series builds later. Watch how the rigged bid and the hollow apology rhyme.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The planted-bidder reveal and its role in the breakup confirmed across independent S1E4 recaps.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+          "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-rupert-million-pound-power-move",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed Rupert hijacks the auction and pledges one million pounds to the children's charity as a move to upstage Rebecca on her first solo benefit, not out of generosity. The GBP 1M figure corroborates across the Fandom benefit page, TV Tropes, and ReadySteadyCut. Placement in S1E4 verified.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/10th_Annual_Benefit_for_Underprivileged_Children",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+        "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+      ],
+      "scores": { "grounding": 5, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-rupert-million-pound-power-move",
+        "tag": "Generosity as a weapon",
+        "title": "The million-pound power move",
+        "moment": "Rupert seizes the auction and hands over a personal cheque for one million pounds to the children's charity, weaponizing the gift to upstage Rebecca at her own benefit.",
+        "idea": "A good act can be done for an ugly motive. Rupert's enormous donation is real money and real harm at once, generosity performed to dominate.",
+        "why": "Watch what the donation is for. It buys the room's admiration and reminds everyone of his wealth and reach, embarrassing Rebecca on the night she was meant to lead.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rupert's GBP 1M auction donation as a move to show Rebecca up confirmed across the Fandom benefit page and independent recaps.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/10th_Annual_Benefit_for_Underprivileged_Children",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-richmond-theatre-location",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Upgraded from the hunter's low confidence: the charity gala exteriors filming at the real Richmond Theatre (off Richmond Green, dating to 1899) is corroborated across multiple independent location guides (VisitRichmond-area guides, London in Real Life, Scenic and Savvy), not a single source. Tied specifically to S1E4.",
+      "verified_sources": [
+        "https://londoninreallife.com/visiting-london/ted-lasso-film-locations/",
+        "https://www.scenicandsavvy.com/ted-lasso-film-location/",
+        "https://www.contiki.com/six-two/article/ted-lasso-filming-locations/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-richmond-theatre-location",
+        "tag": "A real Richmond venue",
+        "title": "The gala was shot at a real theatre",
+        "moment": "The benefit-venue exteriors use the actual Richmond Theatre, just off Richmond Green, a red-brick playhouse dating to 1899.",
+        "idea": "The show grounds its fictional AFC Richmond in real southwest-London places. The charity gala's exterior is a genuine, visitable theatre.",
+        "why": "A nice detail for a rewatcher who knows the area, and part of why the show's Richmond feels so solid: it is largely a real one.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'; Ted Lasso filming-location guides.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Richmond Theatre as the S1E4 gala exterior confirmed across multiple independent location guides, not single-source.",
+        "sourcesChecked": [
+          "https://londoninreallife.com/visiting-london/ted-lasso-film-locations/",
+          "https://www.scenicandsavvy.com/ted-lasso-film-location/"
+        ]
+      }
+    },
+    {
+      "id": "s1e4-production-credits-emmy",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Writer Jamie Lee, director Tom Marshall, and the Aug 21 2020 air date corroborate (IMDb, recaps), and Juno Temple submitted THIS episode for her Supporting Actress nomination. BUT the claimed 'Outstanding Production Design for a Narrative Program (Half-Hour)' nomination is a SEASON-level Ted Lasso award, not specifically tied to S1E4; the candidate conflates a season nomination with an episode honor, so the production-design claim as stated is not episode-grounded.",
+      "verified_sources": [
+        "https://m.imdb.com/title/tt11044158/fullcredits/",
+        "https://www.televisionacademy.com/bios/juno-temple",
+        "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Ted_Lasso",
+        "https://deadline.com/2021/08/ted-lasso-production-designer-paul-cripps-apple-tv-plus-emmy-nominated-1234814248/"
+      ],
+      "scores": { "grounding": 3, "insight": 2, "surprise": 3, "relevance": 3, "spoiler_safety": 4 },
+      "interest_score": 55,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s1e4-title-meaning-for-the-children",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed the title names the children's charity while the episode's real work is about grown men behaving like children (Jamie's tantrum-apology, Roy's old arrogance, Rupert's cruelty) and which adults choose to grow up. Reading corroborated across the AIPT and Lady Geeks reviews and the episode's own plot. Placement in S1E4 verified.",
+      "verified_sources": [
+        "https://aiptcomics.com/2020/08/21/ted-lasso-season-1-episode-4-review/",
+        "https://ladygeeksmedia.com/2021/07/16/ted-lasso-1x04-for-the-children-review/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e4-title-meaning-for-the-children",
+        "tag": "The title is ironic",
+        "title": "What 'for the children' really points at",
+        "moment": "A gala billed as being 'for the children' becomes a test of which adults in the room can actually behave like grown-ups.",
+        "idea": "The title names the charity, but the episode is about grown men acting like children, Jamie's tantrum-apology, Roy's old arrogance, Rupert's playground cruelty, and about who is willing to grow up and be accountable.",
+        "why": "Hold the title in mind through each storyline. The benefit's framing quietly spotlights the adults' maturity, not the kids', which is the episode's real subject.",
+        "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The ironic-title reading (adults acting like children; who grows up) corroborated across independent S1E4 reviews and the episode's plot.",
+        "sourcesChecked": [
+          "https://aiptcomics.com/2020/08/21/ted-lasso-season-1-episode-4-review/",
+          "https://ladygeeksmedia.com/2021/07/16/ted-lasso-1x04-for-the-children-review/"
+        ]
+      }
+    }
+  ]
+}
