@@ -114,6 +114,7 @@ try {
   const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
   check("E8 shows 2 verified cards", e8titles.length === 2);
   check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
+  if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
   await page.select("#epPicker", "2");
   await new Promise(r => setTimeout(r, 400));
