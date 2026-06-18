@@ -1,0 +1,213 @@
+{
+  "show": "Ted Lasso",
+  "season": 1,
+  "fromMom": "Hi Mom — little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode. No spoilers past the one you pick.",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "Pilot",
+      "intro": "",
+      "footer": "That’s the Pilot. The famous darts scene — “be curious, not judgmental” — is still coming. It’s the Season 1 finale, so something to look forward to.",
+      "cards": [
+        {
+          "id": "s1e1-belief-sign",
+          "tag": "Belief",
+          "title": "The yellow sign over the door",
+          "moment": "At the very end, Ted tapes a single hand-lettered word above the locker room door, with Keeley’s help: BELIEVE.",
+          "idea": "There’s a real idea behind it. The philosopher William James called it <strong>precursive faith</strong> — choosing to believe a good thing is possible <em>before</em> there’s any proof, because the believing itself helps make it come true. It isn’t pretending. It’s deciding to act as if the better outcome is reachable.",
+          "why": "That taped-up sign is the whole show in one word. Everything Ted does for three seasons is an argument for it.",
+          "source": "William James, “The Will to Believe” (1896). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 3."
+        },
+        {
+          "id": "s1e1-nate-name",
+          "tag": "Seeing people",
+          "title": "He learns the kit man’s name",
+          "moment": "Ted greets Nate, the equipment manager everyone else walks straight past, by name — and treats him like he matters.",
+          "idea": "A tiny moment carrying a big idea: that every person is owed real attention regardless of their rank. Kant called it treating people as ends in themselves, never as just tools to get something done.",
+          "why": "Keep this one in your back pocket. Where Nate starts in this scene, and where he ends up by Season 3, is one of the show’s biggest journeys.",
+          "source": "Respect for persons (Kantian ethics)."
+        },
+        {
+          "id": "s1e1-press-conf",
+          "tag": "Hope vs. naivety",
+          "title": "Walking into a hostile room with a smile",
+          "moment": "Ted faces a press conference full of people who think he’s a joke. He knows almost nothing about the sport, and instead of bluffing, he just stays open and warm.",
+          "idea": "The show is quietly asking a hard question here: is that kind of relentless optimism just foolish, or is it a discipline? One answer comes from Camus, who argued for a clear-eyed hope — you see exactly how bad things are, and you choose to hope anyway. Not blindness. A decision.",
+          "why": "Watch across the season for whether Ted’s cheerfulness is real strength or a way of hiding from his own pain. The show doesn’t let him off easy.",
+          "source": "Albert Camus on hope and the absurd. Explored in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 15."
+        },
+        {
+          "id": "s1e1-rebecca-revenge",
+          "tag": "Revenge or justice",
+          "title": "Why Rebecca really hired him",
+          "moment": "After defending Ted in public, Rebecca admits in private that she hired him hoping he’ll <em>fail</em> — to ruin the one thing her ex-husband loves.",
+          "idea": "This is one of the oldest questions in ethics: is revenge ever just? Rebecca feels she’s owed it. The series slowly draws a line between wanting someone to suffer and wanting a wrong made right — and they turn out to be very different things.",
+          "why": "Rebecca is the show’s deepest redemption story. This scene is her at her lowest, on purpose, so you can see how far she travels.",
+          "source": "Revenge vs. justice; see <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 20."
+        },
+        {
+          "id": "s1e1-biscuits",
+          "tag": "Small kindnesses",
+          "title": "Biscuits with the Boss",
+          "moment": "Ted starts bringing Rebecca a little pink box of biscuits every single morning, a ritual he names “Biscuits with the Boss.”",
+          "idea": "It looks like nothing. But it’s an argument the whole show believes in: that trust gets built through small, consistent, unconditional gestures, not grand ones — and he keeps doing it for someone who is secretly working against him.",
+          "why": "That little box is the thread that eventually unravels her whole plan. (And keep watching — you find out he bakes them himself.)",
+          "source": "—"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Biscuits",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e2-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Trent Crimm: The Independent",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e3-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "For the Children",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e4-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Tan Lines",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e5-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Two Aces",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e6-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Make Rebecca Great Again",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e7-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Diamond Dogs",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e8-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "All Apologies",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e9-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Hope That Kills You",
+      "intro": "",
+      "footer": "",
+      "cards": [
+        {
+          "id": "s1e10-placeholder",
+          "tag": "Coming soon",
+          "title": "Notes coming soon",
+          "moment": "",
+          "idea": "",
+          "why": "Zach is still writing these.",
+          "source": ""
+        }
+      ]
+    }
+  ]
+}

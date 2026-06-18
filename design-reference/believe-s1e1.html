@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Believe — S1E1: Pilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1b2330;          /* locker room at dusk */
+    --bg-2:#222c3c;
+    --paper:#f3e8d0;       /* aged note paper */
+    --paper-edge:#e6d6b6;
+    --ink:#241d16;         /* marker ink */
+    --ink-soft:#5a4f40;
+    --pitch:#3a7d44;       /* the idea: pitch green */
+    --biscuit:#c76b7d;     /* a note from you */
+    --tape:rgba(236,226,198,.45);
+  }
+  *{box-sizing:border-box;}
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0;
+    background:
+      radial-gradient(120% 80% at 50% -10%, var(--bg-2), var(--bg) 60%);
+    color:var(--paper);
+    font-family:"Newsreader",Georgia,serif;
+    font-size:19px;
+    line-height:1.6;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:620px;margin:0 auto;}
+
+  /* ---- Signature: the taped BELIEVE banner ---- */
+  header{padding:54px 0 8px;text-align:center;}
+  .banner{
+    display:inline-block;
+    position:relative;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Permanent Marker",cursive;
+    font-size:clamp(40px,12vw,72px);
+    letter-spacing:2px;
+    padding:18px 42px 14px;
+    transform:rotate(-2.2deg);
+    box-shadow:0 14px 34px rgba(0,0,0,.45);
+    border-radius:2px;
+  }
+  .banner::before,.banner::after{
+    content:"";position:absolute;width:62px;height:24px;
+    background:var(--tape);
+    box-shadow:0 1px 2px rgba(0,0,0,.25);
+  }
+  .banner::before{top:-12px;left:-14px;transform:rotate(-26deg);}
+  .banner::after{bottom:-12px;right:-14px;transform:rotate(-24deg);}
+
+  .eyebrow{
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:13px;letter-spacing:.18em;text-transform:uppercase;
+    color:#9fb2c9;margin:40px 0 6px;text-align:center;
+  }
+  h1{
+    font-family:"Fraunces",serif;font-weight:900;
+    font-size:clamp(38px,9vw,56px);line-height:1.02;
+    margin:0 0 14px;text-align:center;color:#fff;
+  }
+  .from-me{
+    color:#cdd7e3;font-style:italic;text-align:center;
+    max-width:30em;margin:0 auto 6px;
+  }
+
+  /* ---- Spoiler gate ---- */
+  .gate{text-align:center;margin:34px 0 6px;}
+  .gate p{color:#9fb2c9;font-size:16px;margin:0 0 16px;}
+  button.reveal{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:17px;
+    color:var(--ink);background:var(--paper);
+    border:none;border-radius:999px;
+    padding:14px 26px;cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.4);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  button.reveal:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.5);}
+  button.reveal:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+
+  .notes{display:none;}
+  .notes.open{display:block;animation:rise .5s ease both;}
+  @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+
+  /* ---- The torn-paper notes ---- */
+  .card{
+    position:relative;
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:3px;
+    padding:30px 28px 26px;
+    margin:30px 0;
+    box-shadow:0 12px 30px rgba(0,0,0,.4);
+  }
+  .card:nth-child(odd){transform:rotate(-.5deg);}
+  .card:nth-child(even){transform:rotate(.5deg);}
+  .card::before{
+    content:"";position:absolute;top:-11px;left:50%;
+    width:84px;height:22px;margin-left:-42px;
+    background:var(--tape);transform:rotate(1.5deg);
+    box-shadow:0 1px 2px rgba(0,0,0,.2);
+  }
+  .tag{
+    display:inline-block;
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:#fff;background:var(--pitch);
+    padding:4px 11px;border-radius:999px;margin-bottom:14px;
+  }
+  .card h2{
+    font-family:"Fraunces",serif;font-weight:600;
+    font-size:25px;line-height:1.15;margin:0 0 12px;color:var(--ink);
+  }
+  .card .moment{color:var(--ink-soft);margin:0 0 14px;}
+  .card .idea{margin:0 0 14px;}
+  .card .why{
+    border-left:3px solid var(--pitch);
+    padding-left:14px;margin:0;
+    font-family:"Fraunces",serif;font-style:italic;
+  }
+  .src{
+    font-family:"Inter",sans-serif;font-size:12.5px;
+    color:#8a7d68;margin-top:16px;line-height:1.45;
+  }
+  .src a{color:#6e6049;}
+
+  /* a place for you to add your own line */
+  .yours{
+    margin-top:16px;padding:12px 14px;
+    border:1.5px dashed var(--biscuit);border-radius:6px;
+    color:var(--biscuit);font-size:15px;font-style:italic;
+  }
+
+  .footer{
+    margin-top:48px;text-align:center;color:#9fb2c9;
+    font-size:15px;line-height:1.6;
+  }
+  .footer .marker{font-family:"Permanent Marker",cursive;color:var(--paper);font-size:20px;}
+
+  @media (prefers-reduced-motion:reduce){
+    .notes.open{animation:none;}
+    button.reveal{transition:none;}
+    .card,.card:nth-child(odd),.card:nth-child(even),.banner{transform:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="banner" role="img" aria-label="A hand-lettered sign reading Believe">Believe</div>
+    <div class="eyebrow">Season 1 &middot; Episode 1</div>
+    <h1>Pilot</h1>
+    <p class="from-me">Hi Mom &mdash; little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode. No spoilers past this one.</p>
+  </header>
+
+  <div class="gate">
+    <p>Watched the Pilot? The notes below give a few things away.</p>
+    <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I&rsquo;ve watched it &mdash; show me the notes</button>
+  </div>
+
+  <section class="notes" id="notes" aria-hidden="true">
+
+    <article class="card">
+      <span class="tag">Belief</span>
+      <h2>The yellow sign over the door</h2>
+      <p class="moment">At the very end, Ted tapes a single hand-lettered word above the locker room door, with Keeley&rsquo;s help: BELIEVE.</p>
+      <p class="idea">There&rsquo;s a real idea behind it. The philosopher William James called it <strong>precursive faith</strong> &mdash; choosing to believe a good thing is possible <em>before</em> there&rsquo;s any proof, because the believing itself helps make it come true. It isn&rsquo;t pretending. It&rsquo;s deciding to act as if the better outcome is reachable.</p>
+      <p class="why">That taped-up sign is the whole show in one word. Everything Ted does for three seasons is an argument for it.</p>
+      <p class="src">William James, &ldquo;The Will to Believe&rdquo; (1896). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 3.</p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Seeing people</span>
+      <h2>He learns the kit man&rsquo;s name</h2>
+      <p class="moment">Ted greets Nate, the equipment manager everyone else walks straight past, by name &mdash; and treats him like he matters.</p>
+      <p class="idea">A tiny moment carrying a big idea: that every person is owed real attention regardless of their rank. Kant called it treating people as ends in themselves, never as just tools to get something done.</p>
+      <p class="why">Keep this one in your back pocket. Where Nate starts in this scene, and where he ends up by Season 3, is one of the show&rsquo;s biggest journeys.</p>
+      <p class="src">Respect for persons (Kantian ethics).</p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Hope vs. naivety</span>
+      <h2>Walking into a hostile room with a smile</h2>
+      <p class="moment">Ted faces a press conference full of people who think he&rsquo;s a joke. He knows almost nothing about the sport, and instead of bluffing, he just stays open and warm.</p>
+      <p class="idea">The show is quietly asking a hard question here: is that kind of relentless optimism just foolish, or is it a discipline? One answer comes from Camus, who argued for a clear-eyed hope &mdash; you see exactly how bad things are, and you choose to hope anyway. Not blindness. A decision.</p>
+      <p class="why">Watch across the season for whether Ted&rsquo;s cheerfulness is real strength or a way of hiding from his own pain. The show doesn&rsquo;t let him off easy.</p>
+      <p class="src">Albert Camus on hope and the absurd. Explored in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 15.</p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Revenge or justice</span>
+      <h2>Why Rebecca really hired him</h2>
+      <p class="moment">After defending Ted in public, Rebecca admits in private that she hired him hoping he&rsquo;ll <em>fail</em> &mdash; to ruin the one thing her ex-husband loves.</p>
+      <p class="idea">This is one of the oldest questions in ethics: is revenge ever just? Rebecca feels she&rsquo;s owed it. The series slowly draws a line between wanting someone to suffer and wanting a wrong made right &mdash; and they turn out to be very different things.</p>
+      <p class="why">Rebecca is the show&rsquo;s deepest redemption story. This scene is her at her lowest, on purpose, so you can see how far she travels.</p>
+      <p class="src">Revenge vs. justice; see <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 20.</p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Small kindnesses</span>
+      <h2>Biscuits with the Boss</h2>
+      <p class="moment">Ted starts bringing Rebecca a little pink box of biscuits every single morning, a ritual he names &ldquo;Biscuits with the Boss.&rdquo;</p>
+      <p class="idea">It looks like nothing. But it&rsquo;s an argument the whole show believes in: that trust gets built through small, consistent, unconditional gestures, not grand ones &mdash; and he keeps doing it for someone who is secretly working against him.</p>
+      <p class="why">That little box is the thread that eventually unravels her whole plan. (And keep watching &mdash; you find out he bakes them himself.)</p>
+      <p class="src">&mdash;</p>
+      <p class="yours">A spot for your own note, Mom &mdash; tell me which moment got you.</p>
+    </article>
+
+  </section>
+
+  <div class="footer">
+    <p>That&rsquo;s the Pilot. The famous darts scene &mdash; &ldquo;be curious, not judgmental&rdquo; &mdash; is still coming. It&rsquo;s the Season 1 finale, so something to look forward to.</p>
+    <p class="marker">On to Episode 2.</p>
+  </div>
+
+</div>
+
+<script>
+  (function(){
+    var btn = document.getElementById('revealBtn');
+    var notes = document.getElementById('notes');
+    btn.addEventListener('click', function(){
+      notes.classList.add('open');
+      notes.setAttribute('aria-hidden','false');
+      btn.setAttribute('aria-expanded','true');
+      btn.style.display = 'none';
+      notes.scrollIntoView({behavior: (window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto':'smooth'), block:'start'});
+    });
+  })();
+</script>
+</body>
+</html>

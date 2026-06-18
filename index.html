@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Believe — Ted Lasso, Season 1</title>
+<meta name="description" content="Little notes on the deeper stuff hiding under the jokes in Ted Lasso, Season 1.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1b2330;          /* locker room at dusk */
+    --bg-2:#222c3c;
+    --paper:#f3e8d0;       /* aged note paper */
+    --paper-edge:#e6d6b6;
+    --ink:#241d16;         /* marker ink */
+    --ink-soft:#5a4f40;
+    --pitch:#3a7d44;       /* the idea: pitch green */
+    --biscuit:#c76b7d;     /* a note from you */
+    --tape:rgba(236,226,198,.45);
+  }
+  *{box-sizing:border-box;}
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0;
+    background:
+      radial-gradient(120% 80% at 50% -10%, var(--bg-2), var(--bg) 60%);
+    color:var(--paper);
+    font-family:"Newsreader",Georgia,serif;
+    font-size:19px;
+    line-height:1.6;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:620px;margin:0 auto;}
+
+  /* ---- Signature: the taped BELIEVE banner ---- */
+  header{padding:54px 0 8px;text-align:center;}
+  .banner{
+    display:inline-block;
+    position:relative;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Permanent Marker",cursive;
+    font-size:clamp(40px,12vw,72px);
+    letter-spacing:2px;
+    padding:18px 42px 14px;
+    transform:rotate(-2.2deg);
+    box-shadow:0 14px 34px rgba(0,0,0,.45);
+    border-radius:2px;
+  }
+  .banner::before,.banner::after{
+    content:"";position:absolute;width:62px;height:24px;
+    background:var(--tape);
+    box-shadow:0 1px 2px rgba(0,0,0,.25);
+  }
+  .banner::before{top:-12px;left:-14px;transform:rotate(-26deg);}
+  .banner::after{bottom:-12px;right:-14px;transform:rotate(-24deg);}
+
+  .from-me{
+    color:#cdd7e3;font-style:italic;text-align:center;
+    max-width:30em;margin:22px auto 6px;
+  }
+
+  /* ---- Episode picker ---- */
+  .picker{margin:28px 0 6px;text-align:center;}
+  .picker label{
+    display:block;
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:13px;letter-spacing:.18em;text-transform:uppercase;
+    color:#9fb2c9;margin:0 0 10px;
+  }
+  .picker select{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:17px;
+    color:var(--ink);background:var(--paper);
+    border:none;border-radius:12px;
+    padding:14px 44px 14px 18px;
+    min-height:48px;width:100%;max-width:420px;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    -webkit-appearance:none;appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%23241d16' d='M4 6l4 4 4-4z'/></svg>");
+    background-repeat:no-repeat;
+    background-position:right 16px center;
+  }
+  .picker select:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+
+  .eyebrow{
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:13px;letter-spacing:.18em;text-transform:uppercase;
+    color:#9fb2c9;margin:40px 0 6px;text-align:center;
+  }
+  h1{
+    font-family:"Fraunces",serif;font-weight:900;
+    font-size:clamp(38px,9vw,56px);line-height:1.02;
+    margin:0 0 14px;text-align:center;color:#fff;
+  }
+  .ep-intro{
+    color:#cdd7e3;font-style:italic;text-align:center;
+    max-width:32em;margin:0 auto 6px;
+  }
+
+  /* ---- Spoiler gate ---- */
+  .gate{text-align:center;margin:34px 0 6px;}
+  .gate p{color:#9fb2c9;font-size:16px;margin:0 0 16px;}
+  button.reveal{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:17px;
+    color:var(--ink);background:var(--paper);
+    border:none;border-radius:999px;
+    padding:14px 26px;min-height:48px;cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.4);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  button.reveal:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.5);}
+  button.reveal:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+
+  .notes{display:none;}
+  .notes.open{display:block;animation:rise .5s ease both;}
+  @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+
+  /* ---- The torn-paper notes ---- */
+  .card{
+    position:relative;
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:3px;
+    padding:30px 28px 26px;
+    margin:30px 0;
+    box-shadow:0 12px 30px rgba(0,0,0,.4);
+  }
+  .card:nth-child(odd){transform:rotate(-.5deg);}
+  .card:nth-child(even){transform:rotate(.5deg);}
+  .card::before{
+    content:"";position:absolute;top:-11px;left:50%;
+    width:84px;height:22px;margin-left:-42px;
+    background:var(--tape);transform:rotate(1.5deg);
+    box-shadow:0 1px 2px rgba(0,0,0,.2);
+  }
+  .tag{
+    display:inline-block;
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:#fff;background:var(--pitch);
+    padding:4px 11px;border-radius:999px;margin-bottom:14px;
+  }
+  .card h2{
+    font-family:"Fraunces",serif;font-weight:600;
+    font-size:25px;line-height:1.15;margin:0 0 12px;color:var(--ink);
+  }
+  .card .moment{color:var(--ink-soft);margin:0 0 14px;}
+  .card .idea{margin:0 0 14px;}
+  .card .why{
+    border-left:3px solid var(--pitch);
+    padding-left:14px;margin:0;
+    font-family:"Fraunces",serif;font-style:italic;
+  }
+  .src{
+    font-family:"Inter",sans-serif;font-size:12.5px;
+    color:#8a7d68;margin-top:16px;line-height:1.45;
+  }
+  .src a{color:#6e6049;}
+
+  /* a place for her to add her own line */
+  .yours{
+    margin-top:16px;padding:14px 14px 12px;
+    border:1.5px dashed var(--biscuit);border-radius:6px;
+  }
+  .yours label{
+    display:block;
+    font-family:"Inter",sans-serif;font-weight:600;
+    font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--biscuit);margin:0 0 8px;
+  }
+  .yours textarea{
+    width:100%;min-height:70px;resize:vertical;
+    font-family:"Newsreader",Georgia,serif;font-size:16px;
+    font-style:italic;line-height:1.5;
+    color:var(--ink);background:rgba(255,255,255,.5);
+    border:1px solid var(--paper-edge);border-radius:5px;
+    padding:10px 12px;
+  }
+  .yours textarea:focus-visible{outline:2px solid var(--biscuit);outline-offset:1px;}
+  .yours-row{
+    display:flex;align-items:center;gap:12px;margin-top:10px;
+  }
+  .yours button{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;
+    color:#fff;background:var(--biscuit);
+    border:none;border-radius:999px;
+    padding:10px 20px;min-height:44px;cursor:pointer;
+  }
+  .yours button:focus-visible{outline:3px solid var(--pitch);outline-offset:2px;}
+  .saved{
+    font-family:"Inter",sans-serif;font-size:13px;
+    color:var(--pitch);font-weight:600;
+    opacity:0;transition:opacity .2s ease;
+  }
+  .saved.show{opacity:1;}
+
+  /* ---- Copy all notes ---- */
+  .toolbar{text-align:center;margin:36px 0 0;}
+  button.copy-all{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:15px;
+    color:var(--paper);background:transparent;
+    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
+    padding:12px 22px;min-height:44px;cursor:pointer;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  button.copy-all:hover{border-color:rgba(243,232,208,.8);background:rgba(243,232,208,.06);}
+  button.copy-all:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+  .copy-status{
+    display:block;margin-top:12px;min-height:18px;
+    font-family:"Inter",sans-serif;font-size:13px;color:#9fb2c9;
+  }
+
+  .footer{
+    margin-top:42px;text-align:center;color:#9fb2c9;
+    font-size:15px;line-height:1.6;
+  }
+  .footer .marker{font-family:"Permanent Marker",cursive;color:var(--paper);font-size:20px;}
+
+  .note-tip{
+    margin-top:30px;text-align:center;
+    font-family:"Inter",sans-serif;font-size:12.5px;
+    color:#7e8ea3;line-height:1.5;
+  }
+
+  /* ---- Load error ---- */
+  .loaderr{
+    display:none;background:var(--paper);color:var(--ink);
+    border-radius:8px;padding:22px 24px;margin:30px 0;
+    text-align:center;box-shadow:0 12px 30px rgba(0,0,0,.4);
+  }
+  .loaderr.show{display:block;}
+
+  @media (prefers-reduced-motion:reduce){
+    .notes.open{animation:none;}
+    button.reveal{transition:none;}
+    .card,.card:nth-child(odd),.card:nth-child(even),.banner{transform:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="banner" role="img" aria-label="A hand-lettered sign reading Believe">Believe</div>
+
+    <div class="picker">
+      <label for="epPicker">Pick an episode</label>
+      <select id="epPicker" aria-label="Pick an episode"></select>
+    </div>
+
+    <p class="from-me" id="fromMom">Hi Mom — little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode.</p>
+  </header>
+
+  <main>
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="epTitle"></h1>
+    <p class="ep-intro" id="epIntro" hidden></p>
+
+    <div class="loaderr" id="loadError">
+      <p style="margin:0">Couldn’t load the episodes — check the connection and try again.</p>
+    </div>
+
+    <div class="gate" id="gate" hidden>
+      <p id="gateText">Watched it? The notes below give a few things away.</p>
+      <button class="reveal" id="revealBtn" aria-expanded="false" aria-controls="notes">I’ve watched it — show me the notes</button>
+    </div>
+
+    <section class="notes" id="notes" aria-hidden="true" aria-live="polite"></section>
+
+    <div class="toolbar" id="toolbar" hidden>
+      <button class="copy-all" id="copyAllBtn">Copy all my notes</button>
+      <span class="copy-status" id="copyStatus" role="status" aria-live="polite"></span>
+    </div>
+
+    <div class="footer" id="footer" hidden></div>
+
+    <p class="note-tip">Your notes are saved on this phone, in this browser only. The “Copy all my notes” button is your backup — paste it somewhere safe now and then.</p>
+  </main>
+
+</div>
+
+<script>
+  (function(){
+    "use strict";
+
+    var NOTE_PREFIX = "believe:note:";
+    var LAST_EP_KEY = "believe:lastEpisode";
+
+    var els = {
+      fromMom: document.getElementById("fromMom"),
+      picker: document.getElementById("epPicker"),
+      eyebrow: document.getElementById("eyebrow"),
+      title: document.getElementById("epTitle"),
+      intro: document.getElementById("epIntro"),
+      loadError: document.getElementById("loadError"),
+      gate: document.getElementById("gate"),
+      gateText: document.getElementById("gateText"),
+      revealBtn: document.getElementById("revealBtn"),
+      notes: document.getElementById("notes"),
+      toolbar: document.getElementById("toolbar"),
+      copyAllBtn: document.getElementById("copyAllBtn"),
+      copyStatus: document.getElementById("copyStatus"),
+      footer: document.getElementById("footer")
+    };
+
+    var DATA = null;
+    var currentEpisode = null;
+
+    var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function escapeHtml(s){
+      return String(s)
+        .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;");
+    }
+
+    function noteKey(id){ return NOTE_PREFIX + id; }
+
+    function getNote(id){
+      try { return localStorage.getItem(noteKey(id)) || ""; }
+      catch(e){ return ""; }
+    }
+    function setNote(id, val){
+      try {
+        if (val && val.length) localStorage.setItem(noteKey(id), val);
+        else localStorage.removeItem(noteKey(id));
+      } catch(e){ /* storage unavailable / full — silently ignore */ }
+    }
+
+    function isPlaceholder(card){
+      return card.tag === "Coming soon" || /-placeholder$/.test(card.id || "");
+    }
+
+    // ---- Build the episode picker ----
+    function buildPicker(){
+      var frag = document.createDocumentFragment();
+      DATA.episodes.forEach(function(ep){
+        var opt = document.createElement("option");
+        opt.value = String(ep.number);
+        opt.textContent = ep.number + ". " + ep.title;
+        frag.appendChild(opt);
+      });
+      els.picker.appendChild(frag);
+      els.picker.addEventListener("change", function(){
+        selectEpisode(parseInt(els.picker.value, 10));
+      });
+    }
+
+    // ---- Render one card into the notes section ----
+    function buildCard(card){
+      var article = document.createElement("article");
+      article.className = "card";
+
+      var html = "";
+      if (card.tag) html += '<span class="tag">' + escapeHtml(card.tag) + '</span>';
+      if (card.title) html += '<h2></h2>';
+      if (card.moment) html += '<p class="moment"></p>';
+      if (card.idea) html += '<p class="idea"></p>';
+      if (card.why) html += '<p class="why"></p>';
+      if (card.source && card.source !== "") html += '<p class="src"></p>';
+      article.innerHTML = html;
+
+      // Rich text fields are author-written (trusted); inject as HTML to keep <em>/<strong>.
+      if (card.title) article.querySelector("h2").innerHTML = card.title;
+      if (card.moment) article.querySelector(".moment").innerHTML = card.moment;
+      if (card.idea) article.querySelector(".idea").innerHTML = card.idea;
+      if (card.why) article.querySelector(".why").innerHTML = card.why;
+      if (card.source && card.source !== "") article.querySelector(".src").innerHTML = card.source;
+
+      if (!isPlaceholder(card)) article.appendChild(buildNoteBox(card));
+      return article;
+    }
+
+    // ---- The personal note editor (pink dashed box) ----
+    function buildNoteBox(card){
+      var box = document.createElement("div");
+      box.className = "yours";
+
+      var labelId = "lbl-" + card.id;
+      var label = document.createElement("label");
+      label.id = labelId;
+      label.setAttribute("for", "ta-" + card.id);
+      label.textContent = "Your note, Mom";
+
+      var ta = document.createElement("textarea");
+      ta.id = "ta-" + card.id;
+      ta.setAttribute("aria-labelledby", labelId);
+      ta.placeholder = "Tell me which moment got you…";
+      ta.value = getNote(card.id);
+
+      var row = document.createElement("div");
+      row.className = "yours-row";
+
+      var saveBtn = document.createElement("button");
+      saveBtn.type = "button";
+      saveBtn.textContent = "Save";
+
+      var saved = document.createElement("span");
+      saved.className = "saved";
+      saved.textContent = "Saved ✓";
+
+      var savedTimer = null;
+      function confirmSaved(){
+        saved.classList.add("show");
+        if (savedTimer) clearTimeout(savedTimer);
+        savedTimer = setTimeout(function(){ saved.classList.remove("show"); }, 1800);
+      }
+      function doSave(){
+        setNote(card.id, ta.value.trim());
+        confirmSaved();
+      }
+
+      saveBtn.addEventListener("click", doSave);
+      ta.addEventListener("blur", function(){ setNote(card.id, ta.value.trim()); });
+
+      row.appendChild(saveBtn);
+      row.appendChild(saved);
+      box.appendChild(label);
+      box.appendChild(ta);
+      box.appendChild(row);
+      return box;
+    }
+
+    // ---- Switch to an episode: always re-gate ----
+    function selectEpisode(number){
+      var ep = null;
+      for (var i = 0; i < DATA.episodes.length; i++){
+        if (DATA.episodes[i].number === number){ ep = DATA.episodes[i]; break; }
+      }
+      if (!ep) return;
+      currentEpisode = ep;
+
+      try { localStorage.setItem(LAST_EP_KEY, String(number)); } catch(e){}
+      if (els.picker.value !== String(number)) els.picker.value = String(number);
+
+      // Title block
+      els.eyebrow.textContent = "Season " + DATA.season + " · Episode " + ep.number;
+      els.title.textContent = ep.title;
+      if (ep.intro && ep.intro !== ""){
+        els.intro.textContent = ep.intro;
+        els.intro.hidden = false;
+      } else {
+        els.intro.hidden = true;
+        els.intro.textContent = "";
+      }
+
+      // Re-gate: hide cards, reset reveal button every switch
+      els.notes.className = "notes";
+      els.notes.setAttribute("aria-hidden", "true");
+      els.notes.innerHTML = "";
+      els.toolbar.hidden = true;
+      els.copyStatus.textContent = "";
+
+      var placeholderOnly = ep.cards.length === 1 && isPlaceholder(ep.cards[0]);
+
+      // Pre-build cards (kept hidden by the section until revealed)
+      var frag = document.createDocumentFragment();
+      ep.cards.forEach(function(card){ frag.appendChild(buildCard(card)); });
+      els.notes.appendChild(frag);
+
+      // Footer
+      if (ep.footer && ep.footer !== ""){
+        els.footer.innerHTML = "<p>" + ep.footer + "</p>";
+        els.footer.hidden = false;
+      } else {
+        els.footer.hidden = true;
+        els.footer.innerHTML = "";
+      }
+
+      if (placeholderOnly){
+        // No spoilers to gate — show the "coming soon" note straight away.
+        els.gate.hidden = true;
+        revealNotes(false);
+        els.toolbar.hidden = true; // nothing to copy yet
+      } else {
+        els.gate.hidden = false;
+        els.revealBtn.style.display = "";
+        els.revealBtn.setAttribute("aria-expanded", "false");
+        els.gateText.textContent = "Watched " + ep.title + "? The notes below give a few things away.";
+      }
+    }
+
+    function revealNotes(scroll){
+      els.notes.classList.add("open");
+      els.notes.setAttribute("aria-hidden", "false");
+      els.revealBtn.setAttribute("aria-expanded", "true");
+      els.revealBtn.style.display = "none";
+      // Only show the copy button when there are real notes to copy.
+      var placeholderOnly = currentEpisode.cards.length === 1 && isPlaceholder(currentEpisode.cards[0]);
+      els.toolbar.hidden = placeholderOnly;
+      if (scroll){
+        els.notes.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+      }
+    }
+
+    els.revealBtn.addEventListener("click", function(){ revealNotes(true); });
+
+    // ---- Copy all notes across the whole season ----
+    function gatherNotesText(){
+      var lines = ["My Believe notes — Ted Lasso, Season " + DATA.season, ""];
+      var any = false;
+      DATA.episodes.forEach(function(ep){
+        var epLines = [];
+        ep.cards.forEach(function(card){
+          if (isPlaceholder(card)) return;
+          var note = getNote(card.id).trim();
+          if (note){
+            var title = (card.title || "").replace(/<[^>]*>/g, "");
+            epLines.push("  • " + title + ": " + note);
+          }
+        });
+        if (epLines.length){
+          any = true;
+          lines.push("Episode " + ep.number + " — " + ep.title);
+          lines = lines.concat(epLines);
+          lines.push("");
+        }
+      });
+      if (!any) return "";
+      return lines.join("\n").trim() + "\n";
+    }
+
+    function showCopyStatus(msg){
+      els.copyStatus.textContent = msg;
+    }
+
+    els.copyAllBtn.addEventListener("click", function(){
+      var text = gatherNotesText();
+      if (!text){
+        showCopyStatus("No notes yet — jot one on a card first.");
+        return;
+      }
+      function fallbackCopy(){
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "absolute";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch(e){ ok = false; }
+        document.body.removeChild(ta);
+        showCopyStatus(ok ? "Copied ✓ — paste it somewhere safe." : "Couldn’t copy automatically — select and copy manually.");
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){
+          showCopyStatus("Copied ✓ — paste it somewhere safe.");
+        }, fallbackCopy);
+      } else {
+        fallbackCopy();
+      }
+    });
+
+    // ---- Boot ----
+    function start(){
+      if (DATA.fromMom) els.fromMom.textContent = DATA.fromMom;
+      buildPicker();
+      var startNum = DATA.episodes[0].number;
+      try {
+        var saved = localStorage.getItem(LAST_EP_KEY);
+        if (saved){
+          var n = parseInt(saved, 10);
+          if (DATA.episodes.some(function(e){ return e.number === n; })) startNum = n;
+        }
+      } catch(e){}
+      selectEpisode(startNum);
+    }
+
+    fetch("./episodes.json", { cache: "no-cache" })
+      .then(function(res){
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function(json){
+        DATA = json;
+        start();
+      })
+      .catch(function(){
+        els.loadError.classList.add("show");
+        els.gate.hidden = true;
+      });
+  })();
+</script>
+</body>
+</html>
