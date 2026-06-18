@@ -84,15 +84,23 @@ unaffected). The thresholds live at the top of the script in `index.html`
 (`GROUNDING_MIN`, `DEFAULT_INTEREST`). None of this metadata is shown to the
 reader — it only decides *which* cards appear and *in what order*.
 
-### The grounding reviewer (`.claude/agents/grounding-reviewer.md`)
+### The fact pipeline (Claude Code skills)
 
-An independent Claude Code subagent that fact-checks cards against the open web
-(via `WebSearch`/`WebFetch`) and fills in the scores above. It verifies both the
-philosophical attribution and the show/episode placement, and withholds rather
-than inflates anything it can't corroborate. Invoke it from Claude Code after
-adding or editing cards:
+Two skills in `.claude/skills/` turn an episode into shippable cards, with an
+independent verification step in the middle (contract: `docs/facts-schema.md`):
 
-> Use the grounding-reviewer agent to verify and score the new cards in episodes.json.
+- **`episode-fact-hunter`** — breadth/discovery → `research/<ep>.candidates.json`.
+- **`grounding-reviewer`** — independently re-verifies every claim from primary
+  sources (via `WebSearch`/`WebFetch`), scores and ranks, gates inclusion, and
+  drafts ready-to-paste cards → `research/<ep>.reviewed.json`. It withholds
+  rather than inflates anything it can't corroborate.
+
+Invoke from Claude Code:
+
+> /episode-fact-hunter s1e2
+> /grounding-reviewer s1e2
+
+Then a human promotes the `include: true` cards into `episodes.json`.
 
 ## Running locally
 

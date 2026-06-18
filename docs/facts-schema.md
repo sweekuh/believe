@@ -1,7 +1,7 @@
 # Facts schema — the binding contract for the research pipeline
 
-Two agents turn an episode into shippable cards, with an independent
-verification step in the middle:
+Two skills (`.claude/skills/`) turn an episode into shippable cards, with an
+independent verification step in the middle:
 
 ```
 episode-fact-hunter        grounding-reviewer                 (human / curation)
@@ -167,7 +167,7 @@ excluded, not ranked highly.
 
 ---
 
-## Hard rules (both agents)
+## Hard rules (both skills)
 
 - **Paraphrase the show. Never reproduce dialogue.** Any source quote < 15 words.
 - **Never invent a fact, source, attribution, verdict, or score.** A missing
