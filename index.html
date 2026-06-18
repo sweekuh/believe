@@ -289,6 +289,12 @@
     var NOTE_PREFIX = "believe:note:";
     var LAST_EP_KEY = "believe:lastEpisode";
 
+    // Display contract for the grounding-reviewer's scores: withhold weakly-grounded
+    // cards from the reader, and show the rest most-interesting-first. Cards with no
+    // scores (placeholders, unscored older cards) are kept and sort neutrally.
+    var GROUNDING_MIN = 3;     // cards with grounding < this are not shown
+    var DEFAULT_INTEREST = 3;  // used when a card has no interest score
+
     var els = {
       fromMom: document.getElementById("fromMom"),
       picker: document.getElementById("epPicker"),
@@ -424,6 +430,22 @@
       return box;
     }
 
+    // Apply the display contract: drop weak-grounding cards, then sort by interest
+    // (highest first), stably. Unscored cards are kept and sort neutrally, so the
+    // older E1 cards and the "coming soon" placeholders keep working unchanged.
+    function displayCards(ep){
+      return ep.cards
+        .filter(function(card){
+          return typeof card.grounding !== "number" || card.grounding >= GROUNDING_MIN;
+        })
+        .map(function(card, i){
+          return { card: card, i: i,
+            interest: (typeof card.interest === "number" ? card.interest : DEFAULT_INTEREST) };
+        })
+        .sort(function(a, b){ return (b.interest - a.interest) || (a.i - b.i); })
+        .map(function(x){ return x.card; });
+    }
+
     // ---- Switch to an episode: always re-gate ----
     function selectEpisode(number){
       var ep = null;
@@ -456,9 +478,9 @@
 
       var placeholderOnly = ep.cards.length === 1 && isPlaceholder(ep.cards[0]);
 
-      // Pre-build cards (kept hidden by the section until revealed)
+      // Pre-build cards (kept hidden by the section until revealed), best first
       var frag = document.createDocumentFragment();
-      ep.cards.forEach(function(card){ frag.appendChild(buildCard(card)); });
+      displayCards(ep).forEach(function(card){ frag.appendChild(buildCard(card)); });
       els.notes.appendChild(frag);
 
       // Footer
