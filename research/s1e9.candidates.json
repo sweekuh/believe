@@ -1,0 +1,172 @@
+{
+  "episode": { "season": 1, "number": 9, "title": "All Apologies" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "DEDUP: episodes.json already ships ONE verified E9 card -- s1e9-ted-vs-beard ('Winning vs. growth'), covering Coach Beard breaking ranks to challenge Ted over benching Roy, mapped to Ted Lasso and Philosophy ch. 12 'Who Is Right, Ted or Beard?'. NONE of the candidates below reuse that Beard-vs-Ted winning/growth angle. The candidates cover distinct beats: the Nirvana title, Rebecca's confession + Ted's radical forgiveness (grace), the Keeley/Phoebe identity scene, Rupert/Bex pregnancy as the trigger, Roy's benching being about age/decline rather than a new injury, the Rebecca->Higgins apology chain, and production trivia (first writing/directing credits). WEBFETCH STATUS: WebFetch returned a GLOBAL HTTP 403 on every URL attempted this session (Wikipedia, TV Tropes), exactly as the briefing warned. Every fact below is therefore corroborated across MULTIPLE independent WebSearch result summaries rather than a single fetched page; hunter_confidence is capped accordingly (mostly 'medium'; 'high' only for widely-attested facts; 'low' for the claim that the title was a DELIBERATE Nirvana nod). The reviewer should open the cited URLs directly. PLACEMENT CHECK: every moment below was confirmed to occur in S1E9 'All Apologies' across at least two independent E9-specific recaps (readysteadycut E9, showsnob E9, Lady Geeks E9 review, lassoism E9, Wikipedia E9). The final relegation match vs. Manchester City is E10 'The Hope That Kills You', NOT this episode -- E9 ends with Roy accepting the bench, the match itself is next episode. Paraphrase only; no dialogue reproduced. ATTRIBUTION FLAGS called out inline (Nirvana title intent; ch.12 already carded so excluded).",
+  "candidates": [
+    {
+      "id": "s1e9-title-nirvana-all-apologies",
+      "type": "reference",
+      "title": "The title shares its name with a Nirvana song",
+      "detail": "'All Apologies' is the title of the closing track on Nirvana's 1993 album In Utero, written by Kurt Cobain; it was released as a double A-side single with 'Rape Me' in December 1993 and was Nirvana's final single before Cobain's death in April 1994. The episode is wall-to-wall apology and reconciliation (Rebecca to Ted, Rebecca to Higgins), so the song title fits the hour's theme exactly. FLAG for reviewer: the SONG is a verified, famous fact, but I did NOT locate an authoritative writers'-room/creator statement confirming the episode was DELIBERATELY named after the Nirvana track. Several recaps assert the connection, but treat the 'intentional homage' as a strong-but-unconfirmed allusion, not settled fact. (Note for context: the very next episode, E10, is titled 'The Hope That Kills You', which is a football fan saying rather than a Nirvana song -- so this is not a confirmed season-wide 'all titles are Nirvana' pattern.)",
+      "moment": "The episode title 'All Apologies' echoes the closing song of Nirvana's In Utero, an apt frame for an hour built almost entirely around people apologizing and being forgiven.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/All_Apologies", "note": "Nirvana's 'All Apologies': written by Cobain, closing track of In Utero (1993), final single before his death" },
+        { "url": "https://americansongwriter.com/the-meaning-behind-all-apologies-by-nirvana-kurt-cobains-final-single/", "note": "Background and themes of regret/reconciliation in the Nirvana song" },
+        { "url": "https://grokipedia.com/page/All_Apologies_(Ted_Lasso)", "note": "Asserts the episode title draws from the Nirvana song; supports the thematic link (treat intent claim as unconfirmed)" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-rebecca-confession-ted-forgives",
+      "type": "theme",
+      "title": "Rebecca confesses, and Ted forgives instantly",
+      "detail": "The emotional center of the episode: Rebecca walks into Ted's office and confesses that she hired him hoping he would fail, that she was behind the paparazzo photos, and that she engineered Jamie Tartt's transfer back to Manchester City -- all to wound her ex-husband Rupert by ruining the club he loved. Ted's response is immediate forgiveness; he frames it through the pain of divorce, saying (paraphrased) that divorce can make people do crazy things, and that whether you do the leaving or get left, it hurts. The scene is widely read as the show's clearest statement of radical, no-strings forgiveness/grace -- mercy offered to a vulnerable person who fully expected condemnation. This is the title beat ('all apologies').",
+      "moment": "Rebecca, shaken after Rupert's visit, lays out every way she tried to sabotage Ted and the club; rather than retaliate, Ted forgives her on the spot, empathizing with the wreckage of a divorce.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/", "note": "E9 recap: Rebecca confesses the sabotage (paparazzo, Jamie transfer) and Ted forgives her, citing divorce" },
+        { "url": "https://ladygeeksmedia.com/2021/03/25/scene-breakdown-rebeccas-apology-and-forgiveness-on-ted-lassos-all-apologies/", "note": "Scene breakdown of the confession/forgiveness exchange and its framing as grace/mercy" },
+        { "url": "https://patrickemclean.substack.com/p/ted-lasso-rebecca-confesses-ted-forgives", "note": "Essay analyzing Ted's radical forgiveness in this scene" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-forgiveness-as-grace-community",
+      "type": "philosophy",
+      "title": "Forgiveness as grace: mercy when you hold the power",
+      "detail": "The forgiveness scene is a natural philosophy card distinct from the carded Beard-vs-Ted debate. Commentators frame Ted's act as grace -- mercy extended to a vulnerable person who is, in that moment, entirely in your power, and who expected punishment. A recurring reading is that genuine community is impossible without forgiveness, and that the show's vision leans toward the model in which wrongs between people must be forgiven by the people wronged (forgiveness sought from and granted by humans, not deferred to fate). This connects to the factsheet's redemption/accountability thread (ch.20) and Augustine's ordo amoris (ch.1, misordered love -- Rebecca's revenge ordered above her own flourishing). FLAG for reviewer: the 'grace' and 'community needs forgiveness' framings come from essayists/recappers, not a peer-reviewed Ted Lasso and Philosophy chapter I could pin to THIS scene; verify whether any specific book chapter treats the E9 confession before attributing it to the Wiley volume. Do NOT attribute to Augustine on screen -- that is an interpretive mapping, not something the episode states.",
+      "moment": "Ted chooses mercy over leverage at the exact moment he has every right to retaliate, modeling forgiveness as the thing that lets a fractured group become a real community.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2021/03/25/scene-breakdown-rebeccas-apology-and-forgiveness-on-ted-lassos-all-apologies/", "note": "Frames the forgiveness as mercy/grace to a vulnerable person in one's power" },
+        { "url": "https://markoppenheimer.substack.com/p/ted-lasso-shrinking-brett-goldstein", "note": "Essay on the power of forgiveness in Ted Lasso; the human-to-human model of forgiveness" },
+        { "url": "https://www.thingsofthesort.com/blog/2023/11/6/the-radical-power-of-forgiveness", "note": "On the radical/communal power of forgiveness in the show" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-keeley-phoebe-roy-identity",
+      "type": "philosophy",
+      "title": "Phoebe's list: you are not your job",
+      "detail": "Facing the bench and terrified of becoming a washed-up has-been, Roy spirals about being seen as nothing but a fading footballer. Keeley defuses it by having Roy's young niece Phoebe list everything she thinks about her Uncle Roy: he's funny, he swears a lot, he has a scratchy beard, and she loves him -- and she never once mentions football. Keeley's point is that Roy has no idea what people actually think of him, and that what ultimately matters is what Roy believes about himself. It's a quietly profound beat about identity not being reducible to your role/career, and it rhymes with the show's central 'Believe' motif turned inward (self-belief). Distinct from the carded winning-vs-growth debate.",
+      "moment": "Worried he is only 'Roy Kent the footballer', Roy listens as Phoebe describes her uncle without mentioning football at all; Keeley uses it to show that his worth -- and what people love about him -- was never the career.",
+      "sources": [
+        { "url": "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/", "note": "E9 recap of the Keeley/Phoebe scene: Phoebe's list omits football; what matters is what Roy believes about himself" },
+        { "url": "https://ladygeeksmedia.com/2021/07/21/ted-lasso-1x09-all-apologies-review/", "note": "E9 review covering Roy's benching fear and the identity-beyond-football beat" },
+        { "url": "https://ted-lasso.fandom.com/wiki/All_Apologies", "note": "Episode summary including Roy/Keeley/Phoebe storyline" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-roy-benched-age-not-injury",
+      "type": "callback",
+      "title": "Roy is benched for decline -- and Ted offers the 'injury' cover",
+      "detail": "A precise-placement note worth a card because it's easy to misremember: in E9 Roy is NOT freshly injured. He is benched for the upcoming final match because his age and declining form are showing in training; Beard and Nate push for it and Trent Crimm probes Ted about Roy's recent bad games. Ted, to spare Roy's pride, offers to publicly say Roy is injured so no one knows he was dropped -- explicitly believable BECAUSE Roy had a real injury earlier in the season (a callback to his earlier knee/leg trouble), but says he hopes Roy won't take the cover. The next morning Roy shows up to training and accepts the bench. So 'Roy's knee/injury' in E9 is a referenced PAST injury used as a face-saving option, not a new one. FLAG for reviewer: confirm the earlier-season injury reference is to Roy specifically and verify the exact prior episode if you want to cite the callback target precisely.",
+      "moment": "With Roy's form slipping before the big match, Ted offers to tell the world Roy is hurt -- plausible only because of an earlier real injury -- so being dropped looks like being injured; Roy ultimately shows up and takes the bench honestly.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/", "note": "E9 recap: Roy benched for age/form; Ted offers the fake-injury cover, believable due to an earlier injury; Roy comes to practice next day" },
+        { "url": "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/", "note": "E9 recap confirming Roy benched for decline and the injury-cover offer" },
+        { "url": "https://en.wikipedia.org/wiki/All_Apologies_(Ted_Lasso)", "note": "Plot: Roy's age showing, calls to bench him; Beard/Nate vs. Ted" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-rupert-bex-pregnancy-trigger",
+      "type": "callback",
+      "title": "Rupert's baby news is what breaks Rebecca",
+      "detail": "Rebecca's confession doesn't come from nowhere -- it's triggered by Rupert turning up to gloat that he and his much-younger partner Bex are expecting a baby. The cruelty is pointed: during their marriage Rupert told Rebecca he never wanted children, and now he reveals that wasn't true -- he just didn't want them WITH her. This collapses the entire premise of Rebecca's revenge: she realizes hurting the club has done nothing to wound Rupert or heal herself, which is exactly what drives her to come clean to Ted. Pairs with the confession card as cause-and-effect, and sets up Rebecca's larger redemption/Stoic arc (factsheet ch.18).",
+      "moment": "Rupert arrives to announce Bex's pregnancy and twists the knife about never having wanted kids with Rebecca; the blow makes Rebecca see her sabotage was pointless, pushing her to confess.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/All_Apologies", "note": "Rupert tells Rebecca he is having a baby with Bex despite once saying he never wanted children" },
+        { "url": "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/", "note": "E9 recap: the pregnancy reveal precipitates Rebecca's realization and confession" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Bex", "note": "Bex's pregnancy storyline in this episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-rebecca-apologizes-to-higgins",
+      "type": "callback",
+      "title": "Forgiveness ripples: Rebecca apologizes to Higgins",
+      "detail": "Ted's forgiveness doesn't end with Ted -- it propagates. Moved by being forgiven, Rebecca seeks out Higgins to apologize for how badly she treated him while she was scheming (Higgins had earlier been pulled into and recoiled from her plots). He accepts, and notes she's becoming herself again. It's a small structural payoff that makes the episode's title plural ('All Apologies'): the hour is a chain of apology and reconciliation, and it pays back Higgins's earlier discomfort with Rebecca's sabotage. Reinforces the 'forgiveness builds community' reading.",
+      "moment": "After Ted forgives her, Rebecca goes to Higgins to own how poorly she treated him during her scheming; he forgives her and recognizes the return of the person she used to be.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/All_Apologies", "note": "Ted's forgiveness prompts Rebecca to apologize to Higgins, which he accepts" },
+        { "url": "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-10e", "note": "Analysis of Rebecca's apology chain, including to Higgins" },
+        { "url": "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/", "note": "E9 recap noting the spread of apologies" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-keeley-why-it-matters-to-me",
+      "type": "theme",
+      "title": "Keeley: it matters because it matters to me",
+      "detail": "Keeley is the moral nudge that gets Rebecca to confess. When Rebecca, wavering, asks why it even matters anymore whether Ted knows about her role in the paparazzo photos, Keeley's answer reframes the stakes: it matters because it matters to HER -- their friendship can't sit on a hidden betrayal. It's a quietly important beat about honesty as the price of real friendship, and it positions Keeley (often read as the show's emotional-intelligence center) as the conscience driving the episode's apologies. Pairs with the Rebecca-confession card.",
+      "moment": "Pressed by Rebecca on why the truth still matters, Keeley says it matters to her -- making clear their friendship can't survive a concealed betrayal, and pushing Rebecca toward confessing.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/", "note": "E9 recap: Keeley pressures Rebecca to tell Th truth; 'it'll matter to her'" },
+        { "url": "https://ladygeeksmedia.com/2021/07/21/ted-lasso-1x09-all-apologies-review/", "note": "E9 review covering Keeley's role in prompting the confession" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-walsh-delaney-first-credits",
+      "type": "production",
+      "title": "First-time writer and director on this episode",
+      "detail": "Production trivia: 'All Apologies' marked notable firsts behind the camera. The episode is credited to writer Phoebe Walsh (her first writing credit on the show) and director MJ Delaney (her first directing credit on the show). Phoebe Walsh is also an on-screen presence in the series -- she plays Jane Payne, Coach Beard's volatile girlfriend. MJ Delaney went on to direct multiple further Ted Lasso episodes. FLAG for reviewer: I sourced the Walsh-writing / Delaney-directing credit and the 'first credit' framing from search summaries of the episode's Wikipedia/IMDb credits; corroborate the exact 'from a story by Brett Goldstein' wording before asserting it, as one summary mentioned a Goldstein story credit that I could not independently confirm.",
+      "moment": "Behind the scenes: the episode was written by Phoebe Walsh (who also plays Jane Payne) and directed by MJ Delaney -- each a first credit of its kind on the series.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/All_Apologies_(Ted_Lasso)", "note": "Episode written by Phoebe Walsh, directed by MJ Delaney" },
+        { "url": "https://www.imdb.com/name/nm5857107/", "note": "Phoebe Walsh: writer and actress (plays Jane Payne) on Ted Lasso" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Jane_Payne", "note": "Phoebe Walsh plays Jane Payne, Coach Beard's girlfriend" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-trent-crimm-roy-probe",
+      "type": "callback",
+      "title": "Trent Crimm circles back on Roy",
+      "detail": "Journalist Trent Crimm (The Independent) returns to press Ted about Roy's recent poor games heading into the final fixture -- a callback to Trent's earlier skeptical-outsider role (notably his profile episode, S1E3 'Trent Crimm: The Independent'). It externalizes the benching pressure: the decline isn't just locker-room gossip, it's becoming a press narrative, which sharpens the Beard/Nate-vs-Ted disagreement that the existing E9 card already covers. Worth a small reference/callback card to Trent's ongoing function as the show's probing-press conscience. FLAG: confirm Trent's specific scene placement in E9 (vs. being a general-season presence) before shipping.",
+      "moment": "Trent Crimm turns up to question Ted about Roy's dip in form before the big match, putting the bench decision into the public eye.",
+      "sources": [
+        { "url": "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/", "note": "E9 recap: Trent Crimm returns to ask Ted about Roy's recent bad games" },
+        { "url": "https://ted-lasso.fandom.com/wiki/All_Apologies", "note": "Episode summary referencing press scrutiny around Roy" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-michael-kiwanuka-needle-drop",
+      "type": "reference",
+      "title": "Michael Kiwanuka scores the emotional beats",
+      "detail": "Music aesthetics: the episode's soundtrack is widely listed as including Michael Kiwanuka's 'Piano Joint (This Kind of Love)' -- the same artist the Ted Lasso and Philosophy aesthetics chapter (ch.13) singles out for amplifying emotion and warmth -- alongside the Marcus Mumford/Tom Howe theme and tracks attributed to British Sea Power and The Lumineers. The needle-drops underscore the hour's reconciliation tone. FLAG for reviewer: song-to-scene placement varies between tracking sites (Tunefind/WhatSong/IMDb soundtrack) and I could not open them due to the WebFetch 403; verify the exact track list and which song lands on which scene before writing a card, and don't over-claim a specific on-screen placement.",
+      "moment": "The episode's quieter, reconciliatory beats are carried by needle-drops, with Michael Kiwanuka's 'Piano Joint (This Kind of Love)' among the songs listed for the hour.",
+      "sources": [
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-1/100999", "note": "Tunefind soundtrack listing for S1E9 'All Apologies'" },
+        { "url": "https://www.whatsong.org/tvshow/ted-lasso/episode/86543", "note": "WhatSong soundtrack listing for S1E9" },
+        { "url": "https://www.imdb.com/title/tt11193420/soundtrack/", "note": "IMDb soundtrack page for the episode" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e9-rebecca-stoic-turn-setup",
+      "type": "theme",
+      "title": "Rebecca's pivot from revenge to honesty",
+      "detail": "Structurally, E9 is the hinge of Rebecca's season arc: the confession converts her from the show's covert antagonist into someone choosing accountability, setting up the 'feminist Stoic' transformation the factsheet flags (ch.18, 'Stoic Bossgirl'). The Stoic note is that Rebecca stops trying to control the one thing she cannot (Rupert's happiness/feelings) and turns to the thing she can control -- her own conduct -- which is precisely the realization that the pointless sabotage triggers. Good thematic-throughline card. FLAG: the explicit Stoicism framing is an interpretive mapping from the Wiley volume's chapter about Rebecca's overall arc, not a label the episode applies to itself; attribute as 'a reading', and note ch.18 treats the arc broadly rather than this single scene.",
+      "moment": "By owning her sabotage and apologizing rather than scheming on, Rebecca turns from controlling what she can't (Rupert) to governing what she can (herself) -- the start of her shift toward a steadier, more honest version of herself.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Rebecca_Welton", "note": "Rebecca's character arc: from vengeful ex-wife toward accountability" },
+        { "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch18", "note": "Ted Lasso and Philosophy ch.18 'Stoic Bossgirl' on Rebecca's Stoic transformation" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    }
+  ]
+}
