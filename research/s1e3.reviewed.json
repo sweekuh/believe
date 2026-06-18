@@ -1,0 +1,367 @@
+{
+  "episode": { "season": 1, "number": 3, "title": "Trent Crimm: The Independent" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "reviewer_notes": "WebFetch returned HTTP 403 globally this session (Wikipedia, Fandom, TV Tropes all blocked), exactly as the hunter warned. Every verdict below rests on my OWN independent WebSearch queries, requiring corroboration across multiple independent result summaries (Wikipedia, TV Tropes recap, Fandom wiki, BookRiot, Christian County Library, IMDb trivia, ShowSnob/TVFanatic/ReadySteadyCut recaps, Tunefind/WhatSong soundtrack DBs, and independent Phil Jackson reporting). Because no primary page could be opened directly, grounding is capped conservatively even where corroboration is broad. NOTE on overlap: episodes.json already ships s1e3-trent-crimm (the journalistic-ethics profile angle). s1e3-trent-profile-turn is essentially the same beat and is held as a near-duplicate (include:false). Two corrections to hunter detail: (1) the Trent-signature 'Independent' payoff lands at the END OF SEASON 2 (not vaguely 'seasons later'); (2) the Vivaldi cue is the 'Summer' PRESTO (fast/aggressive movement) scoring the reading of Trent's profile, NOT an 'Adagio' contemplative contrast as the hunter speculated.",
+  "facts": [
+    {
+      "id": "s1e3-personalized-books",
+      "type": "trivia",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent sources (BookRiot, Christian County Library, IMDb trivia, freeze-frame catalogues) confirm Ted leaves a hand-picked book in each player's locker in S1E3; Sam reads his on the exercise bike and Jamie bins his. The four readable pairings (Sam=Ender's Game, Jamie=The Beautiful and Damned, Roy=A Wrinkle in Time, Robbie=Miss Peregrine's) are freeze-frame reads but consistently corroborated.",
+      "verified_sources": [
+        "https://bookriot.com/every-book-in-ted-lasso/",
+        "https://www.christiancountylibrary.org/lasso-library/",
+        "https://m.imdb.com/title/tt10989892/trivia/?ref_=tt_ql_trv"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e3-personalized-books",
+        "tag": "Coaching the person, not the player",
+        "title": "A book for everyone, chosen one by one",
+        "moment": "Ted tells the squad he's left them gifts; each player finds a wrapped novel in his locker, hand-picked for him. Sam dives into his right away on the exercise bike; Jamie drops his straight in the bin.",
+        "idea": "Each book quietly carries the lesson that particular player needs, so the gesture is Ted's whole method in miniature: he coaches people, not positions, with care tailored to each individual rather than one speech for the room.",
+        "why": "Pause on the lockers and watch who reads and who tosses — the reactions foreshadow each man's arc. The titles you can catch on screen are Sam's <em>Ender's Game</em>, Jamie's <em>The Beautiful and Damned</em>, Roy's <em>A Wrinkle in Time</em>, and Robbie's <em>Miss Peregrine's Home for Peculiar Children</em>.",
+        "source": "On-screen freeze-frame catalogues; book round-ups (BookRiot, Christian County Library).",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across BookRiot, Christian County Library, IMDb trivia, and freeze-frame catalogues; the per-player titles are visible-on-screen reads rather than scripted/stated pairings.",
+        "sourcesChecked": [
+          "https://bookriot.com/every-book-in-ted-lasso/",
+          "https://www.christiancountylibrary.org/lasso-library/",
+          "https://m.imdb.com/title/tt10989892/trivia/?ref_=tt_ql_trv"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-phil-jackson-books",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Independent reporting confirms Phil Jackson genuinely gave individually chosen books to players (Bulls from Nov 1989, then Lakers/Knicks) as a documented leadership practice. The Ted-Lasso link is drawn by commentators/book write-ups, not a confirmed creator-stated intention, so it is true as a real-world parallel but not as production intent.",
+      "verified_sources": [
+        "https://readjack.substack.com/p/phils-gift-why-phil-jackson-gave",
+        "https://www.christiancountylibrary.org/lasso-library/",
+        "https://m.imdb.com/title/tt10989892/trivia/?ref_=tt_ql_trv"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-phil-jackson-books",
+        "tag": "A real coach's trick",
+        "title": "Where the book gifts come from",
+        "moment": "The locker-room book gifts aren't invented for the show — they echo a real coaching habit.",
+        "idea": "NBA championship coach Phil Jackson famously gave each of his players a personally chosen book (with the Bulls, then the Lakers and Knicks) to reach them as people, not just athletes. Ted's gesture sits squarely in that tradition of leading by individual attention.",
+        "why": "A nice grounding note: the most whimsical-seeming beat is rooted in a documented real-world method. Treat the Jackson link as a parallel commentators draw — well-documented as his practice — rather than a stated production intent.",
+        "source": "Phil Jackson's book-gifting practice (reporting on Jackson); Ted Lasso book round-ups draw the parallel.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Jackson's per-player book-gifting is well documented in independent reporting; the connection to Ted Lasso is commentator-drawn, not a confirmed creator statement.",
+        "sourcesChecked": [
+          "https://readjack.substack.com/p/phils-gift-why-phil-jackson-gave",
+          "https://www.christiancountylibrary.org/lasso-library/"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-wrinkle-in-time-roy",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple sources (Fandom, TV Tropes, BookRiot) confirm Roy is given A Wrinkle in Time, reads it to his niece Phoebe at bedtime, and is jolted by the passage about the task having to fall to him alone — his realization that, as captain, stopping the bullying of Nate is his job. This pairing (unlike the others) is dialogue/plot-confirmed, not just a freeze-frame.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time",
+        "https://bookriot.com/every-book-in-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e3-wrinkle-in-time-roy",
+        "tag": "It has to be me",
+        "title": "Roy, Phoebe, and a children's book",
+        "moment": "At bedtime Roy reads <em>A Wrinkle in Time</em> aloud to his niece Phoebe and hits the line about the task falling to him and no one else. It visibly lands — he realizes that, as captain, ending the team's torment of Nate is his to own.",
+        "idea": "Madeleine L'Engle's novel is about a young girl shouldering the burden of leadership, and Ted chose it for Roy on purpose. It's a literary reference doing real character work: the book, not a lecture from Ted, is what moves Roy to step up.",
+        "why": "Watch how a single sentence read to a child reroutes the whole locker room. This is Ted's hands-off coaching paying off — he plants the lesson and lets Roy find it himself.",
+        "source": "<em>A Wrinkle in Time</em> by Madeleine L'Engle; episode recaps (Fandom, TV Tropes).",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across Fandom, TV Tropes, and BookRiot; Roy's gift and the bedtime-reading epiphany are plot-confirmed, not a freeze-frame guess.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time",
+          "https://bookriot.com/every-book-in-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-roy-leadership-turn",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Sources confirm Ted declines to break up the bullying himself and Roy, prompted by the book, confronts Jamie and his crew, headbutts Colin at a nightclub, and shuts down the harassment of Nate. Scored lower on spoiler_safety because the payoff (the season-long Roy–Nate thaw) reaches beyond this episode.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-roy-leadership-turn",
+        "tag": "Captains police their own",
+        "title": "Roy finally steps up",
+        "moment": "Ted deliberately won't break up the players' bullying of kit man Nate himself — he nudges captain Roy to own team discipline. Prompted by the book, Roy confronts Jamie, headbutts Colin at a nightclub, and dresses down the squad for tormenting Nate.",
+        "idea": "Leadership isn't the loudest voice in the room imposing order from outside; it's the captain taking responsibility for the people in his charge. Ted hands the problem to Roy on purpose, trusting that real authority has to come from within the group.",
+        "why": "This is the episode's leadership turning point and the seed of the Roy–Nate bond. Note how Ted creates the space rather than filling it.",
+        "source": "Episode recaps (TV Tropes, Fandom).",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes and Fandom recaps; Roy's confrontation and the nightclub headbutt are consistently reported. Payoff extends into the season, lowering spoiler safety.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-nate-tactics-credit",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps confirm Ted and Beard adopt a play devised by Nate the kit man (using Jamie as a decoy), it works in training, and when Trent asks where it came from Ted credits Nate openly despite the status gap. Corroborated across TV Tropes, ShowSnob/ReadySteadyCut recaps.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-nate-tactics-credit",
+        "tag": "Credit where it's due",
+        "title": "The kit man's winning play",
+        "moment": "Stuck for a strategy, Ted and Beard try a play that nervous kit man Nate offers up — using Jamie as a decoy — and it works in training. When Trent asks where the new tactic came from, Ted names Nate without hesitation.",
+        "idea": "A good idea is a good idea regardless of who holds the lowest job title. Ted's flat, merit-over-hierarchy instinct — and his refusal to claim someone else's work — quietly impresses the skeptical reporter and begins Nate's rise.",
+        "why": "Watch the small status moment: most coaches would absorb the credit. Ted's choice here is character revealed in a single sentence, and it plants Nate's whole arc.",
+        "source": "Episode recaps (TV Tropes, ShowSnob).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes and ShowSnob/ReadySteadyCut recaps; Nate's play and Ted's open credit to him are consistently reported.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-success-not-wins",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps confirm that over the Indian dinner Ted tells Trent he measures success not by wins and losses but by helping his players become the best versions of themselves on and off the pitch, and that this is what disarms the cynical journalist. Phrase paraphrased here; no dialogue reproduced.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-success-not-wins",
+        "tag": "How Ted measures success",
+        "title": "Not wins and losses",
+        "moment": "Over dinner with Trent, Ted explains his coaching creed: for him success isn't the scoreline but whether he's helped his players grow into the best versions of themselves, on and off the pitch.",
+        "idea": "It's the episode's thematic core — the line that disarms the cynical reporter. It also opens the show's running question: is outcome-indifferent optimism real wisdom, or a way of dodging the scoreboard? Ted offers it as the former.",
+        "why": "This is the heart of the profile and of Ted's whole philosophy. Listen for how he frames coaching as caring for people first — and ask yourself whether you buy it.",
+        "source": "Ted's dinner explanation; episode recaps. (Paraphrased — no dialogue reproduced.)",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes and ShowSnob recaps; the 'best versions of themselves, not wins/losses' creed is consistently reported as the dinner's turning point.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-indian-food-dinner",
+      "type": "trivia",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm the pivotal Ted–Trent talk happens at an Indian restaurant; Ted, new to Indian food, asks for it cooked as the chef would for his own family, the result is punishingly spicy, and he gamely eats through it (and extras) to be polite while Trent backs off. The warmth/humor is what wins Trent over.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/",
+        "https://ted-lasso.fandom.com/wiki/Indian_restaurant"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-indian-food-dinner",
+        "tag": "Politeness under fire",
+        "title": "Ted's first Indian meal",
+        "moment": "The episode's key conversation unfolds at an Indian restaurant. Ted, who's never had Indian food, asks for it made the way the chef would for his own family. It arrives punishingly spicy — Trent backs off after a bite, but Ted powers through, eating extras rather than give offense.",
+        "idea": "The scene's warmth and humor — a small culture-clash food beat — are what actually win the skeptical reporter over. Ted's willingness to endure real discomfort rather than embarrass his host tells Trent more about the man than any tactic could.",
+        "why": "Watch the dinner do the emotional heavy lifting: it's not an argument that turns Trent, it's character on display. The restaurant ties to Ollie, the driver from the airport.",
+        "source": "Episode recaps (TV Tropes, ShowSnob); Ted Lasso Wiki.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes, ShowSnob, and Fandom; the spice-ordeal dinner and its role in winning Trent over are consistently reported.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/",
+          "https://ted-lasso.fandom.com/wiki/Indian_restaurant"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-trent-name-signature",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed that Trent habitually introduces himself with name + outlet ('Trent Crimm, The Independent'), which the episode title mirrors, and that this pays off later when he restyles himself 'Trent Crimm, Independent.' CORRECTION: the payoff lands at the END OF SEASON 2 (made permanent in S3), not vaguely 'seasons later.' Series-scope spoiler.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AlwaysIntroducesThemselves",
+        "https://sportsmediaguy.substack.com/p/trent-crimm-independent",
+        "https://ted-lasso.fandom.com/wiki/Trent_Crimm"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 3, "spoiler_safety": 1 },
+      "interest_score": 63,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-trent-name-signature",
+        "tag": "A title that's also a catchphrase",
+        "title": "“Trent Crimm, The Independent”",
+        "moment": "Trent introduces himself the way he always does — clipped, name then newspaper — and the episode borrows that exact phrasing for its title.",
+        "idea": "The bit is a running verbal signature, and it's quietly a long-game joke: much later, after Trent leaves the paper, he can restyle himself simply 'Trent Crimm, Independent.' The episode name doubles as the character's catchphrase and plants a punchline that doesn't land until the end of Season 2.",
+        "why": "A treat for rewatchers: once you know the payoff, the title reads as a setup. (Mild later-season spoiler — the resolution is well down the road.)",
+        "source": "Character running gag (Ted Lasso Wiki; sports-media commentary).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes, Ted Lasso Wiki, and sports-media commentary; the 'Independent' payoff lands at the end of Season 2 and is made permanent in Season 3 (series-scope spoiler).",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Main/AlwaysIntroducesThemselves",
+          "https://sportsmediaguy.substack.com/p/trent-crimm-independent",
+          "https://ted-lasso.fandom.com/wiki/Trent_Crimm"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-rebecca-photo-sabotage",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm Higgins, on Rebecca's instruction, arranges paparazzi photos of Ted and Keeley to damage Ted's standing; tipped off by a tabloid friend, Keeley gets publication postponed; and Ted's day with Trent is the favor Rebecca extracts over the photos. Season-scope (ties to Rebecca's larger sabotage arc).",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://ted-lasso.fandom.com/wiki/Trent_Crimm"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-rebecca-photo-sabotage",
+        "tag": "The favor with a hook",
+        "title": "Why Ted owes Rebecca a day",
+        "moment": "On Rebecca's orders, Higgins hires a paparazzo to snap compromising-looking shots of Ted with Keeley — meant to wreck Ted's standing and his bond with Jamie. Tipped off by a tabloid friend, Keeley gets the photos held. The cleanup is exactly why Ted owes Rebecca the day with Trent.",
+        "idea": "It deepens the season's central irony: Rebecca keeps engineering Ted's downfall while he keeps disarming everyone around him — and her schemes keep curving back into things that help him. The 'favor' framing hides a trap.",
+        "why": "Knowing the photo scheme reframes the whole Trent assignment: Ted thinks he's repaying kindness; Rebecca's hoping for a hit piece. (Ties into her season-long arc.)",
+        "source": "Episode recaps (TV Tropes); Ted Lasso Wiki.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated across TV Tropes and Fandom; the paparazzi scheme and its link to the Trent favor are consistently reported. Connects to Rebecca's season-long sabotage arc.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+          "https://ted-lasso.fandom.com/wiki/Trent_Crimm"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-trent-profile-turn",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Rebecca sets Trent on Ted expecting a hit piece, the day disarms him, and his profile turns complimentary, ending with him conceding he can't help rooting for Ted even while doubting Richmond can avoid relegation. HOWEVER this is the same beat already shipped as s1e3-trent-crimm (journalistic-ethics angle) in episodes.json. Held as a near-duplicate to avoid two cards on the same moment.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+        "https://www.tvfanatic.com/shows/ted-lasso/episodes/season-1/trent-crimm-the-independent/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": false,
+      "duplicate_of": "s1e3-trent-crimm",
+      "duplicate_note": "Verdict is solidly confirmed and would otherwise pass the gate (72 >= 60), but episodes.json already ships s1e3-trent-crimm covering this exact expose-becomes-endorsement beat. Held as a near-duplicate; a human may either merge this 'in-episode reversal/theme' framing into the existing card or drop it. Not drafting a second card for the same moment."
+    },
+    {
+      "id": "s1e3-vivaldi-summer",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Soundtrack databases (Tunefind, WhatSong) confirm Vivaldi's The Four Seasons 'Summer' is used in S1E3. CORRECTION to the candidate: listings specify the 'Summer' PRESTO (the fast, aggressive third movement), and it scores the reading of Trent's profile — NOT a contemplative 'Adagio' as the candidate speculated. Single-database-type support (soundtrack listings) keeps grounding moderate.",
+      "verified_sources": [
+        "https://www.tunefind.com/show/ted-lasso/season-1/100429",
+        "https://www.whatsong.org/tvshow/ted-lasso/episode/86061"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e3-vivaldi-summer",
+        "tag": "Classical under the verdict",
+        "title": "Vivaldi over Trent's review",
+        "moment": "As Trent's finished profile of Ted is read aloud, the score swaps the show's usual pop needle-drops for Vivaldi — the Presto from 'Summer' in <em>The Four Seasons</em> — driving and urgent under the verdict.",
+        "idea": "A deliberate tonal choice: the fast, almost stormy movement raises the stakes of a scene that's just someone reading a newspaper draft, turning Rebecca's dread (and the article's turn) into something operatic.",
+        "why": "Listen for the classical cue against the show's pop palette — it's used to make a quiet beat feel like a reckoning. (Some listings label the exact movement differently; the 'Summer' Presto is the best-corroborated.)",
+        "source": "Soundtrack listings (Tunefind, WhatSong): Vivaldi, <em>The Four Seasons</em> — 'Summer'.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Confirmed across Tunefind and WhatSong as Vivaldi 'Summer' from The Four Seasons scoring the profile reading; support is soundtrack-database listings (one source type), so grounding kept moderate. Movement labeled Presto, not Adagio.",
+        "sourcesChecked": [
+          "https://www.tunefind.com/show/ted-lasso/season-1/100429",
+          "https://www.whatsong.org/tvshow/ted-lasso/episode/86061"
+        ]
+      }
+    },
+    {
+      "id": "s1e3-becker-marshall-credits",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across Wikipedia and Fandom that the episode was written by Jane Becker and directed by Tom Marshall, released on Apple TV+ on August 14, 2020 (part of the three-episode launch). Solidly true, but a dry credits fact: interest_score 54 falls below the 60 gate.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent",
+        "https://ted-lasso.fandom.com/wiki/Trent_Crimm:_The_Independent"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 54,
+      "tier": "bronze",
+      "include": false
+    }
+  ]
+}
