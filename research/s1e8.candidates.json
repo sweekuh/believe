@@ -1,0 +1,152 @@
+{
+  "episode": { "season": 1, "number": 8, "title": "The Diamond Dogs" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "PLACEMENT CORRECTION FOR THE REVIEWER: the briefing for this run claimed the Ted-vs-Rupert darts / 'be curious, not judgmental' scene is the Season 1 FINALE (E10). That is incorrect. Every independent source checked (TV Tropes E8 recap, the E8 subslikescript transcript, Collider, Lady Geeks Media, the project's own factsheet section 5, and the readysteadycut/Wikipedia E8 recaps) places the darts scene in THIS episode, S1E8 'The Diamond Dogs'. The finale E10 'The Hope That Kills You' is the relegation match vs. Manchester City and contains NO darts game. The existing episodes.json card s1e8-darts-curiosity is therefore correctly placed; I did NOT generate a duplicate darts/curiosity candidate. DEDUP: episodes.json already ships two verified E8 cards -- s1e8-darts-curiosity (darts + Whitman misattribution) and s1e8-diamond-dogs (Diamond Dogs as Aristotelian friendship-of-virtue). All candidates below are distinct from those two; the Diamond Dogs candidates here cover the BOWIE-ALBUM title, the IN-SHOW naming origin (Greyhound mascot), and the window/'Earls of Risk' gag -- not the Aristotle angle. WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL this session (Wikipedia, IMDb mobile, TV Tropes), exactly as warned in prior briefings. Every fact below is therefore corroborated across multiple independent WebSearch result summaries rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly. Paraphrase only -- no dialogue is reproduced. ATTRIBUTION FLAGS are called out inline (Whitman handled in the existing card; Bowie album; Ms. Bowen naming).",
+  "candidates": [
+    {
+      "id": "s1e8-title-bowie-album",
+      "type": "reference",
+      "title": "The episode title nods to David Bowie",
+      "detail": "The episode title 'The Diamond Dogs' shares its name with David Bowie's 1974 album Diamond Dogs -- Bowie's dystopian, glam, 'pre-punk street gang' concept record. The resonance is thematic: Bowie described the album as an attempt to evolve a glamorous gang of misfits, which rhymes with the show's ragtag band of men forming their own little brotherhood. FLAG for reviewer: the title/album name match is solid and widely noted, but I did not locate an authoritative creator statement confirming the Bowie album was the DELIBERATE source of the episode title (the in-show explanation for the group's name is the Greyhound mascot -- see the separate candidate). Treat the Bowie link as a strong allusion, not a confirmed writers'-room intent.",
+      "moment": "The episode is named for the new support circle the men christen 'the Diamond Dogs' -- a phrase that doubles as the title of a famous Bowie concept album about a glamorous gang of outsiders.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Diamond_Dogs", "note": "David Bowie's 1974 album Diamond Dogs; Bowie's 'pre-punk street gang' framing" },
+        { "url": "https://www.thisisdig.com/feature/diamond-dogs-david-bowie-song-story/", "note": "Background on Bowie's Diamond Dogs as a glamorous gang concept" },
+        { "url": "https://fluffytamer.com/ted-lasso-diamond-dogs/", "note": "Connects the Ted Lasso group/episode name to Bowie's album" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-diamond-dogs-name-origin",
+      "type": "easter-egg",
+      "title": "Why they are 'Diamond Dogs' (in-show)",
+      "detail": "Inside the story, the group's name is not explained as a Bowie reference at all: Nate proposes 'the Diamond Dogs' because they are AFC Richmond and the club's mascot is a Greyhound -- so 'dogs' -- and the men seal it by howling together in approval. It is a small, funny bit of world-building that grounds the lofty 'support group' idea in a goofy locker-room in-joke. Worth pairing with the Bowie-title candidate: the show gives an earnest in-universe reason while the episode title winks at the album.",
+      "moment": "When the men decide their new circle needs a name, Nate lands on 'Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and the group ratifies it by howling.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Diamond_Dogs", "note": "States Nate suggested the name because the club mascot is a Greyhound; the group howls in approval" },
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Ted nicknames the male leadership 'the Diamond Dogs'; episode named for it" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-darts-was-cricket",
+      "type": "production",
+      "title": "The darts scene started as a cricket game",
+      "detail": "The now-iconic Ted-vs-Rupert showdown was, in an earlier version of the script, a game of cricket rather than darts. Switching to darts is what makes the scene work for the show's audience and its underdog message: darts is a pub everyman's game, the stakes can be read on the board in real time, and Ted's quiet expertise becomes a visual payoff. FLAG for reviewer: this is sourced to the episode's IMDb trivia page (a user-edited trivia entry) and repeated by several recap write-ups; I could not corroborate it from a creator interview, so treat it as plausible-but-single-origin and verify before shipping.",
+      "moment": "Off screen / behind the scenes: an early draft staged Ted's confrontation with Rupert as cricket before the production changed it to the pub darts match we see.",
+      "sources": [
+        { "url": "https://m.imdb.com/title/tt11193418/trivia/?item=tr6352237", "note": "IMDb episode trivia: the darts scene was originally planned as a cricket game" },
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Episode production details; darts scene" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-darts-501-rules",
+      "type": "trivia",
+      "title": "The darts game is a real format (501)",
+      "detail": "The match Ted and Rupert play is a proper game of '501' under double-in/double-out rules -- the standard professional darts format, where you start at 501, must open and close on a double, and race to exactly zero. The on-screen finish is consistent with this: Ted needs a hard sequence (two treble 20s and a bull) to check out. Note a much-discussed nit -- some fans argue closing on the bullseye breaks 'double out,' but the inner bullseye (50) IS a valid double (double-25), so the checkout is legal. FLAG for reviewer: present the 501 framing as the verified fact; treat the 'rules violation' claim as a fan debate, not a settled error.",
+      "moment": "On the board, Ted and Rupert are playing a standard 501 game (double-in, double-out), and Ted's closing run -- ending on the bull -- is a legitimate, very difficult checkout.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Notes the game depicted is 501 with double in/double out rules" },
+        { "url": "https://m.imdb.com/title/tt11193418/trivia/?item=tr6352237", "note": "IMDb trivia on the darts game format and required scores" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-higgins-resigns",
+      "type": "callback",
+      "title": "Higgins finally walks away from the scheme",
+      "detail": "Higgins -- who has spent the season as Rebecca's reluctant accomplice in trying to sabotage Ted -- reaches his breaking point here. He tells Rebecca, plainly, that her revenge will never actually make her feel better, and he resigns rather than keep helping her hurt people. It is the conscience of the operation choosing decency over loyalty, and it pays off his season-long discomfort while setting up Rebecca's reckoning. (His exit also lands right as Keeley storms in with the photo evidence -- the walls close in on Rebecca in a single scene.)",
+      "moment": "Fed up at last, Higgins tells Rebecca her campaign of revenge won't bring her any peace, then quits on principle and leaves -- just as Keeley arrives with proof of what Rebecca did.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Higgins tells Rebecca revenge won't make her feel better, resigns, and leaves" },
+        { "url": "https://readysteadycut.com/2020/09/18/recap-ted-lasso-season-1-episode-8-the-diamond-dogs-apple-tv-plus-series/", "note": "Recap of Higgins's resignation scene and Rebecca being on the brink" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e8-paparazzo-brick-joke",
+      "type": "callback",
+      "title": "The paparazzo comes back to bite Rebecca",
+      "detail": "The photographer Rebecca secretly hired earlier in the season to snap a compromising shot of Keeley and Ted reappears -- this time trying to photograph Keeley and Roy. Roy spots him and pockets his memory card, and on it he and Keeley find the earlier staged photos, which exposes Rebecca's whole scheme. It is a tidy planted-payoff (a 'Chekhov's gunman'): a throwaway plot device from a previous episode returns to detonate the season's central deception. Direction: this CALLS BACK to the earlier paparazzo setup and triggers Keeley's ultimatum to Rebecca.",
+      "moment": "The same paparazzo Rebecca once paid turns up again; Roy grabs his memory card, and the old photos on it reveal Rebecca's plot -- giving Keeley the leverage to demand she come clean to Ted.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Roy steals the paparazzo's memory card; Keeley confronts Rebecca about hiring him" },
+        { "url": "https://readysteadycut.com/2020/09/18/recap-ted-lasso-season-1-episode-8-the-diamond-dogs-apple-tv-plus-series/", "note": "Keeley tells Rebecca she knows she hired the photographer; ultimatum" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e8-roy-keeley-honesty",
+      "type": "theme",
+      "title": "Roy and Keeley start with honesty, not romance",
+      "detail": "The episode quietly launches the Roy-Keeley relationship on an unusually adult footing. Keeley, in the name of honesty, tells Roy she slept with Jamie again before she and Roy have even officially started dating; Roy is hurt, goes away to actually sit with his feelings (the Diamond Dogs' advice to him is essentially 'grow up, you weren't together'), and comes back ready. Roy also says he wants to take things slow because casual flings leave him feeling worse. It's a small but pointed counter-model to TV romance: vulnerability and candor up front instead of a grand gesture.",
+      "moment": "Before they're even a couple, Keeley admits to Roy she slept with Jamie again; Roy takes time to process rather than explode, then chooses to ask her to dinner anyway -- a relationship built on honesty from the first beat.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Keeley tells Roy about Jamie; Roy wants to go slow; they go on a date" },
+        { "url": "https://readysteadycut.com/2020/09/18/recap-ted-lasso-season-1-episode-8-the-diamond-dogs-apple-tv-plus-series/", "note": "Recap of the Roy/Keeley honesty arc and the Diamond Dogs' advice to Roy" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-roy-junkyard-dog",
+      "type": "easter-egg",
+      "title": "Roy joins the Dogs through a window",
+      "detail": "When the men try to fold gruff, resistant Roy into the Diamond Dogs, the bit is played for physical comedy: rather than accept full membership, Roy is treated as a 'visitor,' and Higgins climbs in through the window to attend -- Ted joking about doing it 'Dukes of Hazzard style,' which he rebrands 'the Earls of Risk.' It's an easy-to-miss reference gag (Dukes of Hazzard / the General Lee's window entrances) folded into the episode that establishes the group, and it shows the Diamond Dogs being deliberately silly even while doing something sincere. FLAG: 'the Earls of Risk' is a quick pun on Dukes/Earls -- keep any quoted phrasing minimal.",
+      "moment": "As the Diamond Dogs convene, Higgins clambers in through the window and Ted riffs on entering 'Dukes of Hazzard' style -- rechristened 'the Earls of Risk' -- while gruff Roy is folded in only as a reluctant visitor.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=439", "note": "Transcribed E8 beat: Higgins climbing through the window; the Dukes of Hazzard / 'Earls of Risk' line; Roy declining" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Diamond_Dogs", "note": "Roy treated as a junkyard-dog 'visitor' to the group; howling ritual" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-ted-sassy-fallout",
+      "type": "theme",
+      "title": "The Diamond Dogs form to help Ted forgive himself",
+      "detail": "The support circle is born not to fix a crisis but to help Ted manage guilt: he comes in rattled after a one-night stand with Sassy (Rebecca's friend, played by Ellie Taylor), and Beard, Nate, and Higgins talk him to the conclusion that he did nothing wrong and should cut himself some slack. The episode's emotional engine is self-forgiveness and men actually talking through feelings -- the Diamond Dogs as a model of emotionally literate masculinity, which becomes one of the show's signatures. Pairs naturally with the existing Aristotle/friendship card without duplicating it (this one is about WHY the group forms and what it models).",
+      "moment": "Shaken by his night with Sassy, Ted convenes the men, who reassure him he's done nothing wrong -- and in the process the off-the-cuff ritual of talking each other through their messes becomes the Diamond Dogs.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Higgins, Beard and Nate talk Ted through his feelings after Sassy; they nickname themselves the Diamond Dogs" },
+        { "url": "https://goodmenproject.com/featured-content/how-the-diamond-dogs-of-ted-lasso-teach-us-to-be-better-men-kpkn/", "note": "Reads the Diamond Dogs as a model of healthier, emotionally open masculinity" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-curiosity-everyman",
+      "type": "philosophy",
+      "title": "Underestimation and the dignity of curiosity",
+      "detail": "Distinct from the existing card's focus on the Whitman misattribution, the darts monologue carries a self-contained moral worth its own annotation: Ted reframes a lifetime of being underestimated as a failure of OTHERS' curiosity, not a verdict on him. The people who belittled him assumed they had him figured out, so they judged instead of asking. The philosophical point is epistemic humility -- treating a person as not-yet-fully-known is both more accurate and more respectful than treating them as already-summed-up. It connects to a Socratic 'I know that I don't know' posture and to a Kantian respect-for-persons reading without needing the Whitman attribution to land. FLAG: do NOT re-assert the Whitman attribution here; the existing s1e8-darts-curiosity card already handles that honestly.",
+      "moment": "Winning the darts, Ted explains that the men who wrote him off his whole life were never curious -- they assumed they already knew him -- so their underestimation was about their own incuriosity, not about who he actually was.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2021/04/15/scene-breakdown-a-lesson-on-curiosity-in-ted-lassos-the-diamond-dogs/", "note": "Scene breakdown of the curiosity-vs-judgment monologue and its meaning" },
+        { "url": "https://collider.com/ted-lasso-diamond-dogs-monologue-rewatch-before-season-4/", "note": "Analysis of the monologue: being underestimated as others' failure of curiosity" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e8-ms-bowen-writer",
+      "type": "production",
+      "title": "Written by Leann Bowen -- whose name a character later carries",
+      "detail": "This episode is the first 'Ted Lasso' writing credit for Leann Bowen (directed by Declan Lowney). A nice production Easter egg ripples out from it: the show later names a recurring character -- Phoebe's schoolteacher and Roy's love interest, Ms. Bowen, whose first name is revealed to be Leann(e) -- after the writer. So the person who wrote the Diamond Dogs episode is quietly memorialized inside the fiction. FLAG for reviewer: the writing credit and director are firmly sourced; the 'named after the writer' link is widely repeated by fans and the character does share the name, but I did not find an authoritative creator confirmation -- treat that connection as strong-but-unconfirmed. Also note Ms. Bowen appears in LATER seasons, so the Easter egg is series-scope, not self-contained to E8.",
+      "moment": "Behind the scenes: 'The Diamond Dogs' is Leann Bowen's first script for the show; later seasons introduce a character, Ms. Bowen (first name Leann), who appears to be named for her.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "Episode written by Leann Bowen, directed by Declan Lowney" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Ms._Bowen", "note": "Character Ms. Bowen, first name Leann; Phoebe's teacher and Roy's love interest" },
+        { "url": "https://www.imdb.com/name/nm3344453/", "note": "Leann Bowen writer/producer credits on Ted Lasso" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episode": { "season": 1, "number": 7, "title": "Make Rebecca Great Again" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WebFetch returned a global HTTP 403 this session on every URL attempted (Wikipedia, TV Tropes), as warned in prior briefings. Every fact below is therefore corroborated across multiple independent WebSearch result summaries rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly to confirm. Paraphrase only — no dialogue is reproduced. KEY PLACEMENT NOTES for the reviewer: (1) CONFIRMED that this episode contains Ted's FIRST panic attack — multiple sources (Inverse, CBR, mental-health writeups) place the first one here in S1E7 at the karaoke bar; the recurrence and the professional help come later (Dr. Sharon arrives S2). Do not confuse with later panic attacks. (2) The 60-year Everton drought is the show's in-universe framing for AFC Richmond (a fictional club); do not present it as real football history. (3) ATTRIBUTION/REFERENCE flags are called out inline (Van Halen 5150, The Iron Giant, 'Let It Go'/Frozen). The episode title is a Rebecca-reclaims-herself pun that echoes a real-world political slogan; I did not find an authoritative creator statement confirming the slogan was the deliberate intent, so that link is flagged.",
+  "candidates": [
+    {
+      "id": "s1e7-first-panic-attack",
+      "type": "theme",
+      "title": "Ted's first panic attack",
+      "detail": "At the karaoke celebration, as Rebecca sings, Ted is quietly overwhelmed and stumbles out of the bar in acute distress — the show's FIRST depiction of a Ted Lasso panic attack. It lands the morning after he has finally faced his divorce, recasting his relentless sunshine as a coping surface over real pain. This is the seed of the entire mental-health throughline that flowers in Season 2 with Dr. Sharon Fieldstone; sources note the earliest physical 'tells' (clenched, shaking hands) go back to the pilot, but episode 7 is where it breaks the surface for the audience. FLAG for reviewer: confirm 'first' placement (it is well-corroborated) and that the formal therapy/diagnosis arc is a later-season payoff, not this episode.",
+      "moment": "During the team's karaoke celebration Ted is gripped by an unmistakable panic attack and has to leave the room — the first time the show shows the cost beneath his optimism.",
+      "sources": [
+        { "url": "https://www.inverse.com/mind-body/ted-lasso-therapy-mental-health", "note": "Identifies the S1E7 karaoke panic attack as the first and the origin of the mental-health arc; describes the derealization filmmaking" },
+        { "url": "https://www.cbr.com/ted-lasso-mental-health-stigmas/", "note": "Frames the S1 panic attack as the setup for Dr. Sharon and Ted confronting his trauma in S2" },
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "Episode summary: Ted suffers a panic attack at the karaoke bar and stumbles out" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e7-rebecca-comforts-ted",
+      "type": "callback",
+      "title": "Rebecca catches Ted",
+      "detail": "Of everyone in Ted's orbit, it is Rebecca — the woman secretly trying to sabotage him — who follows him outside and talks him through the panic attack, naming what is happening and steadying him. It pays off their earlier late-night honesty and marks the real turn of her arc from antagonist to ally: choosing kindness in private, with nothing to gain. The role reversal (the saboteur becomes the comforter; the relentless helper finally needs help) is the emotional hinge of the episode and a quiet setup for her eventual confession to Ted later in the season.",
+      "moment": "When Ted melts down outside the bar, it is Rebecca who comes after him, calmly names that he is having a panic attack, and stays until he can breathe.",
+      "sources": [
+        { "url": "https://www.dramyduckwall.com/post/ted-lasso-and-emdr", "note": "Describes Rebecca following Ted out and coaching him through the panic attack ('just breathe')" },
+        { "url": "https://www.cinemablend.com/television/2562601/ted-lasso-the-most-heartwarming-moments-from-season-1", "note": "Lists the Rebecca-comforts-Ted scene among Season 1's most heartwarming moments and a turning point for both" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Rebecca_Welton", "note": "Rebecca's arc: comforting Ted as a pivot in her transformation" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e7-let-it-go-irony",
+      "type": "theme",
+      "title": "\"Let It Go\" — two opposite meanings",
+      "detail": "Rebecca takes the karaoke mic and delivers a soaring rendition of 'Let It Go' from Frozen, dedicating it to her goddaughter Nora. The needle-drop does double duty: for Rebecca it is liberation, finally shedding the version of herself her ex-husband shaped; in the very same room the empowerment anthem becomes the trigger for Ted's panic, the song about freedom curdling into a loss of control as it likely brushes against his own lost family. One song, two characters, opposite emotional charges — a tidy example of how the show scores meaning onto a single piece of music. FLAG: 'Let It Go' is a real Frozen song; keep any reproduced lyric well under 15 words (the three-word title is fine).",
+      "moment": "Rebecca sings 'Let It Go' as a moment of personal release, and the same anthem becomes the thing that tips Ted into panic — freedom for one, unraveling for the other.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/", "note": "Analysis of why 'Let It Go' is the perfect song — Rebecca's release versus Ted's spiral" },
+        { "url": "https://ladygeeksmedia.com/2021/03/18/scene-breakdown-rebecca-sings-let-it-go-on-ted-lassos-make-rebecca-great-again/", "note": "Scene breakdown of the dedication to Nora and the contrasting emotional beats" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Let_It_Go", "note": "Confirms the song, the dedication to goddaughter Nora, and the panic-attack timing" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-disney-let-it-go-clearance",
+      "type": "production",
+      "title": "How Disney almost killed the song",
+      "detail": "The 'Let It Go' moment nearly didn't exist. Disney initially refused to license the song. Music supervisor Tony Von Pervieux, leaning on a long relationship with Disney's licensing team, refused to give up — the production shot two versions of the karaoke scene, the real one with 'Let It Go' and a backup using Gloria Gaynor's 'I Will Survive,' as insurance. Von Pervieux then sent Disney the actual footage plus an impassioned email explaining how tenderly the song ties to Rebecca and her goddaughter, and the clearance came through. One of the show's signature scenes survived on a music supervisor's persistence.",
+      "moment": "Behind the camera: Disney first said no to 'Let It Go,' so the crew filmed a backup karaoke number ('I Will Survive') and only won the rights after sending Disney the finished footage.",
+      "sources": [
+        { "url": "https://nerdist.com/article/ted-lasso-music-supervisor-tony-von-pervieux-interview/", "note": "Von Pervieux interview: Disney's denial, the two-version shoot, and how he got the clearance" },
+        { "url": "https://www.slashfilm.com/1358922/disney-almost-ruined-grand-moment-in-ted-lasso/", "note": "Account of Disney nearly blocking the scene and the backup 'I Will Survive' plan" },
+        { "url": "https://www.billboard.com/music/music-news/ted-lasso-music-supervisor-tony-von-pervieux-executive-of-week-9642380/", "note": "Billboard profile of Von Pervieux and his Disney negotiation" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-waddingham-west-end-pipes",
+      "type": "trivia",
+      "title": "Rebecca's voice is the real thing",
+      "detail": "Hannah Waddingham's show-stopping karaoke vocal is no studio trick — she is an accomplished West End and musical-theatre performer (a celebrated Olivier-nominated stage career before the show), so the soaring 'Let It Go' is genuinely her. The casting lets the scene work as both character beat and a sly showcase: the buttoned-up, wounded boss suddenly opening her chest and filling the room is more startling because the voice is unmistakably real. FLAG for reviewer: verify the specifics of Waddingham's stage credits (West End / Olivier nomination) before stating them as fact on the card.",
+      "moment": "Behind the camera: the powerhouse karaoke vocal is Hannah Waddingham's own trained, West End voice, not a dub.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/", "note": "Notes Waddingham's real singing and stage background powering the scene" },
+        { "url": "https://en.wikipedia.org/wiki/Hannah_Waddingham", "note": "Waddingham's West End / musical-theatre career to verify stage credits" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-make-rebecca-great-again-title",
+      "type": "theme",
+      "title": "Why \"Make Rebecca Great Again\"",
+      "detail": "The episode title names Rebecca's project of reclaiming the self she lost inside her marriage to Rupert. On her first wedding anniversary as a single woman, Keeley comes along to prop her up, her old friend Flo resurfaces, and across the day Rebecca rediscovers warmth, humor, and goodness her ex had buried — culminating in her choosing kindness (comforting Ted) over the bitterness driving her sabotage. The phrasing plainly riffs on a familiar real-world political slogan, but inverted into something tender and personal. FLAG for reviewer: I did not locate a creator statement explicitly confirming the slogan echo was deliberate intent; present the slogan parallel as an observation, not a confirmed authorial joke.",
+      "moment": "The title frames the day as Rebecca reclaiming the person she was before Rupert — reconnecting with an old friend, with Keeley, and with her own kindness.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2021/07/19/ted-lasso-1x07-make-rebecca-great-again-review/", "note": "Reads the title and episode as Rebecca rediscovering the self lost in the marriage" },
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "Episode premise: Rebecca's anniversary trip and emotional recovery" },
+        { "url": "https://readysteadycut.com/2020/09/11/recap-ted-lasso-season-1-episode-7-make-rebecca-great-again-apple-tv-plus-series/", "note": "Recap framing the episode around Rebecca getting herself back" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-flo-sassy-collins-intro",
+      "type": "callback",
+      "title": "Sassy arrives",
+      "detail": "This episode introduces Flo 'Sassy' Collins (Ellie Taylor), Rebecca's irreverent old friend who barges into the hotel suite and instantly reignites a friendship dormant for years. She nicknames Rebecca 'Stinky,' charms Keeley, shows Keeley a looser, funnier Rebecca than she'd ever guessed existed — and takes an immediate, frank liking to Ted (a thread the show pays off in Season 2). Sassy is the catalyst that loosens Rebecca up and helps the day's warmth happen; her debut here sets up a recurring character. FLAG for reviewer: confirm the spelling 'Flo Collins' / nickname 'Sassy' and the actor (Ellie Taylor); the Ted romance is a later-season payoff, so keep the card's focus on her S1E7 debut.",
+      "moment": "Rebecca's old friend Flo 'Sassy' Collins crashes into the hotel suite and instantly revives their friendship, charming Keeley and taking a shine to Ted.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Flo_Collins", "note": "Character page: debut in S1E7, the 'Stinky' nickname, friendship with Rebecca and Keeley, attraction to Ted" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Ellie_Taylor", "note": "Ellie Taylor plays Flo 'Sassy' Collins; character debuts here" },
+        { "url": "https://www.imdb.com/title/tt11156378/characters/nm4717919/", "note": "IMDb credit confirming Ellie Taylor as Flo 'Sassy' Collins in this episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e7-ted-empowers-nate",
+      "type": "callback",
+      "title": "Ted hands Nate the room",
+      "detail": "Drunk and raw the night before signing his divorce papers, Ted snaps at Nate when the kit man tries to slip tactical notes under his door — an out-of-character cruelty. The next morning Ted apologizes, tells Nate he agrees with every note, and then does the generous thing: he has Nate deliver the pre-match team talk himself, because the praise should come from Nate, not be filtered through Ted. Nate's roast-style speech lights the team up and they finally win. It's a clean beat of accountability and empowerment — and, watched later, a poignant setup for Nate's Season 2 turn, when craving that same spotlight curdles into resentment. FLAG: the 'changes for the worse' framing is a later-season read; keep the card grounded in the S1E7 kindness/accountability beat and mark the Nate-arc note as forward-looking.",
+      "moment": "After lashing out at Nate while drunk, Ted apologizes and gives him the pre-game speech to deliver himself, so the credit is Nate's — and the team finally wins.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "Plot: drunk Ted snaps at Nate, then apologizes and has Nate give the inspiring pre-game speech that precedes the win" },
+        { "url": "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-834", "note": "Essay on Nate's locker-room speech and what Ted empowering him sets up" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Make_Rebecca_Great_Again", "note": "Recap of the apology, Ted reading and endorsing Nate's notes, and Nate delivering the talk" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e7-iron-giant-screening",
+      "type": "easter-egg",
+      "title": "Ted screens The Iron Giant",
+      "detail": "Ted gathers the squad in the hotel ballroom to watch The Iron Giant, warning Beard that around the 74-minute mark a room of grown men will be in tears — and the cut back lands right on the Giant's self-sacrifice, panning across teary players. The pick is not random: the film is about a gentle giant who chooses, against expectation, to be a hero rather than a weapon ('you are who you choose to be'), a kindness-over-violence ethos that mirrors the whole Lasso project. An easy detail to miss that quietly rhymes with the show's thesis. FLAG: confirm the on-screen film is The Iron Giant and the 74-minute crying-cue gag (well-corroborated in recaps).",
+      "moment": "Ted has the team watch The Iron Giant in the hotel and promises Beard the players will cry on cue — a film about a giant choosing kindness over force, echoing the show's own creed.",
+      "sources": [
+        { "url": "https://www.imdb.com/title/tt11156378/trivia/", "note": "Trivia: the team watches The Iron Giant in the hotel" },
+        { "url": "https://subslikescript.com/series/Ted_Lasso-10986410/season-1/episode-7-Make_Rebecca_Great_Again", "note": "Script reference for the Iron Giant screening and the 74-minute crying beat (for paraphrase, not quotation)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-room-5150-van-halen",
+      "type": "reference",
+      "title": "Hotel room 5150",
+      "detail": "Ted reacts with delight to being assigned hotel room 5150 — a nod to Van Halen's 1986 album '5150,' the band's first with Sammy Hagar after David Lee Roth left. It's a quick Easter egg consistent with Ted's running stream of Americana/pop-culture references, and it slips by unless you catch the number. (5150 is also the California police code for an involuntary psychiatric hold — a darkly apt coincidence in the very episode of Ted's first panic attack, though there is no sourced confirmation the writers intended that second meaning, so do not assert it.) FLAG: the Van Halen album link is the supported reading; the psych-hold double meaning is unconfirmed speculation and should be left out or clearly marked as such.",
+      "moment": "Ted lights up at being given hotel room 5150 — a wink to the Van Halen / Sammy Hagar album of the same name.",
+      "sources": [
+        { "url": "https://www.imdb.com/title/tt11156378/trivia/", "note": "Trivia: room 5150 references the Van Halen '5150' album (Hagar era, post-Roth)" },
+        { "url": "https://subslikescript.com/series/Ted_Lasso-10986410/season-1/episode-7-Make_Rebecca_Great_Again", "note": "Script reference showing Ted's reaction to room 5150 and the Sammy Hagar nod" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-everton-sixty-year-drought",
+      "type": "trivia",
+      "title": "Sixty years of losing to Everton",
+      "detail": "The away fixture in Liverpool is framed as Richmond's chance to beat Everton for the first time in sixty years — a curse-like losing streak the win finally breaks, sealed by a rare Roy Kent goal (his first in a long time). The drought raises the emotional stakes of Nate's speech and the celebration that follows. FLAG for reviewer: AFC Richmond is a fictional club, so the '60 years' is in-universe lore, not real football history; Everton is a real club, but this specific record is invented for the show. Present it as the episode's framing, not as fact.",
+      "moment": "Richmond finally beats Everton — a side they haven't beaten in sixty years in the show's telling — with a rare goal from Roy capping the upset.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2020/09/11/recap-ted-lasso-season-1-episode-7-make-rebecca-great-again-apple-tv-plus-series/", "note": "Recap: the sixty-year Everton drought and Richmond's breakthrough win" },
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "Episode summary noting the win over Everton and Roy's goal" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e7-declan-lowney-father-ted",
+      "type": "production",
+      "title": "A Father Ted veteran directs \"Ted\"",
+      "detail": "The episode is directed by Declan Lowney — a fitting bit of trivia, since Lowney is a veteran of beloved British comedy including the cult sitcom Father Ted (and Cold Feet, Little Britain). 'Make Rebecca Great Again' was his first Ted Lasso credit; he went on to direct many more episodes and earned an Emmy nomination for this one (which was also nominated for writing and supporting actor). The teleplay is by Jason Sudeikis from a story by Joe Kelly and Brendan Hunt (who plays Coach Beard) — another instance of an on-screen actor shaping the writing. FLAG: confirm Lowney's Father Ted credit and the Emmy-nomination details.",
+      "moment": "Behind the camera: this acclaimed, Emmy-nominated episode was directed by Declan Lowney, a veteran of the cult comedy Father Ted, with a teleplay co-shaped by Beard's actor Brendan Hunt.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Declan_Lowney", "note": "Lowney's career including Father Ted; his Ted Lasso directing work" },
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "Credits: directed by Declan Lowney; teleplay Jason Sudeikis, story Joe Kelly and Brendan Hunt; Emmy nominations" },
+        { "url": "https://www.imdb.com/title/tt11156378/", "note": "IMDb episode page confirming director and writing credits" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}

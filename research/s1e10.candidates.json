@@ -1,0 +1,200 @@
+{
+  "episode": { "season": 1, "number": 10, "title": "The Hope That Kills You" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "DEDUP: episodes.json ships only a placeholder card for E10 (s1e10-placeholder, 'Coming soon'), so there is no existing verified E10 card to avoid duplicating. PLACEMENT DISCIPLINE: this is the SEASON 1 FINALE -- the relegation match vs. Manchester City. I deliberately EXCLUDED beats that belong to other episodes/seasons even though search engines surfaced them when querying the finale: (a) the darts 'be curious, not judgmental' scene is E8 'The Diamond Dogs', NOT here; (b) Nate tearing the BELIEVE sign is the SEASON 2 finale; (c) Sam's birthday / Dani's training misdirection goal is SEASON 2; (d) Jamie using a torn BELIEVE-sign piece as a bookmark in Fitzgerald's 'The Beautiful and Damned', the 'Lasso Way' book, and the locker-room victory dance reprise are the SEASON 3 / SERIES finale 'So Long, Farewell'. None of those are carded below. Every moment below was confirmed to occur in S1E10 across at least two independent E10-specific sources. WEBFETCH STATUS: WebFetch returned a GLOBAL HTTP 403 (Wikipedia tested), exactly as the briefing warned; every fact below is therefore corroborated across MULTIPLE independent WebSearch result summaries rather than a single fetched page, and hunter_confidence is capped accordingly (mostly 'medium'; 'high' only for widely-attested plot facts). The reviewer should open the cited URLs directly. ATTRIBUTION FLAGS are called out inline -- most importantly the TITLE's origin as a real football-fan saying (often attributed to Peter Ustinov but NOT reliably traceable to one person; do NOT assert an author) and the 'do you believe in miracles?' line (Al Michaels' 1980 'Miracle on Ice' call). Paraphrase only; NO dialogue reproduced anywhere below.",
+  "candidates": [
+    {
+      "id": "s1e10-title-hope-that-kills-you",
+      "type": "reference",
+      "title": "The title is a real English football-fan saying",
+      "detail": "'It's the hope that kills you' is a genuine, well-worn cliche among English football supporters: the idea that having no expectations protects you, because the real anguish comes when you let yourself believe the longed-for result is finally within reach and then it slips away -- especially on the cruel final day of a season. The phrase predates the show and was re-popularized by Ted Lasso. ATTRIBUTION FLAG for the reviewer: its origin CANNOT be pinned to one author. It is most often attributed to Sir Peter Ustinov, and a close variant appears in John Cleese's 1986 film 'Clockwise' (the despair/hope line), with some sources tracing the sentiment to older Eastern European/Slavic folk proverbs. Treat this as a traditional saying of uncertain origin -- do NOT credit a single named author on the card. In the episode the line is spoken to Ted by Mae, the landlady of the Crown & Anchor pub, the night before the match (see the team-talk card for Ted's rebuttal).",
+      "moment": "The episode takes its name from the old supporters' fatalism that hope is what hurts most; Mae the pub landlady voices it to Ted on the eve of the relegation decider.",
+      "sources": [
+        { "url": "https://learnenglishthroughfootball.com/football-cliche-its-the-hope-that-kills-you/", "note": "Explains the football cliche, its meaning, and that the origin is uncertain (Ustinov / Cleese 'Clockwise' variants)" },
+        { "url": "https://ted-lasso.fandom.com/wiki/It's_the_hope_that_kills_you", "note": "Ted Lasso wiki entry: the phrase as used in the show; Mae says it to Ted before the match" },
+        { "url": "https://snugfam.com/the-enduring-power-of-the-ted-lasso-hope-that-kills-you-quote/", "note": "Background on the saying and its re-popularization via Ted Lasso; notes uncertain attribution" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-ted-rebuts-hope-believe-in-miracles",
+      "type": "philosophy",
+      "title": "Ted flips the saying: it's the LACK of hope that gets you",
+      "detail": "Ted's pre-match team talk is the philosophical center of the finale and the thesis statement of the whole 'Believe' project. He pushes back on the supporters' fatalism ('it's the hope that kills you') by arguing the opposite -- that it is the ABSENCE of hope that defeats you -- and reframes hope/belief as a deliberate stance rather than a setup for pain. This dramatizes the factsheet's William James 'precursive faith' / ethics-of-belief thread (ch.3): believing ahead of the evidence as a way to help bring the desired outcome about. He caps it by asking the players whether they believe in miracles (see the dedicated reference card for that line's real-world origin). NOTE: this is an interpretive mapping to James for the card's 'idea' field, not a label the episode states; attribute the philosophy as a reading, not as something the show names.",
+      "moment": "In the locker room before kickoff, Ted rejects the fans' 'hope kills you' fatalism, insisting instead that it's the lack of hope that beats you, and challenges the team to choose belief.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2020/10/02/recap-ted-lasso-season-1-episode-10-the-hope-that-kills-you-finale-apple-tv-plus-series/", "note": "E10 recap covering Ted's pre-match speech reframing hope vs. the lack of hope" },
+        { "url": "https://ted-lasso.fandom.com/wiki/It's_the_hope_that_kills_you", "note": "Notes Ted's counter that it's the lack of hope that kills you, plus the 'believe in miracles' challenge" },
+        { "url": "https://ladygeeksmedia.com/2021/07/22/ted-lasso-1x10-the-hope-that-kills-you-review/", "note": "E10 review discussing the speech and the episode's belief/hope theme" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-do-you-believe-in-miracles",
+      "type": "reference",
+      "title": "\"Do you believe in miracles?\" echoes the 1980 Miracle on Ice",
+      "detail": "Ted closes his team talk by asking the players whether they believe in miracles. ATTRIBUTION FLAG: this is a deliberate American sports allusion. 'Do you believe in miracles? Yes!' is broadcaster Al Michaels' iconic ABC call as the final seconds ran out on the United States' 4-3 upset of the heavily favored Soviet Union in ice hockey at the 1980 Winter Olympics in Lake Placid -- the 'Miracle on Ice', a David-vs-Goliath result. It fits the finale perfectly: tiny Richmond facing mighty Manchester City. FLAG for reviewer: the Michaels/1980 quote is rock-solid; whether the show INTENDED the homage is a reasonable inference from the wording and the underdog framing rather than a confirmed writers'-room statement -- present it as a clear allusion, not a sourced creator confirmation.",
+      "moment": "Facing a far stronger opponent, Ted rallies the squad with the same underdog question an American audience knows from the 1980 Olympic hockey upset.",
+      "sources": [
+        { "url": "https://usopm.org/spotlight/do-you-believe-in-miracles-yes-40-years-after-lake-placid-al-michaels-can-still-feel-it/", "note": "U.S. Olympic & Paralympic Museum: Al Michaels' 'Do you believe in miracles? Yes!' call, 1980 Lake Placid" },
+        { "url": "https://en.wikipedia.org/wiki/Miracle_on_Ice", "note": "Miracle on Ice: USA 4-3 USSR, 1980 Winter Olympics; the famous Michaels call" },
+        { "url": "https://ted-lasso.fandom.com/wiki/It's_the_hope_that_kills_you", "note": "Notes Ted asks the players if they believe in miracles during the pre-match talk" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-relegation-stakes-explained",
+      "type": "trivia",
+      "title": "What relegation means -- and why this match decides everything",
+      "detail": "The finale's stakes turn on English football's promotion/relegation system, which an American viewer may not know. In the Premier League, the three clubs that finish at the bottom of the 20-team table are RELEGATED -- dropped to the second tier, the EFL Championship -- which typically means lost revenue and losing star players. AFC Richmond go into the final fixture needing a result to stay up. A running show-long gag is that Ted finds the naming confusing, since 'the Championship' sounds like it should be the TOP division rather than the one below the Premier League. This card is context/explainer, not a single on-screen moment; it makes the episode's tension legible.",
+      "moment": "Richmond's whole season comes down to one match because finishing in the bottom three of the Premier League sends a club down to the second-tier Championship.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Relegation", "note": "Ted Lasso wiki: how relegation works in the show; bottom-three clubs drop to the Championship" },
+        { "url": "https://www.looper.com/1301334/ted-lasso-difference-english-championship-champions-league/", "note": "Explains the Championship as the second tier and the recurring naming confusion" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-richmond-relegated-spirited-effort",
+      "type": "theme",
+      "title": "Richmond fights to a draw -- and is relegated anyway",
+      "detail": "The central, bittersweet payoff of Season 1: Richmond's spirited finale still ends in relegation. The match is 0-0 at the half; in the second half Manchester City go ahead from a penalty. Word arrives that Crystal Palace won big elsewhere, meaning a DRAW would now be enough for Richmond to survive. Late on, Richmond pull level (see the Lasso Special and Dani cards) -- but in the dying seconds City score again to win, and Richmond go down. The episode deliberately refuses a fairy-tale victory: the team grows, plays with belief, and STILL loses the result, which is the show's whole argument that success isn't only wins and losses. Good thematic-throughline card. (See the dedicated Dani-equalizer and Roy/Jamie cards for the specific beats.)",
+      "moment": "After clawing back a late equalizer that would have kept them up, Richmond concede again at the death and are relegated despite a heroic, unified effort.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: 0-0 at half, City penalty, Crystal Palace result, Richmond's late equalizer, City's winner, relegation" },
+        { "url": "https://tvline.com/2020/10/02/ted-lasso-recap-season-1-episode-10-finale-cancelled-renewed/", "note": "TVLine finale recap confirming Richmond draw level then lose and are relegated" },
+        { "url": "https://collider.com/ted-lasso-season-1-episode-10-recap-ending-explained/", "note": "Collider recap of the finale outcome and its bittersweet framing" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-lasso-special-trick-play",
+      "type": "callback",
+      "title": "The 'Lasso Special' -- an American-football trick play on the pitch",
+      "detail": "Needing a goal, Richmond run the 'Lasso Special', a set piece in which the players briefly line up in American-football formation (a line-of-scrimmage look) to bewilder Manchester City and the crowd before springing the move. It's a literal expression of the show's thesis that Ted's OUTSIDER perspective is an asset: per the recaps, the trick-play idea grows out of Ted realizing he sees the game differently because he never played or watched English football, so he can manufacture chaos no English manager would. The misdirection works and creates the equalizing chance (finished by Dani -- see that card). Callback: Ted introduces 'trick plays' / 'elaborate set pieces' as his American-coaching toolkit, paying off his fish-out-of-water gridiron background from the pilot.",
+      "moment": "Chasing the game, Richmond suddenly drop into a gridiron-style line-up, confusing City long enough to break through -- Ted's American playbook weaponizing his outsider's eye.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Trick_plays", "note": "Describes the Lasso Special as players lining up American-football style to unnerve the opposition; tied to Ted's outsider perspective" },
+        { "url": "https://thepostcalvin.com/the-lasso-special/", "note": "Essay on the Lasso Special as the embodiment of Ted's different way of seeing the game" },
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: the 'Lasso special' trick play sets up the equalizer" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-dani-rojas-equalizer",
+      "type": "callback",
+      "title": "Dani Rojas finishes the miracle equalizer",
+      "detail": "The goal that briefly saves Richmond comes from Dani Rojas, the relentlessly joyful striker whose mantra is that football is life. Off the Lasso Special misdirection, the move finds Dani, who scores the equalizer Richmond need to (momentarily) stay up. It's a payoff for Dani's sunny, fearless energy introduced earlier in the season -- the embodiment of playing without fear -- and it lands the 'believe in miracles' beat for a beautiful moment before City snatch the win back. Pairs with the Lasso Special card (setup -> finish) and the relegation card (the high before the gut-punch).",
+      "moment": "The trick play springs Dani Rojas, whose finish levels the match and, for a heartbeat, looks like the miracle Ted asked the team to believe in.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: the Lasso special sends the ball to Dani, who scores the equalizer" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Trick_plays", "note": "Confirms Dani scores the equalizing goal off the Lasso Special" },
+        { "url": "https://readysteadycut.com/2020/10/02/recap-ted-lasso-season-1-episode-10-the-hope-that-kills-you-finale-apple-tv-plus-series/", "note": "E10 recap confirming Dani's equalizer" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-roy-kent-last-stand-injury",
+      "type": "theme",
+      "title": "Roy Kent's last stand: tackling Jamie, the knee, the chant",
+      "detail": "Roy Kent's most emotional beat of the season. Brought back on, the aging captain chases down his former teammate Jamie and makes a crucial tackle to deny him -- but badly hurts his knee doing it. He refuses to leave on a stretcher and walks off to a standing ovation, the fans serenading him with his own terrace chant; commentary frames it as a possible goodbye to his playing career, and in the locker room Keeley comforts a tearful Roy. It pays off the season-long thread of Roy fearing decline and obsolescence (the benching arc of E9) and crystallizes the show's 'you are more than your job' idea in his body breaking down for the team. FLAG for reviewer: Roy's terrace chant contains profanity -- the card must paraphrase the sentiment ('the fans sing his name') and reproduce NO lyric.",
+      "moment": "Roy throws his body into a last great tackle on Jamie, wrecks his knee, and limps off to the crowd singing his name -- a captain's farewell on his own terms.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: Roy stops Jamie but injures his knee; crowd applauds as he leaves" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou", "note": "Recap of Roy's tackle, knee injury, the chant/ovation, and Keeley consoling him" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Roy_Kent", "note": "Roy's arc: the finale tackle on Jamie, the injury, and the emotional exit" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-jamie-tartt-growth-extra-pass",
+      "type": "theme",
+      "title": "Jamie's growth: the unselfish pass (that ironically wins it for City)",
+      "detail": "Jamie Tartt's arc reaches a hinge point. The egotistical striker -- whose defining flaw all season was shooting instead of passing -- makes a selfless, team-first extra pass in the dying seconds. The bittersweet irony: he's playing FOR Manchester City now (his loan at Richmond having ended), so his unselfishness is exactly what scores City's winner and relegates Richmond. Ted, watching, recognizes the GROWTH rather than the result. The beat sets up Jamie's longer redemption journey and is paid off immediately by Ted's note/army-man gift (see that card). Distinct from Roy's card and the relegation card.",
+      "moment": "In the final seconds Jamie -- the season's ball-hog -- chooses the unselfish pass, the very growth Ted hoped for, even though it seals City's win and Richmond's drop.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: Jamie makes an extra pass to a teammate who scores City's winner" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou", "note": "Recap framing Jamie's pass as character growth witnessed by Ted; sets up the note" },
+        { "url": "https://www.nerdsandbeyond.com/2023/06/02/ted-lasso-and-the-redemption-of-jamie-tartt/", "note": "On Jamie's redemption arc, with the S1 finale pass as an early turning point" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-army-man-note-to-jamie",
+      "type": "callback",
+      "title": "Ted's note and the green army man for Jamie",
+      "detail": "After the match, Ted sees Jamie's father berating him on the team bus for passing instead of scoring. As Jamie is about to leave with Manchester City, Coach Beard delivers an envelope from Ted: a note congratulating Jamie on the unselfish pass and one of Ted's little green plastic army men. CALLBACK: the army men originate in the pilot -- Ted's young son Henry packed a bag of them to 'keep his dad safe' while he's far from home, and Ted hands them out through the season as tokens of care and encouragement to people who need a little protection/hope. Giving one to Jamie -- the player who treated him worst -- is a pure expression of Ted's unconditional kindness. ATTRIBUTION/PLACEMENT NOTE: confirm the gift is delivered in THIS episode (multiple recaps place it here) and that the army-men origin is Henry/the pilot before writing the callback target.",
+      "moment": "Spotting Jamie being torn down by his father, Ted sends Beard with a note praising the pass and one of Henry's green army men -- a small token of protection for the player who hurt him most.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Army_man", "note": "Army-man motif: Henry's gift in the pilot 'to keep him safe'; Ted passes them on, including to Jamie in the S1 finale" },
+        { "url": "https://screenrant.com/ted-lasso-army-men-characters-gift-meaning-every/", "note": "Every army-man gift and its meaning, including Jamie's in the finale and the Henry origin" },
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: Beard delivers Ted's note and a toy soldier to Jamie after the match" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-ted-rebecca-promise-next-season",
+      "type": "callback",
+      "title": "Ted offers to resign; Rebecca keeps him -- and they vow to come back",
+      "detail": "The finale resolves the Ted-Rebecca relationship after her E9 confession that she hired him hoping to ruin the club. Following relegation, Ted goes to Rebecca and offers to resign, taking responsibility. She refuses to accept it; instead the two recommit, resolving to win promotion back to the Premier League and, eventually, to win the whole thing. It seals Rebecca's turn from saboteur to genuine ally (paying off the E9 forgiveness arc) and sets the optimistic forward-looking note that becomes Season 2's premise. Distinct from the E9 confession/forgiveness card -- this is the constructive aftermath. Pairs with the relegation theme card.",
+      "moment": "Owning the drop, Ted offers Rebecca his resignation; she turns it down, and the two former adversaries commit to climbing back up together.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Plot: Ted offers to resign, Rebecca declines, they resolve to win promotion and the Premier League" },
+        { "url": "https://collider.com/ted-lasso-season-1-episode-10-recap-ending-explained/", "note": "Recap of the Ted/Rebecca finale scene and the setup for Season 2" },
+        { "url": "https://readysteadycut.com/2020/10/02/recap-ted-lasso-season-1-episode-10-the-hope-that-kills-you-finale-apple-tv-plus-series/", "note": "E10 recap of the resignation-refused, comeback-promise ending" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e10-success-not-wins-and-losses",
+      "type": "philosophy",
+      "title": "Success isn't wins and losses -- a finale that proves it",
+      "detail": "The relegation finale is the deliberate test case for Ted's signature claim that success isn't really about wins and losses but about helping people become the best versions of themselves. By having the team grow, unite, and play with belief and STILL lose the match (and the division), the episode argues its philosophy can't be measured on the scoreboard -- the people are better even though the result is worse. This maps to the factsheet's Part III material (ch.10 'Doing Masculinity Better', success-not-wins-and-losses) and is in tension with the Beard-vs-Ted winning/growth debate already carded for E9 (s1e9-ted-vs-beard). FLAG for reviewer / DEDUP NOTE: keep this as a THEME card about the finale demonstrating the idea; do not re-litigate the E9 Beard debate, which is its own card. Attribute the philosophy framing (Aristotelian virtue / 'best versions of yourselves') as a reading per the Wiley volume, not as something the episode names.",
+      "moment": "Richmond go down yet finish the season transformed -- the finale staging Ted's belief that what matters most isn't the result on the board but who the players have become.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2021/07/22/ted-lasso-1x10-the-hope-that-kills-you-review/", "note": "E10 review discussing the loss-but-growth theme and Ted's success-isn't-wins philosophy" },
+        { "url": "https://collider.com/ted-lasso-season-1-episode-10-recap-ending-explained/", "note": "Recap framing the bittersweet finale as vindicating the show's measure of success" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-written-by-hunt-story-kelly-sudeikis",
+      "type": "production",
+      "title": "Who wrote and directed the Season 1 finale",
+      "detail": "Production trivia for the finale. 'The Hope That Kills You' was written by Brendan Hunt (who also co-created the show and plays Coach Beard) from a story by Joe Kelly and co-creator/star Jason Sudeikis, and was directed by MJ Delaney. It premiered on Apple TV+ on October 2, 2020 as the tenth and final episode of Season 1. MJ Delaney went on to direct further Ted Lasso episodes. FLAG for reviewer: corroborate the exact writing credit wording ('written by Brendan Hunt; story by Joe Kelly and Jason Sudeikis') from the episode's primary credits / Wikipedia before asserting it, since I could only read search summaries of the credits (WebFetch 403).",
+      "moment": "Behind the scenes: the finale was written by Brendan Hunt (Coach Beard) from a story by Joe Kelly and Jason Sudeikis, and directed by MJ Delaney.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)", "note": "Writing credit (Brendan Hunt; story by Joe Kelly & Jason Sudeikis), director MJ Delaney, air date Oct 2, 2020" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou", "note": "Recap page confirming the finale's identity and creative team" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e10-shes-a-rainbow-needle-drop",
+      "type": "reference",
+      "title": "'She's a Rainbow' by The Rolling Stones closes the finale",
+      "detail": "Music aesthetics: the finale features 'She's a Rainbow' by The Rolling Stones (from their 1967 album 'Their Satanic Majesties Request') as an end-of-episode needle-drop, the bright, hopeful tone pushing against the gut-punch of relegation -- consistent with the Ted Lasso and Philosophy aesthetics chapter (ch.13) on how the show's music amplifies emotion and warmth. The factsheet already lists 'She's a Rainbow' but tentatively/INFERRED-placed it in S1E5 'Tan Lines'; multiple soundtrack listings put a 'She's a Rainbow' usage at the end of the S1E10 finale, so this is a distinct, verifiable placement worth a card. FLAG for reviewer: song-to-scene placement varies across tracking sites (Tunefind/WhatSong/IMDb) and I could not open them due to the WebFetch 403; verify the exact end-credits placement and don't over-claim the precise scene.",
+      "moment": "As the bittersweet finale lands, The Rolling Stones' 'She's a Rainbow' plays out the episode -- warmth set against the sting of going down.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-music.php", "note": "Ted Lasso music listing referencing 'She's a Rainbow' as end music for S1E10" },
+        { "url": "https://www.what-song.com/Tvshow/100693/Ted-Lasso/s/200326", "note": "WhatSong Season 1 soundtrack listing (verify the E10 'She's a Rainbow' placement here)" },
+        { "url": "https://en.wikipedia.org/wiki/She%27s_a_Rainbow", "note": "Background on the 1967 Rolling Stones song" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}

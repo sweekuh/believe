@@ -1,0 +1,414 @@
+{
+  "episode": { "season": 1, "number": 6, "title": "Two Aces" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "WebFetch returned a global HTTP 403 on every URL attempted this session (Wikipedia included), as warned. Each claim was therefore re-derived from my own independent WebSearch queries, requiring corroboration across multiple independent result summaries (Wikipedia, fandom wikis, TV Tropes, dedicated WWI-history sites, ESPN/Backstead/CastingNetworks/NBC profiles, lassoism transcript). verified_sources lists URLs surfaced and read via search; none were opened with WebFetch. Placement checks all passed: the cursed room is the TREATMENT (physio) room; Piaf/'Non, je ne regrette rien' is E10 and is correctly absent; the Diamond Dogs (E8) are correctly absent. Two attribution hazards handled: (a) the show's '400 lured at Richmond in 1914' is the FICTIONAL in-show curse origin and is kept separate from the REAL Footballers' Battalion history; (b) the ceremony's instigator is genuinely shared on screen (Sam suggested/backed the cleansing; Ted devised the midnight-burning format; Higgins suggested withholding Dani's recovery) — cards avoid crediting a single instigator.",
+  "facts": [
+    {
+      "id": "s1e6-football-is-life",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent sources confirm Dani Rojas debuts in S1E6 'Two Aces' and that 'football is life' is his signature line first spoken here, lifting a deflated Ted. Placement and phrasing ('football,' not 'soccer') corroborated.",
+      "verified_sources": [
+        "https://fandomwire.com/football-is-life-10-best-dani-rojas-quotes-from-ted-lasso/",
+        "https://ted-lasso.fandom.com/wiki/Dani_Rojas",
+        "https://en.wikipedia.org/wiki/Two_Aces"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-football-is-life",
+        "tag": "Joy as its own argument",
+        "title": "\"Football is life\"",
+        "moment": "A rapturous new striker, Dani Rojas, bounds onto the pitch radiating uncomplicated joy and sums up his whole outlook in three words about the game. A deflated Ted is visibly lifted by it.",
+        "idea": "Against an episode full of heaviness, Dani is the counterweight: a reminder that the game can be pure, undiluted joy, and that joy is a serious thing, not a frivolous one.",
+        "why": "Watch how the line lands on Ted specifically. It becomes the show's recurring mantra; this is where it enters, as medicine for a low moment.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); character/quote origin per Ted Lasso Wiki and FandomWire.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Multiple independent sources confirm the line debuts here and lifts Ted; phrasing is 'football,' not 'soccer.'",
+        "sourcesChecked": [
+          "https://fandomwire.com/football-is-life-10-best-dani-rojas-quotes-from-ted-lasso/",
+          "https://ted-lasso.fandom.com/wiki/Dani_Rojas",
+          "https://en.wikipedia.org/wiki/Two_Aces"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-curse-lifting-ritual",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across Wikipedia, fandom and TV Tropes: convinced the treatment room is cursed, the team holds a midnight burning ceremony; objects (Roy's blanket, Sam's 1994 Nigeria photo, Nate's sunglasses, Rebecca's newspaper, Higgins's cat collar) match. The superstition becomes a real act of shared grief and bonding. On screen Sam suggested/backed the ritual and Ted shaped the ceremony, so the card does not assign a single instigator.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/The_Curse",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+        "https://en.wikipedia.org/wiki/Two_Aces"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e6-curse-lifting-ritual",
+        "tag": "Ritual as a container for feeling",
+        "title": "The curse-lifting ceremony",
+        "moment": "At midnight the team gathers to lift the treatment room's curse. Each person steps up, names something that matters, and burns it. What is staged as superstition turns into people pouring out loss, fear and hope.",
+        "idea": "A ritual gives feeling a shape. Dressed up as breaking a curse, the burning becomes permission to be vulnerable together, and the squad behaves like one team for the first time.",
+        "why": "Notice that nothing supernatural is required for the ceremony to work. The 'magic' is simply that everyone is finally honest in the same room.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); ceremony details per Ted Lasso Wiki and TV Tropes recap.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Wikipedia, fandom and TV Tropes corroborate the midnight burning ceremony and the specific objects; the instigation is shared on screen (Sam suggests, Ted shapes it).",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/The_Curse",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+          "https://en.wikipedia.org/wiki/Two_Aces"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-footballers-battalion-history",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The REAL history checks out: the 17th (Service) Battalion of the Middlesex Regiment, the 'Footballers' Battalion,' was raised at Fulham Town Hall in December 1914; Clapton Orient (now Leyton Orient) was the first English league club to enlist together; casualties were severe (1,000+ men). The show's specific '400 lured at Richmond in 1914' figure is FICTIONAL in-show backstory and is presented as such — kept separate from the real battalion history.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Football_Battalion",
+        "https://footballandthefirstworldwar.org/footballers-battalion/",
+        "https://www.thefa.com/news/2014/mar/24/remembering-the-fallen-heroes",
+        "https://www.thepfa.com/news/2018/11/11/the-story-of-the-footballers-battalion"
+      ],
+      "scores": { "grounding": 5, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e6-footballers-battalion-history",
+        "tag": "A ghost story rooted in real grief",
+        "title": "The curse's real-world echo",
+        "moment": "The room is said to be haunted by young men tricked, in 1914, into enlisting under cover of a tryout, most of whom never came home. The in-show figure (men lured at Richmond) is invented, but the shape of it is not.",
+        "idea": "The fiction grafts a real, grim chapter onto a ghost story. In 1914 the 'Footballers' Battalion' (17th Middlesex) drew players and whole clubs into the war; Clapton Orient enlisted together, and casualties were devastating.",
+        "why": "The haunting hits harder once you know the show is borrowing from history. The specific Richmond number is made up; the loss it gestures at was real.",
+        "source": "Real history: 17th (Service) Battalion, Middlesex Regiment ('Footballers' Battalion'), per Wikipedia, The FA, the PFA and footballandthefirstworldwar.org. In-show backstory per Ted Lasso S1E6.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Real Footballers' Battalion history confirmed by multiple reputable sources; the show's '400 lured at Richmond' figure is fictional and is kept separate.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Football_Battalion",
+          "https://footballandthefirstworldwar.org/footballers-battalion/",
+          "https://www.thefa.com/news/2014/mar/24/remembering-the-fallen-heroes",
+          "https://www.thepfa.com/news/2018/11/11/the-story-of-the-footballers-battalion"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-jamie-cleats-confession",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across fandom, TV Tropes and a dedicated scene breakdown: Jamie arrives at the end of the ceremony and sacrifices cleats from his mother (who valued his being a good person over a good footballer), confessing his bravado was a shield against a belittling father. This is the documented start of his redemption arc.",
+      "verified_sources": [
+        "https://ladygeeksmedia.com/2021/06/17/scene-breakdown-jamie-tartts-subtle-sacrifice-in-ted-lassos-two-aces/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+        "https://ted-lasso.fandom.com/wiki/Jamie_Tartt"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e6-jamie-cleats-confession",
+        "tag": "The first crack in the armor",
+        "title": "Jamie's mother's cleats",
+        "moment": "Jamie turns up at the end of the ceremony and asks to make a sacrifice too: cleats from his mother, who cared more that he be a good person than a good footballer. He admits his hard front was built to survive a father who mocked him as soft.",
+        "idea": "The episode quietly reframes Jamie's ego as armor. Once you see what it was protecting him from, the petulant star becomes a wounded kid, and his long redemption arc begins.",
+        "why": "This is the setup that later seasons pay off (his father's locker-room blow-up). Watch the gentleness underneath the swagger here.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); scene breakdown per LadyGeeksMedia, TV Tropes and Ted Lasso Wiki.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Fandom, TV Tropes and a dedicated scene breakdown corroborate the cleats, his mother, the father confession, and that his arc starts here.",
+        "sourcesChecked": [
+          "https://ladygeeksmedia.com/2021/06/17/scene-breakdown-jamie-tartts-subtle-sacrifice-in-ted-lassos-two-aces/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+          "https://ted-lasso.fandom.com/wiki/Jamie_Tartt"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-roys-blanket",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Originally flagged as fan-wiki only, but corroborated by a transcript source plus the fandom page: Roy was scouted by Sunderland at nine, his granddad drove him and gave him a blanket to keep him warm and remind him of home, and it was the last time he saw him (granddad died before Christmas). Detail and S1E6 ceremony placement confirmed.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-quote.php?id=115",
+        "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+        "https://ted-lasso.fandom.com/wiki/Sunderland_AFC"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e6-roys-blanket",
+        "tag": "Tenderness under the toughness",
+        "title": "Roy's childhood blanket",
+        "moment": "The gruffest man in the room gives up a worn blanket. His granddad had given it to him at nine, when he left home for the Sunderland academy, to keep him warm and remind him of home. It was the last gift; his granddad died before he came back.",
+        "idea": "Roy's hardness sits on top of deep attachment and loss. The 'blankie' is an early window into the sentimental core the character spends years guarding.",
+        "why": "Easy to miss as a throwaway prop. It is actually one of the first clues to who Roy Kent really is.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); backstory per episode transcript (lassoism) and Ted Lasso Wiki.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed by an episode-transcript source plus the fandom page: Sunderland scouting at nine, the granddad's blanket, his death before Roy returned.",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-quote.php?id=115",
+          "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+          "https://ted-lasso.fandom.com/wiki/Sunderland_AFC"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-dani-rojas-real-footballer",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed by Wikipedia, ESPN and Backstage: Cristo Fernandez is a Guadalajara-born Mexican actor and footballer, in the Tecos academy until about 15 when a knee injury ended his early hopes, later played in Puerto Rico's first division, and after the show signed with USL Championship side El Paso Locomotive — literally living out 'football is life.'",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Cristo_Fern%C3%A1ndez",
+        "https://www.espn.com/soccer/story/_/id/48750339/cristo-fernandez-signs-usl-team",
+        "https://www.backstage.com/magazine/article/cristo-fernandez-ted-lasso-advice-76394/"
+      ],
+      "scores": { "grounding": 5, "insight": 3, "surprise": 5, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-dani-rojas-real-footballer",
+        "tag": "Art imitating life",
+        "title": "Dani Rojas was a real footballer",
+        "moment": "Behind the camera, the actor playing the rapturous new striker is a genuine former footballer. A knee injury around fifteen, in the Tecos academy, ended his early playing hopes and pushed him toward acting.",
+        "idea": "Dani's joyful, injury-shadowed striker is rooted in Cristo Fernandez's own story. Years after the show he signed with a USL Championship club, turning the catchphrase into his real life.",
+        "why": "It explains why Dani looks so convincing on the ball, and gives the 'football is life' line an extra, real-world weight.",
+        "source": "Cristo Fernandez biography per Wikipedia, ESPN and Backstage.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Wikipedia, ESPN and Backstage confirm his Tecos-academy past, the career-ending knee injury, and his later pro signing with El Paso Locomotive.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Cristo_Fern%C3%A1ndez",
+          "https://www.espn.com/soccer/story/_/id/48750339/cristo-fernandez-signs-usl-team",
+          "https://www.backstage.com/magazine/article/cristo-fernandez-ted-lasso-advice-76394/"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-football-is-life-origin",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Fernandez's own first-person account (CastingNetworks) says he used 'to me, football is life' in his audition self-tape; multiple outlets report Bill Lawrence telling a Season 2 premiere Q&A the line was 'all Cristo.' The Lawrence quote is secondhand reporting rather than a primary transcript, so I cap this at partially-confirmed, though the actor's own account independently supports the substance.",
+      "verified_sources": [
+        "https://www.castingnetworks.com/news/my-casting-story-cristo-fernandez-on-ted-lasso/",
+        "https://www.cheatsheet.com/news/tv/ted-lasso-cristo-fernandez-football-is-life-audition.html/",
+        "https://www.nbcnews.com/news/latino/f-tbol-life-mexican-actor-cristo-fern-ndez-loving-his-n1277063"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 5, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-football-is-life-origin",
+        "tag": "The catchphrase that wasn't scripted",
+        "title": "Where \"football is life\" came from",
+        "moment": "Behind the camera, the line that defines Dani started with the actor, not the writers' room. In his audition self-tape, asked to introduce himself, Cristo Fernandez said football was his life and described going pro young.",
+        "idea": "The writers liked it so much it became the character's signature. A real actor's words, lightly reshaped into a show's heartbeat.",
+        "why": "A small reminder of how much of this show grew out of who its actors actually are.",
+        "source": "Cristo Fernandez (CastingNetworks) on his audition; Bill Lawrence comments reported by Cheat Sheet and NBC News.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Actor's own first-person account confirms the audition origin; the Bill Lawrence attribution is reported secondhand, so held at partial.",
+        "sourcesChecked": [
+          "https://www.castingnetworks.com/news/my-casting-story-cristo-fernandez-on-ted-lasso/",
+          "https://www.cheatsheet.com/news/tv/ted-lasso-cristo-fernandez-football-is-life-audition.html/",
+          "https://www.nbcnews.com/news/latino/f-tbol-life-mexican-actor-cristo-fern-ndez-loving-his-n1277063"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-ted-knew-dani-was-fine",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Ted reveals to Rebecca he knew hours earlier that Dani's injury was mild, but Higgins suggested holding the news until after the ceremony so the players could feel they broke the curse together. The instigator of the ritual itself is shared on screen (Sam suggested/backed it, Ted shaped the format), so the card frames the deception, not a sole author.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/The_Curse",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+        "https://en.wikipedia.org/wiki/Two_Aces"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s1e6-ted-knew-dani-was-fine",
+        "tag": "A useful, harmless fiction",
+        "title": "Ted's benevolent deception",
+        "moment": "Ted had learned hours earlier that the injured player was fine, but, on Higgins's nudge, he let the team go on believing the ceremony had lifted the curse. He kept quiet so the players could feel they had broken it together.",
+        "idea": "The cure was never the point; the unity was. Ted stages a harmless fiction because the shared ritual does real work on the team's spirit, echoing the show's bet that believing together can change a group.",
+        "why": "A small ethics-of-belief puzzle. Ask yourself whether the lie was kindness or manipulation, and notice the show clearly thinks it was kindness.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per Ted Lasso Wiki, TV Tropes and Wikipedia.",
+        "category": "Ethics & character",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed across fandom, TV Tropes and Wikipedia: Ted knew Dani was fine and withheld it on Higgins's suggestion to unite the team.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/The_Curse",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+          "https://en.wikipedia.org/wiki/Two_Aces"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-two-aces-rivalry",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed by the Wikipedia synopsis and a recap: the title is Ted's framing of having two elite strikers (Jamie and Dani) at once, and he uses the cheerful newcomer as a motivational lever against the sulking Jamie.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Two_Aces",
+        "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 70,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-two-aces-rivalry",
+        "tag": "Coaching the ego, not the player",
+        "title": "Why \"Two Aces\"",
+        "moment": "The title is Ted's name for suddenly having two elite strikers at once. He brings the friendly, equally gifted newcomer in partly to jolt the petulant Jamie into engaging.",
+        "idea": "Sometimes the cure for a sulking star is not confrontation but a cheerful equal. Ted reads the ego in the room and answers it with competition rather than a fight.",
+        "why": "Watch the move as a coaching choice. It also sets up the gut-punch when one of the two aces is taken away.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per Wikipedia synopsis and ShowSnob recap.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Wikipedia synopsis and a recap confirm the 'two aces' framing and Ted using Dani to spur Jamie.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Two_Aces",
+          "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-rebecca-recalls-jamie",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: after the bonding night, Rebecca transfers Jamie back to Manchester City, another act of quiet sabotage; Ted is angered. Corroborated by Wikipedia, fandom and a recap.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Two_Aces",
+        "https://ted-lasso.fandom.com/wiki/Jamie_Tartt",
+        "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-rebecca-recalls-jamie",
+        "tag": "The agenda still running underneath",
+        "title": "Rebecca pulls the rug out",
+        "moment": "The morning after the team's first night of real unity, Ted learns Rebecca has let Manchester City recall Jamie from his loan. It is another quiet move in her campaign to wreck the club, and a rare flash of real anger from Ted.",
+        "idea": "Warmth and sabotage are running at the same time. The episode earns its bonding and then reminds you Rebecca's hidden agenda has not gone anywhere.",
+        "why": "Note how the high of the ceremony is immediately undercut. It keeps the season's central tension alive just as you relax into the feel-good.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per Wikipedia, Ted Lasso Wiki and ShowSnob recap.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Wikipedia, fandom and a recap confirm Jamie's recall to Man City and Ted's anger at Rebecca.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Two_Aces",
+          "https://ted-lasso.fandom.com/wiki/Jamie_Tartt",
+          "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-sam-nigeria-photo",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across fandom and TV Tropes: among the burned offerings, Sam sacrifices a photo of Nigeria's national team from the 1994 FIFA World Cup. The 1994 'Super Eagles' were a real, celebrated squad, so the detail quietly characterizes Sam's homesickness and pride.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+        "https://ted-lasso.fandom.com/wiki/The_Curse",
+        "https://en.wikipedia.org/wiki/Two_Aces"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-sam-nigeria-photo",
+        "tag": "Homesickness in a single object",
+        "title": "Sam's 1994 Nigeria photo",
+        "moment": "Among the burned offerings, Sam gives up a photo of Nigeria's national team from the 1994 World Cup, the squad that captivated a generation of African fans.",
+        "idea": "The choice characterizes Sam without a speech: homesick, rooted in Nigerian football pride, and willing to surrender a treasured emblem of home for the team.",
+        "why": "Easy to miss in the flicker of the fire. It rewards knowing the real history of that beloved 1994 side.",
+        "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per TV Tropes recap and Ted Lasso Wiki.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Fandom and TV Tropes confirm Sam's sacrifice is the 1994 Nigeria World Cup team photo.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+          "https://ted-lasso.fandom.com/wiki/The_Curse",
+          "https://en.wikipedia.org/wiki/Two_Aces"
+        ]
+      }
+    },
+    {
+      "id": "s1e6-wrubel-first-credit",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via Wikipedia and IMDb credits: teleplay by Bill Wrubel, story by Brett Goldstein and Phoebe Walsh, directed by Elliot Hegarty; premiered Sep 4, 2020. Goldstein (who plays Roy Kent) sharing the story credit on the episode that gives Roy his blanket moment is corroborated.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Two_Aces",
+        "https://m.imdb.com/title/tt11046490/fullcredits/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s1e6-wrubel-first-credit",
+        "tag": "The actor in the writers' room",
+        "title": "Roy Kent helped write Roy Kent",
+        "moment": "Behind the camera, this emotionally pivotal episode (teleplay by Bill Wrubel; directed by Elliot Hegarty) carries a story credit shared by Brett Goldstein, who also plays Roy.",
+        "idea": "The episode that gives Roy his most tender moment, the blanket, was co-shaped on the page by the man who plays him, part of the show's pattern of actors steering the writing.",
+        "why": "A small credit worth knowing. It is no accident that Roy's softest scene feels so lived-in.",
+        "source": "Credits per Wikipedia ('Two Aces') and IMDb full credits.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Wikipedia and IMDb confirm teleplay by Wrubel, story by Goldstein and Walsh, directed by Hegarty; Goldstein plays Roy Kent.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Two_Aces",
+          "https://m.imdb.com/title/tt11046490/fullcredits/"
+        ]
+      }
+    }
+  ]
+}
