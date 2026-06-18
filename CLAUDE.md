@@ -28,11 +28,20 @@ philosophy or plot facts to fill an episode.
     sort neutrally.
   - Notes persist in `localStorage` keyed `believe:note:{card.id}`, so **card
     `id`s are stable and must never be reused/reindexed.**
+  - **Display options** (`setupDisplayOptions()`): a "Display options" panel
+    offers a text-size control (multiplies the `--reader-scale` CSS var, which
+    scales only the *reading* text — card prose/title/source, intros, note box —
+    not chrome) and a high-contrast toggle (`body.hc`, an opt-in dark variant
+    that deepens the dusk palette and brightens muted text). Persisted in
+    `believe:fontScale` (`1`/`1.15`/`1.3`) and `believe:contrast` (`0`/`1`).
+    Wired before the `fetch`, so they work even on a load error.
   - Rich card fields (`title`/`moment`/`idea`/`why`/`source`) are injected as
     HTML to keep inline `<em>`/`<strong>`; content is author-trusted.
 - **`design-reference/believe-s1e1.html`** is the approved visual source of
   truth. Match it exactly; do not redesign. Design tokens and the taped BELIEVE
-  banner / torn-paper cards live here and are mirrored in `index.html`.
+  banner / torn-paper cards live here and are mirrored in `index.html`. It
+  reflects the **default** theme + text size (high contrast off, scale 1); the
+  display options layer on top of that baseline and aren't in the reference.
 - **`episodes.json`** is the only content file. Card schema and the optional
   scoring fields (`grounding`, `interest`, `category`, `groundingStatus`,
   `groundingNotes`, `sourcesChecked`) are documented in `README.md` and
@@ -65,9 +74,9 @@ This repo has no test/lint suite. Verification is a headless-browser script.
 python3 -m http.server 8000          # then open http://localhost:8000
 
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
-# display-contract sort/filter; writes screenshots to tools/shots/)
+# display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 15)
+node tools/verify.mjs                # run all checks (currently 21)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

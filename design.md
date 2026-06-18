@@ -119,17 +119,48 @@ Reviewed at 375px (the target width) using the headless-browser screenshots in
 
 ---
 
+## Reader-facing accessibility options (added)
+
+A small **"⚙ Display options"** toggle (top of the page, tucked behind one tap)
+opens a panel with two controls. Both default to the current look, persist per
+browser, and are wired before the data `fetch` so they work even if content
+fails to load.
+
+- **Text size — Normal / Larger / Largest.** Multiplies a single
+  `--reader-scale` CSS variable (1 / 1.15 / 1.3) applied via `calc()` to the
+  *reading* text only — card prose, card titles, the "Hi Mom" / episode intros,
+  the source line, and her own note box. Chrome (banner, picker, eyebrow, tags,
+  buttons) stays a fixed size so layout is stable at every scale.
+  Saved in `believe:fontScale`.
+- **High contrast — Off / On.** An opt-in `body.hc` variant that *keeps the dark
+  dusk aesthetic* (per the chosen direction) but deepens the background, darkens
+  the marker ink on the cream cards, brightens the muted-blue UI text, deepens
+  the pitch-green tag/accent, and adds a faint card edge. Saved in
+  `believe:contrast`. *Why this over a light mode:* it's the option closest to
+  the approved look while still delivering a real contrast gain.
+
+Both are exposed semantically: the text-size buttons are an
+`aria-pressed` group, high contrast is a `role="switch"` with `aria-checked`,
+the toggle uses `aria-expanded`/`aria-controls`, and every control is a ≥44px
+tap target with a `:focus-visible` outline.
+
+> The design reference shows the **default** baseline (high contrast off, scale
+> 1); these options layer on top and are intentionally not added to the
+> reference prototype.
+
 ## Accessibility snapshot
 
 | Area | Status |
 |------|--------|
-| Tap targets ≥44px | ✅ buttons 44–48px, select 48px |
+| Tap targets ≥44px | ✅ buttons 44–48px, select 48px, display controls 44px |
 | `prefers-reduced-motion` | ✅ honored (gate animation, card tilt, smooth-scroll) |
-| `:focus-visible` outlines | ✅ on select, reveal, save, copy-all, textarea |
-| Text contrast on dark bg | ✅ after note-tip fix; muted blues (`#9fb2c9`) pass |
+| `:focus-visible` outlines | ✅ on select, reveal, save, copy-all, textarea, display controls |
+| Text contrast on dark bg | ✅ after note-tip fix; muted blues (`#9fb2c9`) pass; high-contrast option for more |
 | Text contrast on cards | ✅ after `.src` fix (was the one failure) |
 | Semantic gate wiring | ✅ `aria-expanded` / `aria-controls` / `aria-hidden` |
 | Save confirmation announced | ✅ `role="status"` live region (fix #6) |
+| Reader text scaling | ✅ Normal / Larger / Largest, persisted |
+| Theme contrast control | ✅ opt-in high-contrast dark variant, persisted |
 | Language / viewport meta | ✅ `lang="en"`, responsive viewport |
 
 ---
@@ -139,13 +170,13 @@ Reviewed at 375px (the target width) using the headless-browser screenshots in
 The headless harness doubles as a visual-regression aid:
 
 ```bash
-node tools/verify.mjs            # 15 behavior checks + writes tools/shots/*.png
+node tools/verify.mjs            # 21 behavior checks + writes tools/shots/*.png
 node tools/verify.mjs --no-shots # checks only
 ```
 
 Screenshots are captured at 375px (the target). Eyeball `01-landing.png`,
-`02-notes-revealed.png`, `03-placeholder-e2.png`, and `04-e8-verified.png`
-after any styling change.
+`02-notes-revealed.png`, `03-placeholder-e2.png`, `04-e8-verified.png`, and
+`05-display-options.png` (text size + high contrast) after any styling change.
 
 ---
 
@@ -157,5 +188,7 @@ specific person reading it.** All nine findings are now implemented — contrast
 and orphan-dash fixes, a body-text bump, calmer intro typography, a guiding
 picker label, a one-line reveal button, and two screen-reader corrections — with
 the visual changes mirrored into the design reference. The Google-Fonts
-dependency (#10) is a noted, acceptable trade-off for a static gift. All 15
-headless checks pass.
+dependency (#10) is a noted, acceptable trade-off for a static gift. On top of
+the review, reader-facing **display options** (text size + an opt-in
+high-contrast dark variant) were added behind a small toggle. All 21 headless
+checks pass.
