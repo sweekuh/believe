@@ -1,0 +1,164 @@
+{
+  "episode": { "season": 1, "number": 3, "title": "Trent Crimm: The Independent" },
+  "generated_by": "episode-fact-hunter",
+  "hunter_notes": "WebFetch returned HTTP 403 globally this session (Wikipedia and all pages), so no page could be opened directly. Every candidate below was corroborated across multiple independent WebSearch result summaries (Wikipedia, TV Tropes recap, Fandom wiki, ReadySteadyCut/ShowSnob/TVFanatic recaps, BookRiot/library book-list pieces, soundtrack databases). hunter_confidence is capped accordingly; precision-/attribution-dependent items are flagged for the reviewer to open primary pages. episodes.json already ships ONE card for this episode (s1e3-trent-crimm, the journalistic-ethics angle on Trent's profile); the candidates below are deliberately DISTINCT additional facts. I include one re-angled Trent candidate (s1e3-trent-name-signature) about his verbal signature/running gag, not the ethics angle already covered. NEVER reproduced show dialogue; the 'best versions of yourselves' phrase appears in many secondary sources but I have paraphrased rather than quoted it in any moment field.",
+  "candidates": [
+    {
+      "id": "s1e3-personalized-books",
+      "type": "trivia",
+      "title": "Ted leaves each player a hand-picked book",
+      "detail": "Ted leaves a gift-wrapped novel in each player's locker, individually chosen so the book quietly teaches the lesson that player needs. Reported examples: Sam gets Orson Scott Card's 'Ender's Game' (the underestimated newcomer who rises), Jamie gets Fitzgerald's 'The Beautiful and Damned' (and tosses it aside), Roy gets Madeleine L'Engle's 'A Wrinkle in Time'. It is a compact picture of Ted's whole method: coaching people, not just players, through care tailored to each individual. Exact title-to-player pairings beyond Roy's are from fan catalogues and freeze-frame reads and should be verified before any specific pairing ships.",
+      "moment": "Ted tells the squad he has left them gifts; players open wrapped books in their lockers, and Sam starts reading his right away on the exercise bike.",
+      "sources": [
+        { "url": "https://bookriot.com/every-book-in-ted-lasso/", "note": "Catalogues the books Ted gives in S1E3 and the per-player meanings" },
+        { "url": "https://www.christiancountylibrary.org/lasso-library/", "note": "Library list confirming the gifted books and recipients" },
+        { "url": "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time", "note": "Confirms Roy's gift is A Wrinkle in Time and the lesson" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-phil-jackson-books",
+      "type": "production",
+      "title": "The book-gifting echoes Phil Jackson",
+      "detail": "Ted's tactic of handing each player a personally chosen book mirrors a real coaching practice: NBA championship coach Phil Jackson was famous for giving individually selected books to his players (Bulls and Lakers) to reach them as people. Multiple write-ups draw the parallel, framing the episode beat as grounded in a documented real-world leadership method rather than pure invention. Treat the Phil Jackson link as a commentator-drawn parallel (it is well documented that Jackson did this) rather than a stated production intention unless a creator interview confirms it.",
+      "moment": "Off-screen context for the locker-room book gifts: a leadership tactic associated with coach Phil Jackson.",
+      "sources": [
+        { "url": "https://www.christiancountylibrary.org/lasso-library/", "note": "States the book-gifting was a tactic used by NBA coach Phil Jackson" },
+        { "url": "https://thetorg.com/2023/07/31/the-leadership-methods-of-ted-lasso/", "note": "Discusses Ted's leadership methods including the book gifts" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-wrinkle-in-time-roy",
+      "type": "reference",
+      "title": "'A Wrinkle in Time' and Roy's epiphany",
+      "detail": "Roy is given Madeleine L'Engle's 'A Wrinkle in Time', a novel about a young girl shouldering the burden of leadership. Roy reads it aloud to his niece Phoebe at bedtime and hits the passage about it having to be him and no one else, which lands as his realization that, as captain, stopping the team's bullying of Nate is his job, not Ted's or Jamie's. A clean example of a literary reference doing real character work inside the episode.",
+      "moment": "At bedtime Roy reads the book to Phoebe; the line about the task falling to him alone visibly jolts him into owning his role as captain.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time", "note": "Describes Roy reading it to Phoebe and the leadership epiphany" },
+        { "url": "https://medium.com/@lukeblogs/ted-lassos-gift-of-a-wrinkle-in-time-4d31697a150d", "note": "Essay on the gift and what the book signals for Roy" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-roy-leadership-turn",
+      "type": "callback",
+      "title": "Roy steps up as captain (and defends Nate)",
+      "detail": "Ted deliberately declines to break up the players' bullying of kitman Nate himself, nudging captain Roy to handle team discipline. Prompted by the book, Roy confronts Jamie, then headbutts Colin at a nightclub and dresses down the squad for tormenting Nate. It is the episode's leadership turning point and a setup for the season-long thaw between Roy, Nate, and the team; Nate's grateful, awkward hug seeds the Roy-Nate bond. Direction: pays off Ted's hands-off coaching choice within the episode and sets up later arcs.",
+      "moment": "After being pushed to lead, Roy publicly shuts down the players harassing Nate; a thankful Nate moves to hug him and both men squirm.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Nathan_Shelley", "note": "Recounts Roy stepping in against the bullying and Nate's thanks" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent", "note": "Episode recap covering Roy's leadership turn" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e3-nate-tactics-credit",
+      "type": "theme",
+      "title": "Ted openly credits Nate's tactics",
+      "detail": "Stuck for a strategy, Ted and Beard adopt a play devised by Nate, the lowly kit man, and it works in training. When Trent asks where the new tactic came from, Ted credits Nate without hesitation, unbothered by the status gap. It models a flat, merit-over-hierarchy ethic (and respect for the overlooked) that quietly impresses the skeptical reporter and seeds Nate's rise.",
+      "moment": "Trent learns the fresh play was the kit man's idea; Ted gives Nate full credit rather than claiming it.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent", "note": "Notes Ted uses Nate's strategy and credits him" },
+        { "url": "https://readysteadycut.com/2020/08/14/recap-ted-lasso-season-1-episode-3-trent-crimm-the-independent-apple-tv-plus-series/", "note": "Recap confirming Trent learns the play came from Nate" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-success-not-wins",
+      "type": "philosophy",
+      "title": "Success isn't wins and losses",
+      "detail": "Over dinner Ted gives Trent the line that crystallizes his coaching creed: success, for him, isn't about wins and losses but about helping his players become the best versions of themselves on and off the pitch. It is the episode's thematic core and the moment that disarms the cynical journalist. This connects to the show's recurring debate over whether outcome-indifferent optimism is wisdom or evasion (cf. Ted Lasso and Philosophy, the Beard-vs-Ted 'how we measure success' thread). Phrase paraphrased here; do not ship reproduced dialogue.",
+      "moment": "At the Indian restaurant Ted tells Trent that he measures success by his players' growth as people, not by the scoreline.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent", "note": "Episode summary of Ted's dinner explanation of his philosophy" },
+        { "url": "https://objectivestandard.org/blog/ted-lasso-inspires-success-through-benevolence-and-competence/", "note": "Analysis of the 'best versions of themselves' creed" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-indian-food-dinner",
+      "type": "trivia",
+      "title": "Ted's first Indian meal",
+      "detail": "The pivotal Ted-Trent conversation happens at an Indian restaurant connected to Ollie, the driver who collected Ted from the airport. Ted, who has never had Indian food, asks for it cooked as the chef would for his own family; the result is punishingly spicy, and Ted gamely eats through the heat (even extra helpings) to be polite while Trent backs off. The scene's warmth and humor are what actually win Trent over, making a small culture-clash food beat carry the episode's emotional turn.",
+      "moment": "At Ollie's family restaurant Ted, new to Indian cuisine, asks for full-strength spice and powers through the burn while opening up to Trent.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Indian_restaurant", "note": "Details the restaurant's Ollie connection and Ted's spice ordeal" },
+        { "url": "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/", "note": "Recap of the dinner scene and its role in winning Trent over" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-trent-name-signature",
+      "type": "easter-egg",
+      "title": "'Trent Crimm. The Independent.'",
+      "detail": "This episode title is also Trent's running verbal signature: he habitually introduces himself with his name followed by his outlet, 'Trent Crimm, The Independent.' The bit becomes a long-game callback that pays off seasons later, when he leaves the paper and can wryly restyle himself 'Trent Crimm, Independent.' A nice detail for a rewatcher: the episode name doubles as the character's catchphrase and plants a joke that closes much later. (Distinct from the journalistic-ethics card already in episodes.json, which is about his profile of Ted.)",
+      "moment": "Trent introduces himself by name and newspaper in his clipped signature style, the same phrasing the episode is titled after.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Trent_Crimm", "note": "Documents his standard 'Trent Crimm, The Independent' self-introduction and the later 'Independent' payoff" },
+        { "url": "https://sportsmediaguy.substack.com/p/trent-crimm-independent", "note": "Essay on the name/signature and its evolution" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s1e3-rebecca-photo-sabotage",
+      "type": "callback",
+      "title": "Rebecca's photo sabotage backfires",
+      "detail": "Rebecca's covert war on Ted escalates: per her instruction Higgins hires a paparazzo to snap compromising-looking shots of Ted with Keeley to wreck Ted's standing (and his relationship with Jamie). Tipped off by a tabloid friend, Keeley gets the photos held. The same scheme is why Ted owes Rebecca the favor of spending the day with Trent. It deepens the season's central irony, that Rebecca keeps engineering Ted's downfall while he keeps disarming everyone, and sets up her later guilt and turn.",
+      "moment": "Higgins arranges paparazzi shots of Ted and Keeley on Rebecca's orders; Keeley learns of them in advance and gets publication postponed.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent", "note": "Recap of the paparazzi-photo sabotage and how it ties to the Trent favor" },
+        { "url": "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent", "note": "Notes Ted's day with Trent is a favor to Rebecca over a photo" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s1e3-trent-profile-turn",
+      "type": "theme",
+      "title": "The expose that becomes an endorsement",
+      "detail": "Rebecca sets Trent on Ted expecting a hit piece; instead the day disarms him and his published profile praises Ted's leadership, ending with Trent admitting he is rooting for Ted even while doubting he can win. It is the episode's thematic payoff and a portrait of an honest skeptic letting the evidence change his verdict. (Adjacent to the existing journalistic-ethics card but framed here as the in-episode reversal/theme; reviewer may merge or keep separate.)",
+      "moment": "Trent's finished article flips from the planned takedown to praise, conceding he cannot help cheering Ted on.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent", "note": "Summary of Trent's profile turning complimentary" },
+        { "url": "https://www.tvfanatic.com/ted-lasso-season-1-episode-3-recap-trent-crimm-the-independent/", "note": "Recap of how the article lands as praise" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-vivaldi-summer",
+      "type": "reference",
+      "title": "Vivaldi over the close",
+      "detail": "The episode uses Vivaldi's 'The Four Seasons' (the Adagio from the 'Summer' concerto, Violin Concerto No. 2 in G minor, RV 315) as a classical cue, a contemplative contrast to the show's usual pop needle-drops. Soundtrack databases list it for this episode. Exact placement (end credits vs. an in-episode scene) varies between listings, so the reviewer should confirm where it lands before describing the moment precisely.",
+      "moment": "A movement of Vivaldi's 'Summer' from The Four Seasons scores a reflective beat in the episode.",
+      "sources": [
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-1/100429", "note": "Episode soundtrack listing including Vivaldi" },
+        { "url": "https://www.whatsong.org/tvshow/ted-lasso/episode/86061", "note": "Song list corroborating the Vivaldi cue for S1E3" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s1e3-becker-marshall-credits",
+      "type": "production",
+      "title": "Written by Jane Becker, directed by Tom Marshall",
+      "detail": "The episode was written by supervising producer Jane Becker (her first writing credit on the show) and directed by Tom Marshall (his second directing credit). It premiered on Apple TV+ on August 14, 2020, in the show's three-episode launch. Standard production-credit fact; corroborated across the Wikipedia episode page and IMDb.",
+      "moment": "Off-screen production fact: writing and directing credits and the original release date.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trent_Crimm:_The_Independent", "note": "States writer Jane Becker, director Tom Marshall, and Aug 14 2020 release" },
+        { "url": "https://www.imdb.com/title/tt10989892/", "note": "IMDb episode page corroborating credits" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    }
+  ]
+}
