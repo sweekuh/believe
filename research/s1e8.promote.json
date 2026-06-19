@@ -1,0 +1,59 @@
+[
+  {
+    "id": "s1e8-diamond-dogs-name-origin",
+    "tag": "How they got the name",
+    "title": "Why 'Diamond Dogs'",
+    "moment": "Casting around for a name for their new circle, Nate lands on 'the Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and Ted blesses it on the spot.",
+    "idea": "Inside the story the name has nothing to do with Bowie: it's a goofy locker-room in-joke built on the club mascot, which grounds a lofty 'men's support group' idea in something silly and real.",
+    "why": "A nice pairing with the Bowie cue -- the show gives an earnest in-universe reason while the credits wink at the album. Watch how fast the sincere moment turns into a bit.",
+    "source": "Ted Lasso Fandom 'Diamond Dogs' entry and the scene transcript (lassoism): Nate names them for the Greyhound mascot; Ted approves.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Nate proposing 'Diamond Dogs' for Richmond's Greyhound mascot and Ted's approval corroborated across the Ted Lasso Fandom 'Diamond Dogs' page, the lassoism S01E08 scene image/transcript, and the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4 (no primary page openable).",
+    "sourcesChecked": [
+      "https://ted-lasso.fandom.com/wiki/Diamond_Dogs",
+      "https://lassoism.com/Ted-Lasso-image.php?id=1142",
+      "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+    ]
+  },
+  {
+    "id": "s1e8-title-bowie-album",
+    "tag": "A Bowie wink",
+    "title": "The Bowie needle-drop",
+    "moment": "The men christen their new support circle the 'Diamond Dogs' -- and David Bowie's 1974 song of the same name plays over the closing credits, a glam anthem about a ragged gang of outsiders.",
+    "idea": "The title doubles as a nod to Bowie's <em>Diamond Dogs</em>, his concept record about a glamorous band of misfits -- which rhymes with this ragtag brotherhood of men learning to lean on each other.",
+    "why": "Listen to the end credits: the Bowie track is a confirmed cue. The deeper 'did the writers name the episode after the album?' is an unconfirmed inference, so enjoy the resonance without treating it as settled intent.",
+    "source": "Bowie's <em>Diamond Dogs</em> (1974), confirmed as this episode's end-credits song via IMDb's soundtrack listing and the Ted Lasso Fandom song page.",
+    "category": "Aesthetics",
+    "interest": 3,
+    "grounding": 3,
+    "groundingStatus": "partial",
+    "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Bowie's 'Diamond Dogs' as the E8 end-credits song corroborated across the Ted Lasso Fandom 'Diamond Dogs (song)' page, IMDb soundtrack listing, and Tunefind. Bowie's 1974 album confirmed as a glam-rock concept record about a band of outsiders (multiple Bowie sources). Deliberate title intent remains unconfirmed -- the in-show name comes from the Greyhound mascot -- so kept at partial. WebFetch firewalled this session.",
+    "sourcesChecked": [
+      "https://ted-lasso.fandom.com/wiki/Diamond_Dogs_(song)",
+      "https://www.imdb.com/title/tt11193418/soundtrack/",
+      "https://www.tunefind.com/show/ted-lasso/season-1/100907"
+    ]
+  },
+  {
+    "id": "s1e8-roy-keeley-honesty",
+    "tag": "Honesty first",
+    "title": "Roy and Keeley begin",
+    "moment": "Before they're even officially together, Keeley tells Roy the truth -- that she slept with Jamie again. Roy is hurt, goes away to actually sit with it, and comes back ready to ask her to dinner.",
+    "idea": "The relationship launches on candor instead of a grand gesture: vulnerability up front, time taken to process, and a choice to go slow because casual flings leave Roy feeling worse.",
+    "why": "A quiet counter-model to TV romance. Watch Roy choose to feel his feelings rather than perform them -- the foundation the whole pairing is built on.",
+    "source": "Wikipedia episode entry and recaps (ShowSnob, TV Tropes) of the Roy/Keeley honesty arc.",
+    "category": "Relationships",
+    "interest": 3,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Keeley honestly disclosing she slept with Jamie again, Roy taking time to process and wanting to go slow because one-night stands leave him feeling worse, then returning to ask her to dinner -- all corroborated across two independent recaps (ShowSnob E8 recap and the TV Tropes E8 recap) plus the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4.",
+    "sourcesChecked": [
+      "https://showsnob.com/2020/09/18/ted-lasso-episode-8-recap/",
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E08TheDiamondDogs",
+      "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+    ]
+  }
+]

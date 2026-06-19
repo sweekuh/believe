@@ -1,0 +1,94 @@
+[
+  {
+    "id": "s1e7-let-it-go-irony",
+    "tag": "One song, two opposite meanings",
+    "title": "\"Let It Go\" cuts both ways",
+    "moment": "Rebecca takes the karaoke mic and pours herself into \"Let It Go\" from Frozen, dedicating it to her goddaughter. For her it is liberation. In the very same room, the song about freedom tips Ted into panic.",
+    "idea": "The show scores meaning onto a single piece of music: release for one character, loss of control for the other, playing at the same moment.",
+    "why": "Watch the two faces during one song. The empowerment anthem becomes a study in how the same words land completely differently depending on what you are carrying.",
+    "source": "Episode 7, \"Make Rebecca Great Again\"; 'Let It Go' from Disney's <em>Frozen</em>.",
+    "category": "Aesthetics",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via fresh WebSearch (ScreenRant, Lady Geeks Media, Fandom, Looper snippets): Rebecca sings 'Let It Go' dedicated to goddaughter Nora after Flo signs her up, and the same song triggers Ted's panic in the same room. Grounding capped at 4 (WebFetch firewalled this session; no primary page opened).",
+    "sourcesChecked": [
+      "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/",
+      "https://ladygeeksmedia.com/2021/03/18/scene-breakdown-rebecca-sings-let-it-go-on-ted-lassos-make-rebecca-great-again/",
+      "https://ted-lasso.fandom.com/wiki/Let_It_Go"
+    ]
+  },
+  {
+    "id": "s1e7-iron-giant-screening",
+    "tag": "Choosing who you are",
+    "title": "Ted screens The Iron Giant",
+    "moment": "Ted gathers the squad in the hotel to watch The Iron Giant, warning Beard that around the 74-minute mark a room of grown men will be in tears, and the cut lands on teary players.",
+    "idea": "The pick is not random. The film is about a gentle giant who chooses, against expectation, to be a hero rather than a weapon, the same kindness-over-force creed as the show itself.",
+    "why": "An easy detail to miss that quietly states the show's thesis: you are who you choose to be.",
+    "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript and TV Tropes recap.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap and Fandom snippets): Ted screens The Iron Giant for the team in the hotel, predicts the ~74-minute crying beat to Beard, and the cut lands on teary players. Grounding capped at 4 (no primary page opened this session).",
+    "sourcesChecked": [
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
+      "https://ted-lasso.fandom.com/wiki/The_Iron_Giant"
+    ]
+  },
+  {
+    "id": "s1e7-disney-let-it-go-clearance",
+    "tag": "Saved by a music supervisor",
+    "title": "How Disney almost killed the song",
+    "moment": "Behind the camera: Disney first said no to licensing \"Let It Go,\" so the crew filmed the karaoke scene twice, once with the song and once with a backup number, as insurance.",
+    "idea": "The production won the rights only after sending Disney the finished footage and an impassioned case for how tenderly the song ties to Rebecca and her goddaughter.",
+    "why": "One of the show's signature scenes survived on a music supervisor's persistence. The backup take used Gloria Gaynor's \"I Will Survive.\"",
+    "source": "Music supervisor Tony Von Pervieux, interviews with Nerdist and Billboard.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via fresh WebSearch (SlashFilm, Nerdist, Billboard, Below the Line snippets): Disney's committee initially denied 'Let It Go,' the scene was shot twice with a Gloria Gaynor 'I Will Survive' backup, and clearance was won by sending Disney the finished footage. Supervisor Tony Von Pervieux. Grounding capped at 4 (no primary page opened this session).",
+    "sourcesChecked": [
+      "https://www.slashfilm.com/1358922/disney-almost-ruined-grand-moment-in-ted-lasso/",
+      "https://nerdist.com/article/ted-lasso-music-supervisor-tony-von-pervieux-interview/",
+      "https://www.billboard.com/music/music-news/ted-lasso-music-supervisor-tony-von-pervieux-executive-of-week-9642380/"
+    ]
+  },
+  {
+    "id": "s1e7-room-5150-van-halen",
+    "tag": "A wink hidden in a number",
+    "title": "Hotel room 5150",
+    "moment": "Ted lights up at being assigned hotel room 5150 and riffs about Sammy Hagar being the greatest Van Halen singer of the post-Roth era.",
+    "idea": "It is a nod to Van Halen's 1986 album \"5150,\" the band's first with Sammy Hagar after David Lee Roth left, one more drop in Ted's running stream of Americana references.",
+    "why": "It slips right by unless you catch the number on the door. A small reward for a careful rewatcher.",
+    "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via fresh WebSearch (lassoism quote page, subslikescript transcript, Sammy Hagar's own social-media reaction): Ted's on-screen line praises Sammy Hagar as Van Halen's greatest post-David Lee Roth singer on getting room 5150, a nod to Van Halen's 1986 '5150' album. The 'psychiatric-hold double meaning as writer intent' remains excluded as unverified. Grounding capped at 4 (no primary page opened this session).",
+    "sourcesChecked": [
+      "https://lassoism.com/Ted-Lasso-quote.php?id=127",
+      "https://subslikescript.com/series/Ted_Lasso-10986410/season-1/episode-7-Make_Rebecca_Great_Again"
+    ]
+  },
+  {
+    "id": "s1e7-first-panic-attack",
+    "tag": "The cost beneath the sunshine",
+    "title": "Ted's first panic attack",
+    "moment": "At the team's karaoke celebration, the morning after facing his divorce, Ted is suddenly overwhelmed and has to stumble out of the bar. The camera goes blurry and the sound warps to put us inside his distress.",
+    "idea": "This is the first time the show lets us feel the price of Ted's relentless optimism. His cheerfulness is real, but it has been sitting on top of unprocessed pain.",
+    "why": "Watch how the scene is shot, not just acted, to convey panic. It is the quiet seed of the whole mental-health throughline that the show develops in later seasons.",
+    "source": "Episode 7, \"Make Rebecca Great Again\"; corroborated by recaps.",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap, ScreenRant, fan-community snippets): Ted's FIRST full panic attack happens at the S1E7 karaoke bar around his divorce, shown with tinnitus-like ringing and warped focus; Rebecca is the one who recognizes it and follows him out. Professional therapy (Dr. Sharon) is a later-season payoff, kept forward-looking. Grounding capped at 4 (no primary page opened this session).",
+    "sourcesChecked": [
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
+      "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/"
+    ]
+  }
+]
