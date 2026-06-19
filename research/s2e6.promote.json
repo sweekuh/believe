@@ -1,0 +1,101 @@
+[
+  {
+    "id": "s2e6-ted-first-panic-attack",
+    "tag": "Strength can look like this",
+    "title": "Ted's panic attack",
+    "moment": "Mid-match, just as the game is turning Richmond's way, Ted is suddenly overwhelmed -- the noise drops away, his body feels wrong -- and he slips out unseen. Everyone assumes it is his stomach; Rebecca quietly recognizes it for what it is.",
+    "idea": "What looks like a stomach bug is a panic attack. The show insists this is not weakness or a flaw to hide -- it is something that happens to a strong, generous man, and the brave response is to stop pretending and let someone help.",
+    "why": "Handle this one tenderly. The point is not why it happened but that it happened to Ted of all people -- and that admitting you are not okay can itself be a kind of courage.",
+    "source": "Episode recaps (NPR, Nerds & Beyond, ShowSnob) and TV Tropes describing Ted's panic attack and exit during the match.",
+    "category": "Belief & hope",
+    "interest": 5,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "The on-screen panic attack and Ted's exit are confirmed across multiple recaps; the precise trigger is recappers' inference and is deliberately not asserted.",
+    "sourcesChecked": [
+      "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+      "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/",
+      "https://showsnob.com/2021/08/28/ted-lasso-season-2-episode-6-recap/",
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+    ]
+  },
+  {
+    "id": "s2e6-ted-asks-for-help",
+    "tag": "The helper asks for help",
+    "title": "Ted goes to Dr. Sharon",
+    "moment": "After the game, a shaken Ted is waiting in Dr. Sharon's darkened office. When she comes in, he tells her he is finally ready to make a real appointment.",
+    "idea": "The man who spends the whole show fixing everyone else chooses to be the one who needs someone. It quietly inverts his entire posture -- and opens the door to the season's real reckoning with mental health.",
+    "why": "This is the choice the panic attack sets up. Notice it is not a dramatic breakdown but a small, deliberate decision: asking, plainly, for help.",
+    "source": "Episode recaps (NPR, The Spool, Nerds & Beyond) of Ted seeking out Dr. Sharon and asking for an appointment.",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Ted asking Dr. Sharon for an appointment confirmed across multiple recaps.",
+    "sourcesChecked": [
+      "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+      "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/",
+      "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/"
+    ]
+  },
+  {
+    "id": "s2e6-let-jamie-be-jamie",
+    "tag": "When a flaw is a tool",
+    "title": "Giving Jamie the signal",
+    "moment": "Roy decides Jamie has been coached into being too unselfish, and that the moment calls for his old ruthlessness. The agreed cue arrives mid-match: all four coaches flip Jamie off from the touchline. He promptly goads an opponent into a foul and buries the free kick.",
+    "idea": "A sly counter-melody to the show's redemption project. After weeks of teaching Jamie to be a team player, the staff deliberately switch the selfishness back on -- a small meditation on whether a flaw can be a tool, and whether 'be your best self' always means 'be nice.'",
+    "why": "Funny and a little subversive. The very trait they spent the season sanding down wins the match -- watch how the show refuses to make its lessons that tidy.",
+    "source": "Episode recaps (ReadySteadyCut, Rolling Stone, The Spool) and TV Tropes describing 'the signal' and Jamie's goal.",
+    "category": "Ethics & character",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "The middle-finger cue and Jamie drawing a foul to score confirmed across multiple recaps.",
+    "sourcesChecked": [
+      "https://readysteadycut.com/2021/08/27/recap-ted-lasso-season-2-episode-6-apple-tv-plus-series/",
+      "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+      "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/"
+    ]
+  },
+  {
+    "id": "s2e6-written-by-brett-goldstein",
+    "tag": "Roy Kent wrote this one",
+    "title": "Written by Brett Goldstein",
+    "moment": "Behind the scenes: this episode was written by Brett Goldstein -- the actor who plays Roy Kent. So the man behind Roy scripted the very hour in which Roy engineers 'the signal' and Ted quietly comes apart.",
+    "idea": "Goldstein started in the Ted Lasso writers' room before he was cast as Roy. In interviews he flagged that this is roughly where the season's gentle tone deliberately darkens -- a warning to anyone expecting nonstop sweetness.",
+    "why": "A good answer to 'why does the mood shift here?' The episode that turns serious was written by a cast member who knew exactly what was coming.",
+    "source": "Writing credit per Wikipedia, IMDb and the episode Fandom page; the tonal-shift framing per Goldstein's Gold Derby interview (paraphrased).",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Goldstein's writing credit confirmed across listings; his interview comment about the darker tone is paraphrased, not quoted.",
+    "sourcesChecked": [
+      "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)",
+      "https://www.imdb.com/title/tt14968644/",
+      "https://ted-lasso.fandom.com/wiki/The_Signal",
+      "https://www.goldderby.com/feature/brett-goldstein-ted-lasso-writer-video-interview-1204750290/"
+    ]
+  },
+  {
+    "id": "s2e6-sam-rebecca-bantr-reveal",
+    "tag": "Dramatic irony",
+    "title": "Rebecca's match is Sam",
+    "moment": "After weeks of 'who is Bossgirl texting?', the show finally cuts to the other end of the chat -- and it is Sam, one of Rebecca's own players. The two of them still have no idea who they have been falling for.",
+    "idea": "A classic dramatic-irony reveal: we know, they don't. Two people have connected honestly and sweetly while completely blind to the complication staring at the audience.",
+    "why": "A genuine 'oh no' twist. Once you know, the earlier anonymous messages read completely differently on a rewatch.",
+    "source": "Episode recaps (TVLine, ScreenRant) and the Bantr Fandom page confirming the reveal that LDN152 is Sam.",
+    "category": "Relationships",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Reveal that Rebecca's Bantr match is Sam confirmed across multiple recaps; spoiler scope is the season's romance arc.",
+    "sourcesChecked": [
+      "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-6-rebecca-sam-1234713518/",
+      "https://screenrant.com/ted-lasso-season-2-rebecca-bantr-sam-twist-good/",
+      "https://ted-lasso.fandom.com/wiki/Bantr",
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+    ]
+  }
+]
