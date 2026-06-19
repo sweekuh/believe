@@ -1,0 +1,96 @@
+[
+  {
+    "id": "s1e2-selhurst-park-irony",
+    "tag": "Standing in the rival's real house",
+    "title": "Richmond's ground is Crystal Palace's real stadium",
+    "moment": "Ted rallies the team to defend their home turf against Crystal Palace, the day's opponent.",
+    "idea": "Richmond's fictional Nelson Road is filmed at Selhurst Park, which in real life is Crystal Palace's actual home ground. So the team is being fired up about 'our house' while literally standing in the rival's real stadium.",
+    "why": "A buried in-joke for anyone who knows London grounds. The home-advantage speech is funnier once you know whose ground it really is.",
+    "source": "Filming-location reporting by <em>Football Ground Guide</em> and <em>Goal.com</em>; S1E2 \"Biscuits.\"",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Re-verified via fresh search: multiple independent filming-location guides confirm Richmond's Nelson Road is filmed at Selhurst Park, the real home of Crystal Palace, who are the opponent in this episode. No primary page openable this session, so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://footballgroundguide.com/news/is-afc-richmonds-stadium-in-ted-lasso-real-heres-the-ground-that-brings-nelson-road-to-life.html",
+      "https://www.goal.com/en-us/lists/where-was-ted-lasso-filmed-locations-stadiums/bltb46b79bece2dee8e",
+      "https://www.contiki.com/six-two/article/ted-lasso-filming-locations/"
+    ]
+  },
+  {
+    "id": "s1e2-zach-braff-director",
+    "tag": "The episode that set the tone",
+    "title": "Zach Braff directed this one",
+    "moment": "Off screen: 'Biscuits' was directed by Zach Braff, written by Joe Kelly from a story by Brendan Hunt and Jason Sudeikis.",
+    "idea": "Braff came in through his Scrubs relationship with co-creator Bill Lawrence, and has said this is the episode that signaled the show would do more than fish-out-of-water comedy, it would break your heart by the end, classic Bill Lawrence.",
+    "why": "If the series feels like it shifts gears around here, that is by design. Braff earned an Emmy nomination for directing it.",
+    "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Looper</em>; credits per Wikipedia, S1E2 \"Biscuits.\"",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Re-verified via fresh search: Zach Braff directed 'Biscuits' (S1E2, aired Aug 14 2020), written by Joe Kelly, story by Brendan Hunt and Jason Sudeikis, with an Outstanding Directing Emmy nomination, corroborated across Wikipedia, Looper, and Awards Daily. No primary page openable this session, so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)",
+      "https://www.looper.com/494168/the-episode-of-ted-lasso-you-didnt-know-zach-braff-directed/",
+      "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/"
+    ]
+  },
+  {
+    "id": "s1e2-goldfish-memory-myth",
+    "tag": "True as metaphor, false as fact",
+    "title": "The goldfish-memory myth behind the lesson",
+    "moment": "Ted frames the goldfish as the happiest animal because it forgets so fast, naming a ten-second memory as the reason.",
+    "idea": "The premise is folklore. Studies show goldfish actually remember learned cues for months, even up to a year. The show leans on the myth because it makes the emotional point land, not as a claim about biology.",
+    "why": "A gentle parallel to how this project treats the Whitman line: the wisdom is real even when the supporting 'fact' is not. Worth knowing so the metaphor can be loved without being mistaken for science.",
+    "source": "Goldfish-memory research summarized by <em>Live Science</em>, <em>Discover</em>, and the American Museum of Natural History; show premise from S1E2 \"Biscuits.\"",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Re-verified via fresh search: the short-memory premise is a documented myth; goldfish retain learned cues for months to years per Live Science, Discover, AMNH, and Ripley's, with the show's ten-second framing confirmed in the 'be a goldfish' scene. No primary page openable this session, so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://www.livescience.com/goldfish-memory.html",
+      "https://www.discovermagazine.com/goldfish-may-have-longer-memories-than-just-three-seconds-46062",
+      "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think"
+    ]
+  },
+  {
+    "id": "s1e2-soccer-girl-rickshaw-rig",
+    "tag": "How they faked real football",
+    "title": "Filming the 'Soccer Girl' on a rickshaw rig",
+    "moment": "In a park, a schoolgirl dribbles circles around Ted, a humbling beat for the new gaffer.",
+    "idea": "Groundskeepers would not allow heavy camera gear on the grass, so the crew put a remote camera head on a lightweight rickshaw with big inflatable tires, operated from the sideline while a grip in cleats sprinted alongside it.",
+    "why": "A vivid look at the low-tech ingenuity behind the show's convincing on-pitch footage. The polished result hides a man running flat-out beside a glorified cart.",
+    "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Awful Announcing</em>; S1E2 \"Biscuits.\"",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Re-verified via fresh search: Braff describes a remote head on a rickshaw with giant inflatable (beach-set) tires, light enough to be allowed on the pitch with no operator aboard, run from the sideline while the key grip sprinted in cleats, corroborated by Awful Announcing and Awards Daily. No primary page openable this session, so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
+      "https://awfulannouncing.com/pop-culture/ted-lasso-director-zach-braff-wasnt-allowed-cameras-onto-pitch-for-soccer-scenes.html"
+    ]
+  },
+  {
+    "id": "s1e2-be-a-goldfish",
+    "tag": "Let the bad moment go",
+    "title": "Be a goldfish",
+    "moment": "After Jamie beats him in a drill and mocks him, a deflated Sam apologizes. Ted crouches down and tells him the happiest animal is a goldfish, because it has a ten-second memory, then urges him to forget the play and move on.",
+    "idea": "A plain-language version of refusing to ruminate: name the mistake, release it, and reset your attention to the next moment. Often read alongside Stoic 'control what you can' framing and everyday present-focus practice.",
+    "why": "This is the show's signature coaching idea, introduced here. Notice it is aimed at shame, not the error itself, Ted is teaching Sam how to stop a bad moment from compounding.",
+    "source": "<em>Ted Lasso</em>, S1E2 \"Biscuits\" (2020); corroborated by episode recaps and a clip of the scene.",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Re-verified via fresh search: scene, placement (Sam, after Jamie mocks him), and the ten-second / happiest-animal framing confirmed across a YARN clip, the Ted Lasso Wiki, and the ShowSnob recap. No primary page openable this session, so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c",
+      "https://ted-lasso.fandom.com/wiki/Goldfish",
+      "https://showsnob.com/2020/08/14/ted-lasso-season-1-episode-2-recap/"
+    ]
+  }
+]
