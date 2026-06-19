@@ -112,16 +112,21 @@ try {
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
-  check("E8 shows 2 verified cards", e8titles.length === 2);
+  check("E8 shows 5 verified cards", e8titles.length === 5);
   check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
   if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
+  // Every Season 1 episode now ships verified cards (no "coming soon" placeholders),
+  // so a real-content episode must re-gate on switch and reveal its cards on tap.
   await page.select("#epPicker", "2");
   await new Promise(r => setTimeout(r, 400));
   check("E2 title is Biscuits", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Biscuits");
-  check("E2 shows Coming soon placeholder", /coming soon/i.test(await page.$eval("#notes .card .tag", el => el.textContent)));
-  check("placeholder episode skips the gate", (await page.$eval("#gate", el => el.hidden)) === true);
-  if (shots) await page.screenshot({ path: join(outDir, "03-placeholder-e2.png"), fullPage: true });
+  check("E2 re-gates cards on switch", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e2titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
+  check("E2 reveals 5 verified cards", e2titles.length === 5);
+  if (shots) await page.screenshot({ path: join(outDir, "03-e2-cards.png"), fullPage: true });
 
   await page.select("#epPicker", "1");
   await new Promise(r => setTimeout(r, 300));
