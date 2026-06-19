@@ -1623,13 +1623,102 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e7-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e7-drinking-bird-toy",
+              "tag": "Props doing the work",
+              "title": "Stilling the bird",
+              "moment": "In his early sessions Ted keeps setting Sharon's little dipping-bird desk toy bobbing -- one more way to avoid the real conversation. The session he's finally ready, he reaches over and stops it.",
+              "idea": "A tiny gadget carries a whole emotional turn: as long as the bird is bobbing, Ted is deflecting; the moment he stills it, he's choosing to be present.",
+              "why": "It's an easy-to-miss bit of visual storytelling -- the kind of thing you only catch on a rewatch. Keep an eye on that desk toy and you can read Ted's readiness without a word of dialogue.",
+              "source": "Recaps describing the desk bird as an avoidance tool and Ted stilling it when he gets serious (The Spool, What to Watch, TV Insider).",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Drinking-bird desk toy as Ted's avoidance tool, and his stilling it as the turn, confirmed across multiple recaps.",
+              "sourcesChecked": [
+                "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-7-headspace-recap/",
+                "https://www.whattowatch.com/reviews/ted-lasso-207-review-headspace",
+                "https://www.tvinsider.com/1011600/ted-lasso-season-2-episode-7-recap-headspace/"
+              ]
+            },
+            {
+              "id": "s2e7-truth-piss-you-off",
+              "tag": "Honesty hurts first",
+              "title": "The truth, then the anger",
+              "moment": "As Ted squirms and deflects, Dr. Sharon levels with him: being honest with yourself is freeing -- but it will make you angry before it frees you.",
+              "idea": "Real self-examination is uncomfortable before it's liberating. That single line is the episode's thesis about why therapy is hard and why doing it anyway is worth it.",
+              "why": "The show credits the saying to Gloria Steinem, but it's a 'be curious, not judgmental' situation: Steinem <em>popularized</em> the line in her speeches, she didn't originate it. Versions were circulating years earlier (a partial 1978 match has been traced). So enjoy it as a true Steinem-associated saying -- just not one she coined.",
+              "source": "Line reported in the episode by recaps (TV Fanatic, ShowSnob); attribution history via Quote Investigator -- popularized by, not coined by, Gloria Steinem.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "attributed",
+              "groundingNotes": "Line confirmed in-episode; attribution is Whitman-style -- Steinem popularized it (1990s speeches, 2019 book title) but it predates her (partial 1978 match), so 'attributed to / popularized by,' not 'coined by.'",
+              "sourcesChecked": [
+                "https://quoteinvestigator.com/2014/09/04/truth-free/",
+                "https://shmaltzandmenudo.wordpress.com/2017/04/14/famous-sayings-57-the-truth-will-set-you-free/",
+                "https://www.tvfanatic.com/ted-lasso-season-2-episode-7-review-headspace/",
+                "https://showsnob.com/2021/09/03/ted-lasso-season-2-episode-7-recap/"
+              ]
+            },
+            {
+              "id": "s2e7-therapy-is-self-care",
+              "tag": "Caring for yourself, too",
+              "title": "Self-care isn't weakness",
+              "moment": "Ted insists Sharon only listens because she's paid to. She asks whether he'd coach for free -- and when he admits he wouldn't, she points out that being paid to care doesn't mean she doesn't, any more than it does for him.",
+              "idea": "Tending your own mind is a form of care, not indulgence or weakness. For a man who has spent his life fixing everyone else, turning that care inward is the scariest thing of all.",
+              "why": "This is the show's signature move: mental health handled gently, never as a punchline. Watch Sharon take apart Ted's cynicism one calm question at a time.",
+              "source": "Recaps of the episode's therapy arc and the 'you don't coach for free' rebuttal (TellTaleTV, ShowSnob, TV Fanatic, NPR).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Therapy-as-self-care framing and the 'you don't coach for free' rebuttal confirmed across multiple recaps.",
+              "sourcesChecked": [
+                "https://telltaletv.com/2021/09/ted-lasso-review-headspace-season-2-episode-7/",
+                "https://showsnob.com/2021/09/03/ted-lasso-season-2-episode-7-recap/",
+                "https://www.tvfanatic.com/ted-lasso-season-2-episode-7-review-headspace/",
+                "https://www.npr.org/2021/09/03/1033642490/ted-lasso-recap-ted-cant-move-on-but-can-he-sit-still"
+              ]
+            },
+            {
+              "id": "s2e7-i-got-you-babe-groundhog-day",
+              "tag": "A needle-drop with a wink",
+              "title": "Keeley's Groundhog Day",
+              "moment": "Roy and Keeley cycle through an identical morning together while Sonny &amp; Cher's 'I Got You Babe' plays -- the very song that wakes Bill Murray into the same repeating day in <em>Groundhog Day</em>.",
+              "idea": "The music is doing the talking. Borrowing <em>Groundhog Day</em>'s wake-up song frames Keeley's round-the-clock togetherness with Roy as a time loop she's quietly desperate to break.",
+              "why": "It's a music cue that comments on the scene instead of just decorating it. If you know the film, the joke -- and Keeley's claustrophobia -- lands before anyone says a word.",
+              "source": "Episode recap noting the montage and its time-loop resonance (TV Fanatic); the song's <em>Groundhog Day</em> association is widely documented (Rotten Tomatoes).",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "'I Got You Babe' in the montage and its Groundhog Day / time-loop meaning confirmed across recap and film sources.",
+              "sourcesChecked": [
+                "https://www.tvfanatic.com/ted-lasso-season-2-episode-7-review-headspace/",
+                "https://vaguevisages.com/2023/03/19/ted-lasso-soundtrack-apple-tv-plus-songs/",
+                "https://editorial.rottentomatoes.com/article/i-got-you-babe-why-groundhog-day-is-the-pinnacle-of-harold-ramis-and-bill-murrays-collaborations/"
+              ]
+            },
+            {
+              "id": "s2e7-satc-da-vinci-code",
+              "tag": "A fight inside a fight",
+              "title": "Carrie, Aidan, and the bath",
+              "moment": "Keeley tries to watch a <em>Sex and the City</em> episode about a couple straining after moving in together, while an oblivious Roy talks over the top of it, narrating his thoughts on Dan Brown's <em>The Da Vinci Code</em>.",
+              "idea": "The show on Keeley's TV is the episode in miniature: the chosen <em>Sex and the City</em> installment ('The Good Fight') is literally about cohabiting partners clashing over space, and watching it is what finally lets Keeley name her own need for room.",
+              "why": "It's not random set-dressing. The on-screen couple's friction rhymes with Roy and Keeley's, and Roy chattering over it is the perfect small picture of why she feels crowded. A lovely bit of writing to catch on rewatch.",
+              "source": "Recaps identifying the episode as <em>Sex and the City</em> S4 'The Good Fight' and Roy reading <em>The Da Vinci Code</em> aloud (ScreenRant, theDipp, What to Watch); SATC episode premise per its Fandom page.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "SATC S4E13 'The Good Fight' (Carrie/Aidan cohabitation fight) and Roy's Da Vinci Code narration confirmed across multiple recaps plus the SATC episode page.",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-season-2-episode-7-sex-city-keeley/",
+                "https://thedipp.com/ted-lasso/sex-and-the-city-reference-keeley-roy",
+                "https://www.whattowatch.com/reviews/ted-lasso-207-review-headspace",
+                "https://sexandthecity.fandom.com/wiki/The_Good_Fight"
+              ]
             }
           ]
         },
@@ -1640,13 +1729,99 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e8-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e8-roy-hugs-jamie",
+              "tag": "Rivalry yields to care",
+              "title": "Roy crosses the room",
+              "moment": "When Jamie collapses after striking the father who has just humiliated him, the man who comes over isn't a friend -- it's Roy Kent, his oldest rival, who simply holds him and lets him cry.",
+              "idea": "The show's quiet argument about what a man can be: when someone is in real pain, contempt can step aside for tenderness. Roy has practiced gentleness fathering his niece, so when it's needed he has it ready to give.",
+              "why": "Two seasons of mutual loathing make this land harder. Watch Roy choose compassion over winning -- the kind of comfort men are so often taught to withhold from each other.",
+              "source": "S2E8 'Man City' recaps (NPR, The Mary Sue) and Phil Dunster's Entertainment Tonight interview on the scene.",
+              "category": "Relationships",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Roy hugging Jamie after Jamie hits his father confirmed across recaps, the Fandom pages, and a cast interview. WebFetch 403'd, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures",
+                "https://www.themarysue.com/roy-kent-jamie-tartt-ted-lasso/",
+                "https://www.etonline.com/ted-lasso-episode-8-phil-dunster-on-jamie-and-roys-emotional-breakthrough-exclusive-171829"
+              ]
+            },
+            {
+              "id": "s2e8-ted-father-suicide-reveal",
+              "tag": "The wound beneath the warmth",
+              "title": "Ted finally says it out loud",
+              "moment": "Shaken after watching Jamie's father tear him down, Ted steps away, calls Dr. Sharon, and tells her something he has never told anyone on the show: his own father died by suicide when Ted was sixteen.",
+              "idea": "So much of Ted's relentless kindness has been a way of carrying grief he never put into words. Naming the loss to his therapist is the moment his sunny armor and his sorrow are finally allowed to exist in the same breath.",
+              "why": "This is why Ted both fears and needs therapy. Watch how an episode about other men's fathers becomes the thing that lets Ted face his own -- and notice he reaches out by phone the instant the feeling threatens to overwhelm him, instead of hiding it.",
+              "source": "Recaps of S2E8 'Man City' (TVLine, NPR, Rolling Stone). The Season 1 seed -- darts with his dad from age 10 to 16, 'when he passed away' -- is in S1E8 'The Diamond Dogs', per the scene transcript (lassoism).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Reveal (father's suicide, told to Sharon by phone, Ted aged 16) confirmed across multiple recaps; the S1 seed is in S1E8, not S1E10. WebFetch 403'd, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-8-dad-father-suicide-1234713526/",
+                "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures",
+                "https://lassoism.com/Ted-Lasso-quote.php?id=162"
+              ]
+            },
+            {
+              "id": "s2e8-sharon-vulnerability-first",
+              "tag": "To open someone, go first",
+              "title": "The therapist becomes the patient",
+              "moment": "In the cold open, Dr. Sharon -- the unflappable therapist -- is herself on the phone with her own counselor, frustrated that Ted won't let his guard down. Her counselor gently points out that Sharon guards herself the very same way.",
+              "idea": "You rarely pry a guarded person open by pushing harder; you go first. Vulnerability is a gift that has to be offered before it can be returned -- a quiet counter to the 'never let them see you hurt' code both Ted and Sharon live by.",
+              "why": "This is the hinge of the whole episode. Once Sharon admits she was scared when she got hurt, Ted can finally tell her about his father. Watch how her small act of going first is what unlocks his.",
+              "source": "S2E8 'Man City' recaps (NPR, TV Fanatic) and the cold-open scene (lassoism). The reciprocity framing is a reading of confirmed scenes, not a creator statement.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Cold-open events (Sharon as patient; modeling openness; her fear unlocking Ted) confirmed across recaps and a transcript; the 'go first' framing is interpretive. WebFetch 403'd, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://lassoism.com/Ted-Lasso-quote.php?id=483",
+                "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures",
+                "https://www.tvfanatic.com/ted-lasso-season-2-episode-8-review-man-city/"
+              ]
+            },
+            {
+              "id": "s2e8-oasis-dont-look-back",
+              "tag": "A Mancunian anthem",
+              "title": "Don't look back in anger",
+              "moment": "In an hour built around a Manchester club, the show reaches for Oasis's 'Don't Look Back in Anger' -- a song by Manchester's own, played as Ted and Beard part ways.",
+              "idea": "The needle-drop carries real civic weight: after the 2017 Manchester Arena attack, mourners spontaneously sang this song together, and it became the city's anthem for meeting grief with togetherness instead of rage -- which is exactly the choice this episode keeps asking its men to make.",
+              "why": "Listen for it, and for 'Blue Moon', Man City's terrace song. The Manchester resonance is a lovely fit for an hour about grief and connection -- read it as the show's instinct, not a stated reason.",
+              "source": "Soundtrack listings (tunefind, IMDb) for S2E8; the song's role as Manchester's post-2017 anthem per Time and SPIN. The resonance is context/reading, not a music-supervisor statement.",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "Song presence confirmed across soundtrack listings; Manchester-Arena context confirmed across news sources; the 'why chosen' link is a reading. WebFetch 403'd.",
+              "sourcesChecked": [
+                "https://www.tunefind.com/show/ted-lasso/season-2/111446",
+                "https://time.com/4795324/manchester-dont-look-back-in-anger-oasis/",
+                "https://www.spin.com/2017/05/manchester-attack-oasis-dont-look-back-in-anger/"
+              ]
+            },
+            {
+              "id": "s2e8-sam-rebecca-bantr-dinner",
+              "tag": "The anonymous match, in person",
+              "title": "Sam and Rebecca, at the same table",
+              "moment": "Buoyed by news that his protest forced an oil company out of Nigeria, Sam asks his anonymous online match to dinner that night -- and he and Rebecca walk into the same restaurant to discover they've been messaging each other all along.",
+              "idea": "The season's anonymous-dating thread lands on the most disarming possible reveal: the kindness and candor each fell for online belongs to someone they already knew. They agree it can't go anywhere -- and clearly wish it could.",
+              "why": "A warm beat threaded through a heavy hour. It pays off the app storyline and the courage Sam found in his protest -- watch how Rebecca's instinct to flee loses to how easy the evening actually is.",
+              "source": "S2E8 'Man City' plot (Wikipedia) and coverage (PopCulture, We Live Entertainment): Sam learns of the Cerithium Oil outcome, messages his Bantr match, and he and Rebecca realize they matched and have dinner.",
+              "category": "Relationships",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Sam/Rebecca dinner reveal (and the Cerithium Oil/Nigeria news that prompts Sam) confirmed across the plot summary and multiple recaps. WebFetch 403'd, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://popculture.com/streaming/news/ted-lasso-season-2-episode-8-new-romance-rebecca-sam-emerges/",
+                "https://weliveentertainment.com/welivetvshows/tv-review-ted-lasso-2x8-man-city/",
+                "https://ted-lasso.fandom.com/wiki/Rebecca_Welton"
+              ]
             }
           ]
         },
@@ -1657,13 +1832,98 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e9-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e9-after-hours-homage",
+              "tag": "A loving film homage",
+              "title": "The whole night is a tribute",
+              "moment": "Rather than ride the team bus home after the semifinal defeat, Beard sets off alone -- and his escalating, dreamlike night across London is modeled on Martin Scorsese's 1985 film <em>After Hours</em>, in which an ordinary man's plans spiral into one strange, farcical night in the city.",
+              "idea": "This is the show stepping fully outside its own form to honor a beloved movie. The structure -- a regular guy swept from one odd encounter to the next until dawn -- is borrowed wholesale, which is why the episode feels so unlike the rest of the series.",
+              "why": "If the hour feels disorienting, that's by design: it's wearing another film's clothes. Critics also point to recreated framing and colour and late-night jazz cues echoing the Scorsese film -- fun to notice, but the overall tribute is the sure thing.",
+              "source": "Reported across ScreenRant, FandomWire, and Cracked as a deliberate homage to Scorsese's <em>After Hours</em> (1985).",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Homage to Scorsese's After Hours confirmed across multiple independent write-ups; specific shot parallels are critic interpretation.",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-season-2-episode-9-martin-scorsese-after-hours-homage/",
+                "https://fandomwire.com/ted-lassos-beard-after-hours-episode-has-a-special-martin-scorsese-reference/",
+                "https://www.cracked.com/article_31329_ted-lasso-homaged-a-scorsese-movie-that-has-a-shady-backstory.html"
+              ]
+            },
+            {
+              "id": "s2e9-henry-lineker-inner-voice",
+              "tag": "The voice in his head",
+              "title": "His inner critic, on TV",
+              "moment": "Wherever Beard wanders, he keeps catching real football pundits Gary Lineker and Thierry Henry on screens -- and they keep picking him apart, blaming him for the loss and needling him personally.",
+              "idea": "They aren't really talking about him; they're his self-doubt made flesh. At his lowest, Beard turns his shame into the judgment of men he admires -- the cruel inner voice that says he's failed as a coach and a man, including by never standing up to Ted.",
+              "why": "Watch how the criticism gets more personal the worse Beard feels. It's a vivid way to dramatize an inner monologue: putting your harshest self-talk in the mouths of people you respect, so it's harder to wave away.",
+              "source": "Cameos and their meaning per ScreenRant, NPR, and Rolling Stone recaps of the episode.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Lineker/Henry cameos as Beard's externalized self-doubt confirmed across ScreenRant, NPR, and Rolling Stone; the 'only these are imaginary' reading is left as interpretation.",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-thierry-henry-gary-lineker-who-coach-beard-see-why/",
+                "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+                "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+              ]
+            },
+            {
+              "id": "s2e9-theme-self-love",
+              "tag": "Does he like himself?",
+              "title": "A long night with himself",
+              "moment": "Under all the chaos and comedy, Beard spends the night dogged by voices insisting he has no self-worth and is unworthy of good things -- making the episode less about where he wanders than about whether he can like the man he is.",
+              "idea": "It's the shape of a romantic comedy -- a search through the night that ends in a reunion -- turned inward, toward Beard's relationship with himself. And it resists a tidy fix: the night exposes his self-doubt more than it cures it.",
+              "why": "A natural companion to the show's mental-health themes. Watch for the quiet, honest beat where Beard admits no other person can fix what hurts inside him -- the real question the whole strange night is asking.",
+              "source": "Thematic reading per NPR's and Rolling Stone's recaps of 'Beard After Hours.'",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Self-worth throughline (and the unresolved ending) confirmed across NPR and Rolling Stone; card avoids overstating a tidy resolution.",
+              "sourcesChecked": [
+                "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+                "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+              ]
+            },
+            {
+              "id": "s2e9-standalone-extra-episode",
+              "tag": "Why this episode exists",
+              "title": "An extra hour Apple asked for",
+              "moment": "Behind the scenes: Season 2 was planned as ten episodes, but after the show's breakout success Apple asked for two more. With the season already mapped out, the writers filled the new slots with standalones -- the Christmas episode, and this night-in-the-life of Coach Beard.",
+              "idea": "The show's most experimental hour is partly a happy accident of scheduling: a 'what if we just followed Beard all night?' idea that finally had room to exist because the order grew from ten to twelve.",
+              "why": "It explains why the episode floats so free of the season's main story -- it was built to stand alone. A nice reminder that some of the boldest swings come from a little unexpected breathing room.",
+              "source": "Reported by ScreenRant and Cheat Sheet (with the renewal noted by Variety): two episodes added after Season 1, slotted in as standalones.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "10-to-12 expansion and the two standalones (Christmas + Beard) confirmed across multiple write-ups.",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-season-2-coach-beard-episode-hated-reason/",
+                "https://www.cheatsheet.com/entertainment/ted-lasso-beard-after-hours-not-originally-part-plan-season-2.html/",
+                "https://variety.com/2020/tv/news/ted-lasso-renewed-season-2-apple-1234740098"
+              ]
+            },
+            {
+              "id": "s2e9-alone-again-naturally",
+              "tag": "A sad song doing the work",
+              "title": "'Alone Again (Naturally)'",
+              "moment": "At one of the night's lowest points, with Beard adrift and on his own, the soundtrack reaches for Gilbert O'Sullivan's 1972 hit 'Alone Again (Naturally)' -- a bright, tuneful pop song that is actually about loneliness and despair.",
+              "idea": "The episode lets the music say what Beard won't. A cheerful-sounding melody about abandonment underscores how isolated he is even in the middle of a wild night out -- the sound and the feeling pulling in opposite directions on purpose.",
+              "why": "Listen past the pretty tune to the words: the show often picks songs that quietly name a character's inner state. Here a 'happy' song is one of the saddest moments of the night.",
+              "source": "Confirmed for this episode via HiddenRemote's song list, Tunefind, and the IMDb soundtrack listing for 'Beard After Hours.'",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Song confirmed in E9 (not E6) across HiddenRemote, Tunefind, and IMDb; exact on-screen action is recap-reported, so the card keeps to the cue and its mood.",
+              "sourcesChecked": [
+                "https://hiddenremote.com/2021/09/17/all-the-songs-in-ted-lasso-season-2-episode-9-beard-after-hours/",
+                "https://www.tunefind.com/show/ted-lasso/season-2/111614",
+                "https://www.imdb.com/title/tt14968652/soundtrack/"
+              ]
             }
           ]
         },
