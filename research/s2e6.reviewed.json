@@ -1,0 +1,481 @@
+{
+  "episode": { "season": 2, "number": 6, "title": "The Signal" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification of all 14 candidates. WEBFETCH STATUS: WebFetch returned HTTP 403 on every URL attempted this session (Wikipedia episode page, etc.), exactly as the candidates file and the briefing warned. Per the Season-1 norm, every verdict therefore rests on corroboration across MULTIPLE INDEPENDENT WebSearch result summaries from different domains (NPR/member-station mirrors, Rolling Stone, ScreenRant, TVLine, Nerds & Beyond, The Spool, ReadySteadyCut, ShowSnob, Lady Geeks, TV Tropes recap, PopCulture, lassoism + tvshowtranscripts transcripts, IMDb, TVMaze, Fandom, whatsong/what-song/Tunefind). GROUNDING IS CAPPED AT 4 throughout because no primary page actually opened. KEY PLACEMENT REJECTION: the Edwyn Collins 'A Girl Like You' needle-drop is NOT verifiable for S2E6. The only scene anyone names for that song (entering the 'Bones and Honey' club) is in S2E9 'Beard After Hours', and the dedicated what-song.com track page returns S2E9 -- the Tunefind/IMDb S2E6 listing the hunter cited appears to be an aggregator conflation, the same class of cross-episode mix-up the hunter flagged for 'Alone Again (Naturally)'. Marked unverified/excluded; I do NOT assert a scene I cannot place. PARAPHRASE ONLY: the David Blaine/Sue Grafton/Area 51 line, the H.R. Pufnstuf line, and Brett Goldstein's 'massacre' interview quote were located verbatim in transcripts/reporting but are deliberately paraphrased in all cards; no dialogue is reproduced. The mental-health beat (panic attack, asking for help) is handled gently per the gift framing -- vulnerability-as-courage, never the precise clinical trigger as fact. NUANCE on Nate's 'wonder kid': sources show he is DOWNPLAYING praise (fumbling 'wunderkind' into 'wonder kid') and the press adopts it, rather than self-anointing; cards reflect that.",
+  "facts": [
+    {
+      "id": "s2e6-the-signal-double-meaning",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The literal meaning is plot fact -- 'the signal' is the coaches' agreed cue (all four flip Jamie off) to play selfishly, confirmed across the TV Tropes E6 recap, Rolling Stone, ReadySteadyCut and Wikipedia summaries. The second 'cry for help' meaning -- Ted's own distress signal as he asks Dr. Sharon for an appointment -- is a widely shared critics'/recappers' reading (NPR built its E6 recap title around Ted 'giving the signal'), not a confirmed writers'-room statement, so it is partially-confirmed as interpretation. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+        "https://readysteadycut.com/2021/08/27/recap-ted-lasso-season-2-episode-6-apple-tv-plus-series/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-the-signal-double-meaning",
+        "tag": "Two kinds of signal",
+        "title": "What the title means",
+        "moment": "On the surface, 'the signal' is the touchline cue the coaches flash Jamie to unleash his selfish side. By the episode's end the deeper signal is Ted's own: he quietly lets someone see he is not okay and tells Dr. Sharon he is ready to make an appointment.",
+        "idea": "The man who is always the helper finally sends out a distress signal of his own. The title quietly rhymes a football gesture with the harder, braver gesture of asking for help.",
+        "why": "The football meaning is plain plot; the second reading is how critics widely understood the title. Watch the episode hand the same word to a coaching trick and to Ted's turning point.",
+        "source": "Literal cue per the episode recaps (TV Tropes, Rolling Stone, ReadySteadyCut); the 'cry for help' reading per NPR's recap framing.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Literal signal is plot fact (multi-source); the second 'asking for help' meaning is a widely shared critics' reading, not a confirmed creator statement.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+          "https://readysteadycut.com/2021/08/27/recap-ted-lasso-season-2-episode-6-apple-tv-plus-series/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-ted-first-panic-attack",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across NPR, Nerds & Beyond, ShowSnob, TV Tropes and Wikipedia summaries: during the FA Cup quarter-final Ted is overcome -- everything feels wrong, his hands feel off -- and he flees the pitch, telling people it is his stomach; this reads as his first on-screen panic attack and the team assumes a stomach bug while Rebecca sees through it. Per the briefing, the specific trigger (Jamie's revert / fatherhood associations) is recappers' inference, so the card keeps to the panic attack itself and vulnerability-as-courage, not a definitive cause. Handled gently. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+        "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/",
+        "https://showsnob.com/2021/08/28/ted-lasso-season-2-episode-6-recap/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e6-ted-first-panic-attack",
+        "tag": "Strength can look like this",
+        "title": "Ted's panic attack",
+        "moment": "Mid-match, just as the game is turning Richmond's way, Ted is suddenly overwhelmed -- the noise drops away, his body feels wrong -- and he slips out unseen. Everyone assumes it is his stomach; Rebecca quietly recognizes it for what it is.",
+        "idea": "What looks like a stomach bug is a panic attack. The show insists this is not weakness or a flaw to hide -- it is something that happens to a strong, generous man, and the brave response is to stop pretending and let someone help.",
+        "why": "Handle this one tenderly. The point is not why it happened but that it happened to Ted of all people -- and that admitting you are not okay can itself be a kind of courage.",
+        "source": "Episode recaps (NPR, Nerds & Beyond, ShowSnob) and TV Tropes describing Ted's panic attack and exit during the match.",
+        "category": "Belief & hope",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The on-screen panic attack and Ted's exit are confirmed across multiple recaps; the precise trigger is recappers' inference and is deliberately not asserted.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+          "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/",
+          "https://showsnob.com/2021/08/28/ted-lasso-season-2-episode-6-recap/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-ted-asks-for-help",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via NPR, The Spool, Nerds & Beyond and Wikipedia summaries: after the match Ted waits in the dark in Dr. Sharon's office and, when she returns, tells her he wants an appointment -- the helper choosing, for once, to be helped. Pairs with the panic-attack card (cause -> choice). Paraphrased, no dialogue reproduced. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+        "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/",
+        "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e6-ted-asks-for-help",
+        "tag": "The helper asks for help",
+        "title": "Ted goes to Dr. Sharon",
+        "moment": "After the game, a shaken Ted is waiting in Dr. Sharon's darkened office. When she comes in, he tells her he is finally ready to make a real appointment.",
+        "idea": "The man who spends the whole show fixing everyone else chooses to be the one who needs someone. It quietly inverts his entire posture -- and opens the door to the season's real reckoning with mental health.",
+        "why": "This is the choice the panic attack sets up. Notice it is not a dramatic breakdown but a small, deliberate decision: asking, plainly, for help.",
+        "source": "Episode recaps (NPR, The Spool, Nerds & Beyond) of Ted seeking out Dr. Sharon and asking for an appointment.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted asking Dr. Sharon for an appointment confirmed across multiple recaps.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+          "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/",
+          "https://www.nerdsandbeyond.com/2021/08/27/ted-lasso-recap-season-2-episode-6-the-signal/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-let-jamie-be-jamie",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via ReadySteadyCut, Rolling Stone, TV Tropes and Wikipedia summaries: Roy concludes Jamie has been over-coached into a passive team player and needs his old edge back; he promises a 'signal' Jamie will recognize. During the match all four coaches flip Jamie off in unison -- the cue -- and Jamie baits an opponent into a foul, then scores from the free kick. Gesture and Roy's framing are paraphrased only. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://readysteadycut.com/2021/08/27/recap-ted-lasso-season-2-episode-6-apple-tv-plus-series/",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+        "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e6-let-jamie-be-jamie",
+        "tag": "When a flaw is a tool",
+        "title": "Giving Jamie the signal",
+        "moment": "Roy decides Jamie has been coached into being too unselfish, and that the moment calls for his old ruthlessness. The agreed cue arrives mid-match: all four coaches flip Jamie off from the touchline. He promptly goads an opponent into a foul and buries the free kick.",
+        "idea": "A sly counter-melody to the show's redemption project. After weeks of teaching Jamie to be a team player, the staff deliberately switch the selfishness back on -- a small meditation on whether a flaw can be a tool, and whether 'be your best self' always means 'be nice.'",
+        "why": "Funny and a little subversive. The very trait they spent the season sanding down wins the match -- watch how the show refuses to make its lessons that tidy.",
+        "source": "Episode recaps (ReadySteadyCut, Rolling Stone, The Spool) and TV Tropes describing 'the signal' and Jamie's goal.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The middle-finger cue and Jamie drawing a foul to score confirmed across multiple recaps.",
+        "sourcesChecked": [
+          "https://readysteadycut.com/2021/08/27/recap-ted-lasso-season-2-episode-6-apple-tv-plus-series/",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+          "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-6-the-signal-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-nate-park-the-bus",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via TV Tropes E6 recap, Rolling Stone, the Nathan Shelley Fandom page and a SportsChunk explainer: with Ted gone, Nate makes defensive substitutions and orders the team to 'park the bus,' betting that a Tottenham side needing a goal will overcommit and leave space to counter -- which is exactly what happens, and Richmond advances. 'Park the bus' is independently confirmed as a real, established football term (popularized via Mourinho), not coined by the show. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+        "https://ted-lasso.fandom.com/wiki/Nathan_Shelley",
+        "https://sportschunk.com/park-the-bus-in-soccer/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 70,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-nate-park-the-bus",
+        "tag": "A real football tactic",
+        "title": "Nate parks the bus",
+        "moment": "With Ted gone and the others hesitating, Nate takes charge: he swaps in defenders and tells the team to sit deep and 'park the bus.' Tottenham push forward, leave space at the back, and Richmond counters to win and reach the semi-final.",
+        "idea": "'Park the bus' is a genuine, recognizable football tactic -- defend in numbers and invite the opponent to overcommit. The quiet kit-man's strategic mind is now visibly winning matches, and the praise starts to swell his head.",
+        "why": "The football here is real, not invented for TV. It is also a hinge in Nate's story: keep an eye on how the credit he earns begins to change him.",
+        "source": "Episode recaps (TV Tropes, Rolling Stone) and the Nathan Shelley Fandom page; 'park the bus' as a real tactic per a football explainer (SportsChunk).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Nate's defensive subs and 'park the bus' to win confirmed across recaps; the term is a real, pre-existing football tactic.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+          "https://ted-lasso.fandom.com/wiki/Nathan_Shelley",
+          "https://sportschunk.com/park-the-bus-in-soccer/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-nate-wonder-kid-make-yourself-big",
+      "type": "callback",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Confirmed via TV Tropes, Rolling Stone, Lady Geeks and the Nathan Shelley Fandom page that the press dub Nate 'wonder kid' after the win -- with a NUANCE the candidate slightly overstated: Nate is trying to DOWNPLAY the praise (fumbling 'wunderkind' into 'wonder kid'), and the press adopt it as his nickname, rather than him self-anointing. The link to Rebecca's earlier 'make yourself big' confidence advice is a reasonable, recappers' reading, not creator-confirmed, so partially-confirmed and spoiler_scope season (his arc unfolds later). Grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+        "https://ladygeeksmedia.com/2021/08/27/ted-lasso-2x06-the-signal-review/",
+        "https://ted-lasso.fandom.com/wiki/Nathan_Shelley"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-nate-wonder-kid-make-yourself-big",
+        "tag": "Insecurity hardening into ego",
+        "title": "The 'wonder kid'",
+        "moment": "Fresh off the win, Nate fumbles a humble-brag in front of the press -- mangling 'wunderkind' into 'wonder kid' -- and the nickname sticks. Recappers tie his new swagger to the 'make yourself big' trick Rebecca taught him earlier to fight his nerves.",
+        "idea": "What began as a coping tool for crippling insecurity is starting to curdle into self-importance. The same exercise that once steadied a frightened man is now feeding his pride.",
+        "why": "Watch the small tells: a man hungry for credit, a little stung that others get confided in first. It is the quiet beginning of a turn that pays off much later.",
+        "source": "Episode recaps (TV Tropes, Rolling Stone, Lady Geeks) and the Nathan Shelley Fandom page; the 'make yourself big' linkage is recappers' reading.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "The 'wonder kid' nickname is confirmed; the link to Rebecca's 'make yourself big' advice is a reasonable recappers' reading, not creator-confirmed.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/",
+          "https://ladygeeksmedia.com/2021/08/27/ted-lasso-2x06-the-signal-review/",
+          "https://ted-lasso.fandom.com/wiki/Nathan_Shelley"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-sam-rebecca-bantr-reveal",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via TVLine, ScreenRant, the Bantr Fandom page and Wikipedia summaries: the episode reveals to the audience (not yet to the characters) that Rebecca's anonymous Bantr pen pal 'LDN152' is her own player, Sam Obisanya -- a dramatic-irony reveal that sets up the owner/player romance. Significant reveal; spoiler_scope is season (and noted self for E6 viewers per the briefing). Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-6-rebecca-sam-1234713518/",
+        "https://screenrant.com/ted-lasso-season-2-rebecca-bantr-sam-twist-good/",
+        "https://ted-lasso.fandom.com/wiki/Bantr",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-sam-rebecca-bantr-reveal",
+        "tag": "Dramatic irony",
+        "title": "Rebecca's match is Sam",
+        "moment": "After weeks of 'who is Bossgirl texting?', the show finally cuts to the other end of the chat -- and it is Sam, one of Rebecca's own players. The two of them still have no idea who they have been falling for.",
+        "idea": "A classic dramatic-irony reveal: we know, they don't. Two people have connected honestly and sweetly while completely blind to the complication staring at the audience.",
+        "why": "A genuine 'oh no' twist. Once you know, the earlier anonymous messages read completely differently on a rewatch.",
+        "source": "Episode recaps (TVLine, ScreenRant) and the Bantr Fandom page confirming the reveal that LDN152 is Sam.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Reveal that Rebecca's Bantr match is Sam confirmed across multiple recaps; spoiler scope is the season's romance arc.",
+        "sourcesChecked": [
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-6-rebecca-sam-1234713518/",
+          "https://screenrant.com/ted-lasso-season-2-rebecca-bantr-sam-twist-good/",
+          "https://ted-lasso.fandom.com/wiki/Bantr",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E06TheSignal"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-ldn152-youve-got-mail",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Strongly corroborated as an allusion: ScreenRant explicitly decodes Sam's handle 'LDN152' as a You've Got Mail nod (the film's Joe Fox uses 'NY152'; here 'LDN' localizes it to London), and notes Rebecca's 'Bossgirl' echoes 'Shopgirl' -- both naming their jobs vaguely. The reading is reported across outlets but I found NO creator confirming the intentional homage, so it stays partially-confirmed: a strong, well-supported allusion rather than a settled fact. Spoiler_scope season (tied to the Sam/Rebecca arc). Grounding 3 (multi-domain but interpretive, no primary page opened).",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-ldn152-meaning-youve-got-mail-explained/",
+        "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
+        "https://www.slashfilm.com/603826/youve-got-ted-lasso-a-guide-to-the-rom-com-references-in-the-latest-episode/"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-ldn152-youve-got-mail",
+        "tag": "A rom-com Easter egg",
+        "title": "'LDN152' winks at You've Got Mail",
+        "moment": "Rebecca chats as 'Bossgirl' with a stranger whose handle is 'LDN152.' Critics read it as a nod to the Nora Ephron film You've Got Mail, where the lead's screen name is 'NY152' -- here relocated from New York to London.",
+        "idea": "The whole Bantr setup mirrors that movie's premise: two people falling for each other anonymously online while, unknown to them, already entangled in real life. Even 'Bossgirl' echoes the film's 'Shopgirl.'",
+        "why": "A lovely buried reference if you know the film. Treat it as a widely spotted allusion -- the parallel is unmistakable, even if the creators never confirmed it on the record.",
+        "source": "ScreenRant's decoding of LDN152 as a You've Got Mail reference, echoed by rom-com round-ups (PureWow, SlashFilm).",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "You've Got Mail parallel (NY152 -> LDN152, Shopgirl -> Bossgirl) widely reported but not creator-confirmed; a strong allusion, not a settled fact.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-ldn152-meaning-youve-got-mail-explained/",
+          "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
+          "https://www.slashfilm.com/603826/youve-got-ted-lasso-a-guide-to-the-rom-com-references-in-the-latest-episode/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-diamond-dogs-say-nothing",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via NPR, PopCulture (sneak-peek clip), Lady Geeks, the Diamond Dogs Fandom page and TV Tropes: Higgins, troubled that Beard has reunited with Jane, calls an emergency Diamond Dogs meeting; the group's counsel (Ted included) is essentially that you should never tell a friend you disapprove of their relationship. Higgins can't accept that and tells Beard the truth anyway -- modeling that real friendship sometimes means the hard conversation. Calls back to the Diamond Dogs (established S1E8) and the Beard/Jane thread. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+        "https://popculture.com/streaming/news/ted-lasso-season-2-episode-6-diamond-dogs-emergency-meeting-sneak-peek-clip/",
+        "https://ladygeeksmedia.com/2021/08/27/ted-lasso-2x06-the-signal-review/",
+        "https://ted-lasso.fandom.com/wiki/Diamond_Dogs"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-diamond-dogs-say-nothing",
+        "tag": "Friendship vs. comfort",
+        "title": "The Diamond Dogs debate silence",
+        "moment": "Worried that Beard has gotten back together with Jane, Higgins convenes an emergency Diamond Dogs meeting. The group's advice lands on a comfortable rule -- keep your mouth shut about a friend's love life. Higgins decides he can't quite do that, and gently tells Beard the truth.",
+        "idea": "A pointed counterpoint to the episode's bigger theme of speaking up. The easy, cowardly maxim is 'say nothing'; Higgins models that caring about someone can mean risking the hard, unwelcome conversation.",
+        "why": "Watch the gentlest character draw the firmest line. Beard doesn't take the advice -- but the hug afterward says he knows it came from love.",
+        "source": "Episode recaps (NPR, Lady Geeks), the PopCulture sneak-peek clip and the Diamond Dogs Fandom page.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Higgins's emergency Diamond Dogs meeting over Beard/Jane and the 'say nothing' advice confirmed across multiple recaps.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+          "https://popculture.com/streaming/news/ted-lasso-season-2-episode-6-diamond-dogs-emergency-meeting-sneak-peek-clip/",
+          "https://ladygeeksmedia.com/2021/08/27/ted-lasso-2x06-the-signal-review/",
+          "https://ted-lasso.fandom.com/wiki/Diamond_Dogs"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-david-blaine-grafton-area51",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the NPR recap and two independent transcript sources (lassoism quote page, tvshowtranscripts): trying to describe how unreadable he finds Dr. Sharon, Ted stacks illusionist David Blaine, mystery novelist Sue Grafton (the alphabet detective series) and the secrecy of Area 51 into one tangled comparison. A tidy example of Ted's deflect-and-connect pop-culture reflex. Located verbatim but paraphrased only in the card. Grounding capped at 4 (no primary page opened; transcript pages corroborate placement).",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+        "https://lassoism.com/Ted-Lasso-quote.php?id=434",
+        "https://tvshowtranscripts.ourboard.org/viewtopic.php?f=1020&t=45754"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-david-blaine-grafton-area51",
+        "tag": "Ted's pop-culture brain",
+        "title": "'David Blaine at Area 51'",
+        "moment": "Trying to tell Dr. Sharon how impossible she is to read, Ted reaches for three references at once -- a famous magician, an alphabet-mystery novelist, and America's most secretive military base -- and folds them into a single tangled comparison.",
+        "idea": "A perfect little portrait of how Ted's mind works: when the moment gets emotionally hard, he piles on the Americana and pop ephemera, deflecting and connecting at the same time.",
+        "why": "Listen for how the metaphors get busier the more uncomfortable he is. The jokes are a tell, not just a quirk.",
+        "source": "NPR recap and episode transcripts (lassoism, tvshowtranscripts) of Ted's David Blaine / Sue Grafton / Area 51 line.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The three-reference line and its E6 placement confirmed via the NPR recap and two transcripts.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/30/1032389573/ted-lasso-recap-ted-gives-the-signal-for-appointment-television",
+          "https://lassoism.com/Ted-Lasso-quote.php?id=434",
+          "https://tvshowtranscripts.ourboard.org/viewtopic.php?f=1020&t=45754"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-pufnstuf-hr-joke",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the IMDb 'Connections' page for the episode and two transcript sources (lassoism, tvshowtranscripts): when HR comes up, Ted puns on 'H.R. Pufnstuf' -- the 1969-70 Sid & Marty Krofft children's show -- and immediately lampshades that the joke only works for people born in the early-to-mid '70s. Self-aware era-coded Americana. Paraphrased only. Grounding capped at 4 (no primary page opened; transcripts + IMDb connections corroborate).",
+      "verified_sources": [
+        "https://m.imdb.com/title/tt14968644/movieconnections/?ref_=tt_trv_cnn",
+        "https://lassoism.com/Ted-Lasso-quote.php?id=436",
+        "https://tvshowtranscripts.ourboard.org/viewtopic.php?f=1020&t=45754"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-pufnstuf-hr-joke",
+        "tag": "A very specific joke",
+        "title": "The 'H.R. Pufnstuf' gag",
+        "moment": "When someone threatens to call HR, Ted puns on 'H.R. Pufnstuf' -- a children's TV puppet show from around 1969-70 -- and then openly admits the joke only lands for a narrow slice of a certain generation.",
+        "idea": "A neat example of the writers' love of hyper-specific, era-coded Americana, with Ted narrating the joke's own tiny demographic out loud. If the name doesn't ring a bell, it sails right by.",
+        "why": "Half the fun is Ted lampshading that almost no one will get it. A small wink to viewers of exactly the right age.",
+        "source": "IMDb 'Connections' for the episode and transcripts (lassoism, tvshowtranscripts) of the H.R. Pufnstuf / HR line.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The H.R. Pufnstuf pun and its self-aware generational caveat confirmed via IMDb connections and two transcripts.",
+        "sourcesChecked": [
+          "https://m.imdb.com/title/tt14968644/movieconnections/?ref_=tt_trv_cnn",
+          "https://lassoism.com/Ted-Lasso-quote.php?id=436",
+          "https://tvshowtranscripts.ourboard.org/viewtopic.php?f=1020&t=45754"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-written-by-brett-goldstein",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Writing credit firmly confirmed: 'The Signal' was written by Brett Goldstein (who plays Roy Kent), per Wikipedia, IMDb and the episode Fandom page. His interview framing that the season deliberately darkens from around this episode is corroborated via Gold Derby reporting -- but per the briefing his 'massacre' wording is NOT reproduced; the card renders it as his stated intent, paraphrased. Grounding capped at 4 (no primary page opened; multiple independent listings agree on the credit).",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)",
+        "https://www.imdb.com/title/tt14968644/",
+        "https://ted-lasso.fandom.com/wiki/The_Signal",
+        "https://www.goldderby.com/feature/brett-goldstein-ted-lasso-writer-video-interview-1204750290/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e6-written-by-brett-goldstein",
+        "tag": "Roy Kent wrote this one",
+        "title": "Written by Brett Goldstein",
+        "moment": "Behind the scenes: this episode was written by Brett Goldstein -- the actor who plays Roy Kent. So the man behind Roy scripted the very hour in which Roy engineers 'the signal' and Ted quietly comes apart.",
+        "idea": "Goldstein started in the Ted Lasso writers' room before he was cast as Roy. In interviews he flagged that this is roughly where the season's gentle tone deliberately darkens -- a warning to anyone expecting nonstop sweetness.",
+        "why": "A good answer to 'why does the mood shift here?' The episode that turns serious was written by a cast member who knew exactly what was coming.",
+        "source": "Writing credit per Wikipedia, IMDb and the episode Fandom page; the tonal-shift framing per Goldstein's Gold Derby interview (paraphrased).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Goldstein's writing credit confirmed across listings; his interview comment about the darker tone is paraphrased, not quoted.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)",
+          "https://www.imdb.com/title/tt14968644/",
+          "https://ted-lasso.fandom.com/wiki/The_Signal",
+          "https://www.goldderby.com/feature/brett-goldstein-ted-lasso-writer-video-interview-1204750290/"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-directed-by-erica-dunton",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Director credit confirmed: 'The Signal' was directed by Erica Dunton, per Wikipedia, IMDb and the TVMaze episode listing. She stages both the disorienting subjectivity of Ted's panic attack and the broad comedy of the four-coach 'signal' in the same hour. The 'her second turn on the series' sub-detail is low-stakes and not load-bearing in the card. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)",
+        "https://www.imdb.com/title/tt14968644/",
+        "https://www.tvmaze.com/episodes/2151080/ted-lasso-2x06-the-signal"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e6-directed-by-erica-dunton",
+        "tag": "The craft behind the panic",
+        "title": "Directed by Erica Dunton",
+        "moment": "Behind the scenes: director Erica Dunton handles this episode's tricky tonal pivot -- the swirling, sound-muffled feel of Ted's panic attack sitting in the same hour as the broad gag of four coaches flipping off their own striker.",
+        "idea": "It is a hard mix to pull off: subjective dread and slapstick comedy back to back. The direction is a big part of why the panic-attack sequence lands as something to feel, not just watch.",
+        "why": "Pair this with the panic-attack moment. Notice how the camera and sound put you inside Ted's head rather than just observing him.",
+        "source": "Director credit per Wikipedia, IMDb and the TVMaze episode listing.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Erica Dunton's director credit confirmed across Wikipedia, IMDb and TVMaze.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)",
+          "https://www.imdb.com/title/tt14968644/",
+          "https://www.tvmaze.com/episodes/2151080/ted-lasso-2x06-the-signal"
+        ]
+      }
+    },
+    {
+      "id": "s2e6-girl-like-you-needle-drop",
+      "type": "reference",
+      "verdict": "unverified",
+      "verification_notes": "PLACEMENT NOT VERIFIABLE FOR S2E6 -- EXCLUDED. While a Tunefind/IMDb S2E6 listing names Edwyn Collins's 'A Girl Like You', the only scene anyone actually attaches to the song -- characters entering the exclusive 'Bones and Honey' club -- is in S2E9 'Beard After Hours' (per the Bones and Honey Fandom page and PopCulture's E9 sneak-peek), and the dedicated what-song.com track page for 'A Girl Like You' returns Season 2 Episode 9. This looks like an aggregator conflation -- the same cross-episode soundtrack mix-up the hunter flagged for 'Alone Again (Naturally)' (also E9). Per the briefing I do not assert a scene I cannot place, so this is unverified and held out rather than risk a wrong attribution. (Independent corroboration but contradicting the E6 placement -> verdict unverified, not partially-confirmed.)",
+      "verified_sources": [
+        "https://www.what-song.com/song/15713/a-girl-like-you",
+        "https://ted-lasso.fandom.com/wiki/Bones_and_Honey",
+        "https://popculture.com/streaming/news/ted-lasso-season-2-episode-9-coach-beard-cons-way-into-club-sneak-peek/"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 4, "relevance": 2, "spoiler_safety": 5 },
+      "interest_score": 67,
+      "tier": "silver",
+      "include": false
+    }
+  ]
+}
