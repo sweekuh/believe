@@ -1,0 +1,96 @@
+[
+  {
+    "id": "s2e12-title-wooden-pyramid",
+    "tag": "The title's character half",
+    "title": "Wooden's Pyramid of Success",
+    "moment": "The other half of the title points to legendary UCLA basketball coach John Wooden's 'Pyramid of Success' -- the real character framework whose framed, autographed copy hangs on Ted's office wall.",
+    "idea": "Wooden built 15 traits across five tiers, topped by 'Competitive Greatness,' and pointedly defined success not as winning but as the peace of mind of knowing you did your best to become your best. That no-scoreboard idea is essentially Ted's whole philosophy.",
+    "why": "The episode fuses two real sources -- a football-tactics phrase over a basketball coach's character pyramid -- so the title quietly measures the finale by character, not the result on the pitch.",
+    "source": "John Wooden's Pyramid of Success per <strong>coachwooden.com</strong> and the John R. Wooden Course; the show connection via UCLA Newsroom.",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Wooden framework (15 blocks / 5 tiers / 'Competitive Greatness' apex / success-as-best-effort) confirmed across multiple Wooden sources. No primary page opened (403s).",
+    "sourcesChecked": [
+      "https://coachwooden.com/pyramid-of-success",
+      "https://www.thewoodeneffect.com/competitive-greatness/",
+      "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success"
+    ]
+  },
+  {
+    "id": "s2e12-title-wilson-pyramid",
+    "tag": "The title's football half",
+    "title": "A real tactics book",
+    "moment": "The finale borrows its name from a real book Coach Beard has been seen reading since the very first episode: Jonathan Wilson's history of football tactics.",
+    "idea": "Wilson's title is itself a pun: football's earliest formation looked like a pyramid (a thin line of defenders, five forwards on top), and over a century tactics slowly turned it upside down toward defense-heavy shapes. The episode borrows that image of a structure flipped on its head.",
+    "why": "Watch for Beard quietly reading the book across the series -- it's his running gag for trying to become a tactics expert. Wilson himself called the cameos 'just very weird,' but understood the shorthand.",
+    "source": "Jonathan Wilson, <em>Inverting the Pyramid: The History of Football Tactics</em>; the Beard cameo and Wilson's comment via a <strong>Boston.com</strong> interview and Book Riot's Ted Lasso book catalog.",
+    "category": "Aesthetics",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Book, author, and the 'inverted formation' meaning confirmed across book listings; Beard Easter egg and Wilson's 'shorthand' comment corroborated. No primary page opened (403s).",
+    "sourcesChecked": [
+      "https://www.goodreads.com/book/show/3621358-inverting-the-pyramid",
+      "https://www.boston.com/sports/soccer/2023/04/13/ted-lasso-inverting-the-pyramid-jonathan-wilson/",
+      "https://bookriot.com/every-book-in-ted-lasso-season-2/"
+    ]
+  },
+  {
+    "id": "s2e12-nate-believe-sign-torn",
+    "tag": "Belief is a practice",
+    "title": "Nate tears the sign",
+    "moment": "Amid Richmond's promotion celebration, Nate slips back to the empty locker room, tears Ted's hand-lettered BELIEVE sign in two and leaves it on his desk. Ted finds it later and, saying nothing to the team, quietly tapes it back together and hangs it up again.",
+    "idea": "Nate has literally stopped believing in Ted's project. Ted's wordless response is the show's actual thesis: belief isn't a poster you either have or lose -- it's something you keep choosing to mend and put back on the wall.",
+    "why": "Watch the contrast: the betrayal is loud and public, the repair is private and undramatic. The gentlest possible answer to the cruelest gesture in the season.",
+    "source": "Finale recaps (NPR, KUOW, The Mary Sue, ScreenRant) of Nate tearing the BELIEVE sign and Ted discreetly taping it back up. (The later gold 'kintsugi' repair is a separate Season 3 moment.)",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Tearing and Ted's quiet taping-it-back-up confirmed across multiple finale recaps; the kintsugi repair is a separate S3 beat. No primary page opened (403s).",
+    "sourcesChecked": [
+      "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12",
+      "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn",
+      "https://www.themarysue.com/ted-lasso-believe-message/"
+    ]
+  },
+  {
+    "id": "s2e12-false-nine-tactic",
+    "tag": "A real tactic",
+    "title": "Nate's false nine",
+    "moment": "Richmond's promotion plan hinges on a genuine football idea -- the 'false nine.' It collapses early (down 2-0 to Brentford) before the team commits to it and claws back a draw, enough to go up.",
+    "idea": "A false nine is a striker who keeps dropping into midfield instead of staying up front, pulling defenders out of position and opening space behind them -- a real tactic linked to players like Lionel Messi and Roberto Firmino.",
+    "why": "It grounds the finale's drama in something authentic. (Note: the 'Total Football' the team is known for is a later, Season 3 development -- the tactic in this match is the false nine.)",
+    "source": "False nine explained by FC Barcelona's academy and GiveMeSport; the match (2-0 down to a 2-2 draw, promotion) per the Rolling Stone recap and an on-screen-score clip.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "False nine confirmed as a real tactic across football sources; the 2-0 / 2-2 / promotion-via-draw beats confirmed, including an on-screen final-score clip. No primary page opened (403s).",
+    "sourcesChecked": [
+      "https://fcbarcelona.us/false-nine-soccer/",
+      "https://www.givemesport.com/what-false-nine-football-position-messi-firmino/",
+      "https://taylor.getyarn.io/yarn-clip/20e73d4e-6839-4562-8e95-4a2b515ed9ca"
+    ]
+  },
+  {
+    "id": "s2e12-jan-maas-ask-the-team",
+    "tag": "Trust the room",
+    "title": "Ted asks the team",
+    "moment": "Down 2-0 at halftime, Nate wants to ditch the plan and faults the players for not being smart enough to run it. Ted instead asks the locker room -- and the famously blunt Jan Maas says the tactic is fine, it's on them to execute it.",
+    "idea": "The tactical crisis turns into a values moment: Nate's contempt for the players against Ted's belief in them. Given the choice, the team chooses to commit -- and that belief, not a new scheme, fuels the comeback.",
+    "why": "Watch it sit right next to the BELIEVE sign Nate will soon tear down. The same scene shows both men's whole philosophy in miniature.",
+    "source": "Finale recaps (KUOW, NPR) and the TV Tropes episode recap of the halftime decision: Nate blames the players, Ted asks the room, Jan Maas backs the tactic.",
+    "category": "Relationships",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Halftime 'abandon vs stick with it' beat -- Nate blames the players, Ted asks the team, Jan Maas backs the tactic -- confirmed across recaps. No primary page opened (403s).",
+    "sourcesChecked": [
+      "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn",
+      "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12"
+    ]
+  }
+]

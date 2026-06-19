@@ -81,10 +81,10 @@ Rules:
   a stretch, cut it rather than invent.
 - A card's `title`, `moment`, `idea`, `why`, and `source` may contain simple
   inline HTML (`<em>`, `<strong>`). Empty fields are simply not rendered.
-- Season 1 is fully written; Season 2 is being filled in episode by episode.
-  Any un-written episode holds a single "coming soon" placeholder card (`tag:
-  "Coming soon"` or an id ending in `-placeholder`), which shows with no spoiler
-  gate. Replace the placeholder with real cards as they're written.
+- Seasons 1 and 2 are both fully written (~5 verified cards per episode). A
+  future season can be added as episodes whose only card is a "coming soon"
+  placeholder (`tag: "Coming soon"` or an id ending in `-placeholder`); such an
+  episode shows with no spoiler gate until real cards replace the placeholder.
 
 ## Grounding scores & the display contract
 

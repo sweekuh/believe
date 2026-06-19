@@ -53,9 +53,10 @@ philosophy or plot facts to fill an episode.
   single-season `{ season, episodes }` file via `normalizeData()`.) Card schema
   and the optional scoring fields (`grounding`, `interest`, `category`,
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
-  `README.md` and `docs/facts-schema.md`. Season 1 is fully written (10 episodes,
-  ~5 verified cards each); Season 2 ships its 12 episode titles with a single
-  "coming soon" placeholder card each, being backfilled via the content pipeline.
+  `README.md` and `docs/facts-schema.md`. Both seasons are fully written
+  (Season 1: 10 episodes; Season 2: 12 episodes; ~5 verified cards each, built
+  through the content pipeline). The "coming soon" placeholder path stays in the
+  app for any future season.
 
 ## Content pipeline (how cards get written)
 
@@ -85,7 +86,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 34)
+node tools/verify.mjs                # run all checks (currently 36)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

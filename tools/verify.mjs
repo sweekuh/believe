@@ -149,11 +149,16 @@ try {
   check("S2E1 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
   if (shots) await page.screenshot({ path: join(outDir, "06-season2.png"), fullPage: true });
 
-  // A still-unwritten S2 episode shows its "coming soon" placeholder with no gate.
+  // Both seasons are fully written now, so no shipped episode is a placeholder
+  // (the coming-soon path is retained in index.html for future seasons). Confirm
+  // the S2 finale, like every episode, re-gates and reveals its cards on tap.
   await page.select("#epPicker", "12");
   await new Promise(r => setTimeout(r, 300));
-  check("S2E12 placeholder shows no spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
-  check("S2E12 placeholder card shows without a reveal tap", (await page.$$eval("#notes .card", e => e.length)) === 1);
+  check("S2E12 finale title is Inverting the Pyramid of Success", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Inverting the Pyramid of Success");
+  check("S2E12 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S2E12 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
 
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
