@@ -1,0 +1,185 @@
+{
+  "episode": { "season": 2, "number": 7, "title": "Headspace" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL this session (Wikipedia, TV Tropes, TVLine, The Spool, Tunefind), exactly as warned in the briefing. Every fact below is therefore corroborated across MULTIPLE INDEPENDENT WebSearch result summaries from different domains rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly to verify. Paraphrase only -- no dialogue is reproduced anywhere below. ATTRIBUTION FLAGS are called out inline: the Gloria Steinem 'truth will set you free / piss you off' line (a Whitman-style misattribution -- Steinem popularized it but did not originate it) and the 'named after the Headspace meditation app' title claim are both flagged as not-settled. DEDUP NOTE: the factsheet's mental-health chapters (Ch.4 Ted/egoist/Fountainhead; Ch.5 Hollis 'The Middle Passage' on Sharon's table) concern Sharon's broader Season 2 arc and Ted's later sessions, not the specific E7 beats below; the therapy candidates here are about THIS episode's resistance-then-breakthrough, not those book references. SCOPE CAUTION for the reviewer: the deepest backstory for Ted's therapy distrust (his couples therapist later dating his ex-wife) is a LATER-season reveal and is only flagged, not built into a self-contained card.",
+  "candidates": [
+    {
+      "id": "s2e7-headspace-title",
+      "type": "theme",
+      "title": "The title 'Headspace' carries the episode's whole idea",
+      "detail": "The episode is built around getting into the right mental 'headspace' through therapy and self-care: Ted starts real sessions with Dr. Sharon, Roy and Keeley fight over Keeley needing room in her own head, and Nate's inner ugliness starts leaking out. Recaps also read the title as a wink at the popular Headspace meditation/mindfulness app, layering pop self-care culture over the literal sense of mental space. FLAG for reviewer: the 'mind/mental space' meaning is plainly the episode's throughline and well supported; the 'named after the Headspace app' reading is offered by recappers as interpretation, not a confirmed writers'-room intent -- present it as a likely nod, not settled fact.",
+      "moment": "Across the episode, the characters each wrestle for mental room: Ted in the therapist's office, Keeley needing space inside a relationship that never leaves her alone, and Nate losing his grip on his better self.",
+      "sources": [
+        { "url": "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-7-headspace-recap/", "note": "Reads the episode's self-care theme and the multiple meanings of 'headspace'" },
+        { "url": "https://ladygeeksmedia.com/2021/09/03/ted-lasso-2x07-headspace-review/", "note": "Connects the title to the meditation app and to getting into one's headspace via therapy" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Headspace", "note": "Episode overview confirming the mental-health / self-care focus" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-truth-piss-you-off",
+      "type": "philosophy",
+      "title": "'The truth will set you free -- but first it'll piss you off'",
+      "detail": "Dr. Sharon's blunt line that the truth is freeing but infuriating first is the episode's distilled thesis about therapy: real self-examination is uncomfortable before it is liberating, which is exactly Ted's experience as he flinches, deflects, and finally engages. The show attributes the saying to Gloria Steinem. FLAG for reviewer -- this is a Whitman-style attribution problem and should be handled like the 'be curious, not judgmental' card: per Quote Investigator, Steinem POPULARIZED the line (in speeches by the late 1990s, later a 2019 book title) but did NOT originate it -- versions circulated earlier, with a partial 1978 newspaper match in an alcoholism-treatment context. So 'attributed to / popularized by Steinem' is honest; 'coined by Steinem' is not. Do not assert it as settled.",
+      "moment": "When Ted resists the discomfort of opening up, Sharon levels with him that honesty about yourself is liberating but will anger you before it frees you -- the episode's plain statement of why therapy is hard.",
+      "sources": [
+        { "url": "https://quoteinvestigator.com/2014/09/04/truth-free/", "note": "Traces the quote's history: Steinem popularized but did not originate it; earlier circulation incl. a 1978 partial match" },
+        { "url": "https://www.tvfanatic.com/ted-lasso-season-2-episode-7-review-headspace/", "note": "Recap reporting Sharon's 'truth will set you free, but piss you off first' line in the episode" },
+        { "url": "https://showsnob.com/2021/09/03/ted-lasso-season-2-episode-7-recap/", "note": "Recap of the episode's therapy theme and Sharon's framing of truth and freedom" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-therapy-is-self-care",
+      "type": "philosophy",
+      "title": "Therapy reframed as self-care, not weakness",
+      "detail": "The emotional engine of the episode is Ted learning that asking for help and tending your own mind is a form of self-care -- and that for someone who has spent his life putting others first, turning that care inward can feel frightening rather than indulgent. Sharon also punctures his cynicism by noting he doesn't coach for free either, dismantling his 'therapists only want your money' defense. This is the show's signature de-stigmatizing-of-mental-health move, and the cast/Sudeikis have spoken publicly about the response from viewers who felt seen by it. A clean fit for the gift's mental-health-handled-with-care brief.",
+      "moment": "Sharon chips at Ted's contempt for therapy until he can see that taking his own mental health seriously is care, not weakness -- and that a man used to fixing everyone else finds self-care the scariest thing of all.",
+      "sources": [
+        { "url": "https://telltaletv.com/2021/09/ted-lasso-review-headspace-season-2-episode-7/", "note": "Frames therapy as self-care and notes self-care is scary for people who put others first; Sharon's 'you don't coach for free' rebuttal" },
+        { "url": "https://www.marylandaddictionrecovery.com/ted-lasso-tackles-the-stigma-of-mental-health/", "note": "On the show de-stigmatizing therapy and mental health; severity never used as a punchline" },
+        { "url": "https://www.inspirethemind.org/post/ted-lasso-and-the-conversation-around-mental-health", "note": "On Ted Lasso's broader mental-health conversation and audience response" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-ted-resists-then-engages",
+      "type": "callback",
+      "title": "Ted's panic attack pays off into his first real sessions",
+      "detail": "This episode is the direct payoff of the previous one: Ted suffered a panic attack and rushed off the pitch in 'The Signal' (S2E6), ending that episode by quietly asking Sharon for an appointment. 'Headspace' follows through -- across roughly three sessions Ted first hides behind jokes and pop-culture riffs, even turning unusually short-tempered and (rarely for him) swearing, before finally arriving ready to actually engage. Direction: this CALLS BACK to the E6 panic attack and SETS UP Ted's deeper therapeutic arc across the rest of Season 2. The 'shows he's serious by stopping the desk toy' beat (separate candidate) is the visual hinge of that turn.",
+      "moment": "Having fled the field mid-match with a panic attack the episode before, Ted now sits across from Sharon -- deflecting at first, even snapping, until he chooses to stop performing and start the work.",
+      "sources": [
+        { "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-6-signal-1213581/", "note": "E6 'The Signal' ends with Ted, after a panic attack, asking Sharon to make an appointment" },
+        { "url": "https://www.tvfanatic.com/ted-lasso-season-2-episode-7-review-headspace/", "note": "E7 follows Ted through resistant early sessions, short temper and swearing, toward engagement" },
+        { "url": "https://www.themarysue.com/ted-lasso-emotional-journey/", "note": "Tracks Ted's emotional journey across the E7 sessions" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e7-drinking-bird-toy",
+      "type": "easter-egg",
+      "title": "The drinking-bird toy marks Ted getting serious",
+      "detail": "A small dipping-bird desk gadget in Sharon's office becomes a quiet character beat: in his early sessions Ted fiddles with it and watches it bob as one more way to avoid the real conversation, and the moment he finally means business he reaches over and stops the bird. It is an easy-to-miss visual shorthand for choosing to be present instead of deflecting -- props doing the emotional work. (The novelty 'drinking bird' is itself a classic bit of pop ephemera, which suits Ted's habit of reaching for the familiar to dodge discomfort.)",
+      "moment": "Ted keeps setting Sharon's little dipping-bird toy bobbing to avoid the hard talk; when he's ready to genuinely engage, he stills it -- a wordless sign he's done deflecting.",
+      "sources": [
+        { "url": "https://www.tvinsider.com/1011600/ted-lasso-season-2-episode-7-recap-headspace/", "note": "Recap noting Ted stopping Sharon's drinking-bird toy as the sign he's serious in the third session" },
+        { "url": "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-7-headspace-recap/", "note": "Describes the desk bird as one of Ted's avoidance tools across the sessions" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-i-got-you-babe-groundhog-day",
+      "type": "reference",
+      "title": "'I Got You Babe' evokes 'Groundhog Day' for Roy and Keeley",
+      "detail": "Roy and Keeley's morning-routine montage is scored to Sonny & Cher's 'I Got You Babe' -- the song forever tied to 'Groundhog Day,' where it wakes Bill Murray into the same day on endless repeat. The needle-drop is doing pointed work: it casts Keeley's 24/7 togetherness with Roy as a time loop she can't escape, which is exactly what tips her toward needing space. A genuinely clever music cue that comments on the scene rather than just decorating it. FLAG: keep any phrasing of the lyric/title minimal; the load-bearing fact is the song + its Groundhog Day association, both widely reported.",
+      "moment": "As Roy and Keeley cycle through an identical morning together, 'I Got You Babe' plays -- the wake-up song from 'Groundhog Day' -- framing their constant togetherness as a loop Keeley is desperate to break.",
+      "sources": [
+        { "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-7-headspace-1218475/", "note": "Recap noting the 'I Got You Babe' montage and its Groundhog Day / time-loop resonance for Keeley" },
+        { "url": "https://en.wikipedia.org/wiki/I_Got_You_Babe", "note": "Song's famous Groundhog Day usage as the repeating alarm-clock track" },
+        { "url": "https://www.whatsong.org/tvshow/ted-lasso/episode/93972", "note": "S2E7 soundtrack listing for the episode's songs" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-satc-da-vinci-code",
+      "type": "reference",
+      "title": "Carrie and Aidan's fight mirrors Roy and Keeley's",
+      "detail": "The Roy/Keeley blow-up is staged on top of two on-screen texts. Keeley is trying to watch 'Sex and the City' -- recaps identify the installment as Season 4's 'The Good Fight,' in which Carrie and Aidan clash after moving in together -- while Roy, oblivious, keeps narrating his read of Dan Brown's 'The Da Vinci Code' over the top of it. The 'Sex and the City' choice is not random set-dressing: the on-screen couple's cohabitation friction rhymes with Roy and Keeley's, and it's what finally tips Keeley into admitting she needs room. FLAG for reviewer: the two referenced works (SATC, The Da Vinci Code) are firmly reported across recaps; the precise 'The Good Fight' episode ID comes from recap write-ups -- worth a quick confirm but consistently stated.",
+      "moment": "Keeley watches a 'Sex and the City' episode about a couple straining after moving in together while Roy talks over it about 'The Da Vinci Code' -- the on-screen quarrel nudging Keeley to voice her own need for space.",
+      "sources": [
+        { "url": "https://thedipp.com/ted-lasso/sex-and-the-city-reference-keeley-roy", "note": "Identifies the SATC episode as S4 'The Good Fight' (Carrie/Aidan post-move-in) and ties it to Roy/Keeley" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Sex_and_the_City", "note": "Catalogs the Sex and the City reference in the episode" },
+        { "url": "https://www.whattowatch.com/reviews/ted-lasso-207-review-headspace", "note": "Recap noting Roy reading The Da Vinci Code aloud over Keeley's show" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-roy-keeley-first-fight",
+      "type": "theme",
+      "title": "Even a healthy couple needs space -- Roy and Keeley's first real fight",
+      "detail": "The episode gives Roy and Keeley their first genuine argument, and notably it isn't about betrayal or jealousy but about a mundane, real-relationship need: Keeley loves Roy and still wants time alone in her own head. Roy storms out; Keeley cries. The resolution is the episode in miniature -- Roy hears Jamie at training defend giving a teammate space, applies the lesson, and comes home to run Keeley a candlelit bath so she can be blissfully by herself. It models that wanting solitude isn't a relationship failure, and that love can mean granting someone room rather than closing the gap.",
+      "moment": "Smothered by round-the-clock togetherness, Keeley tells Roy she needs space; he reacts badly, then -- prompted by a training-ground lesson about letting a teammate breathe -- returns and draws her a solo candlelit bath.",
+      "sources": [
+        { "url": "https://www.tvinsider.com/1011600/ted-lasso-season-2-episode-7-recap-headspace/", "note": "Recap of Roy/Keeley's first fight over space and the candlelit-bath resolution via Jamie's 'give space' lesson" },
+        { "url": "https://www.nerdsandbeyond.com/2021/09/03/ted-lasso-recap-season-2-episode-7-headspace/", "note": "Recap of the Roy/Keeley conflict and reconciliation" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-nate-mean-streak-acknowledged",
+      "type": "callback",
+      "title": "The show first openly names Nate's mean streak",
+      "detail": "'Headspace' is widely cited as the episode where Nate's darkening turn is acknowledged on screen for the first time. Ribbed by teammates at training, Nate retaliates by belittling Colin -- comparing other players to celebrated painters while dismissing Colin's worth (an art put-down; see the related candidate) -- and Coach Beard pulls him up for the cruelty. Nate then turns his humiliation downward, threatening Will the young kit man. Direction: this PAYS OFF the season's quiet seeding of Nate's insecurity and SETS UP his full heel turn later in Season 2/Season 3. Several recaps frame it as the moment the 'Wonder Kid' tips into villainy.",
+      "moment": "Stung by teammates' teasing, Nate lashes out -- demeaning Colin in front of the squad, drawing a rebuke from Beard, then menacing Will the kit man -- the first time the show squarely flags his growing cruelty.",
+      "sources": [
+        { "url": "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-7-nathan-bullying-will-1234714995/", "note": "Recap framing E7 as Nate's dark turn: belittling Colin and threatening Will the kit man" },
+        { "url": "https://telltaletv.com/2021/09/ted-lasso-review-headspace-season-2-episode-7/", "note": "Calls E7 the show's first direct acknowledgment of Nate's mean streak" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Nathan_Shelley", "note": "Character page on Nate's arc through Season 2, incl. the Colin/Will incidents" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e7-nate-picasso-gauguin",
+      "type": "reference",
+      "title": "Nate's art-history insult: Picasso, Gauguin, and a hotel painting",
+      "detail": "When Nate cuts Colin down, he does it through art history: he likens favored teammates to Picasso and Gauguin -- real, museum-grade modern painters -- while reducing Colin to forgettable, mass-produced hotel-wall decor that nobody is moved by. Beyond the cruelty, it's a small character tell: Nate reaches for cultured, hierarchical references to wound, asserting taste and rank as weapons. FLAG: paraphrase only -- the original lines are quotable and should not be reproduced; the load-bearing facts are simply that the put-down invokes Picasso and Gauguin and contrasts them with anonymous hotel art.",
+      "moment": "Nate demeans Colin by ranking teammates as great painters -- Picasso, Gauguin -- and casting Colin as the bland, unmemorable artwork on a budget-hotel wall.",
+      "sources": [
+        { "url": "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-7-nathan-bullying-will-1234714995/", "note": "Recap quoting/paraphrasing Nate's Picasso/Gauguin-vs-hotel-painting put-down of Colin" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Colin_Hughes", "note": "Character page noting Nate's belittling of Colin in this storyline" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-higgins-nomad-office",
+      "type": "easter-egg",
+      "title": "Higgins's wandering office is the season's running gag",
+      "detail": "Because Higgins gave up his office so Dr. Sharon would have a room, he spends Season 2 as a corporate nomad -- hauling his laptop and a potted plant from a tiny table in Rebecca's office to the gym to, eventually, a supply closet. The gag runs underneath the Sharon storyline and is a gentle visual of someone quietly sacrificing his own comfort for the team's mental health, which is thematically apt for an episode about making room (literal and mental) for care. FLAG for reviewer: the running gag is firmly sourced, but its SETUP is tied to Sharon's arrival a couple of episodes earlier, not specifically born in E7 -- confirm exactly which way-stations appear in 'Headspace' before attributing a specific relocation to this episode.",
+      "moment": "Having surrendered his office to Sharon, Higgins keeps reappearing in ever-odder makeshift workspaces around the stadium, plant and laptop in hand -- a season-long sight gag about giving up your space so someone can heal.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-funniest-running-gags/", "note": "Documents Higgins giving up his office for Sharon and the escalating makeshift-office locations" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Leslie_Higgins", "note": "Character page on Higgins relocating his office through Season 2" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e7-writer-phoebe-walsh-jane",
+      "type": "production",
+      "title": "Written by Phoebe Walsh -- who also plays Beard's girlfriend Jane",
+      "detail": "'Headspace' was written by Phoebe Walsh and directed by Matt Lipsey (it first aired September 3, 2021). The nice production wrinkle: Walsh is both a writer on the show (a story editor from the start, with sole credit on this episode and on Season 1's 'All Apologies') AND an on-screen cast member -- she plays Jane Payne, Coach Beard's volatile girlfriend. So a member of the writers' room is also one of the actors, an unusually direct crossover between page and screen. FLAG for reviewer: writer/director/air-date are firmly sourced (IMDb + fandom + recaps); confirm the dual-credit framing against IMDb's writing and cast pages, which were 403 to WebFetch this session.",
+      "moment": "Behind the scenes: this therapy-centered episode was scripted by Phoebe Walsh -- the same person who appears in the series as Jane, Beard's girlfriend.",
+      "sources": [
+        { "url": "https://www.imdb.com/name/nm5857107/", "note": "Phoebe Walsh: writer/actress credits on Ted Lasso, incl. playing Jane Payne" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Jane_Payne", "note": "Jane Payne played by writer Phoebe Walsh" },
+        { "url": "https://en.wikipedia.org/wiki/Headspace_(Ted_Lasso)", "note": "Episode credits: written by Phoebe Walsh, directed by Matt Lipsey, aired Sept 3 2021" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e7-sarah-niles-learned-bike",
+      "type": "production",
+      "title": "Sarah Niles learned to ride a bike to play Dr. Sharon",
+      "detail": "Dr. Sharon is introduced as the brisk, self-possessed professional who cycles to work -- but actress Sarah Niles couldn't actually ride a bike when she was cast, and got friends and family to teach her so she could do it on screen. It's a small bit of real-world commitment behind a character defined partly by that competent, in-control image. Niles's work as Sharon -- including this therapy-heavy episode -- earned her an Emmy nomination for Outstanding Supporting Actress in a Comedy Series. A warm 'meta & trivia' nugget that humanizes the therapist who pushes Ted to grow.",
+      "moment": "Behind the scenes: to play the bicycle-riding sports psychologist, Sarah Niles -- who didn't know how to cycle -- learned to ride a bike for the role.",
+      "sources": [
+        { "url": "https://www.cheatsheet.com/news/ted-lasso-sarah-niles-learned-ride-bike-play-dr-sharon-fieldstone-season-2.html/", "note": "Sarah Niles learned to ride a bike for the role after being cast" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-features/sarah-niles-ted-lasso-role-challenges-1235192389/", "note": "Niles on Sharon being one of her hardest roles; Emmy-nominated performance" },
+        { "url": "https://www.tvinsider.com/1056375/ted-lasso-season-2-sharon-fieldstone-sarah-niles-jason-sudeikis-emmys/", "note": "Niles on playing Sharon's 'battle' with Ted; awards context" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}

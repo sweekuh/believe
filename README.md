@@ -22,8 +22,10 @@ believe/
 
 ## How it works
 
-- **Episode picker** (a dropdown) switches between episodes. Switching always
-  re-hides the cards behind the spoiler gate.
+- **Season + episode pickers** (two dropdowns): pick the season, then the
+  episode. Changing the season repopulates the episode list and jumps to its
+  first episode. Switching episodes always re-hides the cards behind the spoiler
+  gate. The last season + episode you viewed are remembered per browser.
 - **Spoiler gate**: nothing shows until she taps "I've watched it — show me
   the notes." Episodes that aren't written yet show a "coming soon" card with
   no gate.
@@ -43,7 +45,20 @@ believe/
 
 ## Adding or editing content
 
-Edit `episodes.json` — no code change needed.
+Edit `episodes.json` — no code change needed. The file is organized by season:
+
+```json
+{
+  "show": "Ted Lasso",
+  "fromMom": "Hi Mom — …",
+  "seasons": [
+    { "season": 1, "episodes": [ { "number": 1, "title": "Pilot", "cards": [ … ] } ] },
+    { "season": 2, "episodes": [ … ] }
+  ]
+}
+```
+
+Each card inside an episode's `cards` array looks like:
 
 ```json
 {
@@ -66,8 +81,10 @@ Rules:
   a stretch, cut it rather than invent.
 - A card's `title`, `moment`, `idea`, `why`, and `source` may contain simple
   inline HTML (`<em>`, `<strong>`). Empty fields are simply not rendered.
-- Episodes 2–10 currently hold a single "coming soon" placeholder card.
-  Replace the placeholder with real cards as they're written.
+- Seasons 1 and 2 are both fully written (~5 verified cards per episode). A
+  future season can be added as episodes whose only card is a "coming soon"
+  placeholder (`tag: "Coming soon"` or an id ending in `-placeholder`); such an
+  episode shows with no spoiler gate until real cards replace the placeholder.
 
 ## Grounding scores & the display contract
 
@@ -77,7 +94,8 @@ reviewer** (see below). The app reads these at render time:
 | Field | Meaning |
 |-------|---------|
 | `grounding` (1–5) | How well the card's claims hold up to independent web checks. **Cards with `grounding` < 3 are withheld from the reader.** |
-| `interest` (1–5) | Editorial "oh, I never caught that" value. **Displayed cards are sorted by `interest`, highest first.** |
+| `interest` (1–5) | Editorial "oh, I never caught that" value. **Cards sort by `interest`, highest first** — unless the episode sets an explicit `order`. |
+| `order` (int, optional) | Curated reading order within an episode (ascending). When any card in an episode has it, the page reads in that order — so an intro comes before the card that references it — instead of by `interest`. |
 | `category` | One of `Belief & hope`, `Ethics & character`, `Relationships`, `Redemption`, `Meta & trivia`, `Aesthetics`. |
 | `groundingStatus` | `verified` \| `attributed` \| `partial` \| `unverified` \| `disputed`. |
 | `groundingNotes` | What the reviewer found. |

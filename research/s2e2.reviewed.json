@@ -1,0 +1,428 @@
+{
+  "episode": { "season": 2, "number": 2, "title": "Lavender" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification of all 12 candidates. ENVIRONMENT: WebFetch returned HTTP 403 on every URL attempted this session (Wikipedia, TV Tropes, Tunefind), exactly as warned. Per the established Season 1 norm, every verdict rests on corroboration across MULTIPLE INDEPENDENT WebSearch result summaries from different domains (Wikipedia summary, TV Tropes recap, multiple Ted Lasso Fandom pages, NPR/member-station recaps, vaguevisages soundtrack guide, screenrant, nerdsandbeyond, pajiba, awardswatch, techradar, IMDb trivia/cast listings, lassoism transcripts) and grounding is CAPPED AT 4 because no primary page could be opened; this is stated in each fact's notes. KEY CORRECTION (music): the candidate s2e2-tear-it-up claims Queen's 'Tear It Up' scores Jamie's swagger onto the reality-show set in the COLD OPEN. That placement is REFUTED -- three independent sources (vaguevisages, Wikipedia summary, dedicated scene searches) agree 'Tear It Up' plays over the FINAL scene/end credits as Jamie walks down the tunnel onto the snowy training pitch (the cliffhanger return). The song and episode are real and confirmed; the candidate's specific scene is wrong, so the fact is partially-confirmed and the drafted card describes the CORRECT moment. KEY CORRECTION (cliffhanger): the candidate s2e2-jamie-runs-onto-pitch asserts 'leaked photos of Ted and Jamie drinking hit Twitter' precede the final scene; I could NOT corroborate leaked photos in THIS episode (that beat belongs to E3), so the drafted card omits it and keeps only the confirmed core (Diamond Dogs split, Jamie jogs onto the pitch, Sam's hurt look). PLACEMENT NOTE (therapy): the blunt 'therapy is nonsense / paid performance' skeptic speech the candidate references is from a LATER S2 session, not E2; in E2 Sharon only arrives and is unmoved by Ted's charm, so that fact is scored as a season-scope seed. TITLE NOTE: one soundtrack write-up floated the title as a Marillion-song reference, but the in-show fabric-softener/Nate-Will reason is corroborated across The Spool, Music City Drive-In, Fandom, NPR, and multiple recaps and is what the card asserts. DEDUP: episodes.json ships only a 'coming soon' placeholder for S2E2, so nothing duplicates. All 12 candidates cleared the include gate.",
+  "facts": [
+    {
+      "id": "s2e2-lavender-title-nate-will",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across multiple independent recaps (The Spool, Music City Drive-In, NPR/member-station 'Prodigal Beefcake' recap, ReadySteadyCut) and the Ted Lasso Fandom 'Lavender' page: the one-word title comes from newly promoted assistant coach Nate berating the new kit-man Will for using lavender-scented fabric softener (and pineapple in the water) on the team's laundry. Beard's 'even after they shower?' rejoinder is widely quoted. The title flags the season's let-go-of-who-you-were theme. WebFetch unavailable this session; corroborated across 4+ independent search summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/ted-lasso-lavender-recap-feeling-a-little-tartt/",
+        "https://www.northcountrypublicradio.org/news/npr/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+        "https://ted-lasso.fandom.com/wiki/Lavender",
+        "https://musiccitydrivein.com/2021/07/30/ted-lasso-recap-lavender/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e2-lavender-title-nate-will",
+        "tag": "Watch the title",
+        "title": "Why it's called \"Lavender\"",
+        "moment": "Newly made a coach, Nate snaps at Will, the young kit-man who took over his old laundry job, for switching to lavender-scented fabric softener -- a tiny change he can't abide because he can't yet abide no longer being the kit-man.",
+        "idea": "The whole episode is about people clinging to who they used to be -- Nate to his old job, Roy to playing, Jamie to his stardom -- and the title quietly hangs that theme on one small smell.",
+        "why": "A perfect 'the title is a clue' card: the pettiest detail in the episode is also its thesis. Notice how Nate's cruelty to Will is really fear about his own new, unfamiliar self.",
+        "source": "Recaps in <em>The Spool</em>, Music City Drive-In, and NPR's 'The Prodigal Beefcake'; Ted Lasso Fandom 'Lavender' entry.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Lavender-fabric-softener / Nate-Will origin of the title confirmed across multiple independent recaps and Fandom; grounding capped at 4 (no primary page openable this session).",
+        "sourcesChecked": [
+          "https://thespool.net/reviews/tv/ted-lasso-lavender-recap-feeling-a-little-tartt/",
+          "https://www.northcountrypublicradio.org/news/npr/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+          "https://ted-lasso.fandom.com/wiki/Lavender",
+          "https://musiccitydrivein.com/2021/07/30/ted-lasso-recap-lavender/"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-led-zeppelin-plant-gag",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the episode's IMDb trivia page, the nerdsandbeyond recap, and the lassoism S02E02 transcript page: as Higgins shuffles between temporary offices, Ted greets a potted plant as 'Robert' and Higgins, holding papers, answers that he's 'Jimmy' -- a two-step Led Zeppelin pun on Robert Plant and Jimmy Page. The Plant/Page meaning is consistent across all three. WebFetch unavailable this session; corroborated across 3 independent summaries; grounding capped at 4. Wording paraphrased; no dialogue reproduced.",
+      "verified_sources": [
+        "https://www.imdb.com/title/tt14968630/trivia/",
+        "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
+        "https://lassoism.com/Ted-Lasso-S02E02-lavender.php"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-led-zeppelin-plant-gag",
+        "tag": "A pun hidden in a houseplant",
+        "title": "The Led Zeppelin gag",
+        "moment": "Passing the displaced Higgins -- who keeps getting moved between temporary offices -- Ted says hello to an office plant, calling it 'Robert.' Higgins, mid-move with a fistful of papers, deadpans that his name is 'Jimmy.'",
+        "idea": "It's a blink-and-miss double pun on Led Zeppelin: Robert <strong>Plant</strong> (the potted plant) and Jimmy <strong>Page</strong> (the sheaf of pages Higgins is holding).",
+        "why": "Pure Easter egg -- the kind of throwaway wordplay the show layers onto a single prop. Once you see it you'll never un-see it, and it rewards a pause on the rewatch.",
+        "source": "Episode IMDb trivia, the Nerds &amp; Beyond recap, and the lassoism S2E2 transcript, all reading it as Plant/Page.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "'Robert' plant / 'Jimmy' papers Led Zeppelin pun confirmed across IMDb trivia, a recap, and a transcript; grounding capped at 4 (no primary page openable).",
+        "sourcesChecked": [
+          "https://www.imdb.com/title/tt14968630/trivia/",
+          "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
+          "https://lassoism.com/Ted-Lasso-S02E02-lavender.php"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-lust-conquers-all-love-island",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the Ted Lasso Fandom 'Lust Conquers All' page, thedipp, the NPR recap, Elite Daily, and IMDb (a real Love Island USA contestant cameos): the cold open is set on a fictional British dating-competition show, 'Lust Conquers All,' an unmistakable parody of ITV's Love Island, with Jamie cast as the bad-boy contestant ('Footballing Tart') and shockingly voted off despite being a frontrunner. WebFetch unavailable this session; corroborated across 4+ independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+        "https://thedipp.com/ted-lasso/lust-conquers-all-love-island-spoof",
+        "https://www.elitedaily.com/entertainment/jamie-tartt-return-afc-richmond-ted-lasso-season-2-episode-2",
+        "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-lust-conquers-all-love-island",
+        "tag": "A Love Island send-up",
+        "title": "\"Lust Conquers All\"",
+        "moment": "The episode opens inside a fictional dating-competition show, 'Lust Conquers All' -- villa, confessionals, eliminations -- where Jamie, cast as the resident bad boy, is unexpectedly voted off after a run of romantic flip-flops.",
+        "idea": "It's a precise parody of ITV's reality juggernaut Love Island, and it reframes Jamie's whole arc: he chased fame instead of football, and it collapsed on him on national TV.",
+        "why": "The spoof is the setup for the episode's real question -- whether a humbled Jamie deserves a way back. Watch how the show uses a silly genre to puncture his ego before it lets him ask for help.",
+        "source": "Ted Lasso Fandom 'Lust Conquers All' entry; thedipp and NPR recaps confirming the Love Island parody.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Cold-open 'Lust Conquers All' as a Love Island parody with Jamie eliminated confirmed across Fandom, thedipp, NPR, Elite Daily; grounding capped at 4.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+          "https://thedipp.com/ted-lasso/lust-conquers-all-love-island-spoof",
+          "https://www.elitedaily.com/entertainment/jamie-tartt-return-afc-richmond-ted-lasso-season-2-episode-2",
+          "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-this-morning-schofield-willoughby",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "FLAG RESOLVED IN FAVOR OF 'THIS MORNING.' Confirmed across the TV Tropes E2 recap, the Ted Lasso Fandom 'Philip Schofield' and 'Lust Conquers All' pages, and TMDB cast listing: real ITV 'This Morning' presenters Phillip Schofield and Holly Willoughby appear as themselves, interviewing Jamie about his reality-TV flameout shortly after the cold open. One recap (pajiba) loosely calls it a 'Today-show-style' programme, but the specific 'This Morning' identification is the majority across independent sources, so it is safe to assert. WebFetch unavailable this session; corroborated across 3+ independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E02Lavender",
+        "https://ted-lasso.fandom.com/wiki/Philip_Schofield",
+        "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+        "https://www.themoviedb.org/tv/97546-ted-lasso/season/2/episode/2/cast"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-this-morning-schofield-willoughby",
+        "tag": "Real hosts, as themselves",
+        "title": "Jamie on \"This Morning\"",
+        "moment": "Right after his reality-show humiliation, Jamie is grilled about it on a daytime chat show fronted by real ITV presenters Phillip Schofield and Holly Willoughby, both playing themselves.",
+        "idea": "The cameo plants Jamie's fictional football world inside actual British media -- the show's habit of using real presenters and pundits as themselves to make Richmond feel like it exists in our world.",
+        "why": "A fun spot-the-celebrity beat, but also a turn of the screw: it's on this very real sofa that the consequences of Jamie's choices catch up with him on camera.",
+        "source": "TV Tropes E2 recap and Ted Lasso Fandom pages identifying Schofield and Willoughby on ITV's <em>This Morning</em>; TMDB episode cast.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Schofield and Willoughby as themselves on 'This Morning' confirmed across TV Tropes, Fandom, and TMDB (one recap loosely says 'Today-show-style'); grounding capped at 4.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E02Lavender",
+          "https://ted-lasso.fandom.com/wiki/Philip_Schofield",
+          "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+          "https://www.themoviedb.org/tv/97546-ted-lasso/season/2/episode/2/cast"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-tear-it-up-queen",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "SONG CONFIRMED, CANDIDATE'S SCENE REFUTED. 'Tear It Up' by Queen is independently confirmed as this episode's signature licensed needle-drop (Tunefind S2E2 listing, vaguevisages song-by-song guide, Wikipedia summary). BUT the candidate places it in the cold open scoring Jamie's swagger onto the reality-show set; three independent sources (vaguevisages, Wikipedia summary, dedicated scene searches) instead place it over the FINAL scene / end credits, as Jamie walks down the tunnel onto the snowy training pitch in his Richmond return. The drafted card therefore describes the correct end-of-episode moment. Tunefind also album-tags Marcus Mumford's full S2 score under this episode, which is NOT per-scene confirmation; no individual score-cue names are asserted. WebFetch unavailable this session; corroborated across 3 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://vaguevisages.com/2023/03/19/ted-lasso-soundtrack-apple-tv-plus-songs/",
+        "https://www.tunefind.com/show/ted-lasso/season-2/110051",
+        "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-tear-it-up-queen",
+        "tag": "The needle-drop",
+        "title": "Queen scores Jamie's return",
+        "moment": "In the closing minutes, Queen's 'Tear It Up' kicks in as Jamie walks down the tunnel and out onto Richmond's snowy training pitch -- a brash rock anthem under an uncertain homecoming.",
+        "idea": "The show's needle-drop craft in miniature: the swaggering Queen track restores a little of Jamie's bravado at the exact moment he's most exposed, scoring the cliffhanger rather than commenting on it.",
+        "why": "Listen for it over the final scene and credits (note: not the cold open). The music does the emotional work the dialogue withholds -- it sells the return before anyone has decided what the return means.",
+        "source": "Queen's 'Tear It Up' confirmed for this episode via Tunefind and the <em>Vague Visages</em> Ted Lasso soundtrack guide; placement over the final/credits scene per those sources and the Wikipedia entry.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Song + episode confirmed across 3 sources; candidate's cold-open placement refuted -- 'Tear It Up' actually scores the closing snowy-pitch scene. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://vaguevisages.com/2023/03/19/ted-lasso-soundtrack-apple-tv-plus-songs/",
+          "https://www.tunefind.com/show/ted-lasso/season-2/110051",
+          "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-sharon-fieldstone-arrives",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the Ted Lasso Fandom 'Sharon Fieldstone' page, the AV Club Sarah Niles interview, ScreenRant, and the NPR recap: sports psychologist Dr. Sharon Fieldstone (Sarah Niles) is brought to Richmond -- prompted by Dani Rojas's yips after the dog-mascot tragedy in the premiere 'Goodbye Earl' -- and pointedly meets Ted's charm-and-biscuits offensive with cool, clinical detachment, unsettling him. Spoiler scope is 'season' (she anchors the season-long arc). WebFetch unavailable this session; corroborated across 4 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+        "https://www.avclub.com/ted-lasso-s-sarah-niles-on-how-dr-sharon-fieldstone-sh-1847333128",
+        "https://screenrant.com/ted-lasso-season-2-psychologist-sharon-not-like-reason/",
+        "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-sharon-fieldstone-arrives",
+        "tag": "Someone Ted can't charm",
+        "title": "Dr. Sharon arrives",
+        "moment": "Brought in after Dani Rojas's yips, sports psychologist Dr. Sharon Fieldstone starts quietly observing Richmond -- and meets Ted's warmth and biscuits with calm, clinical professionalism that visibly throws him.",
+        "idea": "She's the first person Ted's folksy charm slides right off, and that resistance -- on both sides -- becomes the engine of the season's story about therapy and his buried grief.",
+        "why": "Watch Ted register, maybe for the first time, that being liked isn't the same as being known. Her cool is not coldness; it's the show introducing a different kind of care than Ted's.",
+        "source": "Ted Lasso Fandom 'Sharon Fieldstone' entry, the AV Club interview with Sarah Niles, ScreenRant, and NPR's recap.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Sharon's arrival (for Dani) and her immunity to Ted's charm confirmed across Fandom, AV Club, ScreenRant, NPR; grounding capped at 4.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+          "https://www.avclub.com/ted-lasso-s-sarah-niles-on-how-dr-sharon-fieldstone-sh-1847333128",
+          "https://screenrant.com/ted-lasso-season-2-psychologist-sharon-not-like-reason/",
+          "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-sarah-niles-learned-to-bike",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "CORE CONFIRMED, BRAND DETAIL DROPPED. Confirmed across the cheatsheet write-up and corroborating coverage that Sarah Niles could not ride a bicycle when cast and learned to, with help from friends/family, to play the bike-commuting Dr. Sharon -- the coverage explicitly traces this to a July 2021 New York Times interview with Niles. I could NOT independently corroborate the specific 'Brompton' folding-bike brand from a reputable source, so the card says only 'bicycle' and omits the brand. WebFetch unavailable this session; the bike-learning story rests largely on cheatsheet relaying the NYT quote plus echoes, so it is held to partially-confirmed; grounding capped at 3.",
+      "verified_sources": [
+        "https://www.cheatsheet.com/news/ted-lasso-sarah-niles-learned-ride-bike-play-dr-sharon-fieldstone-season-2.html/",
+        "https://en.wikipedia.org/wiki/Sarah_Niles"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 4, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-sarah-niles-learned-to-bike",
+        "tag": "Behind the scenes",
+        "title": "Learning to ride for the role",
+        "moment": "Dr. Sharon commutes everywhere by bicycle -- a neat visual shorthand for her self-possessed independence. The catch: actor Sarah Niles couldn't actually ride a bike when she was cast.",
+        "idea": "To play the character, Niles had to learn to cycle, leaning on friends and family to teach her -- a small bit of real-life effort folded invisibly into one of the season's calmest performances.",
+        "why": "Once you know, her unflappable rides read a little differently. It's a quiet reminder of how much unseen work goes into a character who seems to have it all together.",
+        "source": "Reported via a July 2021 New York Times interview with Sarah Niles, relayed by Cheat Sheet; role confirmed on Niles's Wikipedia page.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Bike-learning story traced to a NYT interview via Cheat Sheet; not openable to confirm directly and the 'Brompton' brand was uncorroborated, so omitted. Grounding capped at 3.",
+        "sourcesChecked": [
+          "https://www.cheatsheet.com/news/ted-lasso-sarah-niles-learned-ride-bike-play-dr-sharon-fieldstone-season-2.html/",
+          "https://en.wikipedia.org/wiki/Sarah_Niles"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-roy-pundit-real-pundits",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "FLAG RESOLVED: Stelling and Kamara DO appear in THIS episode (Roy's punditry debut). Confirmed across the Ted Lasso Fandom pages for Jeff Stelling, Chris Kamara, and George Cartrick, plus IMDb episode cast and the lassoism transcript: nudged by Keeley, Roy joins Sky Sports' Soccer Saturday desk alongside real presenter Jeff Stelling and ex-footballer pundit Chris Kamara (both as themselves) and the fictional anti-Ted pundit George Cartrick, and swears about his old club Chelsea on air, forcing Stelling to apologise to viewers. WebFetch unavailable this session; corroborated across 4+ independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Jeff_Stelling",
+        "https://ted-lasso.fandom.com/wiki/Chris_Kamara",
+        "https://ted-lasso.fandom.com/wiki/George_Cartrick",
+        "https://www.imdb.com/title/tt14968630/characters/nm1127592"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-roy-pundit-real-pundits",
+        "tag": "Roy joins the desk",
+        "title": "Punditry with real faces",
+        "moment": "Pushed by Keeley, a restless retired Roy reluctantly takes a punditry gig on Sky Sports' Soccer Saturday -- sharing the desk with real broadcasters Jeff Stelling and Chris Kamara (as themselves) and the fictional, Ted-hating George Cartrick. Asked about his old club, Roy swears about Chelsea on live TV.",
+        "idea": "Another real-media cameo that grounds Richmond in actual British football culture -- and a perfectly in-character beat: Roy is incapable of pretending, even on air, even about the club he loved.",
+        "why": "Watch Stelling have to apologise to viewers. The bluntness that makes Roy a liability on a polite TV panel is the same honesty that will make him a great coach.",
+        "source": "Ted Lasso Fandom pages for Jeff Stelling, Chris Kamara, and George Cartrick; IMDb episode cast listing.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy's Soccer Saturday debut with real pundits Stelling and Kamara (plus fictional Cartrick) and the on-air Chelsea swearing confirmed across Fandom and IMDb; grounding capped at 4.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Jeff_Stelling",
+          "https://ted-lasso.fandom.com/wiki/Chris_Kamara",
+          "https://ted-lasso.fandom.com/wiki/George_Cartrick",
+          "https://www.imdb.com/title/tt14968630/characters/nm1127592"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-roy-consolation-trophies",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed in THIS episode across the pajiba and nerdsandbeyond E2 recaps and the Ted Lasso Fandom 'Roy Kent' page: retired Roy, coaching his niece Phoebe's under-9 girls' team, has to hand out consolation trophies after a loss and grumbles about rewarding the girls for 'winning nothing.' The beat pokes at the show's own effort-over-winning ethos while showing Roy can't yet stomach a world that isn't about results. WebFetch unavailable this session; corroborated across 3 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://www.pajiba.com/tv_reviews/ted-lasso-episode-2-recap-hold-the-lavender-and-the-sugar-i-want-those-sweet-tears.php",
+        "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
+        "https://ted-lasso.fandom.com/wiki/Roy_Kent"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-roy-consolation-trophies",
+        "tag": "Trophies for losing",
+        "title": "Roy and the participation prizes",
+        "moment": "Bored in retirement, Roy coaches little Phoebe's under-9 girls' team -- and after a defeat has to hand out consolation trophies, grumbling that the girls are being rewarded for winning nothing.",
+        "idea": "The scene gently teases the show's own gospel of effort-over-results while honestly admitting Roy isn't there yet: he still believes prizes should mean winning. That restlessness is what's making retirement miserable.",
+        "why": "A funny beat doing quiet thematic work -- it's the same itch that will push Roy toward the pundit's chair and, eventually, the touchline. Watch how the show lets a character disagree with its own moral.",
+        "source": "Pajiba and Nerds &amp; Beyond E2 recaps; Ted Lasso Fandom 'Roy Kent' entry.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy handing out consolation trophies for Phoebe's team and grumbling about it confirmed in this episode across two recaps and Fandom; grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.pajiba.com/tv_reviews/ted-lasso-episode-2-recap-hold-the-lavender-and-the-sugar-i-want-those-sweet-tears.php",
+          "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
+          "https://ted-lasso.fandom.com/wiki/Roy_Kent"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-jamie-prodigal-son",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed as both plot and a widely-shared critical reading: across the NPR recap (titled 'The Prodigal Beefcake'), the Wikipedia summary, awardswatch, and the Salon essay, Jamie -- dropped by Man City and unwanted by any club after his reality-TV detour -- finds Ted at a bar and asks to return to Richmond, and critics frame the arc through the biblical prodigal-son lens. Presented as a reading, not a creator statement (per the candidate's own flag); the Aristotelian friendship/second-chances angle is the philosophy hook rather than a cited book chapter. WebFetch unavailable this session; corroborated across 4 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+        "https://awardswatch.com/ted-lasso-recap-season-2-episode-2-lavender/",
+        "https://www.salon.com/2023/03/25/ted-lasso-and-the-redemption-of-jamie-tartt/",
+        "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 70,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-jamie-prodigal-son",
+        "tag": "Second chances",
+        "title": "The prodigal son comes home",
+        "moment": "Humiliated, released by Manchester City, and wanted by no club after his reality-TV detour, Jamie quietly finds Ted at a bar and asks to come back to Richmond. Ted's first instinct is no, and the Diamond Dogs are split.",
+        "idea": "Critics read the arc as a prodigal-son story (NPR literally titled its recap 'The Prodigal Beefcake'): the show's recurring question of whether people get a second chance, and on what terms. The philosophical hook is friendship and forgiveness -- not whether Jamie is useful, but whether he's wanted.",
+        "why": "Hold this up against the episode's other can't-let-go-of-the-past stories. The 'prodigal son' is a reading, not the writers' label -- but it names exactly what's at stake when a humbled man asks to come home.",
+        "source": "NPR's 'The Prodigal Beefcake' recap and AwardsWatch; Salon on Jamie's redemption arc; plot via the Wikipedia episode entry.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Plot (Jamie unwanted, asks Ted to return, Dogs split) and the widely-shared prodigal-son reading confirmed across NPR, AwardsWatch, Salon, Wikipedia; framed as a reading, not creator intent. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+          "https://awardswatch.com/ted-lasso-recap-season-2-episode-2-lavender/",
+          "https://www.salon.com/2023/03/25/ted-lasso-and-the-redemption-of-jamie-tartt/",
+          "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-jamie-runs-onto-pitch",
+      "type": "callback",
+      "verdict": "partially-confirmed",
+      "verification_notes": "CORE CONFIRMED, ONE DETAIL DROPPED. Confirmed across the TechRadar 'ending explained,' awardswatch, the NPR recap, and the Wikipedia summary: the episode ends on a cliffhanger -- the Diamond Dogs can't agree on Jamie, Ted tells Sam that Jamie won't be joining, and then Jamie jogs out onto the training pitch in Richmond gear (Sam shoots Ted a betrayed look), leaving the how/why for the next episode. I could NOT corroborate the candidate's specific 'leaked photos of Ted and Jamie drinking hit Twitter' as occurring in THIS episode (that beat reads as E3), so it is omitted from the card. Spoiler scope 'season.' WebFetch unavailable this session; corroborated across 4 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://www.techradar.com/news/ted-lasso-season-2-episode-2-ending-explained-jamie-tartts-future-revealed",
+        "https://awardswatch.com/ted-lasso-recap-season-2-episode-2-lavender/",
+        "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+        "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-jamie-runs-onto-pitch",
+        "tag": "The cliffhanger",
+        "title": "Jamie runs onto the pitch",
+        "moment": "With the Diamond Dogs deadlocked over whether to re-sign Jamie, Ted tells a wary Sam that Jamie won't be joining -- and then the final image is Jamie jogging out onto Richmond's training pitch in club gear, as Sam looks at Ted in hurt disbelief.",
+        "idea": "The show withholds the how and why of Ted's decision until the next episode, ending on the question instead of the answer: can a place like Richmond actually change a person like Jamie, and at what cost to the players who resent him?",
+        "why": "Notice the gut-punch in Sam's face -- the cost of forgiveness lands on someone. The closing shot deliberately leaves you arguing with Ted, which is the point.",
+        "source": "TechRadar 'ending explained' and AwardsWatch recap; NPR and the Wikipedia episode entry on the deadlocked Dogs and final scene.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Cliffhanger core (Dogs split, Ted's 'no' to Sam, Jamie jogs onto the pitch) confirmed across 4 sources; the candidate's 'leaked photos on Twitter' detail could not be placed in this episode and is omitted. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.techradar.com/news/ted-lasso-season-2-episode-2-ending-explained-jamie-tartts-future-revealed",
+          "https://awardswatch.com/ted-lasso-recap-season-2-episode-2-lavender/",
+          "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+          "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s2e2-ted-resists-therapy",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "SEED CONFIRMED, STRONG SPEECH IS LATER. Confirmed across ScreenRant (two articles) and Wikipedia/recaps that 'Lavender' begins Season 2's signature mental-health-and-stigma thread and that Ted is rattled by Sharon's clinical detachment. HOWEVER, the candidate's vivid 'therapy is nonsense / a paid performance of caring' skeptic speech is from a LATER S2 session (where Ted walks out and accuses Sharon of only helping for money), not E2 -- so the card frames E2 as the seed: charm sliding off, the first sign of resistance, with the full argument arriving later. Verdict held to partially-confirmed because the strongest claim attaches to a later episode; spoiler scope 'season.' WebFetch unavailable this session; corroborated across 3 independent summaries; grounding capped at 4.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-mental-health-sports-timely/",
+        "https://screenrant.com/ted-lasso-season-2-psychologist-sharon-not-like-reason/",
+        "https://www.inverse.com/mind-body/ted-lasso-therapy-mental-health"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 3, "spoiler_safety": 3 },
+      "interest_score": 60,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e2-ted-resists-therapy",
+        "tag": "The man who fixes everyone",
+        "title": "Ted bristles at the therapist",
+        "moment": "Ted, who can talk almost anyone into almost anything, is quietly thrown that his folksiness can't crack Sharon's clinical calm -- the first small sign of his own resistance to being looked at.",
+        "idea": "Beneath the comedy, the episode plants Season 2's real subject: mental health and the stigma around it. The man who heals everyone else turns out to be the one most reluctant to be helped, and the show treats that as a serious thread rather than a joke.",
+        "why": "This is the seed; the blunt 'therapy is nonsense' argument comes later in the season. Watch for the flicker of discomfort here -- it's the show setting up Ted's hardest, most honest arc.",
+        "source": "ScreenRant on Season 2's mental-health focus and why Sharon unsettles Ted; Inverse on the show's portrayal of therapy.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "E2 plants the mental-health/stigma thread and Ted's first resistance (confirmed); the fuller skeptic speech is a later S2 session, so this is framed as the seed. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-2-mental-health-sports-timely/",
+          "https://screenrant.com/ted-lasso-season-2-psychologist-sharon-not-like-reason/",
+          "https://www.inverse.com/mind-body/ted-lasso-therapy-mental-health"
+        ]
+      }
+    }
+  ]
+}

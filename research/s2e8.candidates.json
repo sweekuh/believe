@@ -1,0 +1,172 @@
+{
+  "episode": { "season": 2, "number": 8, "title": "Man City" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL attempted this session (Wikipedia 'Man City' episode page, TV Tropes recap, NPR recap, ETonline interview), exactly as warned in the briefing. Every fact below is therefore corroborated across MULTIPLE INDEPENDENT WebSearch result summaries spanning different domains (Wikipedia abstract, NPR, TVLine, Rolling Stone, The Spool, TV Insider, Fandom, IMDb, tunefind, Time, Salon, etc.) rather than a single fetched page. hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly to confirm. PARAPHRASE ONLY -- no dialogue is reproduced anywhere below. PLACEMENT NOTE ON THE HEAVY REVEAL: the Ted-backstory reveal (his father died by suicide when Ted was 16) is firmly placed in THIS episode (S2E8 'Man City'), delivered by phone to Dr. Sharon after the match; corroborated by TVLine, Rolling Stone, NPR, Slate and the Wikipedia abstract. The S1 SEED for it (Ted's Sunday-darts-with-dad-from-10-to-16, dad 'passed away') is in S1E10 'The Hope That Kills You', not S1E8 -- I verified this separately. ATTRIBUTION/INTERPRETIVE FLAGS are called out inline: the title double-meaning, the Oasis song's Manchester resonance, and the West Side Story bit are interpretive or background readings, not creator-confirmed writers'-room intent. DEDUP: distinct from existing S2 cards -- s2e6-ted-first-panic-attack, s2e6-ted-asks-for-help, s2e1-ted-therapy-resistance, s2e2-jamie-prodigal-son. Ted's panic attacks are only a passing beat here; the new material is the father reveal and the parallel-vulnerability mechanism, not the panic attacks themselves.",
+  "candidates": [
+    {
+      "id": "s2e8-ted-father-suicide-reveal",
+      "type": "callback",
+      "title": "Ted finally names his father's suicide",
+      "detail": "After watching Jamie be humiliated by his own father in the locker room, Ted slips away, calls Dr. Sharon, and tells her -- for the first time in the series -- that his father died by suicide when Ted was sixteen. It is the keystone reveal that recontextualizes Ted's whole sunny persona as, in part, a survival strategy built on top of grief and emotional suppression. This is a CALLBACK that pays off a quietly planted SEED from Season 1, Episode 10 ('The Hope That Kills You'), where Ted mentioned spending every Sunday from age 10 to 16 playing darts with his dad at a sports bar, until his dad 'passed away.' Direction: this episode pays off that S1 line and sets up Ted's continued therapy arc through the rest of S2. FLAG for reviewer: confirm exact wording is paraphrased only; verify the placement (the reveal is here in S2E8, the seed is in S1E10) -- this was the specific point flagged in the briefing.",
+      "moment": "Rattled after seeing Jamie's father degrade him, Ted steps away and phones his therapist to tell her, for the first time, that his own father took his life when Ted was a teenager -- the wound under all his relentless cheer.",
+      "sources": [
+        { "url": "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-8-dad-father-suicide-1234713526/", "note": "TVLine recap: Ted tells Sharon by phone his father killed himself when Ted was 16; ties it to the S1 darts-with-dad line where the dad 'passed away'" },
+        { "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-8-man-city-1221259/", "note": "Rolling Stone 'Family Matters' recap of the father-suicide reveal" },
+        { "url": "https://slate.com/culture/2021/09/ted-lasso-episode-8-suicide-mental-health.html", "note": "Slate piece centered on the suicide reveal as the episode's emotional core" },
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page abstract; Ted opens up to Sharon" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e8-roy-hugs-jamie",
+      "type": "theme",
+      "title": "Roy crosses the room to hold Jamie",
+      "detail": "After Jamie's drunk father berates him in front of the team and Jamie snaps and punches him, Beard hauls the father out -- and then Roy Kent, who has spent two seasons openly loathing Jamie, walks across the locker room and wraps him in a hug while Jamie breaks down crying. It is widely cited as one of the show's defining moments and a thesis statement on the kind of masculinity 'Ted Lasso' argues for: men comforting men, rivalry yielding to compassion when someone is in pain. Several writers connect Roy's instinct here to his fathering of his niece Phoebe (whose own father Roy holds in contempt) -- he has practiced tenderness, so he has it ready. Pairs with the episode's father-and-sons throughline without duplicating the Ted-reveal card.",
+      "moment": "When Jamie collapses after striking his abusive father, his longtime rival Roy is the one who comes over, pulls him into an embrace, and lets him sob -- enemies set aside for the sake of a hurting man.",
+      "sources": [
+        { "url": "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures", "note": "NPR 'Father Figures' recap: Roy hugs Jamie after the punch" },
+        { "url": "https://www.buzzfeed.com/jenniferabidor/ted-lasso-roy-kent-hug-scene", "note": "BuzzFeed feature on the Roy/Jamie hug as a standout emotional moment" },
+        { "url": "https://www.etonline.com/ted-lasso-episode-8-phil-dunster-on-jamie-and-roys-emotional-breakthrough-exclusive-171829", "note": "ET interview with Phil Dunster on the Jamie/Roy emotional breakthrough (403 on fetch; per search summary)" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-jamie-father-callback-s1",
+      "type": "callback",
+      "title": "Jamie's father escalates a Season 1 thread",
+      "detail": "James Tartt's locker-room cruelty here is not a one-off; it pays off Jamie's father arc planted earlier. James (played by Kieran O'Brien) first appeared in Season 1, Episode 10 ('The Hope That Kills You'), heckling Jamie from the stands after Richmond's relegation match -- berating him for unselfishly passing instead of scoring, and throwing a shoe at him. In 'Man City' the same dynamic returns at Wembley after the FA Cup semi-final loss, now at full volume and in front of the whole team. Direction: this episode CALLS BACK to the S1E10 setup and deepens it into the catalyst for Jamie's breakdown and growth. FLAG for reviewer: casting (Kieran O'Brien as James Tartt) is corroborated by IMDb and the Ted Lasso wiki but not from an official press release; verify. Note the cleats/shoe motif as a small recurring detail across the two scenes.",
+      "moment": "Jamie's father, who once hurled a shoe at him from the stands after a Season 1 defeat, returns after another big loss -- this time invading the dressing room to tear his son down in front of everyone.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/James_Tartt", "note": "James Tartt's appearances: S1E10, S2E8-9, S3; played by Kieran O'Brien; abusive father pattern" },
+        { "url": "https://collider.com/ted-lasso-season-3-jamie-tartt-dad/", "note": "Collider on Jamie's father arc, including the S1E10 stands scene and the shoe" },
+        { "url": "https://www.imdb.com/title/tt10986410/characters/nm0639659/", "note": "IMDb: Kieran O'Brien as James Tartt" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e8-sharon-vulnerability-first",
+      "type": "philosophy",
+      "title": "To unlock someone, go first",
+      "detail": "The episode's emotional mechanism is an idea about vulnerability: you cannot reliably get a guarded person to open up by pressing them; you open up to them first. In the cold open, Sharon -- the therapist -- is herself the patient on the phone with her OWN therapist, frustrated that Ted won't be vulnerable with her; her therapist gently notes that Sharon does exactly the same thing and won't reach Ted until she models it. The rest of the episode bears this out: only after Sharon admits she was frightened when she got hurt does Ted finally let his own guard down and disclose his father's death. The philosophical throughline is reciprocity of self-disclosure -- vulnerability as a gift that has to be offered before it can be received, and a counter to the stoic 'never let them see you hurt' code. FLAG for reviewer: this is an interpretive read of the cold open and the Sharon-Ted arc, well supported by recaps but not a creator quote.",
+      "moment": "The therapist becomes the patient: in the opening, Sharon vents to her own counselor that Ted won't open up, and is told she guards herself the same way -- she will only reach him by being the first to be vulnerable, which is exactly what finally cracks Ted open.",
+      "sources": [
+        { "url": "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-8-man-city-recap/", "note": "The Spool recap of the cold open: Sharon as patient; therapist tells her to open up to Ted first" },
+        { "url": "https://www.nerdsandbeyond.com/2021/09/10/ted-lasso-recap-season-2-episode-8-man-city/", "note": "Nerds & Beyond recap: Sharon and Ted both bottle things up; the parallel" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-therapy-scene-expert-therapist-response/", "note": "Real-therapist analysis of the episode's therapy dynamics and modeling vulnerability" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-title-double-meaning",
+      "type": "theme",
+      "title": "'Man City' is a pun on manhood",
+      "detail": "The title works on two levels at once. Literally it names the opponent: Richmond's FA Cup semi-final against Manchester City (Man City). Thematically it points at the episode's real subject -- manhood, and how its men handle pain: Jamie and his father, Roy stepping into a fatherly role, Ted confronting his own father's death, the whole cast negotiating what it means to 'be a man.' The episode is read as a meditation on masculinity wearing a football fixture as its title. FLAG for reviewer: the double-meaning reading is offered by recaps/episode write-ups (and fits the show's habit of punning, theme-loaded titles), but I found no creator statement explicitly confirming the pun was intended -- treat as a strong interpretive reading, not settled authorial intent. Note: the 'Man City' framing also names Part III of the 'Ted Lasso and Philosophy' book (Wiley 2024), whose chapters cover masculinity and earnestness, though those chapters are organized thematically rather than mapped to this specific episode.",
+      "moment": "On its face the title is just the Manchester City fixture; underneath, it frames an hour about fathers, sons, and how men carry -- or finally put down -- their pain.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Man_City", "note": "Episode wiki: title refers to the Man City match and to the episode's exploration of masculinity" },
+        { "url": "https://advers.io/2021/09/17/ted-lasso-2x8-man-city/", "note": "Episode essay reading 'Man City' as a study of manhood/masculinity" },
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page; Manchester City FA Cup semi-final premise" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-oasis-dont-look-back",
+      "type": "easter-egg",
+      "title": "An Oasis anthem with deep Manchester meaning",
+      "detail": "The episode's music includes Oasis's 'Don't Look Back in Anger' -- a pointed needle-drop in an episode built around a match against a Manchester club. Oasis are an iconic Manchester band, and the song carries a specific civic weight: after the 2017 Manchester Arena bombing, mourners spontaneously sang it in St Ann's Square, and it became an anthem of the city coming together and refusing to be consumed by anger. Dropping it into the 'Man City' hour layers that Mancunian theme of grief-met-with-solidarity over an episode about fathers, loss, and choosing connection over rage. FLAG for reviewer: the song's presence is firmly sourced (multiple soundtrack listings); the Manchester-resilience resonance is real-world context (Time, Salon) and a reasonable reading of WHY it fits, not a confirmed statement of why the music supervisor chose it. Also note 'Blue Moon' -- Manchester City's terrace anthem -- is among the episode's tracks, another club-appropriate touch.",
+      "moment": "Over the Manchester-City storyline, the show reaches for Oasis's 'Don't Look Back in Anger' -- a Manchester band's song that the city famously sang together in mourning -- quietly tying the football fixture to a theme of grief answered by togetherness.",
+      "sources": [
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-2/111446", "note": "Tunefind soundtrack for S2E8 listing Oasis 'Don't Look Back in Anger' and 'Blue Moon'" },
+        { "url": "https://time.com/4795324/manchester-dont-look-back-in-anger-oasis/", "note": "Time: crowd sang 'Don't Look Back in Anger' in Manchester after the 2017 Arena bombing" },
+        { "url": "https://www.salon.com/2023/05/04/ted-lasso-hey-jude-soccer-chant/", "note": "Salon on Ted Lasso's deliberate use of British/football-coded music" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-jamie-passes-ball-arc",
+      "type": "callback",
+      "title": "Jamie passes again -- and pays for it again",
+      "detail": "On the pitch, Jamie unselfishly sets up a teammate rather than going for personal glory, marking how far his redemption arc has carried him from the ball-hogging star of Season 1. It deliberately rhymes with the very thing his father raged at him for in S1E10 (passing instead of scoring), so when James abuses him afterward, the cruelty lands on exactly the growth the show wants us to root for: Jamie is finally becoming a teammate, and his father punishes him for it. Direction: CALLS BACK to Jamie's selfishness/father conflict from S1 and the prodigal-son return of S2E2, paying off his on-field maturation. Distinct from the existing s2e2-jamie-prodigal-son card, which covers his return to Richmond rather than this match.",
+      "moment": "In the semi-final, Jamie chooses the pass and the team over his own highlight reel -- a small on-field sign of how much he has grown, and the very generosity his father later berates him for.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page: Man City wins but Jamie passes to set up a teammate's goal" },
+        { "url": "https://www.nerdsandbeyond.com/2023/06/02/ted-lasso-and-the-redemption-of-jamie-tartt/", "note": "Nerds & Beyond on Jamie's redemption arc and the father dynamic" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e8-west-side-story-voicenotes",
+      "type": "reference",
+      "title": "A concussed Sharon sings West Side Story",
+      "detail": "A small, easy-to-miss comic grace note: concussed and on pain medication after her bike accident, Sharon leaves Ted rambling voice notes -- including her singing 'Tonight' from West Side Story, performing both Tony's and Maria's parts herself. When Ted later plays it back for her, the absurdity makes the famously guarded Sharon smile, a tiny crack in her composure that mirrors the episode's larger thaw. It's a tidy reference (the 1957 Bernstein/Sondheim musical) tucked into a heavy hour, and it humanizes Sharon right before she becomes vulnerable with Ted in earnest. FLAG for reviewer: the West Side Story / 'Tonight' detail is corroborated across the Sharon Fieldstone wiki, soundtrack listings, and recaps, but confirm the specifics (which song, both parts) and reproduce no lyrics.",
+      "moment": "Loopy on painkillers, Sharon serenades Ted's voicemail with a one-woman rendition of a West Side Story duet, singing both lovers' parts -- and laughs at herself when he plays it back, a rare unguarded moment.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone", "note": "Sharon's wiki page noting the concussion and the West Side Story voice notes" },
+        { "url": "https://chrisyeh.com/2021/09/ted-lasso-season-2-episode-8-man-city.html", "note": "Episode write-up describing Sharon singing 'Tonight' (both parts) in her drugged voice texts" },
+        { "url": "https://en.wikipedia.org/wiki/Tonight_(West_Side_Story_song)", "note": "Background on 'Tonight' from West Side Story (Bernstein/Sondheim, 1957)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-longest-episode-trivia",
+      "type": "production",
+      "title": "The show's longest episode, by design",
+      "detail": "'Man City' runs about 45 minutes -- noted as the single longest installment of 'Ted Lasso' up to that point, and longer than the show's usual half-hour-comedy footprint. The extra length is of a piece with Season 2's drift toward heavier, more dramatic material: the episode carries a football match, the Jamie/James confrontation, Ted's backstory reveal, Sharon's accident, and the Sam-Rebecca dinner, and gives the emotional beats room to breathe. Written by Jamie Lee and directed by Matt Lipsey; originally released September 10, 2021. FLAG for reviewer: 'single longest installment' is stated in the Wikipedia abstract and repeated by recaps; confirm against the episode runtime list, as later seasons produced other long episodes.",
+      "moment": "Behind the scenes: at roughly 45 minutes this is the longest 'Ted Lasso' episode to that point -- the runtime stretching to hold a match, a family blowup, a buried grief, and a first date all in one hour.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page: written by Jamie Lee, directed by Matt Lipsey, ~45 min, longest installment, aired Sep 10 2021" },
+        { "url": "https://www.imdb.com/title/tt14968654/", "note": "IMDb episode listing (runtime, credits)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-higgins-tickets-comedy",
+      "type": "easter-egg",
+      "title": "The 'worst seats' that backfire",
+      "detail": "A neat bit of comic plotting around Jamie's dread of his father: pressured to get James tickets to the Wembley semi-final, Jamie quietly asks Higgins to put him in the least desirable, least accessible seats in the stadium -- a small act of self-protection. Higgins, ever the people-pleaser and not in on the cruelty, instead gets James VIP seats, which puts the abusive father front-and-center and helps set the locker-room collision in motion. It's an easy-to-miss setup-and-payoff that shows the kindness of the Richmond staff accidentally enabling harm -- and underscores how trapped Jamie is by his father's expectations. FLAG for reviewer: corroborated by the Wikipedia abstract and recaps; confirm the specifics of Jamie's request and Higgins's well-meaning upgrade.",
+      "moment": "Cornered into finding his father tickets, Jamie asks for the worst seats in the house to keep him at a distance -- but well-meaning Higgins upgrades James to VIP, unknowingly setting the stage for the blowup to come.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page: Jamie asks Higgins for inaccessible seats; Higgins gets James VIP seats" },
+        { "url": "https://www.tvinsider.com/1011618/ted-lasso-season-2-episode-7-recap-man-city/", "note": "TV Insider recap covering the tickets setup and the father storyline" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e8-sam-rebecca-bantr-dinner",
+      "type": "callback",
+      "title": "The Bantr match becomes a real dinner",
+      "detail": "The season's anonymous-dating thread reaches its awkward apex: emboldened after his father tells him the Cerithium Oil protest got the company expelled from Nigeria, Sam messages his anonymous Bantr match to meet that night -- not knowing she is Rebecca, his boss. Rebecca, nudged by Keeley, goes; they discover they have been each other's mystery match, and despite Rebecca's instinct to bolt they share dinner and easy chemistry before agreeing it can't continue. Direction: CALLS BACK to the Bantr reveal (their match was exposed to the audience back in S2E6) and to Sam's S2E3 protest arc, paying both off; it also sets up the Sam/Rebecca relationship that drives later episodes. Pairs with but is distinct from the existing s2e6-sam-rebecca-bantr-reveal card, which is the earlier reveal-to-the-audience beat.",
+      "moment": "Buoyed by news that his protest forced an oil company out of Nigeria, Sam asks his anonymous online match to dinner -- and he and Rebecca walk into the same restaurant to discover they have been messaging each other all along.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "Episode page: Sam learns of the Cerithium Oil outcome, messages his Bantr match; he and Rebecca realize they matched and have dinner" },
+        { "url": "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures", "note": "NPR recap of the Sam/Rebecca dinner reveal" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e8-central-theme",
+      "type": "theme",
+      "title": "Fathers, and the weight men carry",
+      "detail": "One-line throughline for the episode: 'Man City' is about fathers and sons and the way unspoken pain gets handed down -- and about choosing, instead, to put it into words and into each other's care. The match against Manchester City is the frame; the heart is a triptych of fatherhood -- Jamie crushed by a cruel father, Roy stepping in as the father figure Jamie needs, and Ted finally voicing the loss of his own father by suicide. The episode argues that the alternative to inherited cruelty and stoic silence is vulnerability shared out loud, whether between rivals, between therapist and patient, or between a man and his grief.",
+      "moment": "Across the hour -- Jamie and his father, Roy and Jamie, Ted and the father he lost -- the episode asks what men do with pain they were taught to swallow, and answers: they say it, and they let someone hold it.",
+      "sources": [
+        { "url": "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures", "note": "NPR titles its recap 'Father Figures' -- fathers/sons as the episode's spine" },
+        { "url": "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-8-dad-father-suicide-1234713526/", "note": "TVLine recap centering the fatherhood and grief throughline" },
+        { "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-8-man-city-1221259/", "note": "Rolling Stone 'Family Matters' framing the episode around family and fathers" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    }
+  ]
+}

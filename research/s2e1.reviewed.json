@@ -1,0 +1,454 @@
+{
+  "episode": { "season": 2, "number": 1, "title": "Goodbye Earl" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification of every claim. WebFetch returned a global HTTP 403 this session (Wikipedia confirmed; same as the s1e8 norm), so per the established Season-1 convention every verdict rests on corroboration across MULTIPLE independent WebSearch result summaries (different domains: TV Tropes S2E1 recap, Wikipedia S2E1 entry, Ted Lasso Fandom, Rolling Stone / TVInsider / Den of Geek / TV Fanatic / ShowSnob / ReadySteadyCut recaps, Hollywood Reporter, Tunefind/Songfacts, and independent peer-reviewed yips literature). grounding is CAPPED AT 4 wherever a primary page could not be opened, and at 3 where a key detail rests largely on the fan wiki; this is stated in each note. PLACEMENT: all retained moments were independently confirmed to occur in S2E1 'Goodbye Earl' (the mascot death by Dani's penalty, Sharon's first appearance, the press-conference eulogy, the Wise Up cue, Roy's retirement beats, Jamie on the reality show, Dani's clothed-shower prayer). FLAG OUTCOMES from the hunter, all upheld and reflected in scores/verdicts: (1) title->Chicks 'Goodbye Earl' link is a strong, near-universally-noted ALLUSION but NO creator-intent statement was located -> partially-confirmed, grounding 4; (2) 'Earl Grey' pun is multi-source, but 'Barkingham Palace'/owner rests mainly on the wiki -> partially-confirmed, grounding 3; (3) Ted's eulogy beat is confirmed but the childhood dog's name ('Hank' as repeated on recap/aggregator sites) is NOT asserted in the card, per the brief and because no primary transcript could be opened; (4) the Wise Up needle-drop is confirmed, but the 'deliberate Magnolia setup/payoff' framing is Rolling Stone's interpretation -> partially-confirmed; (5) writer Brendan Hunt / director Declan Lowney / air date July 23 2021 corroborated across multiple independent listings, and Hunt as series co-creator is confirmed. The yips are confirmed as a real, studied phenomenon (peer-reviewed sources) and are confirmed as the in-episode framing for Dani. DEDUP: episodes.json ships only a 'coming soon' placeholder for this episode, so nothing collides. No dialogue reproduced; the eulogy and Dani's prayer are described, not quoted.",
+  "facts": [
+    {
+      "id": "s2e1-title-goodbye-earl-chicks",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Independently confirmed the title is shared with the 1999/2000 country murder ballad 'Goodbye Earl' (written by Dennis Linde, popularized by the Chicks/then Dixie Chicks) across Wikipedia's song entry, American Songwriter, and the episode's IMDb trivia, and confirmed the episode inverts it into an accidental death + forgiveness. BUT no creator/writers'-room statement of deliberate intent was located, so this is a strong, near-certain allusion, not documented intent. grounding capped at 4 (403 on primary pages); placement in S2E1 confirmed.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Goodbye_Earl",
+        "https://americansongwriter.com/dixie-chicks-goodbye-earl-behind-the-song/",
+        "https://www.imdb.com/title/tt12926006/trivia?item=tr5851496",
+        "https://grokipedia.com/page/Goodbye_Earl_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-title-goodbye-earl-chicks",
+        "tag": "A title with a dark twin",
+        "title": "Where the name comes from",
+        "moment": "The premiere is named for Earl, Richmond's greyhound mascot, who dies in a freak on-pitch accident -- a title it shares with a famous country murder ballad about a very different goodbye to a very different Earl.",
+        "idea": "The song (popularized by the Chicks) is a comic revenge tale in which two friends do away with an abusive man named Earl and feel no remorse. The episode flips it: this Earl's death is an innocent accident, and the story turns toward grief and forgiveness instead of vengeance.",
+        "why": "The contrast is the joke and a tonal signpost for a darker season. Treat it as a knowing allusion -- it rings true across every recap -- rather than a confirmed bit of writers'-room intent.",
+        "source": "The Chicks' <em>Goodbye Earl</em> (1999/2000, written by Dennis Linde); the title/subversion is noted on the song's Wikipedia entry, American Songwriter, and the episode's IMDb trivia.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Song/title link and the inversion are multi-source; no creator-intent statement located, so it ships as a strong allusion, not documented intent.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Goodbye_Earl",
+          "https://americansongwriter.com/dixie-chicks-goodbye-earl-behind-the-song/",
+          "https://www.imdb.com/title/tt12926006/trivia?item=tr5851496"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-football-is-life-and-death",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across Den of Geek, TVInsider, Entertainment Tonight, and Inverse: Dani's 'Football is life!' catchphrase is turned against itself after his penalty kills the mascot; he spirals into 'football is death' and, after help, lands on a both/and -- football is life, and death, and football, but mostly life. grounding capped at 4 (403 on primaries); placement in S2E1 firmly confirmed.",
+      "verified_sources": [
+        "https://www.denofgeek.com/tv/ted-lasso-season-2-dani-rojas/",
+        "https://www.tvinsider.com/1006246/ted-lasso-season-2-episode-1-recap-goodbye-earl/",
+        "https://www.etonline.com/ted-lasso-kicks-off-season-2-with-a-shocking-tragedy-169354",
+        "https://www.inverse.com/entertainment/dani-rojas-ted-lasso-season-2-scene-stealers-2021"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e1-football-is-life-and-death",
+        "tag": "Football is life -- and death",
+        "title": "Dani's catchphrase, broken open",
+        "moment": "Dani, the show's pure engine of joy, accidentally kills the mascot with a penalty and is gutted -- deciding the game he loves is now death. By the end, having talked the pain through, he reframes it: football is life, and death, and football, but mostly life.",
+        "idea": "Grief, fear, and darkness belong to the same game as joy. The episode's quiet argument is that naming pain and talking it through -- rather than toughing it out -- is what lets life win again.",
+        "why": "This is the premiere's whole heart, and the show's signal that Season 2 will lean inward, toward mental health. Watch how the most joyful character has to make room for sorrow without losing the joy.",
+        "source": "Season 2 premiere recaps (Den of Geek, TVInsider, Entertainment Tonight) built around the 'football is life / football is death' turn.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Dani's arc and the both/and reframe confirmed across multiple independent recaps.",
+        "sourcesChecked": [
+          "https://www.denofgeek.com/tv/ted-lasso-season-2-dani-rojas/",
+          "https://www.tvinsider.com/1006246/ted-lasso-season-2-episode-1-recap-goodbye-earl/",
+          "https://www.etonline.com/ted-lasso-kicks-off-season-2-with-a-shocking-tragedy-169354"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-sharon-fieldstone-intro",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the Fandom Sharon Fieldstone page, TV Tropes S2E1 recap, and Wikipedia summaries: Higgins hires sports psychologist Dr. Sharon Fieldstone (Sarah Niles) after Dani's collapse; she takes over Higgins's office, is unmoved by Ted's charm, and fixes Dani in a single session. Her deeper arc with Ted pays off in LATER episodes, so this is scoped to the introduction (spoiler_scope: season). grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+        "https://www.tvinsider.com/1006246/ted-lasso-season-2-episode-1-recap-goodbye-earl/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-sharon-fieldstone-intro",
+        "tag": "The psychologist arrives",
+        "title": "Enter Dr. Sharon Fieldstone",
+        "moment": "After Dani's collapse, Higgins brings in a brisk sports psychologist, Dr. Sharon Fieldstone -- direct, clinical, immune to Ted's charm and the coaches' superstitions. She proves her worth at once, getting Dani back on his feet after a single session, and quietly takes over Higgins's office.",
+        "idea": "She is the deliberate opposite of Ted's warmth, and that contrast is the point: her cool competence is the engine that will eventually crack Ted open. The mental-health thread she introduces here becomes the spine of the season.",
+        "why": "A small introduction with large consequences. For now, just notice how her unimpressed professionalism unsettles a man whose whole method is charm -- the friction that drives Season 2.",
+        "source": "Ted Lasso Fandom 'Sharon Fieldstone' entry and the TV Tropes / TVInsider S2E1 recaps.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Sharon's hiring, office takeover, and one-session fix of Dani confirmed across Fandom and recaps; her arc with Ted pays off later, so this card stays at the introduction.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+          "https://www.tvinsider.com/1006246/ted-lasso-season-2-episode-1-recap-goodbye-earl/"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-ted-therapy-resistance",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the TV Tropes S2E1 recap, the Fandom Sharon page, and multiple S2E1 reviews: of everyone at the club Ted is uniquely wary of bringing in a psychologist, masking discomfort with jokes, with his distrust tied to his separation from Michelle. (The 'storms out of a session' beat is a LATER episode, so the card stays at the wariness shown here.) Self-contained character irony; grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+        "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+        "https://www.whattowatch.com/reviews/ted-lasso-201-review-goodbye-earl"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-ted-therapy-resistance",
+        "tag": "The optimist's blind spot",
+        "title": "Ted bristles at the therapist",
+        "moment": "While the staff happily welcome the new psychologist, Ted alone is wary -- keeping it light with jokes but visibly thrown -- hinting he was burned by therapy before, around his separation from his wife.",
+        "idea": "The man whose entire philosophy is openness and emotional generosity has a blind spot about his own interior life. The episode quietly plants the central irony of the season: it's easier to hold space for everyone else than to sit in your own.",
+        "why": "A clean character study that needs no later reveals. Watch the jokes do double duty as armor -- the first hairline crack in Ted's relentless warmth.",
+        "source": "TV Tropes S2E1 recap and S2E1 reviews (What to Watch), plus the Ted Lasso Fandom 'Sharon Fieldstone' entry.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted's uniquely wary, joke-masked resistance (tied to his separation) confirmed across the recap, reviews, and Fandom; later escalations left out.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+          "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+          "https://www.whattowatch.com/reviews/ted-lasso-201-review-goodbye-earl"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-the-yips-real-phenomenon",
+      "type": "trivia",
+      "verdict": "confirmed",
+      "verification_notes": "Two independent confirmations. (1) The yips are a real, studied sports-psychology/neurology phenomenon -- a sudden loss of fine-motor execution in skilled athletes, with a three-type model spanning focal dystonia (physical) and performance anxiety (psychological), distinct from 'choking' -- per Psychology Today and peer-reviewed NCBI/Frontiers literature. (2) Dani's post-accident freeze is explicitly described as 'the yips' across S2E1 recaps. Reclassified type philosophy->trivia (it's a meta/real-world fact). grounding capped at 4 (403 on primary pages, but the concept itself is robustly and independently sourced).",
+      "verified_sources": [
+        "https://www.psychologytoday.com/us/blog/the-red-light-district/202307/when-athletes-get-the-yips",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8698216/",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02784/full",
+        "https://en.wikipedia.org/wiki/Goodbye_Earl_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e1-the-yips-real-phenomenon",
+        "tag": "The yips are real",
+        "title": "Not just nerves",
+        "moment": "After the accident Dani freezes and can no longer take a shot. The club treats it as a genuine condition -- 'the yips' -- serious enough to bring in a professional, rather than something he can just shake off.",
+        "idea": "The yips are a documented phenomenon, not a writers' invention: a sudden, involuntary loss of a well-practiced skill in elite athletes, with both physical (focal dystonia) and psychological (performance anxiety) roots, and researchers distinguish it from ordinary 'choking.' It's often triggered by exactly the kind of traumatic in-game moment Dani has.",
+        "why": "This is what lets the episode take Dani's pain seriously instead of for laughs -- and it quietly dignifies the show's mental-health message. The block is real and treatable, which is the whole reason Sharon is hired.",
+        "source": "The yips as a real condition per Psychology Today and peer-reviewed sports-medicine literature (NCBI, Frontiers in Psychology); recaps describe Dani's freeze as the yips.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The yips confirmed as a real, studied phenomenon across clinical sources; recaps tie the in-episode framing to Dani.",
+        "sourcesChecked": [
+          "https://www.psychologytoday.com/us/blog/the-red-light-district/202307/when-athletes-get-the-yips",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8698216/",
+          "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02784/full"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-magnolia-wise-up-payoff",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Two pieces confirmed independently: Aimee Mann's 'Wise Up' scores Rebecca's date scene in this episode (Tunefind soundtrack listing, Rolling Stone recap), and 'Wise Up' is the song from Magnolia's famous ensemble sing-along (Songfacts). The DELIBERATE 'planted Magnolia setup -> needle-drop payoff' framing is Rolling Stone's interpretation, not a creator statement; the earlier Magnolia conversation did not surface in every search. So: cue confirmed, intent is interpretation -> partially-confirmed. grounding capped at 4.",
+      "verified_sources": [
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-premiere-recap-goodbye-earl-1198760/",
+        "https://www.tunefind.com/show/ted-lasso/season-2/109890",
+        "https://www.songfacts.com/facts/aimee-mann/wise-up"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-magnolia-wise-up-payoff",
+        "tag": "A film chat that returns as a song",
+        "title": "The 'Wise Up' needle-drop",
+        "moment": "Earlier, Ted geeks out about the film Magnolia. Later, as Rebecca quietly drifts on a date and reconsiders settling, Aimee Mann's 'Wise Up' rises on the soundtrack -- the very song behind Magnolia's famous scene where the whole ensemble sings along mid-crisis.",
+        "idea": "A casual film reference comes back as an emotional music cue, layering one allusion on top of another. The song's plea to stop and reckon with yourself mirrors exactly what Rebecca is doing in the moment.",
+        "why": "Listen for the song and recall the earlier Magnolia talk. That the conversation was a deliberate setup for the cue is a critic's lovely reading rather than confirmed intent -- but the cue itself, and its Magnolia roots, are real.",
+        "source": "'Wise Up' by Aimee Mann, confirmed in the episode via Tunefind and the Rolling Stone recap; its Magnolia sing-along origin per Songfacts.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Cue and its Magnolia origin confirmed; the 'deliberate setup/payoff' framing is Rolling Stone's interpretation, not documented intent.",
+        "sourcesChecked": [
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-premiere-recap-goodbye-earl-1198760/",
+          "https://www.tunefind.com/show/ted-lasso/season-2/109890",
+          "https://www.songfacts.com/facts/aimee-mann/wise-up"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-roy-retired-yoga-mums",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via The Cinemaholic and CBR S2E1 recaps (and Paste): newly retired Roy coaches his niece Phoebe's little-kids side, spends time with a circle of older 'yoga mums' watching reality TV, and flatly refuses a Sky Sports punditry job Keeley says he'd be perfect for. (Some recaps specify Phoebe's team is a young girls' side.) Scoped to season as it sets up his later pull back toward the game. grounding capped at 4.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-season-2-episode-1-recap-and-ending-explained/",
+        "https://www.cbr.com/ted-lasso-roy-kent-sky-sports-candor/",
+        "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-roy-kent-season-2"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-roy-retired-yoga-mums",
+        "tag": "The gruffest man, adrift",
+        "title": "Roy's retirement",
+        "moment": "Picking up after his Season 1 exit, Roy fills his days coaching his niece Phoebe's under-9s (his ferocity hilariously aimed at children), doing yoga and watching trashy reality TV with a circle of older women -- and bluntly turning down a Sky Sports pundit job everyone says he'd be perfect for.",
+        "idea": "The toughest man on the show is quietly lost without football and softening at the edges. It's a sharp character note dressed up as comedy: a life rearranged around small kindnesses because the big thing is gone.",
+        "why": "Watch how hard he leans away from the game he clearly misses. The yoga mums and the refused punditry job are seeds -- both pull him back toward football before long.",
+        "source": "Season 2 premiere recaps (The Cinemaholic, CBR, Paste) covering Roy's retirement, the yoga mums, and the declined Sky Sports offer.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy's coaching of Phoebe's team, the yoga mums, and his refusal of the Sky Sports job confirmed across multiple recaps.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-season-2-episode-1-recap-and-ending-explained/",
+          "https://www.cbr.com/ted-lasso-roy-kent-sky-sports-candor/",
+          "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-roy-kent-season-2"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-jamie-lust-conquers-all",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the Fandom 'Lust Conquers All' page, thedipp, and TechRadar/ET: the yoga mums' reality obsession is 'Lust Conquers All,' the show's Love Island (ITV) parody, and a breakout contestant is Jamie Tartt, who left Manchester City to chase reality fame -- setting up his Season 2 return to Richmond. Scoped to season. grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+        "https://thedipp.com/ted-lasso/lust-conquers-all-love-island-spoof",
+        "https://www.techradar.com/news/in-ted-lasso-season-2-jamie-tartt-is-on-a-journey-of-self-discovery"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-jamie-lust-conquers-all",
+        "tag": "A footballer chasing fame",
+        "title": "Jamie on reality TV",
+        "moment": "Roy's reality-show watch party with the yoga mums lands on 'Lust Conquers All,' a Love Island-style series -- and, to his disgust, the women's favorite contestant is Jamie Tartt, who has left Manchester City to play the resident bad boy on camera.",
+        "idea": "A tidy bit of satire and world-building: a preening footballer cashing in on celebrity culture, adored by the very women Roy is sitting with. It also lands a gentle joke about who gets to be a star and why.",
+        "why": "A callback to Jamie's Season 1 departure that quietly sets up his return to Richmond. Watch Roy's face -- the man he can't stand is winning over his new friends.",
+        "source": "Ted Lasso Fandom 'Lust Conquers All' entry, thedipp's Love Island-spoof explainer, and TechRadar on Jamie's Season 2 arc.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "'Lust Conquers All' as a Love Island parody and Jamie's appearance/City exit confirmed across Fandom and multiple outlets.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+          "https://thedipp.com/ted-lasso/lust-conquers-all-love-island-spoof",
+          "https://www.techradar.com/news/in-ted-lasso-season-2-jamie-tartt-is-on-a-journey-of-self-discovery"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-ted-eulogy-press-conference",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the TV Fanatic review, Music City Drive-in, and The Spool: at the post-match press conference Ted defuses the absurd tragedy with a tender story about a dog from his own childhood -- one that first frightened him and then became beloved -- turning it into a small meditation on grief. A widely praised Sudeikis moment. Per the brief, the card does NOT name the childhood dog ('Hank' is repeated on recap/aggregator sites but no primary transcript could be opened to verify it). Paraphrase only, no dialogue reproduced. grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvfanatic.com/ted-lasso-season-2-episode-1-review-goodbye-earl/",
+        "https://musiccitydrivein.com/2021/07/23/ted-lasso-recap-goodbye-earl/",
+        "https://thespool.net/reviews/tv/ted-lasso-goodbye-earl-recap-a-dog-has-his-day-and-the-doctor-arrives/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-ted-eulogy-press-conference",
+        "tag": "Meeting grief with a story",
+        "title": "Ted eulogizes a dog",
+        "moment": "Facing the press after the mascot's death, Ted sidesteps the absurdity and tells a tender story about a dog from his own childhood -- an animal that once scared or hurt him, then became one he loved and mourned -- and turns it into a gentle thought about why we grieve.",
+        "idea": "The same things that can make us cry simply because they exist are the ones that make us cry once they're gone -- and, in Ted's telling, they come into our lives to help carry us somewhere better. It's a signature Ted move: answer pain with story and grace.",
+        "why": "A widely praised, quietly vulnerable Sudeikis moment. Watch a press conference about a dead mascot become a small sermon on love and loss -- the episode's emotional crest.",
+        "source": "S2E1 reviews and recaps (TV Fanatic, Music City Drive-in, The Spool) of Ted's press-conference dog eulogy.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The eulogy beat and its grief theme confirmed across multiple reviews; the childhood dog's name is deliberately not asserted (unverified from a primary source).",
+        "sourcesChecked": [
+          "https://www.tvfanatic.com/ted-lasso-season-2-episode-1-review-goodbye-earl/",
+          "https://musiccitydrivein.com/2021/07/23/ted-lasso-recap-goodbye-earl/",
+          "https://thespool.net/reviews/tv/ted-lasso-goodbye-earl-recap-a-dog-has-his-day-and-the-doctor-arrives/"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-earl-greyhound-puns",
+      "type": "easter-egg",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Mixed support. The 'Earl Greyhound' = 'Earl Grey' tea pun is corroborated across the Fandom page, a search-summary on the Earl Grey tea reference, and recap mentions, so it's solid. But the 'Barkingham Palace' origin and the owner ('Nigel') rest substantially on the Ted Lasso Fandom wiki (with one recap echo); no primary or independent confirmation could be opened. Per the convention, a key detail resting mainly on the fan wiki -> grounding capped at 3, partially-confirmed. Placement in S2E1 confirmed.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Earl_Greyhound",
+        "https://ted-lasso.fandom.com/wiki/Barkingham_Palace",
+        "https://thespool.net/reviews/tv/ted-lasso-goodbye-earl-recap-a-dog-has-his-day-and-the-doctor-arrives/",
+        "https://en.wikipedia.org/wiki/Earl_Grey_tea"
+      ],
+      "scores": { "grounding": 3, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-earl-greyhound-puns",
+        "tag": "Tea-and-royalty wordplay",
+        "title": "The mascot's punny name",
+        "moment": "The doomed greyhound mascot is named 'Earl Greyhound' -- and per the show's wiki he was brought from a dog shelter called 'Barkingham Palace.' Small British in-jokes hiding around a very serious moment.",
+        "idea": "'Earl Greyhound' plays on Earl Grey, the bergamot tea named for Charles Grey, the 2nd Earl Grey -- a layered gag, since he's literally a greyhound. 'Barkingham Palace' riffs on Buckingham Palace, doubling down on the mascot's posh-British register.",
+        "why": "Throwaway background wordplay that rewards a second look. The 'Earl Grey' pun is solid; the 'Barkingham Palace' detail comes mainly from the fan wiki, so enjoy it as a likely Easter egg rather than a confirmed one.",
+        "source": "Ted Lasso Fandom ('Earl Greyhound' / 'Barkingham Palace') with a recap echo; the tea is named for the 2nd Earl Grey (Wikipedia).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "'Earl Grey' pun is multi-source; 'Barkingham Palace'/owner rest mainly on the fan wiki, so grounding is held at partial.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Earl_Greyhound",
+          "https://ted-lasso.fandom.com/wiki/Barkingham_Palace",
+          "https://en.wikipedia.org/wiki/Earl_Grey_tea"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-written-by-brendan-hunt",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Writer Brendan Hunt, director Declan Lowney, and air date July 23, 2021 corroborated across Wikipedia's episode entry, the Fandom episode page, TVMaze, and IMDb credits. Hunt as a series co-creator (the show was developed by Sudeikis, Lawrence, Hunt, and Kelly, and he plays Coach Beard) confirmed via Wikipedia's Ted Lasso page and the Final Draft / Hollywood Reporter profiles. grounding capped at 4 (403 on primaries, but consistent across many independent listings).",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Goodbye_Earl_(Ted_Lasso)",
+        "https://www.tvmaze.com/episodes/2075166/ted-lasso-2x01-goodbye-earl",
+        "https://en.wikipedia.org/wiki/Ted_Lasso",
+        "https://www.finaldraft.com/blog/write-on-with-ted-lasso-co-creator-brendan-hunt"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-written-by-brendan-hunt",
+        "tag": "Coach Beard wrote this one",
+        "title": "Who made the premiere",
+        "moment": "Behind the scenes: 'Goodbye Earl' was written by Brendan Hunt -- who also plays Coach Beard and is one of the show's co-creators -- and directed by Declan Lowney. It premiered on Apple TV+ on July 23, 2021.",
+        "idea": "There's a neat symmetry here: the cast member who plays the show's most enigmatic, film-obsessed character is the one who scripted the premiere that name-drops Magnolia and sets the season's more melancholy, interior tone.",
+        "why": "A nice piece of trivia to carry into a rewatch -- knowing Beard's actor authored the episode makes its quiet film-buff texture feel a little more deliberate.",
+        "source": "Episode credits via Wikipedia and TVMaze (Brendan Hunt, Declan Lowney, July 23 2021); Hunt as co-creator per Wikipedia's Ted Lasso page and a Final Draft profile.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Writer/director/air date and Hunt's co-creator status confirmed across multiple independent listings and profiles.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Goodbye_Earl_(Ted_Lasso)",
+          "https://www.tvmaze.com/episodes/2075166/ted-lasso-2x01-goodbye-earl",
+          "https://en.wikipedia.org/wiki/Ted_Lasso"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-sarah-niles-casting",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the Hollywood Reporter feature and a corroborating summary: Sarah Niles has called Sharon one of the hardest roles she's played, requiring a particular stillness, and says she had not watched Ted Lasso before auditioning -- fitting for a character built as Ted's unimpressed outsider/foil. Her interviews discuss the role across the season, so framed as 'introduced here, played by Niles.' grounding capped at 4.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-features/sarah-niles-ted-lasso-role-challenges-1235192389/",
+        "https://finance.yahoo.com/news/ted-lasso-sarah-niles-why-193000426.html",
+        "https://nerdist.com/article/ted-lasso-sarah-niles-interview-apple-tv/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 4 },
+      "interest_score": 62,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e1-sarah-niles-casting",
+        "tag": "Casting the foil",
+        "title": "The actor behind Sharon",
+        "moment": "Behind the scenes: Dr. Sharon Fieldstone is played by Sarah Niles, who has called the role one of the hardest of her career and says she hadn't watched Ted Lasso before auditioning.",
+        "idea": "Not knowing the show suited a character built to be an outsider -- someone genuinely unmoved by Ted's reputation and charm. Niles's restrained, deliberately un-warm performance is exactly what makes the Ted/Sharon friction work.",
+        "why": "It illuminates why the character lands as a true foil rather than a softie. Watch how much of Sharon is held in stillness -- a choice, and a difficult one.",
+        "source": "Sarah Niles interviews via The Hollywood Reporter (and corroborating coverage) on the role's difficulty and not having seen the show.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Niles calling Sharon one of her hardest roles and not having watched the show before auditioning confirmed via HR and corroborating coverage.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-features/sarah-niles-ted-lasso-role-challenges-1235192389/",
+          "https://finance.yahoo.com/news/ted-lasso-sarah-niles-why-193000426.html"
+        ]
+      }
+    },
+    {
+      "id": "s2e1-dani-prayer-shower",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the TV Tropes S2E1 recap and Den of Geek (with a ShowSnob echo): in the aftermath a traumatized Dani stands fully clothed in the shower softly praying in Spanish, as if to wash the death off him, and later wakes screaming from a nightmare. Paraphrase only -- the prayer text is not reproduced. grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+        "https://www.denofgeek.com/tv/ted-lasso-season-2-dani-rojas/",
+        "https://showsnob.com/2021/07/23/ted-lasso-season-2-premiere-recap-goodbye-earl/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e1-dani-prayer-shower",
+        "tag": "Trying to wash it off",
+        "title": "Dani in the shower",
+        "moment": "In the aftermath, a guilt-wracked Dani stands fully clothed under the shower, softly praying in Spanish -- as though trying to rinse away a death he feels responsible for. Later he wakes from a nightmare in a panic.",
+        "idea": "A quietly devastating image that shows how seriously the show is taking his guilt. The same player whose joy defines 'football is life' is now scrubbing at something water can't reach.",
+        "why": "Easy to miss, and the concrete moment that sells Dani's spiral -- pair it with the 'football is life and death' turn. Watch how stillness and an unwashable stain carry more weight than any speech.",
+        "source": "S2E1 recaps (TV Tropes, Den of Geek, ShowSnob) describing Dani's clothed-shower prayer and subsequent nightmare.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The clothed-shower prayer (in Spanish) and the nightmare confirmed across multiple recaps; prayer text not reproduced.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+          "https://www.denofgeek.com/tv/ted-lasso-season-2-dani-rojas/",
+          "https://showsnob.com/2021/07/23/ted-lasso-season-2-premiere-recap-goodbye-earl/"
+        ]
+      }
+    }
+  ]
+}

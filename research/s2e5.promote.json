@@ -1,0 +1,101 @@
+[
+  {
+    "id": "s2e5-rom-com-medley-roy",
+    "tag": "A love letter to Roy",
+    "title": "Ted woos Roy with the movies",
+    "moment": "Trying to talk Roy into coaching, Ted courts him like a leading man proposing -- a medley of rewritten rom-com declarations: the 'rest of your life' speech, a 'you complete...' line, the 'I'm just a ___ standing in front of a ___' construction, and finally 'as you wish.'",
+    "idea": "It's 'rom-communism' acted out: Ted literally stages Roy's recruitment as a romantic-comedy proposal, borrowing the genre's biggest love-confession beats to say 'I believe in you, join us.'",
+    "why": "A rewatch reward -- see how many films you can place. The joke that Ted means every word is the heart of it: the grand romantic gesture, redirected at a friendship and a job.",
+    "source": "Reference breakdowns identifying the When Harry Met Sally / Jerry Maguire / Notting Hill / Princess Bride lines (TV Insider, ScreenRant, Cheat Sheet, PureWow).",
+    "category": "Aesthetics",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "The four films Ted quotes confirmed across multiple independent breakdowns. No primary page opened (WebFetch 403), grounding capped at 4.",
+    "sourcesChecked": [
+      "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/",
+      "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/",
+      "https://www.cheatsheet.com/entertainment/ted-lasso-breaking-down-every-single-romantic-comedy-easter-egg-rainbow.html/",
+      "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references"
+    ]
+  },
+  {
+    "id": "s2e5-titanic-elderly-couple",
+    "tag": "Two movies in one",
+    "title": "The couple who 'are' Titanic",
+    "moment": "Borrowing When Harry Met Sally's device of old couples telling the camera how they met, the episode lands a gag: one pair's romance turns out, beat for beat, to be the plot of Titanic -- and they insist James Cameron stole their story and they're now suing him.",
+    "idea": "A reference folded inside a reference: the <em>format</em> of one beloved romance (those direct-to-camera interviews) is used to smuggle in a completely different blockbuster love story, then capped with an absurd litigation punchline.",
+    "why": "A real 'I never caught that' beat. If you know both films it pays off twice -- once for the When Harry Met Sally framing, once when you realize whose story they're actually telling.",
+    "source": "Reference breakdowns describing the elderly-couple device and the Titanic reveal (ScreenRant, PureWow, Cheat Sheet, Slate).",
+    "category": "Aesthetics",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "When Harry Met Sally fourth-wall device plus the Titanic/Cameron gag confirmed across multiple independent recaps. No primary page opened (WebFetch 403), grounding capped at 4.",
+    "sourcesChecked": [
+      "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/",
+      "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
+      "https://www.cheatsheet.com/entertainment/ted-lasso-breaking-down-every-single-romantic-comedy-easter-egg-rainbow.html/",
+      "https://slate.com/culture/2021/08/ted-lasso-episode-rainbow-a-romantic-comedy.html"
+    ]
+  },
+  {
+    "id": "s2e5-rilke-bantr",
+    "tag": "A line 'by Rilke'",
+    "title": "Rebecca's mystery poet",
+    "moment": "Flirting on the anonymous Bantr app, Rebecca's unseen match quotes a line credited to the poet Rainer Maria Rilke -- that our deepest fears are like dragons guarding our deepest treasure -- and she melts.",
+    "idea": "Here's the catch a literature lover will love: that exact line is one of the internet's most popular 'Rilke' quotes, but it's a circulating paraphrase attributed to him, not a sentence anyone has located in his work. Rilke's genuine, nearby passage (from <em>Letters to a Young Poet</em>) is the gentler one about dragons in our lives perhaps being princesses, waiting to see us act with beauty and courage.",
+    "why": "A perfect twin to the show's own 'be curious, not judgmental' Whitman mix-up: a beautiful idea, sincerely meant, hung on an attribution that won't quite hold. Enjoy the sentiment -- and know it's 'attributed to Rilke,' not verified as his words.",
+    "source": "Quote-site listings carry the line under Rilke's name (Goodreads, AZQuotes) while his authentic <em>Letters to a Young Poet</em> 'dragons/princesses' passage differs; in-show moment per episode reference guides (ScreenRant).",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "attributed",
+    "groundingNotes": "In-show 'Rilke' quote confirmed; the line itself is a popular paraphrase attributed to Rilke, not a located verbatim quote (his real passage is the 'dragons as princesses' one). No primary page opened (WebFetch 403), grounding capped at 4.",
+    "sourcesChecked": [
+      "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/",
+      "https://www.goodreads.com/quotes/9923979-our-deepest-fears-are-like-dragons-guarding-our-deepest-treasure",
+      "https://www.azquotes.com/quote/555111",
+      "https://www.goodreads.com/quotes/745-perhaps-all-the-dragons-in-our-lives-are-princesses-who"
+    ]
+  },
+  {
+    "id": "s2e5-rom-communism",
+    "tag": "Rom-communism",
+    "title": "Ted's 'rom-communism' speech",
+    "moment": "With the team slumping, Ted announces he believes in 'communism' -- then, after a beat, 'rom-communism' -- his made-up word for a worldview lifted from romantic comedies: if everyone pulls together, it all works out in the end. He and the players reel off the genre's biggest stars.",
+    "idea": "A comic coinage that's really the show's whole creed in costume: hope as a deliberate choice. Like a rom-com, the promise isn't that nothing goes wrong, it's that you trust the happy ending and keep showing up for each other.",
+    "why": "This is the spine of the episode's romantic-comedy homage. Notice it's precursive faith -- belief offered <em>before</em> the evidence, dressed as a movie-genre joke so it lands light instead of preachy.",
+    "source": "Episode recaps and essays on the 'rom-communism' speech (PopMatters, PureWow, TV Insider, Looper).",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Speech and star name-drops confirmed across multiple independent recaps; placement in S2E5 firm. No primary page opened (WebFetch 403), so grounding capped at 4.",
+    "sourcesChecked": [
+      "https://www.popmatters.com/rom-communism-ted-lasso-feature",
+      "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
+      "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/",
+      "https://www.looper.com/598833/ted-lassos-most-inspirational-quotes/"
+    ]
+  },
+  {
+    "id": "s2e5-roy-isaac-underpass",
+    "tag": "Football is fun",
+    "title": "Roy takes Isaac back",
+    "moment": "Asked to fix a slumping team captain, Roy brings Isaac (and Ted) to a rough pitch under an underpass to watch a pickup game -- reminding him football is a kid's game you played because it was fun. Isaac's joy, and his form, come roaring back.",
+    "idea": "A callback to the show's recurring idea that joy, not pressure, is where good play lives. Roy diagnoses the problem as fear and overthinking, and the cure is simply remembering why you started.",
+    "why": "This is where Roy quietly discovers he can coach -- the seed of his whole next chapter, paid off later in the very same episode. Watch a man who's all gruffness turn out to be a natural teacher.",
+    "source": "Recaps of Roy's underpass intervention with Isaac and his revival, scored to Blur's 'Song 2' (ReadySteadyCut, TV Tropes, The Spool).",
+    "category": "Belief & hope",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Underpass intervention, the 'football should be fun' message, and Isaac's turnaround confirmed across multiple recaps. No primary page opened (WebFetch 403), grounding capped at 4.",
+    "sourcesChecked": [
+      "https://readysteadycut.com/2021/08/19/recap-ted-lasso-season-2-episode-5-apple-tv-plus-original-series/",
+      "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E05Rainbow",
+      "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-5-rainbow-recap/"
+    ]
+  }
+]

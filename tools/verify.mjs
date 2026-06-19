@@ -106,14 +106,18 @@ try {
   });
   check("copy-all includes the saved note", /This one got me, Teddy\./.test(clip));
 
-  // Episode 8: scored cards exercise the display contract (filter + sort by interest)
+  // Episode 8 (Season 1): exercises the display contract — weak cards filtered, then
+  // a curated reading order (an explicit per-card `order` overrides the interest sort).
   await page.select("#epPicker", "8");
   await new Promise(r => setTimeout(r, 300));
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
   check("E8 shows 5 verified cards", e8titles.length === 5);
-  check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
+  check("E8 leads with the darts scene", e8titles[0] === "The darts scene");
+  const iBowie = e8titles.findIndex(t => /Bowie/.test(t));
+  const iName = e8titles.findIndex(t => /^Why /.test(t));
+  check("E8 curated order introduces Bowie before the name-origin card", iBowie !== -1 && iName !== -1 && iBowie < iName);
   if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
   // Every Season 1 episode now ships verified cards (no "coming soon" placeholders),
@@ -131,6 +135,40 @@ try {
   await page.select("#epPicker", "1");
   await new Promise(r => setTimeout(r, 300));
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
+
+  // Season picker: two seasons; switching repopulates the episode list and re-gates.
+  check("season picker present with 2 seasons", (await page.$$eval("#seasonPicker option", o => o.length)) === 2);
+  check("loads on season 1", (await page.$eval("#seasonPicker", el => el.value)) === "1");
+  check("season 1 lists 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
+
+  await page.select("#seasonPicker", "2");
+  await new Promise(r => setTimeout(r, 300));
+  check("season 2 lists 12 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 12);
+  check("season 2 jumps to episode 1", (await page.$eval("#epPicker", el => el.value)) === "1");
+  check("S2E1 title is Goodbye Earl", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Goodbye Earl");
+  check("eyebrow reflects season 2", /Season 2/.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("S2E1 (now written) re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S2E1 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
+  if (shots) await page.screenshot({ path: join(outDir, "06-season2.png"), fullPage: true });
+
+  // Both seasons are fully written now, so no shipped episode is a placeholder
+  // (the coming-soon path is retained in index.html for future seasons). Confirm
+  // the S2 finale, like every episode, re-gates and reveals its cards on tap.
+  await page.select("#epPicker", "12");
+  await new Promise(r => setTimeout(r, 300));
+  check("S2E12 finale title is Inverting the Pyramid of Success", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Inverting the Pyramid of Success");
+  check("S2E12 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S2E12 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
+
+  // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
+  await page.select("#seasonPicker", "1");
+  await new Promise(r => setTimeout(r, 300));
+  check("switching back to season 1 restores 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
+  check("season 1 re-gates real-content episode", (await page.$eval("#gate", el => el.hidden)) === false);
 
   // Display options: panel toggle, text size, high contrast, and persistence
   check("display options panel hidden by default", (await page.$eval("#settingsPanel", el => el.hidden)) === true);

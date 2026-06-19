@@ -1,0 +1,188 @@
+{
+  "episode": { "season": 2, "number": 4, "title": "Carol of the Bells" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL this session (Wikipedia, TV Tropes), exactly as the briefing warned. Every fact below is therefore corroborated across MULTIPLE INDEPENDENT WebSearch result summaries from different domains (Wikipedia episode page, the Ted Lasso Fandom wiki, TV Tropes E4 recap, IMDb trivia, lassoism transcript, and multiple recap sites: ReadySteadyCut, TVFanatic, Cinemablend, Music City Drive-in, Indiewire, AV Club, ScreenRant) rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly to confirm. Paraphrase only -- no dialogue is reproduced. Air date Aug 13, 2021; written by Joe Kelly, directed by Declan Lowney (corroborated across Wikipedia + IMDb + multiple recaps). DEDUP NOTE: this is a Season 2 episode; the existing factsheet chapter map is Season-1-heavy and the factsheet itself warns S2 moments are thinner and must each be verified, so none of these candidates duplicate existing episodes.json cards. ATTRIBUTION/SHAKY FLAGS are called out inline: (1) one early AI search-summary claimed the episode title was 'named after showrunner Joe Kelly's mother' -- I could NOT corroborate this in any targeted follow-up search, so I DROPPED that attribution entirely rather than risk fabricating it, and the title candidate below instead ties to the real Ukrainian carol, which is solid; (2) the 'Wings (1927) tracking shot, requested by Jason Sudeikis' production claim is repeated by many recaps but I did not locate a first-person creator interview confirming it; (3) the Love Actually 'cue cards' homage is widely reported but the on-screen character's name varies between sources (Bernard vs. other), so I left the bully's name out of the moment text.",
+  "candidates": [
+    {
+      "id": "s2e4-title-carol-of-the-bells",
+      "type": "reference",
+      "title": "The episode title is a real Ukrainian carol",
+      "detail": "The episode borrows its name from the Christmas standard 'Carol of the Bells', which began life as the Ukrainian New Year chant 'Shchedryk' ('the generous/bountiful one'), arranged by composer Mykola Leontovych (composed c.1901-1916, premiered 1916); American Peter Wilhousky wrote the familiar English bell lyrics in 1936. The original folk song is about a swallow flying into a home to foretell a prosperous year -- a song of generosity and good fortune, which rhymes neatly with an episode whose whole engine is people giving (Rebecca's gift run, the Higginses' open house, Secret Santa). FLAG for reviewer: the carol's history is firmly sourced, but I found NO authoritative creator statement on why the writers picked this exact title (one stray AI search-summary claimed it was 'named after showrunner Joe Kelly's mother' -- I could not corroborate that anywhere and have deliberately NOT asserted it). Treat the title-as-the-famous-carol link as the safe, verifiable fact; treat any 'named after a person' claim as unverified.",
+      "moment": "The Christmas-themed episode takes its name from the well-known carol 'Carol of the Bells', itself an English adaptation of the Ukrainian generosity chant 'Shchedryk'.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells", "note": "Carol of the Bells / Shchedryk: Leontovych arrangement, 1916 premiere, Wilhousky 1936 English lyrics, swallow/generosity folk origin" },
+        { "url": "https://www.ukrainer.net/en/en-shchedryk-carol-of-the-bells-history/", "note": "History of Shchedryk -> Carol of the Bells, the 'generous one' meaning and folk tradition" },
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "The Ted Lasso episode and its Christmas framing" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-wings-tracking-shot",
+      "type": "production",
+      "title": "The Christmas-dinner long take nods to a 1927 silent film",
+      "detail": "The unbroken tracking shot that glides down the length of the Higgins family's Christmas dinner table is widely reported to have been inspired by a similar moving shot in the 1927 silent film 'Wings' (the first Best Picture winner), and to have been specifically requested by Jason Sudeikis. It is a showy, warm bit of formal craft for a half-hour comedy: one continuous move that takes in the whole improvised family at once. FLAG for reviewer: this is repeated by many recaps and the Wikipedia episode page summaries, but I did not locate a first-person creator/Sudeikis interview confirming both the 'Wings' inspiration AND the 'Sudeikis requested it' detail; corroborate before asserting the Sudeikis attribution as settled.",
+      "moment": "At the Higgins house, the camera travels in one continuous shot along the full Christmas dinner table -- a flourish reportedly modeled on a long take in the 1927 silent film 'Wings'.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Tracking shot inspired by 1927 silent film Wings; requested by Jason Sudeikis" },
+        { "url": "https://lassoism.com/Ted-Lasso-S02E04-carol-of-the-bells.php", "note": "Episode notes/transcript page referencing the dinner-table shot" },
+        { "url": "https://www.cinemablend.com/television/2572223/ted-lassos-carol-of-the-bells-things-i-absolutely-loved-about-the-season-2-episode", "note": "Recap praising the long dinner-table tracking shot" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-love-actually-homage",
+      "type": "reference",
+      "title": "Phoebe's apology is a Love Actually homage",
+      "detail": "After a boy at school gives Phoebe oral-hygiene products and tells classmates her breath smells, Roy and Keeley discover she actually has halitosis, get her to a dentist, and then help her confront the boy -- by standing on his doorstep silently holding a stack of hand-written poster-board cards, exactly the way Mark wordlessly confesses to Juliet in the 2003 film 'Love Actually'. The twist is that the show repurposes a famous romantic gesture into a kid's lesson about apologizing and being kind. FLAG: the homage itself is firmly and widely sourced; I left the bully's name out of the moment because sources disagree on it. Paraphrase only -- the cards' wording is not reproduced.",
+      "moment": "To make things right with a classmate, Phoebe stands at his door holding a series of hand-lettered poster-board signs, silently making her point -- a direct nod to the cue-card doorstep scene in 'Love Actually'.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Phoebe's poster-board scene described as an homage to Love Actually" },
+        { "url": "https://readysteadycut.com/2021/08/13/recap-ted-lasso-season-2-episode-4-apple-tv-plus-series/", "note": "Recap of the dentist hunt and the Love Actually cue-card apology" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells", "note": "Shout-Out: Phoebe's cue cards reference Love Actually" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-film-namechecks",
+      "type": "reference",
+      "title": "Ted's lonely Christmas is full of movie references",
+      "detail": "The episode threads several film references through Ted's holiday. Alone in his flat after the FaceTime with Henry ends, Ted drinks and watches Frank Capra's 'It's a Wonderful Life' (1946) -- a pointed choice for an episode about a good man who feels unseen and unsure he matters. Later, watching street buskers with Rebecca, Ted brings up the 2007 musical 'Once' (John Carney) and says he liked it enough to see it twice. Recaps also flag a nod to 'A Christmas Story'. Together these signal the episode's loving, referential relationship to the Christmas-movie canon. FLAG: 'It's a Wonderful Life' and 'Once' are firmly corroborated across multiple recaps; the 'A Christmas Story' nod is mentioned less consistently -- verify that one specifically.",
+      "moment": "After his family call ends, Ted watches 'It's a Wonderful Life' alone with a drink; later, enjoying buskers with Rebecca, he praises the musical film 'Once'.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Ted watches It's a Wonderful Life; references Once" },
+        { "url": "https://musiccitydrivein.com/2021/08/13/ted-lasso-recap-carol-of-the-bells/", "note": "Recap noting It's a Wonderful Life, Once, Love Actually, A Christmas Story" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells", "note": "Shout-Outs to It's a Wonderful Life and Once" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-hi-ted-callback",
+      "type": "callback",
+      "title": "'HI TED' in tinsel mirrors 'Hi Boss' from Season 1",
+      "detail": "To coax a low Ted out of his flat, Rebecca arranges Christmas tinsel/garland on the street outside his window to spell 'HI TED'. It directly inverts a Season 1 gesture in which Ted had the AFC Richmond players lie down on the pitch to spell 'Hi Boss!' for Rebecca. Direction: this CALLS BACK to the Season 1 'Hi Boss' moment, and the role reversal is the point -- the person who once tried to sabotage Ted is now the one reaching out to lift him up, a tidy marker of how far their relationship has travelled.",
+      "moment": "Rebecca lays out Christmas garland on the road below Ted's window to spell 'HI TED', echoing -- and reversing -- the Season 1 bit where Ted had the players spell 'Hi Boss' on the field for her.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells", "note": "Call-Back: Rebecca's 'HI TED' tinsel mirrors Ted's S1 'Hi Boss' on the pitch" },
+        { "url": "https://www.imdb.com/title/tt14968638/trivia/", "note": "IMDb trivia noting the HI TED / Hi Boss callback" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Carol_of_the_Bells", "note": "Fandom recap of Rebecca spelling HI TED outside Ted's flat" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-real-hometowns-toast",
+      "type": "easter-egg",
+      "title": "Higgins's toast names the actors' real hometowns",
+      "detail": "When Leslie Higgins raises a toast at the end of the Christmas dinner and names the city each international player is far from, the cities he lists are the actual real-life hometowns of the actors playing those players, not just the characters' fictional origins. It is an easy-to-miss bit of warmth folded into a scene already about being far from home -- the production quietly honoring its real cast inside a story about found family. FLAG: widely and consistently reported in trivia/recaps as the actors' real hometowns; the reviewer should confirm the specific city list against cast bios before any card asserts a particular name.",
+      "moment": "Toasting the players who couldn't get home for Christmas, Higgins names each one's home city -- and those cities are the real hometowns of the actors themselves.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Higgins's toast lists the actors' actual hometowns" },
+        { "url": "https://www.imdb.com/title/tt14968638/trivia/", "note": "IMDb trivia: cities in Higgins's toast are the actors' real hometowns" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells", "note": "Recap noting the toast uses the cast members' real hometowns" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-claymation-credits",
+      "type": "easter-egg",
+      "title": "A one-off claymation holiday title sequence",
+      "detail": "'Carol of the Bells' is the first Ted Lasso episode to swap the standard opening titles for a special themed version: the main cast appear as stop-motion claymation figures gathering for a holiday-card group photo, the stadium's green seats turn red, and the theme music gets added sleigh bells and jingles. It's a small piece of seasonal craft that signals up front this is a standalone holiday special rather than a plot-forward episode.",
+      "moment": "The episode opens with a bespoke holiday title sequence -- the characters rendered as claymation figures posing for a Christmas-card photo, with red-and-green colors and bells woven into the theme.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Carol_of_the_Bells", "note": "Fandom: first episode with themed claymation holiday opening credits and Christmas bells in the theme" },
+        { "url": "https://awfulannouncing.com/apple/ted-lasso-recap-carol-of-the-bells-loved-it-so-much-well-see-it-twice.html", "note": "Recap describing the claymation cast holiday-card title sequence and green-to-red seats" },
+        { "url": "https://www.imdb.com/title/tt14968638/trivia/?item=tr5885263", "note": "IMDb trivia on the themed claymation opening credits" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-standalone-episode-origin",
+      "type": "production",
+      "title": "The Christmas episode exists because Apple added two episodes",
+      "detail": "Season 2 was originally plotted as 10 episodes; after the writers' room had broken that arc, Apple expanded the order to 12, and the team filled the gap with two largely standalone episodes -- this Christmas one among them -- designed to sit in the season's quieter stretch before the back-half drama escalates. That origin explains the episode's character-over-plot, vignette structure: it is deliberately a breather/holiday special rather than a story-driving chapter, which is unusual for prestige streaming TV. Writer Joe Kelly has described these as standalones meant to fill the space in the season's timeline.",
+      "moment": "Behind the scenes: when Apple grew the Season 2 order from 10 to 12 episodes, the writers added two standalone installments, including this Christmas-set one, to bridge the season's calmer middle.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Season 2 extended from 10 to 12; two standalone episodes added, including the Christmas one" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-christmas-episode-august-why/", "note": "Explains the standalone Christmas episode and the extended episode order" },
+        { "url": "https://www.avclub.com/ted-lasso-was-right-to-do-a-christmas-episode-and-shou-1847493865", "note": "On the episode as a deliberate standalone holiday installment" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-sam-santa-endurance",
+      "type": "philosophy",
+      "title": "Sam defends Santa: endurance over speed",
+      "detail": "When one of the Higgins boys announces he has worked out that Santa can't be real -- no one could deliver to the whole world in a single night -- Sam Obisanya talks him back into wonder by reframing the logistics: it isn't one night everywhere at once, it's the world divided into 24 time zones, so Santa's real gift is not blinding speed but sustained endurance across all of them. Beyond the gag, it's a small, genuine piece of practical wisdom the show likes -- that the impressive feats are usually less about one burst of brilliance than about steady, patient persistence -- and a gentle model of preserving a child's belief without lying to him.",
+      "moment": "Told by a Higgins boy that Santa must be fake because no one could circle the globe in a night, Sam reframes it: with 24 time zones the task is spread out, so Santa's true strength is endurance, not speed.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Carol_of_the_Bells", "note": "Sam tells the Higgins boy Santa's power is endurance across 24 time zones, not speed" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells", "note": "Recap of the Sam/Santa time-zones-and-endurance conversation" },
+        { "url": "https://www.npr.org/2021/08/13/1027251353/ted-lasso-recap-season-2-episode-4-at-christmas-sam-gets-his-goat", "note": "NPR recap covering Sam at the Higgins dinner" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-higgins-open-house-chosen-family",
+      "type": "theme",
+      "title": "The Higginses' open house as chosen family",
+      "detail": "Higgins reveals that every year he and his wife Julie open their home on Christmas to any Richmond player who can't get back to their own family -- and that in past years almost no one has come. This year, the international players turn up in force, each bringing food and drink from home (Sam brings a Nigerian jollof rice dish; others bring their own traditions). The crowded, joyful house dramatizes the episode's central idea: family is partly something you choose and build, and the cure for holiday loneliness is making sure nobody is left alone. It's the warm counterweight to Ted's solitary, melancholy Christmas running in parallel.",
+      "moment": "Higgins opens his house, as he does every year, to players with nowhere to go for Christmas; this time the whole international contingent arrives with homemade food, turning a usually empty gathering into a full found-family feast.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Higgins's annual open house for players who can't get home; players arrive with food" },
+        { "url": "https://fangirlish.com/2021/08/13/ted-lasso-2x04-review-carol-of-the-bells/", "note": "Review framing Team Richmond as a chosen family and the no-one-alone theme" },
+        { "url": "https://www.npr.org/2021/08/13/1027251353/ted-lasso-recap-season-2-episode-4-at-christmas-sam-gets-his-goat", "note": "Recap of the Higgins gathering and the players bringing dishes from home" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-lonely-christmas-depression",
+      "type": "theme",
+      "title": "Holiday cheer over a quiet ache",
+      "detail": "For all its caroling and warmth, the episode's emotional core is loneliness: it is Ted's first Christmas since his divorce was finalized, his FaceTime with his son fizzles when Henry gets distracted by his gift, and he sinks into the empty-flat blues before Rebecca pulls him out. Critics read the whole cheerful surface as a deliberate cover for a 'blue Christmas' -- consistent with Season 2's larger interest in depression and the limits of relentless positivity. It's a useful throughline for the gift app: the episode argues that the antidote to that ache isn't forced merriment but other people showing up for you. Pairs with the Higgins open-house theme (that one is the communal answer; this one is the private wound).",
+      "moment": "Beneath the songs and lights, Ted spends his first post-divorce Christmas aching and alone after a short, distracted call with his son -- until Rebecca arrives to draw him back out into the world.",
+      "sources": [
+        { "url": "https://www.indiewire.com/features/general/ted-lasso-christmas-episode-review-carol-of-the-bells-1234657798/", "note": "Indiewire: the holiday special hides a 'blue Christmas' / loneliness behind the cheer" },
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Ted's first Christmas since the divorce; the distracted FaceTime; Rebecca intervenes" },
+        { "url": "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-4-carol-of-the-bells-recap/", "note": "Review on the episode's melancholy underpinning Ted's storyline" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-waddingham-darlene-love",
+      "type": "trivia",
+      "title": "Hannah Waddingham really sings the street-corner carol",
+      "detail": "In the climactic busking/caroling scene, Rebecca and Ted join a street band on the Darlene Love standard 'Christmas (Baby Please Come Home)' (1963) -- and Hannah Waddingham, who plays Rebecca, is a genuine, decorated stage singer doing her own vocals, not dubbed. Waddingham is the daughter of a professional opera singer and a long-time West End leading lady, so the moment lets a real musical-theatre voice loose inside the show. (She later built an entire Apple TV+ Christmas special around this strength, even re-performing the song.) A nice production grace note for an episode literally named after a carol.",
+      "moment": "Out on the street with a band of buskers, Rebecca and Ted sing 'Christmas (Baby Please Come Home)' -- with Hannah Waddingham, a trained West End performer, doing her own singing.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Ted and Rebecca sing 'Christmas (Baby Please Come Home)' with a street band in the episode" },
+        { "url": "https://www.imdb.com/title/tt14968638/soundtrack/", "note": "Soundtrack listing including 'Christmas (Baby Please Come Home)'" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-features/hannah-waddingham-christmas-special-ted-lasso-reunion-1235665218/", "note": "On Waddingham's West End/opera-trained singing background and her own Christmas special" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e4-rebecca-bantr-setup",
+      "type": "callback",
+      "title": "Rebecca's mystery texter is quietly seeded here",
+      "detail": "Threaded through the episode is Rebecca trading flirty anonymous messages with a stranger on the Bantr dating app -- a setup that pays off two episodes later when the mystery man is revealed (against viewer expectation) to be one of her own players, Sam Obisanya. Direction: this episode SETS UP that reveal. Worth noting for an annotation only with a spoiler caveat, because understanding its significance depends on the later 'who it is' twist. FLAG/SPOILER: identifying the texter as Sam is a Season-2 spoiler; a reader-facing card should either stay vague ('a mystery admirer is seeded') or be gated, per the project's spoiler handling.",
+      "moment": "Amid the Christmas plotlines, Rebecca keeps exchanging anonymous messages with a stranger on the Bantr app -- a thread the show is deliberately planting for a later reveal.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)", "note": "Rebecca's Bantr messaging subplot seeded in this episode" },
+        { "url": "https://popculture.com/streaming/news/ted-lasso-season-2-episode-6-rebecca-mystery-man-bantr-sam-revealed/", "note": "Confirms the Bantr mystery man is revealed as Sam in Episode 6 (payoff of this setup)" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    }
+  ]
+}

@@ -139,9 +139,14 @@ The reviewer drafts this for every included fact. These are exactly the fields
   "grounding": 5,
   "groundingStatus": "verified | attributed | partial | unverified | disputed",
   "groundingNotes": "Short note (mirror verification_notes).",
-  "sourcesChecked": [ "https://…" ]
+  "sourcesChecked": [ "https://…" ],
+  "order": 1
 }
 ```
+
+`order` is **optional** and set by the human curator, not the reviewer: an
+integer giving the card's position within its episode (ascending) so the page
+reads in a sensible narrative order. Omit it and the card sorts by `interest`.
 
 ### Mapping reviewed fact → card
 
@@ -160,7 +165,8 @@ The reviewer drafts this for every included fact. These are exactly the fields
 `index.html` reads these at render time:
 
 - **Cards with `grounding` < 3 are withheld from the reader.**
-- Displayed cards are **sorted by `interest`, highest first.**
+- Displayed cards are **sorted by `interest`, highest first** — unless the
+  curator gives the episode an explicit `order` (then they read in that order).
 
 So withhold rather than inflate. A fascinating but unverifiable fact is
 excluded, not ranked highly.

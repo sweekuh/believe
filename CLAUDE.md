@@ -17,15 +17,23 @@ philosophy or plot facts to fill an episode.
 ## Architecture (the parts that span files)
 
 - **`index.html`** is the whole app: one IIFE `fetch`es `./episodes.json`, builds
-  the episode `<select>`, and renders cards into the prototype's markup. Key
-  behaviors that are easy to break:
+  the season + episode `<select>`s, and renders cards into the prototype's markup.
+  Key behaviors that are easy to break:
+  - **Two-level picker**: a **season** `<select>` and an **episode** `<select>`.
+    Changing the season repopulates the episode list and jumps to its first
+    episode (`selectSeason()` → `buildEpisodePicker()` → `selectEpisode()`). The
+    last-viewed season *and* episode persist (`believe:lastSeason` /
+    `believe:lastEpisode`) and are both restored on load.
   - **Re-gate on every episode switch** — a new episode's cards stay hidden
     behind the spoiler button until tapped. `selectEpisode()` resets this.
   - **Display contract** (`displayCards()` + the `GROUNDING_MIN` /
     `DEFAULT_INTEREST` constants at the top of the script): cards with
-    `grounding` < 3 are **withheld from the reader**, and the rest are **sorted
-    by `interest`, highest first**. Backward-compatible — unscored cards show and
-    sort neutrally.
+    `grounding` < 3 are **withheld from the reader**. Order is **curated per
+    episode** when any card carries an integer `order` (ascending, so a page
+    reads intros-before-the-cards-that-reference-them); episodes with no `order`
+    fall back to **most-interesting-first** (`interest`). Ties break by interest
+    then original index. Backward-compatible — unscored/unordered cards sort
+    neutrally.
   - Notes persist in `localStorage` keyed `believe:note:{card.id}`, so **card
     `id`s are stable and must never be reused/reindexed.**
   - **Display options** (`setupDisplayOptions()`): a "Display options" panel
@@ -42,11 +50,16 @@ philosophy or plot facts to fill an episode.
   banner / torn-paper cards live here and are mirrored in `index.html`. It
   reflects the **default** theme + text size (high contrast off, scale 1); the
   display options layer on top of that baseline and aren't in the reference.
-- **`episodes.json`** is the only content file. Card schema and the optional
-  scoring fields (`grounding`, `interest`, `category`, `groundingStatus`,
-  `groundingNotes`, `sourcesChecked`) are documented in `README.md` and
-  `docs/facts-schema.md`. E1 has 5 verified cards; E2–E10 are "coming soon"
-  placeholders being backfilled.
+- **`episodes.json`** is the only content file. Its top level is
+  `{ show, fromMom, seasons: [ { season, episodes: [...] } ] }` — a `seasons`
+  array, each holding that season's `episodes`. (The app also tolerates a legacy
+  single-season `{ season, episodes }` file via `normalizeData()`.) Card schema
+  and the optional scoring fields (`grounding`, `interest`, `category`,
+  `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
+  `README.md` and `docs/facts-schema.md`. Both seasons are fully written
+  (Season 1: 10 episodes; Season 2: 12 episodes; ~5 verified cards each, built
+  through the content pipeline). The "coming soon" placeholder path stays in the
+  app for any future season.
 
 ## Content pipeline (how cards get written)
 
@@ -76,7 +89,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 21)
+node tools/verify.mjs                # run all checks (currently 37)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

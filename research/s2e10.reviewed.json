@@ -1,0 +1,398 @@
+{
+  "episode": { "season": 2, "number": 10, "title": "No Weddings and a Funeral" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification, handling the grief/funeral material with care. WEBFETCH STATUS: WebFetch returned HTTP 403 on every URL attempted (Wikipedia episode page, TV Tropes S2E10 recap, Television Academy MJ Delaney bio, LuxuryLondon locations), exactly as the briefing warned. No primary page opened, so per the brief I CAP grounding at 4 for every fact and rest each verdict on corroboration across MULTIPLE INDEPENDENT WebSearch result summaries from different domains (Wikipedia-sourced snippets, Rolling Stone, NPR, TVLine, ScreenRant, Collider, TheWrap, Upworthy, Cinemablend, Cheat Sheet, CarterMatt, Fandom-sourced snippets, fanbolt, luxurylondon, Variety, Quote Investigator). FLAGGED-SHAKY OUTCOMES: (1) Title flip of 'Four Weddings and a Funeral' = solid/confirmed; the 'Love Actually musical-funeral echo' is widely repeated (incl. Wikipedia-sourced snippet) but is a descriptive critics'/encyclopedic reading with NO located creator-confirmed intent -- folded into the title card as 'recaps also note,' not asserted as deliberate homage. (2) Nate/Rupert whisper: the on-screen gesture is real in S2E10, but the famous 'You're welcome' is a LATER reveal/gloss (Nick Mohammed, tied to the S2 FINALE arc) and is deliberately withheld here -- I do NOT put the words in the moment; the card-less fact scopes it as a silent planted seed, and it fails the gate on score anyway. (3) 'Never Gonna Give You Up' eulogy singalong = rock-solid; Hannah Waddingham singing live + Rick Astley's emotional reaction video praising her by name + Waddingham's fan reply = confirmed across TheWrap/Collider/Upworthy/Cinemablend. (4) 'Where words fail, music speaks' independently confirmed as a COMMONLY MISATTRIBUTED saying (popularly to Hans Christian Andersen; Quote Investigator traces the related 'where words leave off, music begins' to Heinrich Heine and earlier to an 1835 Henry Russell Cleveland essay) -- treated as illustrative/attributed, Andersen NEVER asserted as a sourced citation; verdict partially-confirmed on that basis. (5) MJ Delaney's directing Emmy: confirmed she WON the 2022 Outstanding Directing for a Comedy Series Emmy for THIS specific episode (her S1 nomination was for 'The Hope That Kills You'); writer Jane Becker was Emmy-nominated for writing this episode. (6) Low-confidence items: Cindy Clawford = confirmed (spelling and S2E10 placement corroborated, Cindy Crawford pun); Strawberry Hill House = upgraded from single fan-wiki to multi-source (fanbolt + luxurylondon both name it for the library/vestry/stained-glass-FaceTime scenes, with St Andrew's Church Kingsbury for the service) -> partially-confirmed; Celeste's 'Strange' in S2E10 = UNVERIFIED -- no reputable recap confirms it plays here (only Tunefind/IMDb soundtrack listings and one listicle, none openable), and 'Strange' is firmly an S1E7 'Make Rebecca Great Again' cue, so the 'it returns for the funeral' callback could not be substantiated -> excluded. (7) Ted's-father callback seed independently confirmed as S1E8 'The Diamond Dogs' (the darts monologue: father died when Ted was 16), NOT S1E10; the S2 suicide reveal is this episode (S2E10), and Wikipedia commonly cross-references the panic-attack/Sharon arc. DEDUP: research/s2e10.* did not exist before this run; against episodes.json, S1's Celeste 'Strange' card is a SEPARATE S1 placement -- moot here since the S2E10 'Strange' callback is excluded as unverified.",
+  "facts": [
+    {
+      "id": "s2e10-title-four-weddings",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The title 'No Weddings and a Funeral' inverting Richard Curtis's 1994 'Four Weddings and a Funeral' (keeping only the funeral, which is what the episode delivers) is confirmed across many independent summaries including the Wikipedia-sourced snippet, Rolling Stone, and Collider. The added 'Love Actually musical-wedding-scene variation' is widely repeated (incl. the Wikipedia-sourced snippet) but is descriptive/critical, with NO located creator statement of deliberate homage -- presented in the card as an observation, not asserted intent. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-10-weddings-funeral-1230302/",
+        "https://collider.com/ted-lasso-wins-outstanding-comedy-series-emmys-2022/",
+        "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-title-four-weddings",
+        "tag": "A title turned inside out",
+        "title": "No Weddings and a Funeral",
+        "moment": "The episode about burying Rebecca's father borrows its name from Richard Curtis's 1994 rom-com, flipping it: the weddings are gone, and only the funeral is left -- which is exactly what the hour delivers.",
+        "idea": "A wink at Curtis's <em>Four Weddings and a Funeral</em> that quietly resets the show's romantic register for grief. Recaps also note the funeral singalong rhymes with the surprise wedding-band scene in Curtis's <em>Love Actually</em> -- a lovely echo, though that one is a viewer's reading, not confirmed intent.",
+        "why": "Notice how a comedy of weddings gets turned toward death and forgiveness. The borrowed title sets you up for romance and then hands you a graveside instead.",
+        "source": "Recaps and encyclopedic summaries (Rolling Stone, NPR, Collider) noting the title nods to Richard Curtis's <em>Four Weddings and a Funeral</em>, with a <em>Love Actually</em> echo in the funeral singalong.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Four Weddings title flip confirmed across multiple summaries; the Love Actually echo is a critics' reading, not creator-confirmed. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-10-weddings-funeral-1230302/",
+          "https://collider.com/ted-lasso-wins-outstanding-comedy-series-emmys-2022/",
+          "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-never-gonna-give-you-up",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across many independent summaries (ScreenRant, NPR, Rolling Stone, TVInsider, Pajiba, Wikipedia-sourced snippet): unable to deliver a conventional eulogy, Rebecca quietly begins Rick Astley's 1987 'Never Gonna Give You Up,' Ted picks up the next line when she falters, and the mourners carry her to the end. Independently corroborated that the song is seeded that morning (Deborah blasts it; Rebecca says she hates it, Deborah says it makes her happy), so the reprise turns a scorned song into the vehicle for grief. The earnest 'rickroll' framing is widely noted. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-funeral-rebecca-rick-astley-sing-reason/",
+        "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+        "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e10-never-gonna-give-you-up",
+        "tag": "A pop song as a prayer",
+        "title": "The funeral singalong",
+        "moment": "Standing to eulogize her father, Rebecca finds no words -- so she softly starts the cheesy pop song her mother loves. Ted, arriving late, takes up the next line, and the whole church joins until she can finish.",
+        "idea": "The most famous bait-and-switch on the internet, the 'rickroll,' is deployed in dead earnest: a song long used as a prank becomes a sincere act of communal grief and a step toward forgiving a flawed parent.",
+        "why": "Watch the setup pay off -- that morning Rebecca says she hates the song while her mother says it makes her happy. The joke and the heartbreak are the same three minutes of music.",
+        "source": "Recaps (ScreenRant, NPR, TVInsider) of Rebecca singing Rick Astley's <em>Never Gonna Give You Up</em> at the funeral, seeded by her mother playing it that morning.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Eulogy singalong and its morning setup confirmed across many independent recaps. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-funeral-rebecca-rick-astley-sing-reason/",
+          "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+          "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-waddingham-sang-live",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across TheWrap, Collider, Upworthy and Cinemablend: Hannah Waddingham (a West End-trained singer) performed the funeral vocal herself, and after the episode aired Rick Astley posted an emotional reaction video saying he was 'completely blown away,' praising Waddingham by name; Waddingham, a fan, replied that she had messaged him to thank him. A rare case of the original artist publicly, emotionally endorsing a dramatic reuse of his signature song. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://www.thewrap.com/rick-astley-completely-blown-away-by-ted-lasso-rick-roll-just-amazing/",
+        "https://collider.com/rick-astley-ted-lasso-episode-reaction/",
+        "https://www.upworthy.com/rick-astley-ted-lasso"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e10-waddingham-sang-live",
+        "tag": "Sung for real -- and Astley wept",
+        "title": "Hannah Waddingham's own voice",
+        "moment": "The trembling vocal at the funeral is Waddingham actually singing, not the record. After the episode aired, Rick Astley filmed a teary response saying he was completely blown away and praised her by name; she answered, as a fan, that she'd messaged him.",
+        "idea": "A trained West End singer carries the scene live, which is why it lands as raw rather than slick -- and the song's own author publicly, emotionally blessed the reuse, a rare thing for an artist whose hit is best known as an internet prank.",
+        "why": "Knowing it is her real voice changes the scene: the cracks are performance, not auto-tune. Astley's reaction is a small grace note about a goofy song getting its dignity back.",
+        "source": "Coverage of Rick Astley's reaction video and Waddingham's reply (TheWrap, Collider, Upworthy); Waddingham praised by name, the singing performed live.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Live vocal, Astley's emotional reaction praising Waddingham, and her fan reply confirmed across multiple entertainment outlets. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.thewrap.com/rick-astley-completely-blown-away-by-ted-lasso-rick-roll-just-amazing/",
+          "https://collider.com/rick-astley-ted-lasso-episode-reaction/",
+          "https://www.upworthy.com/rick-astley-ted-lasso"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-ted-father-suicide",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across TVLine, NPR and the Wikipedia-sourced summary: triggered by the impending funeral, Ted has a panic attack and calls Dr. Sharon, who comes to him; he reveals for the first time that his father died by suicide when Ted was a teenager -- Ted was in the house, found the body, made the emergency calls, and never attended the funeral. This pays off the season's panic-attack / Sharon-therapy arc and reframes Ted's relentless positivity. Independently checked that the S1 seed (father died when Ted was 16) is S1E8 'The Diamond Dogs' (the darts monologue), not S1E10. Season-scope. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-10-ted-father-death-explained-1234721867/",
+        "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E10NoWeddingsAndAFuneral"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 87,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e10-ted-father-suicide",
+        "tag": "The wound under the smile",
+        "title": "Ted tells Sharon the truth",
+        "moment": "Unable to face the funeral, Ted has a panic attack and calls his therapist, who comes to him. He finally says aloud that as a teenager he lost his father to suicide -- he was the one who found him, who made the calls -- and that he never went to the funeral.",
+        "idea": "The show's gentlest man has been running from grief and anger the whole time. His bottomless kindness is reframed as partly a response to a father he feels 'quit' on the family -- optimism as armor over an old wound.",
+        "why": "This is the payoff to a season of panic attacks and therapy. Heads up: it leans on the Dr. Sharon arc, so it carries some spoiler weight for Season 2 as a whole. Handle gently -- it is the show's most serious moment.",
+        "source": "Recaps (TVLine, NPR) and the episode recap summary of Ted's panic attack and his confession to Dr. Sharon about his father's suicide.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted's confession to Sharon confirmed across multiple recaps; the S1 seed is independently placed at S1E8 'The Diamond Dogs.' No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-10-ted-father-death-explained-1234721867/",
+          "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E10NoWeddingsAndAFuneral"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-grief-and-forgiving-a-parent",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across The Spool, the Wikipedia-sourced summary, NPR and AIPT: the episode's throughline is mourning a parent you have not forgiven. Rebecca has resented her father since childhood (she caught his infidelity); Ted partly hates his for 'quitting.' Rebecca's mother reveals she always knew about the affair and stayed out of love, modeling acceptance of an imperfect person, while Sharon helps Ted recover the good in his father. Grief is rendered as holding contradiction, not tidy closure. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-10-recap/",
+        "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+        "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-grief-and-forgiving-a-parent",
+        "tag": "Mourning someone you resent",
+        "title": "Grief without tidy closure",
+        "moment": "At and around the graveside, Rebecca wrestles with a lifetime of anger at her unfaithful father while Ted reckons with hating his for giving up -- two people learning to grieve someone they never fully forgave.",
+        "idea": "Forgiveness here is not absolution. Rebecca's mother says she always knew about the affair and chose to stay out of love; Sharon helps Ted recall what was good in his dad. The work of grief is holding love and resentment for the same person at once.",
+        "why": "Watch how the episode refuses a neat reconciliation. It offers acceptance of an imperfect parent instead of pretending the hurt was never real -- a more honest picture of loss.",
+        "source": "Recaps and reviews (The Spool, NPR, TVInsider) framing the episode around grieving and partly forgiving an imperfect parent.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Central grief-and-forgiveness theme for both Rebecca and Ted confirmed across multiple recaps. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-10-recap/",
+          "https://www.npr.org/2021/09/24/1039757839/ted-lasso-recap-season-2-episode-10-love-and-death",
+          "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-eulogy-when-words-fail",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The on-screen beat is confirmed (Rebecca abandons a prepared eulogy for a shared song the room finishes with her -- ScreenRant, NPR, Rolling Stone). The underlying idea that 'where words fail, music speaks' is real but the SAYING is independently confirmed as commonly MISATTRIBUTED: popularly credited to Hans Christian Andersen on quote sites, but Quote Investigator traces the related 'where words leave off, music begins' to Heinrich Heine and earlier to an 1835 Henry Russell Cleveland essay -- no genuine Andersen source. Treated as illustrative/attributed; Andersen is NOT asserted as a citation. Verdict held to partially-confirmed for that reason. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://quoteinvestigator.com/2020/09/13/words-leave/",
+        "https://screenrant.com/ted-lasso-funeral-rebecca-rick-astley-sing-reason/",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-10-weddings-funeral-1230302/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-eulogy-when-words-fail",
+        "tag": "When words fail",
+        "title": "The eulogy she couldn't give",
+        "moment": "Asked to speak for her father, Rebecca discovers that no prepared words will hold what she feels -- so she reaches for a song the whole room can finish with her instead.",
+        "idea": "Sometimes the most honest thing at a funeral is to abandon the speech. The scene dramatizes an old intuition -- often phrased 'where words fail, music speaks' -- and makes grief something carried together, not performed alone.",
+        "why": "That saying is itself famously hard to pin down: it floats around attributed to Hans Christian Andersen, but no real source for him exists, so enjoy it as a feeling, not a quotation. What's solid is the scene's move from language to melody.",
+        "source": "The eulogy-into-song beat per recaps (ScreenRant, Rolling Stone); the 'where words fail, music speaks' line is a popularly misattributed saying (Quote Investigator), not a verified Andersen quote.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "attributed",
+        "groundingNotes": "The on-screen beat is confirmed; the 'where words fail, music speaks' line is a commonly misattributed saying (often to Andersen, no real source), used illustratively. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://quoteinvestigator.com/2020/09/13/words-leave/",
+          "https://screenrant.com/ted-lasso-funeral-rebecca-rick-astley-sing-reason/",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-10-weddings-funeral-1230302/"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-nate-rupert-whisper",
+      "type": "callback",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The on-screen gesture is confirmed (CarterMatt, Cheat Sheet, Wikipedia-sourced snippet): after handing Rebecca his wife's Richmond shares, Rupert crosses to Nate, whispers something inaudible, and pats his shoulder -- played as ominous, a planted seed for Nate's heel turn. CRITICALLY, the famous 'You're welcome' is a LATER reveal/gloss from Nick Mohammed and is tied to the SEASON 2 FINALE arc, NOT spoken aloud in S2E10; I do not put those words in the moment. Because the content is deliberately withheld and only resolves later (series-scope), and the interest_score falls below threshold, this is excluded. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://cartermatt.com/451402/ted-lasso-season-2-episode-10-what-did-rupert-whisper-to-nate/",
+        "https://www.cheatsheet.com/news/ted-lasso-what-rupert-whispered-nate-end-season-2-finale.html/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 1 },
+      "interest_score": 56,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s2e10-head-improv-whisper",
+      "type": "production",
+      "verdict": "unverified",
+      "verification_notes": "The only support I could locate for the specific anecdote -- that in the foreboding take Anthony Stewart Head was murmuring silly, obscure things off-camera to make Nick Mohammed laugh -- traces to a single Cheat Sheet write-up of Mohammed's comments. The AV Club interview exists and covers Nate's heel turn and the Rupert dynamic, but I could not independently extract the 'whispered funny things to crack him up' claim from it; the 'unscripted line' element also overlaps with the finale rather than this episode. Single-thread -> grounding capped at 2 and verdict unverified; excluded.",
+      "verified_sources": [
+        "https://www.cheatsheet.com/news/ted-lasso-what-rupert-whispered-nate-end-season-2-finale.html/"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 4, "relevance": 2, "spoiler_safety": 2 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s2e10-rebecca-sam-revealed",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the Wikipedia-sourced summary, ReadySteadyCut and PopCulture: the episode opens with Rebecca and Sam waking together in secret; later, pressed by Keeley and Sassy who sense she is seeing someone, Rebecca confirms it is Sam (Keeley guesses from his height). Pays off the season's anonymous-messaging 'Bantr' courtship and sets up the age-gap/power-imbalance strain. Season-scope. No primary page opened (all 403), so grounding capped at 4. Interest_score below threshold -> excluded.",
+      "verified_sources": [
+        "https://readysteadycut.com/2021/09/29/recap-ted-lasso-season-2-episode-10-apple-tv-plus-series/",
+        "https://popculture.com/streaming/news/ted-lasso-season-2-episosde-10-rebecca-sam-relationship-big-decision/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 2 },
+      "interest_score": 55,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s2e10-rupert-shares-gift",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the Wikipedia-sourced summary, TVInsider and CarterMatt: at the funeral Rupert tells Rebecca he has persuaded his wife Bex to surrender her AFC Richmond shares to Rebecca at no cost, framed as no-strings -- which, from the man who tried to wreck the club, immediately reads as suspect and is bundled with the whisper to Nate. The 'it was a strategic exit / West Ham' motive is later-episode payoff (series-scope) and is kept OFF the card; the card stays with the suspicious gesture as shown. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/",
+        "https://cartermatt.com/451402/ted-lasso-season-2-episode-10-what-did-rupert-whisper-to-nate/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 2 },
+      "interest_score": 62,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-rupert-shares-gift",
+        "tag": "A gift with a catch",
+        "title": "Rupert's suspicious generosity",
+        "moment": "At the funeral, Rupert approaches the grieving Rebecca to announce that his wife is handing over her Richmond shares to her, free and clear -- an out-of-character kindness from a man who spent years trying to ruin the club.",
+        "idea": "Coming from Rupert, 'no strings attached' is the reddest of flags. The scene trains you to distrust his charm, and the gift sits right beside a quiet, ominous word he has for Nate.",
+        "why": "Watch how the show stages a kindness so it feels like a threat. Heads up: why he's really offloading the club is something the series only explains later, so take the gift here at face value.",
+        "source": "Recaps (TVInsider, CarterMatt) of Rupert giving Bex's shares to Rebecca at the funeral, framed as suspect.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The no-cost shares gesture confirmed across recaps; the strategic motive is later-episode payoff and kept off the card. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.tvinsider.com/1015124/ted-lasso-season-2-episode-10-recap-no-weddings-and-a-funeral/",
+          "https://cartermatt.com/451402/ted-lasso-season-2-episode-10-what-did-rupert-whisper-to-nate/"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-cindy-clawford-callback",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the Fandom character page and S2E10 recap snippets (TV Tropes recap, Primetimer thread): amid the funeral-day talk of death, Higgins muses that the afterlife might be a world where humans are the pets and recalls his late cat, Cindy Clawford -- a pun on supermodel Cindy Crawford -- who died the previous season (described as a 20-year-old cat), hoping to rest by the fire at her feet. Spelling 'Cindy Clawford' and the S2E10 placement both corroborated. No primary page opened (all 403), so grounding capped at 4.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Cindy_Clawford",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E10NoWeddingsAndAFuneral",
+        "https://forums.primetimer.com/topic/122396-s02e10-no-weddings-and-a-funeral"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-cindy-clawford-callback",
+        "tag": "A cat named for a supermodel",
+        "title": "Higgins and the afterlife",
+        "moment": "On the day of the funeral, Higgins gently riffs on what comes after -- maybe a world where people are the pets -- and remembers his late cat, Cindy Clawford, hoping to curl up by the fire at her paws.",
+        "idea": "A tiny, tender bit of continuity: the cat's punny name (after supermodel Cindy Crawford) and her earlier death resurface to humanize the episode's grief with a smile rather than a speech.",
+        "why": "Easy to miss in a heavy hour. It's the show's habit of letting a small, silly detail carry real warmth -- comfort smuggled in through a cat joke.",
+        "source": "Ted Lasso Fandom 'Cindy Clawford' page and S2E10 recap notes (TV Tropes, Primetimer) on Higgins's afterlife musing.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Cindy Clawford reference and its S2E10 placement confirmed; name is a Cindy Crawford pun. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Cindy_Clawford",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E10NoWeddingsAndAFuneral",
+          "https://forums.primetimer.com/topic/122396-s02e10-no-weddings-and-a-funeral"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-delaney-emmy-win",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across multiple independent sources (Collider, Variety, the Wikipedia MJ Delaney snippet) that MJ Delaney WON the 2022 Primetime Emmy for Outstanding Directing for a Comedy Series for THIS specific episode, 'No Weddings and a Funeral' (her Season 1 directing nomination was for a different episode, 'The Hope That Kills You') -- so the winning submission was this episode, not merely her being season director. The episode was written by Jane Becker, who was Emmy-nominated for writing it. No primary page opened (Television Academy bio 403'd), so grounding capped at 4.",
+      "verified_sources": [
+        "https://collider.com/ted-lasso-wins-outstanding-comedy-series-emmys-2022/",
+        "https://variety.com/2023/tv/news/ted-lasso-director-mj-delaney-caa-exclusive-1235507402/",
+        "https://en.wikipedia.org/wiki/MJ_Delaney"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-delaney-emmy-win",
+        "tag": "An award-winning hour",
+        "title": "The Emmy-winning direction",
+        "moment": "Off screen, this episode is the work of writer Jane Becker and director MJ Delaney -- who intercuts the funeral with Ted's therapy session so the two losses speak to each other.",
+        "idea": "That direction won the 2022 Emmy for Outstanding Directing for a Comedy Series for this exact episode, and Becker was nominated for the script -- recognition for turning a pop-song singalong and a panic attack into one of the show's finest hours.",
+        "why": "If the funeral hour feels especially well-built, that's not an accident. Notice how the cross-cutting lets Rebecca's graveside and Ted's living room land as a single emotional beat.",
+        "source": "Reporting on the 2022 Emmys (Collider, Variety) and the MJ Delaney profile: Delaney won Outstanding Directing for a Comedy Series for this episode; Jane Becker wrote it and was Emmy-nominated.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Delaney's directing Emmy win for this specific episode confirmed across multiple sources; Becker's writing nomination confirmed. No primary page opened (all 403), so grounding capped at 4.",
+        "sourcesChecked": [
+          "https://collider.com/ted-lasso-wins-outstanding-comedy-series-emmys-2022/",
+          "https://variety.com/2023/tv/news/ted-lasso-director-mj-delaney-caa-exclusive-1235507402/",
+          "https://en.wikipedia.org/wiki/MJ_Delaney"
+        ]
+      }
+    },
+    {
+      "id": "s2e10-strange-callback",
+      "type": "callback",
+      "verdict": "unverified",
+      "verification_notes": "Could not substantiate that Celeste's 'Strange' actually plays in S2E10. The song is firmly an EARLIER cue -- S1E7 'Make Rebecca Great Again,' under Ted's panic attack (independently confirmed). For S2E10, the only support is soundtrack-listing aggregators (Tunefind/IMDb, which I could not open) and one Medium listicle; NO reputable recap (Rolling Stone, NPR, TV Tropes, The Spool, AwfulAnnouncing, Pajiba) mentions 'Strange' in this episode, and several emphasize that the dominant cue is 'Never Gonna Give You Up.' Single-thread and unopenable -> grounding capped at 1, verdict unverified; excluded.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again"
+      ],
+      "scores": { "grounding": 1, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s2e10-strawberry-hill-house",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Upgraded from the single fan-wiki note: corroborated across two independent location guides (fanbolt and luxurylondon) that the funeral-day interiors -- the library/waiting room where Rebecca, Deborah and the mourners gather, and the stained-glass backdrop for Beard's FaceTime -- were filmed at Strawberry Hill House in Twickenham (Horace Walpole's 18th-century Gothic-revival villa), while the main church service used St Andrew's Church, Kingsbury. No primary page opened (luxurylondon 403'd; read via search summaries), so grounding capped at 4 and verdict held to partially-confirmed.",
+      "verified_sources": [
+        "https://www.fanbolt.com/139490/where-is-ted-lasso-filmed-real-life-locations-from-the-appletv-series/",
+        "https://luxurylondon.co.uk/culture/entertainment/ted-lasso-filming-locations-london/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e10-strawberry-hill-house",
+        "tag": "A Gothic villa stands in",
+        "title": "Where the funeral was filmed",
+        "moment": "The ornate library and stained-glass rooms around the funeral -- where the mourners wait, and where Beard takes a FaceTime -- were filmed at Strawberry Hill House in Twickenham, Horace Walpole's 18th-century Gothic-revival villa.",
+        "idea": "The somber set piece borrows its hushed, churchy grandeur from a real architectural folly, while the service itself used a separate parish church. A small bit of stagecraft behind the scene's heavy mood.",
+        "why": "If the interiors feel almost too beautifully gloomy, that's a famous Gothic-revival house doing the work. A nice detail for a rewatch, and a real place you can visit.",
+        "source": "Location guides (Fanbolt, Luxury London) identifying Strawberry Hill House, Twickenham for the funeral interiors, with St Andrew's Church, Kingsbury for the service.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Strawberry Hill House corroborated across two location guides; no primary page opened (all 403), so grounding capped at 4 and verdict held to partial.",
+        "sourcesChecked": [
+          "https://www.fanbolt.com/139490/where-is-ted-lasso-filmed-real-life-locations-from-the-appletv-series/",
+          "https://luxurylondon.co.uk/culture/entertainment/ted-lasso-filming-locations-london/"
+        ]
+      }
+    }
+  ]
+}

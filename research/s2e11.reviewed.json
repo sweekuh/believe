@@ -1,0 +1,413 @@
+{
+  "episode": { "season": 2, "number": 11, "title": "Midnight Train to Royston" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "INDEPENDENT re-verification; I did not trust the candidate sources and re-derived every claim. WEBFETCH STATUS: WebFetch returned a global HTTP 403 on EVERY URL attempted this session (Wikipedia, CBC, Tunefind, HiddenRemote, TV Tropes), exactly as the briefing and the candidates file warned. NO primary page opened. Per the briefing rule, grounding is CAPPED AT 4 for every fact (no primary page read); each verdict rests on corroboration across MULTIPLE INDEPENDENT WebSearch result summaries from DIFFERENT domains (e.g. NPR, Rolling Stone, TVLine, ScreenRant, The Spool, TV Tropes, CBC/iPhoneInCanada/Curiocity, lassoism transcripts, Tunefind/moviesost/whatsong song lists, UK rail/transport sites). KEY PLACEMENT CORRECTIONS made independently of the candidates: (1) The 'Sam lets the universe decide / child in an Obisanya jersey / decides to STAY' beat is in the S2E12 FINALE 'Inverting the Pyramid of Success', NOT in S2E11. In S2E11 Akufo only MAKES the offer and Sam asks for time; multiple recaps state the episode ends with the decision unresolved (Rebecca at Sam's door). The candidate s2e11-sam-sign-from-universe is misplaced for this episode and is marked FALSE (the 'sign' does not occur here). (2) The panic attack that Nate leaks to Trent is Ted's ON-PITCH panic attack during the FA Cup match vs. Tottenham in S2E6 'The Signal' (Ted walked off the pitch mid-match) -- NOT S2E9 as the candidate's note guessed, and NOT the separate funeral-prep panic attack in S2E10 'No Weddings and a Funeral'. Corrected in s2e11-nate-leaks-panic-attack. BANKSY: confirmed as an in-show gag / hired actor playing on Banksy's real-life anonymity; NOT a real cameo. SIMARD/TREES: the real-science attribution to Suzanne Simard (UBC) is corroborated and the line lands in THIS episode (she was name-dropped and was surprised, per CBC/iPhoneInCanada/Curiocity); the underlying ecology (mycorrhizal networks / cooperation) is itself debated in the field, so the card frames it as 'the research the show invokes', not settled consensus. SUDEIKIS DANCE ANECDOTE: single-ORIGIN (one 2018 Ellen charity-game appearance) but independently visible via the Ellen/Facebook video itself plus many outlets -> grounding 3, partially-confirmed. Paraphrase only; no dialogue reproduced.",
+  "facts": [
+    {
+      "id": "s2e11-title-gladys-knight",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Both halves corroborated independently. The title as a sendup of Gladys Knight & the Pips' 'Midnight Train to Georgia' is stated by the Ted Lasso Fandom episode page and a contemporaneous review (The18). Royston is independently confirmed as a real North Hertfordshire market town on the King's Cross-Cambridge line (~36-55 min from London) via multiple UK rail/transport sources. NOTE: I could NOT corroborate the candidate's specific claim that Royston is Dr. Sharon's hometown/destination -- treat the 'who is going home' framing as the homage's theme, not a stated Sharon-Royston fact.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Midnight_Train_to_Royston",
+        "https://the18.com/en/soccer-entertainment/waiting-ball-drop-penultimate-ted-lasso-season-2-episode-was-big-tease/99986",
+        "https://www.thetrainline.com/stations/royston",
+        "https://en.wikivoyage.org/wiki/Royston"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-title-gladys-knight",
+        "tag": "A title about going home",
+        "title": "Midnight Train to Royston",
+        "moment": "The penultimate Season 2 episode -- an hour of goodbyes, with Sharon leaving and Sam weighing an offer to go -- borrows its name from Gladys Knight &amp; the Pips' 1973 soul classic about catching a train back home.",
+        "idea": "The title plays on <em>Midnight Train to Georgia</em>, a song about giving up on a far-off dream and heading back to where you belong -- and quietly asks which character here is really the one going home. Royston is also a real Hertfordshire town a short train ride from London, so the pun has a literal destination.",
+        "why": "Hold the song's theme in mind across the episode's farewells. The show keeps reframing leaving versus belonging -- and the title floats the question without answering it.",
+        "source": "Title noted as a play on Gladys Knight &amp; the Pips' 'Midnight Train to Georgia' (Ted Lasso Fandom; contemporaneous review). Royston confirmed as a real North Hertfordshire town via UK rail sources.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Gladys Knight homage corroborated across Fandom + review; Royston confirmed a real Hertfordshire town. The Sharon-is-from-Royston detail is unconfirmed and left out.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Midnight_Train_to_Royston",
+          "https://the18.com/en/soccer-entertainment/waiting-ball-drop-penultimate-ted-lasso-season-2-episode-was-big-tease/99986",
+          "https://www.thetrainline.com/stations/royston"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-trees-share-sunlight",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Independently corroborated that in THIS episode, in the coaches' office, Beard answers a credit-hungry Nate by name-dropping UBC forest ecologist Suzanne Simard and reframing the forest as a community where trees cooperate to share sunlight rather than compete for it (CBC, iPhoneInCanada, Curiocity all report Simard was name-checked on Ted Lasso S2E11 and was surprised, never having heard of the show). The real-science attribution to Simard's mycorrhizal-network research is sound; note this cooperation model is itself debated in ecology, so the card invokes 'the research the show cites' rather than asserting settled consensus.",
+      "verified_sources": [
+        "https://www.cbc.ca/news/canada/british-columbia/ubc-forestry-professor-ted-lasso-1.6205259",
+        "https://www.iphoneincanada.ca/2021/10/10/apple-tv-original-ted-lasso-name-drops-ubc-prof-in-season-2/",
+        "https://curiocity.com/a-ubc-professor-got-a-shoutout-on-apple-tvs-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e11-trees-share-sunlight",
+        "tag": "Cooperate, don't compete",
+        "title": "Beard's lesson about the trees",
+        "moment": "When Nate grumbles that he never gets credit, Beard answers sideways: we once thought trees fought each other for light, but a forest is really a community where they share it -- and he points to the real research of a forest scientist who studies how trees cooperate underground.",
+        "idea": "It is the show's whole ethic stated as ecology: a team one win from promotion thrives only if everyone shares the light instead of grabbing it. The scientist is real -- Suzanne Simard, whose work on the underground networks linking trees the episode invokes by name.",
+        "why": "Aimed straight at Nate's growing hunger for recognition. Watch him hear a parable about generosity at the exact moment his resentment is hardening -- and miss it.",
+        "source": "Beard's coaches'-office line name-checking Suzanne Simard's forest research, reported across CBC, iPhoneInCanada, and Curiocity (Simard said she'd never heard of the show before the mention).",
+        "category": "Ethics & character",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Simard name-drop and the cooperate-to-share-light framing confirmed across multiple outlets; the cooperation model is debated in ecology, so framed as the research the show invokes.",
+        "sourcesChecked": [
+          "https://www.cbc.ca/news/canada/british-columbia/ubc-forestry-professor-ted-lasso-1.6205259",
+          "https://www.iphoneincanada.ca/2021/10/10/apple-tv-original-ted-lasso-name-drops-ubc-prof-in-season-2/",
+          "https://curiocity.com/a-ubc-professor-got-a-shoutout-on-apple-tvs-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-sam-sign-from-universe",
+      "type": "theme",
+      "verdict": "false",
+      "verification_notes": "WRONG EPISODE. The beat described -- Sam's father telling him to stop searching and let a sign appear, Sam seeing a child in an 'Obisanya' Richmond shirt, and Sam DECIDING TO STAY -- occurs in the S2E12 FINALE 'Inverting the Pyramid of Success', not in S2E11. Independently confirmed via the NPR finale recap, Nerds and Beyond's S2E12 recap, and the Fandom Sam Obisanya page; multiple S2E11 recaps explicitly state E11 ends with Sam's decision UNRESOLVED (he asks Akufo for time; the episode closes on Rebecca at his door). In S2E11 Akufo only makes the pitch. Excluded as misplaced; the father/sign/decision content belongs to the finale card, not this episode.",
+      "verified_sources": [
+        "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12",
+        "https://www.nerdsandbeyond.com/2021/10/08/ted-lasso-recap-season-2-episode-12-inverting-the-pyramid-of-success/",
+        "https://ted-lasso.fandom.com/wiki/Sam_Obisanya",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E11MidnightTrainToRoyston"
+      ],
+      "scores": { "grounding": 1, "insight": 4, "surprise": 3, "relevance": 1, "spoiler_safety": 3 },
+      "interest_score": 59,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s2e11-saying-goodbye-well",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across the NPR S2E11 recap, ReadySteadyCut, and the Fandom Sharon page: Sharon (self-admittedly bad at goodbyes) tries to leave with only a letter; Ted, raw about abandonment, is hurt she'd skip the farewell and confronts her; she tells him he made her a better therapist, and he later reads the letter, whose contents are deliberately never shown to the audience. The 'not goodbye but see you later' framing is reviewer-supported. I did NOT invent the letter's contents -- they stay unseen.",
+      "verified_sources": [
+        "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+        "https://readysteadycut.com/2021/10/06/recap-ted-lasso-season-2-episode-11-apple-tv-plus-series/",
+        "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-saying-goodbye-well",
+        "tag": "How to say goodbye",
+        "title": "Ted and Sharon's farewell",
+        "moment": "Sharon, who confesses she is terrible at goodbyes, nearly slips away leaving only a letter. Ted -- whose fear of being left the season keeps probing -- is wounded and goes to find her. She tells him he made her a better therapist, and he reads the letter; we never see what it says.",
+        "idea": "A goodbye faced honestly is a form of care, not a wound to dodge. A temporary connection can still leave a permanent mark -- so you end it properly instead of vanishing.",
+        "why": "Notice that the show withholds the letter on purpose: the point isn't the words, it's that they actually say goodbye. Their reluctance to do it is exactly why it matters.",
+        "source": "NPR and ReadySteadyCut recaps of the Ted/Sharon goodbye; the letter's contents are deliberately never shown on screen.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Letter-then-confrontation goodbye and 'you made me a better therapist' confirmed across NPR, ReadySteadyCut, Fandom; letter contents unseen.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+          "https://readysteadycut.com/2021/10/06/recap-ted-lasso-season-2-episode-11-apple-tv-plus-series/",
+          "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-nsync-bye-bye-bye",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across TVLine, the NPR recap, multiple song lists (Tunefind/HiddenRemote/whatsong), and a YouTube clip of the scene: with promotion on the line, Ted spends training time drilling the squad in the choreography to NSYNC's 2000 hit 'Bye Bye Bye' as a surprise send-off for Sharon -- a literal musical goodbye -- but she leaves before it can land. Recaps single out Phil Dunster (Jamie) as the most committed dancer.",
+      "verified_sources": [
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-11-roy-keeley-break-up-nate-kiss-1234725552/",
+        "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+        "https://www.tunefind.com/show/ted-lasso/season-2/111944"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-nsync-bye-bye-bye",
+        "tag": "A literal goodbye dance",
+        "title": "The 'Bye Bye Bye' number",
+        "moment": "With the team one win from promotion, Ted burns precious training time teaching the players the dance to a turn-of-the-millennium boy-band goodbye anthem -- a surprise send-off for the departing club psychologist -- only for her to leave before the routine can be performed.",
+        "idea": "The joke is the literalism: a farewell staged as NSYNC's <em>Bye Bye Bye</em>. It's a comic counterweight set against the episode's heavier, quieter goodbyes.",
+        "why": "Watch how the silliness sits right next to real grief -- the show's signature move. And keep an eye on Jamie, whom recaps flag as the squad's most committed dancer.",
+        "source": "NSYNC's 'Bye Bye Bye' staged as Sharon's send-off, per TVLine and NPR recaps and the episode song lists (Tunefind, HiddenRemote).",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song and farewell-dance staging confirmed across recaps and multiple soundtrack listings.",
+        "sourcesChecked": [
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-11-roy-keeley-break-up-nate-kiss-1234725552/",
+          "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+          "https://www.tunefind.com/show/ted-lasso/season-2/111944"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-sudeikis-knew-the-dance",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Corroborated that Sudeikis barely had to learn the 'Bye Bye Bye' choreography because he'd already performed it in a 2018 charity dance game on 'The Ellen DeGeneres Show' (each completed routine raised money). The claim traces to a single ORIGIN -- one Ellen appearance -- but is independently visible via the Ellen/Facebook video of that appearance plus multiple outlet write-ups (CheatSheet, The Global Herald, NewsBreak). Single-origin anecdote, so grounding held to 3 and verdict partially-confirmed.",
+      "verified_sources": [
+        "https://www.cheatsheet.com/news/ted-lasso-jason-sudeikis-reason-knows-nsync-bye-bye-bye-choreography.html/",
+        "https://theglobalherald.com/entertainment/jason-sudeikis-is-very-familiar-with-nsync-choreography/",
+        "https://www.facebook.com/ellentv/videos/jason-sudeikis-was-already-so-familiar-with-nsyncs-iconic-bye-bye-bye-dance-that/3008929719364288/"
+      ],
+      "scores": { "grounding": 3, "insight": 2, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-sudeikis-knew-the-dance",
+        "tag": "He already knew the moves",
+        "title": "Why Ted nails the dance",
+        "moment": "Behind the scenes, the actor playing Ted needed almost no rehearsal for the boy-band number -- he'd performed the very same routine years earlier in a televised charity dance challenge.",
+        "idea": "A tidy bit of trivia: a Season 2 gag quietly draws on the star's prior life, where he'd already learned that exact choreography for charity (and his sketch-comedy background made the rest easy).",
+        "why": "Knowing it, the squad's loose confidence in the number reads a little differently -- the lead really had done it before.",
+        "source": "Sudeikis explained in interviews he knew the routine from a 2018 charity dance game on 'The Ellen DeGeneres Show' (CheatSheet; The Global Herald; the Ellen/Facebook clip). Single-origin anecdote.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Single-origin (one 2018 Ellen appearance) but independently visible via the Ellen video plus multiple outlets; held to partial.",
+        "sourcesChecked": [
+          "https://www.cheatsheet.com/news/ted-lasso-jason-sudeikis-reason-knows-nsync-bye-bye-bye-choreography.html/",
+          "https://theglobalherald.com/entertainment/jason-sudeikis-is-very-familiar-with-nsync-choreography/",
+          "https://www.facebook.com/ellentv/videos/jason-sudeikis-was-already-so-familiar-with-nsyncs-iconic-bye-bye-bye-dance-that/3008929719364288/"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-banksy-museum",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated via ScreenRant and the NPR/Spool recaps: during Akufo's privately emptied-museum courtship of Sam, he introduces a nondescript balding man (who then fumbles spray-paint cans) as Banksy. It is staged as a gag that leans on Banksy's real-life anonymity -- almost certainly another hired actor in Akufo's bought tableau, NOT the real Banksy. The bit is explicitly read by recaps as 'probably an actor.' I do NOT imply a real Banksy cameo.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-museum-banksy-identity/",
+        "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+        "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-banksy-museum",
+        "tag": "Money can buy a 'Banksy'",
+        "title": "The museum 'Banksy'",
+        "moment": "Wining and dining Sam in a museum he's rented out and filled with paid extras, the billionaire casually nods at a forgettable man in an ill-fitting suit and murmurs that he's Banksy -- who promptly fumbles a bag of spray cans.",
+        "idea": "An easy-to-miss flex. The joke runs on the street artist's real-life anonymity: since almost no one knows Banksy's face, the 'reveal' can never be checked -- and it's surely just another actor Akufo paid to be there.",
+        "why": "It quietly tells you everything about Akufo: with enough money he can stage anything, even a celebrity. To be clear, the real Banksy did not appear -- that's the gag.",
+        "source": "ScreenRant on the museum 'Banksy' as a hired actor leaning on Banksy's anonymity; NPR and The Spool recaps of the scene.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed as an in-show gag / planted actor playing on Banksy's anonymity; not a real cameo.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-2-museum-banksy-identity/",
+          "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+          "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-nate-kiss-and-spit",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Both beats confirmed in THIS episode across TVLine, Rolling Stone, and The Spool recaps: while shopping (Keeley for a Vanity Fair shoot, Nate for a suit), an insecure, over-inflated Nate misreads the warmth and kisses Keeley; she doesn't return it; he apologizes profusely, then retreats to a fitting room and spits at his own reflection. The self-loathing spit is a recurring visual marker of Nate's spiral. Spoiler_scope is correctly 'season': it fully reads as setup for the finale/Season 3 heel turn.",
+      "verified_sources": [
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-11-roy-keeley-break-up-nate-kiss-1234725552/",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-11-midnight-train-royston-1233292/",
+        "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-nate-kiss-and-spit",
+        "tag": "The crack widens",
+        "title": "Nate's kiss and the mirror",
+        "moment": "Out shopping with Keeley, a swollen-headed but fragile Nate misreads her encouragement and leans in for a kiss she doesn't return. He apologizes over and over -- then ducks into a fitting room and spits at himself in the mirror.",
+        "idea": "Two small, ugly tells of the resentment curdling inside Nate. The spit at his own reflection is the season's recurring shorthand for his self-disgust -- the same self-loathing that's hardening into a villain's turn.",
+        "why": "A setup, not a payoff: this seeds the finale and beyond. Watch how his neediness and shame feed each other -- the kiss is impulse, the spit is the truth.",
+        "source": "TVLine, Rolling Stone, and The Spool recaps of the Nate/Keeley kiss and the dressing-room spit.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Kiss and spit-at-reflection both confirmed in this episode across multiple recaps; reads as setup for Nate's later turn.",
+        "sourcesChecked": [
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-11-roy-keeley-break-up-nate-kiss-1234725552/",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-11-midnight-train-royston-1233292/",
+          "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-nate-leaks-panic-attack",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across the NPR S2E11 recap, PopCulture, and MEAWW: the episode closes with Trent Crimm warning Ted a story will run about his panic attack -- and, as a courtesy, naming his source as Nate. CORRECTED the callback target: the leaked panic attack is Ted's ON-PITCH attack during the FA Cup match vs. Tottenham in S2E6 'The Signal' (Ted walked off mid-match), independently verified via the S2E6 recaps/Wikipedia 'The Signal' and PopCulture's note that the story concerns the FA Cup quarterfinal -- NOT S2E9 (candidate's guess) and NOT the separate funeral-prep attack in S2E10. Spoiler_scope 'season' is right (depends on the S2E6 setup and pays into the finale).",
+      "verified_sources": [
+        "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+        "https://popculture.com/streaming/news/ted-lasso-season-2-episode-11-nate-makes-costly-decision/",
+        "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e11-nate-leaks-panic-attack",
+        "tag": "A betrayal of trust",
+        "title": "Nate is the leak",
+        "moment": "Just as Ted absorbs Sharon's departure, the journalist Trent texts him that tomorrow's paper will report he left a match earlier in the season because of a panic attack -- and, out of respect, tells him who the source was: Nate.",
+        "idea": "It turns Nate's private resentment into a real act of betrayal, weaponizing something Ted shared in confidence. The wound lands harder because it comes from inside his own coaching staff.",
+        "why": "This pays off the on-pitch panic attack from earlier in the season and the trust Ted placed in his coaches -- and sets up the finale's confrontation. The gut-punch is who told, not what was told.",
+        "source": "NPR and PopCulture recaps of the closing scene; the leaked attack is Ted's mid-match panic attack from 'The Signal' (S2E6), per that episode's coverage.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Trent naming Nate as the source confirmed across recaps; the leaked attack is the S2E6 on-pitch attack, independently verified.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/10/01/1041837683/ted-lasso-recap-season-2-episode-11-my-therapist-she-wrote-me-a-letter",
+          "https://popculture.com/streaming/news/ted-lasso-season-2-episode-11-nate-makes-costly-decision/",
+          "https://en.wikipedia.org/wiki/The_Signal_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-karma-police-credits",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across the episode song lists (Tunefind, HiddenRemote, moviesost, whatsong) and recaps that Radiohead's 'Karma Police' (1997) plays out the episode's closing scene/end credits, landing right after Nate's betrayal is exposed. Multiple sources also flag it as a callback to Ted's Season 1 'the karma police' line about ties, sharpening the note of reckoning. Other reported tracks (Wilco's 'Love Is Everywhere (Beware)', Prateek Kuhad's 'cold/mess', E.T. Mensah) check out on the same lists; the card asserts only the 'Karma Police' end-credits placement.",
+      "verified_sources": [
+        "https://www.tunefind.com/show/ted-lasso/season-2/111944",
+        "https://hiddenremote.com/2021/10/01/songs-ted-lasso-season-2-episode-11-midnight-train-royston/",
+        "https://moviesost.com/show/ted-lasso/season-2/episode-11"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-karma-police-credits",
+        "tag": "A reckoning, scored",
+        "title": "'Karma Police' over the credits",
+        "moment": "As the episode closes on an hour of departures and a freshly exposed betrayal, a brooding late-'90s Radiohead track plays the hour out on a note of consequences rather than comfort.",
+        "idea": "The needle-drop, <em>Karma Police</em>, scores the unease heading into the finale -- and winks back at Ted's Season 1 line about 'the karma police' coming for him, turning a throwaway joke into an omen.",
+        "why": "Don't skip the credits here. The song choice is the show telling you the warmth is curdling and a reckoning is on its way.",
+        "source": "Radiohead's 'Karma Police' as the closing/credits cue, per the episode song lists (Tunefind, HiddenRemote, moviesost) and recaps noting the Season 1 callback.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "'Karma Police' end-credits placement confirmed across multiple soundtrack listings; Season 1 callback noted by recaps.",
+        "sourcesChecked": [
+          "https://www.tunefind.com/show/ted-lasso/season-2/111944",
+          "https://hiddenremote.com/2021/10/01/songs-ted-lasso-season-2-episode-11-midnight-train-royston/",
+          "https://moviesost.com/show/ted-lasso/season-2/episode-11"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-higgins-play-gag",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across the lassoism transcript and TV Tropes/Fandom recaps: after Akufo sweeps Sam off to a museum-then-dinner, Higgins muses he once wrote a play about a billionaire who took a footballer to a museum and then dinner, and -- asked how it ends -- says the meal turns out free because they find a bit of glass in the pasta. A small absurd background gag puncturing the grandeur of Akufo's gesture. Paraphrased; no dialogue reproduced.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-quote.php?id=562",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E11MidnightTrainToRoyston",
+        "https://ted-lasso.fandom.com/wiki/Midnight_Train_to_Royston"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-higgins-play-gag",
+        "tag": "Higgins saw it coming",
+        "title": "Higgins 'wrote a play' about this",
+        "moment": "As the billionaire whisks Sam off to a private museum-then-dinner, Higgins deadpans that he once wrote a play with exactly that premise -- one that ends with a free meal because they find a little glass in the pasta.",
+        "idea": "A throwaway absurdist beat that quietly punctures the grandeur of Akufo's recruiting pitch. The lavish gesture, Higgins implies, is a story he's already written -- and it ends cheaply.",
+        "why": "Easy to miss under the plot. It's the show letting its gentlest character undercut a billionaire's spectacle with one dry non sequitur.",
+        "source": "Higgins's 'I once wrote a play about a billionaire...' bit, per the lassoism scene transcript and the TV Tropes / Fandom episode recaps.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Background gag confirmed via scene transcript and recaps.",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-quote.php?id=562",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E11MidnightTrainToRoyston"
+        ]
+      }
+    },
+    {
+      "id": "s2e11-edwin-akufo-debut",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via IMDb character pages, the Fandom Edwin Akufo page, and the Wikipedia S3 'International Break' entry: this episode introduces Edwin Akufo, a charismatic Ghanaian tech billionaire, played by Sam Richardson (Veep, Detroiters, I Think You Should Leave); the handshake gag ('I don't shake hands, but I have someone who does -- Francis') is corroborated by the lassoism transcript; Akufo returns as a recurring antagonist in Season 3 ('International Break'). True and well-sourced, but EXCLUDED on the interest gate: as a casting/production note its per-episode insight is modest and it's series-scope, so interest_score 57 < 60.",
+      "verified_sources": [
+        "https://www.imdb.com/title/tt14968660/characters/nm3931538/",
+        "https://ted-lasso.fandom.com/wiki/Edwin_Akufo",
+        "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)",
+        "https://lassoism.com/Ted-Lasso-quote.php?id=558"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 57,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s2e11-written-garron-directed-delaney",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across the TVmaze episode listing, The Spool recap, and multiple database/recap summaries echoing the Wikipedia credits block: 'Midnight Train to Royston' premiered on Apple TV+ on October 1, 2021, written by Sasha Garron (reported as a first Ted Lasso writing credit) and directed by MJ Delaney (reported as her fourth episode for the show). Spelling 'Sasha Garron' / 'MJ Delaney' verified across listings. Could not open IMDb/Wikipedia (403) to read the credits block directly, so grounding held at 4.",
+      "verified_sources": [
+        "https://www.tvmaze.com/episodes/2172941/ted-lasso-2x11-midnight-train-to-royston",
+        "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/",
+        "https://grokipedia.com/page/Midnight_Train_to_Royston"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e11-written-garron-directed-delaney",
+        "tag": "Behind the camera",
+        "title": "Who made this one",
+        "moment": "The Season 2 penultimate episode first aired on Apple TV+ in early October 2021.",
+        "idea": "It was written by Sasha Garron -- reported as a first script for the show -- and directed by MJ Delaney, on what's reported as her fourth Ted Lasso episode. A bit of framing trivia for the run-up to the finale.",
+        "why": "Useful context: a newer writing voice steering one of the season's most pivotal, goodbye-heavy hours.",
+        "source": "Written by Sasha Garron, directed by MJ Delaney, premiered Oct 1, 2021 (TVmaze episode listing; The Spool recap; consistent across database summaries).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Writer/director and air date corroborated across TVmaze and recaps; primary credits page not openable (403), so grounding held at 4.",
+        "sourcesChecked": [
+          "https://www.tvmaze.com/episodes/2172941/ted-lasso-2x11-midnight-train-to-royston",
+          "https://thespool.net/reviews/tv/recap/ted-lasso-season-2-episode-11-recap/"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "s2e3-led-tasso-predates-show",
+    "tag": "A road not taken",
+    "title": "The angry coach came first",
+    "moment": "Behind the scenes: Jason Sudeikis has said the cruel-coach idea behind Led Tasso isn't new -- a brash, yelling version of the character was the original 2013 NBC Sports pitch, one he deliberately chose not to play.",
+    "idea": "The kind, gentle Ted we love was a choice, not a default. Sudeikis credits Brendan Hunt (Beard) with reminding him of that first angry conception -- which means Led Tasso is a knowing wink at the Ted that almost was.",
+    "why": "It recasts every warm moment as a decision. When Ted turns into Led, he's briefly visiting the character he could have been -- and the show knows it.",
+    "source": "Jason Sudeikis interview on Led Tasso's origins (TheWrap / Yahoo); the 2013 NBC Sports promo origin confirmed via Sports Illustrated.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Sudeikis-interview origin (angry-coach idea from the 2013 NBC promos; Hunt refreshed his memory) confirmed across TheWrap, Yahoo, and SI; grounding capped at 4 (no primary page opened).",
+    "sourcesChecked": [
+      "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
+      "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
+      "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+    ]
+  },
+  {
+    "id": "s2e3-protest-real-world-inspiration",
+    "tag": "More than an athlete",
+    "title": "What Sam's actor drew on",
+    "moment": "Behind the scenes: Toheeb Jimoh has said that filming Sam's stand, he thought about Colin Kaepernick, LeBron James's 'More Than an Athlete' movement, and the young English players Rashford, Sancho and Saka -- with Nigeria's 2020 End SARS protests as the backdrop.",
+    "idea": "The scene is anchored in real athlete activism. Jimoh has spoken about wanting to do right by Nigerians through Sam's choices, drawing on footballers who took public stands and paid a price for them.",
+    "why": "It explains the weight Jimoh brings to a quiet act of taping a shirt. Note the framing: these are the actor's stated inspirations, not an official 'the writers based Sam on X.' Off screen, Sudeikis wore a sweatshirt honoring Saka, Sancho and Rashford after they were racially abused.",
+    "source": "Toheeb Jimoh interviews (TV Insider, IndieWire) on his inspirations; Sudeikis's real-life gesture via NBC News.",
+    "category": "Meta & trivia",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "partial",
+    "groundingNotes": "Jimoh's cited inspirations and Sudeikis's gesture confirmed across TV Insider, IndieWire, and NBC News; attributed as the actor's stated influences, not writers'-room canon. Grounding capped at 4.",
+    "sourcesChecked": [
+      "https://www.tvinsider.com/1008517/ted-lasso-season-2-episode-3-sam-jamie-toheeb-jimoh-hannah-waddingham/",
+      "https://www.indiewire.com/features/general/toheeb-jimoh-ted-lasso-dubai-air-scene-season-3-1234747578/",
+      "https://www.nbcnews.com/pop-culture/celebrity/jason-sudeikis-shows-support-racially-abused-english-soccer-players-n1274155"
+    ]
+  },
+  {
+    "id": "s2e3-sam-jersey-tape-protest",
+    "tag": "Doing the right thing at a cost",
+    "title": "Sam tapes over the logo",
+    "moment": "Before kickoff, Sam covers the Dubai Air name on his shirt with black tape, telling the room he can no longer wear it. Jamie reaches for the tape next, and the whole squad follows -- revealing the protest only once they are on the pitch.",
+    "idea": "Moral courage as a team act. Sam learns the sponsor's parent oil company is accused of devastating his native Nigeria, and chooses conscience over being the brand's smiling face -- and his teammates choose to stand with him.",
+    "why": "The spine of the episode. Watch who reaches for the tape first: the costliest stand is made easier because one player refuses to make it alone.",
+    "source": "AFC Richmond's protest against Dubai Air / Cerithium Oil, per recaps at CBR, TVLine, and Entertainment Tonight.",
+    "category": "Ethics & character",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Jersey-taping protest and the team following (Jamie first) confirmed across multiple independent recaps; grounding capped at 4 as no primary page could be opened.",
+    "sourcesChecked": [
+      "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
+      "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+      "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
+    ]
+  },
+  {
+    "id": "s2e3-jamie-solidarity-redemption",
+    "tag": "Actions over apologies",
+    "title": "Jamie's real apology",
+    "moment": "Jamie's spoken attempts to say sorry to the team go nowhere -- they rebuff him at every turn. But when Sam protests, Jamie quietly tapes over his own logo too, framing it as nothing more than teammates wearing the same kit.",
+    "idea": "The repair happens without words. The former bully and brand-magnet does the reconciling his apologies couldn't by making a small, costly choice to stand with someone -- and it starts to turn his arc.",
+    "why": "Watch how the team thaws toward Jamie not when he speaks but when he acts. It's the first real step in a redemption the season takes its time with.",
+    "source": "Jamie's failed apology and his joining the protest, per recaps at TVLine, ReadySteadyCut, and CBR.",
+    "category": "Redemption",
+    "interest": 4,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Jamie's rebuffed apologies and his joining Sam's protest confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+    "sourcesChecked": [
+      "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+      "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+      "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/"
+    ]
+  },
+  {
+    "id": "s2e3-rebecca-nora-promises",
+    "tag": "Showing up",
+    "title": "Rebecca keeps her promises",
+    "moment": "Looking after her goddaughter Nora, Rebecca is confronted with how many small promises she made over the years and never kept -- and chooses to make good, taking time off and bringing Nora along to see how she runs the club.",
+    "idea": "A quieter version of the episode's title. Doing the right thing here isn't a public stand but the unglamorous work of repair: actually turning up for someone after years of letting them down.",
+    "why": "The gentle counterpart to Sam's loud protest. Watch Rebecca rediscover who she is outside of work and revenge -- by simply being present for a kid who looks up to her.",
+    "source": "Rebecca-and-Nora arc per recaps at Entertainment Tonight, ShowSnob, and Pajiba.",
+    "category": "Relationships",
+    "interest": 3,
+    "grounding": 4,
+    "groundingStatus": "verified",
+    "groundingNotes": "Rebecca making good on broken promises to Nora confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+    "sourcesChecked": [
+      "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+      "https://showsnob.com/2021/08/06/ted-lasso-season-2-episode-3-recap/",
+      "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php"
+    ]
+  }
+]
