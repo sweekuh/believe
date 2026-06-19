@@ -1,0 +1,431 @@
+{
+  "episode": { "season": 2, "number": 3, "title": "Do the Right-est Thing" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification. WebFetch returned HTTP 403 on EVERY URL this session (Wikipedia, Ted Lasso Fandom, Tunefind, etc.), exactly as in the prior s1e8 run. Per the established Season 1 norm, every verdict below rests on corroboration across MULTIPLE INDEPENDENT WebSearch result summaries from different domains; because no primary page could be opened, grounding is CAPPED AT 4 for all facts. PLACEMENT: the air date (6 Aug 2021), writer (Ashley Nicole Black), director (Ezra Edelman), the Sam/Dubai Air/Cerithium Oil black-tape protest, Led Tasso's debut, and the Rebecca/Nora 'boss-ass bitch' beat are all firmly placed in S2E3 across 4+ sources each. SPOILER DISCIPLINE: the Bantr dating app is INTRODUCED here only; the reveal that Sam is Rebecca's anonymous match is a LATER episode and is NOT asserted in any E3 card. REJECTIONS: the PTAF 'Boss Ass Bitch' song reference (s2e3-boss-ass-bitch) is held as a coincidental echo with no evidence of authorial intent (and the song actually dates to 2012/viral 2013, not 2014). Note also: TheWrap/Yahoo interview confirms Sudeikis credits Brendan Hunt with refreshing the original angry-coach idea (rooted in the 2013 NBC Sports promo), which the candidate slightly mis-framed as Hunt 'shaping' a combative Ted; corrected in notes. The actor-inspiration and Cerithium=Shell claims are real but are framed as the cast's stated influences / outlet interpretation, NOT writers'-room canon, and capped accordingly. Ken Saro-Wiwa's 1995 execution and the Ogoni context are real-world fact and handled rigorously.",
+  "facts": [
+    {
+      "id": "s2e3-sam-jersey-tape-protest",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Independently confirmed across CBR, TVLine, ETOnline, NPR and TV Tropes recaps: on learning Dubai Air's parent Cerithium Oil is accused of polluting Nigeria and bribing officials, Sam tapes over the Dubai Air logo on his match shirt; Jamie asks for the tape and the whole squad follows, revealing the modified kit on the pitch. Grounding capped at 4 (no primary page opened; corroborated across multiple independent recaps).",
+      "verified_sources": [
+        "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+        "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-sam-jersey-tape-protest",
+        "tag": "Doing the right thing at a cost",
+        "title": "Sam tapes over the logo",
+        "moment": "Before kickoff, Sam covers the Dubai Air name on his shirt with black tape, telling the room he can no longer wear it. Jamie reaches for the tape next, and the whole squad follows -- revealing the protest only once they are on the pitch.",
+        "idea": "Moral courage as a team act. Sam learns the sponsor's parent oil company is accused of devastating his native Nigeria, and chooses conscience over being the brand's smiling face -- and his teammates choose to stand with him.",
+        "why": "The spine of the episode. Watch who reaches for the tape first: the costliest stand is made easier because one player refuses to make it alone.",
+        "source": "AFC Richmond's protest against Dubai Air / Cerithium Oil, per recaps at CBR, TVLine, and Entertainment Tonight.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Jersey-taping protest and the team following (Jamie first) confirmed across multiple independent recaps; grounding capped at 4 as no primary page could be opened.",
+        "sourcesChecked": [
+          "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+          "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-written-ashley-nicole-black",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across TVLine, Black Girl Nerds, Wikipedia and IMDb summaries: Ashley Nicole Black ('A Black Lady Sketch Show') joined the Season 2 room between seasons of her HBO show via a mutual-friend introduction to Bill Lawrence, met with Lawrence and Sudeikis, and wrote this episode (aired 6 Aug 2021). She later won an Emmy as a producer on the show. Grounding capped at 4 (no primary page opened; multiple independent corroborating outlets).",
+      "verified_sources": [
+        "https://www.tvline.com/interviews/ashley-nicole-black-ted-lasso-interview-do-the-rightest-thing-sam-obisanya-1234788828/",
+        "https://blackgirlnerds.com/ashley-nicole-black-radiates-joy-in-the-writers-room-of-ted-lasso/",
+        "https://m.imdb.com/news/ni63541013/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e3-written-ashley-nicole-black",
+        "tag": "Who wrote it",
+        "title": "Ashley Nicole Black's script",
+        "moment": "Behind the scenes: this episode was written by Ashley Nicole Black, the Emmy-winning comedian and writer from <em>A Black Lady Sketch Show</em>, who joined the Season 2 writers' room between seasons of her own HBO show.",
+        "idea": "The activism story didn't arrive by accident. Black came into the room and took up an idea the team wanted to tell -- a Sam-centered story about an athlete's conscience and racism in sport -- and turned it into this script.",
+        "why": "Knowing the writer reframes the episode: its care with Sam's stand reflects a specific voice brought in to carry it. Black later won an Emmy as a producer on the show.",
+        "source": "Ashley Nicole Black interview (TVLine) on joining the room and writing the episode; corroborated by Black Girl Nerds and IMDb.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Writing credit and how Black joined the room confirmed across TVLine, Black Girl Nerds, and IMDb; grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://www.tvline.com/interviews/ashley-nicole-black-ted-lasso-interview-do-the-rightest-thing-sam-obisanya-1234788828/",
+          "https://blackgirlnerds.com/ashley-nicole-black-radiates-joy-in-the-writers-room-of-ted-lasso/",
+          "https://m.imdb.com/news/ni63541013/"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-cerithium-oil-shell-nigeria",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The companies are fictional but the real-world parallel is widely drawn: Gizmodo and a historian-interview (historifans / Roy Doron) read Cerithium Oil as a stand-in for Shell and tie the plot to decades of Niger Delta pollution and the 1995 execution of writer-activist Ken Saro-Wiwa and the Ogoni Nine (independently confirmed via Wikipedia 'Ogoni Nine' and 'Wiwa v. Royal Dutch Shell'). CRUCIAL: 'Cerithium = Shell' is an OUTLET INTERPRETATION, never stated in-show -- framed as a parallel, not a confirmed identification. Grounding capped at 4.",
+      "verified_sources": [
+        "https://gizmodo.com/ted-lasso-is-an-unexpected-masterclass-in-environmental-1847695754",
+        "https://historifans.org/2022/11/14/nigerian-environmental-justice-in-the-locker-room-of-ted-lasso-a-conversation-with-roy-doron/",
+        "https://en.wikipedia.org/wiki/Ogoni_Nine"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e3-cerithium-oil-shell-nigeria",
+        "tag": "The real story underneath",
+        "title": "Cerithium Oil's real-world echo",
+        "moment": "Behind the scenes: Dubai Air and its parent 'Cerithium Oil' are invented for the show, but the harm they stand accused of -- oil spills and corruption in Nigeria's Niger Delta -- mirrors real allegations made for decades against Shell.",
+        "idea": "Sam's protest has a true story under it. Writers and critics read Cerithium as an echo of Shell in the Niger Delta, a history that includes the 1995 execution of Ogoni writer-activist Ken Saro-Wiwa for campaigning against the environmental damage.",
+        "why": "This is the grim weight that keeps the storyline from feeling like a tidy TV cause. A caution worth keeping: 'Cerithium = Shell' is a reading critics offered, not something the show ever states.",
+        "source": "Real-world parallel drawn by Gizmodo and a historian interview (Roy Doron); the Ken Saro-Wiwa / Ogoni Nine background confirmed via Wikipedia.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Real Niger Delta / Shell / Ken Saro-Wiwa context confirmed; the 'Cerithium = Shell' identification is an outlet interpretation, not stated in-show. Grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://gizmodo.com/ted-lasso-is-an-unexpected-masterclass-in-environmental-1847695754",
+          "https://historifans.org/2022/11/14/nigerian-environmental-justice-in-the-locker-room-of-ted-lasso-a-conversation-with-roy-doron/",
+          "https://en.wikipedia.org/wiki/Ogoni_Nine"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-led-tasso-predates-show",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via TheWrap/Yahoo/IMDb summaries of the Sudeikis interview: the aggressive 'angry coach' concept behind Led Tasso traces to the character's origins -- the 2013 NBC Sports promos (independently confirmed by SI and FandomWire) envisioned a brash, yelling coach Sudeikis didn't want to do; Brendan Hunt refreshed his memory of that original idea, which became Led Tasso. NOTE: the candidate said Hunt 'helped shape' a combative Ted; the interview more precisely says Hunt reminded Sudeikis of the original angrier conception -- corrected here. Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
+        "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
+        "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 85,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e3-led-tasso-predates-show",
+        "tag": "A road not taken",
+        "title": "The angry coach came first",
+        "moment": "Behind the scenes: Jason Sudeikis has said the cruel-coach idea behind Led Tasso isn't new -- a brash, yelling version of the character was the original 2013 NBC Sports pitch, one he deliberately chose not to play.",
+        "idea": "The kind, gentle Ted we love was a choice, not a default. Sudeikis credits Brendan Hunt (Beard) with reminding him of that first angry conception -- which means Led Tasso is a knowing wink at the Ted that almost was.",
+        "why": "It recasts every warm moment as a decision. When Ted turns into Led, he's briefly visiting the character he could have been -- and the show knows it.",
+        "source": "Jason Sudeikis interview on Led Tasso's origins (TheWrap / Yahoo); the 2013 NBC Sports promo origin confirmed via Sports Illustrated.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Sudeikis-interview origin (angry-coach idea from the 2013 NBC promos; Hunt refreshed his memory) confirmed across TheWrap, Yahoo, and SI; grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
+          "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
+          "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-edelman-director-spike-lee",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Edelman's directing credit (his first scripted-series episode) and his Academy Award AND Emmy for 'O.J.: Made in America' (2016) are firmly confirmed (multiple recaps; Wikipedia/IMDb summaries; 89th Academy Awards). The 'Do the Right Thing inspired his love of cinema' framing rests on the BAM 2018 listing, whose series premise ('the film that inspired their passion for cinema') is corroborated in search summaries -- but I could NOT open the BAM page (403), so this leg is partially-confirmed and the cinephile-favorite framing is stated softly. Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvinsider.com/1008280/ted-lasso-recap-season-2-episode-3-do-the-rightest-thing/",
+        "https://www.bam.org/film/2018/do-the-right-thing",
+        "https://variety.com/2016/film/awards/oscars-oj-made-in-america-passes-first-test-1201935105/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e3-edelman-director-spike-lee",
+        "tag": "A fitting hand behind the camera",
+        "title": "An Oscar winner directs",
+        "moment": "Behind the scenes: this -- a Spike-Lee-titled episode about race, sport, and protest -- was the first scripted episode directed by Ezra Edelman, the documentary filmmaker who won an Academy Award (and an Emmy) for <em>O.J.: Made in America</em>.",
+        "idea": "The pairing reads as quietly intentional. Edelman has publicly named Spike Lee's <em>Do the Right Thing</em> as a film that shaped his love of cinema, so a protest story riffing on that title landed with a director steeped in it.",
+        "why": "A nice piece of trivia that deepens the episode's seriousness. The 'his love of cinema' detail comes from a 2018 retrospective billing, so hold it as well-sourced background rather than a formal 'favorite film' statement.",
+        "source": "Edelman's directing credit per recaps (TV Insider); his O.J. Oscar via Variety; the Spike Lee admiration via BAM's 2018 'Do the Right Thing' screening listing.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Directing credit and O.J. Oscar/Emmy firmly confirmed; the 'Do the Right Thing inspired his love of cinema' leg rests on the BAM listing (page not openable), so partial. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.tvinsider.com/1008280/ted-lasso-recap-season-2-episode-3-do-the-rightest-thing/",
+          "https://www.bam.org/film/2018/do-the-right-thing",
+          "https://variety.com/2016/film/awards/oscars-oj-made-in-america-passes-first-test-1201935105/"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-protest-real-world-inspiration",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Toheeb Jimoh (Sam) said in interviews that while filming he thought about Colin Kaepernick, LeBron James's 'More Than an Athlete' movement, and especially Marcus Rashford, Jadon Sancho and Bukayo Saka, with Nigeria's 2020 End SARS unrest as backdrop (TVInsider, IndieWire). Separately, Sudeikis wore a Saka/Sancho/Rashford sweatshirt in real life (NBC News). MUST be attributed as the ACTOR'S stated influences and a real off-screen gesture -- NOT as 'the writers based Sam on X.' One outlet summary mislabeled the filming as a later episode, but the Dubai Air protest itself occurs only in S2E3. Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvinsider.com/1008517/ted-lasso-season-2-episode-3-sam-jamie-toheeb-jimoh-hannah-waddingham/",
+        "https://www.indiewire.com/features/general/toheeb-jimoh-ted-lasso-dubai-air-scene-season-3-1234747578/",
+        "https://www.nbcnews.com/pop-culture/celebrity/jason-sudeikis-shows-support-racially-abused-english-soccer-players-n1274155"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e3-protest-real-world-inspiration",
+        "tag": "More than an athlete",
+        "title": "What Sam's actor drew on",
+        "moment": "Behind the scenes: Toheeb Jimoh has said that filming Sam's stand, he thought about Colin Kaepernick, LeBron James's 'More Than an Athlete' movement, and the young English players Rashford, Sancho and Saka -- with Nigeria's 2020 End SARS protests as the backdrop.",
+        "idea": "The scene is anchored in real athlete activism. Jimoh has spoken about wanting to do right by Nigerians through Sam's choices, drawing on footballers who took public stands and paid a price for them.",
+        "why": "It explains the weight Jimoh brings to a quiet act of taping a shirt. Note the framing: these are the actor's stated inspirations, not an official 'the writers based Sam on X.' Off screen, Sudeikis wore a sweatshirt honoring Saka, Sancho and Rashford after they were racially abused.",
+        "source": "Toheeb Jimoh interviews (TV Insider, IndieWire) on his inspirations; Sudeikis's real-life gesture via NBC News.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Jimoh's cited inspirations and Sudeikis's gesture confirmed across TV Insider, IndieWire, and NBC News; attributed as the actor's stated influences, not writers'-room canon. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.tvinsider.com/1008517/ted-lasso-season-2-episode-3-sam-jamie-toheeb-jimoh-hannah-waddingham/",
+          "https://www.indiewire.com/features/general/toheeb-jimoh-ted-lasso-dubai-air-scene-season-3-1234747578/",
+          "https://www.nbcnews.com/pop-culture/celebrity/jason-sudeikis-shows-support-racially-abused-english-soccer-players-n1274155"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-led-tasso-debut",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across ETOnline, TV Insider and NPR recaps: this episode debuts 'Led Tasso,' Ted's shouting, abusive alter-ego, deployed deliberately so the squad unites against a common enemy (him) rather than scapegoating the returning Jamie; Dr. Sharon Fieldstone reads that the tactic doesn't quite land. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+        "https://www.tvinsider.com/1008280/ted-lasso-recap-season-2-episode-3-do-the-rightest-thing/",
+        "https://www.npr.org/2021/08/06/1025129015/ted-lasso-recap-season-2-lets-go-to-the-tape"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-led-tasso-debut",
+        "tag": "Leadership in disguise",
+        "title": "Led Tasso arrives",
+        "moment": "With the team frosty toward the returning Jamie, Ted unleashes 'Led Tasso' -- a snarling, insult-hurling alter-ego who runs the players ragged -- so they bond by uniting against him instead of against Jamie.",
+        "idea": "It's a tactic, not a breakdown. Ted plays the villain on purpose, giving a fractured squad a common enemy so they stop scapegoating a teammate -- canny leadership psychology dressed up as a bit.",
+        "why": "Watch Dr. Fieldstone clock that it doesn't fully work. 'Led Tasso' becomes a recurring in-joke, but its first outing is a real piece of man-management.",
+        "source": "Led Tasso's debut and the common-enemy framing per recaps at Entertainment Tonight, TV Insider, and NPR.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Led Tasso's debut and its team-uniting purpose confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+          "https://www.tvinsider.com/1008280/ted-lasso-recap-season-2-episode-3-do-the-rightest-thing/",
+          "https://www.npr.org/2021/08/06/1025129015/ted-lasso-recap-season-2-lets-go-to-the-tape"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-khala-my-friend-amanaz",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Confirmed the songs are in the episode (Tunefind S2E3 list plus independent corroboration): 'Khala My Friend' by Amanaz and 'Hand in My Pocket' by Alanis Morissette. Amanaz were a Zambian 'Zamrock' band whose sole album was 'Africa' (1975) -- independently confirmed via Wikipedia/Bandcamp/RateYourMusic. HOWEVER I could not confirm the EXACT scene 'Khala My Friend' scores, so it is tied to the episode, not to a specific moment. Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tunefind.com/show/ted-lasso/season-2/110267",
+        "https://en.wikipedia.org/wiki/Amanaz",
+        "https://amanaz.bandcamp.com/album/africa"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-khala-my-friend-amanaz",
+        "tag": "A fitting needle-drop",
+        "title": "An African song under Sam's stand",
+        "moment": "Among the episode's music is 'Khala My Friend' by Amanaz -- a 1970s Zambian 'Zamrock' band whose only album, <em>Africa</em>, came out in 1975. Earlier, Alanis Morissette's 'Hand in My Pocket' plays as Nora hangs around Rebecca's office.",
+        "idea": "The music supervision leans into the story: an African song threaded through an episode built around an African character's act of conscience, the band themselves rooted in a newly independent nation finding its voice.",
+        "why": "An easy detail to miss. Listen for the Zamrock track -- a pointed choice that lets the soundtrack quietly echo what Sam is standing up for.",
+        "source": "Episode soundtrack listing (Tunefind) for 'Khala My Friend' and 'Hand in My Pocket'; Amanaz background via Wikipedia and the band's Bandcamp.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Both songs confirmed as used in the episode and the Amanaz background confirmed; the exact scene 'Khala My Friend' scores could not be verified. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.tunefind.com/show/ted-lasso/season-2/110267",
+          "https://en.wikipedia.org/wiki/Amanaz",
+          "https://amanaz.bandcamp.com/album/africa"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-jamie-solidarity-redemption",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via TVLine and ReadySteadyCut recaps: Jamie's spoken apologies to the squad fall flat, but he reaches for the tape and covers his own sponsor logo alongside Sam -- a wordless act of solidarity that does the reconciling his apologies couldn't, seeding his slower redemption across the season. Scoped 'season' (the redemption it sets up plays out later). Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+        "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+        "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-jamie-solidarity-redemption",
+        "tag": "Actions over apologies",
+        "title": "Jamie's real apology",
+        "moment": "Jamie's spoken attempts to say sorry to the team go nowhere -- they rebuff him at every turn. But when Sam protests, Jamie quietly tapes over his own logo too, framing it as nothing more than teammates wearing the same kit.",
+        "idea": "The repair happens without words. The former bully and brand-magnet does the reconciling his apologies couldn't by making a small, costly choice to stand with someone -- and it starts to turn his arc.",
+        "why": "Watch how the team thaws toward Jamie not when he speaks but when he acts. It's the first real step in a redemption the season takes its time with.",
+        "source": "Jamie's failed apology and his joining the protest, per recaps at TVLine, ReadySteadyCut, and CBR.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Jamie's rebuffed apologies and his joining Sam's protest confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+          "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+          "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-title-spike-lee",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "TV Tropes and the Ted Lasso Fandom both identify 'Do the Right-est Thing' as a play on Spike Lee's 1989 'Do the Right Thing,' and the superlative twist is the show's usual title wordplay -- so the allusion is well recognized. As the hunter flagged, NO writers'-room statement was located confirming a deliberate Spike Lee homage versus a generic 'doing the right thing' pun, so this stays partially-confirmed. Grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E03DoTheRightestThing",
+        "https://hotchka.com/ted-lasso-s02e03",
+        "https://thespool.net/reviews/tv/ted-lasso-do-the-right-est-thing-recap-sam-steps-up/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-title-spike-lee",
+        "tag": "A title with a source",
+        "title": "Echoing Spike Lee",
+        "moment": "The episode is called 'Do the Right-est Thing' as Sam decides to take a public moral stand -- a superlative twist on the title of Spike Lee's 1989 film <em>Do the Right Thing</em>, about the moral weight of action versus inaction amid injustice.",
+        "idea": "The borrowed title sets the stakes before a scene plays. Lee's film asks what doing the right thing even costs; the episode hands that question to Sam and his teammates.",
+        "why": "A neat bit of literacy in the writing. Fair caution: the wordplay is clearly recognized as a Spike Lee echo, but the show has not confirmed it as a deliberate homage rather than a general pun.",
+        "source": "Title identified as a play on Spike Lee's <em>Do the Right Thing</em> by TV Tropes and recaps (Hotchka, The Spool).",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Allusion to Spike Lee's film is widely recognized across recaps; no creator statement of deliberate homage was located. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E03DoTheRightestThing",
+          "https://hotchka.com/ted-lasso-s02e03",
+          "https://thespool.net/reviews/tv/ted-lasso-do-the-right-est-thing-recap-sam-steps-up/"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-rebecca-nora-promises",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via ETOnline, ShowSnob and Pajiba recaps: minding Sassy's now-teenage daughter Nora (her goddaughter), Rebecca confronts how many small promises she let lapse during her marriage and consuming job, and chooses to show up -- taking time off and bringing Nora to the club. Grounding capped at 4 (no primary page opened).",
+      "verified_sources": [
+        "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+        "https://showsnob.com/2021/08/06/ted-lasso-season-2-episode-3-recap/",
+        "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-rebecca-nora-promises",
+        "tag": "Showing up",
+        "title": "Rebecca keeps her promises",
+        "moment": "Looking after her goddaughter Nora, Rebecca is confronted with how many small promises she made over the years and never kept -- and chooses to make good, taking time off and bringing Nora along to see how she runs the club.",
+        "idea": "A quieter version of the episode's title. Doing the right thing here isn't a public stand but the unglamorous work of repair: actually turning up for someone after years of letting them down.",
+        "why": "The gentle counterpart to Sam's loud protest. Watch Rebecca rediscover who she is outside of work and revenge -- by simply being present for a kid who looks up to her.",
+        "source": "Rebecca-and-Nora arc per recaps at Entertainment Tonight, ShowSnob, and Pajiba.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rebecca making good on broken promises to Nora confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+        "sourcesChecked": [
+          "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+          "https://showsnob.com/2021/08/06/ted-lasso-season-2-episode-3-recap/",
+          "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-bantr-setup",
+      "type": "callback",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Confirmed via NPR, ReadySteadyCut and Nerds and Beyond recaps that Bantr -- the anonymous, no-photos dating app Keeley is promoting -- is INTRODUCED in this episode. Held to a setup only: the reveal that Sam and Rebecca are each other's anonymous match is a LATER episode and is NOT asserted here. Significance depends on later events, so spoiler_safety is low and scope is 'season.' Grounding capped at 4.",
+      "verified_sources": [
+        "https://www.npr.org/2021/08/06/1025129015/ted-lasso-recap-season-2-lets-go-to-the-tape",
+        "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+        "https://www.nerdsandbeyond.com/2021/08/06/ted-lasso-recap-season-2-episode-3-do-the-right-est-thing/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 3 },
+      "interest_score": 60,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e3-bantr-setup",
+        "tag": "A seed planted",
+        "title": "Bantr is introduced",
+        "moment": "Keeley ropes the players into promoting Bantr, a dating app with no photos where you're meant to connect on words and personality alone. It plays as a light side-plot here.",
+        "idea": "It looks like a throwaway, but it's a deliberate setup: the show plants a low-stakes gimmick early so it can grow into something the season cares about later.",
+        "why": "Worth filing away on a first watch. The no-pictures premise becomes important down the line -- so notice it now, before it matters.",
+        "source": "Bantr's introduction in this episode per recaps at NPR, ReadySteadyCut, and Nerds and Beyond.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Bantr's introduction confirmed across recaps; treated as a setup only, with its later significance deliberately not stated. Grounding capped at 4.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/08/06/1025129015/ted-lasso-recap-season-2-lets-go-to-the-tape",
+          "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+          "https://www.nerdsandbeyond.com/2021/08/06/ted-lasso-recap-season-2-episode-3-do-the-right-est-thing/"
+        ]
+      }
+    },
+    {
+      "id": "s2e3-boss-ass-bitch",
+      "type": "easter-egg",
+      "verdict": "contested",
+      "verification_notes": "The on-screen beat is real and confirmed (Pajiba, ETOnline, ShowSnob): after Rebecca refuses a board member's pressure to fire Sam, young Nora dubs her a 'boss-ass bitch,' and Rebecca signs her reply email the same way. BUT the candidate's hook is the claimed echo of PTAF's song 'Boss Ass Bitch' -- and I found NO evidence of authorial intent; the phrase is common slang and the song actually dates to 2012 (viral 2013), not 2014. Treating the PTAF reference as a coincidental echo only -> HELD as contested, not included. (The beat itself could be reworked into a Rebecca card without the PTAF claim, but as framed -- an easter-egg about the song -- it does not pass.)",
+      "verified_sources": [
+        "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php",
+        "https://en.wikipedia.org/wiki/Boss_Ass_Bitch",
+        "https://en.wikipedia.org/wiki/PTAF"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": false
+    }
+  ]
+}

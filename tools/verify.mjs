@@ -143,9 +143,17 @@ try {
   check("season 2 jumps to episode 1", (await page.$eval("#epPicker", el => el.value)) === "1");
   check("S2E1 title is Goodbye Earl", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Goodbye Earl");
   check("eyebrow reflects season 2", /Season 2/.test(await page.$eval("#eyebrow", el => el.textContent)));
-  check("S2 placeholder shows no spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
-  check("S2 placeholder card shows without a reveal tap", (await page.$$eval("#notes .card", e => e.length)) === 1);
+  check("S2E1 (now written) re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S2E1 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
   if (shots) await page.screenshot({ path: join(outDir, "06-season2.png"), fullPage: true });
+
+  // A still-unwritten S2 episode shows its "coming soon" placeholder with no gate.
+  await page.select("#epPicker", "4");
+  await new Promise(r => setTimeout(r, 300));
+  check("S2E4 placeholder shows no spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
+  check("S2E4 placeholder card shows without a reveal tap", (await page.$$eval("#notes .card", e => e.length)) === 1);
 
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");

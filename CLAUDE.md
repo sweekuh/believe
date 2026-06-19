@@ -85,7 +85,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 32)
+node tools/verify.mjs                # run all checks (currently 34)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

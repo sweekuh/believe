@@ -988,13 +988,99 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e1-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e1-football-is-life-and-death",
+              "tag": "Football is life -- and death",
+              "title": "Dani's catchphrase, broken open",
+              "moment": "Dani, the show's pure engine of joy, accidentally kills the mascot with a penalty and is gutted -- deciding the game he loves has become nothing but death. Only after he names the hurt and talks it through can he find his way back to loving it again.",
+              "idea": "Grief, fear, and darkness belong to the same game as joy. The episode's quiet argument is that naming pain and talking it through -- rather than toughing it out -- is what lets life win again.",
+              "why": "This is the premiere's whole heart, and the show's signal that Season 2 will lean inward, toward mental health. Watch how the most joyful character has to make room for sorrow without losing the joy.",
+              "source": "Season 2 premiere recaps (Den of Geek, TVInsider, Entertainment Tonight) built around the 'football is life / football is death' turn.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Dani's arc and the both/and reframe confirmed across multiple independent recaps.",
+              "sourcesChecked": [
+                "https://www.denofgeek.com/tv/ted-lasso-season-2-dani-rojas/",
+                "https://www.tvinsider.com/1006246/ted-lasso-season-2-episode-1-recap-goodbye-earl/",
+                "https://www.etonline.com/ted-lasso-kicks-off-season-2-with-a-shocking-tragedy-169354"
+              ]
+            },
+            {
+              "id": "s2e1-the-yips-real-phenomenon",
+              "tag": "The yips are real",
+              "title": "Not just nerves",
+              "moment": "After the accident Dani freezes and can no longer take a shot. The club treats it as a genuine condition -- 'the yips' -- serious enough to bring in a professional, rather than something he can just shake off.",
+              "idea": "The yips are a documented phenomenon, not a writers' invention: a sudden, involuntary loss of a well-practiced skill in elite athletes, with both physical (focal dystonia) and psychological (performance anxiety) roots, and researchers distinguish it from ordinary 'choking.' It's often triggered by exactly the kind of traumatic in-game moment Dani has.",
+              "why": "This is what lets the episode take Dani's pain seriously instead of for laughs -- and it quietly dignifies the show's mental-health message. The block is real and treatable, which is the whole reason Sharon is hired.",
+              "source": "The yips as a real condition per Psychology Today and peer-reviewed sports-medicine literature (NCBI, Frontiers in Psychology); recaps describe Dani's freeze as the yips.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "The yips confirmed as a real, studied phenomenon across clinical sources; recaps tie the in-episode framing to Dani.",
+              "sourcesChecked": [
+                "https://www.psychologytoday.com/us/blog/the-red-light-district/202307/when-athletes-get-the-yips",
+                "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8698216/",
+                "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02784/full"
+              ]
+            },
+            {
+              "id": "s2e1-title-goodbye-earl-chicks",
+              "tag": "A title with a dark twin",
+              "title": "Where the name comes from",
+              "moment": "The premiere is named for Earl, Richmond's greyhound mascot, who dies in a freak on-pitch accident -- a title it shares with a famous country murder ballad about a very different goodbye to a very different Earl.",
+              "idea": "The song (popularized by the Chicks) is a comic revenge tale in which two friends do away with an abusive man named Earl and feel no remorse. The episode flips it: this Earl's death is an innocent accident, and the story turns toward grief and forgiveness instead of vengeance.",
+              "why": "The contrast is the joke and a tonal signpost for a darker season. Treat it as a knowing allusion -- it rings true across every recap -- rather than a confirmed bit of writers'-room intent.",
+              "source": "The Chicks' <em>Goodbye Earl</em> (1999/2000, written by Dennis Linde); the title/subversion is noted on the song's Wikipedia entry, American Songwriter, and the episode's IMDb trivia.",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "Song/title link and the inversion are multi-source; no creator-intent statement located, so it ships as a strong allusion, not documented intent.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Goodbye_Earl",
+                "https://americansongwriter.com/dixie-chicks-goodbye-earl-behind-the-song/",
+                "https://www.imdb.com/title/tt12926006/trivia?item=tr5851496"
+              ]
+            },
+            {
+              "id": "s2e1-ted-eulogy-press-conference",
+              "tag": "Meeting grief with a story",
+              "title": "Ted eulogizes a dog",
+              "moment": "Facing the press after the mascot's death, Ted sidesteps the absurdity and tells a tender story about a dog from his own childhood -- an animal that once scared or hurt him, then became one he loved and mourned -- and turns it into a gentle thought about why we grieve.",
+              "idea": "In Ted's telling, the people and creatures that move us simply by being here are the very ones we grieve when they go -- and they turn up in our lives, he suggests, to help carry us somewhere better. It's a signature Ted move: answer pain with a story and a little grace.",
+              "why": "A widely praised, quietly vulnerable Sudeikis moment. Watch a press conference about a dead mascot become a small sermon on love and loss -- the episode's emotional crest.",
+              "source": "S2E1 reviews and recaps (TV Fanatic, Music City Drive-in, The Spool) of Ted's press-conference dog eulogy.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "The eulogy beat and its grief theme confirmed across multiple reviews; the childhood dog's name is deliberately not asserted (unverified from a primary source).",
+              "sourcesChecked": [
+                "https://www.tvfanatic.com/ted-lasso-season-2-episode-1-review-goodbye-earl/",
+                "https://musiccitydrivein.com/2021/07/23/ted-lasso-recap-goodbye-earl/",
+                "https://thespool.net/reviews/tv/ted-lasso-goodbye-earl-recap-a-dog-has-his-day-and-the-doctor-arrives/"
+              ]
+            },
+            {
+              "id": "s2e1-ted-therapy-resistance",
+              "tag": "The optimist's blind spot",
+              "title": "Ted bristles at the therapist",
+              "moment": "While the staff happily welcome the new psychologist, Ted alone is wary -- keeping it light with jokes but visibly thrown -- hinting he was burned by therapy before, around his separation from his wife.",
+              "idea": "The man whose entire philosophy is openness and emotional generosity has a blind spot about his own interior life. The episode quietly plants the central irony of the season: it's easier to hold space for everyone else than to sit in your own.",
+              "why": "A clean character study that needs no later reveals. Watch the jokes do double duty as armor -- the first hairline crack in Ted's relentless warmth.",
+              "source": "TV Tropes S2E1 recap and S2E1 reviews (What to Watch), plus the Ted Lasso Fandom 'Sharon Fieldstone' entry.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Ted's uniquely wary, joke-masked resistance (tied to his separation) confirmed across the recap, reviews, and Fandom; later escalations left out.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E01GoodbyeEarl",
+                "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone",
+                "https://www.whattowatch.com/reviews/ted-lasso-201-review-goodbye-earl"
+              ]
             }
           ]
         },
@@ -1005,13 +1091,103 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e2-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e2-lavender-title-nate-will",
+              "tag": "Watch the title",
+              "title": "Why it's called \"Lavender\"",
+              "moment": "Newly made a coach, Nate snaps at Will, the young kit-man who took over his old laundry job, for switching to lavender-scented fabric softener -- a tiny change he can't abide because he can't yet abide no longer being the kit-man.",
+              "idea": "The whole episode is about people clinging to who they used to be -- Nate to his old job, Roy to playing, Jamie to his stardom -- and the title quietly hangs that theme on one small smell.",
+              "why": "A perfect 'the title is a clue' card: the pettiest detail in the episode is also its thesis. Notice how Nate's cruelty to Will is really fear about his own new, unfamiliar self.",
+              "source": "Recaps in <em>The Spool</em>, Music City Drive-In, and NPR's 'The Prodigal Beefcake'; Ted Lasso Fandom 'Lavender' entry.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Lavender-fabric-softener / Nate-Will origin of the title confirmed across multiple independent recaps and Fandom; grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://thespool.net/reviews/tv/ted-lasso-lavender-recap-feeling-a-little-tartt/",
+                "https://www.northcountrypublicradio.org/news/npr/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+                "https://ted-lasso.fandom.com/wiki/Lavender",
+                "https://musiccitydrivein.com/2021/07/30/ted-lasso-recap-lavender/"
+              ]
+            },
+            {
+              "id": "s2e2-lust-conquers-all-love-island",
+              "tag": "A Love Island send-up",
+              "title": "\"Lust Conquers All\"",
+              "moment": "The episode opens inside a fictional dating-competition show, 'Lust Conquers All' -- villa, confessionals, eliminations -- where Jamie, cast as the resident bad boy, is unexpectedly voted off after a run of romantic flip-flops.",
+              "idea": "It's a precise parody of ITV's reality juggernaut Love Island, and it reframes Jamie's whole arc: he chased fame instead of football, and it collapsed on him on national TV.",
+              "why": "The spoof is the setup for the episode's real question -- whether a humbled Jamie deserves a way back. Watch how the show uses a silly genre to puncture his ego before it lets him ask for help.",
+              "source": "Ted Lasso Fandom 'Lust Conquers All' entry; thedipp and NPR recaps confirming the Love Island parody.",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Cold-open 'Lust Conquers All' as a Love Island parody with Jamie eliminated confirmed across Fandom, thedipp, NPR, Elite Daily; grounding capped at 4.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Lust_Conquers_All",
+                "https://thedipp.com/ted-lasso/lust-conquers-all-love-island-spoof",
+                "https://www.elitedaily.com/entertainment/jamie-tartt-return-afc-richmond-ted-lasso-season-2-episode-2",
+                "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake"
+              ]
+            },
+            {
+              "id": "s2e2-jamie-prodigal-son",
+              "tag": "Second chances",
+              "title": "The prodigal son comes home",
+              "moment": "Humiliated, released by Manchester City, and wanted by no club after his reality-TV detour, Jamie quietly finds Ted at a bar and asks to come back to Richmond. Ted's first instinct is no, and the Diamond Dogs are split.",
+              "idea": "Critics read the arc as a prodigal-son story (NPR literally titled its recap 'The Prodigal Beefcake'): the show's recurring question of whether people get a second chance, and on what terms. The philosophical hook is friendship and forgiveness -- not whether Jamie is useful, but whether he's wanted.",
+              "why": "Hold this up against the episode's other can't-let-go-of-the-past stories. The 'prodigal son' is a reading, not the writers' label -- but it names exactly what's at stake when a humbled man asks to come home.",
+              "source": "NPR's 'The Prodigal Beefcake' recap and AwardsWatch; Salon on Jamie's redemption arc; plot via the Wikipedia episode entry.",
+              "category": "Redemption",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Plot (Jamie unwanted, asks Ted to return, Dogs split) and the widely-shared prodigal-son reading confirmed across NPR, AwardsWatch, Salon, Wikipedia; framed as a reading, not creator intent. Grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.npr.org/2021/07/30/1022210711/ted-lasso-recap-season-2-the-prodigal-beefcake",
+                "https://awardswatch.com/ted-lasso-recap-season-2-episode-2-lavender/",
+                "https://www.salon.com/2023/03/25/ted-lasso-and-the-redemption-of-jamie-tartt/",
+                "https://en.wikipedia.org/wiki/Lavender_(Ted_Lasso)"
+              ]
+            },
+            {
+              "id": "s2e2-roy-consolation-trophies",
+              "tag": "Trophies for losing",
+              "title": "Roy and the participation prizes",
+              "moment": "Bored in retirement, Roy coaches his niece Phoebe's under-9 team -- and after a defeat has to hand out consolation trophies, grumbling that the kids are being rewarded for winning nothing.",
+              "idea": "The scene gently teases the show's own gospel of effort-over-results while honestly admitting Roy isn't there yet: he still believes prizes should mean winning. That restlessness is what's making retirement miserable.",
+              "why": "A funny beat doing quiet thematic work -- it's the same itch that will push Roy toward the pundit's chair and, eventually, the touchline. Watch how the show lets a character disagree with its own moral.",
+              "source": "Pajiba and Nerds &amp; Beyond E2 recaps; Ted Lasso Fandom 'Roy Kent' entry.",
+              "category": "Ethics & character",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Roy handing out consolation trophies for Phoebe's team and grumbling about it confirmed in this episode across two recaps and Fandom; grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.pajiba.com/tv_reviews/ted-lasso-episode-2-recap-hold-the-lavender-and-the-sugar-i-want-those-sweet-tears.php",
+                "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
+                "https://ted-lasso.fandom.com/wiki/Roy_Kent"
+              ]
+            },
+            {
+              "id": "s2e2-roy-pundit-real-pundits",
+              "tag": "Roy joins the desk",
+              "title": "Punditry with real faces",
+              "moment": "Pushed by Keeley, a restless retired Roy reluctantly takes a punditry gig on Sky Sports' Soccer Saturday -- sharing the desk with real broadcasters Jeff Stelling and Chris Kamara (as themselves) and the fictional, Ted-hating George Cartrick. Asked about his old club, Roy swears about Chelsea on live TV.",
+              "idea": "Another real-media cameo that grounds Richmond in actual British football culture -- and a perfectly in-character beat: Roy is incapable of pretending, even on air, even about the club he loved.",
+              "why": "Watch Stelling have to apologise to viewers. The bluntness that makes Roy a liability on a polite TV panel is the same honesty that will make him a great coach.",
+              "source": "Ted Lasso Fandom pages for Jeff Stelling, Chris Kamara, and George Cartrick; IMDb episode cast listing.",
+              "category": "Meta & trivia",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Roy's Soccer Saturday debut with real pundits Stelling and Kamara (plus fictional Cartrick) and the on-air Chelsea swearing confirmed across Fandom and IMDb; grounding capped at 4.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Jeff_Stelling",
+                "https://ted-lasso.fandom.com/wiki/Chris_Kamara",
+                "https://ted-lasso.fandom.com/wiki/George_Cartrick",
+                "https://www.imdb.com/title/tt14968630/characters/nm1127592"
+              ]
             }
           ]
         },
@@ -1022,13 +1198,99 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e3-placeholder",
-              "tag": "Coming soon",
-              "title": "Notes coming soon",
-              "moment": "",
-              "idea": "",
-              "why": "Still writing these — check back after you've watched it.",
-              "source": ""
+              "id": "s2e3-led-tasso-predates-show",
+              "tag": "A road not taken",
+              "title": "The angry coach came first",
+              "moment": "Behind the scenes: Jason Sudeikis has said the cruel-coach idea behind Led Tasso isn't new -- a brash, yelling version of the character was the original 2013 NBC Sports pitch, one he deliberately chose not to play.",
+              "idea": "The kind, gentle Ted we love was a choice, not a default. Sudeikis credits Brendan Hunt (Beard) with reminding him of that first angry conception -- which means Led Tasso is a knowing wink at the Ted that almost was.",
+              "why": "It recasts every warm moment as a decision. When Ted turns into Led, he's briefly visiting the character he could have been -- and the show knows it.",
+              "source": "Jason Sudeikis interview on Led Tasso's origins (TheWrap / Yahoo); the 2013 NBC Sports promo origin confirmed via Sports Illustrated.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Sudeikis-interview origin (angry-coach idea from the 2013 NBC promos; Hunt refreshed his memory) confirmed across TheWrap, Yahoo, and SI; grounding capped at 4 (no primary page opened).",
+              "sourcesChecked": [
+                "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
+                "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
+                "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+              ]
+            },
+            {
+              "id": "s2e3-protest-real-world-inspiration",
+              "tag": "More than an athlete",
+              "title": "What Sam's actor drew on",
+              "moment": "Behind the scenes: Toheeb Jimoh has said that filming Sam's stand, he thought about Colin Kaepernick, LeBron James's 'More Than an Athlete' movement, and the young English players Rashford, Sancho and Saka -- with Nigeria's 2020 End SARS protests as the backdrop.",
+              "idea": "The scene is anchored in real athlete activism. Jimoh has spoken about wanting to do right by Nigerians through Sam's choices, drawing on footballers who took public stands and paid a price for them.",
+              "why": "It explains the weight Jimoh brings to a quiet act of taping a shirt. Note the framing: these are the actor's stated inspirations, not an official 'the writers based Sam on X.' Off screen, Sudeikis wore a sweatshirt honoring Saka, Sancho and Rashford after they were racially abused.",
+              "source": "Toheeb Jimoh interviews (TV Insider, IndieWire) on his inspirations; Sudeikis's real-life gesture via NBC News.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "Jimoh's cited inspirations and Sudeikis's gesture confirmed across TV Insider, IndieWire, and NBC News; attributed as the actor's stated influences, not writers'-room canon. Grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.tvinsider.com/1008517/ted-lasso-season-2-episode-3-sam-jamie-toheeb-jimoh-hannah-waddingham/",
+                "https://www.indiewire.com/features/general/toheeb-jimoh-ted-lasso-dubai-air-scene-season-3-1234747578/",
+                "https://www.nbcnews.com/pop-culture/celebrity/jason-sudeikis-shows-support-racially-abused-english-soccer-players-n1274155"
+              ]
+            },
+            {
+              "id": "s2e3-sam-jersey-tape-protest",
+              "tag": "Doing the right thing at a cost",
+              "title": "Sam tapes over the logo",
+              "moment": "Before kickoff, Sam covers the Dubai Air name on his shirt with black tape, telling the room he can no longer wear it. Jamie reaches for the tape next, and the whole squad follows -- revealing the protest only once they are on the pitch.",
+              "idea": "Moral courage as a team act. Sam learns the sponsor's parent oil company is accused of devastating his native Nigeria, and chooses conscience over being the brand's smiling face -- and his teammates choose to stand with him.",
+              "why": "The spine of the episode. Watch who reaches for the tape first: the costliest stand is made easier because one player refuses to make it alone.",
+              "source": "AFC Richmond's protest against Dubai Air / Cerithium Oil, per recaps at CBR, TVLine, and Entertainment Tonight.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Jersey-taping protest and the team following (Jamie first) confirmed across multiple independent recaps; grounding capped at 4 as no primary page could be opened.",
+              "sourcesChecked": [
+                "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
+                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+                "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
+              ]
+            },
+            {
+              "id": "s2e3-jamie-solidarity-redemption",
+              "tag": "Actions over apologies",
+              "title": "Jamie's real apology",
+              "moment": "Jamie's spoken attempts to say sorry to the team go nowhere -- they rebuff him at every turn. But when Sam protests, Jamie quietly tapes over his own logo too, framing it as nothing more than teammates wearing the same kit.",
+              "idea": "The repair happens without words. The former bully and brand-magnet does the reconciling his apologies couldn't by making a small, costly choice to stand with someone -- and it starts to turn his arc.",
+              "why": "Watch how the team thaws toward Jamie not when he speaks but when he acts. It's the first real step in a redemption the season takes its time with.",
+              "source": "Jamie's failed apology and his joining the protest, per recaps at TVLine, ReadySteadyCut, and CBR.",
+              "category": "Redemption",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Jamie's rebuffed apologies and his joining Sam's protest confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+              "sourcesChecked": [
+                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+                "https://readysteadycut.com/2021/08/06/recap-ted-lasso-season-2-episode-3-apple-tv-plus-series/",
+                "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/"
+              ]
+            },
+            {
+              "id": "s2e3-rebecca-nora-promises",
+              "tag": "Showing up",
+              "title": "Rebecca keeps her promises",
+              "moment": "Looking after her goddaughter Nora, Rebecca is confronted with how many small promises she made over the years and never kept -- and chooses to make good, taking time off and bringing Nora along to see how she runs the club.",
+              "idea": "A quieter version of the episode's title. Doing the right thing here isn't a public stand but the unglamorous work of repair: actually turning up for someone after years of letting them down.",
+              "why": "The gentle counterpart to Sam's loud protest. Watch Rebecca rediscover who she is outside of work and revenge -- by simply being present for a kid who looks up to her.",
+              "source": "Rebecca-and-Nora arc per recaps at Entertainment Tonight, ShowSnob, and Pajiba.",
+              "category": "Relationships",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Rebecca making good on broken promises to Nora confirmed across multiple recaps; grounding capped at 4 (no primary page opened).",
+              "sourcesChecked": [
+                "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093",
+                "https://showsnob.com/2021/08/06/ted-lasso-season-2-episode-3-recap/",
+                "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php"
+              ]
             }
           ]
         },
