@@ -94,7 +94,8 @@ reviewer** (see below). The app reads these at render time:
 | Field | Meaning |
 |-------|---------|
 | `grounding` (1–5) | How well the card's claims hold up to independent web checks. **Cards with `grounding` < 3 are withheld from the reader.** |
-| `interest` (1–5) | Editorial "oh, I never caught that" value. **Displayed cards are sorted by `interest`, highest first.** |
+| `interest` (1–5) | Editorial "oh, I never caught that" value. **Cards sort by `interest`, highest first** — unless the episode sets an explicit `order`. |
+| `order` (int, optional) | Curated reading order within an episode (ascending). When any card in an episode has it, the page reads in that order — so an intro comes before the card that references it — instead of by `interest`. |
 | `category` | One of `Belief & hope`, `Ethics & character`, `Relationships`, `Redemption`, `Meta & trivia`, `Aesthetics`. |
 | `groundingStatus` | `verified` \| `attributed` \| `partial` \| `unverified` \| `disputed`. |
 | `groundingNotes` | What the reviewer found. |

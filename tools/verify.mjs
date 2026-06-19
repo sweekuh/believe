@@ -106,14 +106,18 @@ try {
   });
   check("copy-all includes the saved note", /This one got me, Teddy\./.test(clip));
 
-  // Episode 8: scored cards exercise the display contract (filter + sort by interest)
+  // Episode 8 (Season 1): exercises the display contract — weak cards filtered, then
+  // a curated reading order (an explicit per-card `order` overrides the interest sort).
   await page.select("#epPicker", "8");
   await new Promise(r => setTimeout(r, 300));
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
   check("E8 shows 5 verified cards", e8titles.length === 5);
-  check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
+  check("E8 leads with the darts scene", e8titles[0] === "The darts scene");
+  const iBowie = e8titles.findIndex(t => /Bowie/.test(t));
+  const iName = e8titles.findIndex(t => /^Why /.test(t));
+  check("E8 curated order introduces Bowie before the name-origin card", iBowie !== -1 && iName !== -1 && iBowie < iName);
   if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
   // Every Season 1 episode now ships verified cards (no "coming soon" placeholders),

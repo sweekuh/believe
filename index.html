@@ -563,20 +563,32 @@
       return box;
     }
 
-    // Apply the display contract: drop weak-grounding cards, then sort by interest
-    // (highest first), stably. Unscored cards are kept and sort neutrally, so the
-    // older E1 cards and the "coming soon" placeholders keep working unchanged.
+    // Choose the reader's card order. An explicit curated `order` (per card,
+    // ascending) wins, so an episode can read top-to-bottom with intros ahead of
+    // the cards that reference them; episodes with no `order` fall back to
+    // most-interesting-first. Either way, weak-grounding cards are dropped and
+    // ties break by interest then original index. Unscored/unordered cards sort
+    // neutrally, so older content keeps working unchanged.
     function displayCards(ep){
-      return ep.cards
+      var rows = ep.cards
         .filter(function(card){
           return typeof card.grounding !== "number" || card.grounding >= GROUNDING_MIN;
         })
         .map(function(card, i){
           return { card: card, i: i,
+            order: (typeof card.order === "number" ? card.order : null),
             interest: (typeof card.interest === "number" ? card.interest : DEFAULT_INTEREST) };
-        })
-        .sort(function(a, b){ return (b.interest - a.interest) || (a.i - b.i); })
-        .map(function(x){ return x.card; });
+        });
+      var curated = rows.some(function(x){ return x.order !== null; });
+      rows.sort(function(a, b){
+        if (curated){
+          var ao = (a.order === null ? Infinity : a.order);
+          var bo = (b.order === null ? Infinity : b.order);
+          if (ao !== bo) return ao - bo;
+        }
+        return (b.interest - a.interest) || (a.i - b.i);
+      });
+      return rows.map(function(x){ return x.card; });
     }
 
     // ---- Switch to a season: repopulate the episode picker, then pick an episode ----

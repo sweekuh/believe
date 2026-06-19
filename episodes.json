@@ -65,7 +65,48 @@
           "footer": "",
           "cards": [
             {
+              "id": "s1e2-be-a-goldfish",
+              "order": 1,
+              "tag": "Let the bad moment go",
+              "title": "Be a goldfish",
+              "moment": "After Jamie beats him in a drill and mocks him, a deflated Sam apologizes. Ted crouches down and tells him the happiest animal is a goldfish, because it has a ten-second memory, then urges him to forget the play and move on.",
+              "idea": "A plain-language version of refusing to ruminate: name the mistake, release it, and reset your attention to the next moment. Often read alongside Stoic 'control what you can' framing and everyday present-focus practice.",
+              "why": "This is the show's signature coaching idea, introduced here. Notice it is aimed at shame, not the error itself, Ted is teaching Sam how to stop a bad moment from compounding.",
+              "source": "<em>Ted Lasso</em>, S1E2 \"Biscuits\" (2020); corroborated by episode recaps and a clip of the scene.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: scene, placement (Sam, after Jamie mocks him), and the ten-second / happiest-animal framing confirmed across a YARN clip, the Ted Lasso Wiki, and the ShowSnob recap. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c",
+                "https://ted-lasso.fandom.com/wiki/Goldfish",
+                "https://showsnob.com/2020/08/14/ted-lasso-season-1-episode-2-recap/"
+              ]
+            },
+            {
+              "id": "s1e2-goldfish-memory-myth",
+              "order": 2,
+              "tag": "True as metaphor, false as fact",
+              "title": "The goldfish-memory myth behind the lesson",
+              "moment": "Ted frames the goldfish as the happiest animal because it forgets so fast, naming a ten-second memory as the reason.",
+              "idea": "The premise is folklore. Studies show goldfish actually remember learned cues for months, even up to a year. The show leans on the myth because it makes the emotional point land, not as a claim about biology.",
+              "why": "A gentle parallel to how this project treats the Whitman line: the wisdom is real even when the supporting 'fact' is not. Worth knowing so the metaphor can be loved without being mistaken for science.",
+              "source": "Goldfish-memory research summarized by <em>Live Science</em>, <em>Discover</em>, and the American Museum of Natural History; show premise from S1E2 \"Biscuits.\"",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: the short-memory premise is a documented myth; goldfish retain learned cues for months to years per Live Science, Discover, AMNH, and Ripley's, with the show's ten-second framing confirmed in the 'be a goldfish' scene. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.livescience.com/goldfish-memory.html",
+                "https://www.discovermagazine.com/goldfish-may-have-longer-memories-than-just-three-seconds-46062",
+                "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think"
+              ]
+            },
+            {
               "id": "s1e2-selhurst-park-irony",
+              "order": 3,
               "tag": "Standing in the rival's real house",
               "title": "Richmond's ground is Crystal Palace's real stadium",
               "moment": "Ted rallies the team to defend their home turf against Crystal Palace, the day's opponent.",
@@ -85,6 +126,7 @@
             },
             {
               "id": "s1e2-zach-braff-director",
+              "order": 4,
               "tag": "The episode that set the tone",
               "title": "Zach Braff directed this one",
               "moment": "Off screen: 'Biscuits' was directed by Zach Braff, written by Joe Kelly from a story by Brendan Hunt and Jason Sudeikis.",
@@ -103,26 +145,8 @@
               ]
             },
             {
-              "id": "s1e2-goldfish-memory-myth",
-              "tag": "True as metaphor, false as fact",
-              "title": "The goldfish-memory myth behind the lesson",
-              "moment": "Ted frames the goldfish as the happiest animal because it forgets so fast, naming a ten-second memory as the reason.",
-              "idea": "The premise is folklore. Studies show goldfish actually remember learned cues for months, even up to a year. The show leans on the myth because it makes the emotional point land, not as a claim about biology.",
-              "why": "A gentle parallel to how this project treats the Whitman line: the wisdom is real even when the supporting 'fact' is not. Worth knowing so the metaphor can be loved without being mistaken for science.",
-              "source": "Goldfish-memory research summarized by <em>Live Science</em>, <em>Discover</em>, and the American Museum of Natural History; show premise from S1E2 \"Biscuits.\"",
-              "category": "Meta & trivia",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Re-verified via fresh search: the short-memory premise is a documented myth; goldfish retain learned cues for months to years per Live Science, Discover, AMNH, and Ripley's, with the show's ten-second framing confirmed in the 'be a goldfish' scene. No primary page openable this session, so grounding capped at 4.",
-              "sourcesChecked": [
-                "https://www.livescience.com/goldfish-memory.html",
-                "https://www.discovermagazine.com/goldfish-may-have-longer-memories-than-just-three-seconds-46062",
-                "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think"
-              ]
-            },
-            {
               "id": "s1e2-soccer-girl-rickshaw-rig",
+              "order": 5,
               "tag": "How they faked real football",
               "title": "Filming the 'Soccer Girl' on a rickshaw rig",
               "moment": "In a park, a schoolgirl dribbles circles around Ted, a humbling beat for the new gaffer.",
@@ -137,25 +161,6 @@
               "sourcesChecked": [
                 "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
                 "https://awfulannouncing.com/pop-culture/ted-lasso-director-zach-braff-wasnt-allowed-cameras-onto-pitch-for-soccer-scenes.html"
-              ]
-            },
-            {
-              "id": "s1e2-be-a-goldfish",
-              "tag": "Let the bad moment go",
-              "title": "Be a goldfish",
-              "moment": "After Jamie beats him in a drill and mocks him, a deflated Sam apologizes. Ted crouches down and tells him the happiest animal is a goldfish, because it has a ten-second memory, then urges him to forget the play and move on.",
-              "idea": "A plain-language version of refusing to ruminate: name the mistake, release it, and reset your attention to the next moment. Often read alongside Stoic 'control what you can' framing and everyday present-focus practice.",
-              "why": "This is the show's signature coaching idea, introduced here. Notice it is aimed at shame, not the error itself, Ted is teaching Sam how to stop a bad moment from compounding.",
-              "source": "<em>Ted Lasso</em>, S1E2 \"Biscuits\" (2020); corroborated by episode recaps and a clip of the scene.",
-              "category": "Belief & hope",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Re-verified via fresh search: scene, placement (Sam, after Jamie mocks him), and the ten-second / happiest-animal framing confirmed across a YARN clip, the Ted Lasso Wiki, and the ShowSnob recap. No primary page openable this session, so grounding capped at 4.",
-              "sourcesChecked": [
-                "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c",
-                "https://ted-lasso.fandom.com/wiki/Goldfish",
-                "https://showsnob.com/2020/08/14/ted-lasso-season-1-episode-2-recap/"
               ]
             }
           ]
@@ -677,6 +682,7 @@
           "cards": [
             {
               "id": "s1e8-darts-curiosity",
+              "order": 1,
               "tag": "Curiosity over judgment",
               "title": "The darts scene",
               "moment": "Goaded into a darts match by Rupert in front of everyone, Ted reveals he’s quietly very good — and explains that people wrote him off his whole life by judging instead of asking, landing the throws that matter as he says it.",
@@ -696,6 +702,7 @@
             },
             {
               "id": "s1e8-diamond-dogs",
+              "order": 2,
               "tag": "Friendship",
               "title": "The Diamond Dogs assemble",
               "moment": "The men around Ted start informally huddling to talk each other through their personal messes — no fixing, just showing up — a ritual they christen the “Diamond Dogs.”",
@@ -714,26 +721,8 @@
               ]
             },
             {
-              "id": "s1e8-diamond-dogs-name-origin",
-              "tag": "How they got the name",
-              "title": "Why 'Diamond Dogs'",
-              "moment": "Casting around for a name for their new circle, Nate lands on 'the Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and Ted blesses it on the spot.",
-              "idea": "Inside the story the name has nothing to do with Bowie: it's a goofy locker-room in-joke built on the club mascot, which grounds a lofty 'men's support group' idea in something silly and real.",
-              "why": "A nice pairing with the Bowie cue -- the show gives an earnest in-universe reason while the credits wink at the album. Watch how fast the sincere moment turns into a bit.",
-              "source": "Ted Lasso Fandom 'Diamond Dogs' entry and the scene transcript (lassoism): Nate names them for the Greyhound mascot; Ted approves.",
-              "category": "Meta & trivia",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Nate proposing 'Diamond Dogs' for Richmond's Greyhound mascot and Ted's approval corroborated across the Ted Lasso Fandom 'Diamond Dogs' page, the lassoism S01E08 scene image/transcript, and the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4 (no primary page openable).",
-              "sourcesChecked": [
-                "https://ted-lasso.fandom.com/wiki/Diamond_Dogs",
-                "https://lassoism.com/Ted-Lasso-image.php?id=1142",
-                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
-              ]
-            },
-            {
               "id": "s1e8-title-bowie-album",
+              "order": 3,
               "tag": "A Bowie wink",
               "title": "The Bowie needle-drop",
               "moment": "The men christen their new support circle the 'Diamond Dogs' -- and David Bowie's 1974 song of the same name plays over the closing credits, a glam anthem about a ragged gang of outsiders.",
@@ -752,7 +741,28 @@
               ]
             },
             {
+              "id": "s1e8-diamond-dogs-name-origin",
+              "order": 4,
+              "tag": "How they got the name",
+              "title": "Why 'Diamond Dogs'",
+              "moment": "Casting around for a name for their new circle, Nate lands on 'the Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and Ted blesses it on the spot.",
+              "idea": "Inside the story the name has nothing to do with Bowie: it's a goofy locker-room in-joke built on the club mascot, which grounds a lofty 'men's support group' idea in something silly and real.",
+              "why": "A nice pairing with the Bowie cue -- the show gives an earnest in-universe reason while the credits wink at the album. Watch how fast the sincere moment turns into a bit.",
+              "source": "Ted Lasso Fandom 'Diamond Dogs' entry and the scene transcript (lassoism): Nate names them for the Greyhound mascot; Ted approves.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Nate proposing 'Diamond Dogs' for Richmond's Greyhound mascot and Ted's approval corroborated across the Ted Lasso Fandom 'Diamond Dogs' page, the lassoism S01E08 scene image/transcript, and the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4 (no primary page openable).",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Diamond_Dogs",
+                "https://lassoism.com/Ted-Lasso-image.php?id=1142",
+                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+              ]
+            },
+            {
               "id": "s1e8-roy-keeley-honesty",
+              "order": 5,
               "tag": "Honesty first",
               "title": "Roy and Keeley begin",
               "moment": "Before they're even officially together, Keeley tells Roy the truth -- that she slept with Jamie again. Roy is hurt, goes away to actually sit with it, and comes back ready to ask her to dinner.",
@@ -1151,22 +1161,22 @@
               ]
             },
             {
-              "id": "s2e2-roy-consolation-trophies",
-              "tag": "Trophies for losing",
-              "title": "Roy and the participation prizes",
-              "moment": "Bored in retirement, Roy coaches his niece Phoebe's under-9 team -- and after a defeat has to hand out consolation trophies, grumbling that the kids are being rewarded for winning nothing.",
-              "idea": "The scene gently teases the show's own gospel of effort-over-results while honestly admitting Roy isn't there yet: he still believes prizes should mean winning. That restlessness is what's making retirement miserable.",
-              "why": "A funny beat doing quiet thematic work -- it's the same itch that will push Roy toward the pundit's chair and, eventually, the touchline. Watch how the show lets a character disagree with its own moral.",
-              "source": "Pajiba and Nerds &amp; Beyond E2 recaps; Ted Lasso Fandom 'Roy Kent' entry.",
-              "category": "Ethics & character",
-              "interest": 3,
+              "id": "s2e2-led-zeppelin-plant-gag",
+              "tag": "A pun hidden in a houseplant",
+              "title": "The Led Zeppelin gag",
+              "moment": "Passing the displaced Higgins -- who keeps getting moved between temporary offices -- Ted says hello to an office plant, calling it 'Robert.' Higgins, mid-move with a fistful of papers, deadpans that his name is 'Jimmy.'",
+              "idea": "It's a blink-and-miss double pun on Led Zeppelin: Robert <strong>Plant</strong> (the potted plant) and Jimmy <strong>Page</strong> (the sheaf of pages Higgins is holding).",
+              "why": "Pure Easter egg -- the kind of throwaway wordplay the show layers onto a single prop. Once you see it you'll never un-see it, and it rewards a pause on the rewatch.",
+              "source": "Episode IMDb trivia, the Nerds &amp; Beyond recap, and the lassoism S2E2 transcript, all reading it as Plant/Page.",
+              "category": "Meta & trivia",
+              "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Roy handing out consolation trophies for Phoebe's team and grumbling about it confirmed in this episode across two recaps and Fandom; grounding capped at 4.",
+              "groundingNotes": "'Robert' plant / 'Jimmy' papers Led Zeppelin pun confirmed across IMDb trivia, a recap, and a transcript; grounding capped at 4 (no primary page openable).",
               "sourcesChecked": [
-                "https://www.pajiba.com/tv_reviews/ted-lasso-episode-2-recap-hold-the-lavender-and-the-sugar-i-want-those-sweet-tears.php",
+                "https://www.imdb.com/title/tt14968630/trivia/",
                 "https://www.nerdsandbeyond.com/2021/07/30/ted-lasso-recap-season-2-episode-2-lavender/",
-                "https://ted-lasso.fandom.com/wiki/Roy_Kent"
+                "https://lassoism.com/Ted-Lasso-S02E02-lavender.php"
               ]
             },
             {
@@ -1198,26 +1208,28 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e3-led-tasso-predates-show",
-              "tag": "A road not taken",
-              "title": "The angry coach came first",
-              "moment": "Behind the scenes: Jason Sudeikis has said the cruel-coach idea behind Led Tasso isn't new -- a brash, yelling version of the character was the original 2013 NBC Sports pitch, one he deliberately chose not to play.",
-              "idea": "The kind, gentle Ted we love was a choice, not a default. Sudeikis credits Brendan Hunt (Beard) with reminding him of that first angry conception -- which means Led Tasso is a knowing wink at the Ted that almost was.",
-              "why": "It recasts every warm moment as a decision. When Ted turns into Led, he's briefly visiting the character he could have been -- and the show knows it.",
-              "source": "Jason Sudeikis interview on Led Tasso's origins (TheWrap / Yahoo); the 2013 NBC Sports promo origin confirmed via Sports Illustrated.",
-              "category": "Meta & trivia",
+              "id": "s2e3-sam-jersey-tape-protest",
+              "order": 1,
+              "tag": "Doing the right thing at a cost",
+              "title": "Sam tapes over the logo",
+              "moment": "Before kickoff, Sam covers the Dubai Air name on his shirt with black tape, telling the room he can no longer wear it. His fellow Nigerian players cover theirs too, then Jamie -- the first non-Nigerian to join -- reaches for the tape, and the rest of the squad follows, revealing the protest only once they are on the pitch.",
+              "idea": "Moral courage as a team act. Sam learns the sponsor's parent oil company is accused of devastating his native Nigeria, and chooses conscience over being the brand's smiling face -- and his teammates choose to stand with him.",
+              "why": "The spine of the episode. Watch who reaches for the tape first: the costliest stand is made easier because one player refuses to make it alone.",
+              "source": "AFC Richmond's protest against Dubai Air / Cerithium Oil, per recaps at CBR, TVLine, and Entertainment Tonight.",
+              "category": "Ethics & character",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Sudeikis-interview origin (angry-coach idea from the 2013 NBC promos; Hunt refreshed his memory) confirmed across TheWrap, Yahoo, and SI; grounding capped at 4 (no primary page opened).",
+              "groundingNotes": "Jersey-taping protest and the team following (Jamie first) confirmed across multiple independent recaps; grounding capped at 4 as no primary page could be opened.",
               "sourcesChecked": [
-                "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
-                "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
-                "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+                "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
+                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
+                "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
               ]
             },
             {
               "id": "s2e3-protest-real-world-inspiration",
+              "order": 2,
               "tag": "More than an athlete",
               "title": "What Sam's actor drew on",
               "moment": "Behind the scenes: Toheeb Jimoh has said that filming Sam's stand, he thought about Colin Kaepernick, LeBron James's 'More Than an Athlete' movement, and the young English players Rashford, Sancho and Saka -- with Nigeria's 2020 End SARS protests as the backdrop.",
@@ -1236,26 +1248,8 @@
               ]
             },
             {
-              "id": "s2e3-sam-jersey-tape-protest",
-              "tag": "Doing the right thing at a cost",
-              "title": "Sam tapes over the logo",
-              "moment": "Before kickoff, Sam covers the Dubai Air name on his shirt with black tape, telling the room he can no longer wear it. Jamie reaches for the tape next, and the whole squad follows -- revealing the protest only once they are on the pitch.",
-              "idea": "Moral courage as a team act. Sam learns the sponsor's parent oil company is accused of devastating his native Nigeria, and chooses conscience over being the brand's smiling face -- and his teammates choose to stand with him.",
-              "why": "The spine of the episode. Watch who reaches for the tape first: the costliest stand is made easier because one player refuses to make it alone.",
-              "source": "AFC Richmond's protest against Dubai Air / Cerithium Oil, per recaps at CBR, TVLine, and Entertainment Tonight.",
-              "category": "Ethics & character",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Jersey-taping protest and the team following (Jamie first) confirmed across multiple independent recaps; grounding capped at 4 as no primary page could be opened.",
-              "sourcesChecked": [
-                "https://www.cbr.com/ted-lasso-afc-richmond-sam-protest/",
-                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-3-sam-obisanya-dubai-air-nigeria-protest-1234705716/",
-                "https://www.etonline.com/ted-lasso-season-2-episode-3-led-tasso-comes-to-town-sam-and-rebecca-do-the-right-thing-170093"
-              ]
-            },
-            {
               "id": "s2e3-jamie-solidarity-redemption",
+              "order": 3,
               "tag": "Actions over apologies",
               "title": "Jamie's real apology",
               "moment": "Jamie's spoken attempts to say sorry to the team go nowhere -- they rebuff him at every turn. But when Sam protests, Jamie quietly tapes over his own logo too, framing it as nothing more than teammates wearing the same kit.",
@@ -1275,6 +1269,7 @@
             },
             {
               "id": "s2e3-rebecca-nora-promises",
+              "order": 4,
               "tag": "Showing up",
               "title": "Rebecca keeps her promises",
               "moment": "Looking after her goddaughter Nora, Rebecca is confronted with how many small promises she made over the years and never kept -- and chooses to make good, taking time off and bringing Nora along to see how she runs the club.",
@@ -1291,6 +1286,26 @@
                 "https://showsnob.com/2021/08/06/ted-lasso-season-2-episode-3-recap/",
                 "https://www.pajiba.com/tv_reviews/ted-lasso-episode-3-recap-led-tasso-boss-ass-bitch-and-sam-the-man.php"
               ]
+            },
+            {
+              "id": "s2e3-led-tasso-predates-show",
+              "order": 5,
+              "tag": "A road not taken",
+              "title": "The angry coach came first",
+              "moment": "Behind the scenes: Jason Sudeikis has said the cruel-coach idea behind Led Tasso isn't new -- a brash, yelling version of the character was the original 2013 NBC Sports pitch, one he deliberately chose not to play.",
+              "idea": "The kind, gentle Ted we love was a choice, not a default. Sudeikis credits Brendan Hunt (Beard) with reminding him of that first angry conception -- which means Led Tasso is a knowing wink at the Ted that almost was.",
+              "why": "It recasts every warm moment as a decision. When Ted turns into Led, he's briefly visiting the character he could have been -- and the show knows it.",
+              "source": "Jason Sudeikis interview on Led Tasso's origins (TheWrap / Yahoo); the 2013 NBC Sports promo origin confirmed via Sports Illustrated.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Sudeikis-interview origin (angry-coach idea from the 2013 NBC promos; Hunt refreshed his memory) confirmed across TheWrap, Yahoo, and SI; grounding capped at 4 (no primary page opened).",
+              "sourcesChecked": [
+                "https://www.thewrap.com/led-tasso-jason-sudeikis-ted-lasso-season-2-episode-3/",
+                "https://www.yahoo.com/entertainment/jason-sudeikis-origins-led-tasso-121500811.html",
+                "https://www.si.com/soccer/is-ted-lasso-based-on-a-true-story"
+              ]
             }
           ]
         },
@@ -1301,47 +1316,8 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e4-hi-ted-callback",
-              "tag": "The gesture, reversed",
-              "title": "'HI TED' in tinsel",
-              "moment": "Sensing Ted is sinking into a lonely Christmas, Rebecca lays Christmas garland along the road beneath his window to spell 'HI TED' -- and lures him out.",
-              "idea": "It mirrors and reverses a Season 1 image: there, Ted had the players spell 'Hi Boss' on the pitch to cheer Rebecca. The person who once schemed against him is now the one reaching out to lift him up.",
-              "why": "If you remember the pitch, this lands twice. The whole distance their relationship has travelled is compressed into one repeated gesture, with the giver and receiver swapped.",
-              "source": "Call-back noted across TV Tropes' E4 recap, NPR's recap and the Ted Lasso Fandom; the Season 1 'Hi Boss' pitch gesture is its mirror.",
-              "category": "Relationships",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "HI TED tinsel and its inversion of the S1 'Hi Boss' pitch moment corroborated across TV Tropes, NPR and Fandom.",
-              "sourcesChecked": [
-                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells",
-                "https://www.npr.org/2021/08/13/1027251353/ted-lasso-recap-season-2-episode-4-at-christmas-sam-gets-his-goat",
-                "https://ted-lasso.fandom.com/wiki/Carol_of_the_Bells",
-                "https://fangirlish.com/2021/08/13/ted-lasso-2x04-review-carol-of-the-bells/"
-              ]
-            },
-            {
-              "id": "s2e4-love-actually-homage",
-              "tag": "A famous gesture, repurposed",
-              "title": "Phoebe's cue cards",
-              "moment": "To make peace with a classmate who mocked her, Phoebe stands silently at his door holding a stack of hand-lettered poster-board signs -- a beat-for-beat nod to the wordless cue-card confession in 'Love Actually'.",
-              "idea": "The show borrows cinema's most famous romantic grand gesture and rewires it into a child's lesson in apology and forgiveness: she names that she was hurt, says he should know better, and forgives him anyway.",
-              "why": "Watch how the homage flips the meaning -- the same silent cards that once said 'I love you' here say 'you hurt me, and I forgive you.' A small, grown-up emotional move handed to a kid.",
-              "source": "Homage to <em>Love Actually</em> (2003), noted across the Wikipedia episode page, TV Tropes' E4 recap, TVFanatic and Indiewire.",
-              "category": "Relationships",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Love Actually cue-card homage corroborated across multiple independent recaps; bully's name omitted because sources disagree.",
-              "sourcesChecked": [
-                "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)",
-                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells",
-                "https://www.tvfanatic.com/shows/ted-lasso/episodes/season-2/carol-of-the-bells/",
-                "https://www.indiewire.com/features/general/ted-lasso-christmas-episode-review-carol-of-the-bells-1234657798/"
-              ]
-            },
-            {
               "id": "s2e4-lonely-christmas-depression",
+              "order": 1,
               "tag": "A blue Christmas",
               "title": "The ache under the cheer",
               "moment": "For all its songs and lights, the episode turns on loneliness: it's Ted's first Christmas since the divorce, a short call with his son trails off when the boy is distracted by his gift, and Ted is left aching in an empty flat -- until Rebecca, herself divorced at Christmas, arrives to draw him out.",
@@ -1361,7 +1337,29 @@
               ]
             },
             {
+              "id": "s2e4-hi-ted-callback",
+              "order": 2,
+              "tag": "The gesture, reversed",
+              "title": "'HI TED' in tinsel",
+              "moment": "Sensing Ted is sinking into a lonely Christmas, Rebecca lays Christmas garland along the road beneath his window to spell 'HI TED' -- and lures him out.",
+              "idea": "It mirrors and reverses a Season 1 image: there, Ted had the players spell 'Hi Boss' on the pitch to cheer Rebecca. The person who once schemed against him is now the one reaching out to lift him up.",
+              "why": "If you remember the pitch, this lands twice. The whole distance their relationship has travelled is compressed into one repeated gesture, with the giver and receiver swapped.",
+              "source": "Call-back noted across TV Tropes' E4 recap, NPR's recap and the Ted Lasso Fandom; the Season 1 'Hi Boss' pitch gesture is its mirror.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "HI TED tinsel and its inversion of the S1 'Hi Boss' pitch moment corroborated across TV Tropes, NPR and Fandom.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells",
+                "https://www.npr.org/2021/08/13/1027251353/ted-lasso-recap-season-2-episode-4-at-christmas-sam-gets-his-goat",
+                "https://ted-lasso.fandom.com/wiki/Carol_of_the_Bells",
+                "https://fangirlish.com/2021/08/13/ted-lasso-2x04-review-carol-of-the-bells/"
+              ]
+            },
+            {
               "id": "s2e4-higgins-open-house-chosen-family",
+              "order": 3,
               "tag": "The family you make",
               "title": "Higgins's open house",
               "moment": "Higgins opens his home, as he does every Christmas, to any player who can't get back to their own family -- a gathering almost no one used to attend. This year the whole international squad arrives, each bringing food from home, and he raises a glass to the family you're born into and the family you gather along the way.",
@@ -1381,11 +1379,33 @@
               ]
             },
             {
+              "id": "s2e4-love-actually-homage",
+              "order": 4,
+              "tag": "A famous gesture, repurposed",
+              "title": "Phoebe's cue cards",
+              "moment": "To make peace with a classmate who mocked her, Phoebe stands silently at his door holding a stack of hand-lettered poster-board signs -- a beat-for-beat nod to the wordless cue-card confession in 'Love Actually'.",
+              "idea": "The show borrows cinema's most famous romantic grand gesture and rewires it into a child's lesson in apology and forgiveness: she names that she was hurt, says he should know better, and forgives him anyway.",
+              "why": "Watch how the homage flips the meaning -- the same silent cards that once said 'I love you' here say 'you hurt me, and I forgive you.' A small, grown-up emotional move handed to a kid.",
+              "source": "Homage to <em>Love Actually</em> (2003), noted across the Wikipedia episode page, TV Tropes' E4 recap, TVFanatic and Indiewire.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Love Actually cue-card homage corroborated across multiple independent recaps; bully's name omitted because sources disagree.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Carol_of_the_Bells_(Ted_Lasso)",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS2E04CarolOfTheBells",
+                "https://www.tvfanatic.com/shows/ted-lasso/episodes/season-2/carol-of-the-bells/",
+                "https://www.indiewire.com/features/general/ted-lasso-christmas-episode-review-carol-of-the-bells-1234657798/"
+              ]
+            },
+            {
               "id": "s2e4-title-carol-of-the-bells",
+              "order": 5,
               "tag": "A carol about generosity",
               "title": "Where the title comes from",
               "moment": "The Christmas episode takes its name from the famous carol 'Carol of the Bells' -- which began as the Ukrainian winter chant 'Shchedryk', a song about a swallow flying in to foretell a generous, prosperous year.",
-              "idea": "The original is a song about generosity and good fortune, set by Mykola Leontovych a century ago; the English 'bells' lyrics came later, from Peter Wilhousky in 1936. The episode it titles runs entirely on people giving -- Rebecca's gift run, the Higginses' open house, the team's homemade dishes.",
+              "idea": "The original is a song about generosity and good fortune, set by Mykola Leontovych over a century ago; the English 'bells' lyrics came later, from Peter Wilhousky in 1936. The episode it titles runs entirely on people giving -- Rebecca's gift run, the Higginses' open house, the team's homemade dishes.",
               "why": "Hear the title as a thesis, not just a tune: an episode named after a song about a bird bringing abundance, spent watching characters bring abundance to one another.",
               "source": "Song history per Wikipedia's 'Carol of the Bells', Interlude, Classic FM and Ukrainer: <em>Shchedryk</em> by Mykola Leontovych, English lyrics by Peter Wilhousky (1936).",
               "category": "Aesthetics",
@@ -1409,7 +1429,29 @@
           "footer": "",
           "cards": [
             {
+              "id": "s2e5-rom-communism",
+              "order": 1,
+              "tag": "Rom-communism",
+              "title": "Ted's 'rom-communism' speech",
+              "moment": "With the team slumping, Ted announces he believes in 'communism' -- then, after a beat, 'rom-communism' -- his made-up word for a worldview lifted from romantic comedies: if everyone pulls together, it all works out in the end. He and the players reel off the genre's biggest stars.",
+              "idea": "A comic coinage that's really the show's whole creed in costume: hope as a deliberate choice. Like a rom-com, the promise isn't that nothing goes wrong, it's that you trust the happy ending and keep showing up for each other.",
+              "why": "This is the spine of the episode's romantic-comedy homage. Notice it's precursive faith -- belief offered <em>before</em> the evidence, dressed as a movie-genre joke so it lands light instead of preachy.",
+              "source": "Episode recaps and essays on the 'rom-communism' speech (PopMatters, PureWow, TV Insider, Looper).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Speech and star name-drops confirmed across multiple independent recaps; placement in S2E5 firm. No primary page opened (WebFetch 403), so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.popmatters.com/rom-communism-ted-lasso-feature",
+                "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
+                "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/",
+                "https://www.looper.com/598833/ted-lassos-most-inspirational-quotes/"
+              ]
+            },
+            {
               "id": "s2e5-rom-com-medley-roy",
+              "order": 2,
               "tag": "A love letter to Roy",
               "title": "Ted woos Roy with the movies",
               "moment": "Trying to talk Roy into coaching, Ted courts him like a leading man proposing -- a medley of rewritten rom-com declarations: the 'rest of your life' speech, a 'you complete...' line, the 'I'm just a ___ standing in front of a ___' construction, and finally 'as you wish.'",
@@ -1430,6 +1472,7 @@
             },
             {
               "id": "s2e5-titanic-elderly-couple",
+              "order": 3,
               "tag": "Two movies in one",
               "title": "The couple who 'are' Titanic",
               "moment": "Borrowing When Harry Met Sally's device of old couples telling the camera how they met, the episode lands a gag: one pair's romance turns out, beat for beat, to be the plot of Titanic -- and they insist James Cameron stole their story and they're now suing him.",
@@ -1450,6 +1493,7 @@
             },
             {
               "id": "s2e5-rilke-bantr",
+              "order": 4,
               "tag": "A line 'by Rilke'",
               "title": "Rebecca's mystery poet",
               "moment": "Flirting on the anonymous Bantr app, Rebecca's unseen match quotes a line credited to the poet Rainer Maria Rilke -- that our deepest fears are like dragons guarding our deepest treasure -- and she melts.",
@@ -1469,27 +1513,8 @@
               ]
             },
             {
-              "id": "s2e5-rom-communism",
-              "tag": "Rom-communism",
-              "title": "Ted's 'rom-communism' speech",
-              "moment": "With the team slumping, Ted announces he believes in 'communism' -- then, after a beat, 'rom-communism' -- his made-up word for a worldview lifted from romantic comedies: if everyone pulls together, it all works out in the end. He and the players reel off the genre's biggest stars.",
-              "idea": "A comic coinage that's really the show's whole creed in costume: hope as a deliberate choice. Like a rom-com, the promise isn't that nothing goes wrong, it's that you trust the happy ending and keep showing up for each other.",
-              "why": "This is the spine of the episode's romantic-comedy homage. Notice it's precursive faith -- belief offered <em>before</em> the evidence, dressed as a movie-genre joke so it lands light instead of preachy.",
-              "source": "Episode recaps and essays on the 'rom-communism' speech (PopMatters, PureWow, TV Insider, Looper).",
-              "category": "Belief & hope",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Speech and star name-drops confirmed across multiple independent recaps; placement in S2E5 firm. No primary page opened (WebFetch 403), so grounding capped at 4.",
-              "sourcesChecked": [
-                "https://www.popmatters.com/rom-communism-ted-lasso-feature",
-                "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references",
-                "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/",
-                "https://www.looper.com/598833/ted-lassos-most-inspirational-quotes/"
-              ]
-            },
-            {
               "id": "s2e5-roy-isaac-underpass",
+              "order": 5,
               "tag": "Football is fun",
               "title": "Roy takes Isaac back",
               "moment": "Asked to fix a slumping team captain, Roy brings Isaac (and Ted) to a rough pitch under an underpass to watch a pickup game -- reminding him football is a kid's game you played because it was fun. Isaac's joy, and his form, come roaring back.",
@@ -1730,6 +1755,7 @@
           "cards": [
             {
               "id": "s2e8-roy-hugs-jamie",
+              "order": 1,
               "tag": "Rivalry yields to care",
               "title": "Roy crosses the room",
               "moment": "When Jamie collapses after striking the father who has just humiliated him, the man who comes over isn't a friend -- it's Roy Kent, his oldest rival, who simply holds him and lets him cry.",
@@ -1748,26 +1774,8 @@
               ]
             },
             {
-              "id": "s2e8-ted-father-suicide-reveal",
-              "tag": "The wound beneath the warmth",
-              "title": "Ted finally says it out loud",
-              "moment": "Shaken after watching Jamie's father tear him down, Ted steps away, calls Dr. Sharon, and tells her something he has never told anyone on the show: his own father died by suicide when Ted was sixteen.",
-              "idea": "So much of Ted's relentless kindness has been a way of carrying grief he never put into words. Naming the loss to his therapist is the moment his sunny armor and his sorrow are finally allowed to exist in the same breath.",
-              "why": "This is why Ted both fears and needs therapy. Watch how an episode about other men's fathers becomes the thing that lets Ted face his own -- and notice he reaches out by phone the instant the feeling threatens to overwhelm him, instead of hiding it.",
-              "source": "Recaps of S2E8 'Man City' (TVLine, NPR, Rolling Stone). The Season 1 seed -- darts with his dad from age 10 to 16, 'when he passed away' -- is in S1E8 'The Diamond Dogs', per the scene transcript (lassoism).",
-              "category": "Belief & hope",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Reveal (father's suicide, told to Sharon by phone, Ted aged 16) confirmed across multiple recaps; the S1 seed is in S1E8, not S1E10. WebFetch 403'd, so grounding capped at 4.",
-              "sourcesChecked": [
-                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-8-dad-father-suicide-1234713526/",
-                "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures",
-                "https://lassoism.com/Ted-Lasso-quote.php?id=162"
-              ]
-            },
-            {
               "id": "s2e8-sharon-vulnerability-first",
+              "order": 2,
               "tag": "To open someone, go first",
               "title": "The therapist becomes the patient",
               "moment": "In the cold open, Dr. Sharon -- the unflappable therapist -- is herself on the phone with her own counselor, frustrated that Ted won't let his guard down. Her counselor gently points out that Sharon guards herself the very same way.",
@@ -1786,7 +1794,28 @@
               ]
             },
             {
+              "id": "s2e8-ted-father-suicide-reveal",
+              "order": 3,
+              "tag": "The wound beneath the warmth",
+              "title": "Ted finally says it out loud",
+              "moment": "Shaken after watching Jamie's father tear him down, Ted steps away, calls Dr. Sharon, and tells her something he has never told anyone on the show: his own father died by suicide when Ted was sixteen.",
+              "idea": "So much of Ted's relentless kindness has been a way of carrying grief he never put into words. Naming the loss to his therapist is the moment his sunny armor and his sorrow are finally allowed to exist in the same breath.",
+              "why": "This is why Ted both fears and needs therapy. Watch how an episode about other men's fathers becomes the thing that lets Ted face his own -- and notice he reaches out by phone the instant the feeling threatens to overwhelm him, instead of hiding it.",
+              "source": "Recaps of S2E8 'Man City' (TVLine, NPR, Rolling Stone). The Season 1 seed -- darts with his dad from age 10 to 16, 'when he passed away' -- is in S1E8 'The Diamond Dogs', per the scene transcript (lassoism).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Reveal (father's suicide, told to Sharon by phone, Ted aged 16) confirmed across multiple recaps; the S1 seed is in S1E8, not S1E10. WebFetch 403'd, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.tvline.com/recaps/ted-lasso-recap-season-2-episode-8-dad-father-suicide-1234713526/",
+                "https://www.npr.org/2021/09/10/1035837830/ted-lasso-recap-season-2-episode-8-father-figures",
+                "https://lassoism.com/Ted-Lasso-quote.php?id=162"
+              ]
+            },
+            {
               "id": "s2e8-oasis-dont-look-back",
+              "order": 4,
               "tag": "A Mancunian anthem",
               "title": "Don't look back in anger",
               "moment": "In an hour built around a Manchester club, the show reaches for Oasis's 'Don't Look Back in Anger' -- a song by Manchester's own, played as Ted and Beard part ways.",
@@ -1806,6 +1835,7 @@
             },
             {
               "id": "s2e8-sam-rebecca-bantr-dinner",
+              "order": 5,
               "tag": "The anonymous match, in person",
               "title": "Sam and Rebecca, at the same table",
               "moment": "Buoyed by news that his protest forced an oil company out of Nigeria, Sam asks his anonymous online match to dinner that night -- and he and Rebecca walk into the same restaurant to discover they've been messaging each other all along.",
@@ -2140,26 +2170,8 @@
           "footer": "",
           "cards": [
             {
-              "id": "s2e12-title-wooden-pyramid",
-              "tag": "The title's character half",
-              "title": "Wooden's Pyramid of Success",
-              "moment": "The other half of the title points to legendary UCLA basketball coach John Wooden's 'Pyramid of Success' -- the real character framework whose framed, autographed copy hangs on Ted's office wall.",
-              "idea": "Wooden built 15 traits across five tiers, topped by 'Competitive Greatness,' and pointedly defined success not as winning but as the peace of mind of knowing you did your best to become your best. That no-scoreboard idea is essentially Ted's whole philosophy.",
-              "why": "The episode fuses two real sources -- a football-tactics phrase over a basketball coach's character pyramid -- so the title quietly measures the finale by character, not the result on the pitch.",
-              "source": "John Wooden's Pyramid of Success per <strong>coachwooden.com</strong> and the John R. Wooden Course; the show connection via UCLA Newsroom.",
-              "category": "Belief & hope",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Wooden framework (15 blocks / 5 tiers / 'Competitive Greatness' apex / success-as-best-effort) confirmed across multiple Wooden sources. No primary page opened (403s).",
-              "sourcesChecked": [
-                "https://coachwooden.com/pyramid-of-success",
-                "https://www.thewoodeneffect.com/competitive-greatness/",
-                "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success"
-              ]
-            },
-            {
               "id": "s2e12-title-wilson-pyramid",
+              "order": 1,
               "tag": "The title's football half",
               "title": "A real tactics book",
               "moment": "The finale borrows its name from a real book Coach Beard has been seen reading since the very first episode: Jonathan Wilson's history of football tactics.",
@@ -2178,26 +2190,28 @@
               ]
             },
             {
-              "id": "s2e12-nate-believe-sign-torn",
-              "tag": "Belief is a practice",
-              "title": "Nate tears the sign",
-              "moment": "Amid Richmond's promotion celebration, Nate slips back to the empty locker room, tears Ted's hand-lettered BELIEVE sign in two and leaves it on his desk. Ted finds it later and, saying nothing to the team, quietly tapes it back together and hangs it up again.",
-              "idea": "Nate has literally stopped believing in Ted's project. Ted's wordless response is the show's actual thesis: belief isn't a poster you either have or lose -- it's something you keep choosing to mend and put back on the wall.",
-              "why": "Watch the contrast: the betrayal is loud and public, the repair is private and undramatic. The gentlest possible answer to the cruelest gesture in the season.",
-              "source": "Finale recaps (NPR, KUOW, The Mary Sue, ScreenRant) of Nate tearing the BELIEVE sign and Ted discreetly taping it back up. (The later gold 'kintsugi' repair is a separate Season 3 moment.)",
+              "id": "s2e12-title-wooden-pyramid",
+              "order": 2,
+              "tag": "The title's character half",
+              "title": "Wooden's Pyramid of Success",
+              "moment": "The other half of the title points to legendary UCLA basketball coach John Wooden's 'Pyramid of Success' -- the real character framework whose framed, autographed copy hangs on Ted's office wall.",
+              "idea": "Wooden built 15 traits across five tiers, topped by 'Competitive Greatness,' and pointedly defined success not as winning but as the peace of mind of knowing you did your best to become your best. That no-scoreboard idea is essentially Ted's whole philosophy.",
+              "why": "The episode fuses two real sources -- a football-tactics phrase over a basketball coach's character pyramid -- so the title quietly measures the finale by character, not the result on the pitch.",
+              "source": "John Wooden's Pyramid of Success per <strong>coachwooden.com</strong> and the John R. Wooden Course; the show connection via UCLA Newsroom.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Tearing and Ted's quiet taping-it-back-up confirmed across multiple finale recaps; the kintsugi repair is a separate S3 beat. No primary page opened (403s).",
+              "groundingNotes": "Wooden framework (15 blocks / 5 tiers / 'Competitive Greatness' apex / success-as-best-effort) confirmed across multiple Wooden sources. No primary page opened (403s).",
               "sourcesChecked": [
-                "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12",
-                "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn",
-                "https://www.themarysue.com/ted-lasso-believe-message/"
+                "https://coachwooden.com/pyramid-of-success",
+                "https://www.thewoodeneffect.com/competitive-greatness/",
+                "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success"
               ]
             },
             {
               "id": "s2e12-false-nine-tactic",
+              "order": 3,
               "tag": "A real tactic",
               "title": "Nate's false nine",
               "moment": "Richmond's promotion plan hinges on a genuine football idea -- the 'false nine.' It collapses early (down 2-0 to Brentford) before the team commits to it and claws back a draw, enough to go up.",
@@ -2217,6 +2231,7 @@
             },
             {
               "id": "s2e12-jan-maas-ask-the-team",
+              "order": 4,
               "tag": "Trust the room",
               "title": "Ted asks the team",
               "moment": "Down 2-0 at halftime, Nate wants to ditch the plan and faults the players for not being smart enough to run it. Ted instead asks the locker room -- and the famously blunt Jan Maas says the tactic is fine, it's on them to execute it.",
@@ -2231,6 +2246,26 @@
               "sourcesChecked": [
                 "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn",
                 "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12"
+              ]
+            },
+            {
+              "id": "s2e12-nate-believe-sign-torn",
+              "order": 5,
+              "tag": "Belief is a practice",
+              "title": "Nate tears the sign",
+              "moment": "Amid Richmond's promotion celebration, Nate slips back to the empty locker room, tears Ted's hand-lettered BELIEVE sign in two and leaves it on his desk. Ted finds it later and, saying nothing to the team, quietly tapes it back together and hangs it up again.",
+              "idea": "Nate has literally stopped believing in Ted's project. Ted's wordless response is the show's actual thesis: belief isn't a poster you either have or lose -- it's something you keep choosing to mend and put back on the wall.",
+              "why": "Watch the contrast: the betrayal is loud and public, the repair is private and undramatic. The gentlest possible answer to the cruelest gesture in the season.",
+              "source": "Finale recaps (NPR, KUOW, The Mary Sue, ScreenRant) of Nate tearing the BELIEVE sign and Ted discreetly taping it back up. (The later gold 'kintsugi' repair is a separate Season 3 moment.)",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Tearing and Ted's quiet taping-it-back-up confirmed across multiple finale recaps; the kintsugi repair is a separate S3 beat. No primary page opened (403s).",
+              "sourcesChecked": [
+                "https://www.npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12",
+                "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn",
+                "https://www.themarysue.com/ted-lasso-believe-message/"
               ]
             }
           ]

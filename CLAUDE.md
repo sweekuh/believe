@@ -28,9 +28,12 @@ philosophy or plot facts to fill an episode.
     behind the spoiler button until tapped. `selectEpisode()` resets this.
   - **Display contract** (`displayCards()` + the `GROUNDING_MIN` /
     `DEFAULT_INTEREST` constants at the top of the script): cards with
-    `grounding` < 3 are **withheld from the reader**, and the rest are **sorted
-    by `interest`, highest first**. Backward-compatible — unscored cards show and
-    sort neutrally.
+    `grounding` < 3 are **withheld from the reader**. Order is **curated per
+    episode** when any card carries an integer `order` (ascending, so a page
+    reads intros-before-the-cards-that-reference-them); episodes with no `order`
+    fall back to **most-interesting-first** (`interest`). Ties break by interest
+    then original index. Backward-compatible — unscored/unordered cards sort
+    neutrally.
   - Notes persist in `localStorage` keyed `believe:note:{card.id}`, so **card
     `id`s are stable and must never be reused/reindexed.**
   - **Display options** (`setupDisplayOptions()`): a "Display options" panel
@@ -86,7 +89,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 36)
+node tools/verify.mjs                # run all checks (currently 37)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content
