@@ -1,0 +1,197 @@
+{
+  "episode": { "season": 2, "number": 12, "title": "Inverting the Pyramid of Success" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL this session (Wikipedia, the Ted Lasso Fandom wiki, TV Tropes, IMDb, NPR, ScreenRant, Tunefind), exactly as the briefing warned. Every fact below is therefore corroborated across MULTIPLE INDEPENDENT WebSearch result summaries from different domains rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly to confirm. Paraphrase only -- no dialogue is reproduced. BRIEFING CORRECTION FOR THE REVIEWER (important): the run briefing listed 'Total Football' as a strong S2E12 angle and said 'Ted/Beard adopt it' here. That is INCORRECT for this episode. Every source checked places the team's introduction of Total Football in SEASON 3 -- Ted is inspired by the Chicago Bulls' Triangle Offense in S3E6 'Sunflowers' and Coach Beard formally presents 'Total Football' (and names the real-world philosophy) in S3E7. The tactic actually used in THIS S2E12 finale is the FALSE NINE (Nate's strategy), which is a separate, genuinely real football concept and is captured below as its own candidate. I did NOT write a Total Football card for s2e12; the reviewer should reject any Total Football claim as belonging to Season 3. EPISODE-NUMBER NOTE: one search engine summary claimed Season 2 had only 11 episodes / that the finale was E11. That is wrong; Wikipedia, the Fandom wiki, Apple TV and TVmaze all confirm this finale is the TWELFTH episode of Season 2, consistent with the briefing and CLAUDE.md. ATTRIBUTION / HOMAGE FLAGS are called out inline: both title references (Wilson book, Wooden pyramid), the Wooden-poster Easter egg, the False Nine 'real tactic' claim, the gray-hair foreshadowing, the Sudeikis-Wooden backstory, and the Bill Lawrence 'based on a Hollywood story' / Empire-Strikes-Back framing should all be re-verified before shipping. SPOILER NOTE: this is the Season 2 finale, so several candidates are inherently season- or series-scope (Nate's villain turn, West Ham, Sam staying, Keeley's firm).",
+  "candidates": [
+    {
+      "id": "s2e12-title-wilson-pyramid",
+      "type": "reference",
+      "title": "The title nods to a real football-tactics book",
+      "detail": "Half of the episode title points to 'Inverting the Pyramid: The History of Football Tactics' (2008) by English journalist Jonathan Wilson -- a widely respected history of how football formations evolved. The book's own title is a tactics pun: the early game's 2-3-5 shape looked like a pyramid (few defenders at the base, five forwards on top), and over a century tactics 'inverted' it toward defense-heavy shapes like 4-5-1 and 4-6-0. Wilson is editor of the football quarterly The Blizzard and writes for The Guardian. The book is also a running in-show Easter egg: Coach Beard is repeatedly shown reading it across the series as his way of becoming a tactics expert, and Wilson himself, asked about it, called the recurring cameos 'just very weird' but understood the shorthand. FLAG for reviewer: confirm the book/author/subtitle and the 'inverting the pyramid = evolution of formations' framing; verify the Beard-reading-it Easter egg and Wilson's own comment from the Boston.com piece.",
+      "moment": "The finale's title borrows from Jonathan Wilson's real history-of-tactics book, whose own title describes how football's original pyramid-shaped formation was gradually turned upside down.",
+      "sources": [
+        { "url": "https://www.amazon.com/Inverting-Pyramid-History-Soccer-Tactics/dp/1568587384", "note": "Wilson's 'Inverting the Pyramid: The History of Soccer Tactics' -- author, scope, formation evolution 2-3-5 to 4-6-0" },
+        { "url": "https://www.boston.com/sports/soccer/2023/04/13/ted-lasso-inverting-the-pyramid-jonathan-wilson/", "note": "Jonathan Wilson on his book being referenced across all three seasons of Ted Lasso; 'it's a shorthand'" },
+        { "url": "https://en.wikipedia.org/wiki/Inverting_the_Pyramid_of_Success", "note": "Episode page noting the title cross-references Wilson's book" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-title-wooden-pyramid",
+      "type": "reference",
+      "title": "The title also nods to John Wooden's Pyramid of Success",
+      "detail": "The other half of the title points to legendary UCLA basketball coach John Wooden's 'Pyramid of Success' -- a real character-and-achievement framework of 15 building blocks across five tiers, capped by 'Competitive Greatness.' Wooden defined success not as winning but as 'peace of mind' from knowing you did your best to become your best, and the framework is explicitly about character, not the scoreboard -- which rhymes exactly with Ted's worldview. The episode fuses the two sources: a soccer-tactics title ('Inverting the Pyramid') laid over a basketball coach's character pyramid ('Pyramid of Success'). FLAG for reviewer: verify the Wooden framework (15 blocks / 5 tiers / 'Competitive Greatness' apex / his definition of success) from a reputable source and confirm the title is a deliberate two-book mash-up rather than coincidence.",
+      "moment": "The title also evokes John Wooden's Pyramid of Success, a character framework that measures success as doing your best rather than winning -- merged here with a football-tactics phrase.",
+      "sources": [
+        { "url": "https://coachwooden.com/pyramid-of-success", "note": "Official Wooden site: the Pyramid of Success framework and his definition of success" },
+        { "url": "https://www.thejohnrwoodencourse.com/the-pyramid-of-success/the-building-blocks", "note": "The 15 building blocks across five tiers, apex 'Competitive Greatness'" },
+        { "url": "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success", "note": "UCLA piece tying Ted Lasso to Wooden's Pyramid of Success" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-title-double-meaning-nate-inverts",
+      "type": "theme",
+      "title": "Nate himself 'inverts' the pyramid",
+      "detail": "The title is not just a book joke; it describes Nate's moral arc, and the show's own actor reads it that way. In a Mockingbird interview, Nick Mohammed (Nate) explains the double meaning: as Nate grows obsessed with success, he 'inverts' Wooden's pyramid -- he chases the values near the TOP (ambition, competitiveness) while abandoning the foundational base blocks the whole structure rests on (friendship, loyalty). He pursues winning at the expense of the human decency that was supposed to ground it. The episode even stages this physically: Nate lingers behind Ted's desk -- the show's seat of power -- as a visual of him picturing himself at the top. FLAG for reviewer: this is an interpretation voiced by the actor in an interview, not a plot fact; keep it framed as 'how the show/actor reads the title,' verify the Mockingbird source, and note it depends on knowing Wooden's pyramid base = friendship/loyalty.",
+      "moment": "Across the finale Nate grabs at the top of the success pyramid -- ambition, being the smartest in the room -- while kicking away its base of friendship and loyalty, literally inverting what the structure was built on.",
+      "sources": [
+        { "url": "https://mbird.com/the-magazine/our-qa-with-ted-lassosnick-mohammed/", "note": "Nick Mohammed Q&A: the title's double meaning; Nate inverts the pyramid by ignoring foundational values for the apex ones" },
+        { "url": "https://mbird.com/tv/nate-the-great-inverts-the-pyramid-of-success/", "note": "Essay reading Nate's arc as inverting Wooden's pyramid; Nate behind Ted's desk as the seat of power" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e12-wooden-poster-easter-egg",
+      "type": "easter-egg",
+      "title": "Wooden's pyramid has hung in Ted's office since episode one",
+      "detail": "The Wooden reference is not new to the finale -- it has been hiding in plain sight on the set since the very first episode. When Ted and Beard move into their Richmond office in S1E1, an autographed John Wooden 'Pyramid of Success' is on the wall; Ted valued it enough to carry it across the Atlantic. By the time the Season 2 finale puts 'Pyramid of Success' in its title, it is paying off a season-one set detail and quietly reframing the whole series around Wooden's no-scoreboard definition of success. FLAG for reviewer: confirm the poster appears in S1E1 and is presented as autographed by Wooden; the 'he brought it from home' read is inference from set dressing, so verify and keep it modest.",
+      "moment": "An autographed copy of Wooden's Pyramid of Success has been on Ted's office wall since he and Beard first set up in Richmond -- a season-one prop the finale's title finally spotlights.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/John_Wooden_-_Pyramid_of_Success", "note": "Wiki: autographed Wooden Pyramid of Success hung on the wall in S1E1 as Ted and Beard settle in" },
+        { "url": "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success", "note": "UCLA piece noting the Pyramid prop and its meaning in the show" },
+        { "url": "https://bookriot.com/every-book-in-ted-lasso/", "note": "Catalog of Season 1 set books/posters including the Wooden pyramid" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-sudeikis-wooden-backstory",
+      "type": "production",
+      "title": "Why the Wooden pyramid is personal to Sudeikis",
+      "detail": "The Wooden framework is on the show because it is genuinely part of Jason Sudeikis's own life. Reporting traces it to his college basketball coach, Donnie Campbell (at Fort Scott Community College in Kansas, where Sudeikis was on a basketball scholarship), who was deeply influenced by Wooden and referred to the Pyramid of Success daily. Sudeikis reportedly even had the pyramid laminated as a poster so he could diagram on it with a dry-erase marker while teaching improv comedy. So a real coaching philosophy from Sudeikis's past became Ted Lasso's spine and, eventually, a finale title. FLAG for reviewer: this biographical chain (Campbell / Fort Scott CC / laminated improv-teaching poster) comes from secondary write-ups summarizing interviews; verify against a direct Sudeikis interview before asserting specifics, and cap confidence.",
+      "moment": "Behind the scenes: Wooden's Pyramid of Success reached Ted Lasso through Sudeikis's own college basketball coach, who lived by it -- Sudeikis later used the pyramid even when teaching improv.",
+      "sources": [
+        { "url": "https://newsroom.ucla.edu/magazine/ted-lasso-tv-wooden-pyramid-success", "note": "UCLA: Sudeikis's coach Donnie Campbell influenced by Wooden; pyramid laminated and used for teaching improv" },
+        { "url": "https://lassoism.com/Ted-Lasso-notes-trivia.php", "note": "Trivia compilation noting the Sudeikis/Wooden connection and the office poster" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-nate-believe-sign-torn",
+      "type": "theme",
+      "title": "Nate tears the BELIEVE sign",
+      "detail": "The episode's gut-punch: amid Richmond's promotion celebration, Nate slips back to the empty locker room, tears Ted's hand-lettered 'BELIEVE' sign in half, and leaves it on Ted's desk before defecting to coach Rupert's West Ham. It is the literalization of his arc -- he has stopped believing in Ted's project and in himself the way Ted asked him to. The quiet coda lands the show's actual thesis: Ted says nothing to the team and simply tapes the sign back together and rehangs it, because (as commentary frames it) belief is a practice you keep choosing, not a poster on a wall. FLAG for reviewer: the tearing and the taping-it-back-up are widely and consistently reported; confirm both beats and keep any on-sign wording to the single word BELIEVE (it is a prop, not dialogue).",
+      "moment": "During the celebration Nate sneaks off, rips the BELIEVE sign in two and drops it on Ted's desk; later Ted quietly tapes it back together and hangs it up again without a word.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-believe-sign-explained-why-nate-ripped/", "note": "Why Nate ripped the BELIEVE sign; what it says about his insecurity and Ted's philosophy" },
+        { "url": "https://npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12", "note": "NPR finale recap: Nate tears the sign, storms off, ends up at West Ham" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Believe", "note": "Wiki: Nate rips the sign and drops it on Ted's desk; Ted tapes it back up" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e12-nate-leaks-panic-attack",
+      "type": "callback",
+      "title": "Nate's betrayal: leaking the panic attack to Trent Crimm",
+      "detail": "Nate's heel turn completes when he becomes the anonymous source for Trent Crimm's expose, revealing that Ted's mid-match exit during the Tottenham game was a panic attack, not food poisoning as the club had claimed. It pays off the season's central, carefully built secret (Ted's anxiety and his work with Dr. Sharon) by weaponizing it. The betrayal also costs Trent his job -- he tells Ted he refused to burn the source, so the leak detonates across multiple lives. Direction: CALLS BACK to Ted's on-pitch panic attack earlier in the season and to Nate's growing resentment; SETS UP the Season 3 Ted-vs-Nate rivalry. FLAG for reviewer: confirm that the leaked secret is specifically the panic attack reframing the 'food poisoning' cover story, and that Nate is the source.",
+      "moment": "Trent Crimm's article reveals Ted's match-day exit was a panic attack, not a stomach bug -- and the secret source was Nate, turning the season's most private wound into a public scandal.",
+      "sources": [
+        { "url": "https://npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12", "note": "NPR recap: Nate told Trent Crimm Ted's exit was a panic attack, not stomach distress" },
+        { "url": "https://the-take.com/read/what-happened-at-the-end-of-ted-lasso-season-2-quick-recap", "note": "Finale recap: the leak, Trent's expose, fallout" },
+        { "url": "https://www.tvline.com/interviews/ted-lasso-finale-nate-ending-explained-coach-season-3-1234728272/", "note": "Nick Mohammed interview on Nate's betrayal and the leak" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s2e12-yesterdays-papers-needledrop",
+      "type": "reference",
+      "title": "The closing needle-drop: 'Yesterday's Papers'",
+      "detail": "The finale uses The Rolling Stones' 'Yesterday's Papers' (1967) -- notable as the first song Mick Jagger is credited with writing alone for the band -- and the placement is pointedly ironic. The song's central image is old newspapers: information that was urgent yesterday and is worthless today. It scores the fallout of Trent's expose about Ted (people reading the panic-attack story) while also commenting on Nate, who is busy making himself yesterday's news at Richmond as he walks into West Ham. Music-as-commentary is a recognized Ted Lasso signature (the show even has a 'music aesthetics' chapter in Ted Lasso and Philosophy). FLAG for reviewer: 'Yesterday's Papers' as a featured S2E12 track is corroborated across Tunefind/IMDb/WhatSong summaries, but I could not open Tunefind (403) to lock the exact scene; verify the song's presence and its placement (the newspaper/Nate scenes) before asserting the irony. Keep any lyric quotation under 15 words.",
+      "moment": "As the panic-attack story spreads through the press and Nate exits toward West Ham, the show plays the Stones' 'Yesterday's Papers' -- a song about news that's already obsolete.",
+      "sources": [
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-2/112163", "note": "Tunefind S2E12 soundtrack listing including 'Yesterday's Papers' (Rolling Stones)" },
+        { "url": "https://en.wikipedia.org/wiki/Yesterday's_Papers", "note": "Song background: first track Jagger wrote alone; 'old newspapers' = obsolete news metaphor" },
+        { "url": "https://www.what-song.com/Tvshow/100693/Ted-Lasso/e/121700", "note": "Independent song-by-episode catalog for Ted Lasso Season 2" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e12-false-nine-tactic",
+      "type": "reference",
+      "title": "The match tactic is a real one: the False Nine",
+      "detail": "The finale's promotion match hinges on a genuine football tactic, the 'false nine' -- a center-forward who keeps dropping into midfield instead of holding the line, dragging defenders out of shape and creating space. In the story it is dubbed 'Nate's false nine'; it flops in the first half (Richmond down 2-0 to Brentford) before the team commits to it and claws back a 2-2 draw, enough to secure promotion to the Premier League. The tactic is real and well documented (associated with players like Lionel Messi and Roberto Firmino). NOTE FOR REVIEWER: this -- not Total Football -- is the real-tactics angle for THIS episode; Total Football belongs to Season 3 (see top-level notes). FLAG: verify the false-nine definition from a football source and confirm the 2-0 / 2-2 / promotion-via-draw beats.",
+      "moment": "Richmond's promotion plan is built on the false nine -- a striker who drops deep to unbalance defenders; it collapses to 2-0 before the team buys in and rescues a 2-2 draw to go up.",
+      "sources": [
+        { "url": "https://learning.coachesvoice.com/cv/what-is-a-false-nine-explained-messi-kane-firmino-fabregas/", "note": "Coaches' Voice: what a false nine is and how it works" },
+        { "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-season-2-finale-recap-inverting-pyramid-success-1235770/", "note": "Rolling Stone recap titled around the False Nine; the Brentford match and promotion" },
+        { "url": "https://www.fourfourtwo.com/features/false-nine-football-tactics-explained", "note": "FourFourTwo explainer on the false nine tactic" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-jan-maas-ask-the-team",
+      "type": "callback",
+      "title": "Belief in the players: Jan Maas and 'ask the team'",
+      "detail": "The tactical crisis becomes a values moment. At halftime, with the false nine failing, Nate wants to scrap it and blames the players for being too limited to run it; Ted instead pushes Roy, who tells Ted to ask the team. The famously blunt Dutch defender Jan Maas speaks for them -- the strategy is sound, and executing it is the players' job -- so they keep it and complete the comeback. It dramatizes the season's contrast: Nate's contempt for the players versus Ted's belief in them, and it ties straight into the BELIEVE motif. Direction: CALLS BACK to Ted's player-first, trust-the-room ethos all season and to the BELIEVE sign Nate then tears down. FLAG for reviewer: confirm Jan Maas is the player who voices it and that the halftime 'abandon vs. stick with it' beat plays out as Nate-blames-players / team-chooses-to-believe.",
+      "moment": "Down 2-0 and with Nate wanting to ditch the plan and fault the players, Ted asks the locker room instead; Jan Maas says the tactic is fine and it's on them to run it, so they double down and draw.",
+      "sources": [
+        { "url": "https://www.kuow.org/stories/ted-lasso-season-2-finale-recap-a-big-game-a-big-decision-and-a-heel-turn", "note": "Recap: halftime debate; Ted asks the team; Jan Maas backs the tactic; Nate blames the players" },
+        { "url": "https://npr.org/2021/10/08/1043976097/ted-lasso-recap-season-2-finale-episode-12", "note": "NPR recap of the big in-match decision and the comeback" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e12-nate-gray-hair-foreshadow",
+      "type": "production",
+      "title": "Nate's graying hair foreshadowed the heel turn",
+      "detail": "The production deliberately planted Nate's fall in his appearance: across Season 2 his hair is progressively grayed, decided very early on (Sudeikis reportedly liked the idea immediately) as a visual marker that he was turning. Bill Lawrence has said the gray was so gradual that even he was a little startled to see fully-gray Nate by the finale, having half-forgotten the early plan. It is the kind of slow Easter egg a rewatcher can track from episode to episode. FLAG for reviewer: this is sourced to cast/creator interviews summarized in secondary write-ups; verify the 'graying hair = intentional foreshadowing' claim and the 'decided early / Sudeikis approved' detail before asserting, and note it pays off across the whole season, not just this episode.",
+      "moment": "Behind the scenes: Nate's hair was intentionally grayed a little more each Season 2 episode, a quiet visual cue -- set up early -- that his villain turn was coming.",
+      "sources": [
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-nate-villain-betrayal-rcna75378", "note": "Creators: signs of Nate's betrayal (incl. the graying hair) were there all along" },
+        { "url": "https://www.cheatsheet.com/news/ted-lasso-nate-shelleys-season-2-real-life-show-business-tale-bill-lawrence.html/", "note": "Bill Lawrence on the gray-hair foreshadowing being planned early" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e12-nate-vader-hollywood-story",
+      "type": "production",
+      "title": "Nate as Darth Vader; a turn 'based on a Hollywood story'",
+      "detail": "The creators framed Nate's arc in two ways worth a card. (1) Bill Lawrence pushed back on critics who said Season 2 lacked an antagonist by casting Nate in the role -- the line being that if Ted is Luke Skywalker, Nate is his Darth Vader -- and Sudeikis invoked an 'Empire Strikes Back' element where the dark side gains the upper hand. Nick Mohammed independently described it with the wrestling term 'heel turn' and the same Empire comparison. (2) Lawrence said the turn was not out of left field but built on a familiar real-life show-business story -- the overlooked talent who curdles -- and pointed back to Nate mistreating the kit man from day one as the early tell. FLAG for reviewer: these are creator/actor interview framings; verify the Deadline (Vader/antagonist), the 'based on a Hollywood story,' and the Mohammed 'heel turn/Empire' quotes, and keep any quoting minimal.",
+      "moment": "Behind the scenes: the makers cast Nate as the season's hidden antagonist -- Ted's 'Darth Vader' -- and described the betrayal as an intentional 'heel turn' modeled on a familiar showbiz story of overlooked-talent-gone-bitter.",
+      "sources": [
+        { "url": "https://deadline.com/2021/10/ted-lasso-season-2-finale-recap-spoilers-bill-lawrence-interview-1234852277/", "note": "Deadline Q&A: 'Luke Skywalker has found his Darth Vader'; Empire Strikes Back framing; Nate as the antagonist" },
+        { "url": "https://www.cheatsheet.com/news/ted-lasso-nate-shelleys-season-2-real-life-show-business-tale-bill-lawrence.html/", "note": "Lawrence: Nate's turn based on a real-life show-business tale; kit-man treatment as the early sign" },
+        { "url": "https://www.thewrap.com/nick-mohammed-ted-lasso-bad-guy-season-2-interview/", "note": "Nick Mohammed calls it a 'heel turn' / Empire Strikes Back" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s2e12-sam-sign-from-universe",
+      "type": "callback",
+      "title": "Sam stays for himself, after a 'sign from the universe'",
+      "detail": "Sam Obisanya turns down billionaire Edwin Akufo's lavish offer (to join Raja Casablanca / Akufo's project) and stays at Richmond. His father's advice is to watch for a sign from the universe; Sam then spots kids playing football in a park, one wearing an Obisanya Richmond shirt. Crucially, he reframes the choice as being about his own path rather than his feelings for Rebecca -- he says he needs to stop worrying about how others feel about him and stay because it's best for him. It is the finale's clean counter-melody to Nate: a character choosing self-respect and rootedness over ego and a bigger title (Sam also rents a storefront to open a Nigerian restaurant). FLAG for reviewer: confirm the 'sign from the universe' / Obisanya-shirt beat and that Sam frames staying as his own journey, not the Rebecca romance.",
+      "moment": "Told by his father to look for a sign, Sam sees a kid in the park wearing his Richmond shirt and turns down Akufo's offer -- staying, he says, for his own journey rather than for Rebecca.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-season-2-sam-richmond-stay-good/", "note": "Sam declines Akufo; the 'sign from the universe' and the Obisanya shirt; staying for himself" },
+        { "url": "https://www.slashfilm.com/627187/ted-lasso-season-2-finale-explained-football-is-life/", "note": "Finale explainer: Sam's decision and the Nigerian-restaurant storefront" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e12-roy-forgives-jamie",
+      "type": "callback",
+      "title": "Roy and Jamie reach a fragile peace",
+      "detail": "A quieter throughline pays off: Roy goes to confront Jamie for telling Keeley he still loves her, but Jamie pre-empts him by owning up and apologizing, and Roy -- grudgingly -- forgives him. It caps a season that slowly thawed the Roy-Jamie rivalry into something like respect, and it pointedly contrasts the finale's other relationship news (Keeley's new venture, the uncertainty hanging over her and Roy). Direction: CALLS BACK to the season-long Roy/Jamie/Keeley triangle and the men's earlier hostility. FLAG for reviewer: confirm the apology-then-forgiveness beat is in THIS episode; several 'wedding / final status' details for these characters belong to the SERIES finale (Season 3) and must not be imported here. Spoiler scope is season-level (depends on the triangle).",
+      "moment": "Roy comes to have it out with Jamie over Keeley, but Jamie apologizes first and Roy reluctantly accepts -- the rivals landing on an uneasy truce by season's end.",
+      "sources": [
+        { "url": "https://tvline.com/2021/10/08/ted-lasso-recap-season-2-finale-episode-12-explained/", "note": "Finale recap: Roy confronts Jamie, Jamie apologizes, Roy forgives" },
+        { "url": "https://www.nerdsandbeyond.com/2021/10/08/ted-lasso-recap-season-2-episode-12-inverting-the-pyramid-of-success/", "note": "Recap covering the Roy/Jamie reconciliation and Keeley's PR-firm offer" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    }
+  ]
+}
