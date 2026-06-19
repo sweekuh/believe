@@ -88,23 +88,8 @@ try {
   await new Promise(r => setTimeout(r, 700));
   check("E1 reveals 5 cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
   check("first card is the BELIEVE sign", /yellow sign/i.test(await page.$eval("#notes .card h2", el => el.textContent)));
-  check("each real card has a note box", (await page.$$eval("#notes .yours textarea", e => e.length)) === 5);
+  check("cards carry no note box", (await page.$$eval("#notes .yours", e => e.length)) === 0);
   if (shots) await page.screenshot({ path: join(outDir, "02-notes-revealed.png"), fullPage: true });
-
-  await page.type("#notes .card textarea", "This one got me, Teddy.");
-  await page.click("#notes .card .yours button");
-  await new Promise(r => setTimeout(r, 300));
-  await page.reload({ waitUntil: "networkidle0" });
-  await page.click("#revealBtn");
-  await new Promise(r => setTimeout(r, 500));
-  check("note persists across reload", (await page.$eval("#notes .card textarea", el => el.value)) === "This one got me, Teddy.");
-
-  const clip = await page.evaluate(async () => {
-    let cap = ""; navigator.clipboard.writeText = async t => { cap = t; };
-    document.getElementById("copyAllBtn").click();
-    await new Promise(r => setTimeout(r, 100)); return cap;
-  });
-  check("copy-all includes the saved note", /This one got me, Teddy\./.test(clip));
 
   // Episode 8 (Season 1): exercises the display contract — weak cards filtered, then
   // a curated reading order (an explicit per-card `order` overrides the interest sort).
