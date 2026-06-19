@@ -17,7 +17,6 @@
     --ink:#241d16;         /* marker ink */
     --ink-soft:#5a4f40;
     --pitch:#3a7d44;       /* the idea: pitch green */
-    --biscuit:#c76b7d;     /* a note from you */
     --tape:rgba(236,226,198,.45);
     --reader-scale:1;     /* font-size control multiplies the reading text */
   }
@@ -162,70 +161,11 @@
   }
   .src a{color:#5a4a2e;}
 
-  /* a place for her to add her own line */
-  .yours{
-    margin-top:16px;padding:14px 14px 12px;
-    border:1.5px dashed var(--biscuit);border-radius:6px;
-  }
-  .yours label{
-    display:block;
-    font-family:"Inter",sans-serif;font-weight:600;
-    font-size:12px;letter-spacing:.08em;text-transform:uppercase;
-    color:var(--biscuit);margin:0 0 8px;
-  }
-  .yours textarea{
-    width:100%;min-height:70px;resize:vertical;
-    font-family:"Newsreader",Georgia,serif;font-size:calc(16px * var(--reader-scale));
-    font-style:italic;line-height:1.5;
-    color:var(--ink);background:rgba(255,255,255,.5);
-    border:1px solid var(--paper-edge);border-radius:5px;
-    padding:10px 12px;
-  }
-  .yours textarea:focus-visible{outline:2px solid var(--biscuit);outline-offset:1px;}
-  .yours-row{
-    display:flex;align-items:center;gap:12px;margin-top:10px;
-  }
-  .yours button{
-    font-family:"Inter",sans-serif;font-weight:600;font-size:14px;
-    color:#fff;background:var(--biscuit);
-    border:none;border-radius:999px;
-    padding:10px 20px;min-height:44px;cursor:pointer;
-  }
-  .yours button:focus-visible{outline:3px solid var(--pitch);outline-offset:2px;}
-  .saved{
-    font-family:"Inter",sans-serif;font-size:13px;
-    color:var(--pitch);font-weight:600;
-    opacity:0;transition:opacity .2s ease;
-  }
-  .saved.show{opacity:1;}
-
-  /* ---- Copy all notes ---- */
-  .toolbar{text-align:center;margin:36px 0 0;}
-  button.copy-all{
-    font-family:"Inter",sans-serif;font-weight:600;font-size:15px;
-    color:var(--paper);background:transparent;
-    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
-    padding:12px 22px;min-height:44px;cursor:pointer;
-    transition:border-color .15s ease, background .15s ease;
-  }
-  button.copy-all:hover{border-color:rgba(243,232,208,.8);background:rgba(243,232,208,.06);}
-  button.copy-all:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
-  .copy-status{
-    display:block;margin-top:12px;min-height:18px;
-    font-family:"Inter",sans-serif;font-size:13px;color:#9fb2c9;
-  }
-
   .footer{
     margin-top:42px;text-align:center;color:#9fb2c9;
     font-size:15px;line-height:1.6;
   }
   .footer .marker{font-family:"Permanent Marker",cursive;color:var(--paper);font-size:20px;}
-
-  .note-tip{
-    margin-top:30px;text-align:center;
-    font-family:"Inter",sans-serif;font-size:13.5px;
-    color:#9aaabf;line-height:1.5;
-  }
 
   /* ---- Display options (text size + high contrast) ---- */
   .topbar{display:flex;justify-content:flex-end;padding:14px 0 0;}
@@ -280,16 +220,13 @@
   body.hc .eyebrow,
   body.hc .gate p,
   body.hc .footer,
-  body.hc .copy-status,
   body.hc .setting-label{color:#dae4f1;}
-  body.hc .note-tip{color:#c7d4e4;}
   body.hc .src{color:#4d4434;}
   body.hc .src a{color:#3c3017;}
   body.hc .card{box-shadow:0 12px 30px rgba(0,0,0,.6);border:1px solid rgba(24,17,9,.18);}
   body.hc .settings-toggle,
   body.hc .seg-btn,
-  body.hc .switch,
-  body.hc button.copy-all{border-color:rgba(243,232,208,.78);}
+  body.hc .switch{border-color:rgba(243,232,208,.78);}
 
   /* ---- Load error ---- */
   .loaderr{
@@ -360,14 +297,7 @@
 
     <section class="notes" id="notes" aria-hidden="true"></section>
 
-    <div class="toolbar" id="toolbar" hidden>
-      <button class="copy-all" id="copyAllBtn">Copy all my notes</button>
-      <span class="copy-status" id="copyStatus" role="status" aria-live="polite"></span>
-    </div>
-
     <div class="footer" id="footer" hidden></div>
-
-    <p class="note-tip">Your notes are saved on this phone, in this browser only. The “Copy all my notes” button is your backup — paste it somewhere safe now and then.</p>
   </main>
 
 </div>
@@ -376,7 +306,6 @@
   (function(){
     "use strict";
 
-    var NOTE_PREFIX = "believe:note:";
     var LAST_SEASON_KEY = "believe:lastSeason";
     var LAST_EP_KEY = "believe:lastEpisode";
     var FONT_KEY = "believe:fontScale";
@@ -401,9 +330,6 @@
       gateText: document.getElementById("gateText"),
       revealBtn: document.getElementById("revealBtn"),
       notes: document.getElementById("notes"),
-      toolbar: document.getElementById("toolbar"),
-      copyAllBtn: document.getElementById("copyAllBtn"),
-      copyStatus: document.getElementById("copyStatus"),
       footer: document.getElementById("footer"),
       settingsToggle: document.getElementById("settingsToggle"),
       settingsPanel: document.getElementById("settingsPanel"),
@@ -421,19 +347,6 @@
       return String(s)
         .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
         .replace(/"/g,"&quot;");
-    }
-
-    function noteKey(id){ return NOTE_PREFIX + id; }
-
-    function getNote(id){
-      try { return localStorage.getItem(noteKey(id)) || ""; }
-      catch(e){ return ""; }
-    }
-    function setNote(id, val){
-      try {
-        if (val && val.length) localStorage.setItem(noteKey(id), val);
-        else localStorage.removeItem(noteKey(id));
-      } catch(e){ /* storage unavailable / full — silently ignore */ }
     }
 
     function isPlaceholder(card){
@@ -503,64 +416,7 @@
       if (card.why) article.querySelector(".why").innerHTML = card.why;
       if (hasSource) article.querySelector(".src").innerHTML = card.source;
 
-      if (!isPlaceholder(card)) article.appendChild(buildNoteBox(card));
       return article;
-    }
-
-    // ---- The personal note editor (pink dashed box) ----
-    function buildNoteBox(card){
-      var box = document.createElement("div");
-      box.className = "yours";
-
-      var labelId = "lbl-" + card.id;
-      var label = document.createElement("label");
-      label.id = labelId;
-      label.setAttribute("for", "ta-" + card.id);
-      label.textContent = "Your note, Mom";
-
-      var ta = document.createElement("textarea");
-      ta.id = "ta-" + card.id;
-      ta.setAttribute("aria-labelledby", labelId);
-      ta.placeholder = "Tell me which moment got you…";
-      ta.value = getNote(card.id);
-
-      var row = document.createElement("div");
-      row.className = "yours-row";
-
-      var saveBtn = document.createElement("button");
-      saveBtn.type = "button";
-      saveBtn.textContent = "Save";
-
-      var saved = document.createElement("span");
-      saved.className = "saved";
-      saved.setAttribute("role", "status");
-
-      var savedTimer = null;
-      function confirmSaved(){
-        // Set the text on each save so the role="status" live region re-announces
-        // it (an aria-live region only speaks when its content changes).
-        saved.textContent = "Saved ✓";
-        saved.classList.add("show");
-        if (savedTimer) clearTimeout(savedTimer);
-        savedTimer = setTimeout(function(){
-          saved.classList.remove("show");
-          saved.textContent = "";
-        }, 1800);
-      }
-      function doSave(){
-        setNote(card.id, ta.value.trim());
-        confirmSaved();
-      }
-
-      saveBtn.addEventListener("click", doSave);
-      ta.addEventListener("blur", function(){ setNote(card.id, ta.value.trim()); });
-
-      row.appendChild(saveBtn);
-      row.appendChild(saved);
-      box.appendChild(label);
-      box.appendChild(ta);
-      box.appendChild(row);
-      return box;
     }
 
     // Choose the reader's card order. An explicit curated `order` (per card,
@@ -638,8 +494,6 @@
       els.notes.className = "notes";
       els.notes.setAttribute("aria-hidden", "true");
       els.notes.innerHTML = "";
-      els.toolbar.hidden = true;
-      els.copyStatus.textContent = "";
 
       var placeholderOnly = ep.cards.length === 1 && isPlaceholder(ep.cards[0]);
 
@@ -661,7 +515,6 @@
         // No spoilers to gate — show the "coming soon" note straight away.
         els.gate.hidden = true;
         revealNotes(false);
-        els.toolbar.hidden = true; // nothing to copy yet
       } else {
         els.gate.hidden = false;
         els.revealBtn.style.display = "";
@@ -675,80 +528,12 @@
       els.notes.setAttribute("aria-hidden", "false");
       els.revealBtn.setAttribute("aria-expanded", "true");
       els.revealBtn.style.display = "none";
-      // Only show the copy button when there are real notes to copy.
-      var placeholderOnly = currentEpisode.cards.length === 1 && isPlaceholder(currentEpisode.cards[0]);
-      els.toolbar.hidden = placeholderOnly;
       if (scroll){
         els.notes.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       }
     }
 
     els.revealBtn.addEventListener("click", function(){ revealNotes(true); });
-
-    // ---- Copy all notes across every season ----
-    function gatherNotesText(){
-      var lines = ["My Believe notes — Ted Lasso", ""];
-      var any = false;
-      DATA.seasons.forEach(function(season){
-        var seasonLines = [];
-        season.episodes.forEach(function(ep){
-          var epLines = [];
-          ep.cards.forEach(function(card){
-            if (isPlaceholder(card)) return;
-            var note = getNote(card.id).trim();
-            if (note){
-              var title = (card.title || "").replace(/<[^>]*>/g, "");
-              epLines.push("  • " + title + ": " + note);
-            }
-          });
-          if (epLines.length){
-            seasonLines.push("Episode " + ep.number + " — " + ep.title);
-            seasonLines = seasonLines.concat(epLines);
-            seasonLines.push("");
-          }
-        });
-        if (seasonLines.length){
-          any = true;
-          lines.push("Season " + season.season);
-          lines.push("");
-          lines = lines.concat(seasonLines);
-        }
-      });
-      if (!any) return "";
-      return lines.join("\n").trim() + "\n";
-    }
-
-    function showCopyStatus(msg){
-      els.copyStatus.textContent = msg;
-    }
-
-    els.copyAllBtn.addEventListener("click", function(){
-      var text = gatherNotesText();
-      if (!text){
-        showCopyStatus("No notes yet — jot one on a card first.");
-        return;
-      }
-      function fallbackCopy(){
-        var ta = document.createElement("textarea");
-        ta.value = text;
-        ta.setAttribute("readonly", "");
-        ta.style.position = "absolute";
-        ta.style.left = "-9999px";
-        document.body.appendChild(ta);
-        ta.select();
-        var ok = false;
-        try { ok = document.execCommand("copy"); } catch(e){ ok = false; }
-        document.body.removeChild(ta);
-        showCopyStatus(ok ? "Copied ✓ — paste it somewhere safe." : "Couldn’t copy automatically — select and copy manually.");
-      }
-      if (navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(text).then(function(){
-          showCopyStatus("Copied ✓ — paste it somewhere safe.");
-        }, fallbackCopy);
-      } else {
-        fallbackCopy();
-      }
-    });
 
     // ---- Display options: text size + high contrast (persisted) ----
     function applyScale(scale){

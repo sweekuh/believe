@@ -34,12 +34,12 @@ philosophy or plot facts to fill an episode.
     fall back to **most-interesting-first** (`interest`). Ties break by interest
     then original index. Backward-compatible — unscored/unordered cards sort
     neutrally.
-  - Notes persist in `localStorage` keyed `believe:note:{card.id}`, so **card
-    `id`s are stable and must never be reused/reindexed.**
+  - Card `id`s must stay stable and unique (they identify placeholder cards and
+    keep content addressable); never reuse/reindex them.
   - **Display options** (`setupDisplayOptions()`): a "Display options" panel
     offers a text-size control (multiplies the `--reader-scale` CSS var, which
-    scales only the *reading* text — card prose/title/source, intros, note box —
-    not chrome) and a high-contrast toggle (`body.hc`, an opt-in dark variant
+    scales only the *reading* text — card prose/title/source, intros — not
+    chrome) and a high-contrast toggle (`body.hc`, an opt-in dark variant
     that deepens the dusk palette and brightens muted text). Persisted in
     `believe:fontScale` (`1`/`1.15`/`1.3`) and `believe:contrast` (`0`/`1`).
     Wired before the `fetch`, so they work even on a load error.
@@ -86,10 +86,10 @@ This repo has no test/lint suite. Verification is a headless-browser script.
 # Serve the app locally (fetch('./episodes.json') is CORS-blocked on file://)
 python3 -m http.server 8000          # then open http://localhost:8000
 
-# Headless-browser verification (asserts gate, reveal, notes, copy-all,
+# Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 37)
+node tools/verify.mjs                # run all checks (currently 34)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content
