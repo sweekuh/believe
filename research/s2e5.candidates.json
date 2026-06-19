@@ -1,0 +1,185 @@
+{
+  "episode": { "season": 2, "number": 5, "title": "Rainbow" },
+  "generated_by": "episode-fact-hunter",
+  "notes": "WEBFETCH STATUS: WebFetch returned a global HTTP 403 on every URL attempted this session (Wikipedia, TV Tropes, TV Insider), exactly as the briefing warned. Every fact below is therefore corroborated across MULTIPLE INDEPENDENT WebSearch result summaries from DIFFERENT domains (Wikipedia, TV Tropes, Slate, ScreenRant, PureWow, TV Insider, SlashFilm, Pajiba, ReadySteadyCut, NPR, lassoism transcript pages, the leaked production script at tvwriting.co.uk) rather than a single fetched page; hunter_confidence is capped accordingly and the reviewer should open the cited URLs directly. Paraphrase only -- no dialogue is reproduced; the few exact phrasings I name (e.g. 'rom-communism', 'You had me at coach') are short titles/coinages, all well under 15 words. CREDIT CHECK: an initial briefing-style search suggested 'Jane Becker' as writer; that is WRONG. The episode's own production script header (tvwriting.co.uk PDF, 'Episode 205 Written By Bill Wrubel Directed by Erica Dunton') and Wikipedia both give writer = Bill Wrubel, director = Erica Dunton, air date Aug 20 2021, 15th episode overall. ATTRIBUTION FLAGS are called out inline -- the Rilke 'dragons' line is the big one (popular paraphrase, not verbatim Rilke); also flagged: the Dante 'dark forest' read (the show invokes a fairy-tale motif, NOT an explicit Dante cite) and the Brett Goldstein Emmy-submission specificity. FACTSHEET NOTE: docs/factsheet.md sec.6 lists 'She's a Rainbow' (Rolling Stones) as an S1E5 'Tan Lines' needle-drop [INFERRED placement]; independent sources here place a 'She's a Rainbow' cue at the END of THIS S2E5 'Rainbow' episode too -- likely the title source. I flag the possible factsheet placement tension for the reviewer rather than resolving it.",
+  "candidates": [
+    {
+      "id": "s2e5-rom-communism",
+      "type": "theme",
+      "title": "Ted's 'rom-communism' pep talk",
+      "detail": "The episode's central throughline and one of its signature speeches: with the team struggling, Ted tells them he believes in 'communism' -- then clarifies, 'rom-communism' -- his coinage for a worldview borrowed from romantic comedies, that if everyone works together it will all work out in the end. He invokes the great rom-com stars (Tom Hanks, Meg Ryan, Julia Roberts, Hugh Grant) by name. It is the philosophical spine of the whole rom-com-homage episode: hope/precursive faith dressed as movie genre. Pairs with the show's broader 'believe' theme without duplicating the BELIEVE-sign card. Note 'rom-communism' is Ted's invented word, not a real ideology -- treat it as a comic coinage, not a political claim.",
+      "moment": "With the team demoralized, Ted gives a pep talk declaring he believes in 'rom-communism' -- a made-up worldview drawn from romantic comedies, where if everyone pulls together things work out in the end -- and rattles off the genre's biggest stars.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Episode framed as a rom-com homage; Ted's rom-communism speech" },
+        { "url": "https://www.popmatters.com/rom-communism-ted-lasso-feature", "note": "Essay on 'rom-communism' as the episode's worldview: everything works out if we work together" },
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=389", "note": "Transcript of the rom-communism speech naming Hanks, Ryan, Roberts, Grant" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-dark-forest",
+      "type": "philosophy",
+      "title": "The 'dark forest' in the middle of every story",
+      "detail": "Extending the rom-communism speech, Ted reassures the team that the hard stretch they're in is just their 'dark forest' -- arguing that fairy tales neither begin nor end in the dark forest; the dark forest always shows up in the MIDDLE of a story, and you come out the other side. It is a tidy piece of narrative-shaped optimism: suffering reframed as a structurally necessary middle act, not a verdict on the ending. The image draws on a deep mythic/fairy-tale motif (the hero must pass through a dark wood). FLAG for reviewer: some readers connect the 'dark wood' to Dante's Inferno (which opens with the narrator lost in a 'dark wood' midway through life), but the SHOW frames it as generic fairy-tale imagery and I found NO source confirming a deliberate Dante allusion -- do not assert Dante; present it as a fairy-tale/'middle of the story' motif.",
+      "moment": "Ted tells the slumping team the rough patch is just their 'dark forest' -- and that in fairy tales the dark forest never comes at the start or the end, only the middle, so they will make it through.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=391", "note": "Transcript: the 'dark forest' / fairy-tale middle-of-the-story portion of Ted's speech" },
+        { "url": "https://www.npr.org/2021/08/20/1029294921/ted-lasso-recap-season-2-episode-5-rainbow", "note": "Recap discussing the rom-communism / dark-forest pep talk" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-rom-com-medley-roy",
+      "type": "reference",
+      "title": "Ted woos Roy with a rom-com line medley",
+      "detail": "The episode's showpiece homage: to recruit Roy as a coach, Ted strings together rewritten lines from a run of beloved romantic comedies -- the long 'rest of your life' speech from When Harry Met Sally, 'you complete [our team]' from Jerry Maguire, the 'just a [coach], standing in front of a [boy]' construction from Notting Hill, and 'as you wish' from The Princess Bride. It is the literal enactment of 'rom-communism': Ted courting Roy as if proposing in a movie. FLAG for reviewer: these are deliberate near-quotes/paraphrases of famous film lines; the films are firmly sourced, but keep any reproduced wording minimal and verify exact film-by-film attributions against a recap before shipping.",
+      "moment": "Trying to talk Roy into coaching, Ted reels off a medley of famous romantic-comedy declarations -- the 'rest of your life' speech, 'you complete...', the 'just a ___ standing in front of a ___' line, 'as you wish' -- repurposed as a love-confession to get Roy on staff.",
+      "sources": [
+        { "url": "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/", "note": "Breaks down the When Harry Met Sally / Jerry Maguire / Notting Hill / Princess Bride lines Ted uses on Roy" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/", "note": "Lists the rom-com films quoted in Ted's pitch to Roy" },
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Episode as homage; Ted quoting rom-coms to recruit Roy" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-you-had-me-at-coach",
+      "type": "reference",
+      "title": "Roy's 'You had me at coach' payoff",
+      "detail": "Roy refuses Ted's coaching offer twice, then -- moved by the crowd's love for the team while he's working as a TV pundit -- abandons his on-air panel mid-broadcast and races to the stadium to accept. As he arrives on the pitch he caps the rom-com arc by riffing on Jerry Maguire's famous 'you had me at hello,' rendered as 'You had me at coach.' It's the episode's romantic climax with the gender roles of the genre playfully swapped (the gruff man makes the grand dash). Direction: pays off Ted's earlier Jerry Maguire 'you complete our team' line.",
+      "moment": "After twice turning Ted down, Roy bolts from his pundit desk to the stadium and accepts the coaching job by riffing on Jerry Maguire -- 'You had me at coach' -- completing the episode's rom-com courtship of Roy.",
+      "sources": [
+        { "url": "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references", "note": "'You had me at coach' as the Jerry Maguire payoff when Roy accepts" },
+        { "url": "https://awfulannouncing.com/apple/ted-lasso-recap-rainbow-you-had-us-at-coach.html", "note": "Recap of Roy leaving the studio and accepting the coaching role" },
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Roy joins the coaching staff at the end of the episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-sleepless-jeff",
+      "type": "easter-egg",
+      "title": "Roy's Sleepless-in-Seattle studio exit",
+      "detail": "When Roy bolts from the Sky Sports / Soccer Saturday pundit set, the moment is staged as a Sleepless in Seattle nod: he tells his co-host (Jeff Stelling) he has to leave -- echoing Meg Ryan's line to her fiance Walter as she breaks away at the film's climax. It's an easy-to-miss genre wink folded into Roy's grand romantic dash to the stadium. FLAG: this is a reference read repeated across recaps rather than a creator confirmation; treat as a strong, widely-noted allusion.",
+      "moment": "Quitting the broadcast desk to chase the coaching job, Roy abruptly tells his fellow pundit he has to go -- a beat recappers flag as a Sleepless in Seattle homage to Meg Ryan's climactic exit.",
+      "sources": [
+        { "url": "https://www.slashfilm.com/603826/youve-got-ted-lasso-a-guide-to-the-rom-com-references-in-the-latest-episode/", "note": "Identifies Roy's 'I have to go now' studio exit as a Sleepless in Seattle reference" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/", "note": "Catalogs the Sleepless in Seattle nod among the episode's rom-com Easter eggs" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-rilke-bantr",
+      "type": "reference",
+      "title": "Rebecca's Bantr match quotes 'Rilke'",
+      "detail": "On the anonymous dating app Bantr, Rebecca's mystery suitor woos her by quoting a line attributed to the Austrian poet Rainer Maria Rilke -- roughly, that our deepest fears are like dragons guarding our deepest treasure -- and she swoons. It seeds the season's mystery-romance subplot. CRITICAL ATTRIBUTION FLAG for the reviewer: the 'deepest fears are like dragons guarding our deepest treasure' line is one of the most widely MISQUOTED 'Rilke' lines on the internet. It is a loose paraphrase/condensation, NOT a verbatim sentence located in Rilke. The genuinely Rilkean passage (from Letters to a Young Poet) is the one about dragons in our lives perhaps being princesses waiting to see us act with beauty and courage. So the IN-SHOW fact ('a character quotes a line credited to Rilke and Rebecca finds it irresistible') is solid; the meta-fact ('and that line is itself a popular misattribution/paraphrase of Rilke') is the interesting, sourceable angle -- do NOT assert the line as a true verbatim Rilke quote.",
+      "moment": "Flirting on the anonymous Bantr app, Rebecca's unseen match quotes a line credited to the poet Rilke about fears being dragons that guard our deepest treasure, and she is instantly smitten.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=397", "note": "Transcript: Rebecca's match quotes 'Rilke' on Bantr; Keeley reacts" },
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Rebecca's Bantr suitor and the Rilke quote in the plot" },
+        { "url": "https://www.goodreads.com/quotes/745-perhaps-all-the-dragons-in-our-lives-are-princesses-who", "note": "The ACTUAL verbatim Rilke passage (Letters to a Young Poet): dragons may be princesses -- shows the show's line is a paraphrase" },
+        { "url": "https://www.goodreads.com/quotes/9923979-our-deepest-fears-are-like-dragons-guarding-our-deepest-treasure", "note": "The popular 'deepest fears are dragons guarding our treasure' wording attributed to Rilke across quote sites" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e5-youve-got-mail-bantr",
+      "type": "easter-egg",
+      "title": "Bantr handles nod to You've Got Mail",
+      "detail": "The Bantr romance is built as a You've Got Mail homage: Rebecca's anonymous match goes by the handle 'LDN152,' a direct echo of Tom Hanks' character's screen name 'NY152' in the 1998 film, while Rebecca's own handle 'Bossgirl' rhymes with Meg Ryan's 'Shopgirl.' It's a precise, easy-to-miss Easter egg tying the season-long mystery-suitor arc to a specific rom-com about two people falling for each other anonymously online. FLAG: handle spellings ('LDN152'/'Bossgirl') should be double-checked against the screen by the reviewer; the You've Got Mail parallel itself is widely and independently reported.",
+      "moment": "On Bantr, Rebecca (handle 'Bossgirl') trades messages with a suitor called 'LDN152' -- screen names that mirror 'Shopgirl' and 'NY152' from You've Got Mail, where two strangers fall in love anonymously online.",
+      "sources": [
+        { "url": "https://www.slashfilm.com/603826/youve-got-ted-lasso-a-guide-to-the-rom-com-references-in-the-latest-episode/", "note": "Notes LDN152 vs NY152 and Bossgirl vs Shopgirl as a You've Got Mail reference" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/", "note": "Lists the You've Got Mail handle parallel among the episode's Easter eggs" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e5-titanic-elderly-couple",
+      "type": "reference",
+      "title": "The When-Harry-Met-Sally couple who 'are' Titanic",
+      "detail": "The episode borrows When Harry Met Sally's documentary device -- elderly couples telling the camera, in direct address, how they fell in love -- but lands a joke on top: one couple's tale is secretly the plot of Titanic (he sketched her, the ship sank, etc.), and they claim James Cameron stole their story and they're now in litigation over it. It's a double-decker reference: one rom-com's FORMAT used to smuggle in a different blockbuster love story. A great 'I never caught that' beat for a rewatcher.",
+      "moment": "In a When Harry Met Sally-style talking-to-camera segment, an old couple recount their romance -- which turns out, detail by detail, to be the story of Titanic, which they insist James Cameron stole from them.",
+      "sources": [
+        { "url": "https://www.tvinsider.com/gallery/ted-lasso-rom-com-references-easter-eggs-when-harry-met-sally-jerry-maguire/", "note": "Describes the elderly-couple fourth-wall device and the Titanic reveal" },
+        { "url": "https://screenrant.com/ted-lasso-season-2-romantic-comedy-easter-eggs/", "note": "Confirms the When Harry Met Sally homage layered with the Titanic gag" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-love-actually-reunions",
+      "type": "easter-egg",
+      "title": "A Love Actually airport-reunion homage",
+      "detail": "The episode opens/threads a montage of people meeting their loved ones before the match -- including Higgins waiting for his wife -- staged to evoke the famous opening of Love Actually (arrivals-gate reunions), reportedly even matching the warm, slightly washed camera look of that film's airport footage. It quietly extends the 'everyone gets their happy reunion' rom-communism theme to the background characters. FLAG: the matching 'camera filter' claim comes from recap write-ups, not a cinematographer interview; treat the Love Actually homage as strong and the filter detail as a recapper observation.",
+      "moment": "A montage of fans and partners reuniting before the game -- Higgins among them, waiting for his wife -- echoes the arrivals-gate reunions that open Love Actually.",
+      "sources": [
+        { "url": "https://www.slashfilm.com/603826/youve-got-ted-lasso-a-guide-to-the-rom-com-references-in-the-latest-episode/", "note": "Identifies the reunion montage / Higgins waiting as a Love Actually reference, with matching filter claim" },
+        { "url": "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references", "note": "Lists the Love Actually airport-reunion homage" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-nate-pretty-woman-assertiveness",
+      "type": "theme",
+      "title": "Nate's assertiveness arc (a Pretty Woman beat)",
+      "detail": "The B-story tracks Nate learning to assert himself: he wants the coveted window table at his parents' favorite restaurant -- 'A Taste of Athens' in Tooting -- for their 35th anniversary, but is brushed off by the hostess (Jade). Rebecca and Keeley coach him; Rebecca shares her pre-big-moment 'make yourself big' power-pose ritual. Recappers read the being-turned-away-then-returning-empowered structure as a Pretty Woman echo (Vivian rejected in the boutique, then vindicated). Thematically it's the dark side of the episode's confidence motif: Nate's growing assertiveness here already tips toward the resentment that fuels his later arc -- e.g., he ends up spitting on his own reflection to psych himself up. FLAG: the Pretty Woman framing is a recapper read, not creator-confirmed; the in-episode restaurant plot, Jade, and the power-pose coaching are firmly sourced. Spoiler-scope leans 'season' given how it foreshadows Nate's turn.",
+      "moment": "Desperate to land the window table at his parents' favorite Greek restaurant for their anniversary, an insecure Nate is rebuffed by the hostess, then -- coached by Rebecca and Keeley on projecting confidence -- forces himself to act assertive, an arc recappers liken to Pretty Woman.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Nate's anniversary-table plot and assertiveness training with Rebecca and Keeley" },
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=407", "note": "Transcript establishing 'A Taste of Athens' in Tooting and the table request" },
+        { "url": "https://www.purewow.com/entertainment/ted-lasso-season-2-episode-5-rom-com-references", "note": "Frames Nate's rejected-at-the-restaurant arc as a Pretty Woman reference" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s2e5-roy-isaac-underpass",
+      "type": "callback",
+      "title": "Roy takes Isaac back to where football was fun",
+      "detail": "Before he formally becomes a coach, Roy is recruited for a one-off intervention with captain Isaac, who has lost his spark. Roy takes him (and Ted) to a concrete pitch under an underpass -- a place tied to where football was simply a kid's game -- and watches a scrappy amateur match to remind Isaac the sport is supposed to be FUN. Isaac loosens up and dominates again (the on-pitch turnaround scored to Blur's 'Song 2'). It's both the seed of Roy's coaching vocation and a thematic callback to the show's recurring 'football is life / play for joy' idea. Direction: sets up Roy's coaching career (paid off later this very episode and across the series).",
+      "moment": "Tapped to fix a slumping Isaac, Roy brings him to a rough pitch under an underpass to watch a pickup game, reminding him football is a kid's game meant to be fun -- and Isaac's joy, and his form, come roaring back.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2021/08/19/recap-ted-lasso-season-2-episode-5-apple-tv-plus-original-series/", "note": "Recap of Roy taking Isaac to the underpass/park to rediscover fun; Isaac's revival" },
+        { "url": "https://www.themarysue.com/roy-kent-ted-lasso-season-2-ep-5/", "note": "Details Roy's intervention with Isaac and its role in Roy's path to coaching" },
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Roy works with Isaac before joining the coaching staff" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-credits-wrubel-dunton",
+      "type": "production",
+      "title": "Written by Bill Wrubel, directed by Erica Dunton",
+      "detail": "'Rainbow' is the 5th episode of Season 2 and the 15th of the series, written by executive producer Bill Wrubel and directed by Erica Dunton, first released on Apple TV+ on August 20, 2021. The whole episode is built as an extended romantic-comedy homage. Roy's coaching turn here is widely cited as a season highlight; Brett Goldstein (Roy) won the Emmy for Outstanding Supporting Actor in a Comedy Series for this season. FLAG for reviewer: the credits/air-date are firmly sourced (Wikipedia AND the leaked production script header both read 'Episode 205, Written By Bill Wrubel, Directed by Erica Dunton'); but do NOT assert that THIS specific episode was Goldstein's Emmy submission tape -- I did not confirm the exact submission episode, only that he won for the season. A prior briefing-style search misnamed the writer as 'Jane Becker' -- that is incorrect.",
+      "moment": "Behind the scenes: 'Rainbow' (S2 E5, the 15th episode overall) was written by Bill Wrubel and directed by Erica Dunton, and premiered August 20, 2021 -- the show's full-on romantic-comedy tribute episode.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Writer Bill Wrubel, director Erica Dunton, air date Aug 20 2021, 15th episode overall" },
+        { "url": "https://tvwriting.co.uk/tv_scripts/Collections/Comedy/Ted_Lasso/Ted_Lasso_2x05_-_Rainbow.pdf", "note": "Production script header: 'Episode 205 Written By Bill Wrubel Directed by Erica Dunton'" },
+        { "url": "https://collider.com/ted-lasso-best-episodes-ranked-imdb/", "note": "'Rainbow' ranked among the series' best episodes; context for Roy's standout arc" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s2e5-shes-a-rainbow-title",
+      "type": "trivia",
+      "title": "The title and the Rolling Stones closer",
+      "detail": "The episode title 'Rainbow' lands on multiple meanings at once: the rom-communism 'happy ending after the storm' motif, and a music cue -- independent sources report The Rolling Stones' 'She's a Rainbow' plays at the close of the episode, the likely title source. (Blur's 'Song 2' scores the earlier Isaac-revival montage.) FLAG for reviewer: docs/factsheet.md sec.6 [INFERRED] tags 'She's a Rainbow' as an S1E5 'Tan Lines' needle-drop; sources here also tie it to THIS S2E5 'Rainbow' close. A song can of course be used twice in a series, but please verify the S2E5 placement directly and reconcile with the factsheet note rather than assuming either is wrong.",
+      "moment": "The episode borrows its name from its romantic-comedy mood and from its music -- The Rolling Stones' 'She's a Rainbow' reportedly playing it out, after Blur's 'Song 2' powered Isaac's earlier on-pitch resurgence.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rainbow_(Ted_Lasso)", "note": "Music in the episode incl. Blur 'Song 2' and Rolling Stones 'She's a Rainbow'" },
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-2/110638", "note": "Song list for S2E5 'Rainbow' including the closing 'She's a Rainbow'" },
+        { "url": "https://www.what-song.com/Tvshow/100693/Ted-Lasso/e/121190", "note": "Independent S2E5 soundtrack listing corroborating the cues" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}
