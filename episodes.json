@@ -1,975 +1,1188 @@
 {
   "show": "Ted Lasso",
-  "season": 1,
   "fromMom": "Hi Mom — little notes on the deeper stuff hiding under the jokes. Read them after you watch each episode. No spoilers past the one you pick.",
-  "episodes": [
+  "seasons": [
     {
-      "number": 1,
-      "title": "Pilot",
-      "intro": "",
-      "footer": "That’s the Pilot.",
-      "cards": [
+      "season": 1,
+      "episodes": [
         {
-          "id": "s1e1-belief-sign",
-          "tag": "Belief",
-          "title": "The yellow sign over the door",
-          "moment": "At the very end, Ted tapes a single hand-lettered word above the locker room door, with Keeley’s help: BELIEVE.",
-          "idea": "There’s a real idea behind it. The philosopher William James called it <strong>precursive faith</strong> — choosing to believe a good thing is possible <em>before</em> there’s any proof, because the believing itself helps make it come true. It isn’t pretending. It’s deciding to act as if the better outcome is reachable.",
-          "why": "That taped-up sign is the whole show in one word. Everything Ted does for three seasons is an argument for it.",
-          "source": "William James, “The Will to Believe” (1896). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 3."
+          "number": 1,
+          "title": "Pilot",
+          "intro": "",
+          "footer": "That’s the Pilot.",
+          "cards": [
+            {
+              "id": "s1e1-belief-sign",
+              "tag": "Belief",
+              "title": "The yellow sign over the door",
+              "moment": "At the very end, Ted tapes a single hand-lettered word above the locker room door, with Keeley’s help: BELIEVE.",
+              "idea": "There’s a real idea behind it. The philosopher William James called it <strong>precursive faith</strong> — choosing to believe a good thing is possible <em>before</em> there’s any proof, because the believing itself helps make it come true. It isn’t pretending. It’s deciding to act as if the better outcome is reachable.",
+              "why": "That taped-up sign is the whole show in one word. Everything Ted does for three seasons is an argument for it.",
+              "source": "William James, “The Will to Believe” (1896). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 3."
+            },
+            {
+              "id": "s1e1-nate-name",
+              "tag": "Seeing people",
+              "title": "He learns the kit man’s name",
+              "moment": "Ted greets Nate, the equipment manager everyone else walks straight past, by name — and treats him like he matters.",
+              "idea": "A tiny moment carrying a big idea: that every person is owed real attention regardless of their rank. Kant called it treating people as ends in themselves, never as just tools to get something done.",
+              "why": "Keep this one in your back pocket. Where Nate starts in this scene, and where he ends up by Season 3, is one of the show’s biggest journeys.",
+              "source": "Respect for persons (Kantian ethics)."
+            },
+            {
+              "id": "s1e1-press-conf",
+              "tag": "Hope vs. naivety",
+              "title": "Walking into a hostile room with a smile",
+              "moment": "Ted faces a press conference full of people who think he’s a joke. He knows almost nothing about the sport, and instead of bluffing, he just stays open and warm.",
+              "idea": "The show is quietly asking a hard question here: is that kind of relentless optimism just foolish, or is it a discipline? One answer comes from Camus, who argued for a clear-eyed hope — you see exactly how bad things are, and you choose to hope anyway. Not blindness. A decision.",
+              "why": "Watch across the season for whether Ted’s cheerfulness is real strength or a way of hiding from his own pain. The show doesn’t let him off easy.",
+              "source": "Albert Camus on hope and the absurd. Explored in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 15."
+            },
+            {
+              "id": "s1e1-rebecca-revenge",
+              "tag": "Revenge or justice",
+              "title": "Why Rebecca really hired him",
+              "moment": "After defending Ted in public, Rebecca admits in private that she hired him hoping he’ll <em>fail</em> — to ruin the one thing her ex-husband loves.",
+              "idea": "This is one of the oldest questions in ethics: is revenge ever just? Rebecca feels she’s owed it. The series slowly draws a line between wanting someone to suffer and wanting a wrong made right — and they turn out to be very different things.",
+              "why": "Rebecca is the show’s deepest redemption story. This scene is her at her lowest, on purpose, so you can see how far she travels.",
+              "source": "Revenge vs. justice; see <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 20."
+            },
+            {
+              "id": "s1e1-biscuits",
+              "tag": "Small kindnesses",
+              "title": "Biscuits with the Boss",
+              "moment": "Ted starts bringing Rebecca a little pink box of biscuits every single morning, a ritual he names “Biscuits with the Boss.”",
+              "idea": "It looks like nothing. But it’s an argument the whole show believes in: that trust gets built through small, consistent, unconditional gestures, not grand ones — and he keeps doing it for someone who is secretly working against him.",
+              "why": "That little box is the thread that eventually unravels her whole plan. (And keep watching — you find out he bakes them himself.)",
+              "source": "—"
+            }
+          ]
         },
         {
-          "id": "s1e1-nate-name",
-          "tag": "Seeing people",
-          "title": "He learns the kit man’s name",
-          "moment": "Ted greets Nate, the equipment manager everyone else walks straight past, by name — and treats him like he matters.",
-          "idea": "A tiny moment carrying a big idea: that every person is owed real attention regardless of their rank. Kant called it treating people as ends in themselves, never as just tools to get something done.",
-          "why": "Keep this one in your back pocket. Where Nate starts in this scene, and where he ends up by Season 3, is one of the show’s biggest journeys.",
-          "source": "Respect for persons (Kantian ethics)."
+          "number": 2,
+          "title": "Biscuits",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e2-selhurst-park-irony",
+              "tag": "Standing in the rival's real house",
+              "title": "Richmond's ground is Crystal Palace's real stadium",
+              "moment": "Ted rallies the team to defend their home turf against Crystal Palace, the day's opponent.",
+              "idea": "Richmond's fictional Nelson Road is filmed at Selhurst Park, which in real life is Crystal Palace's actual home ground. So the team is being fired up about 'our house' while literally standing in the rival's real stadium.",
+              "why": "A buried in-joke for anyone who knows London grounds. The home-advantage speech is funnier once you know whose ground it really is.",
+              "source": "Filming-location reporting by <em>Football Ground Guide</em> and <em>Goal.com</em>; S1E2 \"Biscuits.\"",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: multiple independent filming-location guides confirm Richmond's Nelson Road is filmed at Selhurst Park, the real home of Crystal Palace, who are the opponent in this episode. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://footballgroundguide.com/news/is-afc-richmonds-stadium-in-ted-lasso-real-heres-the-ground-that-brings-nelson-road-to-life.html",
+                "https://www.goal.com/en-us/lists/where-was-ted-lasso-filmed-locations-stadiums/bltb46b79bece2dee8e",
+                "https://www.contiki.com/six-two/article/ted-lasso-filming-locations/"
+              ]
+            },
+            {
+              "id": "s1e2-zach-braff-director",
+              "tag": "The episode that set the tone",
+              "title": "Zach Braff directed this one",
+              "moment": "Off screen: 'Biscuits' was directed by Zach Braff, written by Joe Kelly from a story by Brendan Hunt and Jason Sudeikis.",
+              "idea": "Braff came in through his Scrubs relationship with co-creator Bill Lawrence, and has said this is the episode that signaled the show would do more than fish-out-of-water comedy, it would break your heart by the end, classic Bill Lawrence.",
+              "why": "If the series feels like it shifts gears around here, that is by design. Braff earned an Emmy nomination for directing it.",
+              "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Looper</em>; credits per Wikipedia, S1E2 \"Biscuits.\"",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: Zach Braff directed 'Biscuits' (S1E2, aired Aug 14 2020), written by Joe Kelly, story by Brendan Hunt and Jason Sudeikis, with an Outstanding Directing Emmy nomination, corroborated across Wikipedia, Looper, and Awards Daily. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)",
+                "https://www.looper.com/494168/the-episode-of-ted-lasso-you-didnt-know-zach-braff-directed/",
+                "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/"
+              ]
+            },
+            {
+              "id": "s1e2-goldfish-memory-myth",
+              "tag": "True as metaphor, false as fact",
+              "title": "The goldfish-memory myth behind the lesson",
+              "moment": "Ted frames the goldfish as the happiest animal because it forgets so fast, naming a ten-second memory as the reason.",
+              "idea": "The premise is folklore. Studies show goldfish actually remember learned cues for months, even up to a year. The show leans on the myth because it makes the emotional point land, not as a claim about biology.",
+              "why": "A gentle parallel to how this project treats the Whitman line: the wisdom is real even when the supporting 'fact' is not. Worth knowing so the metaphor can be loved without being mistaken for science.",
+              "source": "Goldfish-memory research summarized by <em>Live Science</em>, <em>Discover</em>, and the American Museum of Natural History; show premise from S1E2 \"Biscuits.\"",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: the short-memory premise is a documented myth; goldfish retain learned cues for months to years per Live Science, Discover, AMNH, and Ripley's, with the show's ten-second framing confirmed in the 'be a goldfish' scene. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.livescience.com/goldfish-memory.html",
+                "https://www.discovermagazine.com/goldfish-may-have-longer-memories-than-just-three-seconds-46062",
+                "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think"
+              ]
+            },
+            {
+              "id": "s1e2-soccer-girl-rickshaw-rig",
+              "tag": "How they faked real football",
+              "title": "Filming the 'Soccer Girl' on a rickshaw rig",
+              "moment": "In a park, a schoolgirl dribbles circles around Ted, a humbling beat for the new gaffer.",
+              "idea": "Groundskeepers would not allow heavy camera gear on the grass, so the crew put a remote camera head on a lightweight rickshaw with big inflatable tires, operated from the sideline while a grip in cleats sprinted alongside it.",
+              "why": "A vivid look at the low-tech ingenuity behind the show's convincing on-pitch footage. The polished result hides a man running flat-out beside a glorified cart.",
+              "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Awful Announcing</em>; S1E2 \"Biscuits.\"",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: Braff describes a remote head on a rickshaw with giant inflatable (beach-set) tires, light enough to be allowed on the pitch with no operator aboard, run from the sideline while the key grip sprinted in cleats, corroborated by Awful Announcing and Awards Daily. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
+                "https://awfulannouncing.com/pop-culture/ted-lasso-director-zach-braff-wasnt-allowed-cameras-onto-pitch-for-soccer-scenes.html"
+              ]
+            },
+            {
+              "id": "s1e2-be-a-goldfish",
+              "tag": "Let the bad moment go",
+              "title": "Be a goldfish",
+              "moment": "After Jamie beats him in a drill and mocks him, a deflated Sam apologizes. Ted crouches down and tells him the happiest animal is a goldfish, because it has a ten-second memory, then urges him to forget the play and move on.",
+              "idea": "A plain-language version of refusing to ruminate: name the mistake, release it, and reset your attention to the next moment. Often read alongside Stoic 'control what you can' framing and everyday present-focus practice.",
+              "why": "This is the show's signature coaching idea, introduced here. Notice it is aimed at shame, not the error itself, Ted is teaching Sam how to stop a bad moment from compounding.",
+              "source": "<em>Ted Lasso</em>, S1E2 \"Biscuits\" (2020); corroborated by episode recaps and a clip of the scene.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh search: scene, placement (Sam, after Jamie mocks him), and the ten-second / happiest-animal framing confirmed across a YARN clip, the Ted Lasso Wiki, and the ShowSnob recap. No primary page openable this session, so grounding capped at 4.",
+              "sourcesChecked": [
+                "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c",
+                "https://ted-lasso.fandom.com/wiki/Goldfish",
+                "https://showsnob.com/2020/08/14/ted-lasso-season-1-episode-2-recap/"
+              ]
+            }
+          ]
         },
         {
-          "id": "s1e1-press-conf",
-          "tag": "Hope vs. naivety",
-          "title": "Walking into a hostile room with a smile",
-          "moment": "Ted faces a press conference full of people who think he’s a joke. He knows almost nothing about the sport, and instead of bluffing, he just stays open and warm.",
-          "idea": "The show is quietly asking a hard question here: is that kind of relentless optimism just foolish, or is it a discipline? One answer comes from Camus, who argued for a clear-eyed hope — you see exactly how bad things are, and you choose to hope anyway. Not blindness. A decision.",
-          "why": "Watch across the season for whether Ted’s cheerfulness is real strength or a way of hiding from his own pain. The show doesn’t let him off easy.",
-          "source": "Albert Camus on hope and the absurd. Explored in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 15."
+          "number": 3,
+          "title": "Trent Crimm: The Independent",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e3-trent-crimm",
+              "tag": "Honest witness",
+              "title": "The reporter who came to expose him",
+              "moment": "Trent Crimm — the sharpest, most skeptical reporter on the beat — spends a full day shadowing Ted for a profile, expecting to confirm he’s a fraud, and finds himself quietly disarmed by how genuine Ted actually is.",
+              "idea": "The essay behind this asks what good journalism really owes us: not manufactured cynicism, and not flattery either, but the discipline of looking honestly and reporting what’s true even when it wrecks the story you walked in with. Trent’s piece lands well precisely because he let what he saw change his mind.",
+              "why": "Keep an eye on Trent across the series — this day is the seed of one of the show’s quietest arcs about integrity.",
+              "source": "Journalistic ethics; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 17.",
+              "category": "Ethics & character",
+              "interest": 3,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "S1E3 is titled “Trent Crimm: The Independent”; Rebecca pairs the cynical journalist with Ted for a day expecting an exposé, and Ted disarms him over dinner, yielding an honest profile. Journalistic ethics maps to ch. 17 (“What To Do with Tough Cookies”, the Baggetts).",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Ted_Lasso_season_1",
+                "https://www.wiley.com/en-us/Ted+Lasso+and+Philosophy:+No+Question+Is+Into+Touch-p-9781119891956",
+                "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119891963"
+              ]
+            },
+            {
+              "id": "s1e3-personalized-books",
+              "tag": "Coaching the person, not the player",
+              "title": "A book for everyone, chosen one by one",
+              "moment": "Ted tells the squad he's left them gifts; each player finds a wrapped novel in his locker, hand-picked for him. Sam dives into his right away on the exercise bike; Jamie drops his straight in the bin.",
+              "idea": "Each book quietly carries the lesson that particular player needs, so the gesture is Ted's whole method in miniature: he coaches people, not positions, with care tailored to each individual rather than one speech for the room.",
+              "why": "Pause on the lockers and watch who reads and who tosses — the reactions foreshadow each man's arc. The titles you can catch on screen are Sam's <em>Ender's Game</em>, Jamie's <em>The Beautiful and Damned</em>, Roy's <em>A Wrinkle in Time</em>, and Robbie's <em>Miss Peregrine's Home for Peculiar Children</em>.",
+              "source": "On-screen freeze-frame catalogues; book round-ups (BookRiot, Christian County Library).",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified this session via fresh WebSearch: Christian County Library, BookRiot, IMDb trivia, and a fan freeze-frame catalogue all corroborate Ted leaving a hand-picked book per player in S1E3, with Sam reading Ender's Game on the bike and Roy receiving A Wrinkle in Time. Per-player titles are visible-on-screen reads, not scripted/stated pairings. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
+              "sourcesChecked": [
+                "https://www.christiancountylibrary.org/lasso-library/",
+                "https://bookriot.com/every-book-in-ted-lasso/",
+                "https://www.imdb.com/title/tt10989892/trivia/"
+              ]
+            },
+            {
+              "id": "s1e3-wrinkle-in-time-roy",
+              "tag": "It has to be me",
+              "title": "Roy, Phoebe, and a children's book",
+              "moment": "At bedtime Roy reads <em>A Wrinkle in Time</em> aloud to his niece Phoebe and hits the line about the task falling to him and no one else. It visibly lands — he realizes that, as captain, ending the team's torment of Nate is his to own.",
+              "idea": "Madeleine L'Engle's novel is about a young girl shouldering the burden of leadership, and Ted chose it for Roy on purpose. It's a literary reference doing real character work: the book, not a lecture from Ted, is what moves Roy to step up.",
+              "why": "Watch how a single sentence read to a child reroutes the whole locker room. This is Ted's hands-off coaching paying off — he plants the lesson and lets Roy find it himself.",
+              "source": "<em>A Wrinkle in Time</em> by Madeleine L'Engle; episode recaps (Fandom, TV Tropes).",
+              "category": "Redemption",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified this session via fresh WebSearch: Ted Lasso Wiki (A Wrinkle in Time), TV Tropes recap, and book round-ups corroborate that Roy is given the novel, reads it to Phoebe at bedtime, and takes its theme of leadership to heart — confronting Jamie and standing up for Nate. Plot/dialogue-confirmed, not a freeze-frame guess. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+                "https://bookriot.com/every-book-in-ted-lasso/"
+              ]
+            },
+            {
+              "id": "s1e3-nate-tactics-credit",
+              "tag": "Credit where it's due",
+              "title": "The kit man's winning play",
+              "moment": "Stuck for a strategy, Ted and Beard try a play that nervous kit man Nate offers up — using Jamie as a decoy — and it works in training. Trent watches Ted entrust the team's tactics to the equipment manager without a second thought.",
+              "idea": "A good idea is a good idea regardless of who holds the lowest job title. Ted's flat, merit-over-hierarchy instinct — valuing Nate's input openly rather than burying it — quietly stands out to the skeptical reporter and begins Nate's rise.",
+              "why": "Watch the small status moment: most coaches wouldn't take strategy from the kit man, let alone in front of a journalist. Ted's choice here is character revealed in a single scene, and it plants Nate's whole arc.",
+              "source": "Episode recaps (TV Tropes, ShowSnob, ReadySteadyCut, TV Fanatic).",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified this session via fresh WebSearch across ReadySteadyCut, ShowSnob, TV Fanatic, and TV Tropes: Nate nervously suggests using Jamie as a decoy, Ted adopts the play, it works in training, and Trent specifically notes Ted entrusting strategy to the kit man. Wording softened from 'Ted names Nate when asked' to the broadly-corroborated 'Ted values/entrusts Nate's input openly' since the exact on-screen attribution line was not independently nailed down. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
+              "sourcesChecked": [
+                "https://readysteadycut.com/2020/08/14/recap-ted-lasso-season-1-episode-3-trent-crimm-the-independent-apple-tv-plus-series/",
+                "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent"
+              ]
+            },
+            {
+              "id": "s1e3-success-not-wins",
+              "tag": "How Ted measures success",
+              "title": "Not wins and losses",
+              "moment": "Over dinner with Trent at an Indian restaurant, Ted explains his coaching creed: for him success isn't the scoreline but whether he's helped his players grow into better people, on and off the pitch.",
+              "idea": "It's the episode's thematic core — the line that disarms the cynical reporter. It also opens the show's running question: is outcome-indifferent optimism real wisdom, or a way of dodging the scoreboard? Ted offers it as the former.",
+              "why": "This is the heart of the profile and of Ted's whole philosophy. Listen for how he frames coaching as caring for people first — and ask yourself whether you buy it.",
+              "source": "Ted's dinner explanation; episode recaps. (Paraphrased — no dialogue reproduced.)",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified this session via fresh WebSearch: Ted Lasso Wiki (Trent Crimm / Indian restaurant), TV Tropes, and ShowSnob recaps all corroborate that over the (punishingly spicy) Indian dinner Ted tells Trent he isn't focused on winning and losing but on making his players better people on and off the field, and that this is what disarms the journalist. Paraphrased; no dialogue reproduced. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Indian_restaurant",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
+                "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
+              ]
+            }
+          ]
         },
         {
-          "id": "s1e1-rebecca-revenge",
-          "tag": "Revenge or justice",
-          "title": "Why Rebecca really hired him",
-          "moment": "After defending Ted in public, Rebecca admits in private that she hired him hoping he’ll <em>fail</em> — to ruin the one thing her ex-husband loves.",
-          "idea": "This is one of the oldest questions in ethics: is revenge ever just? Rebecca feels she’s owed it. The series slowly draws a line between wanting someone to suffer and wanting a wrong made right — and they turn out to be very different things.",
-          "why": "Rebecca is the show’s deepest redemption story. This scene is her at her lowest, on purpose, so you can see how far she travels.",
-          "source": "Revenge vs. justice; see <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 20."
+          "number": 4,
+          "title": "For the Children",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e4-roy-jamie-perspective-taking",
+              "tag": "Empathy by perspective-taking",
+              "title": "Roy sees his younger self in Jamie",
+              "moment": "Prompted by Ted to recall what he was like at Jamie's age, Roy admits he was just as arrogant, then invites Jamie to lay out every grievance between them and move past it.",
+              "idea": "Empathy here is concrete: picture yourself at the other person's age and stage. Honest confrontation, fully aired, can produce respect even where it cannot produce friendship.",
+              "why": "Notice that the thaw only starts once Roy stops judging Jamie and recognizes the parallel. The goal he names is respect, not liking each other, which is a more honest and achievable target.",
+              "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh WebSearch: Ted asks Roy what he was like at 23, Roy recognizes his own past arrogance, then proposes airing every grievance and moving on, aiming for mutual respect not friendship. Corroborated across independent S1E4 recaps (TV Tropes, ReadySteadyCut). Capped at 4: no primary page (transcript/episode) openable this session.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+                "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+              ]
+            },
+            {
+              "id": "s1e4-robbie-williams-kids-irony",
+              "tag": "The no-show still sings",
+              "title": "The cancelled star still performs",
+              "moment": "The benefit loses its booked celebrity singer, Robbie Williams, after Rupert is implied to have talked him out of it; then 'Kids' by Robbie Williams and Kylie Minogue plays over the end credits.",
+              "idea": "A quiet needle-drop joke: the artist who bailed on the gala still 'performs' for the episode itself over the credits.",
+              "why": "A reward for attentive viewers. The cancellation drives the plot's scramble for a replacement, then the soundtrack winks at it on the way out.",
+              "source": "<em>Ted Lasso</em> S1E4 'For the Children'; episode soundtrack.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh WebSearch: Robbie Williams was the booked singer and cancels day-of (Ted suspects Rupert engineered it); 'Kids' by Robbie Williams and Kylie Minogue plays over the S1E4 credits. Cancellation and closing needle-drop both corroborated across independent recaps and the episode wiki. Capped at 4: no primary soundtrack/episode page openable this session.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/10th_Annual_Benefit_for_Underprivileged_Children",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren"
+              ]
+            },
+            {
+              "id": "s1e4-cam-cole-real-busker",
+              "tag": "The busker is real",
+              "title": "The street musician plays himself",
+              "moment": "After Rupert sabotages the booked celebrity act, Ted brings in the busker he passes near his flat to perform at the benefit, and the crowd is won over.",
+              "idea": "The one-man band is Cam Cole, a genuine London street musician playing himself, not an actor. The song he performs, 'Mama', is his own; his viral busking led to the cameo.",
+              "why": "A real-world grace note that mirrors the episode's theme of overlooked talent. He plays his own music live, then turns a skeptical room into a dancing one.",
+              "source": "<em>Ted Lasso</em> S1E4 'For the Children'; ScreenRant and Looper profiles of Cam Cole.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh WebSearch: Cam Cole is a real London street musician/busker playing himself, recruited to replace the cancelled act; 'Mama' is his own song (from his album 'I See'), performed live in and out of universe. Corroborated across ScreenRant, the episode wiki, and song write-ups. NOTE: I could not independently re-corroborate the reviewed file's E2 'Biscuits' earlier-glimpse claim this session, so I removed that detail from the card to avoid an unverified attribution. Capped at 4: no primary page openable this session.",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-show-cam-cole-busker/",
+                "https://www.youtube.com/watch?v=m4ivACDXnqc"
+              ]
+            },
+            {
+              "id": "s1e4-accountability-jamie-apology",
+              "tag": "Accountability over apology",
+              "title": "The empty apology",
+              "moment": "Jamie tells Keeley he is sorry, but when she presses, he cannot say what he is actually sorry for; she tells him being accountable matters and walks away.",
+              "idea": "An apology is not the same as accountability. Saying sorry to make a feeling go away, without grasping the harm you caused, is just managing your own discomfort.",
+              "why": "Watch how the show separates the performance of contrition from real ownership. Keeley does not ask for a better apology; she asks whether he understands what he did, and he does not.",
+              "source": "<em>Ted Lasso</em> S1E4 'For the Children'; cf. <em>Ted Lasso and Philosophy</em>, ch. 20 'Being Accountable Matters'.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh WebSearch: Jamie apologizes at the bar but, asked if he knows what he is sorry for, has no answer; Keeley tells him being accountable matters and breaks up with him. Hollow apology and accountability-driven breakup corroborated across independent S1E4 recaps. Capped at 4: no primary page openable this session.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+                "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+              ]
+            },
+            {
+              "id": "s1e4-rupert-million-pound-power-move",
+              "tag": "Generosity as a weapon",
+              "title": "The million-pound power move",
+              "moment": "Rupert seizes the auction and hands over a personal cheque for one million pounds to the children's charity, weaponizing the gift to upstage Rebecca at her own benefit.",
+              "idea": "A good act can be done for an ugly motive. Rupert's enormous donation is real money and real harm at once, generosity performed to dominate.",
+              "why": "Watch what the donation is for. It buys the room's admiration and reminds everyone of his wealth and reach, embarrassing Rebecca on the night she was meant to lead.",
+              "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Re-verified via fresh WebSearch: Rupert crashes the gala, takes over the auction, and produces a personal cheque for one million pounds as a power move to show Rebecca up and silently embarrass her on her solo benefit night. GBP 1M figure and the upstaging motive both corroborated across independent recaps (TV Tropes, ReadySteadyCut, ShowSnob). Capped at 4: no primary page openable this session.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
+                "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+              ]
+            }
+          ]
         },
         {
-          "id": "s1e1-biscuits",
-          "tag": "Small kindnesses",
-          "title": "Biscuits with the Boss",
-          "moment": "Ted starts bringing Rebecca a little pink box of biscuits every single morning, a ritual he names “Biscuits with the Boss.”",
-          "idea": "It looks like nothing. But it’s an argument the whole show believes in: that trust gets built through small, consistent, unconditional gestures, not grand ones — and he keeps doing it for someone who is secretly working against him.",
-          "why": "That little box is the thread that eventually unravels her whole plan. (And keep watching — you find out he bakes them himself.)",
-          "source": "—"
+          "number": 5,
+          "title": "Tan Lines",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e5-oklahoma-honesty",
+              "tag": "A word that demands the truth",
+              "title": "'Oklahoma'",
+              "moment": "Ted explains the code word their marriage therapist gave them: when one says 'Oklahoma,' the other must answer with complete honesty. Here it forces Michelle to admit she is not happy.",
+              "idea": "A pre-agreed permission to drop the performance. The word does not create honesty; it removes the excuse for hiding from it.",
+              "why": "Its first appearance plants a motif the series pays off later, when the word returns between Ted and Rebecca. Watch for who is brave enough to say it.",
+              "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; later reuse traced by FictionHorizon and the Ted Lasso wiki.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: the 'Oklahoma' honesty code word originating with the marriage therapist and forcing Michelle's honest admission in S1E5 is corroborated across multiple independent recap and quote sources (showsnob, lassoism, ted-lasso fandom, fictionhorizon). Grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+                "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+                "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
+              ]
+            },
+            {
+              "id": "s1e5-brett-goldstein-wrote-it",
+              "tag": "The actor behind Roy helped write it",
+              "title": "Roy Kent in the writers' room",
+              "moment": "Behind the camera: one of the show's heaviest early hours—the one where Ted's marriage unravels—carries a writing credit for Brett Goldstein, the man who plays Roy Kent.",
+              "idea": "Goldstein was hired as a Ted Lasso writer first and only later cast as Roy, after he sent in a self-taped audition of Roy scenes. His writing is part of how he got the part.",
+              "why": "A nice irony to sit with: the gruffest, least sentimental character on screen was co-authored by the actor playing him.",
+              "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; Brett Goldstein's writer-to-Roy path per Wikipedia and an Awards Daily interview.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch. The writer-to-Roy core is strongly confirmed across multiple sources: Bill Lawrence hired Goldstein as a writer first; he was story editor across all 10 S1 episodes; he was first offered Higgins, then lobbied for Roy with a self-taped audition (Wikipedia, Awards Daily, Rolling Stone, Screen Rant). On the byline, fresh searches consistently report 'Tan Lines' as Goldstein's writing credit (Phoebe Walsh not credited as a writer on this episode); the card still avoids over-pinning the exact billing per the cardinal rule. Director Elliot Hegarty confirmed. Grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Brett_Goldstein",
+                "https://www.awardsdaily.com/2021/05/10/brett-goldstein-ted-lasso-season-1/",
+                "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)"
+              ]
+            },
+            {
+              "id": "s1e5-embrace-change-theme",
+              "tag": "Change is scary, and good",
+              "title": "The half-time turn",
+              "moment": "Down at the break, Ted tells the room the setup is broken and that change—though frightening—has to be embraced, then tears up his lineup. The same lesson is playing out in his marriage that day.",
+              "idea": "Real change feels like loss before it feels like growth. Naming a thing as broken is not despair; it is the first honest step toward something better.",
+              "why": "Watch how the speech works on two tracks at once: the team he is rebuilding and the marriage he is being asked to let go of. The episode rhymes them deliberately.",
+              "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by recap and analysis pieces (No Film School, ShowSnob).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Ted's half-time speech that the team is broken and that change, though scary, must be embraced—delivered the day his marriage unravels—is corroborated across multiple independent recaps and analyses (No Film School, ShowSnob, Soccer Chaplains United, TV Tropes). Grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://nofilmschool.com/ted-lasso-halftime-speech",
+                "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+                "https://soccerchaplainsunited.org/lessons-from-lasso-we-are-broken-we-need-to-change-change-is-scary/"
+              ]
+            },
+            {
+              "id": "s1e5-team-over-ego",
+              "tag": "The team over the star",
+              "title": "Benching the goal-scorer",
+              "moment": "Jamie scored both of Richmond's goals, yet Ted sits him for the second half because he hoards the ball and treats teammates as props. Without him, the others pass, combine, and win.",
+              "idea": "A flourishing whole can outperform a collection of individually optimizing parts. Subordinating ego to the team is itself a kind of excellence, not a sacrifice of it.",
+              "why": "The first time the show ties its belief-and-effort ethos to a concrete result. The win arrives precisely because the selfish star is removed.",
+              "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (ShowSnob, TV Tropes).",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Ted benches Jamie at half-time despite Jamie having scored both goals, and the remaining players combine for Richmond's first win. Corroborated across multiple independent recaps (ShowSnob, TV Tropes, Wikipedia-derived summaries). Grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
+              ]
+            },
+            {
+              "id": "s1e5-roy-jamie-fight-sam",
+              "tag": "What you owe the person beside you",
+              "title": "Roy throws down for Sam",
+              "moment": "When Sam goes down, Jamie won't even check on him—he wants to play on. Roy, incensed, comes to blows with his own teammate on the pitch.",
+              "idea": "Loyalty and basic care for a vulnerable teammate are a virtue, even when delivered by the gruffest man on the field. The fight frames the episode's question: what do you owe the people beside you?",
+              "why": "Jamie's indifference and Roy's fury are two answers to the same question. Roy's anger is, underneath, about decency.",
+              "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (TV Tropes, lassoism).",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Jamie ignoring (and stepping over) a downed Sam even when Roy orders him to check on him, and Roy coming to blows with Jamie on the pitch, is corroborated across multiple independent recaps (TV Tropes, ShowSnob, lassoism, fandom). Grounding capped at 4 (no primary page openable this session).",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
+                "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
+                "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Two Aces",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e6-ted-knew-dani-was-fine",
+              "tag": "A useful, harmless fiction",
+              "title": "Ted's benevolent deception",
+              "moment": "Ted had learned hours earlier that the injured player was fine, but, on Higgins's nudge, he let the team go on believing the ceremony had lifted the curse. He kept quiet so the players could feel they had broken it together.",
+              "idea": "The cure was never the point; the unity was. Ted stages a harmless fiction because the shared ritual does real work on the team's spirit, echoing the show's bet that believing together can change a group.",
+              "why": "A small ethics-of-belief puzzle. Ask yourself whether the lie was kindness or manipulation, and notice the show clearly thinks it was kindness.",
+              "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per Ted Lasso Wiki, TV Tropes and Wikipedia.",
+              "category": "Ethics & character",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independent second-pass WebSearch (June 2026) re-corroborated across multiple result summaries (showsnob recap, TV Tropes, fandom): Ted revealed to Rebecca he knew Dani's injury was mild hours earlier and withheld it on Higgins's suggestion so the team could feel they broke the curse together. Grounding capped at 4: no primary page openable this session (WebFetch firewalled).",
+              "sourcesChecked": [
+                "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+                "https://ted-lasso.fandom.com/wiki/The_Curse",
+                "https://en.wikipedia.org/wiki/Two_Aces"
+              ]
+            },
+            {
+              "id": "s1e6-footballers-battalion-history",
+              "tag": "A ghost story rooted in real grief",
+              "title": "The curse's real-world echo",
+              "moment": "The room is said to be haunted by young men tricked, in 1914, into enlisting under cover of a tryout, most of whom never came home. The in-show figure (men lured at Richmond) is invented, but the shape of it is not.",
+              "idea": "The fiction grafts a real, grim chapter onto a ghost story. In 1914 the 'Footballers' Battalion' (17th Middlesex) drew players and whole clubs into the war; Clapton Orient enlisted together, and casualties were devastating.",
+              "why": "The haunting hits harder once you know the show is borrowing from history. The specific Richmond number is made up; the loss it gestures at was real.",
+              "source": "Real history: 17th (Service) Battalion, Middlesex Regiment ('Footballers' Battalion'), per the National Army Museum, footballandthefirstworldwar.org and the FSA. In-show backstory per Ted Lasso S1E6.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independent second-pass WebSearch (June 2026) confirmed the real history across multiple sources: the 17th Middlesex ('Footballers' Battalion', 1st Football) was raised at a War Office/FA meeting at Fulham Town Hall in December 1914; Clapton Orient (now Leyton Orient) was the first League club to enlist en masse (~41 players/staff), and three Orient players (Jonas, Scott, McFadden) died at the Somme. The show's '400 lured at Richmond' figure is fictional and is kept separate. Capped at 4: WebFetch firewalled, no primary page opened.",
+              "sourcesChecked": [
+                "https://collection.nam.ac.uk/detail.php?acc=1993-02-42-7",
+                "https://footballandthefirstworldwar.org/footballers-battalion/",
+                "https://footballandthefirstworldwar.org/clapton-orient-first-world-war/",
+                "https://fsf.org.uk/latest-news/view/the-os-return-to-the-somme"
+              ]
+            },
+            {
+              "id": "s1e6-curse-lifting-ritual",
+              "tag": "Ritual as a container for feeling",
+              "title": "The curse-lifting ceremony",
+              "moment": "At midnight the team gathers to lift the treatment room's curse. Each person steps up, names something that matters, and burns it. What is staged as superstition turns into people pouring out loss, fear and hope.",
+              "idea": "A ritual gives feeling a shape. Dressed up as breaking a curse, the burning becomes permission to be vulnerable together, and the squad behaves like one team for the first time.",
+              "why": "Notice that nothing supernatural is required for the ceremony to work. The 'magic' is simply that everyone is finally honest in the same room.",
+              "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); ceremony details per Ted Lasso Wiki and TV Tropes recap.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independent second-pass WebSearch (June 2026) corroborated across TV Tropes, fandom and a recap: the team gathers at midnight, each names and burns a sacrifice in a drum, then burns it on the pitch; objects match (Roy's blanket, Sam's 1994 Nigeria photo, Nate's sunglasses, Rebecca's newspaper, Higgins's cat collar, Jamie's mother's shoes). Instigation is shared on screen, so no single instigator is credited. Capped at 4: WebFetch firewalled.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+                "https://ted-lasso.fandom.com/wiki/The_Curse",
+                "https://en.wikipedia.org/wiki/Two_Aces",
+                "https://readysteadycut.com/2020/09/04/recap-ted-lasso-season-1-episode-6-two-aces-apple-tv-plus-series/"
+              ]
+            },
+            {
+              "id": "s1e6-roys-blanket",
+              "tag": "Tenderness under the toughness",
+              "title": "Roy's childhood blanket",
+              "moment": "The gruffest man in the room gives up a worn blanket. His granddad had given it to him at nine, when he left home for the Sunderland academy, to keep him warm and remind him of home. It was the last gift; his granddad died before he came back.",
+              "idea": "Roy's hardness sits on top of deep attachment and loss. The 'blankie' is an early window into the sentimental core the character spends years guarding.",
+              "why": "Easy to miss as a throwaway prop. It is actually one of the first clues to who Roy Kent really is.",
+              "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); backstory per episode transcript (lassoism) and Ted Lasso Wiki.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independent second-pass WebSearch (June 2026) confirmed via an episode-transcript source plus the fandom page: Roy was scouted by Sunderland at nine, his granddad drove him and gave him the blanket to keep him warm and remind him of home, and it was the last time he saw him (granddad died by Christmas). Placement in the S1E6 ceremony confirmed. Capped at 4: WebFetch firewalled.",
+              "sourcesChecked": [
+                "https://lassoism.com/Ted-Lasso-quote.php?id=115",
+                "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+                "https://ted-lasso.fandom.com/wiki/Sunderland_AFC"
+              ]
+            },
+            {
+              "id": "s1e6-jamie-cleats-confession",
+              "tag": "The first crack in the armor",
+              "title": "Jamie's mother's cleats",
+              "moment": "Jamie turns up at the end of the ceremony and asks to make a sacrifice too: cleats from his mother, who cared more that he be a good person than a good footballer. He admits his hard front was built to survive a father who mocked him as soft.",
+              "idea": "The episode quietly reframes Jamie's ego as armor. Once you see what it was protecting him from, the petulant star becomes a wounded kid, and his long redemption arc begins.",
+              "why": "This is the setup that later seasons pay off (his father's locker-room blow-up). Watch the gentleness underneath the swagger here.",
+              "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); scene breakdown per LadyGeeksMedia, TV Tropes and Ted Lasso Wiki.",
+              "category": "Redemption",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independent second-pass WebSearch (June 2026) corroborated across a dedicated scene breakdown, TV Tropes and fandom: Jamie arrives at the end of the ceremony and sacrifices cleats from his mother (who valued his being a good person over a good footballer), confessing his tough front was built against a father who mocked him as soft. Documented start of his redemption arc. Capped at 4: WebFetch firewalled.",
+              "sourcesChecked": [
+                "https://ladygeeksmedia.com/2021/06/17/scene-breakdown-jamie-tartts-subtle-sacrifice-in-ted-lassos-two-aces/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
+                "https://ted-lasso.fandom.com/wiki/Two_Aces"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Make Rebecca Great Again",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e7-let-it-go-irony",
+              "tag": "One song, two opposite meanings",
+              "title": "\"Let It Go\" cuts both ways",
+              "moment": "Rebecca takes the karaoke mic and pours herself into \"Let It Go\" from Frozen, dedicating it to her goddaughter. For her it is liberation. In the very same room, the song about freedom tips Ted into panic.",
+              "idea": "The show scores meaning onto a single piece of music: release for one character, loss of control for the other, playing at the same moment.",
+              "why": "Watch the two faces during one song. The empowerment anthem becomes a study in how the same words land completely differently depending on what you are carrying.",
+              "source": "Episode 7, \"Make Rebecca Great Again\"; 'Let It Go' from Disney's <em>Frozen</em>.",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch (ScreenRant, Lady Geeks Media, Fandom, Looper snippets): Rebecca sings 'Let It Go' dedicated to goddaughter Nora after Flo signs her up, and the same song triggers Ted's panic in the same room. Grounding capped at 4 (WebFetch firewalled this session; no primary page opened).",
+              "sourcesChecked": [
+                "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/",
+                "https://ladygeeksmedia.com/2021/03/18/scene-breakdown-rebecca-sings-let-it-go-on-ted-lassos-make-rebecca-great-again/",
+                "https://ted-lasso.fandom.com/wiki/Let_It_Go"
+              ]
+            },
+            {
+              "id": "s1e7-iron-giant-screening",
+              "tag": "Choosing who you are",
+              "title": "Ted screens The Iron Giant",
+              "moment": "Ted gathers the squad in the hotel to watch The Iron Giant, warning Beard that around the 74-minute mark a room of grown men will be in tears, and the cut lands on teary players.",
+              "idea": "The pick is not random. The film is about a gentle giant who chooses, against expectation, to be a hero rather than a weapon, the same kindness-over-force creed as the show itself.",
+              "why": "An easy detail to miss that quietly states the show's thesis: you are who you choose to be.",
+              "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript and TV Tropes recap.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap and Fandom snippets): Ted screens The Iron Giant for the team in the hotel, predicts the ~74-minute crying beat to Beard, and the cut lands on teary players. Grounding capped at 4 (no primary page opened this session).",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
+                "https://ted-lasso.fandom.com/wiki/The_Iron_Giant"
+              ]
+            },
+            {
+              "id": "s1e7-disney-let-it-go-clearance",
+              "tag": "Saved by a music supervisor",
+              "title": "How Disney almost killed the song",
+              "moment": "Behind the camera: Disney first said no to licensing \"Let It Go,\" so the crew filmed the karaoke scene twice, once with the song and once with a backup number, as insurance.",
+              "idea": "The production won the rights only after sending Disney the finished footage and an impassioned case for how tenderly the song ties to Rebecca and her goddaughter.",
+              "why": "One of the show's signature scenes survived on a music supervisor's persistence. The backup take used Gloria Gaynor's \"I Will Survive.\"",
+              "source": "Music supervisor Tony Von Pervieux, interviews with Nerdist and Billboard.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch (SlashFilm, Nerdist, Billboard, Below the Line snippets): Disney's committee initially denied 'Let It Go,' the scene was shot twice with a Gloria Gaynor 'I Will Survive' backup, and clearance was won by sending Disney the finished footage. Supervisor Tony Von Pervieux. Grounding capped at 4 (no primary page opened this session).",
+              "sourcesChecked": [
+                "https://www.slashfilm.com/1358922/disney-almost-ruined-grand-moment-in-ted-lasso/",
+                "https://nerdist.com/article/ted-lasso-music-supervisor-tony-von-pervieux-interview/",
+                "https://www.billboard.com/music/music-news/ted-lasso-music-supervisor-tony-von-pervieux-executive-of-week-9642380/"
+              ]
+            },
+            {
+              "id": "s1e7-room-5150-van-halen",
+              "tag": "A wink hidden in a number",
+              "title": "Hotel room 5150",
+              "moment": "Ted lights up at being assigned hotel room 5150 and riffs about Sammy Hagar being the greatest Van Halen singer of the post-Roth era.",
+              "idea": "It is a nod to Van Halen's 1986 album \"5150,\" the band's first with Sammy Hagar after David Lee Roth left, one more drop in Ted's running stream of Americana references.",
+              "why": "It slips right by unless you catch the number on the door. A small reward for a careful rewatcher.",
+              "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch (lassoism quote page, subslikescript transcript, Sammy Hagar's own social-media reaction): Ted's on-screen line praises Sammy Hagar as Van Halen's greatest post-David Lee Roth singer on getting room 5150, a nod to Van Halen's 1986 '5150' album. The 'psychiatric-hold double meaning as writer intent' remains excluded as unverified. Grounding capped at 4 (no primary page opened this session).",
+              "sourcesChecked": [
+                "https://lassoism.com/Ted-Lasso-quote.php?id=127",
+                "https://subslikescript.com/series/Ted_Lasso-10986410/season-1/episode-7-Make_Rebecca_Great_Again"
+              ]
+            },
+            {
+              "id": "s1e7-first-panic-attack",
+              "tag": "The cost beneath the sunshine",
+              "title": "Ted's first panic attack",
+              "moment": "At the team's karaoke celebration, the morning after facing his divorce, Ted is suddenly overwhelmed and has to stumble out of the bar. The camera goes blurry and the sound warps to put us inside his distress.",
+              "idea": "This is the first time the show lets us feel the price of Ted's relentless optimism. His cheerfulness is real, but it has been sitting on top of unprocessed pain.",
+              "why": "Watch how the scene is shot, not just acted, to convey panic. It is the quiet seed of the whole mental-health throughline that the show develops in later seasons.",
+              "source": "Episode 7, \"Make Rebecca Great Again\"; corroborated by recaps.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap, ScreenRant, fan-community snippets): Ted's FIRST full panic attack happens at the S1E7 karaoke bar around his divorce, shown with tinnitus-like ringing and warped focus; Rebecca is the one who recognizes it and follows him out. Professional therapy (Dr. Sharon) is a later-season payoff, kept forward-looking. Grounding capped at 4 (no primary page opened this session).",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
+                "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "title": "The Diamond Dogs",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e8-darts-curiosity",
+              "tag": "Curiosity over judgment",
+              "title": "The darts scene",
+              "moment": "Goaded into a darts match by Rupert in front of everyone, Ted reveals he’s quietly very good — and explains that people wrote him off his whole life by judging instead of asking, landing the throws that matter as he says it.",
+              "idea": "The maxim Ted draws — <em>“be curious, not judgmental”</em> — he credits to Walt Whitman. Worth knowing: that exact sentence has never been found anywhere in Whitman’s writings and is widely treated as a misattribution. The sentiment is Whitman-ish; the line apparently isn’t his. The real point stands on its own — curiosity treats a person as someone you don’t fully know yet; judgment assumes you already do.",
+              "why": "A lovely irony: the show’s most-quoted piece of wisdom is itself something we pass around slightly wrong — which is basically the lesson. (And it’s the payoff the Pilot note pointed you toward.)",
+              "source": "Attributed to Walt Whitman in the show; no source located in his works (widely noted misattribution). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), Part III.",
+              "category": "Ethics & character",
+              "interest": 5,
+              "grounding": 5,
+              "groundingStatus": "attributed",
+              "groundingNotes": "Confirmed in S1E8 “The Diamond Dogs”: Ted is drawn into a darts bet with Rupert, plays as a rookie then reveals lifelong left-handed skill, and delivers the “be curious, not judgmental” monologue crediting Whitman. Snopes and others confirm this is a genuine misattribution — the line is not found in Whitman.",
+              "sourcesChecked": [
+                "https://www.snopes.com/fact-check/be-curious-not-judgmental-walt-whitman/",
+                "https://ace.nd.edu/blog/be-curious-not-judgmental-not-walt-whitman",
+                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+              ]
+            },
+            {
+              "id": "s1e8-diamond-dogs",
+              "tag": "Friendship",
+              "title": "The Diamond Dogs assemble",
+              "moment": "The men around Ted start informally huddling to talk each other through their personal messes — no fixing, just showing up — a ritual they christen the “Diamond Dogs.”",
+              "idea": "Aristotle sorted friendship into three kinds: friendships of pleasure, of usefulness, and the highest — friendships of virtue, where you want what’s genuinely good for the other person for their own sake. The Diamond Dogs are that third kind in miniature: people helping each other become better, with no angle.",
+              "why": "Notice who’s let in and who holds back — the show uses this circle to track who’s willing to be known.",
+              "source": "Aristotle’s three friendships; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 7.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "The informal Diamond Dogs support group is introduced and named in S1E8. Aristotle’s three friendship types (pleasure, utility, virtue) are the explicit subject of ch. 7 (“Ted Lasso’s Personal Dilemma Squad”, Loftin) and extended in ch. 8.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/The_Diamond_Dogs",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch7",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch8"
+              ]
+            },
+            {
+              "id": "s1e8-diamond-dogs-name-origin",
+              "tag": "How they got the name",
+              "title": "Why 'Diamond Dogs'",
+              "moment": "Casting around for a name for their new circle, Nate lands on 'the Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and Ted blesses it on the spot.",
+              "idea": "Inside the story the name has nothing to do with Bowie: it's a goofy locker-room in-joke built on the club mascot, which grounds a lofty 'men's support group' idea in something silly and real.",
+              "why": "A nice pairing with the Bowie cue -- the show gives an earnest in-universe reason while the credits wink at the album. Watch how fast the sincere moment turns into a bit.",
+              "source": "Ted Lasso Fandom 'Diamond Dogs' entry and the scene transcript (lassoism): Nate names them for the Greyhound mascot; Ted approves.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Nate proposing 'Diamond Dogs' for Richmond's Greyhound mascot and Ted's approval corroborated across the Ted Lasso Fandom 'Diamond Dogs' page, the lassoism S01E08 scene image/transcript, and the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4 (no primary page openable).",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Diamond_Dogs",
+                "https://lassoism.com/Ted-Lasso-image.php?id=1142",
+                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+              ]
+            },
+            {
+              "id": "s1e8-title-bowie-album",
+              "tag": "A Bowie wink",
+              "title": "The Bowie needle-drop",
+              "moment": "The men christen their new support circle the 'Diamond Dogs' -- and David Bowie's 1974 song of the same name plays over the closing credits, a glam anthem about a ragged gang of outsiders.",
+              "idea": "The title doubles as a nod to Bowie's <em>Diamond Dogs</em>, his concept record about a glamorous band of misfits -- which rhymes with this ragtag brotherhood of men learning to lean on each other.",
+              "why": "Listen to the end credits: the Bowie track is a confirmed cue. The deeper 'did the writers name the episode after the album?' is an unconfirmed inference, so enjoy the resonance without treating it as settled intent.",
+              "source": "Bowie's <em>Diamond Dogs</em> (1974), confirmed as this episode's end-credits song via IMDb's soundtrack listing and the Ted Lasso Fandom song page.",
+              "category": "Aesthetics",
+              "interest": 3,
+              "grounding": 3,
+              "groundingStatus": "partial",
+              "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Bowie's 'Diamond Dogs' as the E8 end-credits song corroborated across the Ted Lasso Fandom 'Diamond Dogs (song)' page, IMDb soundtrack listing, and Tunefind. Bowie's 1974 album confirmed as a glam-rock concept record about a band of outsiders (multiple Bowie sources). Deliberate title intent remains unconfirmed -- the in-show name comes from the Greyhound mascot -- so kept at partial. WebFetch firewalled this session.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Diamond_Dogs_(song)",
+                "https://www.imdb.com/title/tt11193418/soundtrack/",
+                "https://www.tunefind.com/show/ted-lasso/season-1/100907"
+              ]
+            },
+            {
+              "id": "s1e8-roy-keeley-honesty",
+              "tag": "Honesty first",
+              "title": "Roy and Keeley begin",
+              "moment": "Before they're even officially together, Keeley tells Roy the truth -- that she slept with Jamie again. Roy is hurt, goes away to actually sit with it, and comes back ready to ask her to dinner.",
+              "idea": "The relationship launches on candor instead of a grand gesture: vulnerability up front, time taken to process, and a choice to go slow because casual flings leave Roy feeling worse.",
+              "why": "A quiet counter-model to TV romance. Watch Roy choose to feel his feelings rather than perform them -- the foundation the whole pairing is built on.",
+              "source": "Wikipedia episode entry and recaps (ShowSnob, TV Tropes) of the Roy/Keeley honesty arc.",
+              "category": "Relationships",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Keeley honestly disclosing she slept with Jamie again, Roy taking time to process and wanting to go slow because one-night stands leave him feeling worse, then returning to ask her to dinner -- all corroborated across two independent recaps (ShowSnob E8 recap and the TV Tropes E8 recap) plus the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4.",
+              "sourcesChecked": [
+                "https://showsnob.com/2020/09/18/ted-lasso-episode-8-recap/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E08TheDiamondDogs",
+                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "title": "All Apologies",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e9-ted-vs-beard",
+              "tag": "Winning vs. growth",
+              "title": "Beard pushes back",
+              "moment": "After a painful stretch, Coach Beard breaks his usual loyalty and challenges Ted to his face — telling him that “success isn’t about wins and losses” only goes so far, and that sometimes you genuinely do need to try to win.",
+              "idea": "The show stages a real tension here, and refuses to settle it: is the point to grow into your best self, or to actually win? Ted preaches growth; Beard argues that waving off winning can become its own way of hiding. The essay on this scene leaves it honestly open — both men are partly right.",
+              "why": "This is the season testing whether Ted’s philosophy survives contact with reality — the setup for the finale.",
+              "source": "The ethics of winning vs. growth; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 12 (“Who Is Right, Ted or Beard?”).",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "In S1E9 “All Apologies”, Coach Beard snaps at Ted over benching Roy, arguing Ted’s “winning isn’t how we measure success” stance has limits for a relegation-threatened side and that they must try to win. Ch. 12 is titled “Who Is Right, Ted or Beard?” (Michael W. Austin).",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/All_Apologies_(Ted_Lasso)",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch12"
+              ]
+            },
+            {
+              "id": "s1e9-keeley-phoebe-roy-identity",
+              "tag": "You are not your job",
+              "title": "Phoebe’s list",
+              "moment": "Terrified he’s nothing but a washed-up footballer, Roy listens as his young niece Phoebe describes her uncle — funny, foul-mouthed, scratchy beard, loved — and never once mentions football.",
+              "idea": "Your identity isn’t reducible to your role or career. What people love about you, and what you’re worth, was never the job.",
+              "why": "It’s the show’s “Believe” motif turned inward: Keeley’s real point is that what ultimately matters is what Roy believes about himself.",
+              "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
+              "category": "Belief & hope",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Roy brings Phoebe to Keeley's, fears being seen as a washed-up footballer; Keeley has Phoebe list her uncle's traits (funny, swears, scratchy beard, loved) with no mention of football, making the point that what matters is what Roy believes about himself. Corroborated across multiple independent E9 recaps (showsnob, readysteadycut, TV Tropes, fandom). Grounding capped at 4 — no primary page could be opened this session (web container firewalled).",
+              "sourcesChecked": [
+                "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/",
+                "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
+                "https://ted-lasso.fandom.com/wiki/All_Apologies"
+              ]
+            },
+            {
+              "id": "s1e9-roy-benched-age-not-injury",
+              "tag": "Benched for time, not a torn knee",
+              "title": "The injury that wasn’t",
+              "moment": "With Roy’s form slipping before the big match, Ted offers to tell the world Roy is hurt — so being dropped looks like being injured. Roy turns up to training the next day and takes the bench honestly.",
+              "idea": "Roy isn’t freshly injured here; he’s declining. The “injury” is a kindness Ted offers to protect Roy’s pride, not a medical fact.",
+              "why": "Easy to misremember as a new injury. Watch that Ted hopes Roy won’t need the cover — and that Roy chooses not to hide behind it.",
+              "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Roy is benched for declining form before the final, not a new injury; over tea at Ted's flat they agree Roy shouldn't start, and Ted offers to publicly claim Roy is injured to spare his pride while saying he hopes Roy won't take the offer. Corroborated across multiple independent E9 recaps (showsnob, readysteadycut, fandom, TV Tropes). Grounding capped at 4 — no primary page could be opened this session.",
+              "sourcesChecked": [
+                "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/",
+                "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
+                "https://ted-lasso.fandom.com/wiki/All_Apologies"
+              ]
+            },
+            {
+              "id": "s1e9-keeley-why-it-matters-to-me",
+              "tag": "Honesty as the price of friendship",
+              "title": "It matters to her",
+              "moment": "When Rebecca, wavering, asks why it even matters anymore whether Ted knows the truth, Keeley’s answer reframes the stakes — it matters because it matters to <em>her</em>.",
+              "idea": "A real friendship can’t sit on a hidden betrayal. Honesty isn’t owed to the wronged party alone; it’s the price of the bond itself.",
+              "why": "It’s Keeley, the show’s emotional-intelligence center, who is the conscience driving the whole episode’s apologies. Watch her push, not Rebecca’s guilt, do the work.",
+              "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Keeley keeps pressuring Rebecca to come clean; when Rebecca questions the point, Keeley frames it around their friendship (knowing would change how she feels about her), and Rebecca realizes how much the friendship means — this push drives the confession. Corroborated across independent E9 sources (TV Tropes, fandom, alisechaffins/patrickemclean recaps). Grounding capped at 4 — no primary page could be opened this session.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
+                "https://ted-lasso.fandom.com/wiki/All_Apologies",
+                "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/"
+              ]
+            },
+            {
+              "id": "s1e9-rebecca-confession-ted-forgives",
+              "tag": "Forgiveness without conditions",
+              "title": "Rebecca confesses",
+              "moment": "Shaken, Rebecca walks into Ted’s office and lays out every way she tried to sabotage him and the club to wound her ex-husband. Instead of retaliating, Ted forgives her on the spot, recognizing what the wreckage of a divorce can do to a person.",
+              "idea": "Forgiveness offered freely, at the exact moment you have every right to punish — mercy to someone who fully expected condemnation.",
+              "why": "This is the hour’s emotional center and the show’s clearest picture of grace. Watch how Ted meets her confession not with leverage but with empathy.",
+              "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
+              "category": "Redemption",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via fresh WebSearch: Rebecca confesses she hired Ted hoping he'd fail, staged the paparazzo photo, set up the Trent Crimm interview, and instigated Jamie's transfer; Ted forgives her instantly, framing it through the pain of divorce. The title beat, occurs in E9. Corroborated across multiple independent sources (TV Tropes, ladygeeks, fandom, recap blogs). Grounding capped at 4 — no primary page could be opened this session.",
+              "sourcesChecked": [
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
+                "https://ladygeeksmedia.com/2021/03/25/scene-breakdown-rebeccas-apology-and-forgiveness-on-ted-lassos-all-apologies/",
+                "https://ted-lasso.fandom.com/wiki/All_Apologies",
+                "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "title": "The Hope That Kills You",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s1e10-jamie-tartt-growth-extra-pass",
+              "tag": "Growth at the cruelest moment",
+              "title": "Jamie's unselfish pass",
+              "moment": "In the final seconds Jamie -- the striker who shot instead of passing all season -- chooses the unselfish, team-first pass. The very growth Ted hoped for.",
+              "idea": "The bittersweet irony: he's playing for Manchester City now, so his unselfishness is exactly what scores City's winner and sends Richmond down. Ted, watching, sees the growth rather than the result.",
+              "why": "It's the early hinge of Jamie's longer redemption, and it's paid off immediately by Ted's note and the little army man. The kindest thing he does costs Ted the most.",
+              "source": "Ted Lasso S1E10 'The Hope That Kills You' (Jamie's extra pass).",
+              "category": "Redemption",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch: after Richmond's late equalizer, Jamie (now back at Man City) makes the selfless extra pass to a teammate who scores City's winner, relegating Richmond; Ted reads it as the growth he wanted. Corroborated across the Fandom episode page, TV Tropes recap, Wikipedia, and a finale review. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/The_Hope_That_Kills_You",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou",
+                "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)"
+              ]
+            },
+            {
+              "id": "s1e10-army-man-note-to-jamie",
+              "tag": "Kindness to the one who hurt him",
+              "title": "Ted's note and the green army man",
+              "moment": "Spotting Jamie being torn down by his father after the match, Ted sends Beard with an envelope: a note praising the unselfish pass and one of his little green plastic army men.",
+              "idea": "The army men come from Ted's young son Henry, who packed them to keep his dad safe while he's far from home. Ted hands them out all season as tokens of care and protection.",
+              "why": "Giving one to Jamie -- the player who treated him worst -- is a pure expression of Ted's unconditional kindness, offered at the exact moment Jamie is being torn down. It pays off the army-man motif and Jamie's pass in a single beat.",
+              "source": "Ted Lasso S1E10 'The Hope That Kills You'; army-man motif originates with Henry's care package earlier in the season.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch: Beard hands Jamie an envelope with Ted's note praising the pass plus a green army man, just after Ted witnesses Jamie's father berating him. The army men originate from Henry's care package 'to keep him safe,' which Ted distributes through the season. Corroborated across the army-man Fandom page and a TVLine finale recap. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Army_man",
+                "https://tvline.com/2020/10/02/ted-lasso-recap-season-1-episode-10-finale-cancelled-renewed/"
+              ]
+            },
+            {
+              "id": "s1e10-title-hope-that-kills-you",
+              "tag": "An old football fatalism",
+              "title": "The title is a real supporters' saying",
+              "moment": "On the eve of the relegation decider, Mae, the pub landlady, answers Ted's search for hope with the old supporters' line that gives the finale its name: it's the hope that hurts most.",
+              "idea": "Among English football fans, 'it's the hope that kills you' is the worn-in fatalism that having no expectations protects you, because the real anguish lands when you finally let yourself believe and then it slips away.",
+              "why": "The origin can't be pinned to one person -- it's variously attributed to Peter Ustinov, echoed in John Cleese's 1986 film <em>Clockwise</em>, and even traced to an Eastern European 'hope dies last' proverb -- so treat it as a traditional saying, not a quote. Watch how Ted spends the rest of the episode arguing the opposite.",
+              "source": "Traditional English football saying of uncertain origin; a close variant appears in John Cleese's <em>Clockwise</em> (1986).",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch: a well-worn English football saying whose origin cannot be pinned to one person -- the Cleese 'Clockwise' variant ('It's not the despair... It's the hope I can't stand') is corroborated, and other candidates (Ustinov, an Eastern European 'hope dies last' proverb) appear, which only reinforces 'uncertain origin.' No single author is credited. Corroborated across multiple independent essay/blog sources. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
+              "sourcesChecked": [
+                "https://mickeylawson.wordpress.com/2024/06/12/its-the-hope-that-kills-us/",
+                "https://learnenglishthroughfootball.com/football-cliche-its-the-hope-that-kills-you/"
+              ]
+            },
+            {
+              "id": "s1e10-ted-rebuts-hope-believe-in-miracles",
+              "tag": "Hope as a choice",
+              "title": "Ted flips the saying on its head",
+              "moment": "In the locker room before the biggest match of the season, Ted pushes back on the fans' fatalism: he doesn't buy that hope kills you. He believes it's the <em>lack</em> of hope that does, and he asks the team to choose belief.",
+              "idea": "This is the thesis of the whole 'Believe' project: hope is a deliberate stance, not a setup for pain. It echoes William James's idea of 'precursive faith' -- that believing ahead of the evidence can help bring the hoped-for outcome about.",
+              "why": "It's the philosophical center of the finale and the same idea behind the taped BELIEVE sign. The James reading is a way of understanding the scene, not something the show names out loud.",
+              "source": "Episode dialogue (paraphrased); philosophical framing after William James, <em>The Will to Believe</em>.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch: in the pre-match team talk Ted rejects 'it's the hope that kills you,' says it's the lack of hope that gets you, and asks the team whether they believe in miracles. Speech beat corroborated across a readysteadycut recap, a quote archive, and an episode review. The William James 'precursive faith' tie is an interpretive reading, not a label the show states. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
+              "sourcesChecked": [
+                "https://readysteadycut.com/2020/10/02/recap-ted-lasso-season-1-episode-10-the-hope-that-kills-you-finale-apple-tv-plus-series/",
+                "https://lassoism.com/Ted-Lasso-quote.php?id=211"
+              ]
+            },
+            {
+              "id": "s1e10-roy-kent-last-stand-injury",
+              "tag": "A captain's farewell",
+              "title": "Roy Kent's last stand",
+              "moment": "Back on the pitch, the aging captain chases down his former teammate Jamie and throws his body into a crucial tackle -- and badly hurts his knee doing it. He refuses the stretcher and limps off as the fans rise and sing his name.",
+              "idea": "Roy's most emotional beat of the season. It pays off his season-long fear of decline and obsolescence, and crystallizes the show's 'you are more than your job' idea in his body breaking down for the team.",
+              "why": "Watch the standing ovation and the chant the crowd sings him (the words themselves are unprintable here) -- it plays like a goodbye to his playing career. Keeley consoles him afterward.",
+              "source": "Ted Lasso S1E10 'The Hope That Kills You' (Roy's tackle, injury, and exit).",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Independently re-verified via WebSearch: Roy chases down Jamie, makes a crucial tackle, badly hurts his knee, refuses the stretcher, and is given a standing ovation with his (profane) terrace chant, then comforted by Keeley. The chant is reproduced nowhere here -- paraphrased only. Corroborated across the Roy Kent Fandom page and the TV Tropes recap. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
+              "sourcesChecked": [
+                "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou"
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "number": 2,
-      "title": "Biscuits",
-      "intro": "",
-      "footer": "",
-      "cards": [
+      "season": 2,
+      "episodes": [
         {
-          "id": "s1e2-selhurst-park-irony",
-          "tag": "Standing in the rival's real house",
-          "title": "Richmond's ground is Crystal Palace's real stadium",
-          "moment": "Ted rallies the team to defend their home turf against Crystal Palace, the day's opponent.",
-          "idea": "Richmond's fictional Nelson Road is filmed at Selhurst Park, which in real life is Crystal Palace's actual home ground. So the team is being fired up about 'our house' while literally standing in the rival's real stadium.",
-          "why": "A buried in-joke for anyone who knows London grounds. The home-advantage speech is funnier once you know whose ground it really is.",
-          "source": "Filming-location reporting by <em>Football Ground Guide</em> and <em>Goal.com</em>; S1E2 \"Biscuits.\"",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh search: multiple independent filming-location guides confirm Richmond's Nelson Road is filmed at Selhurst Park, the real home of Crystal Palace, who are the opponent in this episode. No primary page openable this session, so grounding capped at 4.",
-          "sourcesChecked": [
-            "https://footballgroundguide.com/news/is-afc-richmonds-stadium-in-ted-lasso-real-heres-the-ground-that-brings-nelson-road-to-life.html",
-            "https://www.goal.com/en-us/lists/where-was-ted-lasso-filmed-locations-stadiums/bltb46b79bece2dee8e",
-            "https://www.contiki.com/six-two/article/ted-lasso-filming-locations/"
+          "number": 1,
+          "title": "Goodbye Earl",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e1-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e2-zach-braff-director",
-          "tag": "The episode that set the tone",
-          "title": "Zach Braff directed this one",
-          "moment": "Off screen: 'Biscuits' was directed by Zach Braff, written by Joe Kelly from a story by Brendan Hunt and Jason Sudeikis.",
-          "idea": "Braff came in through his Scrubs relationship with co-creator Bill Lawrence, and has said this is the episode that signaled the show would do more than fish-out-of-water comedy, it would break your heart by the end, classic Bill Lawrence.",
-          "why": "If the series feels like it shifts gears around here, that is by design. Braff earned an Emmy nomination for directing it.",
-          "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Looper</em>; credits per Wikipedia, S1E2 \"Biscuits.\"",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh search: Zach Braff directed 'Biscuits' (S1E2, aired Aug 14 2020), written by Joe Kelly, story by Brendan Hunt and Jason Sudeikis, with an Outstanding Directing Emmy nomination, corroborated across Wikipedia, Looper, and Awards Daily. No primary page openable this session, so grounding capped at 4.",
-          "sourcesChecked": [
-            "https://en.wikipedia.org/wiki/Biscuits_(Ted_Lasso)",
-            "https://www.looper.com/494168/the-episode-of-ted-lasso-you-didnt-know-zach-braff-directed/",
-            "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/"
+          "number": 2,
+          "title": "Lavender",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e2-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e2-goldfish-memory-myth",
-          "tag": "True as metaphor, false as fact",
-          "title": "The goldfish-memory myth behind the lesson",
-          "moment": "Ted frames the goldfish as the happiest animal because it forgets so fast, naming a ten-second memory as the reason.",
-          "idea": "The premise is folklore. Studies show goldfish actually remember learned cues for months, even up to a year. The show leans on the myth because it makes the emotional point land, not as a claim about biology.",
-          "why": "A gentle parallel to how this project treats the Whitman line: the wisdom is real even when the supporting 'fact' is not. Worth knowing so the metaphor can be loved without being mistaken for science.",
-          "source": "Goldfish-memory research summarized by <em>Live Science</em>, <em>Discover</em>, and the American Museum of Natural History; show premise from S1E2 \"Biscuits.\"",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh search: the short-memory premise is a documented myth; goldfish retain learned cues for months to years per Live Science, Discover, AMNH, and Ripley's, with the show's ten-second framing confirmed in the 'be a goldfish' scene. No primary page openable this session, so grounding capped at 4.",
-          "sourcesChecked": [
-            "https://www.livescience.com/goldfish-memory.html",
-            "https://www.discovermagazine.com/goldfish-may-have-longer-memories-than-just-three-seconds-46062",
-            "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think"
+          "number": 3,
+          "title": "Do the Right-est Thing",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e3-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e2-soccer-girl-rickshaw-rig",
-          "tag": "How they faked real football",
-          "title": "Filming the 'Soccer Girl' on a rickshaw rig",
-          "moment": "In a park, a schoolgirl dribbles circles around Ted, a humbling beat for the new gaffer.",
-          "idea": "Groundskeepers would not allow heavy camera gear on the grass, so the crew put a remote camera head on a lightweight rickshaw with big inflatable tires, operated from the sideline while a grip in cleats sprinted alongside it.",
-          "why": "A vivid look at the low-tech ingenuity behind the show's convincing on-pitch footage. The polished result hides a man running flat-out beside a glorified cart.",
-          "source": "Zach Braff interviews via <em>Awards Daily</em> and <em>Awful Announcing</em>; S1E2 \"Biscuits.\"",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh search: Braff describes a remote head on a rickshaw with giant inflatable (beach-set) tires, light enough to be allowed on the pitch with no operator aboard, run from the sideline while the key grip sprinted in cleats, corroborated by Awful Announcing and Awards Daily. No primary page openable this session, so grounding capped at 4.",
-          "sourcesChecked": [
-            "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
-            "https://awfulannouncing.com/pop-culture/ted-lasso-director-zach-braff-wasnt-allowed-cameras-onto-pitch-for-soccer-scenes.html"
+          "number": 4,
+          "title": "Carol of the Bells",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e4-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e2-be-a-goldfish",
-          "tag": "Let the bad moment go",
-          "title": "Be a goldfish",
-          "moment": "After Jamie beats him in a drill and mocks him, a deflated Sam apologizes. Ted crouches down and tells him the happiest animal is a goldfish, because it has a ten-second memory, then urges him to forget the play and move on.",
-          "idea": "A plain-language version of refusing to ruminate: name the mistake, release it, and reset your attention to the next moment. Often read alongside Stoic 'control what you can' framing and everyday present-focus practice.",
-          "why": "This is the show's signature coaching idea, introduced here. Notice it is aimed at shame, not the error itself, Ted is teaching Sam how to stop a bad moment from compounding.",
-          "source": "<em>Ted Lasso</em>, S1E2 \"Biscuits\" (2020); corroborated by episode recaps and a clip of the scene.",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh search: scene, placement (Sam, after Jamie mocks him), and the ten-second / happiest-animal framing confirmed across a YARN clip, the Ted Lasso Wiki, and the ShowSnob recap. No primary page openable this session, so grounding capped at 4.",
-          "sourcesChecked": [
-            "https://getyarn.io/yarn-clip/05cf7db6-c49c-4df8-92b8-d1ba5fea019c",
-            "https://ted-lasso.fandom.com/wiki/Goldfish",
-            "https://showsnob.com/2020/08/14/ted-lasso-season-1-episode-2-recap/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Trent Crimm: The Independent",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e3-trent-crimm",
-          "tag": "Honest witness",
-          "title": "The reporter who came to expose him",
-          "moment": "Trent Crimm — the sharpest, most skeptical reporter on the beat — spends a full day shadowing Ted for a profile, expecting to confirm he’s a fraud, and finds himself quietly disarmed by how genuine Ted actually is.",
-          "idea": "The essay behind this asks what good journalism really owes us: not manufactured cynicism, and not flattery either, but the discipline of looking honestly and reporting what’s true even when it wrecks the story you walked in with. Trent’s piece lands well precisely because he let what he saw change his mind.",
-          "why": "Keep an eye on Trent across the series — this day is the seed of one of the show’s quietest arcs about integrity.",
-          "source": "Journalistic ethics; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 17.",
-          "category": "Ethics & character",
-          "interest": 3,
-          "grounding": 5,
-          "groundingStatus": "verified",
-          "groundingNotes": "S1E3 is titled “Trent Crimm: The Independent”; Rebecca pairs the cynical journalist with Ted for a day expecting an exposé, and Ted disarms him over dinner, yielding an honest profile. Journalistic ethics maps to ch. 17 (“What To Do with Tough Cookies”, the Baggetts).",
-          "sourcesChecked": [
-            "https://en.wikipedia.org/wiki/Ted_Lasso_season_1",
-            "https://www.wiley.com/en-us/Ted+Lasso+and+Philosophy:+No+Question+Is+Into+Touch-p-9781119891956",
-            "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119891963"
+          "number": 5,
+          "title": "Rainbow",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e5-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e3-personalized-books",
-          "tag": "Coaching the person, not the player",
-          "title": "A book for everyone, chosen one by one",
-          "moment": "Ted tells the squad he's left them gifts; each player finds a wrapped novel in his locker, hand-picked for him. Sam dives into his right away on the exercise bike; Jamie drops his straight in the bin.",
-          "idea": "Each book quietly carries the lesson that particular player needs, so the gesture is Ted's whole method in miniature: he coaches people, not positions, with care tailored to each individual rather than one speech for the room.",
-          "why": "Pause on the lockers and watch who reads and who tosses — the reactions foreshadow each man's arc. The titles you can catch on screen are Sam's <em>Ender's Game</em>, Jamie's <em>The Beautiful and Damned</em>, Roy's <em>A Wrinkle in Time</em>, and Robbie's <em>Miss Peregrine's Home for Peculiar Children</em>.",
-          "source": "On-screen freeze-frame catalogues; book round-ups (BookRiot, Christian County Library).",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified this session via fresh WebSearch: Christian County Library, BookRiot, IMDb trivia, and a fan freeze-frame catalogue all corroborate Ted leaving a hand-picked book per player in S1E3, with Sam reading Ender's Game on the bike and Roy receiving A Wrinkle in Time. Per-player titles are visible-on-screen reads, not scripted/stated pairings. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
-          "sourcesChecked": [
-            "https://www.christiancountylibrary.org/lasso-library/",
-            "https://bookriot.com/every-book-in-ted-lasso/",
-            "https://www.imdb.com/title/tt10989892/trivia/"
+          "number": 6,
+          "title": "The Signal",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e6-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e3-wrinkle-in-time-roy",
-          "tag": "It has to be me",
-          "title": "Roy, Phoebe, and a children's book",
-          "moment": "At bedtime Roy reads <em>A Wrinkle in Time</em> aloud to his niece Phoebe and hits the line about the task falling to him and no one else. It visibly lands — he realizes that, as captain, ending the team's torment of Nate is his to own.",
-          "idea": "Madeleine L'Engle's novel is about a young girl shouldering the burden of leadership, and Ted chose it for Roy on purpose. It's a literary reference doing real character work: the book, not a lecture from Ted, is what moves Roy to step up.",
-          "why": "Watch how a single sentence read to a child reroutes the whole locker room. This is Ted's hands-off coaching paying off — he plants the lesson and lets Roy find it himself.",
-          "source": "<em>A Wrinkle in Time</em> by Madeleine L'Engle; episode recaps (Fandom, TV Tropes).",
-          "category": "Redemption",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified this session via fresh WebSearch: Ted Lasso Wiki (A Wrinkle in Time), TV Tropes recap, and book round-ups corroborate that Roy is given the novel, reads it to Phoebe at bedtime, and takes its theme of leadership to heart — confronting Jamie and standing up for Nate. Plot/dialogue-confirmed, not a freeze-frame guess. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/A_Wrinkle_in_Time",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
-            "https://bookriot.com/every-book-in-ted-lasso/"
+          "number": 7,
+          "title": "Headspace",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e7-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e3-nate-tactics-credit",
-          "tag": "Credit where it's due",
-          "title": "The kit man's winning play",
-          "moment": "Stuck for a strategy, Ted and Beard try a play that nervous kit man Nate offers up — using Jamie as a decoy — and it works in training. Trent watches Ted entrust the team's tactics to the equipment manager without a second thought.",
-          "idea": "A good idea is a good idea regardless of who holds the lowest job title. Ted's flat, merit-over-hierarchy instinct — valuing Nate's input openly rather than burying it — quietly stands out to the skeptical reporter and begins Nate's rise.",
-          "why": "Watch the small status moment: most coaches wouldn't take strategy from the kit man, let alone in front of a journalist. Ted's choice here is character revealed in a single scene, and it plants Nate's whole arc.",
-          "source": "Episode recaps (TV Tropes, ShowSnob, ReadySteadyCut, TV Fanatic).",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified this session via fresh WebSearch across ReadySteadyCut, ShowSnob, TV Fanatic, and TV Tropes: Nate nervously suggests using Jamie as a decoy, Ted adopts the play, it works in training, and Trent specifically notes Ted entrusting strategy to the kit man. Wording softened from 'Ted names Nate when asked' to the broadly-corroborated 'Ted values/entrusts Nate's input openly' since the exact on-screen attribution line was not independently nailed down. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
-          "sourcesChecked": [
-            "https://readysteadycut.com/2020/08/14/recap-ted-lasso-season-1-episode-3-trent-crimm-the-independent-apple-tv-plus-series/",
-            "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent"
+          "number": 8,
+          "title": "Man City",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e8-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e3-success-not-wins",
-          "tag": "How Ted measures success",
-          "title": "Not wins and losses",
-          "moment": "Over dinner with Trent at an Indian restaurant, Ted explains his coaching creed: for him success isn't the scoreline but whether he's helped his players grow into better people, on and off the pitch.",
-          "idea": "It's the episode's thematic core — the line that disarms the cynical reporter. It also opens the show's running question: is outcome-indifferent optimism real wisdom, or a way of dodging the scoreboard? Ted offers it as the former.",
-          "why": "This is the heart of the profile and of Ted's whole philosophy. Listen for how he frames coaching as caring for people first — and ask yourself whether you buy it.",
-          "source": "Ted's dinner explanation; episode recaps. (Paraphrased — no dialogue reproduced.)",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified this session via fresh WebSearch: Ted Lasso Wiki (Trent Crimm / Indian restaurant), TV Tropes, and ShowSnob recaps all corroborate that over the (punishingly spicy) Indian dinner Ted tells Trent he isn't focused on winning and losing but on making his players better people on and off the field, and that this is what disarms the journalist. Paraphrased; no dialogue reproduced. Capped at 4 — no primary page could be opened (WebFetch firewalled this session).",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/Indian_restaurant",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E03TrentCrimmTheIndependent",
-            "https://showsnob.com/2020/08/15/ted-lasso-season-1-episode-3-recap/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "For the Children",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e4-roy-jamie-perspective-taking",
-          "tag": "Empathy by perspective-taking",
-          "title": "Roy sees his younger self in Jamie",
-          "moment": "Prompted by Ted to recall what he was like at Jamie's age, Roy admits he was just as arrogant, then invites Jamie to lay out every grievance between them and move past it.",
-          "idea": "Empathy here is concrete: picture yourself at the other person's age and stage. Honest confrontation, fully aired, can produce respect even where it cannot produce friendship.",
-          "why": "Notice that the thaw only starts once Roy stops judging Jamie and recognizes the parallel. The goal he names is respect, not liking each other, which is a more honest and achievable target.",
-          "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh WebSearch: Ted asks Roy what he was like at 23, Roy recognizes his own past arrogance, then proposes airing every grievance and moving on, aiming for mutual respect not friendship. Corroborated across independent S1E4 recaps (TV Tropes, ReadySteadyCut). Capped at 4: no primary page (transcript/episode) openable this session.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
-            "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
+          "number": 9,
+          "title": "Beard After Hours",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e9-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e4-robbie-williams-kids-irony",
-          "tag": "The no-show still sings",
-          "title": "The cancelled star still performs",
-          "moment": "The benefit loses its booked celebrity singer, Robbie Williams, after Rupert is implied to have talked him out of it; then 'Kids' by Robbie Williams and Kylie Minogue plays over the end credits.",
-          "idea": "A quiet needle-drop joke: the artist who bailed on the gala still 'performs' for the episode itself over the credits.",
-          "why": "A reward for attentive viewers. The cancellation drives the plot's scramble for a replacement, then the soundtrack winks at it on the way out.",
-          "source": "<em>Ted Lasso</em> S1E4 'For the Children'; episode soundtrack.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh WebSearch: Robbie Williams was the booked singer and cancels day-of (Ted suspects Rupert engineered it); 'Kids' by Robbie Williams and Kylie Minogue plays over the S1E4 credits. Cancellation and closing needle-drop both corroborated across independent recaps and the episode wiki. Capped at 4: no primary soundtrack/episode page openable this session.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/10th_Annual_Benefit_for_Underprivileged_Children",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren"
+          "number": 10,
+          "title": "No Weddings and a Funeral",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e10-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e4-cam-cole-real-busker",
-          "tag": "The busker is real",
-          "title": "The street musician plays himself",
-          "moment": "After Rupert sabotages the booked celebrity act, Ted brings in the busker he passes near his flat to perform at the benefit, and the crowd is won over.",
-          "idea": "The one-man band is Cam Cole, a genuine London street musician playing himself, not an actor. The song he performs, 'Mama', is his own; his viral busking led to the cameo.",
-          "why": "A real-world grace note that mirrors the episode's theme of overlooked talent. He plays his own music live, then turns a skeptical room into a dancing one.",
-          "source": "<em>Ted Lasso</em> S1E4 'For the Children'; ScreenRant and Looper profiles of Cam Cole.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh WebSearch: Cam Cole is a real London street musician/busker playing himself, recruited to replace the cancelled act; 'Mama' is his own song (from his album 'I See'), performed live in and out of universe. Corroborated across ScreenRant, the episode wiki, and song write-ups. NOTE: I could not independently re-corroborate the reviewed file's E2 'Biscuits' earlier-glimpse claim this session, so I removed that detail from the card to avoid an unverified attribution. Capped at 4: no primary page openable this session.",
-          "sourcesChecked": [
-            "https://screenrant.com/ted-lasso-show-cam-cole-busker/",
-            "https://www.youtube.com/watch?v=m4ivACDXnqc"
+          "number": 11,
+          "title": "Midnight Train to Royston",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e11-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         },
         {
-          "id": "s1e4-accountability-jamie-apology",
-          "tag": "Accountability over apology",
-          "title": "The empty apology",
-          "moment": "Jamie tells Keeley he is sorry, but when she presses, he cannot say what he is actually sorry for; she tells him being accountable matters and walks away.",
-          "idea": "An apology is not the same as accountability. Saying sorry to make a feeling go away, without grasping the harm you caused, is just managing your own discomfort.",
-          "why": "Watch how the show separates the performance of contrition from real ownership. Keeley does not ask for a better apology; she asks whether he understands what he did, and he does not.",
-          "source": "<em>Ted Lasso</em> S1E4 'For the Children'; cf. <em>Ted Lasso and Philosophy</em>, ch. 20 'Being Accountable Matters'.",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh WebSearch: Jamie apologizes at the bar but, asked if he knows what he is sorry for, has no answer; Keeley tells him being accountable matters and breaks up with him. Hollow apology and accountability-driven breakup corroborated across independent S1E4 recaps. Capped at 4: no primary page openable this session.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
-            "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
-          ]
-        },
-        {
-          "id": "s1e4-rupert-million-pound-power-move",
-          "tag": "Generosity as a weapon",
-          "title": "The million-pound power move",
-          "moment": "Rupert seizes the auction and hands over a personal cheque for one million pounds to the children's charity, weaponizing the gift to upstage Rebecca at her own benefit.",
-          "idea": "A good act can be done for an ugly motive. Rupert's enormous donation is real money and real harm at once, generosity performed to dominate.",
-          "why": "Watch what the donation is for. It buys the room's admiration and reminds everyone of his wealth and reach, embarrassing Rebecca on the night she was meant to lead.",
-          "source": "<em>Ted Lasso</em> S1E4 'For the Children'.",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Re-verified via fresh WebSearch: Rupert crashes the gala, takes over the auction, and produces a personal cheque for one million pounds as a power move to show Rebecca up and silently embarrass her on her solo benefit night. GBP 1M figure and the upstaging motive both corroborated across independent recaps (TV Tropes, ReadySteadyCut, ShowSnob). Capped at 4: no primary page openable this session.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E04ForTheChildren",
-            "https://readysteadycut.com/2020/08/21/recap-ted-lasso-season-1-episode-4-for-the-children-apple-tv-plus-series/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Tan Lines",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e5-oklahoma-honesty",
-          "tag": "A word that demands the truth",
-          "title": "'Oklahoma'",
-          "moment": "Ted explains the code word their marriage therapist gave them: when one says 'Oklahoma,' the other must answer with complete honesty. Here it forces Michelle to admit she is not happy.",
-          "idea": "A pre-agreed permission to drop the performance. The word does not create honesty; it removes the excuse for hiding from it.",
-          "why": "Its first appearance plants a motif the series pays off later, when the word returns between Ted and Rebecca. Watch for who is brave enough to say it.",
-          "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; later reuse traced by FictionHorizon and the Ted Lasso wiki.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: the 'Oklahoma' honesty code word originating with the marriage therapist and forcing Michelle's honest admission in S1E5 is corroborated across multiple independent recap and quote sources (showsnob, lassoism, ted-lasso fandom, fictionhorizon). Grounding capped at 4 (no primary page openable this session).",
-          "sourcesChecked": [
-            "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
-            "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
-            "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
-          ]
-        },
-        {
-          "id": "s1e5-brett-goldstein-wrote-it",
-          "tag": "The actor behind Roy helped write it",
-          "title": "Roy Kent in the writers' room",
-          "moment": "Behind the camera: one of the show's heaviest early hours—the one where Ted's marriage unravels—carries a writing credit for Brett Goldstein, the man who plays Roy Kent.",
-          "idea": "Goldstein was hired as a Ted Lasso writer first and only later cast as Roy, after he sent in a self-taped audition of Roy scenes. His writing is part of how he got the part.",
-          "why": "A nice irony to sit with: the gruffest, least sentimental character on screen was co-authored by the actor playing him.",
-          "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; Brett Goldstein's writer-to-Roy path per Wikipedia and an Awards Daily interview.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch. The writer-to-Roy core is strongly confirmed across multiple sources: Bill Lawrence hired Goldstein as a writer first; he was story editor across all 10 S1 episodes; he was first offered Higgins, then lobbied for Roy with a self-taped audition (Wikipedia, Awards Daily, Rolling Stone, Screen Rant). On the byline, fresh searches consistently report 'Tan Lines' as Goldstein's writing credit (Phoebe Walsh not credited as a writer on this episode); the card still avoids over-pinning the exact billing per the cardinal rule. Director Elliot Hegarty confirmed. Grounding capped at 4 (no primary page openable this session).",
-          "sourcesChecked": [
-            "https://en.wikipedia.org/wiki/Brett_Goldstein",
-            "https://www.awardsdaily.com/2021/05/10/brett-goldstein-ted-lasso-season-1/",
-            "https://en.wikipedia.org/wiki/Tan_Lines_(Ted_Lasso)"
-          ]
-        },
-        {
-          "id": "s1e5-embrace-change-theme",
-          "tag": "Change is scary, and good",
-          "title": "The half-time turn",
-          "moment": "Down at the break, Ted tells the room the setup is broken and that change—though frightening—has to be embraced, then tears up his lineup. The same lesson is playing out in his marriage that day.",
-          "idea": "Real change feels like loss before it feels like growth. Naming a thing as broken is not despair; it is the first honest step toward something better.",
-          "why": "Watch how the speech works on two tracks at once: the team he is rebuilding and the marriage he is being asked to let go of. The episode rhymes them deliberately.",
-          "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by recap and analysis pieces (No Film School, ShowSnob).",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Ted's half-time speech that the team is broken and that change, though scary, must be embraced—delivered the day his marriage unravels—is corroborated across multiple independent recaps and analyses (No Film School, ShowSnob, Soccer Chaplains United, TV Tropes). Grounding capped at 4 (no primary page openable this session).",
-          "sourcesChecked": [
-            "https://nofilmschool.com/ted-lasso-halftime-speech",
-            "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
-            "https://soccerchaplainsunited.org/lessons-from-lasso-we-are-broken-we-need-to-change-change-is-scary/"
-          ]
-        },
-        {
-          "id": "s1e5-team-over-ego",
-          "tag": "The team over the star",
-          "title": "Benching the goal-scorer",
-          "moment": "Jamie scored both of Richmond's goals, yet Ted sits him for the second half because he hoards the ball and treats teammates as props. Without him, the others pass, combine, and win.",
-          "idea": "A flourishing whole can outperform a collection of individually optimizing parts. Subordinating ego to the team is itself a kind of excellence, not a sacrifice of it.",
-          "why": "The first time the show ties its belief-and-effort ethos to a concrete result. The win arrives precisely because the selfish star is removed.",
-          "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (ShowSnob, TV Tropes).",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Ted benches Jamie at half-time despite Jamie having scored both goals, and the remaining players combine for Richmond's first win. Corroborated across multiple independent recaps (ShowSnob, TV Tropes, Wikipedia-derived summaries). Grounding capped at 4 (no primary page openable this session).",
-          "sourcesChecked": [
-            "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines"
-          ]
-        },
-        {
-          "id": "s1e5-roy-jamie-fight-sam",
-          "tag": "What you owe the person beside you",
-          "title": "Roy throws down for Sam",
-          "moment": "When Sam goes down, Jamie won't even check on him—he wants to play on. Roy, incensed, comes to blows with his own teammate on the pitch.",
-          "idea": "Loyalty and basic care for a vulnerable teammate are a virtue, even when delivered by the gruffest man on the field. The fight frames the episode's question: what do you owe the people beside you?",
-          "why": "Jamie's indifference and Roy's fury are two answers to the same question. Roy's anger is, underneath, about decency.",
-          "source": "<em>Ted Lasso</em>, S1E5 'Tan Lines'; corroborated by episode recaps (TV Tropes, lassoism).",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Jamie ignoring (and stepping over) a downed Sam even when Roy orders him to check on him, and Roy coming to blows with Jamie on the pitch, is corroborated across multiple independent recaps (TV Tropes, ShowSnob, lassoism, fandom). Grounding capped at 4 (no primary page openable this session).",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E05TanLines",
-            "https://lassoism.com/Ted-Lasso-S01E05-tan-lines.php",
-            "https://showsnob.com/2020/08/28/ted-lasso-episode-5-recap/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Two Aces",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e6-ted-knew-dani-was-fine",
-          "tag": "A useful, harmless fiction",
-          "title": "Ted's benevolent deception",
-          "moment": "Ted had learned hours earlier that the injured player was fine, but, on Higgins's nudge, he let the team go on believing the ceremony had lifted the curse. He kept quiet so the players could feel they had broken it together.",
-          "idea": "The cure was never the point; the unity was. Ted stages a harmless fiction because the shared ritual does real work on the team's spirit, echoing the show's bet that believing together can change a group.",
-          "why": "A small ethics-of-belief puzzle. Ask yourself whether the lie was kindness or manipulation, and notice the show clearly thinks it was kindness.",
-          "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); per Ted Lasso Wiki, TV Tropes and Wikipedia.",
-          "category": "Ethics & character",
-          "interest": 5,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independent second-pass WebSearch (June 2026) re-corroborated across multiple result summaries (showsnob recap, TV Tropes, fandom): Ted revealed to Rebecca he knew Dani's injury was mild hours earlier and withheld it on Higgins's suggestion so the team could feel they broke the curse together. Grounding capped at 4: no primary page openable this session (WebFetch firewalled).",
-          "sourcesChecked": [
-            "https://showsnob.com/2020/09/07/ted-lasso-season-1-episode-6-recap/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
-            "https://ted-lasso.fandom.com/wiki/The_Curse",
-            "https://en.wikipedia.org/wiki/Two_Aces"
-          ]
-        },
-        {
-          "id": "s1e6-footballers-battalion-history",
-          "tag": "A ghost story rooted in real grief",
-          "title": "The curse's real-world echo",
-          "moment": "The room is said to be haunted by young men tricked, in 1914, into enlisting under cover of a tryout, most of whom never came home. The in-show figure (men lured at Richmond) is invented, but the shape of it is not.",
-          "idea": "The fiction grafts a real, grim chapter onto a ghost story. In 1914 the 'Footballers' Battalion' (17th Middlesex) drew players and whole clubs into the war; Clapton Orient enlisted together, and casualties were devastating.",
-          "why": "The haunting hits harder once you know the show is borrowing from history. The specific Richmond number is made up; the loss it gestures at was real.",
-          "source": "Real history: 17th (Service) Battalion, Middlesex Regiment ('Footballers' Battalion'), per the National Army Museum, footballandthefirstworldwar.org and the FSA. In-show backstory per Ted Lasso S1E6.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independent second-pass WebSearch (June 2026) confirmed the real history across multiple sources: the 17th Middlesex ('Footballers' Battalion', 1st Football) was raised at a War Office/FA meeting at Fulham Town Hall in December 1914; Clapton Orient (now Leyton Orient) was the first League club to enlist en masse (~41 players/staff), and three Orient players (Jonas, Scott, McFadden) died at the Somme. The show's '400 lured at Richmond' figure is fictional and is kept separate. Capped at 4: WebFetch firewalled, no primary page opened.",
-          "sourcesChecked": [
-            "https://collection.nam.ac.uk/detail.php?acc=1993-02-42-7",
-            "https://footballandthefirstworldwar.org/footballers-battalion/",
-            "https://footballandthefirstworldwar.org/clapton-orient-first-world-war/",
-            "https://fsf.org.uk/latest-news/view/the-os-return-to-the-somme"
-          ]
-        },
-        {
-          "id": "s1e6-curse-lifting-ritual",
-          "tag": "Ritual as a container for feeling",
-          "title": "The curse-lifting ceremony",
-          "moment": "At midnight the team gathers to lift the treatment room's curse. Each person steps up, names something that matters, and burns it. What is staged as superstition turns into people pouring out loss, fear and hope.",
-          "idea": "A ritual gives feeling a shape. Dressed up as breaking a curse, the burning becomes permission to be vulnerable together, and the squad behaves like one team for the first time.",
-          "why": "Notice that nothing supernatural is required for the ceremony to work. The 'magic' is simply that everyone is finally honest in the same room.",
-          "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); ceremony details per Ted Lasso Wiki and TV Tropes recap.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independent second-pass WebSearch (June 2026) corroborated across TV Tropes, fandom and a recap: the team gathers at midnight, each names and burns a sacrifice in a drum, then burns it on the pitch; objects match (Roy's blanket, Sam's 1994 Nigeria photo, Nate's sunglasses, Rebecca's newspaper, Higgins's cat collar, Jamie's mother's shoes). Instigation is shared on screen, so no single instigator is credited. Capped at 4: WebFetch firewalled.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
-            "https://ted-lasso.fandom.com/wiki/The_Curse",
-            "https://en.wikipedia.org/wiki/Two_Aces",
-            "https://readysteadycut.com/2020/09/04/recap-ted-lasso-season-1-episode-6-two-aces-apple-tv-plus-series/"
-          ]
-        },
-        {
-          "id": "s1e6-roys-blanket",
-          "tag": "Tenderness under the toughness",
-          "title": "Roy's childhood blanket",
-          "moment": "The gruffest man in the room gives up a worn blanket. His granddad had given it to him at nine, when he left home for the Sunderland academy, to keep him warm and remind him of home. It was the last gift; his granddad died before he came back.",
-          "idea": "Roy's hardness sits on top of deep attachment and loss. The 'blankie' is an early window into the sentimental core the character spends years guarding.",
-          "why": "Easy to miss as a throwaway prop. It is actually one of the first clues to who Roy Kent really is.",
-          "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); backstory per episode transcript (lassoism) and Ted Lasso Wiki.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independent second-pass WebSearch (June 2026) confirmed via an episode-transcript source plus the fandom page: Roy was scouted by Sunderland at nine, his granddad drove him and gave him the blanket to keep him warm and remind him of home, and it was the last time he saw him (granddad died by Christmas). Placement in the S1E6 ceremony confirmed. Capped at 4: WebFetch firewalled.",
-          "sourcesChecked": [
-            "https://lassoism.com/Ted-Lasso-quote.php?id=115",
-            "https://ted-lasso.fandom.com/wiki/Roy_Kent",
-            "https://ted-lasso.fandom.com/wiki/Sunderland_AFC"
-          ]
-        },
-        {
-          "id": "s1e6-jamie-cleats-confession",
-          "tag": "The first crack in the armor",
-          "title": "Jamie's mother's cleats",
-          "moment": "Jamie turns up at the end of the ceremony and asks to make a sacrifice too: cleats from his mother, who cared more that he be a good person than a good footballer. He admits his hard front was built to survive a father who mocked him as soft.",
-          "idea": "The episode quietly reframes Jamie's ego as armor. Once you see what it was protecting him from, the petulant star becomes a wounded kid, and his long redemption arc begins.",
-          "why": "This is the setup that later seasons pay off (his father's locker-room blow-up). Watch the gentleness underneath the swagger here.",
-          "source": "Ted Lasso S1E6 'Two Aces' (Apple TV+); scene breakdown per LadyGeeksMedia, TV Tropes and Ted Lasso Wiki.",
-          "category": "Redemption",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independent second-pass WebSearch (June 2026) corroborated across a dedicated scene breakdown, TV Tropes and fandom: Jamie arrives at the end of the ceremony and sacrifices cleats from his mother (who valued his being a good person over a good footballer), confessing his tough front was built against a father who mocked him as soft. Documented start of his redemption arc. Capped at 4: WebFetch firewalled.",
-          "sourcesChecked": [
-            "https://ladygeeksmedia.com/2021/06/17/scene-breakdown-jamie-tartts-subtle-sacrifice-in-ted-lassos-two-aces/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E06TwoAces",
-            "https://ted-lasso.fandom.com/wiki/Two_Aces"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Make Rebecca Great Again",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e7-let-it-go-irony",
-          "tag": "One song, two opposite meanings",
-          "title": "\"Let It Go\" cuts both ways",
-          "moment": "Rebecca takes the karaoke mic and pours herself into \"Let It Go\" from Frozen, dedicating it to her goddaughter. For her it is liberation. In the very same room, the song about freedom tips Ted into panic.",
-          "idea": "The show scores meaning onto a single piece of music: release for one character, loss of control for the other, playing at the same moment.",
-          "why": "Watch the two faces during one song. The empowerment anthem becomes a study in how the same words land completely differently depending on what you are carrying.",
-          "source": "Episode 7, \"Make Rebecca Great Again\"; 'Let It Go' from Disney's <em>Frozen</em>.",
-          "category": "Aesthetics",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch (ScreenRant, Lady Geeks Media, Fandom, Looper snippets): Rebecca sings 'Let It Go' dedicated to goddaughter Nora after Flo signs her up, and the same song triggers Ted's panic in the same room. Grounding capped at 4 (WebFetch firewalled this session; no primary page opened).",
-          "sourcesChecked": [
-            "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/",
-            "https://ladygeeksmedia.com/2021/03/18/scene-breakdown-rebecca-sings-let-it-go-on-ted-lassos-make-rebecca-great-again/",
-            "https://ted-lasso.fandom.com/wiki/Let_It_Go"
-          ]
-        },
-        {
-          "id": "s1e7-iron-giant-screening",
-          "tag": "Choosing who you are",
-          "title": "Ted screens The Iron Giant",
-          "moment": "Ted gathers the squad in the hotel to watch The Iron Giant, warning Beard that around the 74-minute mark a room of grown men will be in tears, and the cut lands on teary players.",
-          "idea": "The pick is not random. The film is about a gentle giant who chooses, against expectation, to be a hero rather than a weapon, the same kindness-over-force creed as the show itself.",
-          "why": "An easy detail to miss that quietly states the show's thesis: you are who you choose to be.",
-          "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript and TV Tropes recap.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap and Fandom snippets): Ted screens The Iron Giant for the team in the hotel, predicts the ~74-minute crying beat to Beard, and the cut lands on teary players. Grounding capped at 4 (no primary page opened this session).",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
-            "https://ted-lasso.fandom.com/wiki/The_Iron_Giant"
-          ]
-        },
-        {
-          "id": "s1e7-disney-let-it-go-clearance",
-          "tag": "Saved by a music supervisor",
-          "title": "How Disney almost killed the song",
-          "moment": "Behind the camera: Disney first said no to licensing \"Let It Go,\" so the crew filmed the karaoke scene twice, once with the song and once with a backup number, as insurance.",
-          "idea": "The production won the rights only after sending Disney the finished footage and an impassioned case for how tenderly the song ties to Rebecca and her goddaughter.",
-          "why": "One of the show's signature scenes survived on a music supervisor's persistence. The backup take used Gloria Gaynor's \"I Will Survive.\"",
-          "source": "Music supervisor Tony Von Pervieux, interviews with Nerdist and Billboard.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch (SlashFilm, Nerdist, Billboard, Below the Line snippets): Disney's committee initially denied 'Let It Go,' the scene was shot twice with a Gloria Gaynor 'I Will Survive' backup, and clearance was won by sending Disney the finished footage. Supervisor Tony Von Pervieux. Grounding capped at 4 (no primary page opened this session).",
-          "sourcesChecked": [
-            "https://www.slashfilm.com/1358922/disney-almost-ruined-grand-moment-in-ted-lasso/",
-            "https://nerdist.com/article/ted-lasso-music-supervisor-tony-von-pervieux-interview/",
-            "https://www.billboard.com/music/music-news/ted-lasso-music-supervisor-tony-von-pervieux-executive-of-week-9642380/"
-          ]
-        },
-        {
-          "id": "s1e7-room-5150-van-halen",
-          "tag": "A wink hidden in a number",
-          "title": "Hotel room 5150",
-          "moment": "Ted lights up at being assigned hotel room 5150 and riffs about Sammy Hagar being the greatest Van Halen singer of the post-Roth era.",
-          "idea": "It is a nod to Van Halen's 1986 album \"5150,\" the band's first with Sammy Hagar after David Lee Roth left, one more drop in Ted's running stream of Americana references.",
-          "why": "It slips right by unless you catch the number on the door. A small reward for a careful rewatcher.",
-          "source": "Episode 7, \"Make Rebecca Great Again\"; episode transcript.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch (lassoism quote page, subslikescript transcript, Sammy Hagar's own social-media reaction): Ted's on-screen line praises Sammy Hagar as Van Halen's greatest post-David Lee Roth singer on getting room 5150, a nod to Van Halen's 1986 '5150' album. The 'psychiatric-hold double meaning as writer intent' remains excluded as unverified. Grounding capped at 4 (no primary page opened this session).",
-          "sourcesChecked": [
-            "https://lassoism.com/Ted-Lasso-quote.php?id=127",
-            "https://subslikescript.com/series/Ted_Lasso-10986410/season-1/episode-7-Make_Rebecca_Great_Again"
-          ]
-        },
-        {
-          "id": "s1e7-first-panic-attack",
-          "tag": "The cost beneath the sunshine",
-          "title": "Ted's first panic attack",
-          "moment": "At the team's karaoke celebration, the morning after facing his divorce, Ted is suddenly overwhelmed and has to stumble out of the bar. The camera goes blurry and the sound warps to put us inside his distress.",
-          "idea": "This is the first time the show lets us feel the price of Ted's relentless optimism. His cheerfulness is real, but it has been sitting on top of unprocessed pain.",
-          "why": "Watch how the scene is shot, not just acted, to convey panic. It is the quiet seed of the whole mental-health throughline that the show develops in later seasons.",
-          "source": "Episode 7, \"Make Rebecca Great Again\"; corroborated by recaps.",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch (TV Tropes recap, ScreenRant, fan-community snippets): Ted's FIRST full panic attack happens at the S1E7 karaoke bar around his divorce, shown with tinnitus-like ringing and warped focus; Rebecca is the one who recognizes it and follows him out. Professional therapy (Dr. Sharon) is a later-season payoff, kept forward-looking. Grounding capped at 4 (no primary page opened this session).",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E07MakeRebeccaGreatAgain",
-            "https://screenrant.com/ted-lasso-rebecca-karaoke-song-hannah-waddingham/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "The Diamond Dogs",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e8-darts-curiosity",
-          "tag": "Curiosity over judgment",
-          "title": "The darts scene",
-          "moment": "Goaded into a darts match by Rupert in front of everyone, Ted reveals he’s quietly very good — and explains that people wrote him off his whole life by judging instead of asking, landing the throws that matter as he says it.",
-          "idea": "The maxim Ted draws — <em>“be curious, not judgmental”</em> — he credits to Walt Whitman. Worth knowing: that exact sentence has never been found anywhere in Whitman’s writings and is widely treated as a misattribution. The sentiment is Whitman-ish; the line apparently isn’t his. The real point stands on its own — curiosity treats a person as someone you don’t fully know yet; judgment assumes you already do.",
-          "why": "A lovely irony: the show’s most-quoted piece of wisdom is itself something we pass around slightly wrong — which is basically the lesson. (And it’s the payoff the Pilot note pointed you toward.)",
-          "source": "Attributed to Walt Whitman in the show; no source located in his works (widely noted misattribution). Discussed in <em>Ted Lasso and Philosophy</em> (Wiley, 2024), Part III.",
-          "category": "Ethics & character",
-          "interest": 5,
-          "grounding": 5,
-          "groundingStatus": "attributed",
-          "groundingNotes": "Confirmed in S1E8 “The Diamond Dogs”: Ted is drawn into a darts bet with Rupert, plays as a rookie then reveals lifelong left-handed skill, and delivers the “be curious, not judgmental” monologue crediting Whitman. Snopes and others confirm this is a genuine misattribution — the line is not found in Whitman.",
-          "sourcesChecked": [
-            "https://www.snopes.com/fact-check/be-curious-not-judgmental-walt-whitman/",
-            "https://ace.nd.edu/blog/be-curious-not-judgmental-not-walt-whitman",
-            "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
-          ]
-        },
-        {
-          "id": "s1e8-diamond-dogs",
-          "tag": "Friendship",
-          "title": "The Diamond Dogs assemble",
-          "moment": "The men around Ted start informally huddling to talk each other through their personal messes — no fixing, just showing up — a ritual they christen the “Diamond Dogs.”",
-          "idea": "Aristotle sorted friendship into three kinds: friendships of pleasure, of usefulness, and the highest — friendships of virtue, where you want what’s genuinely good for the other person for their own sake. The Diamond Dogs are that third kind in miniature: people helping each other become better, with no angle.",
-          "why": "Notice who’s let in and who holds back — the show uses this circle to track who’s willing to be known.",
-          "source": "Aristotle’s three friendships; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 7.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 5,
-          "groundingStatus": "verified",
-          "groundingNotes": "The informal Diamond Dogs support group is introduced and named in S1E8. Aristotle’s three friendship types (pleasure, utility, virtue) are the explicit subject of ch. 7 (“Ted Lasso’s Personal Dilemma Squad”, Loftin) and extended in ch. 8.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/The_Diamond_Dogs",
-            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch7",
-            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch8"
-          ]
-        },
-        {
-          "id": "s1e8-diamond-dogs-name-origin",
-          "tag": "How they got the name",
-          "title": "Why 'Diamond Dogs'",
-          "moment": "Casting around for a name for their new circle, Nate lands on 'the Diamond Dogs' -- a nod to Richmond's Greyhound mascot -- and Ted blesses it on the spot.",
-          "idea": "Inside the story the name has nothing to do with Bowie: it's a goofy locker-room in-joke built on the club mascot, which grounds a lofty 'men's support group' idea in something silly and real.",
-          "why": "A nice pairing with the Bowie cue -- the show gives an earnest in-universe reason while the credits wink at the album. Watch how fast the sincere moment turns into a bit.",
-          "source": "Ted Lasso Fandom 'Diamond Dogs' entry and the scene transcript (lassoism): Nate names them for the Greyhound mascot; Ted approves.",
-          "category": "Meta & trivia",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Nate proposing 'Diamond Dogs' for Richmond's Greyhound mascot and Ted's approval corroborated across the Ted Lasso Fandom 'Diamond Dogs' page, the lassoism S01E08 scene image/transcript, and the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4 (no primary page openable).",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/Diamond_Dogs",
-            "https://lassoism.com/Ted-Lasso-image.php?id=1142",
-            "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
-          ]
-        },
-        {
-          "id": "s1e8-title-bowie-album",
-          "tag": "A Bowie wink",
-          "title": "The Bowie needle-drop",
-          "moment": "The men christen their new support circle the 'Diamond Dogs' -- and David Bowie's 1974 song of the same name plays over the closing credits, a glam anthem about a ragged gang of outsiders.",
-          "idea": "The title doubles as a nod to Bowie's <em>Diamond Dogs</em>, his concept record about a glamorous band of misfits -- which rhymes with this ragtag brotherhood of men learning to lean on each other.",
-          "why": "Listen to the end credits: the Bowie track is a confirmed cue. The deeper 'did the writers name the episode after the album?' is an unconfirmed inference, so enjoy the resonance without treating it as settled intent.",
-          "source": "Bowie's <em>Diamond Dogs</em> (1974), confirmed as this episode's end-credits song via IMDb's soundtrack listing and the Ted Lasso Fandom song page.",
-          "category": "Aesthetics",
-          "interest": 3,
-          "grounding": 3,
-          "groundingStatus": "partial",
-          "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Bowie's 'Diamond Dogs' as the E8 end-credits song corroborated across the Ted Lasso Fandom 'Diamond Dogs (song)' page, IMDb soundtrack listing, and Tunefind. Bowie's 1974 album confirmed as a glam-rock concept record about a band of outsiders (multiple Bowie sources). Deliberate title intent remains unconfirmed -- the in-show name comes from the Greyhound mascot -- so kept at partial. WebFetch firewalled this session.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/Diamond_Dogs_(song)",
-            "https://www.imdb.com/title/tt11193418/soundtrack/",
-            "https://www.tunefind.com/show/ted-lasso/season-1/100907"
-          ]
-        },
-        {
-          "id": "s1e8-roy-keeley-honesty",
-          "tag": "Honesty first",
-          "title": "Roy and Keeley begin",
-          "moment": "Before they're even officially together, Keeley tells Roy the truth -- that she slept with Jamie again. Roy is hurt, goes away to actually sit with it, and comes back ready to ask her to dinner.",
-          "idea": "The relationship launches on candor instead of a grand gesture: vulnerability up front, time taken to process, and a choice to go slow because casual flings leave Roy feeling worse.",
-          "why": "A quiet counter-model to TV romance. Watch Roy choose to feel his feelings rather than perform them -- the foundation the whole pairing is built on.",
-          "source": "Wikipedia episode entry and recaps (ShowSnob, TV Tropes) of the Roy/Keeley honesty arc.",
-          "category": "Relationships",
-          "interest": 3,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch (2026-06-19): Keeley honestly disclosing she slept with Jamie again, Roy taking time to process and wanting to go slow because one-night stands leave him feeling worse, then returning to ask her to dinner -- all corroborated across two independent recaps (ShowSnob E8 recap and the TV Tropes E8 recap) plus the Wikipedia E8 entry. WebFetch firewalled this session; grounding capped at 4.",
-          "sourcesChecked": [
-            "https://showsnob.com/2020/09/18/ted-lasso-episode-8-recap/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E08TheDiamondDogs",
-            "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "All Apologies",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e9-ted-vs-beard",
-          "tag": "Winning vs. growth",
-          "title": "Beard pushes back",
-          "moment": "After a painful stretch, Coach Beard breaks his usual loyalty and challenges Ted to his face — telling him that “success isn’t about wins and losses” only goes so far, and that sometimes you genuinely do need to try to win.",
-          "idea": "The show stages a real tension here, and refuses to settle it: is the point to grow into your best self, or to actually win? Ted preaches growth; Beard argues that waving off winning can become its own way of hiding. The essay on this scene leaves it honestly open — both men are partly right.",
-          "why": "This is the season testing whether Ted’s philosophy survives contact with reality — the setup for the finale.",
-          "source": "The ethics of winning vs. growth; <em>Ted Lasso and Philosophy</em> (Wiley, 2024), ch. 12 (“Who Is Right, Ted or Beard?”).",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 5,
-          "groundingStatus": "verified",
-          "groundingNotes": "In S1E9 “All Apologies”, Coach Beard snaps at Ted over benching Roy, arguing Ted’s “winning isn’t how we measure success” stance has limits for a relegation-threatened side and that they must try to win. Ch. 12 is titled “Who Is Right, Ted or Beard?” (Michael W. Austin).",
-          "sourcesChecked": [
-            "https://en.wikipedia.org/wiki/All_Apologies_(Ted_Lasso)",
-            "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119891963.ch12"
-          ]
-        },
-        {
-          "id": "s1e9-keeley-phoebe-roy-identity",
-          "tag": "You are not your job",
-          "title": "Phoebe’s list",
-          "moment": "Terrified he’s nothing but a washed-up footballer, Roy listens as his young niece Phoebe describes her uncle — funny, foul-mouthed, scratchy beard, loved — and never once mentions football.",
-          "idea": "Your identity isn’t reducible to your role or career. What people love about you, and what you’re worth, was never the job.",
-          "why": "It’s the show’s “Believe” motif turned inward: Keeley’s real point is that what ultimately matters is what Roy believes about himself.",
-          "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
-          "category": "Belief & hope",
-          "interest": 5,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Roy brings Phoebe to Keeley's, fears being seen as a washed-up footballer; Keeley has Phoebe list her uncle's traits (funny, swears, scratchy beard, loved) with no mention of football, making the point that what matters is what Roy believes about himself. Corroborated across multiple independent E9 recaps (showsnob, readysteadycut, TV Tropes, fandom). Grounding capped at 4 — no primary page could be opened this session (web container firewalled).",
-          "sourcesChecked": [
-            "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/",
-            "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
-            "https://ted-lasso.fandom.com/wiki/All_Apologies"
-          ]
-        },
-        {
-          "id": "s1e9-roy-benched-age-not-injury",
-          "tag": "Benched for time, not a torn knee",
-          "title": "The injury that wasn’t",
-          "moment": "With Roy’s form slipping before the big match, Ted offers to tell the world Roy is hurt — so being dropped looks like being injured. Roy turns up to training the next day and takes the bench honestly.",
-          "idea": "Roy isn’t freshly injured here; he’s declining. The “injury” is a kindness Ted offers to protect Roy’s pride, not a medical fact.",
-          "why": "Easy to misremember as a new injury. Watch that Ted hopes Roy won’t need the cover — and that Roy chooses not to hide behind it.",
-          "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Roy is benched for declining form before the final, not a new injury; over tea at Ted's flat they agree Roy shouldn't start, and Ted offers to publicly claim Roy is injured to spare his pride while saying he hopes Roy won't take the offer. Corroborated across multiple independent E9 recaps (showsnob, readysteadycut, fandom, TV Tropes). Grounding capped at 4 — no primary page could be opened this session.",
-          "sourcesChecked": [
-            "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/",
-            "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
-            "https://ted-lasso.fandom.com/wiki/All_Apologies"
-          ]
-        },
-        {
-          "id": "s1e9-keeley-why-it-matters-to-me",
-          "tag": "Honesty as the price of friendship",
-          "title": "It matters to her",
-          "moment": "When Rebecca, wavering, asks why it even matters anymore whether Ted knows the truth, Keeley’s answer reframes the stakes — it matters because it matters to <em>her</em>.",
-          "idea": "A real friendship can’t sit on a hidden betrayal. Honesty isn’t owed to the wronged party alone; it’s the price of the bond itself.",
-          "why": "It’s Keeley, the show’s emotional-intelligence center, who is the conscience driving the whole episode’s apologies. Watch her push, not Rebecca’s guilt, do the work.",
-          "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Keeley keeps pressuring Rebecca to come clean; when Rebecca questions the point, Keeley frames it around their friendship (knowing would change how she feels about her), and Rebecca realizes how much the friendship means — this push drives the confession. Corroborated across independent E9 sources (TV Tropes, fandom, alisechaffins/patrickemclean recaps). Grounding capped at 4 — no primary page could be opened this session.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
-            "https://ted-lasso.fandom.com/wiki/All_Apologies",
-            "https://readysteadycut.com/2020/09/25/recap-ted-lasso-season-1-episode-9-all-apologies-apple-tv-plus-series/"
-          ]
-        },
-        {
-          "id": "s1e9-rebecca-confession-ted-forgives",
-          "tag": "Forgiveness without conditions",
-          "title": "Rebecca confesses",
-          "moment": "Shaken, Rebecca walks into Ted’s office and lays out every way she tried to sabotage him and the club to wound her ex-husband. Instead of retaliating, Ted forgives her on the spot, recognizing what the wreckage of a divorce can do to a person.",
-          "idea": "Forgiveness offered freely, at the exact moment you have every right to punish — mercy to someone who fully expected condemnation.",
-          "why": "This is the hour’s emotional center and the show’s clearest picture of grace. Watch how Ted meets her confession not with leverage but with empathy.",
-          "source": "<em>Ted Lasso</em>, S1E9 &ldquo;All Apologies&rdquo;; episode recaps.",
-          "category": "Redemption",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via fresh WebSearch: Rebecca confesses she hired Ted hoping he'd fail, staged the paparazzo photo, set up the Trent Crimm interview, and instigated Jamie's transfer; Ted forgives her instantly, framing it through the pain of divorce. The title beat, occurs in E9. Corroborated across multiple independent sources (TV Tropes, ladygeeks, fandom, recap blogs). Grounding capped at 4 — no primary page could be opened this session.",
-          "sourcesChecked": [
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E09AllApologies",
-            "https://ladygeeksmedia.com/2021/03/25/scene-breakdown-rebeccas-apology-and-forgiveness-on-ted-lassos-all-apologies/",
-            "https://ted-lasso.fandom.com/wiki/All_Apologies",
-            "https://showsnob.com/2020/09/25/ted-lasso-episode-9-recap/"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "The Hope That Kills You",
-      "intro": "",
-      "footer": "",
-      "cards": [
-        {
-          "id": "s1e10-jamie-tartt-growth-extra-pass",
-          "tag": "Growth at the cruelest moment",
-          "title": "Jamie's unselfish pass",
-          "moment": "In the final seconds Jamie -- the striker who shot instead of passing all season -- chooses the unselfish, team-first pass. The very growth Ted hoped for.",
-          "idea": "The bittersweet irony: he's playing for Manchester City now, so his unselfishness is exactly what scores City's winner and sends Richmond down. Ted, watching, sees the growth rather than the result.",
-          "why": "It's the early hinge of Jamie's longer redemption, and it's paid off immediately by Ted's note and the little army man. The kindest thing he does costs Ted the most.",
-          "source": "Ted Lasso S1E10 'The Hope That Kills You' (Jamie's extra pass).",
-          "category": "Redemption",
-          "interest": 5,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch: after Richmond's late equalizer, Jamie (now back at Man City) makes the selfless extra pass to a teammate who scores City's winner, relegating Richmond; Ted reads it as the growth he wanted. Corroborated across the Fandom episode page, TV Tropes recap, Wikipedia, and a finale review. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/The_Hope_That_Kills_You",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou",
-            "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)"
-          ]
-        },
-        {
-          "id": "s1e10-army-man-note-to-jamie",
-          "tag": "Kindness to the one who hurt him",
-          "title": "Ted's note and the green army man",
-          "moment": "Spotting Jamie being torn down by his father after the match, Ted sends Beard with an envelope: a note praising the unselfish pass and one of his little green plastic army men.",
-          "idea": "The army men come from Ted's young son Henry, who packed them to keep his dad safe while he's far from home. Ted hands them out all season as tokens of care and protection.",
-          "why": "Giving one to Jamie -- the player who treated him worst -- is a pure expression of Ted's unconditional kindness, offered at the exact moment Jamie is being torn down. It pays off the army-man motif and Jamie's pass in a single beat.",
-          "source": "Ted Lasso S1E10 'The Hope That Kills You'; army-man motif originates with Henry's care package earlier in the season.",
-          "category": "Ethics & character",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch: Beard hands Jamie an envelope with Ted's note praising the pass plus a green army man, just after Ted witnesses Jamie's father berating him. The army men originate from Henry's care package 'to keep him safe,' which Ted distributes through the season. Corroborated across the army-man Fandom page and a TVLine finale recap. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/Army_man",
-            "https://tvline.com/2020/10/02/ted-lasso-recap-season-1-episode-10-finale-cancelled-renewed/"
-          ]
-        },
-        {
-          "id": "s1e10-title-hope-that-kills-you",
-          "tag": "An old football fatalism",
-          "title": "The title is a real supporters' saying",
-          "moment": "On the eve of the relegation decider, Mae, the pub landlady, answers Ted's search for hope with the old supporters' line that gives the finale its name: it's the hope that hurts most.",
-          "idea": "Among English football fans, 'it's the hope that kills you' is the worn-in fatalism that having no expectations protects you, because the real anguish lands when you finally let yourself believe and then it slips away.",
-          "why": "The origin can't be pinned to one person -- it's variously attributed to Peter Ustinov, echoed in John Cleese's 1986 film <em>Clockwise</em>, and even traced to an Eastern European 'hope dies last' proverb -- so treat it as a traditional saying, not a quote. Watch how Ted spends the rest of the episode arguing the opposite.",
-          "source": "Traditional English football saying of uncertain origin; a close variant appears in John Cleese's <em>Clockwise</em> (1986).",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch: a well-worn English football saying whose origin cannot be pinned to one person -- the Cleese 'Clockwise' variant ('It's not the despair... It's the hope I can't stand') is corroborated, and other candidates (Ustinov, an Eastern European 'hope dies last' proverb) appear, which only reinforces 'uncertain origin.' No single author is credited. Corroborated across multiple independent essay/blog sources. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
-          "sourcesChecked": [
-            "https://mickeylawson.wordpress.com/2024/06/12/its-the-hope-that-kills-us/",
-            "https://learnenglishthroughfootball.com/football-cliche-its-the-hope-that-kills-you/"
-          ]
-        },
-        {
-          "id": "s1e10-ted-rebuts-hope-believe-in-miracles",
-          "tag": "Hope as a choice",
-          "title": "Ted flips the saying on its head",
-          "moment": "In the locker room before the biggest match of the season, Ted pushes back on the fans' fatalism: he doesn't buy that hope kills you. He believes it's the <em>lack</em> of hope that does, and he asks the team to choose belief.",
-          "idea": "This is the thesis of the whole 'Believe' project: hope is a deliberate stance, not a setup for pain. It echoes William James's idea of 'precursive faith' -- that believing ahead of the evidence can help bring the hoped-for outcome about.",
-          "why": "It's the philosophical center of the finale and the same idea behind the taped BELIEVE sign. The James reading is a way of understanding the scene, not something the show names out loud.",
-          "source": "Episode dialogue (paraphrased); philosophical framing after William James, <em>The Will to Believe</em>.",
-          "category": "Belief & hope",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch: in the pre-match team talk Ted rejects 'it's the hope that kills you,' says it's the lack of hope that gets you, and asks the team whether they believe in miracles. Speech beat corroborated across a readysteadycut recap, a quote archive, and an episode review. The William James 'precursive faith' tie is an interpretive reading, not a label the show states. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
-          "sourcesChecked": [
-            "https://readysteadycut.com/2020/10/02/recap-ted-lasso-season-1-episode-10-the-hope-that-kills-you-finale-apple-tv-plus-series/",
-            "https://lassoism.com/Ted-Lasso-quote.php?id=211"
-          ]
-        },
-        {
-          "id": "s1e10-roy-kent-last-stand-injury",
-          "tag": "A captain's farewell",
-          "title": "Roy Kent's last stand",
-          "moment": "Back on the pitch, the aging captain chases down his former teammate Jamie and throws his body into a crucial tackle -- and badly hurts his knee doing it. He refuses the stretcher and limps off as the fans rise and sing his name.",
-          "idea": "Roy's most emotional beat of the season. It pays off his season-long fear of decline and obsolescence, and crystallizes the show's 'you are more than your job' idea in his body breaking down for the team.",
-          "why": "Watch the standing ovation and the chant the crowd sings him (the words themselves are unprintable here) -- it plays like a goodbye to his playing career. Keeley consoles him afterward.",
-          "source": "Ted Lasso S1E10 'The Hope That Kills You' (Roy's tackle, injury, and exit).",
-          "category": "Relationships",
-          "interest": 4,
-          "grounding": 4,
-          "groundingStatus": "verified",
-          "groundingNotes": "Independently re-verified via WebSearch: Roy chases down Jamie, makes a crucial tackle, badly hurts his knee, refuses the stretcher, and is given a standing ovation with his (profane) terrace chant, then comforted by Keeley. The chant is reproduced nowhere here -- paraphrased only. Corroborated across the Roy Kent Fandom page and the TV Tropes recap. No primary source could be opened this session (WebFetch firewalled), so grounding is capped at 4.",
-          "sourcesChecked": [
-            "https://ted-lasso.fandom.com/wiki/Roy_Kent",
-            "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou"
+          "number": 12,
+          "title": "Inverting the Pyramid of Success",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s2e12-placeholder",
+              "tag": "Coming soon",
+              "title": "Notes coming soon",
+              "moment": "",
+              "idea": "",
+              "why": "Still writing these — check back after you've watched it.",
+              "source": ""
+            }
           ]
         }
       ]

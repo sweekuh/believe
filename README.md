@@ -22,8 +22,10 @@ believe/
 
 ## How it works
 
-- **Episode picker** (a dropdown) switches between episodes. Switching always
-  re-hides the cards behind the spoiler gate.
+- **Season + episode pickers** (two dropdowns): pick the season, then the
+  episode. Changing the season repopulates the episode list and jumps to its
+  first episode. Switching episodes always re-hides the cards behind the spoiler
+  gate. The last season + episode you viewed are remembered per browser.
 - **Spoiler gate**: nothing shows until she taps "I've watched it — show me
   the notes." Episodes that aren't written yet show a "coming soon" card with
   no gate.
@@ -43,7 +45,20 @@ believe/
 
 ## Adding or editing content
 
-Edit `episodes.json` — no code change needed.
+Edit `episodes.json` — no code change needed. The file is organized by season:
+
+```json
+{
+  "show": "Ted Lasso",
+  "fromMom": "Hi Mom — …",
+  "seasons": [
+    { "season": 1, "episodes": [ { "number": 1, "title": "Pilot", "cards": [ … ] } ] },
+    { "season": 2, "episodes": [ … ] }
+  ]
+}
+```
+
+Each card inside an episode's `cards` array looks like:
 
 ```json
 {
@@ -66,8 +81,10 @@ Rules:
   a stretch, cut it rather than invent.
 - A card's `title`, `moment`, `idea`, `why`, and `source` may contain simple
   inline HTML (`<em>`, `<strong>`). Empty fields are simply not rendered.
-- Episodes 2–10 currently hold a single "coming soon" placeholder card.
-  Replace the placeholder with real cards as they're written.
+- Season 1 is fully written. Season 2 ships its 12 episode titles, each holding
+  a single "coming soon" placeholder card; replace the placeholder with real
+  cards as they're written (a placeholder card has `tag: "Coming soon"` or an id
+  ending in `-placeholder`, and shows with no spoiler gate).
 
 ## Grounding scores & the display contract
 

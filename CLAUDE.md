@@ -17,8 +17,13 @@ philosophy or plot facts to fill an episode.
 ## Architecture (the parts that span files)
 
 - **`index.html`** is the whole app: one IIFE `fetch`es `./episodes.json`, builds
-  the episode `<select>`, and renders cards into the prototype's markup. Key
-  behaviors that are easy to break:
+  the season + episode `<select>`s, and renders cards into the prototype's markup.
+  Key behaviors that are easy to break:
+  - **Two-level picker**: a **season** `<select>` and an **episode** `<select>`.
+    Changing the season repopulates the episode list and jumps to its first
+    episode (`selectSeason()` → `buildEpisodePicker()` → `selectEpisode()`). The
+    last-viewed season *and* episode persist (`believe:lastSeason` /
+    `believe:lastEpisode`) and are both restored on load.
   - **Re-gate on every episode switch** — a new episode's cards stay hidden
     behind the spoiler button until tapped. `selectEpisode()` resets this.
   - **Display contract** (`displayCards()` + the `GROUNDING_MIN` /
@@ -42,11 +47,15 @@ philosophy or plot facts to fill an episode.
   banner / torn-paper cards live here and are mirrored in `index.html`. It
   reflects the **default** theme + text size (high contrast off, scale 1); the
   display options layer on top of that baseline and aren't in the reference.
-- **`episodes.json`** is the only content file. Card schema and the optional
-  scoring fields (`grounding`, `interest`, `category`, `groundingStatus`,
-  `groundingNotes`, `sourcesChecked`) are documented in `README.md` and
-  `docs/facts-schema.md`. E1 has 5 verified cards; E2–E10 are "coming soon"
-  placeholders being backfilled.
+- **`episodes.json`** is the only content file. Its top level is
+  `{ show, fromMom, seasons: [ { season, episodes: [...] } ] }` — a `seasons`
+  array, each holding that season's `episodes`. (The app also tolerates a legacy
+  single-season `{ season, episodes }` file via `normalizeData()`.) Card schema
+  and the optional scoring fields (`grounding`, `interest`, `category`,
+  `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
+  `README.md` and `docs/facts-schema.md`. Season 1 is fully written (10 episodes,
+  ~5 verified cards each); Season 2 ships its 12 episode titles with a single
+  "coming soon" placeholder card each, being backfilled via the content pipeline.
 
 ## Content pipeline (how cards get written)
 
@@ -76,7 +85,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal, notes, copy-all,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 21)
+node tools/verify.mjs                # run all checks (currently 32)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

@@ -132,6 +132,27 @@ try {
   await new Promise(r => setTimeout(r, 300));
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
 
+  // Season picker: two seasons; switching repopulates the episode list and re-gates.
+  check("season picker present with 2 seasons", (await page.$$eval("#seasonPicker option", o => o.length)) === 2);
+  check("loads on season 1", (await page.$eval("#seasonPicker", el => el.value)) === "1");
+  check("season 1 lists 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
+
+  await page.select("#seasonPicker", "2");
+  await new Promise(r => setTimeout(r, 300));
+  check("season 2 lists 12 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 12);
+  check("season 2 jumps to episode 1", (await page.$eval("#epPicker", el => el.value)) === "1");
+  check("S2E1 title is Goodbye Earl", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Goodbye Earl");
+  check("eyebrow reflects season 2", /Season 2/.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("S2 placeholder shows no spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
+  check("S2 placeholder card shows without a reveal tap", (await page.$$eval("#notes .card", e => e.length)) === 1);
+  if (shots) await page.screenshot({ path: join(outDir, "06-season2.png"), fullPage: true });
+
+  // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
+  await page.select("#seasonPicker", "1");
+  await new Promise(r => setTimeout(r, 300));
+  check("switching back to season 1 restores 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
+  check("season 1 re-gates real-content episode", (await page.$eval("#gate", el => el.hidden)) === false);
+
   // Display options: panel toggle, text size, high contrast, and persistence
   check("display options panel hidden by default", (await page.$eval("#settingsPanel", el => el.hidden)) === true);
   await page.click("#settingsToggle");
