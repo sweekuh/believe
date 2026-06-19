@@ -1,0 +1,369 @@
+{
+  "episode": { "season": 2, "number": 9, "title": "Beard After Hours" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "review_notes": "Independent re-verification. WEBFETCH STATUS: WebFetch returned HTTP 403 on EVERY URL attempted this session (Wikipedia 'Beard After Hours', NPR recap, IMDb soundtrack), exactly as the briefing and the candidates file warned. NO verdict below rests on a single fetched page; every confirmed claim is corroborated across MULTIPLE INDEPENDENT WebSearch result summaries from different domains (ScreenRant, FandomWire, Cracked, Cheat Sheet, NPR, Rolling Stone, TVLine, Yahoo, HiddenRemote, Tunefind, IMDb listings, TV Tropes, Wikipedia summaries). Because no primary page actually opened, grounding is CAPPED AT 4 throughout, per the environment rule. CREDIT FINDING: the candidates' correction is right and I independently confirmed it -- DIRECTED BY SAM JONES, WRITTEN BY BRETT GOLDSTEIN & JOE KELLY (multiple sources; Jones was DGA-nominated for it). The early 'Brendan Hunt wrote it' summary is wrong and is not used. PLACEMENT FINDING ON THE SONG: 'Alone Again (Naturally)' is firmly in E9 (HiddenRemote song-by-song, Tunefind, IMDb soundtrack all list it for 'Beard After Hours'), NOT E6 -- confirmed as the brief asked; however the precise on-screen action it scores is reported by recaps as Beard alone after being beaten, so the card describes the cue/mood rather than asserting the candidates' unverified 'missed-calls-from-Jane' staging. GIFT-FIT CALLS: per guidance I did NOT ship any card that adjudicates the real-world Beard/Jane debate -- that candidate is held as CONTESTED (Brendan Hunt's pushback came via a June 2023 Reddit AMA, not solely the Hollywood Reporter piece; he rejects 'abusive,' grants 'toxic'). The 'After Hours' plagiarism/$30k backstory is about the SOURCE FILM, not this episode, and the $30k figure is uncorroborated (Salon only said Joe Frank was 'paid handsomely,' amount undisclosed) -- excluded. The blue-moon symbolism is a single-source (ScreenRant) critic reading and the 'Blue Moon' singalong actually recurs in BOTH E8 and E9, so its tie to THIS episode is diluted -- grounding 2, fails the gate. The Wizard-of-Oz thread is fan/recap analysis and the sourced Oz beats (pinball, Dottie) cluster around the season's penultimate/finale stretch, not clearly E9 -- excluded as unverified for this episode. PARAPHRASE: no dialogue reproduced; the Fight Club echo and the 'Shut up, Thierry Henry' running bit are described, not quoted. DEDUP: cross-checked docs/factsheet.md (S1 + book chapters); no overlap with this episode.",
+  "facts": [
+    {
+      "id": "s2e9-after-hours-homage",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Independently corroborated across ScreenRant, FandomWire, and Cracked that the whole episode is a deliberate homage to Martin Scorsese's 1985 'After Hours' -- an ordinary man's night spiraling into farce as he wanders the city -- transplanted onto Coach Beard's all-night London odyssey after the Man City loss. The broad homage is settled; the precise shot-for-shot recreations (framing, colour, jazz cues) are recap interpretation, so the card presents the homage as confirmed and the specific parallels as 'noted by critics.'",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-episode-9-martin-scorsese-after-hours-homage/",
+        "https://fandomwire.com/ted-lassos-beard-after-hours-episode-has-a-special-martin-scorsese-reference/",
+        "https://www.cracked.com/article_31329_ted-lasso-homaged-a-scorsese-movie-that-has-a-shady-backstory.html"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e9-after-hours-homage",
+        "tag": "A loving film homage",
+        "title": "The whole night is a tribute",
+        "moment": "Rather than ride the team bus home after the semifinal defeat, Beard sets off alone -- and his escalating, dreamlike night across London is modeled on Martin Scorsese's 1985 film <em>After Hours</em>, in which an ordinary man's plans spiral into one strange, farcical night in the city.",
+        "idea": "This is the show stepping fully outside its own form to honor a beloved movie. The structure -- a regular guy swept from one odd encounter to the next until dawn -- is borrowed wholesale, which is why the episode feels so unlike the rest of the series.",
+        "why": "If the hour feels disorienting, that's by design: it's wearing another film's clothes. Critics also point to recreated framing and colour and late-night jazz cues echoing the Scorsese film -- fun to notice, but the overall tribute is the sure thing.",
+        "source": "Reported across ScreenRant, FandomWire, and Cracked as a deliberate homage to Scorsese's <em>After Hours</em> (1985).",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Homage to Scorsese's After Hours confirmed across multiple independent write-ups; specific shot parallels are critic interpretation.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-2-episode-9-martin-scorsese-after-hours-homage/",
+          "https://fandomwire.com/ted-lassos-beard-after-hours-episode-has-a-special-martin-scorsese-reference/",
+          "https://www.cracked.com/article_31329_ted-lasso-homaged-a-scorsese-movie-that-has-a-shady-backstory.html"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-after-hours-plagiarism-backstory",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The plagiarism story behind Scorsese's 'After Hours' is real and widely reported -- Joseph Minion's script (first titled 'Lies') drew heavily on Joe Frank's 1982 radio monologue 'Lies,' and Frank received an undisclosed settlement with no credit. BUT the specific $30,000 figure is uncorroborated: the cited Salon profile only says Frank was 'paid handsomely' and would not name the film. More importantly this is background about the SOURCE FILM, not about the Ted Lasso episode, and it lives mostly on blogs/letterboxd. Off-topic for the gift and weakly grounded on the headline detail -> excluded.",
+      "verified_sources": [
+        "https://www.cracked.com/article_31329_ted-lasso-homaged-a-scorsese-movie-that-has-a-shady-backstory.html",
+        "http://www.edrants.com/joseph-minion-plagiarized-joe-frank/",
+        "https://boingboing.net/2008/05/27/the-scandalous-origi.html"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 4, "relevance": 2, "spoiler_safety": 5 },
+      "interest_score": 67,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s2e9-standalone-extra-episode",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across ScreenRant, Cheat Sheet, and NPR/Wikipedia summaries: Season 2 was outlined as 10 episodes, Apple ordered two more after Season 1's success, and because the season was already plotted the additions went in as standalones -- the Christmas episode 'Carol of the Bells' (E4) and this long-gestating 'Coach Beard solo night' concept (E9). The '10 + 2, these are the two' framing is consistent across sources.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-coach-beard-episode-hated-reason/",
+        "https://www.cheatsheet.com/entertainment/ted-lasso-beard-after-hours-not-originally-part-plan-season-2.html/",
+        "https://variety.com/2020/tv/news/ted-lasso-renewed-season-2-apple-1234740098"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-standalone-extra-episode",
+        "tag": "Why this episode exists",
+        "title": "An extra hour Apple asked for",
+        "moment": "Behind the scenes: Season 2 was planned as ten episodes, but after the show's breakout success Apple asked for two more. With the season already mapped out, the writers filled the new slots with standalones -- the Christmas episode, and this night-in-the-life of Coach Beard.",
+        "idea": "The show's most experimental hour is partly a happy accident of scheduling: a 'what if we just followed Beard all night?' idea that finally had room to exist because the order grew from ten to twelve.",
+        "why": "It explains why the episode floats so free of the season's main story -- it was built to stand alone. A nice reminder that some of the boldest swings come from a little unexpected breathing room.",
+        "source": "Reported by ScreenRant and Cheat Sheet (with the renewal noted by Variety): two episodes added after Season 1, slotted in as standalones.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "10-to-12 expansion and the two standalones (Christmas + Beard) confirmed across multiple write-ups.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-2-coach-beard-episode-hated-reason/",
+          "https://www.cheatsheet.com/entertainment/ted-lasso-beard-after-hours-not-originally-part-plan-season-2.html/",
+          "https://variety.com/2020/tv/news/ted-lasso-renewed-season-2-apple-1234740098"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-credits-jones-goldstein-kelly",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across multiple search summaries (Wikipedia, Fandom, ScreenRant, FandomWire) that the episode was DIRECTED BY SAM JONES and WRITTEN BY BRETT GOLDSTEIN & JOE KELLY -- and that Jones was nominated for the 2022 DGA Award for this episode. The early summary that listed Brendan Hunt as writer is incorrect and is not used. Notable that Goldstein, on screen the gruff Roy Kent, co-wrote the show's most experimental, nearly dialogue-free-for-its-lead hour.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Beard_After_Hours",
+        "https://screenrant.com/ted-lasso-season-2s-divisive-coach-beard-episode-explained-by-actor/",
+        "https://fandomwire.com/ted-lassos-beard-after-hours-episode-has-a-special-martin-scorsese-reference/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-credits-jones-goldstein-kelly",
+        "tag": "Who made it",
+        "title": "Roy Kent helped write it",
+        "moment": "Behind the scenes: this hour was directed by Sam Jones and written by Brett Goldstein -- who plays the scowling Roy Kent -- together with producer Joe Kelly.",
+        "idea": "There's a quiet charm in the actor known for playing the show's grumpiest man co-writing its most tender, dreamlike experiment, one that follows a near-silent character through a whole night of feeling.",
+        "why": "A reminder of how much of <em>Ted Lasso</em> is made by the people on screen. Jones's direction here was singled out with an industry directing nomination -- worth noticing how carefully the night is shot.",
+        "source": "Episode credits per Ted Lasso Fandom and ScreenRant: directed by Sam Jones; written by Brett Goldstein and Joe Kelly.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Director Sam Jones, writers Brett Goldstein & Joe Kelly confirmed across sources; an early 'Brendan Hunt wrote it' claim was wrong.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Beard_After_Hours",
+          "https://screenrant.com/ted-lasso-season-2s-divisive-coach-beard-episode-explained-by-actor/",
+          "https://fandomwire.com/ted-lassos-beard-after-hours-episode-has-a-special-martin-scorsese-reference/"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-alone-again-naturally",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via HiddenRemote's song-by-song list, Tunefind, and the IMDb soundtrack page that Gilbert O'Sullivan's 'Alone Again (Naturally)' (1972) is in THIS episode (E9), not E6 -- the placement check the brief requested. The deceptively gentle tune is about isolation and despair. HiddenRemote places the cue at a low point with Beard alone (after being beaten), so the card describes the cue and its loneliness rather than asserting the candidates' less-corroborated 'checking missed calls from Jane' staging.",
+      "verified_sources": [
+        "https://hiddenremote.com/2021/09/17/all-the-songs-in-ted-lasso-season-2-episode-9-beard-after-hours/",
+        "https://www.tunefind.com/show/ted-lasso/season-2/111614",
+        "https://www.imdb.com/title/tt14968652/soundtrack/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-alone-again-naturally",
+        "tag": "A sad song doing the work",
+        "title": "'Alone Again (Naturally)'",
+        "moment": "At one of the night's lowest points, with Beard adrift and on his own, the soundtrack reaches for Gilbert O'Sullivan's 1972 hit 'Alone Again (Naturally)' -- a bright, tuneful pop song that is actually about loneliness and despair.",
+        "idea": "The episode lets the music say what Beard won't. A cheerful-sounding melody about abandonment underscores how isolated he is even in the middle of a wild night out -- the sound and the feeling pulling in opposite directions on purpose.",
+        "why": "Listen past the pretty tune to the words: the show often picks songs that quietly name a character's inner state. Here a 'happy' song is one of the saddest moments of the night.",
+        "source": "Confirmed for this episode via HiddenRemote's song list, Tunefind, and the IMDb soundtrack listing for 'Beard After Hours.'",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song confirmed in E9 (not E6) across HiddenRemote, Tunefind, and IMDb; exact on-screen action is recap-reported, so the card keeps to the cue and its mood.",
+        "sourcesChecked": [
+          "https://hiddenremote.com/2021/09/17/all-the-songs-in-ted-lasso-season-2-episode-9-beard-after-hours/",
+          "https://www.tunefind.com/show/ted-lasso/season-2/111614",
+          "https://www.imdb.com/title/tt14968652/soundtrack/"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-music-heavy-needle-drops",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The dense, genre-hopping soundtrack is confirmed across HiddenRemote (with scene notes), Tunefind, and IMDb: The Replacements' 'Nightclub Jitters,' Isao Tomita's synthesizer 'Clair de Lune' for the club's eerie back room, Sir Mix-A-Lot's 'Posse on Broadway,' Queen's 'We Are the Champions' on the pitch, Boots Randolph's 'Yakety Sax' (the Benny Hill chase tune) over match film, Martin Solveig & Dragonette's 'Hello' on the dance floor, Edwyn Collins's 'A Girl Like You,' and more. Song list is solid; the card keeps individual cues to the well-reported ones.",
+      "verified_sources": [
+        "https://hiddenremote.com/2021/09/17/all-the-songs-in-ted-lasso-season-2-episode-9-beard-after-hours/",
+        "https://www.tunefind.com/show/ted-lasso/season-2/111614",
+        "https://www.imdb.com/title/tt14968652/soundtrack/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-music-heavy-needle-drops",
+        "tag": "A jukebox of a night",
+        "title": "The music keeps shifting",
+        "moment": "Across the night the soundtrack leaps between worlds: The Replacements as Beard heads out, Isao Tomita's spacey electronic take on Debussy's 'Clair de Lune' in a club's strange back room, the 'Benny Hill' chase tune 'Yakety Sax' for a comic dash, and Queen's 'We Are the Champions' on the field.",
+        "idea": "The wildly mixed music -- punk, classical-by-synthesizer, novelty chase music, an arena anthem -- is part of what makes the hour feel like a dream, each cue resetting the mood as Beard stumbles into a new corner of the night.",
+        "why": "Treat the soundtrack as a character. The genre lurching from scene to scene is doing the same job as the strange visuals: keeping you, like Beard, a little off balance until morning.",
+        "source": "Song-by-song listings via HiddenRemote, Tunefind, and IMDb for 'Beard After Hours.'",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Soundtrack list confirmed across HiddenRemote, Tunefind, and IMDb; exact placements are recap-reported but the named cues are well attested.",
+        "sourcesChecked": [
+          "https://hiddenremote.com/2021/09/17/all-the-songs-in-ted-lasso-season-2-episode-9-beard-after-hours/",
+          "https://www.tunefind.com/show/ted-lasso/season-2/111614",
+          "https://www.imdb.com/title/tt14968652/soundtrack/"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-fight-club-reference",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated via ScreenRant (and independent mirrors) plus Wikipedia plot summaries: to clear the door of the basement club Bones & Honey, Beard and the Richmond fans phone the attendant posing as the fire brigade to say her flat has burned down, then Beard muses that losing it may be the best thing for her -- a double nod to Fincher's 'Fight Club' (the Narrator's condo is destroyed, freeing him; the 'things you own end up owning you' liberation-by-loss idea). Presented as a noted homage; the echoed line is paraphrased, never quoted.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-elevator-coach-beard-fight-club-reference/",
+        "https://ted-lasso.fandom.com/wiki/Beard_After_Hours",
+        "https://en.wikipedia.org/wiki/Beard_After_Hours"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-fight-club-reference",
+        "tag": "A hidden movie nod",
+        "title": "A wink at <em>Fight Club</em>",
+        "moment": "To slip past the door of an exclusive basement club, Beard and a few Richmond fans phone the attendant pretending to be the fire brigade, telling her that her flat has burned down -- and afterward Beard suggests, gently, that losing the place might turn out to be good for her.",
+        "idea": "It's a quiet tribute to David Fincher's <em>Fight Club</em>: the trick stages the film's burned-out apartment, and Beard's musing echoes its idea that the things you own can end up owning you, so losing them can feel like freedom.",
+        "why": "A small, sly homage tucked into a gag. You don't need the reference for the scene to be funny, but spotting it shows how densely the episode is layered with film love.",
+        "source": "Noted by ScreenRant; the prank and the club plot per the Ted Lasso Fandom and Wikipedia episode summaries.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Fight Club parallel reported by ScreenRant and corroborated by plot summaries; presented as a noted homage, not a creator statement.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-2-elevator-coach-beard-fight-club-reference/",
+          "https://ted-lasso.fandom.com/wiki/Beard_After_Hours",
+          "https://en.wikipedia.org/wiki/Beard_After_Hours"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-henry-lineker-inner-voice",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across ScreenRant, NPR, and Rolling Stone summaries: real football pundits Gary Lineker and Thierry Henry recur on TV screens through the night, criticizing Beard personally -- read by recaps as the externalized voice of his self-doubt and shame after the loss, including that he fails as a coach by never pushing back on Ted. Confirmed as the cameos + their meaning. The further 'everything is literally real EXCEPT the pundit visions' interpretation is recap analysis, so the card keeps to the in-his-head reading without asserting that totalizing claim.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-thierry-henry-gary-lineker-who-coach-beard-see-why/",
+        "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e9-henry-lineker-inner-voice",
+        "tag": "The voice in his head",
+        "title": "His inner critic, on TV",
+        "moment": "Wherever Beard wanders, he keeps catching real football pundits Gary Lineker and Thierry Henry on screens -- and they keep picking him apart, blaming him for the loss and needling him personally.",
+        "idea": "They aren't really talking about him; they're his self-doubt made flesh. At his lowest, Beard turns his shame into the judgment of men he admires -- the cruel inner voice that says he's failed as a coach and a man, including by never standing up to Ted.",
+        "why": "Watch how the criticism gets more personal the worse Beard feels. It's a vivid way to dramatize an inner monologue: putting your harshest self-talk in the mouths of people you respect, so it's harder to wave away.",
+        "source": "Cameos and their meaning per ScreenRant, NPR, and Rolling Stone recaps of the episode.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Lineker/Henry cameos as Beard's externalized self-doubt confirmed across ScreenRant, NPR, and Rolling Stone; the 'only these are imaginary' reading is left as interpretation.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-thierry-henry-gary-lineker-who-coach-beard-see-why/",
+          "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-blue-moon-symbolism",
+      "type": "easter-egg",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The moon-as-loneliness reading and the 'blue moon' Manchester City double-meaning (Man City's anthem is 'Blue Moon'; Ted later says 'once in a blue moon') come from a single source, ScreenRant. Independent checking also surfaced that the 'Blue Moon' singalong recurs in BOTH the previous episode (E8) and E9, which dilutes how specifically this image belongs to THIS episode. Single-source critic interpretation -> grounding capped at 2; fails the grounding>=3 gate. Excluded.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-2-beard-episode-moon-meaning-significance/"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 4 },
+      "interest_score": 62,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s2e9-wizard-of-oz-thread",
+      "type": "easter-egg",
+      "verdict": "unverified",
+      "verification_notes": "The series-wide Wizard of Oz motif is real and discussed (Brett Goldstein has spoken to Oz parallels), but the Oz beats that sources actually pin down -- the Oz-themed pinball machine, Ted's mother Dottie/Dorothy, 'Over the Rainbow' -- cluster around the season's penultimate/finale stretch, NOT clearly this episode, and the 'Beard's night is a pocket Oz/Odyssey' reading is fan/recap analysis. Could not independently confirm the Oz beats as E9-specific. Per the gift guidance to treat Oz episode-beats as low confidence, excluded.",
+      "verified_sources": [
+        "https://medium.com/@smwamser/the-wizard-of-ted-b74ea42563e9",
+        "https://www.upworthy.com/proof-that-ted-lasso-is-actually-a-retelling-of-the-wizard-of-oz/"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 2, "spoiler_safety": 3 },
+      "interest_score": 56,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s2e9-hula-hoop-regret",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across TVLine, Cheat Sheet, Yahoo, and IMDb's news reprint of the same interview: Brendan Hunt says he looks at the dance/hula-hoop scene with 'a bit of regret' because it isn't his best dancing -- the running and fighting were shot first, and by the dance days, filming abroad during COVID without his usual fitness routine, he felt 'old and broken.' A warm, self-deprecating behind-the-scenes note. Any quoted phrasing kept to short fragments.",
+      "verified_sources": [
+        "https://www.tvline.com/interviews/ted-lasso-recap-season-2-episode-9-beard-after-hours-explained-1234720230/",
+        "https://www.cheatsheet.com/news/ted-lasso-star-brendan-hunt-admits-he-looks-at-this-season-2-scene-with-a-bit-of-regret.html/",
+        "https://www.yahoo.com/video/ted-lassos-brendan-hunt-breaks-150012996.html"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s2e9-hula-hoop-regret",
+        "tag": "An honest confession",
+        "title": "The dance he'd redo",
+        "moment": "Late in the night Beard ends up at a basement party, hula-hooping and dancing with wild, happy abandon -- a scene many fans adore.",
+        "idea": "Off screen, Brendan Hunt has admitted he looks back on it with a little regret: the running and fighting were filmed first, and by the dance days -- shooting abroad during COVID, away from his usual fitness routine -- he felt, in his words, a bit 'old and broken,' so it isn't his best dancing.",
+        "why": "A sweet bit of behind-the-scenes honesty. The joy in the scene is real; so was the exhaustion behind it -- a reminder of how much ordinary effort goes into a moment that looks effortless.",
+        "source": "Brendan Hunt in interviews reported by TVLine, Cheat Sheet, and Yahoo.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Hunt's 'bit of regret' / 'old and broken' account confirmed across TVLine, Cheat Sheet, and Yahoo reprints of the same interview.",
+        "sourcesChecked": [
+          "https://www.tvline.com/interviews/ted-lasso-recap-season-2-episode-9-beard-after-hours-explained-1234720230/",
+          "https://www.cheatsheet.com/news/ted-lasso-star-brendan-hunt-admits-he-looks-at-this-season-2-scene-with-a-bit-of-regret.html/",
+          "https://www.yahoo.com/video/ted-lassos-brendan-hunt-breaks-150012996.html"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-theme-self-love",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated across NPR and Rolling Stone recaps: beneath the noir and slapstick, the episode's throughline is self-worth -- the imagined pundits accuse Beard of low self-esteem and of failing as a coach by never challenging Ted, and (per Rolling Stone) Beard admits he knows Jane can't cure what ails him yet wants her anyway. The long-night-out shape is pointed inward at Beard's relationship with himself, and the episode deliberately leaves it unresolved rather than tidily curing him. The card keeps to the question, not a clean answer.",
+      "verified_sources": [
+        "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+        "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 84,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s2e9-theme-self-love",
+        "tag": "Does he like himself?",
+        "title": "A long night with himself",
+        "moment": "Under all the chaos and comedy, Beard spends the night dogged by voices insisting he has no self-worth and is unworthy of good things -- making the episode less about where he wanders than about whether he can like the man he is.",
+        "idea": "It's the shape of a romantic comedy -- a search through the night that ends in a reunion -- turned inward, toward Beard's relationship with himself. And it resists a tidy fix: the night exposes his self-doubt more than it cures it.",
+        "why": "A natural companion to the show's mental-health themes. Watch for the quiet, honest beat where Beard admits no other person can fix what hurts inside him -- the real question the whole strange night is asking.",
+        "source": "Thematic reading per NPR's and Rolling Stone's recaps of 'Beard After Hours.'",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Self-worth throughline (and the unresolved ending) confirmed across NPR and Rolling Stone; card avoids overstating a tidy resolution.",
+        "sourcesChecked": [
+          "https://www.npr.org/2021/09/17/1037430702/ted-lasso-recap-season-2-episode-9-beard-after-hours",
+          "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-recap-season-2-episode-9-beard-after-hours-1225404/"
+        ]
+      }
+    },
+    {
+      "id": "s2e9-jane-relationship-toxic",
+      "type": "theme",
+      "verdict": "contested",
+      "verification_notes": "Independently confirmed both halves: the night ends by funneling Beard back to his on-again/off-again girlfriend Jane via a romantic-reunion beat, and critics/fans have sharply debated the relationship as unhealthy/toxic (The Spool, Collider). Brendan Hunt has publicly pushed back on the harshest 'abuser' framing while granting it is 'a little toxic' -- though his fullest response came via a June 2023 Reddit AMA (echoed by Hollywood Reporter/We Got This Covered), not solely the cited HR piece. This is a genuine, unsettled real-world debate; per the gift-fit guidance it must NOT be adjudicated in a card. Held as contested and excluded.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/ted-lasso-season-2-episode-9-beard-after-hours-recap/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-burning-questions-answered-brendan-hunt-1235509906/",
+        "https://wegotthiscovered.com/celebrities/i-am-happy-for-beard-and-i-wish-him-luck-brendan-hunt-speaks-out-on-his-ted-lasso-characters-future-and-addresses-toxic-relationship-claims/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 4, "spoiler_safety": 2 },
+      "interest_score": 62,
+      "tier": "silver",
+      "include": false
+    }
+  ]
+}
