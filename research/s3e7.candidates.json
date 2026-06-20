@@ -1,0 +1,200 @@
+{
+  "episode": { "season": 3, "number": 7, "title": "The Strings That Bind Us" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s3e7-total-football-selflessness",
+      "type": "philosophy",
+      "title": "Total Football as a philosophy of selflessness and collective intelligence",
+      "detail": "The episode's tactical and moral spine. Richmond commits fully to 'Total Football' (Dutch: Totaalvoetbal), the real footballing philosophy named in S3E6 — pioneered by coach Rinus Michels and embodied by Johan Cruyff at Ajax and the 1970s Netherlands side, in which no outfield player holds a fixed position and any player who vacates a spot is immediately covered by a teammate. Football writers consistently frame it less as a formation than as an ethic: it demands high collective intelligence, constant awareness of teammates, and a willingness to sacrifice individual glory for the group. The episode literalizes that ethic — the red-string drill (see separate card) and Jamie's 'heart not head' realization are both dramatizations of Total Football's core requirement that the eleven act as one interconnected organism. ATTRIBUTION FLAG for reviewer: the Michels/Cruyff/Ajax origin is standard football history; the 'selflessness / collective responsibility' framing is well-attested in football writing about Cruyff's coaching but is interpretive — keep names and the selflessness gloss verifiable, don't assert a single 'definition.'",
+      "moment": "Having loosely adopted Total Football in Amsterdam, Richmond now drills it hard at home — a fluid, position-swapping system that only works if every player stays aware of and connected to every other, prizing the collective over the individual.",
+      "sources": [
+        { "url": "https://www.fifa.com/en/articles/total-football-revolutionary-ajax-barcelona-netherlands-rinus-michels-johan-cruyff", "note": "FIFA history of Total Football — Michels, Cruyff, Ajax, positional interchange" },
+        { "url": "https://www.cultofmac.com/reviews/ted-lasso-apple-tv-recap-the-strings-that-bind-us", "note": "Recap tying the episode's drills to Total Football's interconnection demand" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-red-string-of-fate",
+      "type": "reference",
+      "title": "The red-string drill draws on the East Asian 'Red String of Fate' myth",
+      "detail": "To teach the interconnection Total Football requires, the coaches tie red string between the players during training — and Ted explains the imagery via the East Asian (commonly framed as Japanese/Chinese) legend of the Red String of Fate (or Red Thread of Fate): the belief that destined people are bound by an invisible red cord tied to their little fingers, which may stretch or tangle but never breaks. Roy's contribution is to tie the strings not to fingers but to the players' genitals, which becomes the episode's running gag and the literal 'strings that bind us' of the title. The myth itself is real and well-documented in East Asian folklore. ATTRIBUTION FLAG: confirm the myth is most precisely 'East Asian / Chinese in origin, popular in Japan' rather than strictly Japanese — sources in the show and recaps say 'Japanese,' but the legend's roots are usually traced to Chinese folklore. Paraphrase Ted's explanation; do not reproduce the dialogue.",
+      "moment": "Coaches bind the squad together with red string during a drill; Ted explains it through the legend that soulmates are connected by an invisible red thread tied to their little fingers — while Roy has tied the strings somewhere far less romantic.",
+      "sources": [
+        { "url": "https://www.looper.com/1268774/strange-real-life-story-behind-red-string-exercise-ted-lasso-s3-episode-7/", "note": "Looper — the red-string exercise and its basis in the Red String of Fate myth" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs", "note": "Recap of the drill, Ted's soulmate-thread explanation, and Roy's twist" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-jamie-heart-not-head",
+      "type": "theme",
+      "title": "Jamie realizes he is the heart of the team, not the head",
+      "detail": "The episode's turning point and Jamie Tartt's clearest growth beat. With Richmond floundering under the new system (down 3-0 to Arsenal at halftime), Jamie stops demanding to be the lone goalscorer and asks the team to play THROUGH him — to use him as the central connector who links everyone's passes rather than the striker who finishes them. Recaps phrase it as Jamie understanding he is 'the heart of the team, not the head': his breakthrough is choosing to facilitate rather than dominate. It pays off in a single gorgeous team goal built from interlocking passes. This is the human embodiment of the Total Football / selflessness theme, and a callback to how far Jamie has come from his S1 ego. ATTRIBUTION: the 'heart not head' phrasing recurs across recaps as a summary of the scene; treat it as a fair paraphrase of the arc rather than a verbatim show quote, and verify the Arsenal opponent and 3-0 halftime scoreline.",
+      "moment": "Trailing badly, Jamie tells his teammates to stop treating him as the striker and instead run the offense through him as a connector — and Richmond answers with a flowing, collective goal.",
+      "sources": [
+        { "url": "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/", "note": "THR recap — Jamie as heart of the team, the selflessness turn, the team goal" },
+        { "url": "https://fangirlish.com/2023/04/26/ted-lasso-3x07-review-the-strings-that-bind-us/", "note": "Review describing Jamie's 'heart not head' realization and its payoff" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-trust-built-over-three-seasons",
+      "type": "theme",
+      "title": "Total Football works because Ted spent three seasons building trust",
+      "detail": "Trent Crimm articulates the episode's quiet thesis: Richmond can adopt a system that depends on total mutual awareness in a single week not because the players learned the tactics fast, but because Ted has spent three seasons building a culture of trust, vulnerability, and support. The interconnection the red string makes literal was already there socially before it was there tactically — the philosophy (community as the precondition for excellence) is the show's whole project paying off on the pitch. ATTRIBUTION FLAG: this is framed in multiple recaps as Trent's in-show observation; confirm it is voiced by Trent (vs. a reviewer's synthesis) before a card attributes the line to a character.",
+      "moment": "As the new system starts to click, Trent observes that Ted didn't really install Total Football in a week — he spent three years building the trust and connection that lets it work at all.",
+      "sources": [
+        { "url": "https://subjectifymedia.com/ted-lasso-season-3-episode-7-review/", "note": "Review noting Trent's point that the tactic rests on three seasons of culture-building" },
+        { "url": "https://www.cultofmac.com/reviews/ted-lasso-apple-tv-recap-the-strings-that-bind-us", "note": "Recap connecting the rushed tactic to the long-built team trust" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-shut-up-and-dribble",
+      "type": "reference",
+      "title": "'Shut up and dribble' echoes Laura Ingraham's dismissal of LeBron James",
+      "detail": "When Sam pushes back online against the fictional Home Secretary's anti-refugee stance, she retorts that footballers should leave politics alone and 'shut up and dribble' — and vandals later spray that exact phrase across his trashed restaurant. The line is a direct real-world reference: Fox News host Laura Ingraham used 'shut up and dribble' in 2018 to dismiss LeBron James after he criticized then-President Trump. In both the real and fictional cases it is a tool used by people in power to silence Black athletes who speak on injustice. ATTRIBUTION FLAG: the Ingraham/LeBron origin is well-documented (NPR, 2018); confirm and keep the year and figures exact. Paraphrase the show's wording.",
+      "moment": "After Sam asks a politician to show compassion to refugees, she tells him to 'shut up and dribble' — and the same words are graffitied across his vandalized restaurant.",
+      "sources": [
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/02/19/587097707/laura-ingraham-told-lebron-james-to-shutup-and-dribble-he-went-to-the-hoop", "note": "NPR — origin of 'shut up and dribble' (Ingraham on LeBron James, 2018)" },
+        { "url": "https://popculture.com/streaming/news/ted-lasso-season-3-episode-7-real-world-problem-hits-afc-richmond/", "note": "Article connecting the episode's line/graffiti to the real Ingraham–LeBron moment" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-brinda-barot-real-politicians",
+      "type": "production",
+      "title": "Home Secretary Brinda Barot mirrors real UK politicians and the Lineker spat",
+      "detail": "The episode's antagonist-by-proxy is Brinda Barot (played by Lucy Bayler), a fictional UK Home Secretary whose hardline anti-refugee, 'stop the boats' rhetoric and clash with a footballer closely track real events. Commentators read the character as evoking real Home Secretaries Priti Patel and Suella Braverman, and Sam's public clash with her strongly parallels Gary Lineker's 2023 Twitter dispute with Braverman over the UK government's asylum/'stop the boats' policy, which had been in the news just as the episode aired. ATTRIBUTION FLAG: 'based on' is a press/critic reading, not an official statement from the writers — flag as critic interpretation. Confirm Lucy Bayler as the actress and the Lineker–Braverman timing.",
+      "moment": "A hardline Home Secretary picks a public fight with Sam over refugees — a storyline critics immediately likened to Gary Lineker's real clash with the UK government over its asylum policy.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-brinda-barot-shut-up-dribble-based-inspiration/", "note": "ScreenRant — Barot read as based on Patel/Braverman" },
+        { "url": "https://www.inkl.com/news/now-ted-lasso-takes-aim-at-government-s-plan-to-stop-the-boats", "note": "Coverage tying the plot to the 'stop the boats' policy and Lineker–Braverman spat" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-forgive-them-to-spite-them",
+      "type": "philosophy",
+      "title": "Sam's father: forgiveness as the truest defiance",
+      "detail": "Arriving to find Sam's restaurant (named for him) vandalized, Sam's father — Mr. Obisanya, played by Nonso Anozie — comforts his furious son with a counterintuitive ethic: the way to truly anger the people who did this is to refuse to be consumed by hatred and instead forgive them and move on. It reframes forgiveness not as weakness or capitulation but as a form of strength and defiance that denies the haters the bitterness they wanted to provoke. This resonates with the show's broader strands on redemption and not letting cruelty define you (and contrasts with the 'be curious, not judgmental' ethos). ATTRIBUTION FLAG: paraphrase the father's advice; do not reproduce the on-screen line. Confirm Nonso Anozie as the actor and the namesake detail.",
+      "moment": "Standing in his wrecked restaurant, Sam rages; his father holds him and says the best way to defeat the people who did this is not revenge but to forgive them and refuse to let it poison him.",
+      "sources": [
+        { "url": "https://www.tvline.com/recaps/ted-lasso-recap-season-3-episode-7-sam-dad-nonso-anozie-1234977704/", "note": "TVLine — Sam's dad (Nonso Anozie), the forgiveness advice, the restaurant as namesake" },
+        { "url": "https://www.highonfilms.com/ted-lasso-season-3-episode-7-recap-and-ending-explained/", "note": "Recap of the father's 'forgive them to spite them' message" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-team-restores-restaurant-community",
+      "type": "theme",
+      "title": "The team rebuilds Ola's: community as the title's real meaning",
+      "detail": "The episode resolves its hate-crime subplot with a communal act: while Sam is away at the match, the whole squad turns up to clean and restore his vandalized restaurant, and his father cooks for everyone in the rebuilt space. Recaps read this as the literal payoff of 'the strings that bind us' — the same interconnection the red-string drill teaches on the pitch is expressed off it as a community closing ranks around a wounded member, restoring Sam's shaken faith in people. This is the 'central theme in one line' card: connection and community as both tactic and ethic. ATTRIBUTION: well-supported by recaps; the thematic reading (drill on-pitch = community off-pitch) is hunter analysis, not a show statement.",
+      "moment": "Sam returns to find his teammates have quietly repaired his trashed restaurant; his father cooks for the whole team in the room that was a crime scene that morning.",
+      "sources": [
+        { "url": "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-7-the-strings-that-bind-us/", "note": "Recap — the team restoring Ola's and the community payoff of the title" },
+        { "url": "https://www.nerdsandbeyond.com/2023/04/26/ted-lasso-recap-season-3-episode-7-the-strings-that-bind-us/", "note": "Recap of the restaurant restoration and Sam's restored faith" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-love-bombing-warning",
+      "type": "philosophy",
+      "title": "Rebecca names 'love bombing' — and the shadow of Rupert",
+      "detail": "Overwhelmed by Jack's escalating grand gestures (filling her office with flowers, comping bills, hiding jewelry in pastries, an extravagant signed first edition), Keeley confides in Rebecca, who recognizes a pattern: she calls it possible 'love bombing' and tells Keeley to watch for red flags. The weight of the warning is that Rebecca is describing how Rupert courted her early on — overwhelming generosity as a control tactic — so the scene quietly threads the show's long meditation on coercive charm and self-respect in relationships. ATTRIBUTION FLAG: 'love bombing' is a real, recognized term in pop-psychology about manipulative relationship dynamics; confirm Rebecca explicitly ties it to her own history with Rupert before a card asserts that link.",
+      "moment": "Keeley, uneasy at being constantly swept off her feet, tells Rebecca about Jack's lavish gifts; Rebecca warns it could be 'love bombing' and to watch for red flags — the way Rupert once courted her.",
+      "sources": [
+        { "url": "https://www.thereviewgeek.com/tedlasso-s3e7review/", "note": "Recap — Rebecca's 'love bombing' warning and the Rupert parallel" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs", "note": "Recap of Keeley/Jack gifts and Rebecca's red-flags caution" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e7-jane-austen-anachronism",
+      "type": "easter-egg",
+      "title": "Jack's 'signed first-edition Sense and Sensibility' is a historical impossibility",
+      "detail": "Among Jack's love-bombing gifts is a first edition of Jane Austen's Sense and Sensibility, presented as signed by Austen. As Austen scholars and fans pointed out (notably an Autostraddle piece), this is impossible: the 1811 first edition was published anonymously, credited only to 'A Lady'; Austen's name did not appear on the book in her lifetime; it was issued in three small volumes, not one; and Austen did not sign or autograph copies. Whether intended as a deliberate joke about Jack's careless extravagance or an unflagged props error, it's a fun catch for literary-minded rewatchers. ATTRIBUTION FLAG: the historical facts (anonymous 'By A Lady,' three volumes, no signings) are accurate and verifiable; whether the show intended it as a gag is unconfirmed — present as 'historically impossible,' not as a confirmed deliberate Easter egg. NOTE/EPISODE-PLACEMENT FLAG: at least one source (Collider) places this gift in S3E6; most S3E7 recaps and the love-bombing storyline put it in E7. Confirm the exact episode of the gift's reveal.",
+      "moment": "Jack gives Keeley a first edition of Sense and Sensibility presented as signed by Jane Austen — a book Austen published anonymously as 'A Lady' and never signed, making the gift historically impossible.",
+      "sources": [
+        { "url": "https://www.autostraddle.com/ted-lassos-jane-austen-catastrophe-unites-queers-in-outrage/", "note": "Autostraddle — why a signed first-edition S&S could not exist (anonymous, 3 volumes, no signings)" },
+        { "url": "https://collider.com/ted-lasso-season-3-book-sense-and-sensibility/", "note": "Collider on the S&S gift (note: places it in E6 — episode-placement check needed)" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-led-tasso-callback",
+      "type": "callback",
+      "title": "'Led Tasso' returns to drive the rushed Total Football week",
+      "detail": "To force the team to gel under the suddenly-installed Total Football system, Ted reaches for 'Led Tasso' — his deliberately tyrannical, screaming-coach alter ego, used as a motivational gambit. 'Led Tasso' is an established running bit (introduced in Season 2) where Ted plays the bad guy to unite the players against a common 'enemy' (himself). Its reappearance here is a direct callback. ATTRIBUTION/PLACEMENT FLAG: verify that the Led Tasso bit specifically appears in E7 (the persona originates earlier in the series); confirm a recap ties an E7 'Led Tasso' moment to this episode rather than memory of the gag generally.",
+      "moment": "Pushing the team through the brutal early days of the new system, Ted dips back into his 'Led Tasso' persona — the screaming-villain coach he becomes to unite the squad against him.",
+      "sources": [
+        { "url": "https://www.aol.com/entertainment/ted-lasso-season-2-trailer-115100899.html", "note": "Background on the 'Led Tasso' persona (originating Season 2)" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs", "note": "E7 recap — to confirm whether the Led Tasso bit features in this episode" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e7-jamie-prick-signal-callback",
+      "type": "callback",
+      "title": "The 'be a prick' signal survives — a measure of Jamie's growth",
+      "detail": "A small, knowing detail recappers flagged: the hand signal the coaches once used to tell Jamie to play selfishly / 'be a prick' still exists and gets a nod — but it now lands as comedy precisely because Jamie has grown out of needing it. It's a practical callback to earlier seasons (when weaponizing Jamie's ego was a tactic) that doubles as a marker of how far his character has come toward the selflessness the episode prizes. ATTRIBUTION/PLACEMENT FLAG: this rests largely on recap descriptions; confirm the signal is actually referenced in E7 and is the same gag established earlier, before a card asserts it.",
+      "moment": "The old signal that used to tell Jamie to turn on his selfish, prickish mode still exists and gets a wink — funny now mainly because Jamie no longer needs it.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs", "note": "Recap noting the surviving 'be a prick' signal as a Jamie-growth callback" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e7-cruyff-arena-jamie-man-city",
+      "type": "trivia",
+      "title": "Beard's tactics presentation winks at Jamie's real-feeling Man City past",
+      "detail": "In Coach Beard's presentation on Total Football, he folds in Jamie's own history — his time at Manchester City (under a Guardiola-style setup) and his quitting the club to appear on the reality show 'Lust Conquers All' — with Jamie joking he was 'robbed' on the show. Beyond the laugh, it's a neat bit of continuity: Jamie genuinely knows Total Football better than anyone in the room because he's lived inside an elite possession system, which is why his eventual selflessness breakthrough carries weight. Fans also note the timeline implies Jamie and Jack Grealish would have overlapped at Man City. ATTRIBUTION FLAG: the Guardiola/Man City link is established show lore and real-world plausible; the Grealish-overlap point is a fan timeline inference — mark that part speculative.",
+      "moment": "Beard's Total Football briefing leans on Jamie's elite-club past at Man City (and his reality-TV detour), underlining that the one player who already understands the system is the one who most needs to learn to share the ball.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs", "note": "Recap — Beard's presentation referencing Jamie's Man City and reality-TV history" },
+        { "url": "https://www.thereviewgeek.com/tedlasso-s3e7review/", "note": "Recap noting Jamie's familiarity with the system from his Man City days" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-enjoy-tekno-ending",
+      "type": "production",
+      "title": "Tekno's 'Enjoy' scores the restaurant's restoration — a pointed needle-drop",
+      "detail": "The episode's closing music is 'Enjoy' by Tekno, a Nigerian Afrobeats artist, playing over the scene where Sam's faith in people is restored by the team rebuilding his restaurant and into the end credits. The choice is meaningful: Sam (and his father) are Nigerian, and a celebratory Afrobeats track over a Nigerian-owned restaurant being healed after a racist attack lands as an affirmation of his identity rather than a neutral cue. The episode's broader soundtrack also leans on connection-and-resilience songs (e.g., The Cranberries' 'Dreams' opening it; John Fogerty's 'Centerfield' over the string drill; Moses Sumney's 'Doomed' as Sam finds the wreckage). ATTRIBUTION FLAG: confirm the exact placements (which song over which scene) against a soundtrack listing; recaps and Tunefind broadly agree but verify 'Enjoy' as the closing/credits track and Tekno's nationality.",
+      "moment": "As the team's repair of Sam's restaurant restores his shaken faith, Tekno's Afrobeats track 'Enjoy' carries the moment into the credits.",
+      "sources": [
+        { "url": "https://www.tunefind.com/blog/2023/05/top-tv-song-last-week-enjoy-tekno-ted-lasso/", "note": "Tunefind — 'Enjoy' by Tekno as the episode's standout/closing needle-drop" },
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-3/236500", "note": "Full S3E7 soundtrack listing for scene placements" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e7-red-string-improv-origin",
+      "type": "production",
+      "title": "Brendan Hunt on why the string got tied where it did",
+      "detail": "Co-creator Brendan Hunt (Coach Beard) discussed the red-string scene in press interviews, framing it as a deliberate tonal pivot: after the 'pretty and somewhat serious' Amsterdam episode (S3E6, 'Sunflowers'), the writers wanted E7 to swing back toward comedy, which he said 'naturally and organically' led to tying the strings to the players' genitals. It's useful production color on how the show modulates tone episode-to-episode and how a sincere theme (interconnection) gets delivered through a crude gag. ATTRIBUTION FLAG: this rests on a single press interview (TheWrap/Yahoo reprint) and an FYC-carpet soundbite; quote Hunt's gist, paraphrased, and note it's one source. Do not reproduce more than a short fragment of his wording.",
+      "moment": "Asked about the genital-string gag, Brendan Hunt said the team wanted E7 to bounce back to comedy after the serious Amsterdam episode, and that impulse 'organically' produced the drill.",
+      "sources": [
+        { "url": "https://www.thewrap.com/ted-lasso-brendan-hunt-red-string-scene-interview/", "note": "TheWrap — Brendan Hunt on the red-string scene as a deliberate tonal swing back to comedy" },
+        { "url": "https://www.yahoo.com/entertainment/ted-lasso-co-creator-brendan-210553391.html", "note": "Yahoo reprint of the same Hunt interview" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}
