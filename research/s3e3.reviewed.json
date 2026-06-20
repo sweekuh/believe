@@ -1,0 +1,434 @@
+{
+  "episode": { "season": 3, "number": 3, "title": "4-5-1" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e3-title-formation",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent recaps (Nerds & Beyond, TellTale, Fandom, TV Tropes, subjectmedia) confirm the title names the real 4-5-1 formation and that Zava demands Richmond switch from 4-4-2 to a lone-striker 4-5-1, with Dani Rojas moved to midfield and Colin dropped. Snippet-based verification across independent domains; grounding capped at 4.",
+      "verified_sources": [
+        "https://www.nerdsandbeyond.com/2023/03/29/ted-lasso-recap-season-3-episode-3-4-5-1/",
+        "https://ted-lasso.fandom.com/wiki/4-5-1",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E03FourFiveOne",
+        "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-title-formation",
+        "tag": "One star, ten servants",
+        "title": "Why the episode is called \"4-5-1\"",
+        "moment": "Working out how to fit Zava in, the coaches bench a player and push Dani Rojas back into midfield so Zava can stand alone up front. The whole side is rebuilt to feed one man.",
+        "idea": "4-5-1 is a real football shape: four defenders, five midfielders, and a single forward who the team exists to supply. The title is also the episode's thesis — a superstar reorganizing a collective around himself.",
+        "why": "Watch the formation become a metaphor: the title isn't just tactics, it's what Zava does to the room.",
+        "source": "Recaps at <em>Nerds &amp; Beyond</em>, <em>TV Tropes</em> and Fandom; standard 4-5-1 coaching material.",
+        "category": "Meta &amp; trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Title/formation and the in-show switch (Dani to midfield, Colin dropped) confirmed across multiple independent recaps. Snippet-based.",
+        "sourcesChecked": [
+          "https://www.nerdsandbeyond.com/2023/03/29/ted-lasso-recap-season-3-episode-3-4-5-1/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E03FourFiveOne"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-zava-empty-vessel",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps (subjectmedia, Fandom, Today) confirm Zava greets Ted with guru-speak and gives a speech about there being no 'I' in team, then immediately redraws the whiteboard so the whole shape points at him — the gap between borrowed humility and actual ego. Characterization confirmed; paraphrased only, no dialogue reproduced. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
+        "https://ted-lasso.fandom.com/wiki/Zava",
+        "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-zava-empty-vessel",
+        "tag": "Humble words, vast ego",
+        "title": "Zava's guru act",
+        "moment": "Zava arrives wrapped in spiritual mystique — meditation, an avocado farm, grand pronouncements — and gives a stirring speech about \"we, not I.\" Then he reshapes the coaches' board so the new formation is one dot ahead of ten behind.",
+        "idea": "The language he borrows is the language of egolessness and humility. What it actually serves is one of the biggest egos the club has ever housed. The act is the joke.",
+        "why": "A pointed foil for Ted's earnest, other-directed leadership. Listen to the words, then watch what his hands do to the whiteboard.",
+        "source": "Recaps at <em>subjectmedia</em> and the <em>Ted Lasso</em> Fandom wiki; cast comments to <em>Today</em>.",
+        "category": "Ethics &amp; character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Guru-speak followed by the self-centering whiteboard redraw confirmed across recaps. Paraphrased; no dialogue reproduced. Snippet-based.",
+        "sourcesChecked": [
+          "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
+          "https://ted-lasso.fandom.com/wiki/Zava"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-meditation-circle",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps (subjectmedia, Fandom, Today) confirm the team's old hands-entwined warm-up chant is replaced by players meditating individually in a ring with Zava at the center — the 4-5-1 staged as ritual. Blocking corroborated across independent sources; grounding capped at 4 (snippet-based).",
+      "verified_sources": [
+        "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
+        "https://ted-lasso.fandom.com/wiki/Zava",
+        "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-meditation-circle",
+        "tag": "The huddle, undone",
+        "title": "A circle that orbits one man",
+        "moment": "Richmond used to warm up as a tangle of joined hands and a shared chant. Now the players sit and meditate separately, ringed around Zava at the center of the room.",
+        "idea": "It's the formation rendered as ritual: a team-centric circle quietly replaced by a star-centric one. Everyone is arranged around, and in service of, the one.",
+        "why": "One of the episode's sharpest images. The staging tells you what's been lost before anyone says it out loud.",
+        "source": "Recaps at <em>subjectmedia</em> and the <em>Ted Lasso</em> Fandom wiki.",
+        "category": "Relationships",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Old chant vs. new meditation-circle blocking confirmed across multiple recaps. Snippet-based.",
+        "sourcesChecked": [
+          "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
+          "https://ted-lasso.fandom.com/wiki/Zava"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-ted-panic-attack",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "TVLine, ClutchPoints, Paste and others confirm Ted phones home, learns Michelle is now with their former counselor Dr. Jacob, and is overtaken by a panic attack as the match begins (it eases after a Zava goal); he later works through it in Sharon's office. Match is the run that includes the Man United win; onset is tied to the Jacob news. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+        "https://clutchpoints.com/ted-lasso-season-3-episode-3-ending-explained",
+        "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-season-3-anxiety-depression-therapy-mental-health"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-ted-panic-attack",
+        "tag": "Optimism isn't processing",
+        "title": "Ted's panic attack",
+        "moment": "A call home goes wrong — Ted learns his ex-wife has begun a relationship with the man who was once their marriage counselor. As the match starts, anxiety swallows him; he ends up in Sharon's office, trying to unpack it.",
+        "idea": "The show keeps insisting that sunny coping is not the same as healing. Ted's relentless optimism can't metabolize this pain on its own — so therapy, and Sharon, become the honest counterweight.",
+        "why": "A serious beat on men's mental health under the comedy. Notice that the breakthrough isn't a pep talk — it's sitting down and feeling it.",
+        "source": "<em>TVLine</em> and <em>Paste</em> recaps of S3E3.",
+        "category": "Belief &amp; hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Panic attack tied to the Michelle/Dr. Jacob news, easing during the match and continued in Sharon's office, confirmed across recaps. Snippet-based.",
+        "sourcesChecked": [
+          "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+          "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-season-3-anxiety-depression-therapy-mental-health"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-dr-jacob-ethics",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "In-show facts (Jacob was Ted and Michelle's couples counselor; he and Michelle are now together) confirmed by TVLine and others. The ethics framing — a clinician dating a former client crosses a serious professional boundary — is corroborated beyond a single therapist essay (The Mary Sue, a licensed-therapist Medium piece, multiple recaps). Presented as the real-world counseling norm raised by the situation, not a verdict on the fictional character. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+        "https://www.themarysue.com/fans-are-appalled-at-the-bad-behavior-in-ted-lasso-episode-3/",
+        "https://medium.com/@dove_the_love_therapist/ted-lasso-a-tale-of-two-therapists-0bea7a39a669"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 84,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-dr-jacob-ethics",
+        "tag": "A boundary, not just a breakup",
+        "title": "The counselor who crossed a line",
+        "moment": "Ted learns his ex-wife is dating Dr. Jacob — the very counselor he and Michelle once saw together. The hurt lands as more than heartbreak.",
+        "idea": "In real counseling ethics, a clinician beginning a romance with a former client raises serious concerns: the power imbalance, the trust of the therapeutic relationship, the question of how much time should pass. That's the line the situation puts in front of Ted.",
+        "why": "It reframes Ted's earlier, vague unease — his sense that Jacob always took Michelle's side — as something with real ethical weight, not just jealousy.",
+        "source": "<em>TVLine</em> and <em>The Mary Sue</em> recaps; a licensed therapist's essay on the episode. General professional norm, not a ruling on a fictional character.",
+        "category": "Ethics &amp; character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "In-show facts confirmed; the ethics framing corroborated across multiple commentaries as a real-world counseling norm. Snippet-based.",
+        "sourcesChecked": [
+          "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+          "https://www.themarysue.com/fans-are-appalled-at-the-bad-behavior-in-ted-lasso-episode-3/"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-colin-comes-out-trent",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TVLine, Fandom and Variety confirm Colin keeps his boyfriend Michael hidden at the restaurant opening (introducing him as a 'wingman'), and Trent, walking home, sees the two kiss in an alley and quietly clocks the secret. Setup for Colin's season-long arc, so spoiler_scope is season. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+        "https://ted-lasso.fandom.com/wiki/Colin_Hughes",
+        "https://variety.com/2023/tv/actors/ted-lasso-billy-harris-1235583840/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-colin-comes-out-trent",
+        "tag": "A secret quietly seen",
+        "title": "Trent clocks Colin",
+        "moment": "At the soft opening of Sam's restaurant, Colin introduces his boyfriend Michael only as a \"pal.\" Outside, Trent — embedded with the club to write a book — sees the two of them kiss in an alley, and says nothing.",
+        "idea": "It plants Colin's coming-out story, one of the season's central throughlines, and it does it gently: not an exposure, but a quiet noticing that changes how Trent watches him.",
+        "why": "A small moment carrying a long arc. Watch Trent choose discretion — the weight here is in what he doesn't do.",
+        "source": "<em>TVLine</em> and <em>Variety</em>; the <em>Ted Lasso</em> Fandom wiki.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Restaurant-opening setting and the alley sighting confirmed across recaps. Season-arc setup. Snippet-based.",
+        "sourcesChecked": [
+          "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
+          "https://ted-lasso.fandom.com/wiki/Colin_Hughes"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-roy-trains-jamie",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TVLine and the IMDb Goldstein/Dunster interview confirm that, with Jamie sidelined by Zava and sulking, Roy offers to train him one-on-one and Jamie accepts — a reversal of their Season 1 rivalry that launches a central Season 3 relationship. Setup for later episodes, so spoiler_scope is season. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-3-roy-jamie-training-explained-1234953694/",
+        "https://www.imdb.com/news/ni64019825/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 66,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-roy-trains-jamie",
+        "tag": "Rivals turned mentor",
+        "title": "Roy offers to train Jamie",
+        "moment": "Outshone by Zava and frustrated, Jamie goes to Roy for help. Roy — once his bitterest rival — agrees to spend his own time training him.",
+        "idea": "It quietly inverts their Season 1 enmity and starts one of the show's richest relationships. Roy sees the raw talent and the missing work ethic, and decides he can hand over what he built.",
+        "why": "Keep an eye on this pairing — a grudge becoming a mentorship, and eventually something like friendship.",
+        "source": "<em>TVLine</em>; a Goldstein/Dunster interview at IMDb.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The training pairing and Roy's motivation confirmed via TVLine and the cast interview. Season-arc setup. Snippet-based.",
+        "sourcesChecked": [
+          "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-3-roy-jamie-training-explained-1234953694/",
+          "https://www.imdb.com/news/ni64019825/"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-zava-zlatan",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Goal.com, Today, SlashFilm and the actor's own comments (via IMDb/Yahoo) confirm Zava is a fictionalized Zlatan Ibrahimovic — the diva reputation, man-bun, acrobatic goals and shirtless celebration, third-person grandiosity. Actor Maximilian Osinski described him as a mix of Zlatan and Eric Cantona; outlets also note Robert Lewandowski, so the Cantona/Lewandowski additions are corroborated, not just inferred. Treated as an 'X based on Y' attribution. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
+        "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516",
+        "https://www.slashfilm.com/1242922/ted-lasso-season-3-zava-based-on-zlatan-ibrahimovic/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-zava-zlatan",
+        "tag": "A real superstar, fictionalized",
+        "title": "Who Zava is based on",
+        "moment": "Zava's whole bearing this episode — third-person grandiosity, the demand to reshape the side around himself, the acrobatic goals and shirtless celebration — is an archetype dramatized.",
+        "idea": "He's a fictionalized Zlatan Ibrahimovic: the legendary-but-diva reputation, the man-bun, the lean frame, the mythmaking. The actor described him as a mix of Zlatan and Eric Cantona, with traces of Robert Lewandowski.",
+        "why": "Once you see Zlatan in him, Zava's swagger reads as affectionate parody rather than pure invention.",
+        "source": "<em>Goal.com</em>, <em>Today</em>, <em>SlashFilm</em>; actor Maximilian Osinski's own comments. An \"based on\" attribution.",
+        "category": "Meta &amp; trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "attributed",
+        "groundingNotes": "Strongly supported across outlets and the actor's comments; the Cantona/Lewandowski additions are corroborated too. Attribution, not an official confirmation. Snippet-based.",
+        "sourcesChecked": [
+          "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
+          "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-superstar-murray-head",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Soundtrack listings (IMDb, Tunefind, Dexerto) confirm 'Superstar' (from Jesus Christ Superstar, lead vocal Murray Head) plays in the episode, and IMDb trivia plus recap synthesis place the cue over a Rupert montage scene. Murray Head is Anthony Head's brother (Wikipedia); Anthony Head plays Rupert — a deliberate family Easter egg. Note Anthony, not Murray, played Giles on Buffy. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://www.imdb.com/title/tt19655880/soundtrack/",
+        "https://www.imdb.com/title/tt19655880/trivia/",
+        "https://en.wikipedia.org/wiki/Murray_Head",
+        "https://www.dexerto.com/tv-movies/ted-lasso-soundtrack-all-songs-from-seasons-1-3-2161696/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-superstar-murray-head",
+        "tag": "Kept in the family",
+        "title": "The \"Superstar\" needle-drop",
+        "moment": "As Richmond's winning streak plays out, the episode reaches for \"Superstar\" from <em>Jesus Christ Superstar</em> — and the cue lands over a scene with Rupert, watching the team.",
+        "idea": "The song's lead vocal is Murray Head, the real-life brother of Anthony Head, who plays Rupert. In the musical that number is sung by the spirit of Judas, layering a sly \"false messiah / betrayer\" note over a story about a dazzling new superstar.",
+        "why": "A double Easter egg — a family in-joke and a thematic wink — hiding in a montage you might hum right past.",
+        "source": "IMDb soundtrack and trivia; <em>Wikipedia</em> on Murray and Anthony Head.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song in the episode and the brothers fact confirmed; the cue's placement over a Rupert scene corroborated via IMDb trivia and recaps. Snippet-based.",
+        "sourcesChecked": [
+          "https://www.imdb.com/title/tt19655880/soundtrack/",
+          "https://en.wikipedia.org/wiki/Murray_Head"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-prisencolinensinainciusol",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia (episode and song), Tunefind and Dexerto confirm 'Prisencolinensinainciusol' by Adriano Celentano is the backing track of the ~4-minute winning-streak montage, and that the 1972 song's lyrics are deliberate gibberish meant to sound like American English. (Sung by Celentano with his wife Claudia Mori, not the Trinidad Singers — that detail belongs to 'Superstar'.) The 'matches Zava's empty profundity' reading is interpretation. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
+        "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
+        "https://www.tunefind.com/show/ted-lasso/season-3/235145"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e3-prisencolinensinainciusol",
+        "tag": "Confident nonsense",
+        "title": "The gibberish song over the winning streak",
+        "moment": "The team's hot streak plays out over a long montage scored by Adriano Celentano's \"Prisencolinensinainciusol\" — a 1972 Italian track whose lyrics are pure gibberish.",
+        "idea": "Celentano built the song to sound like fluent American English to non-English speakers — to dramatize how confident-sounding nonsense can pass for meaning. Dropped over Zava's reign, it's a witty rhyme: catchy, assured, and meaning-light.",
+        "why": "The thematic match is an inference, but a sharp one — the sound of impressive emptiness, under the man selling it.",
+        "source": "<em>Wikipedia</em> (episode and song); soundtrack listings at Tunefind.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song's presence in the episode and its gibberish-by-design nature confirmed across independent sources. Zava connection is interpretation. Snippet-based.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
+          "https://www.tunefind.com/show/ted-lasso/season-3/235145"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-everybody-knows-cohen",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia's episode page and soundtrack listings (Tunefind, Dexerto) confirm Leonard Cohen's 'Everybody Knows' appears in the episode. The 'chosen as ironic counterpoint to the episode's secrets' reading is the hunter's interpretation, flagged as such. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
+        "https://www.tunefind.com/show/ted-lasso/season-3/235145",
+        "https://www.dexerto.com/tv-movies/ted-lasso-soundtrack-all-songs-from-seasons-1-3-2161696/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 4 },
+      "interest_score": 62,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-everybody-knows-cohen",
+        "tag": "Open secrets",
+        "title": "Leonard Cohen's \"Everybody Knows\"",
+        "moment": "The episode's soundtrack includes Cohen's \"Everybody Knows\" — a wry, world-weary song about open secrets, betrayal, and the gap between what is said aloud and what people quietly know.",
+        "idea": "In an hour threaded with hidden truths — Colin's relationship that Trent now sees, Michelle's new partner that Ted has just learned of — the title alone reads as commentary.",
+        "why": "A soundtrack choice doing quiet thematic work. The 'why it was picked' is interpretation, but the fit is hard to miss.",
+        "source": "<em>Wikipedia</em> episode page; soundtrack listings at Tunefind.",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song confirmed in the episode; the thematic 'why' is the hunter's inference, flagged as such. Snippet-based.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
+          "https://www.tunefind.com/show/ted-lasso/season-3/235145"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-maria-sound-of-music",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The hunter's shaky flag is resolved: The Spool, The Review Geek and ScreenSpeck confirm the 'How do you solve a problem like Maria?' / Sound of Music exchange occurs in THIS episode (E3), during the coaches' talk about integrating Zava, where they trade favorite Julie Andrews roles. It is independent of the finale's homage and works standalone, so spoiler_scope is effectively self. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-3/",
+        "https://www.thereviewgeek.com/tedlasso-s3e3review/",
+        "https://screenspeck.com/2023/04/21/ted-lasso-musical-references-ranked/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e3-maria-sound-of-music",
+        "tag": "A problem like Zava",
+        "title": "\"How do you solve a problem like Maria?\"",
+        "moment": "Puzzling over how to fit Zava in without breaking the team, the coaches drift into <em>The Sound of Music</em> — invoking \"How do you solve a problem like Maria?\" and swapping favorite Julie Andrews roles.",
+        "idea": "The song is a comic lament about an irrepressible figure who won't fit the existing order — exactly the disruption Zava is. It's also an early sign of the season's fondness for <em>The Sound of Music</em>.",
+        "why": "A small joke that names the whole problem: how do you build around someone who won't be built around?",
+        "source": "Recaps at <em>The Spool</em>, <em>The Review Geek</em> and <em>ScreenSpeck</em>.",
+        "category": "Meta &amp; trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Verified that the Maria/Sound of Music reference appears in E3 (not just the finale), in the coaches' talk about fitting Zava in. Snippet-based.",
+        "sourcesChecked": [
+          "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-3/",
+          "https://www.thereviewgeek.com/tedlasso-s3e3review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e3-smigus-dyngus",
+      "type": "easter-egg",
+      "verdict": "contested",
+      "verification_notes": "The Polish Smigus-dyngus tradition is well documented (Wikipedia). BUT independent verification places the 'Zava named his firstborn Smigus-dyngus' line in S3E4 'Big Week' — the Zava/Zoreaux name-yourself conversation — not in E3. The TV Tropes E4 recap, the geekgirlauthority 'Big Week' quotes page, and the lassoism quote all confirm E4. The fact is real but the episode placement is wrong, so it is held for E3.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/",
+        "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 5, "relevance": 1, "spoiler_safety": 5 },
+      "interest_score": 67,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s3e3-ekaragha-wrubel-credits",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia and IMDb confirm '4-5-1' aired March 29, 2023, written by Bill Wrubel and directed by Destiny Ekaragha. CORRECTION to the candidate: Ekaragha directed two Season 3 episodes (E3 '4-5-1' and E4 'Big Week'), so any 'first time directing the series' claim is fine but 'only' framing should be dropped — this was her first Ted Lasso work. Credits solid but interest_score 58 falls below the 60 threshold. Snippet-based.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
+        "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
+        "https://www.imdb.com/title/tt19655880/fullcredits/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 58,
+      "tier": "bronze",
+      "include": false
+    }
+  ]
+}
