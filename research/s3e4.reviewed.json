@@ -1,0 +1,402 @@
+{
+  "episode": { "season": 3, "number": 4, "title": "Big Week" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e4-smigus-dyngus",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-verified across independent domains: lassoism.com transcribes the line tagged S03E04 ('Big Week'), and Wikipedia/Culture.pl/TVP World document Smigus-dyngus as a real Polish Easter Monday water-dousing custom with pre-Christian Slavic spring/fertility/purification roots. Placement in S3E4 (not S3E3) confirmed; the child's-name spelling varies between snippets ('Smigus-dyngus' vs 'Smingus Dingus'), so paraphrase. WebFetch returned 403 this session; verification is snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-quote.php?id=719",
+        "https://culture.pl/en/article/smigus-dyngus-polands-national-water-fight-day",
+        "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e4-smigus-dyngus",
+        "tag": "A real tradition hiding in a joke",
+        "title": "Zava's child named for a Polish water festival",
+        "moment": "Explaining his belief that everyone should choose their own name, Zava says he lets each of his children pick one at age seven, which is why his eldest is named after a Polish Easter custom. It plays as nonsense, but the name is real.",
+        "idea": "Smigus-dyngus (Poland's Easter Monday, also called Wet Monday or Dyngus Day) is a custom of playfully dousing people with water. Its roots run back through old Slavic spring rites tied to fertility, renewal, and purification before the Christian calendar absorbed it.",
+        "why": "A throwaway gag that rewards a pause: the absurd name is a genuine folk tradition, fitting Zava's globe-trotting mystic-guru affect. Spellings vary in transcripts, so it is easy to miss as a real reference.",
+        "source": "Documented Polish Easter tradition (<em>Culture.pl</em>; <em>Wikipedia</em>, &ldquo;Śmigus-dyngus&rdquo;); episode placement per transcript and recaps.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Smigus-dyngus is a well-documented Polish Easter Monday water custom with pre-Christian Slavic roots; the line is tagged S03E04 in a transcript and described in recaps. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-quote.php?id=719",
+          "https://culture.pl/en/article/smigus-dyngus-polands-national-water-fight-day",
+          "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-van-damme-self-naming",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent S3E4 recaps (TV Tropes, Fandom, GeekGirlAuthority) confirm Richmond's keeper, inspired by Zava's self-naming speech, declares he will now go by 'Van Damme' after the action star. The arc continues across the season, so spoiler_scope is season. Snippet-based verification, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://ted-lasso.fandom.com/wiki/Big_Week",
+        "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-van-damme-self-naming",
+        "tag": "Choosing your own name",
+        "title": "The goalkeeper rebrands himself",
+        "moment": "After Zava tells the keeper he can be whoever he wants, the keeper takes him at his word and announces he will now go by a new name, borrowed from his favorite action-movie star.",
+        "idea": "Zava's offhand philosophy of self-chosen identity lands immediately on someone who acts on it. The keeper's rename turns an absurd monologue into a small, sincere act of reinvention.",
+        "why": "It is the on-screen payoff that makes Zava's naming speech matter, and it plants a running thread about self-made identity that keeps evolving later in the season.",
+        "source": "S3E4 recaps (<em>TV Tropes</em>; <em>Ted Lasso Wiki</em>).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The keeper's rename, inspired by Zava's self-naming speech, is confirmed across multiple S3E4 recaps. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+          "https://ted-lasso.fandom.com/wiki/Big_Week"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-believe-sign-revealed-torn",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Independent recaps (TV Tropes, ScreenRant, Hollywood Reporter) confirm that in the locker room the BELIEVE sign falls apart, Trent's recovered footage shows Nate tore it, and Ted takes the USB drive but declines to use it for motivation. Placement is firmly S3E4. Snippet-based verification, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e4-believe-sign-revealed-torn",
+        "tag": "Who tore the sign",
+        "title": "The BELIEVE sign reveal",
+        "moment": "The taped-up BELIEVE sign in the locker room finally falls apart, exposing an old tear. Trent, embedded for his book, has dug up security footage showing it was Nate who ripped it on his last day. Roy and Beard want Ted to play the clip to fire up the squad. Ted takes the drive and refuses.",
+        "idea": "Handed a ready-made grievance, Ted declines to motivate his players through contempt. The beat resolves a season-opening mystery and restates his ethic: belief and decency over fueling the team on resentment, even toward someone who earned it.",
+        "why": "This is the project's own emblem. The taped BELIEVE banner is the gift app's visual signature, and here the show stages both its destruction and Ted's refusal to weaponize it.",
+        "source": "S3E4 recaps (<em>TV Tropes</em>; <em>ScreenRant</em>; <em>The Hollywood Reporter</em>).",
+        "category": "Ethics & character",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The sign falling apart, Trent's footage revealing Nate, and Ted taking the drive but declining to use it are consistent across independent recaps. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+          "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-oklahoma-safe-word",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Independent recaps and a dedicated explainer (The Spool, TV Tropes, FictionHorizon) confirm Rebecca invokes 'Oklahoma' to push Ted to be honest, and that the code-word's origin (Ted and Michelle's honesty pact) was established in S1E5 'Tan Lines'. Snippet-based verification, grounding capped at 4.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-4/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e4-oklahoma-safe-word",
+        "tag": "A code-word for honesty",
+        "title": "Rebecca says 'Oklahoma'",
+        "moment": "Ted brushes off Rebecca's concern about how he's really doing. She answers with a single word, 'Oklahoma', and he drops the act.",
+        "idea": "'Oklahoma' is the honesty signal Ted revealed back in Season 1 (Tan Lines): the code he and his then-wife used to tell each other they were being completely, vulnerably truthful. Rebecca using it means she now holds his most private emotional tool.",
+        "why": "Quietly moving on two levels. It shows how close Ted and Rebecca have grown, and it lands an instrument of his marriage in the middle of his post-divorce spiral.",
+        "source": "S3E4 recaps and explainer; origin in S1E5 &ldquo;Tan Lines&rdquo; (<em>The Spool</em>; <em>TV Tropes</em>).",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rebecca's use of 'Oklahoma' in S3E4 and its S1E5 origin as Ted's marital honesty code are confirmed across independent recaps. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-4/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+          "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-pressure-theme",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps consistently frame the episode around mounting pressure ahead of the West Ham fixture. True but broad and low on surprise. The 'Under Pressure' association is Season 2 marketing context, not a needle-drop here, so it is excluded from any card. Snippet-based verification.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
+        "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 1, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 51,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e4-subbuteo-callback",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps (TV Tropes, Fandom, Hollywood Reporter) confirm Nate plans his West Ham tactics by adjusting figurines on a mini-pitch (a Subbuteo set). Subbuteo's history (invented 1947 by Peter Adolph; named from the hobby falcon Falco subbuteo) is corroborated by FourFourTwo and Wikipedia. The 'flicks the Ted figure to mirror the season opener' staging comes from recap descriptions, so the card keeps that detail general. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://www.fourfourtwo.com/features/the-subbuteo-story-how-a-war-veteran-cum-egg-collector-invented-britains-legendary-tabletop-favourite",
+        "https://en.wikipedia.org/wiki/Subbuteo"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-subbuteo-callback",
+        "tag": "Plotting on a toy pitch",
+        "title": "Nate's Subbuteo tactics",
+        "moment": "Preparing to out-coach his old mentor, Nate maps the Richmond game by moving little figures around a tabletop football pitch, nudging a tiny figure off the board as he plans.",
+        "idea": "He is using a Subbuteo set, the classic British finger-flicking tabletop football game, invented in 1947 by Peter Adolph and named after the hobby falcon (Falco subbuteo). It is a deeply English piece of football culture and perfect shorthand for an obsessive tactician.",
+        "why": "Characterful set dressing that also reads as a quiet inversion of the season's opening image, with Nate now the one rearranging the pieces. Easy to miss as a real, beloved game rather than a generic prop.",
+        "source": "Subbuteo history (<em>FourFourTwo</em>; <em>Wikipedia</em>); scene per S3E4 recaps.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Nate planning tactics on a Subbuteo set is described in recaps; the game's 1947 invention and falcon-derived name are well documented. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+          "https://www.fourfourtwo.com/features/the-subbuteo-story-how-a-war-veteran-cum-egg-collector-invented-britains-legendary-tabletop-favourite",
+          "https://en.wikipedia.org/wiki/Subbuteo"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-zava-self-naming-identity",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The in-show content (Zava's self-naming speech) is confirmed via transcript and recaps. The existentialist/self-authorship framing is the reviewer's and hunter's interpretation, not a philosopher named in the show, so the card presents it as a thematic gloss and credits no named philosopher. Snippet-based verification, grounding capped at 4.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-quote.php?id=719",
+        "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-zava-self-naming-identity",
+        "tag": "Making a self, not inheriting one",
+        "title": "Zava on choosing who you are",
+        "moment": "Zava tells the keeper he can be whoever he chooses, explaining that he lets his own children pick their names at age seven. He frames a name, and by extension a self, as something a person elects rather than simply receives.",
+        "idea": "Underneath the comedy is a real theme the show keeps circling: identity as something you author rather than merely inherit. It rhymes with the season's interest in reinvention, from the keeper's rebrand to Ted's whole project. (A thematic reading, not a philosopher the show names.)",
+        "why": "Worth catching as more than a gag. The same idea of self-chosen identity threads through several of the season's arcs, and this speech is where it gets stated out loud.",
+        "source": "Zava's S3E4 speech (transcript; <em>Geek Girl Authority</em>); self-authorship framing is interpretive.",
+        "category": "Belief & hope",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Zava's self-naming speech is confirmed in transcript and recaps; the existentialist/self-authorship reading is an interpretation, not an attribution the show makes. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-quote.php?id=719",
+          "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-ted-refuses-contempt-motivation",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Independent recaps (TV Tropes, ScreenRant) confirm Ted takes the USB drive of Nate's sign-tearing footage and declines to use it to motivate the squad, against Roy and Beard's wishes. The philosophical framing is interpretive but squarely within the show's established ethic. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+        "https://screenrant.com/ted-lasso-season-3-episode-4-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 70,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-ted-refuses-contempt-motivation",
+        "tag": "Winning the right way",
+        "title": "Ted won't coach on contempt",
+        "moment": "Handed footage of Nate destroying the BELIEVE sign, plus the personal sting of facing his former protege as a rival coach, Ted is offered a ready-made grievance to rally the team. He pockets the drive and refuses to use it.",
+        "idea": "Where Roy and Beard want to weaponize the clip, Ted declines to fuel his players on resentment. It dramatizes a recurring Lasso ethic: leadership built on belief and decency rather than fear or hatred of an opponent, even a deserving one.",
+        "why": "A quiet test of the show's larger argument that how you win matters as much as whether you do. Watch how easily the moment could have gone the other way.",
+        "source": "S3E4 recaps (<em>TV Tropes</em>; <em>ScreenRant</em>).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Ted taking the drive and declining to use Nate's footage as motivation is confirmed across independent recaps; the framing is interpretive but within the show's ethic. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
+          "https://screenrant.com/ted-lasso-season-3-episode-4-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-sassy-rejects-ted",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Independent recaps (Cinemaholic, The Mary Sue, Fandom) confirm Ted asks Sassy to actually date him and she refuses, telling him he is an emotional mess who needs to work on himself first. The 'only one telling Ted the truth' reading is recap interpretation; no philosopher is named. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-4-recap-and-ending-explained/",
+        "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/",
+        "https://ted-lasso.fandom.com/wiki/Big_Week"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-sassy-rejects-ted",
+        "tag": "The hard, kind truth",
+        "title": "Sassy turns Ted down",
+        "moment": "Rattled by news of his ex-wife's new relationship, Ted asks Sassy to take their casual thing further. She refuses, gently but plainly, naming his unresolved divorce and telling him to sort himself out before putting that on someone else.",
+        "idea": "She is the rare character willing to give Ted the unvarnished truth instead of reassurance. The scene is a clear-eyed counterweight to the show's gentler tendency to enable his deflection.",
+        "why": "Honest care that refuses to flatter. Watch how the same verdict, that he's a mess, gets echoed afterward by his closest friends.",
+        "source": "S3E4 recaps (<em>The Cinemaholic</em>; <em>The Mary Sue</em>).",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Sassy refusing Ted and calling him an emotional mess who needs to work on himself is confirmed across independent recaps; the 'only one telling him the truth' reading is interpretive. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-4-recap-and-ending-explained/",
+          "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-rebecca-rupert-proxy-war",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps (Fandom, ScreenRant) confirm West Ham is owned by Rebecca's ex-husband Rupert with Nate as manager, framing the fixture as a personal grudge match. True but broad, and overlaps the pressure theme; interest falls below threshold. Snippet-based verification.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Big_Week",
+        "https://screenrant.com/ted-lasso-season-3-episode-4-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 57,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e4-richmond-lose-streak-begins",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps (ScreenRant, Fandom, Hollywood Reporter) confirm Richmond lose to West Ham after Nate switches tactics, beginning the season's mid-season losing streak, with the second half turning violent after the squad sees the Nate footage. The specific scoreline (4-1, three Richmond red cards) is reported by ScreenRant/Fandom; the card keeps the result general per the brief's caution. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
+        "https://ted-lasso.fandom.com/wiki/Big_Week",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-richmond-lose-streak-begins",
+        "tag": "Out-coached by an old friend",
+        "title": "The slump begins",
+        "moment": "The showcase fixture turns when Nate adjusts West Ham's shape mid-match. They score before the break, and Richmond lose, with the second half souring into rough, ill-disciplined play after the squad is shown Nate's footage.",
+        "idea": "Nate tactically out-maneuvers his former boss, and the defeat marks the start of Richmond's mid-season losing streak, the low point the season's later recovery gets measured against. The motivational footage that fired the team up curdles into anger on the pitch.",
+        "why": "A turning point worth registering as a beginning, not a one-off. It quietly vindicates Ted's reluctance to coach on resentment, since the contempt-fueled team plays worse, not better.",
+        "source": "S3E4 recaps (<em>ScreenRant</em>; <em>The Hollywood Reporter</em>).",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The loss, Nate's mid-match tactical switch, and the start of the losing streak are consistent across recaps; the violent second half follows the footage reveal. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
+          "https://ted-lasso.fandom.com/wiki/Big_Week",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-joker-and-the-thief",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Cleared the hunter's shaky flag: Tunefind's S3E4 page places 'Joker & the Thief' by Wolfmother as Richmond emerges after halftime, corroborated by Wikipedia and Dexerto's Season 3 tracklist. Presence in THIS episode is confirmed; the why-it-was-chosen reading is inference. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://www.tunefind.com/show/ted-lasso/season-3/235593",
+        "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
+        "https://www.dexerto.com/tv-movies/ted-lasso-soundtrack-all-songs-from-seasons-1-3-2161696/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-joker-and-the-thief",
+        "tag": "Music cue",
+        "title": "A rock anthem out of the tunnel",
+        "moment": "As Richmond emerge after the halftime break in the big match, a swaggering hard-rock track kicks in: 'Joker & the Thief' by the Australian band Wolfmother (2005).",
+        "idea": "The strutting, bravado-soaked cue suits an episode built around a high-tension showdown and a showman's confidence. The pick leans into the bluster of the build-up.",
+        "why": "An easy needle-drop to enjoy on rewatch once you can name it. The song's cocky energy plays against how the match actually turns out.",
+        "source": "Soundtrack listing (<em>Tunefind</em>, S3E4; <em>Wikipedia</em>).",
+        "category": "Aesthetics",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Tunefind, Wikipedia, and Dexerto place 'Joker & the Thief' by Wolfmother in S3E4 (Richmond emerging after halftime). Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://www.tunefind.com/show/ted-lasso/season-3/235593",
+          "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e4-goldstein-writer-actor",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia, Fandom, and TV Tropes confirm 'Big Week' (aired Apr 5, 2023) was written by Brett Goldstein and directed by Destiny Ekaragha. ScreenRant/Fandom and Goldstein's biography confirm he was a Season 1 writer who self-taped an audition (emailed after the writers' room wrapped) to land the role of Roy Kent. Snippet-based, grounding capped at 4.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
+        "https://ted-lasso.fandom.com/wiki/Big_Week",
+        "https://screenrant.com/ted-lasso-roy-kent-brett-goldstein-not-cast/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 3, "spoiler_safety": 5 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e4-goldstein-writer-actor",
+        "tag": "Written by Roy Kent",
+        "title": "The man who plays Roy wrote this one",
+        "moment": "Production note, not an on-screen beat: 'Big Week' was written by Brett Goldstein, the cast member who plays gruff veteran Roy Kent, and directed by Destiny Ekaragha.",
+        "idea": "Goldstein was hired into the Ted Lasso writers' room from the start. His feel for the surly veteran led him to self-tape an audition, emailed to the team after the Season 1 room wrapped, which won him the on-screen role. So an episode of the show is partly authored by the man who embodies one of its characters.",
+        "why": "A neat writer-actor dual credit to keep in mind while watching Roy. The character's voice and the episode's script come from the same person.",
+        "source": "<em>Wikipedia</em> (episode credits); <em>ScreenRant</em> (Goldstein's audition).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Goldstein as writer of S3E4 and as the Season 1 writer who self-taped to land the Roy Kent role is documented across Wikipedia, Fandom, and ScreenRant. Snippet-based verification (WebFetch blocked this session).",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
+          "https://screenrant.com/ted-lasso-roy-kent-brett-goldstein-not-cast/"
+        ]
+      }
+    }
+  ]
+}
