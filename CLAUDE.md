@@ -19,6 +19,11 @@ philosophy or plot facts to fill an episode.
 - **`index.html`** is the whole app: one IIFE `fetch`es `./episodes.json`, builds
   the episode `<select>`, and renders cards into the prototype's markup. Key
   behaviors that are easy to break:
+  - **Seasons** — `episodes.json` holds a `seasons` array (Season 1 + Season 3).
+    The picker is one `<select>` grouped by season via `<optgroup>`; option
+    values are `"{season}-{number}"`, and `selectEpisode(season, number)` keys on
+    both. The script normalizes to `DATA.seasons || [{season, episodes}]`, so the
+    older single-season shape still loads. Card `id`s carry the season (`s1…`/`s3…`).
   - **Re-gate on every episode switch** — a new episode's cards stay hidden
     behind the spoiler button until tapped. `selectEpisode()` resets this.
   - **Display contract** (`displayCards()` + the `GROUNDING_MIN` /
@@ -33,11 +38,13 @@ philosophy or plot facts to fill an episode.
 - **`design-reference/believe-s1e1.html`** is the approved visual source of
   truth. Match it exactly; do not redesign. Design tokens and the taped BELIEVE
   banner / torn-paper cards live here and are mirrored in `index.html`.
-- **`episodes.json`** is the only content file. Card schema and the optional
-  scoring fields (`grounding`, `interest`, `category`, `groundingStatus`,
-  `groundingNotes`, `sourcesChecked`) are documented in `README.md` and
-  `docs/facts-schema.md`. E1 has 5 verified cards; E2–E10 are "coming soon"
-  placeholders being backfilled.
+- **`episodes.json`** is the only content file: `{ show, fromMom, seasons:[…] }`.
+  Card schema and the optional scoring fields (`grounding`, `interest`,
+  `category`, `groundingStatus`, `groundingNotes`, `sourcesChecked`) are
+  documented in `README.md` and `docs/facts-schema.md`. Season 1: E1 has 5
+  verified cards, E2–E10 are "coming soon" placeholders being backfilled.
+  Season 3: all 12 episodes shipped (103 editorially curated cards), promoted
+  from `research/season3.promoted.json` via the pipeline below.
 
 ## Content pipeline (how cards get written)
 
