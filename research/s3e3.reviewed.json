@@ -1,5 +1,9 @@
 {
-  "episode": { "season": 3, "number": 3, "title": "4-5-1" },
+  "episode": {
+    "season": 3,
+    "number": 3,
+    "title": "4-5-1"
+  },
   "reviewed_by": "grounding-reviewer",
   "threshold": 60,
   "facts": [
@@ -14,7 +18,13 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E03FourFiveOne",
         "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/"
       ],
-      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 5,
+        "surprise": 2,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
       "interest_score": 79,
       "tier": "silver",
       "include": true,
@@ -47,7 +57,13 @@
         "https://ted-lasso.fandom.com/wiki/Zava",
         "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
       ],
-      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 3,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
       "interest_score": 79,
       "tier": "silver",
       "include": true,
@@ -80,7 +96,13 @@
         "https://ted-lasso.fandom.com/wiki/Zava",
         "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
       ],
-      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 5,
+        "surprise": 4,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
       "interest_score": 93,
       "tier": "gold",
       "include": true,
@@ -113,7 +135,13 @@
         "https://clutchpoints.com/ted-lasso-season-3-episode-3-ending-explained",
         "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-season-3-anxiety-depression-therapy-mental-health"
       ],
-      "scores": { "grounding": 4, "insight": 5, "surprise": 2, "relevance": 5, "spoiler_safety": 4 },
+      "scores": {
+        "grounding": 4,
+        "insight": 5,
+        "surprise": 2,
+        "relevance": 5,
+        "spoiler_safety": 4
+      },
       "interest_score": 77,
       "tier": "silver",
       "include": true,
@@ -146,7 +174,13 @@
         "https://www.themarysue.com/fans-are-appalled-at-the-bad-behavior-in-ted-lasso-episode-3/",
         "https://medium.com/@dove_the_love_therapist/ted-lasso-a-tale-of-two-therapists-0bea7a39a669"
       ],
-      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "scores": {
+        "grounding": 4,
+        "insight": 5,
+        "surprise": 3,
+        "relevance": 5,
+        "spoiler_safety": 4
+      },
       "interest_score": 84,
       "tier": "gold",
       "include": true,
@@ -179,7 +213,13 @@
         "https://ted-lasso.fandom.com/wiki/Colin_Hughes",
         "https://variety.com/2023/tv/actors/ted-lasso-billy-harris-1235583840/"
       ],
-      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 2 },
+      "scores": {
+        "grounding": 4,
+        "insight": 5,
+        "surprise": 3,
+        "relevance": 5,
+        "spoiler_safety": 2
+      },
       "interest_score": 80,
       "tier": "gold",
       "include": true,
@@ -211,7 +251,13 @@
         "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-3-roy-jamie-training-explained-1234953694/",
         "https://www.imdb.com/news/ni64019825/"
       ],
-      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 2 },
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 2,
+        "relevance": 5,
+        "spoiler_safety": 2
+      },
       "interest_score": 66,
       "tier": "silver",
       "include": true,
@@ -244,7 +290,13 @@
         "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516",
         "https://www.slashfilm.com/1242922/ted-lasso-season-3-zava-based-on-zlatan-ibrahimovic/"
       ],
-      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 4,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
       "interest_score": 82,
       "tier": "gold",
       "include": true,
@@ -278,7 +330,13 @@
         "https://en.wikipedia.org/wiki/Murray_Head",
         "https://www.dexerto.com/tv-movies/ted-lasso-soundtrack-all-songs-from-seasons-1-3-2161696/"
       ],
-      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 5,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
       "interest_score": 89,
       "tier": "gold",
       "include": true,
@@ -311,7 +369,13 @@
         "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
         "https://www.tunefind.com/show/ted-lasso/season-3/235145"
       ],
-      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 5,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
       "interest_score": 89,
       "tier": "gold",
       "include": true,
@@ -344,7 +408,13 @@
         "https://www.tunefind.com/show/ted-lasso/season-3/235145",
         "https://www.dexerto.com/tv-movies/ted-lasso-soundtrack-all-songs-from-seasons-1-3-2161696/"
       ],
-      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 4 },
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 3,
+        "relevance": 3,
+        "spoiler_safety": 4
+      },
       "interest_score": 62,
       "tier": "silver",
       "include": true,
@@ -377,7 +447,13 @@
         "https://www.thereviewgeek.com/tedlasso-s3e3review/",
         "https://screenspeck.com/2023/04/21/ted-lasso-musical-references-ranked/"
       ],
-      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 4,
+        "relevance": 4,
+        "spoiler_safety": 4
+      },
       "interest_score": 73,
       "tier": "silver",
       "include": true,
@@ -410,8 +486,14 @@
         "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/",
         "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus"
       ],
-      "scores": { "grounding": 2, "insight": 3, "surprise": 5, "relevance": 1, "spoiler_safety": 5 },
-      "interest_score": 67,
+      "scores": {
+        "grounding": 2,
+        "insight": 3,
+        "surprise": 5,
+        "relevance": 1,
+        "spoiler_safety": 5
+      },
+      "interest_score": 70,
       "tier": "silver",
       "include": false
     },
@@ -425,7 +507,13 @@
         "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
         "https://www.imdb.com/title/tt19655880/fullcredits/"
       ],
-      "scores": { "grounding": 4, "insight": 2, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "scores": {
+        "grounding": 4,
+        "insight": 2,
+        "surprise": 2,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
       "interest_score": 58,
       "tier": "bronze",
       "include": false
