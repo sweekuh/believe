@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Believe — Ted Lasso, Season 1</title>
-<meta name="description" content="Little notes on the deeper stuff hiding under the jokes in Ted Lasso, Season 1.">
+<title>Believe — Ted Lasso</title>
+<meta name="description" content="Little notes on the deeper stuff hiding under the jokes in Ted Lasso.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
@@ -313,7 +313,9 @@
     };
 
     var DATA = null;
+    var SEASONS = null;          // normalized: [{ season, episodes:[...] }, ...]
     var currentEpisode = null;
+    var currentSeasonNum = null;
 
     var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -341,17 +343,25 @@
     }
 
     // ---- Build the episode picker ----
+    // One <select>, grouped by season with <optgroup>. Option values are
+    // "season-number" (e.g. "3-1") so episode numbers can repeat across seasons.
     function buildPicker(){
       var frag = document.createDocumentFragment();
-      DATA.episodes.forEach(function(ep){
-        var opt = document.createElement("option");
-        opt.value = String(ep.number);
-        opt.textContent = ep.number + ". " + ep.title;
-        frag.appendChild(opt);
+      SEASONS.forEach(function(sn){
+        var group = document.createElement("optgroup");
+        group.label = "Season " + sn.season;
+        sn.episodes.forEach(function(ep){
+          var opt = document.createElement("option");
+          opt.value = sn.season + "-" + ep.number;
+          opt.textContent = ep.number + ". " + ep.title;
+          group.appendChild(opt);
+        });
+        frag.appendChild(group);
       });
       els.picker.appendChild(frag);
       els.picker.addEventListener("change", function(){
-        selectEpisode(parseInt(els.picker.value, 10));
+        var parts = els.picker.value.split("-");
+        selectEpisode(parseInt(parts[0], 10), parseInt(parts[1], 10));
       });
     }
 
@@ -447,19 +457,25 @@
     }
 
     // ---- Switch to an episode: always re-gate ----
-    function selectEpisode(number){
-      var ep = null;
-      for (var i = 0; i < DATA.episodes.length; i++){
-        if (DATA.episodes[i].number === number){ ep = DATA.episodes[i]; break; }
+    function selectEpisode(seasonNum, number){
+      var sn = null, ep = null;
+      for (var i = 0; i < SEASONS.length; i++){
+        if (SEASONS[i].season === seasonNum){ sn = SEASONS[i]; break; }
+      }
+      if (!sn) return;
+      for (var j = 0; j < sn.episodes.length; j++){
+        if (sn.episodes[j].number === number){ ep = sn.episodes[j]; break; }
       }
       if (!ep) return;
       currentEpisode = ep;
+      currentSeasonNum = seasonNum;
 
-      try { localStorage.setItem(LAST_EP_KEY, String(number)); } catch(e){}
-      if (els.picker.value !== String(number)) els.picker.value = String(number);
+      var key = seasonNum + "-" + number;
+      try { localStorage.setItem(LAST_EP_KEY, key); } catch(e){}
+      if (els.picker.value !== key) els.picker.value = key;
 
       // Title block
-      els.eyebrow.textContent = "Season " + DATA.season + " · Episode " + ep.number;
+      els.eyebrow.textContent = "Season " + seasonNum + " · Episode " + ep.number;
       els.title.textContent = ep.title;
       if (ep.intro && ep.intro !== ""){
         els.intro.textContent = ep.intro;
@@ -520,26 +536,28 @@
 
     els.revealBtn.addEventListener("click", function(){ revealNotes(true); });
 
-    // ---- Copy all notes across the whole season ----
+    // ---- Copy all notes across every season ----
     function gatherNotesText(){
-      var lines = ["My Believe notes — Ted Lasso, Season " + DATA.season, ""];
+      var lines = ["My Believe notes — " + (DATA.show || "Ted Lasso"), ""];
       var any = false;
-      DATA.episodes.forEach(function(ep){
-        var epLines = [];
-        ep.cards.forEach(function(card){
-          if (isPlaceholder(card)) return;
-          var note = getNote(card.id).trim();
-          if (note){
-            var title = (card.title || "").replace(/<[^>]*>/g, "");
-            epLines.push("  • " + title + ": " + note);
+      SEASONS.forEach(function(sn){
+        sn.episodes.forEach(function(ep){
+          var epLines = [];
+          ep.cards.forEach(function(card){
+            if (isPlaceholder(card)) return;
+            var note = getNote(card.id).trim();
+            if (note){
+              var title = (card.title || "").replace(/<[^>]*>/g, "");
+              epLines.push("  • " + title + ": " + note);
+            }
+          });
+          if (epLines.length){
+            any = true;
+            lines.push("Season " + sn.season + ", Episode " + ep.number + " — " + ep.title);
+            lines = lines.concat(epLines);
+            lines.push("");
           }
         });
-        if (epLines.length){
-          any = true;
-          lines.push("Episode " + ep.number + " — " + ep.title);
-          lines = lines.concat(epLines);
-          lines.push("");
-        }
       });
       if (!any) return "";
       return lines.join("\n").trim() + "\n";
@@ -580,16 +598,23 @@
     // ---- Boot ----
     function start(){
       if (DATA.fromMom) els.fromMom.textContent = DATA.fromMom;
+      // Normalize to a seasons array so older single-season data still works.
+      SEASONS = DATA.seasons || [{ season: DATA.season, episodes: DATA.episodes }];
       buildPicker();
-      var startNum = DATA.episodes[0].number;
+      var first = SEASONS[0];
+      var startSeason = first.season, startNum = first.episodes[0].number;
       try {
         var saved = localStorage.getItem(LAST_EP_KEY);
         if (saved){
-          var n = parseInt(saved, 10);
-          if (DATA.episodes.some(function(e){ return e.number === n; })) startNum = n;
+          var parts = saved.split("-");
+          var s = parseInt(parts[0], 10), n = parseInt(parts[1], 10);
+          var ok = SEASONS.some(function(sn){
+            return sn.season === s && sn.episodes.some(function(e){ return e.number === n; });
+          });
+          if (ok){ startSeason = s; startNum = n; }
         }
       } catch(e){}
-      selectEpisode(startNum);
+      selectEpisode(startSeason, startNum);
     }
 
     fetch("./episodes.json", { cache: "no-cache" })

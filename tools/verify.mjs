@@ -79,7 +79,7 @@ try {
   await page.goto(base + "/index.html", { waitUntil: "networkidle0" });
   await new Promise(r => setTimeout(r, 500));
 
-  check("loads on episode 1", (await page.$eval("#epPicker", el => el.value)) === "1");
+  check("loads on episode 1", (await page.$eval("#epPicker", el => el.value)) === "1-1");
   check("cards gated on load", (await page.$eval("#notes", el => el.classList.contains("open"))) === false);
   check("spoiler gate visible on load", (await page.$eval("#gate", el => !el.hidden)));
   if (shots) await page.screenshot({ path: join(outDir, "01-landing.png"), fullPage: true });
@@ -107,7 +107,7 @@ try {
   check("copy-all includes the saved note", /This one got me, Teddy\./.test(clip));
 
   // Episode 8: scored cards exercise the display contract (filter + sort by interest)
-  await page.select("#epPicker", "8");
+  await page.select("#epPicker", "1-8");
   await new Promise(r => setTimeout(r, 300));
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
@@ -116,16 +116,29 @@ try {
   check("E8 sorts most-interesting first (darts before Diamond Dogs)", e8titles[0] === "The darts scene");
   if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
-  await page.select("#epPicker", "2");
+  await page.select("#epPicker", "1-2");
   await new Promise(r => setTimeout(r, 400));
   check("E2 title is Biscuits", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Biscuits");
   check("E2 shows Coming soon placeholder", /coming soon/i.test(await page.$eval("#notes .card .tag", el => el.textContent)));
   check("placeholder episode skips the gate", (await page.$eval("#gate", el => el.hidden)) === true);
   if (shots) await page.screenshot({ path: join(outDir, "03-placeholder-e2.png"), fullPage: true });
 
-  await page.select("#epPicker", "1");
+  await page.select("#epPicker", "1-1");
   await new Promise(r => setTimeout(r, 300));
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
+
+  // ---- Season 3: curated cards under their own optgroup ----
+  check("picker groups both seasons (2 optgroups)", (await page.$$eval("#epPicker optgroup", g => g.length)) === 2);
+  await page.select("#epPicker", "3-1");
+  await new Promise(r => setTimeout(r, 300));
+  check("S3E1 title is Smells Like Mean Spirit", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Smells Like Mean Spirit");
+  check("S3E1 eyebrow shows Season 3", /Season 3 . Episode 1/.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("S3E1 gated on switch", (await page.$eval("#notes", el => !el.classList.contains("open"))));
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S3E1 reveals 8 curated cards", (await page.$$eval("#notes .card", e => e.length)) === 8);
+  check("S3E1 each card has a note box", (await page.$$eval("#notes .yours textarea", e => e.length)) === 8);
+  if (shots) await page.screenshot({ path: join(outDir, "05-s3e1.png"), fullPage: true });
 
   check("no app console / network errors", errors.length === 0);
   if (errors.length) log("  errors:", errors);
