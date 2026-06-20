@@ -1,0 +1,221 @@
+{
+  "episode": { "season": 3, "number": 12, "title": "So Long, Farewell" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s3e12-believe-is-a-decision",
+      "type": "philosophy",
+      "title": "Belief is a choice you make, not a sign on the wall",
+      "detail": "The finale's central philosophical payoff: with the BELIEVE sign gone from the dressing-room wall, two goals down at halftime in the final match, Ted reveals that the long-missing 'fourth' ingredient of his Total Football / 'Lasso Way' is belief itself. The point recaps draw out is that belief was never located in the paper sign — Ted explicitly downplays the object as 'just a sign' — but in the people who decide to practice it; the sign was only ever a reminder. This is the show's strongest statement of William James-style precursive faith (believing ahead of the evidence) relocated from a slogan to a deliberate, repeatable choice. ATTRIBUTION/THEME FLAG: 'precursive faith / William James' is the factsheet mapping (ch. 3, ethics of belief), not something named on screen — the reviewer should treat the James link as interpretive framing, while the in-show beat (belief as a decision, not the object) is firmly sourced.",
+      "moment": "Down at halftime with the torn sign gone, the coach tells the team the missing piece was belief all along — and that it never lived in the paper, only in the people who choose it.",
+      "sources": [
+        { "url": "https://thecinemaholic.com/what-is-number-4-what-does-that-ted-lasso-finale-scene-mean/", "note": "TheCinemaholic: the 'Number 4' reveal — belief as the missing ingredient of the Lasso Way, located in the players not the sign" },
+        { "url": "https://www.inc.com/jason-aten/these-2-sentences-from-ted-lasso-finale-are-best-thing-about-entire-season-a-brilliant-lesson-on-how-to-lead-people.html", "note": "Inc.: belief is not something hanging on the wall but inside the people; community-not-leader reading" },
+        { "url": "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)", "note": "Wikipedia episode page: halftime scene and the BELIEVE-sign payoff in the final match" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-kintsugi-believe-sign",
+      "type": "easter-egg",
+      "title": "The BELIEVE sign is mended with gold (kintsugi)",
+      "detail": "In the closing montage, Roy, Beard and Nate reassemble the torn-up BELIEVE sign and hang it back in the dressing room — repaired so the seams show, described by multiple recaps as a kintsugi-style golden mend (the Japanese art of repairing broken pottery with gold, treating the breakage as part of the object's history rather than something to hide). The visual rhymes with the finale's idea that brokenness can be made whole and even more beautiful, and that belief is rebuilt by hand, together. ATTRIBUTION FLAG: the 'kintsugi' label is recapper/commentary interpretation of how the mended sign looks (gilded seams); confirm whether the repair is literally gold-lined on screen vs. simply taped, since sources vary between 'taped back together' and 'golden repair.'",
+      "moment": "In the send-off montage, three of the coaches piece the ripped sign back together and rehang it, the mend left visible like a scar turned to gold.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-believe-sign-explained-why-nate-ripped/", "note": "ScreenRant: the BELIEVE sign torn by Nate, repaired and rehung; brokenness-made-whole symbolism" },
+        { "url": "https://lifehoney.com/blogs/wellness-wisdom/how-ted-lassos-team-found-strength-in-brokenness", "note": "LifeHoney: frames the repaired sign as kintsugi — golden repair, strength in brokenness" },
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234", "note": "Today: montage shows Roy, Beard and Nate rehanging the repaired BELIEVE sign" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-title-sound-of-music",
+      "type": "reference",
+      "title": "The title is 'So Long, Farewell' from The Sound of Music",
+      "detail": "The episode takes its name from 'So Long, Farewell,' the goodnight/goodbye song the von Trapp children sing in Rodgers & Hammerstein's 1959 musical The Sound of Music (and the 1965 film). In the episode the Richmond players surprise Ted at his last training session by performing the number as a send-off, a nod to Ted's established love of the musical. The title does double duty: it is both a literal farewell to Ted and a farewell to the series itself. Well sourced.",
+      "moment": "At Ted's final practice, the squad ambushes him with a full rendition of a children's goodbye song from a classic musical he adores, turning the dressing-room farewell into a production number.",
+      "sources": [
+        { "url": "https://www.slashfilm.com/1301514/ted-lasso-finale-sound-of-music-reference/", "note": "SlashFilm: the team performs 'So Long, Farewell' from The Sound of Music as a send-off; title origin" },
+        { "url": "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)", "note": "Wikipedia: episode title and the Sound of Music number" },
+        { "url": "https://en.wikipedia.org/wiki/So_Long,_Farewell", "note": "Wikipedia: 'So Long, Farewell' as the Rodgers & Hammerstein Sound of Music song (1959 musical / 1965 film)" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e12-richmond-way-book-retitle",
+      "type": "callback",
+      "title": "Trent's book becomes 'The Richmond Way' — 'it was never about me'",
+      "detail": "Trent Crimm finishes his book chronicling the season, originally titled 'The Lasso Way.' Ted reads the draft, loves it, but leaves a note urging Trent to change the title because the story was never about him — it was about the club and the people. Trent retitles it 'The Richmond Way,' and in the montage it's published and he's signing copies. This pays off Trent's season-long embed with the team and crystallizes the finale's community-over-leader thesis. PLACEMENT NOTE: this beat belongs to E12 (the finale), not an earlier episode — confirm the retitle and Ted's note happen here.",
+      "moment": "Handed the manuscript of a book named after him, the coach quietly suggests a new title — because the story was always about the team, not him — and it ships as 'The Richmond Way.'",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-the-richmond-way-book-roy-change/", "note": "ScreenRant: 'The Lasso Way' retitled to 'The Richmond Way'; Ted's note that it was never about him" },
+        { "url": "https://www.distractify.com/p/is-the-richmond-way-a-real-book-ted-lasso", "note": "Distractify: Ted's manuscript note and the retitle to The Richmond Way in the finale" },
+        { "url": "https://9to5mac.com/2023/05/31/ted-lasso-finale-3-spoilers/", "note": "9to5Mac finale recap: Trent's book retitled and published in the closing montage" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-believe-team-mutiny-payoff",
+      "type": "theme",
+      "title": "The team owns the philosophy without Ted",
+      "detail": "A recurring read of the finale is that Ted has spent the season working himself out of a job — and the final match proves it. By tearing the BELIEVE sign into pieces the players keep and reassemble themselves, and by stepping back so the squad drives the comeback, Ted decentralizes his own authority. Recaps frame the come-from-behind win and Ted's departure as the show's argument that healthy leadership makes itself unnecessary: the community, not the charismatic leader, carries the belief forward. THEME (not an attribution): this is the synthesized throughline across several recaps; the reviewer should treat it as the episode's central idea rather than a sourced quote.",
+      "moment": "The coach who built the culture deliberately gets out of the way, letting the players reassemble the broken sign and win on their own — proof the belief no longer depends on him.",
+      "sources": [
+        { "url": "https://www.inc.com/jason-aten/these-2-sentences-from-ted-lasso-finale-are-best-thing-about-entire-season-a-brilliant-lesson-on-how-to-lead-people.html", "note": "Inc.: leadership lesson — belief lives in the people; Ted decentralizes himself" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-reviews/ted-lasso-series-finale-review-1235504593/", "note": "THR critics: finale about characters, change and the importance of community over the single leader" },
+        { "url": "https://thecinemaholic.com/what-is-number-4-what-does-that-ted-lasso-finale-scene-mean/", "note": "TheCinemaholic: the players keep and reassemble the torn sign themselves at halftime" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-a-beautiful-game-ed-sheeran",
+      "type": "production",
+      "title": "Ed Sheeran wrote an original song, 'A Beautiful Game,' for the finale",
+      "detail": "Ed Sheeran wrote and performed an original track, 'A Beautiful Game' (co-written with Foy Vance), specifically for the series finale; it was released as a single on May 31, 2023, the day the episode aired. Sheeran reportedly recorded vocals around stops on his stadium tour. The song later won a Creative Arts Emmy (Outstanding Original Music and Lyrics) for 2024. A strong production/aesthetics fact about how the show closes on bespoke music. CONFIRM with the reviewer: exact placement within the episode (sources tie it to the finale broadly), and the precise Emmy category/year wording.",
+      "moment": "An original song written for the show by a chart-topping singer-songwriter scores part of the farewell.",
+      "sources": [
+        { "url": "https://www.rollingstone.com/music/music-news/ed-sheeran-ted-lasso-series-finale-song-a-beautiful-game-1234744468/", "note": "Rolling Stone: Ed Sheeran's original 'A Beautiful Game' for the Ted Lasso finale, released finale day" },
+        { "url": "https://deadline.com/2024/01/ed-sheeran-emmy-award-winner-ted-lasso-a-beautiful-game-1235697113/", "note": "Deadline: Sheeran wins an Emmy for 'A Beautiful Game' from Ted Lasso" },
+        { "url": "https://primarywave.com/the-story-behind-ted-lassos-emmy-nominated-track-a-beautiful-game-performed-by-ed-sheeran-and-co-written-by-foy-vance-via-hollywood-reporter/", "note": "Primary Wave / THR: 'A Beautiful Game' co-written with Foy Vance; backstory" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e12-father-and-son-cat-stevens",
+      "type": "reference",
+      "title": "'Father and Son' by Cat Stevens / Yusuf closes the series",
+      "detail": "The closing montage and final moments are scored by 'Father and Son' by Cat Stevens (later Yusuf), originally from his 1970 album Tea for the Tillerman. The song stages a dialogue between a father urging patience and a son determined to leave and find his own way; recaps read it as resonating with Ted's pull between Richmond and home, his bond with his son Henry, and his own late father — the show's recurring father/son thread. A clear references/aesthetics card. The link of song-to-theme is recapper interpretation but the needle-drop placement is well sourced.",
+      "moment": "Over the final send-offs, a 1970s folk classic about a father and a departing son plays, mirroring the coach's choice to go home to his own boy.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-season-3-cat-stevens-father-son-song-meaning/", "note": "ScreenRant: 'Father and Son' by Cat Stevens closes the finale; meaning and father/son resonance" },
+        { "url": "https://www.cbr.com/ted-lasso-season3-cat-stevens/", "note": "CBR: identifies 'Father and Son' (Yusuf/Cat Stevens) as the final-montage song" },
+        { "url": "https://www.themarysue.com/the-ted-lasso-finale-used-the-one-song-guaranteed-to-make-everyone-cry/", "note": "The Mary Sue: the finale's use of 'Father and Son'" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-shadows-future-islands",
+      "type": "easter-egg",
+      "title": "'Shadows' by Future Islands plays as Ted reads the book",
+      "detail": "A late needle-drop, 'Shadows' by Future Islands featuring Debbie Harry (Blondie), plays as Ted reads Trent's manuscript near the end of the episode. Easy-to-miss aesthetics detail that ties the music thread to the book/community payoff. PLACEMENT NOTE: confirmed in E12 specifically (per the episode's soundtrack guides) — flag for the reviewer since earlier episodes also had book-related beats; this needle-drop belongs to the finale.",
+      "moment": "As the coach quietly reads the manuscript chronicling their season, a dreamy synth-pop track with a guest vocalist plays under the scene.",
+      "sources": [
+        { "url": "https://hiddenremote.com/2023/05/31/ted-lasso-soundtrack-songs-play-season-3-episode-12-long-farewell/", "note": "Hidden Remote: S3E12 soundtrack — 'Shadows' (Future Islands ft. Debbie Harry) as Ted reads Trent's book" },
+        { "url": "https://www.soapcentral.com/shows/ted-lasso-season-3-soundtrack-guide-a-complete-list-music-apple-tv-series", "note": "Soap Central: S3 soundtrack guide listing 'Shadows' in the finale" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-sound-of-music-brilliant-chaos",
+      "type": "production",
+      "title": "The Sound of Music number was real, joyful 'brilliant chaos'",
+      "detail": "Finale director Declan Lowney described the players' 'So Long, Farewell' performance as 'brilliant chaos': the cast rehearsed it separately so Jason Sudeikis hadn't seen it before shooting, and the team's elated reactions at the end were genuine and unscripted, with actors trying to one-up each other take after take. Lowney brought in a drone for a sweeping overhead shot of the celebration on the pitch. Nice behind-the-scenes/meta card about how the send-off was staged for authenticity. CONFIRM exact quote wording with the reviewer — paraphrase rather than reproduce.",
+      "moment": "The cast secretly rehearsed the musical number so the star's emotional reaction would be real; the director captured the elated aftermath with a drone shot.",
+      "sources": [
+        { "url": "https://www.cinemablend.com/interviews/ted-lassos-season-3-finale-director-why-sound-of-music-number-brilliant-chaos", "note": "CinemaBlend: Declan Lowney on the 'brilliant chaos,' separate rehearsal, genuine reactions and the drone shot" },
+        { "url": "https://awardsradar.com/2023/08/16/interview-ted-lasso-director-declan-lowney-says-so-long-farewell-discusses-fan-theories-and-the-final-shot/", "note": "Awards Radar: Lowney interview on the finale staging and final shot" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e12-roy-diamond-dogs-can-people-change",
+      "type": "philosophy",
+      "title": "Roy joins the Diamond Dogs and asks if people can really change",
+      "detail": "In a quietly important beat, the perpetually solo Roy Kent asks to become a Diamond Dog, confessing he wants to be 'someone better' but feels stuck. The group (now including Trent) debates whether people can truly change and chase perfection; Higgins offers the finale's plain wisdom — humans never become perfect, so the best anyone can do is keep asking for and accepting help, which is itself the forward motion. This maps to the show's progress-over-perfection ethic and to the Aristotelian habit-of-virtue thread (factsheet ch. 6) and friendship-as-mutual-betterment (Diamond Dogs, factsheet ch. 7). ATTRIBUTION/THEME FLAG: the philosopher links are factsheet framing, not named on screen; the in-show beat (Roy joins, the change/perfection debate, Higgins' advice) is sourced.",
+      "moment": "The gruff loner finally asks to join the support circle, admits he's struggling to change, and is told that no one ever reaches perfect — you just keep asking for help and keep moving toward better.",
+      "sources": [
+        { "url": "https://www.cinemablend.com/movies/features/finally-binged-ted-lasso-one-thing-about-ending-meant-most-to-me", "note": "CinemaBlend: Roy asks to be a Diamond Dog; Higgins' advice on never being perfect and accepting help" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E12SoLongFarewell", "note": "TV Tropes recap: Roy joins the Diamond Dogs; the can-people-change discussion" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-rebecca-stays-sells-to-fans",
+      "type": "callback",
+      "title": "Rebecca keeps the club and sells part of it to the fans",
+      "detail": "Rebecca decides not to sell AFC Richmond — choosing to stay near her Richmond 'family' just as Ted chooses to return to his — and sells 49% of the club's shares back to the supporters, a community-ownership gesture. It pays off her full-series arc from a vengeful ex-wife who only wanted the club to spite Rupert (Augustine's misordered love, factsheet ch. 1) to a leader who loves it for itself (the 'feminist Stoic' read, factsheet ch. 18). She also warms to Keeley's pitch for a Richmond women's team. CONFIRM the exact 49% figure and the fan-share mechanism with the reviewer.",
+      "moment": "The owner who once wanted the club only to wound her ex-husband chooses to keep it for love of the place — and hands nearly half of it to the fans.",
+      "sources": [
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234", "note": "Today: Rebecca keeps the club, sells 49% to fans, stays near her Richmond family" },
+        { "url": "https://thecinemaholic.com/ted-lasso-what-happens-to-rebecca-at-the-end-does-she-end-up-with-the-dutchman/", "note": "TheCinemaholic: Rebecca's decision to keep the club and her ending" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-rebecca-dutch-pilot-payoff",
+      "type": "callback",
+      "title": "Rebecca's airport reunion with the Dutch pilot pays off a season-long setup",
+      "detail": "Leaving the airport after saying goodbye to Ted, Rebecca helps a little girl who trips — and the child's father turns out to be the Dutch man whose houseboat she stayed on during her Amsterdam trip earlier in the season (he's a pilot). The montage shows them dating. This pays off both the Amsterdam houseboat encounter and a Season 3 psychic's prophecy that Rebecca would become a mother (here, a stepmother / 'soccer mom') — a setup-and-payoff across the season. CONFIRM the psychic-prophecy linkage and the houseboat-man identity with the reviewer; some details rest on recap synthesis.",
+      "moment": "Saying her last goodbye at the airport, the club owner stops to help a fallen child — and looks up to find the stranger whose houseboat she'd shared an ocean away.",
+      "sources": [
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234", "note": "Today: airport reunion with the Dutch houseboat man / pilot; the psychic's motherhood prophecy" },
+        { "url": "https://deadline.com/2023/05/ted-lasso-season-3-finale-recap-spoilers-1235383274/", "note": "Deadline finale recap: Rebecca and the Dutchman, airport scene" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-beard-stays-stonehenge-wedding",
+      "type": "easter-egg",
+      "title": "Beard fakes an emergency to stay, and marries Jane at Stonehenge",
+      "detail": "On the plane home with Ted, Coach Beard realizes he doesn't want to leave Jane and fakes a medical emergency (a burst appendix) to get off; the montage later shows him marrying a visibly pregnant Jane in a ceremony at Stonehenge surrounded by friends. A fan-favorite, easy-to-miss send-off that resolves Beard's storyline of staying in Richmond. CONFIRM specifics (the faked-appendix gag and the Stonehenge wedding) with the reviewer against the episode/Wiki.",
+      "moment": "About to fly home with his best friend, the assistant coach invents a medical emergency to stay behind for the woman he loves — and turns up later getting married at an ancient stone circle.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E12SoLongFarewell", "note": "TV Tropes recap: Beard fakes a burst appendix to leave the plane; Stonehenge wedding to a pregnant Jane" },
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234", "note": "Today: Beard stays for Jane and the montage Stonehenge wedding" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-ted-home-coaches-henry",
+      "type": "theme",
+      "title": "Ted goes home to Kansas and coaches his son's team",
+      "detail": "The series' final image: Ted is back in Kansas, reunited with Henry (and Michelle in the stands), now coaching his son's youth soccer team. It closes the show's home-and-fatherhood throughline — Ted left coaching American football to come to England, and leaves Richmond to be a present father, choosing relationship over career. Paired with 'Father and Son' on the soundtrack, it's the emotional resolution the whole series builds toward. A clean thematic card on home, presence, and what success is for.",
+      "moment": "The last shot finds the coach back where he started, on the touchline of a children's game — this time coaching his own son, finally home.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E12SoLongFarewell", "note": "TV Tropes recap: final scene of Ted coaching Henry's team in Kansas, Michelle watching" },
+        { "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234", "note": "Today: Ted reunites with Henry and coaches his youth team as the series closes" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-keeley-roy-jamie-no-choice",
+      "type": "theme",
+      "title": "Keeley refuses to choose between Roy and Jamie",
+      "detail": "The season's Keeley/Roy/Jamie love triangle resolves by refusing to resolve: when Roy and Jamie squabble and effectively ask Keeley to pick one of them, she's insulted by the premise and throws them both out, choosing neither and keeping her own agency. Critics were divided — some read it as Keeley refusing to be a prize, others as the show dodging the storyline — and Juno Temple has since spoken about who Keeley 'really' ends up with. THEME/COMMENTARY FLAG: the on-screen beat (she chooses neither, both men ejected) is well sourced; any 'they end up together after the credits' claim is actor commentary, not in the episode — keep them separate.",
+      "moment": "Asked to pick between the two men fighting over her, she's offended they'd assume she would, and shows them both the door.",
+      "sources": [
+        { "url": "https://collider.com/ted-lasso-season-3-romantic-storyline-keeley-roy-jamie/", "note": "Collider: the love triangle left unresolved; Keeley chooses neither in the finale" },
+        { "url": "https://comicbook.com/tv-shows/news/juno-temple-ted-lasso-keeley-jones-chooses-roy-or-jamie-comments/", "note": "ComicBook: Juno Temple on Keeley's choice; finale leaves it open" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s3e12-nate-redemption-believe-callback",
+      "type": "callback",
+      "title": "Nate apologizes to Ted, who answers with grace about the torn sign",
+      "detail": "Nate — who ripped the BELIEVE sign in his Season 2 heel turn — returns and tearfully apologizes to Ted, who defuses the guilt by telling him he himself tore the sign up plenty of times too. The exchange completes Nate's redemption arc and folds directly into the finale's belief-as-a-practice idea: belief isn't a one-time act of faith but something you keep choosing after you've broken it. It also speaks to the show's forgiveness/moral-agency thread (factsheet ch. 19). PLACEMENT NOTE: the original sign-tearing is a Season 2 finale moment; only Nate's apology and reconciliation belong to E12 — keep the two episodes distinct.",
+      "moment": "The protege who once tore the sign down apologizes through tears, and the coach lets him off the hook by admitting he'd torn it up many times himself.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/So_Long,_Farewell", "note": "Ted Lasso Wiki: Nate apologizes; Ted says he tore the BELIEVE sign up more times after Nate did" },
+        { "url": "https://www.soapcentral.com/shows/what-happened-nate-ted-lasso-details-explored-depth", "note": "Soap Central: Nate's redemption arc and reconciliation with the team and Ted" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    }
+  ]
+}

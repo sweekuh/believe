@@ -1,0 +1,94 @@
+{
+  "episode": { "season": 3, "number": 7, "title": "The Strings That Bind Us" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e7-forgive-them-to-spite-them",
+      "verdict": "promote",
+      "interest_take": "Forgiveness reframed as defiance, not weakness — the episode's clearest ethical statement and a real 'I felt that' beat.",
+      "writing_notes": "Idea is the true payoff and distinct from moment/why; warm, concrete, no dialogue reproduced. Best-written card in the set.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-red-string-of-fate",
+      "verdict": "promote",
+      "interest_take": "The title made literal, plus the genuine Chinese folklore most viewers assume was invented for the gag — strong 'I never caught that.'",
+      "writing_notes": "Tight; idea carries the folklore payoff and the why ties it to the team. Keeps the Roy gag tasteful.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-jamie-heart-not-head",
+      "verdict": "promote",
+      "interest_take": "Jamie choosing connector over finisher is the human form of the whole theme; measured against S1 ego, it lands.",
+      "writing_notes": "Clear arc framing; idea distinct from moment. Slightly arc-dependent but reads fine on its own.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-shut-up-and-dribble",
+      "verdict": "promote",
+      "interest_take": "Real LeBron/Ingraham origin behind Sam's storyline is a sharp non-fiction hook a casual viewer would miss.",
+      "writing_notes": "Crisp; idea delivers the real-world source, why literalizes it on the wall. Right category (Ethics).",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-total-football-selflessness",
+      "verdict": "promote",
+      "interest_take": "Total Football as ethic-not-formation is the episode's tactical spine; Michels/Cruyff history is worth knowing.",
+      "writing_notes": "A touch teachy but well-organized; the moral gloss is the payoff. Necessary context for the red-string and Jamie cards.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-team-restores-restaurant-community",
+      "verdict": "promote",
+      "interest_take": "The strings that bind in training become the bond around a wounded teammate — the off-pitch payoff of the title.",
+      "writing_notes": "Warm and clear; idea ties pitch to community. Pairs with forgive-them without simply repeating it.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-love-bombing-warning",
+      "verdict": "promote",
+      "interest_take": "Rebecca naming Jack's gifts as 'love bombing' recasts the romance as a warning — gives the set a relationship beat outside the two big plots.",
+      "writing_notes": "Idea distinct from moment; the Rupert echo is the real weight. Adds variety to a tactics-heavy episode.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-enjoy-tekno-ending",
+      "verdict": "promote",
+      "interest_take": "An Afrobeats needle-drop answering a racist attack with Sam's own Nigerian identity — quiet, easy-to-miss craft.",
+      "writing_notes": "Lone aesthetics card; concise and pointed. Good closer that rewards a re-listen.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-trust-built-over-three-seasons",
+      "verdict": "cut",
+      "interest_take": "Trent narrating 'this took three seasons' is the episode explaining itself — the most recap-ish restatement of an interconnection theme the red-string and Jamie cards already deliver more vividly.",
+      "writing_notes": "Well-written but redundant; fourth card on the same selflessness/connection idea. spoiler_safety 3 (leans on prior seasons) seals it.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e7-brinda-barot-real-politicians",
+      "verdict": "cut",
+      "interest_take": "Lowest interest (3) and overlaps shut-up-and-dribble's real-world hook without adding emotion or a 'never caught that.'",
+      "writing_notes": "Hedged, critic-reading prose ('commentators read,' 'not a writers' statement') is exactly the academic tone to avoid for a warm reader.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e7-cruyff-arena-jamie-man-city",
+      "verdict": "cut",
+      "interest_take": "Neat continuity but thinly sourced (partial) and overlaps the stronger Jamie and Total Football cards; dilutes rather than adds.",
+      "writing_notes": "Fine prose, but the payoff (Jamie has lived this system) is already implied by the heart-not-head card.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e7-forgive-them-to-spite-them",
+    "s3e7-red-string-of-fate",
+    "s3e7-jamie-heart-not-head",
+    "s3e7-shut-up-and-dribble",
+    "s3e7-total-football-selflessness",
+    "s3e7-team-restores-restaurant-community",
+    "s3e7-love-bombing-warning",
+    "s3e7-enjoy-tekno-ending"
+  ],
+  "episode_notes": "Strong episode with a clear spine but real thematic crowding: five cards orbit selflessness/interconnection (Total Football, red string, Jamie, Trent's trust speech) and five touch the Sam plot. Kept the most vivid of each cluster and cut the restatements. Trust-built (Trent) cut as the fourth, most recap-ish version of the connection thesis (and series-dependent). Brinda-barot cut as the lowest-interest, most hedged/academic card, overlapping shut-up-and-dribble. Cruyff-arena cut as thin, partial continuity already implied by the Jamie card. Excluded set reviewed: jane-austen (surprise 5) is genuinely fun but correctly held — contested E6-vs-E7 placement; red-string-improv-origin is single-source (grounding 2). No rescues. Resulting set of 8 is varied: ethics, folklore, arc, real-world reference, tactics, community, relationships, aesthetics — ordered emotional-spine-first, then the title and the marquee arc."
+}

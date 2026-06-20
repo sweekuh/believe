@@ -1,0 +1,114 @@
+{
+  "episode": { "season": 3, "number": 8, "title": "We'll Never Have Paris" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e8-hey-jude-divorce-comfort",
+      "verdict": "promote",
+      "interest_take": "Genuine 'I never caught that' — the song's real origin (written to console a child of divorce) maps exactly onto Ted and Henry. Top of the episode.",
+      "writing_notes": "idea/why distinct; the payoff lands; warm, never academic. 'Listen for who it's really being sung to' is perfect.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-locker-room-consent-debate",
+      "verdict": "promote",
+      "interest_take": "The banter-stops beat plus the recipient's-duty point is fresh and quietly moving; not an obvious recap.",
+      "writing_notes": "Tasteful: foregrounds the ethics, no lurid detail. 'A small drama of ethics among friends' is warm and precise.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-ted-lets-go-henry-happiness",
+      "verdict": "promote",
+      "interest_take": "Reframes the comic engagement-panic as a real act of letting go — deepens the whole arc rather than recapping it.",
+      "writing_notes": "Distinct fields; 'the growth isn't the no-ring relief, it's the choice to let go' is the real payoff. Ordo amoris correctly kept as gloss.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-roy-jealousy-undercuts-support",
+      "verdict": "promote",
+      "interest_take": "'Care that's really about the carer isn't care' is a sharp, non-obvious read; the Roy/Jamie contrast earns it.",
+      "writing_notes": "Tasteful paraphrase of the question; idea is the payoff, why points to the watch-for. Clean.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-consent-autonomy-theme",
+      "verdict": "promote",
+      "interest_take": "Lower surprise (it's the episode's stated spine), but the 'whose wrong is it?' framing is the ethical anchor the set needs.",
+      "writing_notes": "Exemplary tone for a sensitive subject: locates the wrong with the leaker, never asks Keeley to feel shame. Non-lurid.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-victim-blaming-jack-statement",
+      "verdict": "promote",
+      "interest_take": "'Victim-blaming arrives as crisis management' is a genuinely useful distinction; the handed-apology beat makes it concrete.",
+      "writing_notes": "Distinct from consent-autonomy (mechanism vs principle). Tasteful, concise. 'The gap between protecting an image and protecting a person' lands.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-casablanca-title-inversion",
+      "verdict": "promote",
+      "interest_take": "The flipped-farewell reading is a satisfying catch that reframes the title and Ted's arc; reference card with real depth.",
+      "writing_notes": "Clear and elegant; 'the same city, the opposite lesson' is a clean payoff. Reference category fits.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-nate-love-hounds",
+      "verdict": "promote",
+      "interest_take": "Callback that doubles as character contrast — the knockoff collapsing because it lacks the trust underneath is a real idea, not just a spot-the-reference.",
+      "writing_notes": "'Some things can't be copied without the trust underneath them' is the payoff. Concise; warm.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e8-rebecca-i-got-you",
+      "verdict": "revise",
+      "interest_take": "True and warm, but low surprise and it overlaps the Roy card's 'support that centers the supporter' axis — risk of the set hammering one lesson.",
+      "writing_notes": "Well-written but the idea ('presence, not a plan') is close kin to Roy's and to consent-autonomy's support framing. Sharpen so it isn't a third variation.",
+      "spoiler_concern": "none",
+      "suggested_edit": "Lean the idea harder on the specific contrast with Jack's PR machinery (support that lets the wronged person author her own response) rather than the general 'presence vs plan' point already implied by the Roy card, to earn its distinct slot."
+    },
+    {
+      "id": "s3e8-keeley-hazell-writing-debut",
+      "verdict": "revise",
+      "interest_take": "Solid rewatch trivia, handled with exactly the right restraint (credit only). Insight is modest but the meta angle adds variety.",
+      "writing_notes": "Good; 'idea' field strains slightly toward thesis ('lived perspective from inside the ensemble') — verges on implying private context the card otherwise avoids.",
+      "spoiler_concern": "none",
+      "suggested_edit": "Trim the 'lived perspective from inside the ensemble' line in 'idea' — it gestures at the very real-person association the card is meant to steer clear of. Keep it to the cast-member-turned-writer fact plus the Dylan Marron co-credit."
+    },
+    {
+      "id": "s3e8-jumping-to-conclusions-find-out-before-flip-out",
+      "verdict": "revise",
+      "interest_take": "The 'comic flip side of Believe' framing is a nice idea; partially-confirmed (grounding 3) so it still ships, but it's the thinnest philosophy card.",
+      "writing_notes": "Good restraint keeping the unverified maxim out of quotes — but the slug and tag still carry 'find out before you flip out,' a line the notes say isn't corroborated.",
+      "spoiler_concern": "none",
+      "suggested_edit": "Drop the unverified 'find out before you flip out' phrasing from the visible tag (slug/id must stay fixed per localStorage rule); retitle the tag to the verified idea, e.g. 'Proportion belief to evidence,' so nothing on-card quotes an uncorroborated line."
+    },
+    {
+      "id": "s3e8-rupert-controls-nate",
+      "verdict": "cut",
+      "interest_take": "Weakest of the set (interest 3): the 'control as approval' read leans on the season-long Rupert/Nate arc, so it neither surprises within the episode nor stands alone.",
+      "writing_notes": "Well-written but off-spine for a consent/letting-go episode; adds a fourth ethics card and dilutes a tight set. Better placed in a Nate-arc episode.",
+      "spoiler_concern": "season"
+    }
+  ],
+  "winners": [
+    "s3e8-hey-jude-divorce-comfort",
+    "s3e8-locker-room-consent-debate",
+    "s3e8-ted-lets-go-henry-happiness",
+    "s3e8-roy-jealousy-undercuts-support",
+    "s3e8-consent-autonomy-theme",
+    "s3e8-victim-blaming-jack-statement",
+    "s3e8-casablanca-title-inversion",
+    "s3e8-nate-love-hounds",
+    "s3e8-rebecca-i-got-you",
+    "s3e8-keeley-hazell-writing-debut",
+    "s3e8-jumping-to-conclusions-find-out-before-flip-out"
+  ],
+  "episode_notes": "Strong, tasteful set for a sensitive episode — the consent/privacy cards consistently locate the wrong with the leaker and never lean on lurid detail or a real person's private experience. Top tier (Hey Jude, locker-room, Ted/Henry, Roy) is excellent. Main risk is thematic crowding around 'good vs bad support': consent-autonomy, victim-blaming, locker-room, Rebecca, and Roy all orbit the leak; each earns its place except Rebecca, which overlaps Roy and needs sharpening to a distinct angle. Cut rupert-controls-nate — it's a season-arc Nate card, off the episode's spine, lowest interest, and a fourth Ethics entry that dilutes the set; it belongs in a Nate-focused episode. The excluded dylan-marron-empathy was correctly held (relevance 1, off-screen bio). Best-first ordering leads with the emotional/insight standout, then the consent ensemble interleaved with the lighter callback and reference for tonal variety, closing with trivia and the thinnest philosophy card. Two revises (Hazell credit, jumping-to-conclusions) are tone/wording nudges, not facts. Reproduced-dialogue check: clean throughout; all quotes paraphrased.",
+  "_excluded_reviewed": [
+    {
+      "id": "s3e8-dylan-marron-empathy",
+      "verdict": "stays-excluded",
+      "note": "Correctly held by reviewer: relevance 1, off-screen biographical context with no tie to a specific E8 moment. No rescue."
+    }
+  ]
+}

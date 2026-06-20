@@ -1,0 +1,162 @@
+{
+  "episode": { "season": 3, "number": 9, "title": "La Locker Room Aux Folles" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s3e9-la-cage-aux-folles-title",
+      "type": "reference",
+      "title": "The title plays on 'La Cage aux Folles,' a landmark gay musical",
+      "detail": "The episode title swaps 'locker room' for 'cage' in 'La Cage aux Folles' — the 1983 Broadway musical (music/lyrics Jerry Herman, book Harvey Fierstein), itself based on the 1973 French play by Jean Poiret and adapted on screen as the 1978 French film and the 1996 American remake 'The Birdcage.' It centers on a gay couple — Georges and Albin — who run a Saint-Tropez drag club where Albin (as 'Zaza') is the star, and is widely credited as the first Broadway musical built around a same-sex couple. The allusion ties the episode's locker-room coming-out to a groundbreaking work about a man being made to hide who he is. ATTRIBUTION/PLACEMENT FLAG: the title's reference to La Cage aux Folles is settled and on-screen (the title itself); the 'first Broadway musical centered on a gay couple' claim and the Herman/Fierstein/Poiret credits are well-documented but should be re-verified, and the 1983 musical vs. 1973 play vs. 1996 'Birdcage' lineage should be kept straight.",
+      "moment": "The episode in which a footballer comes out to his team in the locker room is titled by reworking the name of a celebrated stage musical about a gay couple and a drag club.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/", "note": "Explains the title as a play on La Cage aux Folles and its significance" },
+        { "url": "https://en.wikipedia.org/wiki/La_Locker_Room_Aux_Folles", "note": "Episode page confirming the title reference and musical bookends" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-i-am-what-i-am-anthem",
+      "type": "reference",
+      "title": "The episode closes on 'I Am What I Am,' the musical's self-identity anthem",
+      "detail": "The episode is musically bracketed by La Cage aux Folles: it reportedly opens with music from the show's prologue and closes with its most famous number, 'I Am What I Am' (Jerry Herman) — the act-one finale in which Albin refuses to apologize for who he is. The song became a broader anthem of self-acceptance and queer identity in the 1980s (and a 1983 Gloria Gaynor hit). Using it to close Colin's coming-out episode lands the theme directly: declaring one's own identity without apology. ATTRIBUTION/PLACEMENT FLAG: confirm via recap that 'I Am What I Am' is the actual closing cue in E9 (vs. a reviewer's thematic gloss) and that the opening uses the prologue music; the song's authorship and its anthem status are well-documented but worth a check.",
+      "moment": "The hour ends on the La Cage aux Folles number about refusing to apologize for who you are — a song about declaring your own identity — as a footballer steps out of hiding.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/", "note": "Notes the episode opens on the musical's prologue and closes on 'I Am What I Am'" },
+        { "url": "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-9-la-locker-room-aux-folles/", "note": "Recap covering the episode's musical framing and closing" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-visibility-belonging-theme",
+      "type": "theme",
+      "title": "The spine: ending the cost of hiding, and being fully seen",
+      "detail": "The episode's central throughline is visibility and belonging. Colin, who has kept his sexuality private from teammates, coaches, and the public, comes out to AFC Richmond and is embraced. Recaps frame his motive not as activism but as wanting his two lives — work and love — to be one life: to stop performing a self and simply be known by the people he spends his days with. The episode treats the cost of hiding (exhaustion, distance, a friendship strained by a secret) against the relief of being seen. This is the 'central theme in one line' card; handle the coming-out with dignity, keeping the focus on belonging rather than spectacle. ATTRIBUTION: the thematic framing is consistent across recaps; paraphrase Colin's wish to merge his two lives rather than quoting it.",
+      "moment": "A player who has lived a split life — hidden at work, himself only in private — tells his team the truth so that the two halves can finally be one, and they take him in.",
+      "sources": [
+        { "url": "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/", "note": "Recap centering the episode on Colin's wish for his two lives to be one" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-9-colin-isaac-roy-1235483955/", "note": "Coverage framing the episode around Colin's coming out and belonging" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-dont-care-vs-should-care",
+      "type": "philosophy",
+      "title": "Allyship beyond tolerance: not 'we don't care' but 'we care'",
+      "detail": "The episode's sharpest idea about allyship. When Colin comes out, the team's first, well-meant instinct is to reassure him that they 'don't care' that he's gay — tolerance as indifference. Ted gently corrects the framing: they should care — care about who Colin is and what he has carried alone — so that acceptance becomes active support rather than a polite shrug. The beat draws a real distinction between not minding someone's difference and actually showing up for them, and recaps note the team fumbling earnestly toward the right words the way real people do. (Critics also flag that Ted's analogy comparing it to sports fandom slightly undercuts the moment — worth noting honestly.) ATTRIBUTION FLAG: paraphrase the 'don't care' / 'should care' exchange (keep fragments well under 15 words); confirm it is Ted who reframes it.",
+      "moment": "The team rushes to tell Colin they don't care that he's gay; Ted nudges them past that — the point isn't not caring, it's caring, so he never has to carry it alone again.",
+      "sources": [
+        { "url": "https://www.thedigitalfix.com/ted-lasso/ted-lasso-season-3-episode-9-recap", "note": "Recap of the 'we don't care' / Ted says they should care exchange" },
+        { "url": "https://www.avclub.com/ted-lasso-review-season-3-episode-9-1850417253", "note": "Review noting the nuance, and that Ted's analogy slightly undercuts it" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-roy-press-conference-empathy",
+      "type": "philosophy",
+      "title": "Roy's press conference: you never know what someone is carrying",
+      "detail": "Filling in for Ted at the post-match presser after Isaac's red card, Roy — long the squad's gruffest member — defends his player by telling a humbling story from his own past about losing his temper, and lands on the idea that you can never fully know what is driving someone's behavior. Rather than hang Isaac out to dry, he reframes the outburst as a sign of something unseen, pulling the press's judgment back. Recaps read it as Roy fully absorbing the Lasso method (a personal anecdote that wins the room while teaching empathy) and as a marker of his own growth. It rhymes with the show's recurring 'be curious, not judgmental' ethic — withholding judgment because the full story is hidden. ATTRIBUTION FLAG: paraphrase Roy's anecdote and his closing point; confirm in E9 recaps that the empathy/'never know what someone's going through' framing is his, not a reviewer's gloss.",
+      "moment": "Standing in for Ted after Isaac is sent off, Roy disarms the reporters with an embarrassing story about his own anger — and the reminder that you can never really know what someone else is going through.",
+      "sources": [
+        { "url": "https://www.looper.com/1281904/ted-lasso-s3e9-confirms-roy-kent-is-biggest-disciple-lasso-way/", "note": "Analysis of Roy's press conference as full adoption of the Lasso empathy method" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E09LaLockerRoomAuxFolles", "note": "Recap of the press conference and Roy comforting Isaac" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-isaac-betrayal-not-bigotry",
+      "type": "theme",
+      "title": "Isaac's anger is hurt, not hate — and a homophobic slur snaps him out of it",
+      "detail": "The episode's most carefully drawn relationship beat. Isaac, Colin's best friend, learns Colin is gay (he discovers it the prior episode) and goes cold — refusing to acknowledge or even touch hands with him. Recaps are careful that Isaac isn't a homophobe; he's wounded that his closest friend felt he had to hide for years, reading it as a breach of trust rather than recoiling from Colin's sexuality. His anger boils over in a match, and the turning point comes when he hears a Richmond fan hurl a homophobic slur: Isaac charges the stands in Colin's defense and is shown a red card. The sequence separates discomfort-from-hurt from actual bigotry, and shows allyship arriving through instinctive protection. ATTRIBUTION/PLACEMENT FLAG: confirm Isaac learns Colin's secret in E8 and that the slur/red-card beat occurs in E9; do not reproduce the slur — paraphrase as 'a homophobic slur.'",
+      "moment": "Isaac freezes Colin out — not from hate but from feeling betrayed that his best mate hid for so long — until a fan in the stands shouts a homophobic slur and Isaac storms toward him in Colin's defense, earning a red card.",
+      "sources": [
+        { "url": "https://www.thedigitalfix.com/ted-lasso/ted-lasso-season-3-episode-9-recap", "note": "Recap clarifying Isaac feels betrayed, not bigoted, and the slur/red-card beat" },
+        { "url": "https://readysteadycut.com/2023/05/10/ted-lasso-season-3-episode-9-recap/", "note": "Recap explaining why Isaac isn't talking to Colin" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e9-trent-crimm-gay-mentor",
+      "type": "callback",
+      "title": "Trent Crimm, also gay, mentors Colin — pay-off of the Amsterdam scene",
+      "detail": "Colin's confidence to come out is built on his bond with Trent Crimm, the embedded journalist, who is himself gay. The foundation was laid in S3E6 ('Sunflowers') in Amsterdam — Trent followed Colin toward a gay bar not to out him but to offer guidance, and shared his own story (including how being closeted affected his marriage and his relationship with his daughter) at the city's Homomonument before the two danced together. In E9 Trent acts as Colin's mentor and sounding board, advising him to give Isaac time to process. It's a direct callback that makes Trent the steady older hand on Colin's journey — visibility passed from one generation to the next. ATTRIBUTION/PLACEMENT FLAG: the Amsterdam/Homomonument beats are S3E6, not E9 — log them as the callback's origin, not as E9 events. Confirm Trent's E9 'give Isaac time' advice in an E9 recap.",
+      "moment": "Trent Crimm — out and steady — guides Colin through the week, telling him to give Isaac room, the pay-off of their earlier night in Amsterdam where Trent shared his own story instead of exposing Colin's.",
+      "sources": [
+        { "url": "https://www.hollywoodreporter.com/tv/tv-features/ted-lasso-billy-harris-colin-gay-storyline-season-3-1235391941/", "note": "Billy Harris interview on Colin's arc and Trent's mentorship" },
+        { "url": "https://collider.com/ted-lasso-season-3-queer-colin-trent-crimm/", "note": "Piece on the Colin/Trent queer mentorship arc, incl. the Amsterdam scene" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e9-unburdened-plays-free",
+      "type": "theme",
+      "title": "Out of hiding, Colin plays free — the relief of one whole self",
+      "detail": "A quiet payoff that argues the episode's thesis through performance. After coming out to the team and being embraced, Colin — no longer spending energy on concealment — is visibly lighter, and in the second half he turns in an inspired performance, reportedly assisting on two goals to win the match. The beat dramatizes a simple, humane idea: hiding is itself labor, and being fully known frees you to be your best. It connects belonging directly to flourishing rather than treating the coming-out as a standalone 'issue' moment. ATTRIBUTION: well-supported by recaps; the 'two assists / unburdened' read is consistent, but verify the specific match outcome.",
+      "moment": "Unburdened for the first time, Colin plays loose and inspired after halftime — the secret that had been quietly draining him no longer in the way.",
+      "sources": [
+        { "url": "https://www.looper.com/1282172/ted-lasso-season-3-episode-9-review-colin-scores-big-with-his-story/", "note": "Review noting Colin plays freely and assists two goals once unburdened" },
+        { "url": "https://www.thedigitalfix.com/ted-lasso/ted-lasso-season-3-episode-9-recap", "note": "Recap covering the match and Colin's second-half turn" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-real-world-gay-footballers",
+      "type": "production",
+      "title": "Real-world stakes: the long silence after Justin Fashanu",
+      "detail": "Colin's storyline lands against a stark real-world backdrop the show is consciously addressing: there has been no openly gay man in a Premier League first-team squad, and the history of out male footballers in Britain is short and painful. Justin Fashanu became the first openly gay British male professional footballer when he came out in 1990, faced hostility, and died by suicide in 1998. It was not until May 2022 that Blackpool's Jake Daniels became the UK's first active male pro to come out publicly since Fashanu. Cast and LGBTQ commentators framed Colin's arc as significant precisely because the real game has stayed mostly closeted. This is context/production-significance, not an on-screen event. ATTRIBUTION FLAG: the Fashanu (1990 out / 1998 death) and Daniels (May 2022) facts are well-documented but should be re-verified; treat the 'no out Premier League player' claim as accurate to the show's release window (2023), not a timeless statement.",
+      "moment": "The show stages something English football itself has barely seen: a player coming out while still playing — a silence that runs from Justin Fashanu in 1990 to Jake Daniels in 2022.",
+      "sources": [
+        { "url": "https://www.goal.com/en/news/ted-lasso-gay-footballer-storyline-lgbtq-commentators/blt4be300465038a7cf", "note": "LGBTQ commentators on the storyline's real-world significance" },
+        { "url": "https://www.espn.com/soccer/story/_/id/37628506/blackpool-jake-daniels-becomes-uk-first-active-openly-gay-male-footballer-32-years", "note": "Jake Daniels, first active UK male pro to come out since Fashanu (1990)" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-coming-out-never-said-aloud",
+      "type": "production",
+      "title": "A deliberate craft choice: Colin never says 'I'm gay' on screen",
+      "detail": "A notable storytelling decision recappers single out: the camera/script never actually shows Colin saying the words 'I'm gay' to the team. The audience understands the coming-out has happened from the team's reaction and the scene around it rather than from a labeled declaration. Critics read the choice as keeping the focus on relationship and response — on being received — rather than on a single confessional line, and as treating the moment as ordinary humanity rather than spectacle. ATTRIBUTION FLAG: this is a craft/interpretation observation from recaps; confirm with an E9 recap that the words are indeed never shown, and present it as a noted reading rather than a creator-stated intention.",
+      "moment": "We never actually hear the label — Colin's coming-out registers through the team's fumbling, loving reaction, not a single declarative line.",
+      "sources": [
+        { "url": "https://www.cinemablend.com/streaming-news/i-absolutely-loved-how-ted-lasso-thoughtfully-handled-colins-big-moment", "note": "Notes the team's reaction conveys the coming-out without the explicit words" },
+        { "url": "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/", "note": "Recap of how the scene is staged" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-rebecca-roy-walk-away",
+      "type": "theme",
+      "title": "Rebecca pushes Roy: do you bail the second it stops being easy?",
+      "detail": "A pointed character beat that motivates Roy's growth. After Roy blows off Rebecca's request to cover Ted's press conference, she challenges him directly — asking, in paraphrase, whether his life plan is to walk away from everything the moment it stops being fun or easy. The confrontation reframes Roy's gruff avoidance as a habit of quitting under discomfort, and it's the prod that sends him to the presser where he shows up for Isaac. It ties to the show's running interest in choosing the harder, more responsible path over self-protective retreat. ATTRIBUTION FLAG: paraphrase Rebecca's challenge (keep fragments short); confirm it is Rebecca who delivers it and that it precedes Roy's presser in E9.",
+      "moment": "When Roy ducks the press conference, Rebecca calls it what it is — asking whether he plans to walk away from everything the second it stops being fun.",
+      "sources": [
+        { "url": "https://www.looper.com/1281904/ted-lasso-s3e9-confirms-roy-kent-is-biggest-disciple-lasso-way/", "note": "Recap of Rebecca challenging Roy before the press conference" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E09LaLockerRoomAuxFolles", "note": "Recap covering the Rebecca/Roy exchange" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e9-office-thats-what-she-said",
+      "type": "easter-egg",
+      "title": "Ted borrows Michael Scott's 'that's what she said'",
+      "detail": "A light pop-culture wink: in an awkward, endearing beat Ted lands the catchphrase 'that's what she said' — the signature line of Michael Scott (Steve Carell) from the US version of 'The Office.' It's an easy-to-miss bit of texture that fits Ted's American-abroad register. A smaller second reference in the episode has Roy alluding to jam-band crossovers (the Grateful Dead with the Black Crowes and Phish). These are background flavor, not plot. ATTRIBUTION FLAG: confirm both gags occur in E9 via a recap or transcript; the 'that's what she said'/The Office association is well-known, but the placement in this specific episode is the thing to check.",
+      "moment": "Ted drops a borrowed 'that's what she said,' the Michael Scott trademark from The Office — a small American-sitcom wink amid a heavy episode.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-S03E09-la-locker-room-aux-folles.php", "note": "Episode reference page listing the 'that's what she said' and jam-band nods" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E09LaLockerRoomAuxFolles", "note": "Recap/trope page for E9 references" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}

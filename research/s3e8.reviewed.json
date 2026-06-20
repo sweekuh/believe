@@ -1,0 +1,423 @@
+{
+  "episode": { "season": 3, "number": 8, "title": "We'll Never Have Paris" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e8-casablanca-title-inversion",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The episode title inverts Casablanca's (1942, dir. Michael Curtiz) famous farewell 'We'll always have Paris,' spoken by Rick to Ilsa — settled film history. The inversion fits Ted's storyline (ex-wife Michelle's Paris trip with Jake) and is widely noted in recaps; the title-as-inversion reading is critic interpretation, not an on-screen statement.",
+      "verified_sources": [
+        "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+        "https://content.time.com/time/specials/packages/article/0,28804,1900025_1900019_1899929,00.html",
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e8-casablanca-title-inversion",
+        "tag": "Letting go of a future",
+        "title": "A title that flips Casablanca",
+        "moment": "Told his ex-wife is heading to Paris with her new partner, Ted convinces himself they are about to get engaged — while the episode's name quietly negates one of cinema's most famous goodbyes.",
+        "idea": "In <em>Casablanca</em> (1942), Rick's parting line to Ilsa — that they will <em>always</em> have Paris — accepts a beautiful past that can't be a future. The episode inverts it: Ted has to relinquish a future he was clinging to. The same city, the opposite lesson.",
+        "why": "Watch how the title reframes Ted's whole arc here: not nostalgia for what was, but releasing what won't be — for Henry's sake.",
+        "source": "<em>Casablanca</em> (1942, dir. Michael Curtiz); episode-title inversion noted across recaps.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Casablanca line and director are settled film history; the title-as-inversion reading is widely-repeated critic interpretation, not an on-screen statement.",
+        "sourcesChecked": [
+          "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+          "https://content.time.com/time/specials/packages/article/0,28804,1900025_1900019_1899929,00.html",
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-consent-autonomy-theme",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps confirm the episode's spine: a private, intimate video Keeley once made is leaked, and the show locates the wrong with the leaker, not with Keeley for having made it. Thematic framing (consent, privacy, autonomy) is consistent across sources.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+        "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-consent-autonomy-theme",
+        "tag": "Consent and privacy",
+        "title": "Whose wrong is it?",
+        "moment": "A private video Keeley once made in confidence is stolen and exposed online. The episode turns its attention not to what she did, but to what was done to her.",
+        "idea": "The show is clear-eyed: a person has the right to make choices about her own body and her own images, and when something shared in confidence is stolen and exposed, the violation belongs to whoever exposed it — not to the woman who exercised that choice.",
+        "why": "Notice how the episode refuses to ask Keeley to feel ashamed. The ethical weight falls on the privacy violation, not on her having trusted someone.",
+        "source": "Episode plot; recap framing of consent, privacy, and autonomy.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Thematic framing (consent, privacy, autonomy) is well-supported and consistent across recaps; the show places the wrong with the leaker, not the victim.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+          "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-victim-blaming-jack-statement",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm Barbara delivers a statement, drafted on Jack's behalf, that would have Keeley apologize for making the video; Keeley refuses and Jack leaves. The episode reads this as victim-blaming dressed up as image management.",
+      "verified_sources": [
+        "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+        "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-victim-blaming-jack-statement",
+        "tag": "Victim-blaming made concrete",
+        "title": "The apology she was handed",
+        "moment": "Keeley is handed a prepared statement to post — written for her, apologizing for having made the video at all. She refuses to sign it.",
+        "idea": "Victim-blaming rarely announces itself; here it arrives as crisis management. Pressuring the wronged person to perform shame so a brand stays clean quietly reassigns the blame to her — the exact inversion of where it belongs.",
+        "why": "Watch the gap between protecting an image and protecting a person. Keeley's refusal is the episode insisting she has nothing to apologize for.",
+        "source": "Episode plot; recaps of Barbara delivering Jack's drafted statement.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the drafted apology delivered via Barbara on Jack's behalf and Keeley's refusal; victim-blaming read is consistent across sources.",
+        "sourcesChecked": [
+          "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+          "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-rebecca-i-got-you",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm Rebecca supports Keeley unconditionally after the leak — backing whatever Keeley decides rather than dictating a strategy. Set deliberately against Jack's image-management.",
+      "verified_sources": [
+        "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+        "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-rebecca-i-got-you",
+        "tag": "Support as presence",
+        "title": "Rebecca offers herself, not a plan",
+        "moment": "Where Jack offers a press strategy, Rebecca offers herself — telling Keeley she is behind whatever she decides, and that she has her.",
+        "idea": "Real support stands with someone in their dignity instead of prescribing how they should manage a crisis. It is presence, not a plan — letting the wronged person choose her own response and meaning it.",
+        "why": "Hold this scene next to Jack's. The episode draws the line between managing a person and standing beside one.",
+        "source": "Episode plot; recaps of the Rebecca/Keeley support scene. Reassurance paraphrased.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm Rebecca's unconditional support of Keeley, set against Jack's image-management; reassurance paraphrased, not reproduced.",
+        "sourcesChecked": [
+          "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+          "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-locker-room-consent-debate",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Recaps confirm the locker-room banter stops when the players learn the leaked video is Keeley's; Isaac orders the squad to delete intimate images of partners, and the team debates what privacy and consent require of recipients. Specific positions vary by recap, so the card keeps the debate general rather than naming who argues what.",
+      "verified_sources": [
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+        "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e8-locker-room-consent-debate",
+        "tag": "Working out consent in real time",
+        "title": "The locker room goes quiet",
+        "moment": "The usual banter about saved images stops cold when the players realize the leaked video is Keeley's. Isaac tells everyone to delete such images, and the team argues out what privacy actually asks of them.",
+        "idea": "Consent isn't only the sender's concern — recipients hold a duty too. The scene shows a room of men reasoning their way to the point that a woman's authority over her own images doesn't end when she shares them.",
+        "why": "A small drama of ethics among friends: watch decent people decide, on the spot, that protecting someone's privacy is their job, not just hers.",
+        "source": "Episode plot; recaps of the locker-room scene.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the banter-stops beat and Isaac ordering deletion; specific player positions vary across recaps, so the card keeps the debate general.",
+        "sourcesChecked": [
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+          "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-hey-jude-divorce-comfort",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via recaps that a busker plays 'Hey Jude' and Beard tells Henry the song's origin — McCartney wrote it (as 'Hey Jules') to comfort Julian Lennon amid John and Cynthia Lennon's divorce. The song-history facts are well-documented and the in-episode beat is reported across multiple recaps.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+        "https://screenrant.com/ted-lasso-beatles-hey-jude-song-meaning/",
+        "https://www.themarysue.com/apple-tvs-ted-lasso-season-3-episode-8-beard-and-henry-had-one-of-the-most-heartwarming-conversations/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e8-hey-jude-divorce-comfort",
+        "tag": "A song born to console a child",
+        "title": "Why 'Hey Jude' belongs in this episode",
+        "moment": "A busker plays 'Hey Jude,' and Beard tells Ted's young son Henry the story behind it — then Ted, losing his own marriage, joins in and sings it with them.",
+        "idea": "Paul McCartney wrote 'Hey Jude' in 1968 (originally 'Hey Jules') to comfort five-year-old Julian Lennon as his parents, John and Cynthia, divorced. A song made to steady a boy through his parents' split is the exact thing Ted is living through with Henry.",
+        "why": "The reference isn't decoration — it's the episode's emotional core stated in a melody. Listen for who it's really being sung to.",
+        "source": "Episode scene; documented origin of <em>Hey Jude</em> (McCartney for Julian Lennon).",
+        "category": "Relationships",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm Beard gives the song's origin to Henry in E8; the McCartney/'Hey Jules'/Julian Lennon history is well-documented.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+          "https://screenrant.com/ted-lasso-beatles-hey-jude-song-meaning/",
+          "https://www.themarysue.com/apple-tvs-ted-lasso-season-3-episode-8-beard-and-henry-had-one-of-the-most-heartwarming-conversations/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-jumping-to-conclusions-find-out-before-flip-out",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Confirmed that Ted spins a full engagement story from one fact (a Paris trip) and the Diamond Dogs tell him he's jumping to conclusions. The exact 'find out before you flip out' maxim and its attribution specifically to Higgins is not independently corroborated, so the card keeps to the verified beat (the Diamond Dogs calling out conclusion-jumping) rather than quoting a specific line.",
+      "verified_sources": [
+        "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/",
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-jumping-to-conclusions-find-out-before-flip-out",
+        "tag": "Proportion belief to evidence",
+        "title": "Don't build a catastrophe on one fact",
+        "moment": "From a single detail — a trip to Paris — Ted spins an entire engagement story. The Diamond Dogs tell him he is jumping to conclusions and try to talk him down.",
+        "idea": "The show's running ethic of believing responsibly, inverted into a caution against catastrophizing: find out before you flip out. Proportion your belief to the evidence in front of you, not to your fear of what might be.",
+        "why": "It's the comic flip side of 'Believe' — the same care about evidence, aimed at not spiraling. Watch how little it takes for Ted to convince himself.",
+        "source": "Episode scene; recaps of the Diamond Dogs calling out Ted's conclusion-jumping. Lines paraphrased.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "The Diamond Dogs / jumping-to-conclusions beat is confirmed; the exact 'find out before you flip out' wording and its attribution to a specific character are not independently corroborated, so the card stays general.",
+        "sourcesChecked": [
+          "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/",
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-ted-lets-go-henry-happiness",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Ted asks Rebecca to hire a PI to tail Michelle and Jake, reaches the brink, then chooses to let go for Henry's sake; Michelle returns with no ring. The ordo amoris connection is hunter analysis, not an on-screen reference, and is kept as thematic gloss only.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+        "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e8-ted-lets-go-henry-happiness",
+        "tag": "Loving the right things in order",
+        "title": "Ted chooses Henry over his own jealousy",
+        "moment": "Having gone so far as to have Michelle and Jake followed, Ted reaches the brink — then, putting Henry to bed and starting to fish for information, he stops himself.",
+        "idea": "What matters, Ted decides, is that Michelle is happy and Henry is loved — not whether Ted gets to keep a future he can't have. It's the quiet discipline of caring about the right things in the right order, even when jealousy points the other way.",
+        "why": "This is the real story under the comic 'engagement' panic. The growth isn't the no-ring relief at the end — it's the choice to let go.",
+        "source": "Episode plot; recaps of Ted's resolution and the no-ring ending.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the PI beat, Ted choosing to let go for Henry, and no ring on Michelle's return; any 'ordo amoris' tie is interpretive gloss, not an on-screen reference.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+          "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-roy-jealousy-undercuts-support",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Roy comforts Keeley after the leak, then undercuts it by asking who the video was for — making her violation about his insecurity — while Jamie comes the next morning to apologize for the leak and is forgiven. The contrast is consistent across recaps.",
+      "verified_sources": [
+        "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-8-recap-and-ending-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e8-roy-jealousy-undercuts-support",
+        "tag": "Support that centers the supporter",
+        "title": "The wrong question",
+        "moment": "Roy seems to have Keeley's back over the leak — then asks who the video was for, turning her violation into his jealousy, just as Jamie arrives to own his part and apologize.",
+        "idea": "Care that's really about the carer isn't care. Roy's question shifts the focus from Keeley's exposure to his own insecurity; set against Jamie's plain apology, the episode shows the difference between standing with someone and making their pain about you.",
+        "why": "Listen for the moment Roy's comfort curdles into a question he needed answered for himself. The contrast with Jamie the next morning is deliberate.",
+        "source": "Episode plot; recaps of the Roy/Jamie contrast. Roy's question paraphrased.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps consistently confirm Roy's jealous question and Jamie's next-morning apology and Keeley's forgiveness; Roy's line paraphrased, not reproduced.",
+        "sourcesChecked": [
+          "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-8-recap-and-ending-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-nate-love-hounds",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: at West Ham, Nate convenes a Diamond Dogs knockoff he calls the 'Love Hounds' with coworkers; it doesn't work as he hoped and he disbands it quickly. Rupert is a no-show. Staffer names not independently re-verified, so the card omits them.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-nate-love-hounds",
+        "tag": "A counterfeit of the real thing",
+        "title": "Nate's 'Love Hounds'",
+        "moment": "Lovesick and unsure how to label things with Jade, Nate tries to build his own Diamond Dogs at West Ham — the 'Love Hounds' — then disbands the group after a single meeting.",
+        "idea": "The Diamond Dogs work because they trade in honesty and vulnerability. The advice Nate gets is the inverse — hide your feelings — and the knockoff collapses at once. Some things can't be copied without the trust underneath them.",
+        "why": "A direct callback that doubles as character contrast: watch how Nate's environment can only counterfeit what Ted's locker room makes real.",
+        "source": "Episode plot; recaps of the 'Love Hounds' subplot.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the 'Love Hounds' name, the bad advice, and the one-and-done disbanding; staffer names not independently re-verified, so omitted.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-keeley-hazell-writing-debut",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed via the episode page, fandom and TV Tropes that 'We'll Never Have Paris' was written by Keeley Hazell and Dylan Marron and directed by Erica Dunton, and marks Hazell's (who plays Bex) first screen-writing credit. Per project sensitivity rules, this card is built ONLY on the writing credit; no detail about any real person's private experience is included.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+        "https://www.imdb.com/title/tt19712482/fullcredits/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-keeley-hazell-writing-debut",
+        "tag": "Who wrote it",
+        "title": "An actor steps behind the page",
+        "moment": "This privacy-and-consent episode was co-written by Keeley Hazell — who plays Rupert's wife Bex on the show — in her first screen-writing credit, alongside fellow first-time TV writer Dylan Marron.",
+        "idea": "A cast member crossing over into the writers' room is a small note about how this show was made: lived perspective from inside the ensemble helping shape one of the season's most careful, character-first episodes.",
+        "why": "A nice piece of trivia for a rewatch — the actor you've been watching as Bex helped write the words.",
+        "source": "Episode credits (written by Keeley Hazell &amp; Dylan Marron; dir. Erica Dunton).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Writing/directing credits and 'first credit' claims verified from the episode page and credits; card deliberately covers only the writing credit, no real-person private detail.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+          "https://www.imdb.com/title/tt19712482/fullcredits/"
+        ]
+      }
+    },
+    {
+      "id": "s3e8-dylan-marron-empathy",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Marron's co-writing credit is confirmed, and his podcast/TED-talk work is real biographical context — but it is off-screen background, not on-screen content, and it does not tie tightly to a specific moment in E8. Per the project's instruction to drop loosely-connected biographical context, relevance is scored low and the fact is held out.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
+        "https://www.imdb.com/title/tt19712482/fullcredits/"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 3, "relevance": 1, "spoiler_safety": 5 },
+      "interest_score": 56,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e8-rupert-controls-nate",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Ted and Beard bring Henry to a West Ham match, Nate is moved to see Ted cheering, then Rupert texts that he won't allow Ted in the stadium again and Nate defers. The 'control as tactic' reading is interpretive; spoiler_scope is season-level (Rupert/Nate arc), lowering spoiler_safety.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+        "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+        "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e8-rupert-controls-nate",
+        "tag": "Control dressed as approval",
+        "title": "Rupert's grip tightens",
+        "moment": "Nate is moved to spot Ted and Henry cheering him at a West Ham match — until Rupert texts that he won't allow Ted in the stadium again, and Nate, wanting to please him, falls back in line.",
+        "idea": "Coercive influence often works through approval, not threats. Rupert keeps Nate emotionally dependent by managing who he's allowed to be glad to see — a quiet study in how control can wear the face of mentorship.",
+        "why": "Watch Nate's first instinct (warmth toward Ted) get overridden by his need for Rupert's approval. It's the season-long dynamic in one text message.",
+        "source": "Episode scene; recaps of the West Ham match and Rupert's text to Nate.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the West Ham match beat and Rupert's text; the 'control as tactic' reading is interpretive. Understanding leans on the season-long Rupert/Nate arc.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
+          "https://www.thereviewgeek.com/tedlasso-s3e8review/",
+          "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "episode": { "season": 3, "number": 4, "title": "Big Week" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e4-believe-sign-revealed-torn",
+      "verdict": "promote",
+      "interest_take": "Resolves the season's sign mystery and stages the gift app's own emblem being destroyed; strong 'never caught the whole story' beat.",
+      "writing_notes": "title/moment/idea/why all distinct; idea is the real payoff (refusal, not just whodunit); warm, concrete, no dialogue.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-oklahoma-safe-word",
+      "verdict": "promote",
+      "interest_take": "The 'Oklahoma' honesty code paying off across two seasons is a true 'I never caught that' callback.",
+      "writing_notes": "Clean four-part structure; idea names the S1E5 origin, why lands the emotional double meaning; warm.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-smigus-dyngus",
+      "verdict": "promote",
+      "interest_take": "A throwaway gag that hides a genuine Polish folk tradition; classic pause-and-discover.",
+      "writing_notes": "idea delivers the real tradition payoff; transcript-spelling caveat handled gracefully; right category.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-goldstein-writer-actor",
+      "verdict": "promote",
+      "interest_take": "The actor who plays Roy Kent wrote this episode, and self-taped his way into the role; surprising dual credit.",
+      "writing_notes": "moment flags it as production note; idea carries the audition twist; concise and warm.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-sassy-rejects-ted",
+      "verdict": "promote",
+      "interest_take": "The rare character who gives Ted unvarnished truth instead of reassurance; a clear-eyed relationship beat.",
+      "writing_notes": "Distinct from the other relationship cards; idea is the payoff (truth-teller), no dialogue.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-subbuteo-callback",
+      "verdict": "promote",
+      "interest_take": "Easy to miss as a real, beloved English tabletop game rather than a generic prop.",
+      "writing_notes": "idea supplies the history payoff; characterful; right category and tone.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-zava-self-naming-identity",
+      "verdict": "promote",
+      "interest_take": "Names the season's self-authorship theme where it gets stated out loud; modest surprise but real throughline.",
+      "writing_notes": "Honest about being an interpretive gloss, not an attribution; the stronger of the two naming-speech cards.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-joker-and-the-thief",
+      "verdict": "promote",
+      "interest_take": "A nameable, enjoyable needle-drop that plays against how the match turns out; adds Aesthetics variety.",
+      "writing_notes": "Minor but tidy; idea/why distinct; keeps the set's category spread.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-ted-refuses-contempt-motivation",
+      "verdict": "cut",
+      "interest_take": "The ethic it states is already carried, concretely, by the BELIEVE-sign card; same USB-drive moment.",
+      "writing_notes": "Well written but duplicative; keeping both means two cards on one beat. Cut to tighten.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e4-van-damme-self-naming",
+      "verdict": "cut",
+      "interest_take": "The Van Damme rebrand is the lighter payoff of the same Zava naming speech already covered by the philosophy card.",
+      "writing_notes": "Reads as recap; duplicates the naming-speech beat and leans on a season-long forward thread.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e4-richmond-lose-streak-begins",
+      "verdict": "cut",
+      "interest_take": "Mostly plot recap; only lands if you already know the season's streak and recovery.",
+      "writing_notes": "Lowest-interest plot beat; requires forward knowledge to matter. Cut as recap.",
+      "spoiler_concern": "series"
+    }
+  ],
+  "winners": [
+    "s3e4-believe-sign-revealed-torn",
+    "s3e4-oklahoma-safe-word",
+    "s3e4-smigus-dyngus",
+    "s3e4-goldstein-writer-actor",
+    "s3e4-sassy-rejects-ted",
+    "s3e4-subbuteo-callback",
+    "s3e4-zava-self-naming-identity",
+    "s3e4-joker-and-the-thief"
+  ],
+  "episode_notes": "Strong, content-rich episode but the reviewed set carried two duplicate pairs and a recap card. Pair 1: the BELIEVE-sign reveal vs 'Ted won't coach on contempt' both turn on the same USB-drive moment; kept the sign reveal (more concrete, resolves the mystery, and is the app's emblem) and cut the abstract ethics restatement. Pair 2: Zava's self-naming philosophy vs the keeper's Van Damme rebrand are the same speech; kept the philosophy card (states the idea, self-contained) and cut the lighter payoff (which also leans on a season-long thread). Also cut 's3e4-richmond-lose-streak-begins' as forward-dependent plot recap. Excluded candidates (pressure-theme, rebecca-rupert-proxy-war) were correctly held: broad and low-surprise, no rescue. Final 8 have good variety: ethics/emblem, two relationships, two real-world references/easter-eggs, one philosophy, one music cue, one production note. Best-first ordering leads with the emblem reveal and the Oklahoma callback (the two warmest 'never caught that' beats), with the lighter aesthetics/production cards trailing."
+}

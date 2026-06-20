@@ -1,0 +1,112 @@
+{
+  "episode": { "season": 3, "number": 6, "title": "Sunflowers" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e6-van-gogh-sowing-time",
+      "verdict": "promote",
+      "interest_take": "The episode's beating heart: a real Van Gogh letter reframes Ted's slump as a season, not a verdict. The standout card.",
+      "writing_notes": "moment/idea/why all distinct; idea is the genuine payoff; warm and unhurried; category right.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-total-football-reinvented",
+      "verdict": "promote",
+      "interest_take": "The setting IS the joke — Ted reinvents in Amsterdam the very system Amsterdam (Cruyff/Ajax) gave the sport. Real 'I never caught that' for a non-fan.",
+      "writing_notes": "Clean and surprising; the 5-0 Ajax loss detail lands the irony. Meta & trivia fits.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-pulp-fiction-burger-barn",
+      "verdict": "promote",
+      "interest_take": "A precise needle-drop Easter egg (same Ricky Nelson cut as Jack Rabbit Slim's) hiding in plain sight — the kind of thing only a film buff catches.",
+      "writing_notes": "Tight; the song-match specificity earns it. Trim the 'foot-massage talk' aside if room is tight, but it's fine.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-mathmagic-land-parody",
+      "verdict": "promote",
+      "interest_take": "Deep-cut Disney 1959 homage behind the triangle hallucination — surprising, and it's doing real story work (sparks Ted's tactic).",
+      "writing_notes": "Good. Pairs naturally with Total Football without duplicating it (source vs. result).",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-colin-trent-homomonument",
+      "verdict": "promote",
+      "interest_take": "The location choice carries the scene's meaning — three pink triangles that rhyme with the episode's triangle motif. Genuinely illuminating.",
+      "writing_notes": "idea teaches the Homomonument cleanly; why ties it to the motif. Strong. Relationships fits.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e6-gezellig-rebecca-houseboat",
+      "verdict": "promote",
+      "interest_take": "Teaches a lovely untranslatable Dutch word a non-technical reader will keep. Warm, self-contained.",
+      "writing_notes": "Clear; idea (the word) is the payoff, why grounds it emotionally. Good.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-roy-jamie-bike-reconciliation",
+      "verdict": "promote",
+      "interest_take": "The long Roy/Jamie thaw paying off in the gentlest image. More emotional beat than 'I never caught that,' but a warm reader will love it.",
+      "writing_notes": "Well-written; risk is it's recap of an obvious scene rather than a hidden gem. Earns its place on heart, not surprise.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e6-piggy-stardust-brendan-hunt",
+      "verdict": "promote",
+      "interest_take": "A private joke made public: Beard's Bowie bit is real autobiography for writer Brendan Hunt's Amsterdam years. Ties the whole show back to Amsterdam.",
+      "writing_notes": "Strong meta card; the Boom Chicago / show-origin detail is the real reward. Keep.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-higgins-chet-baker-jazz",
+      "verdict": "promote",
+      "interest_take": "Rewards watching the side stories — Chet Baker history plus a minor character's unguarded joy. Modest but real.",
+      "writing_notes": "Fine. Sits comfortably in the back half of the set; not a headliner.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-sunflowers-kansas-homesickness",
+      "verdict": "revise",
+      "interest_take": "The sunflower = Kansas state flower is a nice double-meaning, but it heavily overlaps the Van Gogh card and the throughline card — title trivia more than fresh insight.",
+      "writing_notes": "Well-written, but as a 'title explainer' it competes with the stronger sowing-time card. Reframe to lead with the Kansas-flower fact so it earns distinct space.",
+      "spoiler_concern": "none",
+      "suggested_edit": "Retitle to foreground the surprise — e.g. title: \"The sunflower is from Kansas\" — and trim the thematic overlap with the docent card so it reads as a standalone 'home meets him abroad' fact, not a second statement of the theme."
+    },
+    {
+      "id": "s3e6-amsterdam-real-locations",
+      "verdict": "promote",
+      "interest_take": "Real-city-vs-built-set craft (filming beside million-dollar Van Goghs) is a satisfying behind-the-scenes peek. Lower-tier but distinct.",
+      "writing_notes": "Solid production card; keep it clearly separate from the structure card by staying on locations/sets only. interest 3 is right; bottom of the set.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-bottle-episode-structure",
+      "verdict": "cut",
+      "interest_take": "Mostly recaps what the reader just watched (lists the threads) plus 'critics loved it' — the weakest, most padding-like card in a crowded set.",
+      "writing_notes": "Honest about opinion-vs-fact, but the one-night-many-threads structure is self-evident from watching; little hidden payoff. Cut to keep the set tight.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e6-do-what-youre-meant-to-do",
+      "verdict": "cut",
+      "interest_take": "Interpretive throughline that restates the Van Gogh docent card's idea across all storylines — the most redundant card; lowest grounding (3, partial) and surprise (2).",
+      "writing_notes": "Well-phrased but duplicative: its 'idea' is the same Van Gogh line the sowing-time card already carries better. Cut; let the docent card own the theme.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e6-van-gogh-sowing-time",
+    "s3e6-total-football-reinvented",
+    "s3e6-pulp-fiction-burger-barn",
+    "s3e6-mathmagic-land-parody",
+    "s3e6-colin-trent-homomonument",
+    "s3e6-gezellig-rebecca-houseboat",
+    "s3e6-piggy-stardust-brendan-hunt",
+    "s3e6-roy-jamie-bike-reconciliation",
+    "s3e6-higgins-chet-baker-jazz",
+    "s3e6-sunflowers-kansas-homesickness",
+    "s3e6-amsterdam-real-locations"
+  ],
+  "episode_notes": "Reference-rich Amsterdam episode; the danger here is volume, not quality. 13 included cards is too many for a phone read, with three cards (van-gogh-sowing-time, sunflowers-kansas, do-what-youre-meant-to-do) all circling the same theme and two production cards (structure, locations) overlapping. Recommend a tight set of 11: keep the Van Gogh docent card as the anchor and centerpiece; CUT 'do-what-youre-meant-to-do' (restates the docent card, lowest grounding/surprise) and 'bottle-episode-structure' (recap + critics' opinion, least hidden payoff). REVISE the Kansas card to lead with the state-flower surprise so it stops echoing the theme cards. Best-first ordering leads with the three genuine 'I never caught that' winners — the Van Gogh letter, Total Football irony, and the Pulp Fiction needle-drop — then the Disney/Homomonument references, the warm gezellig/Roy-Jamie/Piggy Stardust beats, and finally the lower-surprise side-story and production cards. Spoiler note: Colin/Trent and Roy/Jamie advance multi-episode arcs (series-scope); both are still rewarding in-episode, so kept. The excluded contested card (jan-maas-cruyff-pronunciation) is correctly held — its who-corrects-whom framing is wrong and it would not have earned a slot anyway."
+}

@@ -1,0 +1,102 @@
+{
+  "episode": { "season": 3, "number": 9, "title": "La Locker Room Aux Folles" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e9-dont-care-vs-should-care",
+      "verdict": "promote",
+      "interest_take": "The sharpest idea in the hour: tolerance-as-shrug isn't the same as showing up for someone.",
+      "writing_notes": "Idea is the real payoff and cleanly distinct from moment; warm, honest about the team fumbling; dignified.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-isaac-betrayal-not-bigotry",
+      "verdict": "promote",
+      "interest_take": "Humane distinction most shows blur — hurt-from-hiding vs. bigotry — recasting the red card as loyalty.",
+      "writing_notes": "Precise, moving idea; slur handled by reference only, never reproduced; right category.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-la-cage-aux-folles-title",
+      "verdict": "promote",
+      "interest_take": "The title states the theme before a word is spoken — a real 'I never caught that.'",
+      "writing_notes": "Lineage clear and concise; idea is the payoff, not the moment; dignified framing.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-i-am-what-i-am-anthem",
+      "verdict": "promote",
+      "interest_take": "The musical's proudest song bookends the hour — declaring identity without apology.",
+      "writing_notes": "Pairs cleanly with the title card without duplicating it (song-as-bookend vs title-as-thesis); warm.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-coming-out-never-said-aloud",
+      "verdict": "promote",
+      "interest_take": "Genuine craft catch: the words are never heard — privacy given even as the team is given.",
+      "writing_notes": "Restraint reading is fresh and distinct from the belonging cards; honest that it's a reading, not creator intent.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-visibility-belonging-theme",
+      "verdict": "promote",
+      "interest_take": "The spine of the episode: wanting two lives to be one, belonging over spectacle.",
+      "writing_notes": "Lower surprise (it's the obvious throughline) but earns its place as the anchor; clean and warm.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-real-world-gay-footballers",
+      "verdict": "promote",
+      "interest_take": "Off-screen context — the 32-year silence between Fashanu and Daniels — that explains why the arc lands.",
+      "writing_notes": "Sober and dignified; Fashanu's death handled with care; the only history card, good variety.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-roy-press-conference-empathy",
+      "verdict": "promote",
+      "interest_take": "The gruffest man wins the room by teaching empathy — Roy adopting the Lasso method.",
+      "writing_notes": "Strong B-plot beat, distinct from Colin's arc; good category; absorbs the Rebecca setup beat below.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-trent-crimm-gay-mentor",
+      "verdict": "promote",
+      "interest_take": "Makes the coming-out a relay, not a solo act — visibility handed person to person.",
+      "writing_notes": "Warm and dignified; weakest of the keepers (relevance leans on S3E6, partially-confirmed) but adds a tender note; flag the earlier-episode lean.",
+      "spoiler_concern": "forward"
+    },
+    {
+      "id": "s3e9-unburdened-plays-free",
+      "verdict": "cut",
+      "interest_take": "Recap-ish payoff (he plays great after coming out); overlaps the belonging/visibility theme card.",
+      "writing_notes": "Idea duplicates 'hiding is labor, being seen frees you' already carried by the spine card; weakest of the Colin cluster.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-rebecca-roy-walk-away",
+      "verdict": "cut",
+      "interest_take": "Connective setup scene for the presser; lower interest, no standalone idea the presser card lacks.",
+      "writing_notes": "Setup/payoff overlap with the Roy presser card; tighten by keeping only the payoff.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e9-office-thats-what-she-said",
+      "verdict": "cut",
+      "interest_take": "Lightest payoff in the set (insight 2); a sitcom-trivia wink that jars against a dignified coming-out hour.",
+      "writing_notes": "Tonally off for this episode's set; trim to keep the collection tight and on-theme.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e9-dont-care-vs-should-care",
+    "s3e9-isaac-betrayal-not-bigotry",
+    "s3e9-la-cage-aux-folles-title",
+    "s3e9-i-am-what-i-am-anthem",
+    "s3e9-coming-out-never-said-aloud",
+    "s3e9-visibility-belonging-theme",
+    "s3e9-real-world-gay-footballers",
+    "s3e9-roy-press-conference-empathy",
+    "s3e9-trent-crimm-gay-mentor"
+  ],
+  "episode_notes": "Strong episode, but 12 was bloated. Cut 3 for a tight 9. The Colin/visibility arc had three overlapping cards ('two lives', 'plays free', 'never said aloud'); kept the spine (belonging) plus the genuine craft catch (no spoken line), cut 'plays free' as a recap-ish duplicate of the same thesis. Roy's beat was split into setup ('Rebecca pushes Roy') and payoff ('press conference'); kept the payoff, cut the connective setup. Cut the Office 'that's what she said' gag as the lightest, most tonally off card in a dignified coming-out hour. Remaining set has good variety: ethics (allyship, empathy), relationships (betrayal-not-bigotry, mentorship), aesthetics (title, closing song, the unspoken line), the belonging spine, and one sober real-world history card. The slur is referenced only, never reproduced, throughout. Ordering puts the two sharpest ideas first (allyship-past-tolerance, hurt-not-hate), then the elegant title/song pair, then craft and theme, with the lower-relevance Trent mentor card last. Trent card flagged 'forward' since its foundation is S3E6 ('Sunflowers')."
+}

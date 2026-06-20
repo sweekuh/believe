@@ -1,0 +1,72 @@
+{
+  "episode": { "season": 3, "number": 5, "title": "Signs" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e5-belief-is-not-a-sign",
+      "verdict": "promote",
+      "interest_take": "The show interrogating its own most famous prop, relocating belief from wall to person — the app's own thesis.",
+      "writing_notes": "Four fields distinct; 'idea' is the real payoff and lands the heart/head/gut move without dialogue. Warm, clear.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e5-fate-vs-free-will-signs",
+      "verdict": "promote",
+      "interest_take": "A one-line key that reads the title two ways at once (signage and omens) — genuinely orienting, not recap.",
+      "writing_notes": "Honest that 'fate vs. free will' is a gloss; concise. Title category fit good. Pairs naturally before the omen cards.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e5-shite-in-nining-armour",
+      "verdict": "promote",
+      "interest_take": "A garbled compliment landing word-for-word as prophecy — the funniest, most 'I never caught that' of the signs.",
+      "writing_notes": "Tight; surprise carries it. Avoids reproducing the exact phrase. Relationships category is a slight stretch but defensible.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e5-zava-retires-avocado-farm",
+      "verdict": "promote",
+      "interest_take": "The mercurial guru vanishes the day after insisting he wasn't needed — a clean gut-punch that rhymes with Ted's speech.",
+      "writing_notes": "Self-contained, funny, well-paced. 'idea' ties it to the episode's belief theme rather than just recapping the exit.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e5-nate-taste-of-athens-date",
+      "verdict": "promote",
+      "interest_take": "A redemptive flicker mid-villain-arc: the sincere Nate outshines the borrowed bravado. Easy to undervalue on first watch.",
+      "writing_notes": "Clean contrast in 'idea'; warm. Redemption category right. Distinct from every other card in the set.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e5-green-matchbook-omen",
+      "verdict": "promote",
+      "interest_take": "A prediction she could shrug off becomes a physical object already in her hand — the concrete hinge of the omen arc.",
+      "writing_notes": "Strong 'idea'; 'why' flags the rewatch payoff honestly. Slight overlap with the malapropism card but weightier and distinct.",
+      "spoiler_concern": "forward"
+    },
+    {
+      "id": "s3e5-ted-panic-attack-henry",
+      "verdict": "promote",
+      "interest_take": "Ted managing anxiety in real time — quiet evidence the S2 work is holding. Insightful but lower-surprise.",
+      "writing_notes": "Handles a delicate beat with the right calm tone. 'why' is upfront that it leans on the S2 storyline.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e5-rebecca-motherhood-doctor",
+      "verdict": "cut",
+      "interest_take": "Tender, but the weakest of the set: it's the omen thread turning serious, already covered by the matchbook/framing cards.",
+      "writing_notes": "Grounding only 3 (barely clears the gate) and interest 3; the fourth 'signs'-adjacent card thins the set's variety. Drops as motherhood thread is forward-looking with little self-contained payoff here.",
+      "spoiler_concern": "forward"
+    }
+  ],
+  "winners": [
+    "s3e5-belief-is-not-a-sign",
+    "s3e5-fate-vs-free-will-signs",
+    "s3e5-shite-in-nining-armour",
+    "s3e5-zava-retires-avocado-farm",
+    "s3e5-nate-taste-of-athens-date",
+    "s3e5-green-matchbook-omen",
+    "s3e5-ted-panic-attack-henry"
+  ],
+  "episode_notes": "Strong, well-organized set anchored by the BELIEVE-sign card, which is the literal heart of this app. The episode's gift is its tight thematic braid — the title 'Signs' works on the banner and on Rebecca's omens at once — so the framing card plus two payoff cards (matchbook, malapropism) earn their places by reading as a deliberate trio rather than recap. One real risk: clustering. FOUR included cards orbited the omen/signs thread (framing, matchbook, malapropism, motherhood). I cut s3e5-rebecca-motherhood-doctor to protect variety and best-first feel: it has the set's lowest scores (grounding 3, interest 3), is forward-looking, and its payoff lands later in S3, so it adds weight without adding a new flavor. That leaves seven winners spanning belief, comedy, redemption, and mental health — good spread for a warm rewatch. Ordering: led with the thematic anchor and the title key, then the two funniest/most-surprising beats (malapropism, Zava) and Nate's redemption to keep momentum, with the more spoiler-dependent matchbook and Ted's panic attack (forward/series) last. The grounding-reviewer correctly merged the production 'meta' card into the philosophy one and correctly held the contested Steinem/Biblical 'truth will set you free' attribution; no excluded card warrants rescue — the two unverified ones (Trent's book title, the Future Islands needle-drop) belong to the S3 finale, not this episode."
+}
