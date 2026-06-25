@@ -63,9 +63,15 @@ try {
   // requestfailed carries the URL; the duplicate console line does not, so match the
   // cert error on its own and also drop the generic console "Failed to load resource".
   const benignCert = t => /ERR_CERT_AUTHORITY_INVALID/.test(t);
+  // Cross-origin font fetches to Google's CDNs can fail in a locked-down sandbox
+  // in more than one way (bad cert when the proxy MITMs, or a closed/blocked
+  // connection when it doesn't) — all are proxy artifacts, not app bugs, since the
+  // CSS declares serif/cursive fallbacks. Ignore *any* failure to the two font
+  // hosts; surface everything else.
+  const fontHost = u => /(googleapis|gstatic)\.com/.test(u);
   page.on("requestfailed", r => {
     const url = r.url(), err = r.failure()?.errorText || "";
-    if (benignCert(err) && /(googleapis|gstatic)\.com/.test(url)) return;
+    if (fontHost(url)) return;
     errors.push(`${err} ${url}`);
   });
   page.on("pageerror", e => errors.push(String(e)));
@@ -122,7 +128,7 @@ try {
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
 
   // Season picker: two seasons; switching repopulates the episode list and re-gates.
-  check("season picker present with 2 seasons", (await page.$$eval("#seasonPicker option", o => o.length)) === 2);
+  check("season picker present with 3 seasons (1, 2, 4 teaser)", (await page.$$eval("#seasonPicker option", o => o.length)) === 3);
   check("loads on season 1", (await page.$eval("#seasonPicker", el => el.value)) === "1");
   check("season 1 lists 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
 
@@ -149,8 +155,23 @@ try {
   await new Promise(r => setTimeout(r, 500));
   check("S2E12 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
 
+  // Season 4 is a not-yet-aired teaser: selecting it shows the preview immediately
+  // (no spoiler gate, since nothing has aired), hides the episode picker, and the
+  // eyebrow reads "Coming soon" rather than an episode number.
+  await page.select("#seasonPicker", "4");
+  await new Promise(r => setTimeout(r, 300));
+  check("season 4 hides the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === true);
+  check("season 4 eyebrow reads coming soon", /Coming soon/i.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("season 4 skips the spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
+  check("season 4 reveals its teaser immediately", (await page.$eval("#notes", el => el.classList.contains("open"))) === true);
+  check("season 4 shows 4 teaser cards", (await page.$$eval("#notes .card", e => e.length)) === 4);
+  check("season 4 teaser leads with the release date", /August 5/i.test(await page.$eval("#notes .card h2", el => el.textContent)));
+  if (shots) await page.screenshot({ path: join(outDir, "07-season4-teaser.png"), fullPage: true });
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
+  await new Promise(r => setTimeout(r, 300));
+  check("leaving the teaser restores the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === false);
   await new Promise(r => setTimeout(r, 300));
   check("switching back to season 1 restores 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
   check("season 1 re-gates real-content episode", (await page.$eval("#gate", el => el.hidden)) === false);

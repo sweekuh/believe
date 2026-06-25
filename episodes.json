@@ -2271,6 +2271,57 @@
           ]
         }
       ]
+    },
+    {
+      "season": 4,
+      "comingSoon": true,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Coming August 5, 2026",
+          "comingSoon": true,
+          "intro": "A new season is on the way, Mom — so here's a little preview instead of notes. None of this is a spoiler; none of it has aired yet. I'll start filling in real cards the morning after each episode drops.",
+          "footer": "Ten episodes, one a week. I'll be watching the night each one airs and writing these up the next morning — so check back through the autumn. <span class=\"marker\">Believe.</span>",
+          "cards": [
+            {
+              "id": "s4-teaser-when",
+              "order": 1,
+              "tag": "When it lands",
+              "title": "It starts August 5th",
+              "idea": "Season four premieres <strong>Wednesday, August 5, 2026</strong>, with a new episode every Wednesday after that — ten in all — through the finale on <strong>October 7</strong>. Same as before, it's on Apple TV.",
+              "why": "So there's nothing to read here just yet. Think of this page as a placeholder that'll fill up with real notes, one episode at a time, as the season airs.",
+              "source": "Apple TV press release, “Ted Lasso returns for season four on Wednesday, August 5” (April 2026)."
+            },
+            {
+              "id": "s4-teaser-premise",
+              "order": 2,
+              "tag": "The big swing",
+              "title": "This time, Ted's coaching a women's team",
+              "idea": "Apple's official description has Ted back at Richmond, taking on what they call his biggest challenge yet: coaching a <strong>second-division women's football team</strong>. The phrase they keep repeating is that Ted and the team learn to <em>leap before they look</em>.",
+              "why": "That's a real reinvention of the show — and listen to how closely that phrase rhymes with the BELIEVE sign: choosing to jump before you have any proof it'll work out.",
+              "source": "Apple TV official season-four logline (April 2026)."
+            },
+            {
+              "id": "s4-teaser-cast",
+              "order": 3,
+              "tag": "Who's coming back",
+              "title": "Familiar faces, and some new ones",
+              "idea": "Coming back: Jason Sudeikis as Ted, along with Hannah Waddingham, Juno Temple, Brett Goldstein, Brendan Hunt and Jeremy Swift. Joining them: Tanya Reynolds, Jude Mack, Faye Marsay, Rex Hayes, Aisling Sharkey, Abbie Hern and Grant Feely.",
+              "why": "Apple named those six returning faces specifically. Who else from Richmond turns up — and who's quietly missing — is part of what we'll find out together.",
+              "source": "Apple TV press release, season-four cast announcement (April 2026)."
+            },
+            {
+              "id": "s4-teaser-hunch",
+              "order": 4,
+              "tag": "Just a hunch — not confirmed",
+              "title": "What I think it'll be about",
+              "idea": "This part is only me guessing, Mom — Apple hasn't said any of it. But <em>“leap before you look”</em> sounds like the whole BELIEVE idea grown up: acting before you can be sure. I'd bet the season keeps poking at the same question the darts scene did — whether hope is naïve, or a kind of discipline.",
+              "why": "I've flagged this one as a guess on purpose. When the episodes actually air, I'll replace hunches like this with the real thing — checked and sourced, like all the others.",
+              "source": "My own speculation — not an official synopsis."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
