@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Believe — Ted Lasso, Season 1</title>
-<meta name="description" content="Little notes on the deeper stuff hiding under the jokes in Ted Lasso, Season 1.">
+<title>Believe — a Ted Lasso companion</title>
+<meta name="description" content="Little notes on the deeper stuff hiding under the jokes in Ted Lasso.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
@@ -272,7 +272,7 @@
         <label for="seasonPicker">Season</label>
         <select id="seasonPicker" aria-label="Pick the season"></select>
       </div>
-      <div class="picker-field">
+      <div class="picker-field" id="epPickerField">
         <label for="epPicker">Episode you just watched</label>
         <select id="epPicker" aria-label="Pick the episode you just watched"></select>
       </div>
@@ -331,6 +331,7 @@
       revealBtn: document.getElementById("revealBtn"),
       notes: document.getElementById("notes"),
       footer: document.getElementById("footer"),
+      epPickerField: document.getElementById("epPickerField"),
       settingsToggle: document.getElementById("settingsToggle"),
       settingsPanel: document.getElementById("settingsPanel"),
       segBtns: document.querySelectorAll(".seg-btn"),
@@ -366,7 +367,7 @@
       DATA.seasons.forEach(function(s){
         var opt = document.createElement("option");
         opt.value = String(s.season);
-        opt.textContent = "Season " + s.season;
+        opt.textContent = "Season " + s.season + (s.comingSoon ? " · coming soon" : "");
         frag.appendChild(opt);
       });
       els.seasonPicker.appendChild(frag);
@@ -458,6 +459,10 @@
 
       buildEpisodePicker(season);
 
+      // A "coming soon" season (a not-yet-aired teaser) has nothing to step through
+      // episode by episode, so hide the episode picker for it and show it otherwise.
+      els.epPickerField.hidden = !!season.comingSoon;
+
       // Default to the first episode of the season unless a specific one is asked for.
       var startNum = season.episodes[0].number;
       if (typeof episodeNumber === "number" &&
@@ -479,8 +484,13 @@
       try { localStorage.setItem(LAST_EP_KEY, String(number)); } catch(e){}
       if (els.picker.value !== String(number)) els.picker.value = String(number);
 
+      // A teaser episode (or a whole "coming soon" season) has nothing aired to spoil.
+      var teaser = !!(currentSeason.comingSoon || ep.comingSoon);
+
       // Title block
-      els.eyebrow.textContent = "Season " + currentSeason.season + " · Episode " + ep.number;
+      els.eyebrow.textContent = teaser
+        ? "Season " + currentSeason.season + " · Coming soon"
+        : "Season " + currentSeason.season + " · Episode " + ep.number;
       els.title.textContent = ep.title;
       if (ep.intro && ep.intro !== ""){
         els.intro.textContent = ep.intro;
@@ -496,6 +506,9 @@
       els.notes.innerHTML = "";
 
       var placeholderOnly = ep.cards.length === 1 && isPlaceholder(ep.cards[0]);
+      // Skip the spoiler gate when there's nothing to spoil: a lone "coming soon"
+      // placeholder, or a teaser for an unaired episode/season.
+      var skipGate = placeholderOnly || teaser;
 
       // Pre-build cards (kept hidden by the section until revealed), best first
       var frag = document.createDocumentFragment();
@@ -511,8 +524,8 @@
         els.footer.innerHTML = "";
       }
 
-      if (placeholderOnly){
-        // No spoilers to gate — show the "coming soon" note straight away.
+      if (skipGate){
+        // No spoilers to gate — show the "coming soon" note / teaser straight away.
         els.gate.hidden = true;
         revealNotes(false);
       } else {
