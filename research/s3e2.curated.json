@@ -1,0 +1,109 @@
+{
+  "episode": {"season":3,"number":2,"title":"(I Don't Want to Go to) Chelsea"},
+  "curated_by":"editorial-review",
+  "verdicts":[
+    {
+      "id":"s3e2-roy-wallet-clipping",
+      "verdict":"promote",
+      "interest_take":"Genuine 'I never caught that' — a tiny prop carrying a decades-long wound, paid off as reconciliation. The episode's best card.",
+      "writing_notes":"Title/moment/idea/why all distinct; idea is the real payoff; warm and concrete. No dialogue reproduced. Right category (Redemption).",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-rebecca-reverse-psychology",
+      "verdict":"promote",
+      "interest_take":"Surprising and character-true: Rebecca lands the superstar by insulting him, not flattering him. Real payoff.",
+      "writing_notes":"Crisp, distinct fields; idea names the mechanism plainly. Paraphrased cleanly. Relationships fits.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-roy-left-at-his-peak",
+      "verdict":"promote",
+      "interest_take":"The strongest of the Roy-conversation cards: pride, identity, fear of decline. Deepens the character.",
+      "writing_notes":"idea is a clean meditation; 'why' wisely ties to the Keeley thread. Ethics & character is right. Carries the Roy beat best of the three siblings.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-title-elvis-costello",
+      "verdict":"promote",
+      "interest_take":"Real double-joke trivia a casual viewer would never know — a song whose Chelsea isn't the club, reused for an all-Chelsea-FC episode.",
+      "writing_notes":"Well-built; the pun lands. Slightly long but earns it. Meta & trivia correct. Good variety anchor.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-zava-zlatan-inspiration",
+      "verdict":"promote",
+      "interest_take":"Production note that makes the swagger land — Ibrahimovic/Cantona/Lewandowski model is non-obvious and fun.",
+      "writing_notes":"Clear and warm. Trim the actor-prep sentence slightly for phone reading, but solid. Meta & trivia fits.",
+      "spoiler_concern":"none",
+      "suggested_edit":"Optional: shorten the 'prepared by reading... studying... personas' clause to one beat for mobile."
+    },
+    {
+      "id":"s3e2-roads-not-taken",
+      "verdict":"promote",
+      "interest_take":"Ted's 'we'd never have met' reframe is a warm, on-brand lesson — the kind of beat this gift exists to surface.",
+      "writing_notes":"Distinct from roy-left-at-his-peak in payoff (counterfactual gratitude vs identity/pride), so keep both. Belief & hope fits. Tight.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-roy-returns-to-chelsea",
+      "verdict":"revise",
+      "interest_take":"Good emotional spine, but largely setup for the two sharper Roy cards; on its own it's closer to recap than revelation.",
+      "writing_notes":"Overlaps the homecoming framing of left-at-peak and roads-not-taken. Keep only if reframed around the title-maps-to-Roy insight so it isn't redundant.",
+      "spoiler_concern":"none",
+      "suggested_edit":"Tighten to the single idea that the song title 'I don't want to go to Chelsea' = Roy's dread; cut the plot-recap moment so it doesn't duplicate the other Roy cards. Otherwise cut and let left-at-peak + roads-not-taken carry the homecoming."
+    },
+    {
+      "id":"s3e2-beard-jane-immersive-theater",
+      "verdict":"promote",
+      "interest_take":"Light, delightful background absurdity — earns its place as tonal variety, not weight.",
+      "writing_notes":"Short and apt; honest that the joke is in how unremarked it goes. insight is low by design; fine as a palate-cleanser. Meta & trivia fits.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-zava-introduced",
+      "verdict":"cut",
+      "interest_take":"Mostly plot recap (surprise scored 2). The interesting Zava angles live in zlatan-inspiration and rebecca-reverse-psychology, which already cover his arrival.",
+      "writing_notes":"'why' leans on 'hinge of the whole season' — forward-scope framing. Redundant with two stronger Zava-adjacent cards.",
+      "spoiler_concern":"forward"
+    },
+    {
+      "id":"s3e2-zava-ego-vs-team",
+      "verdict":"cut",
+      "interest_take":"Reviewer's own notes: the vivid evidence (meditation circle, avocado farm) lands in E3, not here. As an E2 card it's thin setup.",
+      "writing_notes":"Explicitly tells the reader the payoff 'arrives in the next episode' — a spoiler nudge and an admission it doesn't belong to this episode. relevance 2 / spoiler_safety 2.",
+      "spoiler_concern":"forward"
+    },
+    {
+      "id":"s3e2-trent-crimm-book",
+      "verdict":"cut",
+      "interest_take":"Functional setup, low surprise; mostly explains a running gag and seeds future episodes rather than rewarding this one.",
+      "writing_notes":"'plants Trent as a recurring presence for the rest of the season' is forward-scope. The Trent material that matters this episode is already in the wallet-clipping card.",
+      "spoiler_concern":"forward"
+    },
+    {
+      "id":"s3e2-expectations-throughline",
+      "verdict":"cut",
+      "interest_take":"Critics' synthesis, not a thing a viewer 'missed' (surprise 2). Reads academic for a warm non-technical reader.",
+      "writing_notes":"More essay than card; restates beats already covered by the Roy and Zava cards. Belief & hope slot better filled by roads-not-taken.",
+      "spoiler_concern":"none"
+    },
+    {
+      "id":"s3e2-roy-keeley-breakup-fallout",
+      "verdict":"cut",
+      "interest_take":"Carryover fallout with low surprise; the locker-room shock is recap. The breakup's meaning is better captured by roy-left-at-his-peak's 'leaves the moment it gets hard' note.",
+      "writing_notes":"Adds a fifth Roy card to an already Roy-heavy set; overlaps left-at-peak's thesis. Trim the set here.",
+      "spoiler_concern":"none"
+    }
+  ],
+  "winners":[
+    "s3e2-roy-wallet-clipping",
+    "s3e2-rebecca-reverse-psychology",
+    "s3e2-roy-left-at-his-peak",
+    "s3e2-title-elvis-costello",
+    "s3e2-zava-zlatan-inspiration",
+    "s3e2-roads-not-taken",
+    "s3e2-beard-jane-immersive-theater"
+  ],
+  "episode_notes":"Strong core, but the gate over-included: 13 cards with heavy clustering. FIVE were Roy-centric (returns, left-at-peak, roads-not-taken, wallet-clipping, keeley-breakup) and three of those draw from the same post-match Roy/Ted/Trent conversation. I keep the two sharpest distinct Roy payoffs (wallet-clipping = the wound/reconciliation; left-at-peak = pride/identity) plus roads-not-taken (Ted's gratitude reframe — a different, warm payoff), and cut keeley-breakup (recap, overlaps left-at-peak's thesis) and demote roy-returns to revise-or-cut (pure setup for the other two). TWO Zava cards (introduced, ego-vs-team) are recap/forward-scope; ego-vs-team admits its payoff is in E3 and literally points the reader there, so both are cut — the keepable Zava angles survive in zlatan-inspiration (trivia) and rebecca-reverse-psychology (character). trent-crimm-book and expectations-throughline are setup/critic-synthesis with low surprise and forward framing; cut. Final 7 has good category variety: Redemption, Relationships, Ethics & character, Meta & trivia x3 (Costello / Zava model / Beard) and Belief & hope (roads-not-taken). Best-first interest ordering reads well: wallet-clipping (the standout) leads, then Rebecca and Roy's choice, with the lighter trivia and Beard card landing last as tonal relief. No ending/series spoilers in the kept set; all forward-scope flags were cut."
+}

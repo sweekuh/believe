@@ -1,0 +1,321 @@
+{
+  "episode": { "season": 3, "number": 5, "title": "Signs" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e5-belief-is-not-a-sign",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps confirm that after the heavy home loss to Manchester City the BELIEVE banner falls and tears again, and rather than re-hang it Ted tears it down, telling the squad it is just a sign and that belief comes from inside — heart, head and gut. He reframes belief as internally held (you matter regardless of achievement, everyone deserves to be loved, things can get better). This card merges in the production/meta angle of the same moment (former candidate s3e5-believe-sign-meta).",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
+        "https://www.highonfilms.com/ted-lasso-season-3-episode-5-recap-ending-explained/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e5-belief-is-not-a-sign",
+        "tag": "Belief lives in you, not on the wall",
+        "title": "Ted tears down the BELIEVE sign",
+        "moment": "After a crushing home defeat the taped BELIEVE banner falls apart again. Instead of re-hanging it, Ted pulls the rest down and tells the squad it was only ever a sign — belief has to come from inside, from heart, head and gut, where no one can rip it away.",
+        "idea": "Belief is not produced by a symbol on a wall; the banner is a prompt, not the source. Ted relocates belief from the object to the person — you matter regardless of what you achieve, everyone deserves love, things can get better — and argues that if those convictions are held internally, no one can tear them apart.",
+        "why": "This is the show interrogating its own most famous image, and the heart of the app you are holding. Watch how Ted is not renouncing belief but moving it inward — the same lesson about ego and collective credit runs through the whole episode.",
+        "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (ScreenRant; High on Films; The Hollywood Reporter).",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed across multiple recaps: the BELIEVE banner falls, Ted tears it down rather than re-hang it, and delivers the heart/head/gut speech relocating belief inward.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
+          "https://www.highonfilms.com/ted-lasso-season-3-episode-5-recap-ending-explained/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-fate-vs-free-will-signs",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "The title 'Signs' braids the literal BELIEVE signage, Rebecca's psychic omens, and the question of whether meaning is read off the universe or authored by us. Recaps confirm the skeptic Rebecca wavers as the psychic's predictions surface in real life while Ted's banner speech argues meaning is internally made. 'Fate vs. free will' / apophenia is the reviewer's thematic gloss, not a quote from the show; no philosopher is credited.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/",
+        "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-fate-vs-free-will-signs",
+        "tag": "Omens read vs. meaning made",
+        "title": "Why the episode is called “Signs”",
+        "moment": "Across the hour, signs pile up: a fallen banner, a green matchbook, a stranger's garbled phrase. Rebecca, the resident skeptic, feels her doubt slipping as a psychic's predictions keep coming true, while Ted argues belief is something you author, not something handed to you.",
+        "idea": "The episode sets two ways of finding meaning against each other — reading omens as messages from fate, or making meaning ourselves. Rebecca drifts toward fate; Ted's banner speech is the counterweight, insisting meaning and belief are internally authored.",
+        "why": "A one-line key to the whole episode. Notice how the title works on the literal signage and on the omens at once, and how the two main stories pull in opposite directions on the same question.",
+        "source": "Recaps and analysis of <em>Ted Lasso</em> S3E5 “Signs” (The Hollywood Reporter; ScreenRant).",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The signs/omens-vs-self-authored-meaning framing is corroborated by recaps; 'fate vs. free will' is a thematic gloss, not a show quote, and no philosopher is credited.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/",
+          "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-green-matchbook-omen",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: a psychic (hired by Rebecca's mother, reading earlier in S3) named a green matchbook as significant; in 'Signs' Rebecca realizes the green matchbook she carries is the one handed out at the opening of Sam's Nigerian restaurant, so the prediction has materialized. Sources differ on whether the reading itself is in S3E3 or S3E4, but the recognition lands here in S3E5.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+        "https://www.themarysue.com/lets-feverishly-speculate-about-rebeccas-green-matchbook-in-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-green-matchbook-omen",
+        "tag": "The prediction made literal",
+        "title": "The green matchbook from Sam's restaurant",
+        "moment": "About to throw away a green matchbook, Rebecca realizes it is the one given out at the opening of Sam's Nigerian restaurant — exactly the 'special' green matchbook a psychic had told her would matter. The omen she dismissed has materialized.",
+        "idea": "The matchbook is the concrete hinge of Rebecca's fate-versus-skepticism arc: a prediction she could shrug off becomes a physical object she is already carrying, making the 'signs' impossible to wave away.",
+        "why": "A small object doing heavy thematic lifting. Its meaning keeps developing later in the season, so it rewards a rewatch — watch Rebecca try, and fail, to be rid of it.",
+        "source": "Recaps and explainers of <em>Ted Lasso</em> S3 (ScreenRant; The Mary Sue).",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated by multiple sources: the matchbook from Sam's restaurant opening is the one the psychic foretold; the recognition lands in S3E5 (the reading itself is an earlier S3 episode).",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+          "https://www.themarysue.com/lets-feverishly-speculate-about-rebeccas-green-matchbook-in-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-shite-in-nining-armour",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: the psychic recited an odd phrase, and in 'Signs' Rebecca runs into John Wingsnight (a man she dated early in Season 2), whose new partner affectionately mangles 'knight in shining armour' into the exact garbled phrase the psychic foretold. The partner, not Rebecca, says the line. One beat in the multi-episode psychic payoff.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+        "https://screenrant.com/ted-lasso-season-3-rebecca-psychic-predictions-came-true/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-shite-in-nining-armour",
+        "tag": "A garbled phrase comes true",
+        "title": "The malapropism the psychic predicted",
+        "moment": "Rebecca bumps into John, a dull man she once dated, now engaged. His new partner fondly mangles 'knight in shining armour' into the exact nonsense phrase the psychic had said Rebecca would one day hear — landing word for word.",
+        "idea": "Another foretold detail arriving on cue, this one absurd rather than weighty. The comedy of a garbled compliment doubling as prophecy is what keeps nudging the skeptical Rebecca off balance.",
+        "why": "The funniest of the 'signs,' and easy to miss as a callback unless you remember the reading. The humor is in the exact wording matching — a small, distinctive phrase paid off.",
+        "source": "Recaps of <em>Ted Lasso</em> S3 psychic predictions (ScreenRant).",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Corroborated: Rebecca's old date John reappears engaged, and his partner uses the exact garbled phrase the psychic predicted; the partner, not Rebecca, says it.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+          "https://screenrant.com/ted-lasso-season-3-rebecca-psychic-predictions-came-true/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-zava-retires-avocado-farm",
+      "type": "trivia",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across recaps: Zava no-shows the Manchester City match (Richmond is routed) and announces via a social-media video that he is retiring from football to focus on his family and his avocado farm. No 'based on Zlatan' basis is asserted here, per the flag; that real-player attribution remains unverified and is not claimed.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
+        "https://comicbook.com/tv-shows/news/ted-lasso-season-3-richmond-setback-zava-quits-match/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-zava-retires-avocado-farm",
+        "tag": "The star signing vanishes",
+        "title": "Zava retires to his avocado farm",
+        "moment": "Richmond's galaxy-brained superstar no-shows the big match — the team is routed — and then posts a video announcing he is retiring from football to be with his family and tend his avocado farm. The guru exits as abruptly as he arrived.",
+        "idea": "The punchline of the season's Zava arc: the mercurial star walks away, forcing Richmond to relearn that belief can't be outsourced to a marquee signing. It rhymes with Ted's banner speech the same hour — the answer was never an external object or person.",
+        "why": "A sudden, funny gut-punch that resets the season. Note how it lands the day after Zava insists Richmond doesn't need him to win.",
+        "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (ScreenRant; ComicBook.com).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed by multiple recaps: Zava no-shows the City match and announces retirement to his family and avocado farm via a social-media video. No real-player ('Zlatan') basis is asserted.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
+          "https://comicbook.com/tv-shows/news/ted-lasso-season-3-richmond-setback-zava-quits-match/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-ted-panic-attack-henry",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Ted learns from Michelle that Henry was the bully, not the bullied; the worry brings on panic-attack symptoms (tingling fingers, shortness of breath). A call from Henry, who has apologized to the kid, helps Ted breathe through it. This continues the well-documented Season 2 panic-attack arc.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
+        "https://www.thereviewgeek.com/tedlasso-s3e5review/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 2 },
+      "interest_score": 69,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-ted-panic-attack-henry",
+        "tag": "Anxiety resurfaces",
+        "title": "Ted's panic attack, and Henry's call",
+        "moment": "Hearing that Henry was the bully rather than the bullied, Ted feels a panic attack coming on — tingling fingers, short breath. He steadies himself with breathing and a reassuring call from Henry, who says he apologized, before he can face the team.",
+        "idea": "A direct continuation of the Season 2 arc in which Ted's untreated anxiety surfaced. Here he is the one managing it in real time — quiet evidence that the work he did is holding.",
+        "why": "Watch how the show treats the panic as ordinary and survivable rather than a crisis. To feel the weight of this beat, it helps to remember the Season 2 mental-health storyline it pays off.",
+        "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (TV Tropes; The Review Geek).",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: Ted has panic-attack symptoms after learning Henry was the bully; a call from Henry helps him through it, continuing the Season 2 anxiety arc.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
+          "https://www.thereviewgeek.com/tedlasso-s3e5review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-truth-will-set-you-free-sharon",
+      "type": "philosophy",
+      "verdict": "contested",
+      "verification_notes": "The episode beat is real (after Trent's reporting makes Ted's panic attacks public, Sharon leaves a supportive voicemail paraphrasable as 'the truth will set you free, but first it will piss you off'). The attribution is contested: the phrasing is popularly credited to Gloria Steinem but the attribution is uncertain/unconfirmed, and the base 'the truth will set you free' is Biblical (John 8:32). Held for a human per the rules: do not assert an author.",
+      "verified_sources": [
+        "https://www.thereviewgeek.com/tedlasso-s3e5review/",
+        "https://ted-lasso.fandom.com/wiki/Sharon_Fieldstone"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 2 },
+      "interest_score": 69,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s3e5-trent-book-the-lasso-way",
+      "type": "easter-egg",
+      "verdict": "unverified",
+      "verification_notes": "Episode placement fails. Multiple sources place Trent giving Ted and Beard the manuscript titled 'The Lasso Way' — and Ted's note to rename it 'The Richmond Way' — in the Season 3 FINALE ('So Long, Farewell'), not in S3E5. No source confirms an on-screen 'The Lasso Way' title in 'Signs.' Excluded as unverified for this episode.",
+      "verified_sources": [
+        "https://www.distractify.com/p/is-the-richmond-way-a-real-book-ted-lasso",
+        "https://ted-lasso.fandom.com/wiki/So_Long,_Farewell"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 1, "spoiler_safety": 2 },
+      "interest_score": 50,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e5-nate-taste-of-athens-date",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: Nate takes the model Anastasia (met at the end of the prior episode) to A Taste of Athens, his family's beloved restaurant; she is dismissive and leaves. His sincere explanation of what the place means registers with the hostess Jade, who warms to him and shares baklava. A quietly redemptive beat mid-villain-arc.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
+        "https://screenrant.com/ted-lasso-season-3-episode-5-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-nate-taste-of-athens-date",
+        "tag": "His real self outshines the act",
+        "title": "Nate's date at A Taste of Athens",
+        "moment": "Flush with new status, Nate brings a model to his family's modest Greek restaurant. She sneers at the unglamorous choice and leaves, but his heartfelt account of what the place means to his family softens the hostess Jade, who stays and shares baklava with him.",
+        "idea": "A redemptive flicker inside Nate's villain arc: the sincere, family-loving version of him is more appealing than the borrowed bravado he has been performing. Authenticity lands where the act fails.",
+        "why": "Watch the contrast between the persona Nate thinks impresses and the sincerity that actually does. It quietly sets up where his story is heading.",
+        "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (TV Tropes; ScreenRant).",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: Nate's date with the model at A Taste of Athens sours, but his sincerity wins over the hostess Jade, who shares baklava with him.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
+          "https://screenrant.com/ted-lasso-season-3-episode-5-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-rebecca-motherhood-doctor",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed: unsettled by the accumulating signs (especially the matchbook), Rebecca goes to a doctor to ask whether she can still have children; the psychic had also predicted she would be a mother. A quiet, personal beat connecting the omen thread to the season's deeper question of legacy and motherhood. Forward-looking: how the thread resolves comes later in S3.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e5-rebecca-motherhood-doctor",
+        "tag": "Signs with real stakes",
+        "title": "Rebecca and the question of motherhood",
+        "moment": "Shaken by the run of omens, Rebecca quietly visits a doctor to ask whether she can still have children — the psychic had predicted she would one day be a mother.",
+        "idea": "The 'signs' stop being a superstition gag and acquire real weight here, tying the omen thread to Rebecca's loneliness and her question of legacy. It is the moment the episode lets the fate motif touch something genuinely tender.",
+        "why": "A quiet, personal beat rather than a joke — worth slowing down for. The motherhood thread keeps developing later in the season.",
+        "source": "Recaps of <em>Ted Lasso</em> S3 (ScreenRant; The Hollywood Reporter).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: spurred by the signs, Rebecca sees a doctor about whether she can still have children; the psychic had predicted motherhood. The thread resolves later in S3.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
+        ]
+      }
+    },
+    {
+      "id": "s3e5-shadows-future-islands-needle-drop",
+      "type": "reference",
+      "verdict": "unverified",
+      "verification_notes": "Placement fails. 'Shadows' by Future Islands (feat. Debbie Harry) is tied in soundtrack sources to the scene of Ted reading a draft of Trent's book — but that book-reading scene occurs in the Season 3 FINALE, not in S3E5, where Trent has not yet handed over the manuscript. No source confirms the needle-drop in 'Signs.' Held/dropped to avoid wrong-episode contamination.",
+      "verified_sources": [
+        "https://www.what-song.com/Tvshow/100693/Ted-Lasso/e/142946",
+        "https://www.tunefind.com/show/ted-lasso/season-3/235978"
+      ],
+      "scores": { "grounding": 2, "insight": 2, "surprise": 3, "relevance": 1, "spoiler_safety": 3 },
+      "interest_score": 45,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e5-believe-sign-meta",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "True, but a near-duplicate of s3e5-belief-is-not-a-sign (same BELIEVE-banner moment). Merged into that card to avoid shipping two near-identical cards; excluded here per the de-duplication rule. The meta/production angle (dismantling the show's own signature prop) is folded into the philosophy card's 'why'.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
+        "https://www.highonfilms.com/ted-lasso-season-3-episode-5-recap-ending-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": false
+    }
+  ]
+}

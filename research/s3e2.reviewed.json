@@ -1,0 +1,453 @@
+{
+  "episode": { "season": 3, "number": 2, "title": "(I Don't Want to Go to) Chelsea" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e2-title-elvis-costello",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia (song + This Year's Model pages) confirm '(I Don't Want to Go to) Chelsea' as the Elvis Costello & the Attractions single released 3 March 1978 from the 1978 album This Year's Model; Wikipedia notes the lyric was inspired by London films Costello had been watching and childhood Chelsea trips, and PopMatters reads it as evocative of the fashionable Chelsea district rather than the football club. The 'about the district/fashion not the club' angle is critical interpretation, presented as the song's accepted reading, not hard fact. Snippet-based verification (WebFetch returned 403 all session).",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/(I_Don%27t_Want_to_Go_to)_Chelsea",
+        "https://en.wikipedia.org/wiki/This_Year%27s_Model",
+        "https://www.popmatters.com/girls-girls-girls-etc-elvis-costello-i-dont-want-to-go-to-chelsea-2495828032.html"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e2-title-elvis-costello",
+        "tag": "A punny title with a backstory",
+        "title": "Where the episode title comes from",
+        "moment": "The on-screen title card. The episode sends Richmond to play away at Chelsea, and dread-soaked Roy Kent back to the club where he made his name.",
+        "idea": "The title lifts the name of a 1978 Elvis Costello and the Attractions single from the album <em>This Year's Model</em>. Costello's lyric is oblique and is usually read as being about the fashionable Chelsea district of West London, not the football club at all.",
+        "why": "It is a double joke: a famous song whose 'Chelsea' has nothing to do with football, reused for an episode that is entirely about going to Chelsea FC. Costello later said the song grew out of old London films and boyhood trips to the area with his father.",
+        "source": "Wikipedia (Elvis Costello song and <em>This Year's Model</em>); <em>PopMatters</em> on the song's meaning.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Song and album facts confirmed via Wikipedia; the 'district not the club' reading is critical interpretation (PopMatters). Snippet-based verification.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/(I_Don%27t_Want_to_Go_to)_Chelsea",
+          "https://en.wikipedia.org/wiki/This_Year%27s_Model",
+          "https://www.popmatters.com/girls-girls-girls-etc-elvis-costello-i-dont-want-to-go-to-chelsea-2495828032.html"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-zava-introduced",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple independent recaps (TheCinemaholic, HollywoodReporter, ReadySteadyCut) confirm Zava is introduced here as a mercurial superstar striker leaving Juventus, courted by several clubs (Chelsea favored, plus West Ham etc.), who shocks everyone by signing with Richmond at the Chelsea press conference. The 'Juventus / 14th club in 15 years' detail appears in recaps. Snippet-based verification.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
+        "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-zava-introduced",
+        "tag": "Enter the superstar",
+        "title": "Zava arrives",
+        "moment": "Word breaks that Zava, a mercurial European superstar striker, is leaving his Italian club and looking to move to London. Half the Premier League scrambles to sign him, and the chase becomes the engine of the episode.",
+        "idea": "Zava (played by Maximilian Osinski) is the season's big new presence: a once-in-a-generation goalscorer with an outsized personality. Chelsea is the favorite, but he stuns everyone by choosing little Richmond at a live press conference.",
+        "why": "It is the hinge of the whole season. Watch how a single new signing reshapes the team's chemistry and tests Ted's quiet, collective way of doing things.",
+        "source": "Episode recaps (<em>The Hollywood Reporter</em>, <em>TheCinemaholic</em>, <em>Ready Steady Cut</em>).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Zava's introduction, the multi-club chase, the Juventus departure, and the surprise Richmond signing are confirmed across independent recaps. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
+          "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-zava-zlatan-inspiration",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Independent outlets (iMore, Goal.com, Today) and actor Maximilian Osinski confirm Zava was pitched as a mix of Zlatan Ibrahimovic and Eric Cantona — 'not an antagonist but an agitator' — with Robert Lewandowski also cited; Ibrahimovic is the primary model. Contrary to the hunter's flag, the 'read Ibrahimovic's book I Am Football' sub-detail IS corroborated (iMore and Goal both report Osinski read I Am Football and watched documentaries). This is an attribution/inspiration claim. Snippet-based verification.",
+      "verified_sources": [
+        "https://www.imore.com/music-movies-tv/turns-out-zlatan-ibrahimovic-isnt-the-only-inspiration-for-ted-lassos-zava",
+        "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
+        "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e2-zava-zlatan-inspiration",
+        "tag": "The real player behind Zava",
+        "title": "Who Zava is based on",
+        "moment": "A production note behind the character introduced this episode, not a single on-screen beat.",
+        "idea": "Zava was built mainly on Sweden's Zlatan Ibrahimovic, with touches of France's Eric Cantona and Poland's Robert Lewandowski. Actor Maximilian Osinski has said the brief was an 'Ibrahimovic or Cantona type, not a villain, an agitator,' and that he prepared by reading Ibrahimovic's autobiography <em>I Am Football</em> and studying the players' cocky, self-mythologizing public personas.",
+        "why": "Knowing the model makes the swagger land. Zava's serene, guru-like grandiosity is a deliberate nod to a real footballer famous for declaring his own greatness with a straight face.",
+        "source": "Cast interviews and reporting (<em>iMore</em>, <em>Goal</em>, <em>Today</em>).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "attributed",
+        "groundingNotes": "Inspiration (Ibrahimovic chiefly, plus Cantona and Lewandowski) and Osinski's prep — including reading I Am Football — confirmed across independent outlets. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://www.imore.com/music-movies-tv/turns-out-zlatan-ibrahimovic-isnt-the-only-inspiration-for-ted-lassos-zava",
+          "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
+          "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-roy-returns-to-chelsea",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "HollywoodReporter and Fandom confirm Richmond's away fixture is at Chelsea, Roy's old club where he was a Champions League winner, and that his first competitive return to Stamford Bridge brings a warm fan reception that leaves him reflective and sad. Independently corroborated by real-world news of a Stamford Bridge banner edited to honour the fictional Roy Kent (which angered Chelsea fans), confirming the away-at-Chelsea staging. Snippet-based verification.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/",
+        "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+        "https://screenrant.com/ted-lasso-roy-kent-banner-fans-response/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-roy-returns-to-chelsea",
+        "tag": "A homecoming he dreads",
+        "title": "Roy goes back to Chelsea",
+        "moment": "Richmond's away match is at Stamford Bridge, the ground where Roy Kent began his career and won the Champions League. It is his first time back in competition since he retired, and the Chelsea crowd gives their old hero a loving welcome.",
+        "idea": "The episode's title — 'I don't want to go to Chelsea' — maps straight onto Roy. The warm reception does not lift him; it leaves him quiet and sad, because the place reminds him of how his time there ended.",
+        "why": "It is the emotional spine of the episode. The reluctance in the title is really about Roy and the ache of returning to a place that was once everything.",
+        "source": "Episode recap (<em>The Hollywood Reporter</em>); Ted Lasso Wiki on Roy's Chelsea career.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy's Chelsea past and the emotional return are confirmed across recaps and Fandom, and corroborated by real-world coverage of the edited Stamford Bridge banner. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/",
+          "https://ted-lasso.fandom.com/wiki/Roy_Kent",
+          "https://screenrant.com/ted-lasso-roy-kent-banner-fans-response/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-roy-left-at-his-peak",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "TheCinemaholic and HollywoodReporter confirm Roy reflects that he left Chelsea the moment things got hard / he sensed his game slipping, rather than stay and simply enjoy the sport — the same trait recaps link to his ending things with Keeley. Presented as a thematic gloss on identity and the fear of decline; the show does not cite any named philosopher. Snippet-based verification.",
+      "verified_sources": [
+        "https://thecinemaholic.com/why-did-roy-kent-leave-chelsea-in-ted-lasso-explained/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e2-roy-left-at-his-peak",
+        "tag": "Leaving before the decline",
+        "title": "Why Roy walked away",
+        "moment": "Talking with Ted and Trent after the match, Roy admits he quit Chelsea the moment he felt his game start to slip. He wonders aloud whether he should have stayed and just enjoyed it — then says that simply is not who he is.",
+        "idea": "It is a small meditation on pride and identity: choosing a clean exit over the vulnerability of being merely good. Roy would rather leave at the top than be seen fading, even though part of him regrets it.",
+        "why": "Recaps tie this same instinct — bolting the second things get hard — to why he ended things with Keeley. Watch how the fear of decline quietly shapes his choices on and off the pitch.",
+        "source": "Episode recaps (<em>TheCinemaholic</em>, <em>The Hollywood Reporter</em>).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Roy's reflection on leaving once he sensed his decline is confirmed across recaps; framed as a thematic gloss, not an attributed philosophy. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/why-did-roy-kent-leave-chelsea-in-ted-lasso-explained/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-roads-not-taken",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes recap and Nerds and Beyond confirm the beat: after Roy says part of him wishes he'd stayed at Chelsea, Ted points out that had Roy not left, the two of them would never have met. A compact counterfactual-regret exchange; presented as a thematic reading, not an attributed philosophy. Snippet-based verification.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E02IDontWantToGoToChelsea",
+        "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-roads-not-taken",
+        "tag": "The road not taken",
+        "title": "Regret and the path that led here",
+        "moment": "Roy says part of him wishes he had stayed at Chelsea and just enjoyed himself. Ted gently reframes it: if Roy had stayed, the two of them would never have met.",
+        "idea": "A small lesson in counterfactual regret. The painful choice you keep second-guessing is often the very thing that opened the door to the good you have now.",
+        "why": "It echoes the show's steady refusal to dwell on roads not taken. Notice how Ted turns a regret into gratitude without denying that it hurt.",
+        "source": "Episode recaps (TV Tropes, <em>Nerds and Beyond</em>).",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The Roy/Ted 'we'd never have met' exchange is confirmed across recaps; framed as a thematic reading, not an attributed philosophy. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E02IDontWantToGoToChelsea",
+          "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-zava-ego-vs-team",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Zava's persona as the antithesis of Ted's team-first ethos is well documented (Fandom; multiple recaps), but the specific cited visuals — the locker-room meditation circle and the avocado-farm material — actually land in E3 ('4-5-1') and later, not in E2, where Zava is only introduced and signed. So as an E2-specific claim it is only partially confirmed; the thematic setup belongs here but its vivid evidence does not. Held relevance/spoiler-safety low accordingly. Snippet-based verification.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/Zava",
+        "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-3/",
+        "https://antagonistblog.com/ted-lasso-season-3-episode-3-recap/"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 3, "relevance": 2, "spoiler_safety": 2 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-zava-ego-vs-team",
+        "tag": "The lone star vs the team",
+        "title": "Everything Ted's program isn't",
+        "moment": "As Zava is courted and signed, he is set up as the opposite of Richmond's culture: a self-styled guru with a spiritual persona and a colossal ego that bends every room toward himself.",
+        "idea": "Where Ted builds a hands-in, collective warmth, Zava is the gravitational centre — brilliant, but individual stardom in place of team feeling. The episode plants the question the season will wrestle with: does a lone savior, even a winning one, cost you the thing that made the team special?",
+        "why": "Watch for the contrast taking shape. The fuller payoff — Zava leading the squad in his own meditation circle — arrives in the next episode, but the setup starts here.",
+        "source": "Ted Lasso Wiki on Zava; episode recaps (The Spool, The Antagonist).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Zava's ego-vs-team persona is confirmed, but the cited meditation-circle and avocado-farm visuals land in E3 and later, not E2, where he is only introduced and signed. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/Zava",
+          "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-3/",
+          "https://antagonistblog.com/ted-lasso-season-3-episode-3-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-rebecca-reverse-psychology",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "ReadySteadyCut, TheCinemaholic and The Spoilist confirm that, alarmed by Rupert charming Zava toward West Ham, Rebecca corners Zava and insults him (daring him to prove himself at a team that actually needs him), and that he then announces at the Chelsea press conference he is signing with Richmond. Recaps present her confrontation as the cause of the switch; it is the show's framing, with Zava's own showmanship also in play. Snippet-based verification.",
+      "verified_sources": [
+        "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
+        "https://www.thespoilist.com/recap-ted-lasso-season-3x02-i-dont-want-to-go-to-chelsea/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e2-rebecca-reverse-psychology",
+        "tag": "Winning by insulting",
+        "title": "Rebecca lands Zava",
+        "moment": "Watching Rupert work to lure Zava to West Ham, Rebecca corners him and lets him have it — calling his bluff and daring him to join a team that genuinely needs him. At the press conference, he stuns everyone, herself included, by picking Richmond.",
+        "idea": "It is reverse psychology with Rebecca's signature bluntness. She does not flatter the superstar; she challenges his ego head-on, and that is what lands him.",
+        "why": "A neat continuation of the combative fire she has shown since season one — and a reminder that with some people, a dare works where a sales pitch fails.",
+        "source": "Episode recaps (<em>Ready Steady Cut</em>, <em>TheCinemaholic</em>, <em>The Spoilist</em>).",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Rebecca's confrontation and Zava's surprise Richmond signing are confirmed across recaps, which present the insult as the cause of his switch. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
+          "https://www.thespoilist.com/recap-ted-lasso-season-3x02-i-dont-want-to-go-to-chelsea/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-trent-crimm-book",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TVLine and Uproxx confirm Trent Crimm — repeatedly tagged 'no longer of The Independent' — proposes embedding with Richmond all season to write a book about the club and Ted, establishing his recurring season-long presence. Snippet-based verification.",
+      "verified_sources": [
+        "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-2-roy-jamie-brett-goldstein-video-1234943753/",
+        "https://uproxx.com/tv/ted-lasso-power-ranking-season-3-episode-2-trent-crimm-zava/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-trent-crimm-book",
+        "tag": "No longer of The Independent",
+        "title": "Trent Crimm pitches a book",
+        "moment": "Trent Crimm — now repeatedly introduced as 'no longer of The Independent' — asks for season-long access to embed with Richmond and write a book about the club and Ted.",
+        "idea": "The lost newspaper title that keeps getting mentioned becomes the joke and the setup at once: the journalist who once judged Richmond from the outside now wants to live inside the story.",
+        "why": "It plants Trent as a recurring presence for the rest of the season and pays off the running 'no longer of The Independent' gag. Watch how his role shifts from critic to chronicler.",
+        "source": "Episode coverage (<em>TVLine</em>, <em>Uproxx</em>).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Trent's book pitch and his 'no longer of The Independent' tag are confirmed across independent coverage. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-2-roy-jamie-brett-goldstein-video-1234943753/",
+          "https://uproxx.com/tv/ted-lasso-power-ranking-season-3-episode-2-trent-crimm-zava/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-roy-wallet-clipping",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "HollywoodReporter, Uproxx and TheReviewGeek confirm Roy has carried a clipping in his wallet since he was 17 — a savage review of his Premier League debut written by a young Trent Crimm — that Trent apologizes for (saying he was just trying to make a name for himself), after which Roy tears it up. Snippet-based verification; the show's review text is paraphrased only.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/",
+        "https://uproxx.com/tv/ted-lasso-power-ranking-season-3-episode-2-trent-crimm-zava/",
+        "https://www.thereviewgeek.com/tedlasso-s3e2review/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 5, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 100,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e2-roy-wallet-clipping",
+        "tag": "A wound he carried for years",
+        "title": "The clipping in Roy's wallet",
+        "moment": "Roy reveals he has kept a scrap of newspaper in his wallet since he was 17 — a brutal review of his Premier League debut, written by a young Trent Crimm, dismissing the teenage prodigy as more hype than talent. Trent apologizes, admitting he was just trying to be edgy and make a name for himself. Roy tears the clipping up.",
+        "idea": "One small, easy-to-miss object holds a career-long hurt. That Roy carried his harshest review for decades says everything about how the words landed — and tearing it up is the quiet end of the grudge.",
+        "why": "It reframes Roy's long disdain for Trent as something deeply personal, and turns a tiny prop into the episode's reconciliation. Watch for the clipping before you know what it is.",
+        "source": "Episode recaps (<em>The Hollywood Reporter</em>, <em>Uproxx</em>, <em>The Review Geek</em>).",
+        "category": "Redemption",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The wallet clipping, Trent's apology, and Roy tearing it up are confirmed across independent recaps. Snippet-based verification; review text paraphrased only.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/",
+          "https://uproxx.com/tv/ted-lasso-power-ranking-season-3-episode-2-trent-crimm-zava/",
+          "https://www.thereviewgeek.com/tedlasso-s3e2review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-expectations-throughline",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple reviews (Joe Iovino, Episodic Medium, Subjectify) independently read the episode through the lens of expectations and identity — the teenage Roy buckling under hype, Trent's career-making cruelty, Zava as the over-hyped savior, Richmond freshly written off. This is a critic's synthesis, framed as an interpretive throughline rather than a stated fact. Snippet-based verification.",
+      "verified_sources": [
+        "https://joeiovino.com/2023/03/28/not-living-up-to-expectations-ted-lasso-s3-e2/",
+        "https://episodicmedium.substack.com/p/review-ted-lasso-i-dont-want-to-go",
+        "https://subjectifymedia.com/ted-lasso-season-3-episode-2-review/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-expectations-throughline",
+        "tag": "The weight of expectation",
+        "title": "What ties the episode together",
+        "moment": "Across the hour: the teenage Roy crushed by his own hype, Trent's career-making cruelty, Zava as the impossibly hyped savior, and a Richmond side written off before it starts.",
+        "idea": "Critics read the episode as one long variation on expectation — the weight of what others expect of you, and what it costs to live up to it or be broken by it.",
+        "why": "Once you see the thread, the separate storylines rhyme. Each character is wrestling, in their own way, with a reputation they did not entirely choose.",
+        "source": "Episode reviews (<em>Joe Iovino</em>, <em>Episodic Medium</em>, <em>Subjectify</em>).",
+        "category": "Belief & hope",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The expectations throughline is a critic's synthesis corroborated across multiple independent reviews; framed as an interpretive reading. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://joeiovino.com/2023/03/28/not-living-up-to-expectations-ted-lasso-s3-e2/",
+          "https://episodicmedium.substack.com/p/review-ted-lasso-i-dont-want-to-go",
+          "https://subjectifymedia.com/ted-lasso-season-3-episode-2-review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-beard-jane-immersive-theater",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Contrary to the hunter's low-confidence flag, the specific detail is corroborated: a Lassoism scene index and a recap both confirm Beard tells Ted he is off with Jane to her friend's immersive theater show about the menstrual cycle. Snippet-based verification.",
+      "verified_sources": [
+        "https://lassoism.com/Ted-Lasso-S03E02-i-dont-want-to-go-to-chelsea.php",
+        "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-beard-jane-immersive-theater",
+        "tag": "Classic Beard",
+        "title": "Beard's night out",
+        "moment": "Coach Beard mentions he is heading off with his on-again partner Jane to see a friend's immersive theater piece — about the menstrual cycle.",
+        "idea": "A blink-and-miss Beard-and-Jane detail of exactly the offbeat kind the show loves to drop in and never explain. The joke is in how completely unremarked it goes.",
+        "why": "Pure background absurdity that rewards close listening. Beard's strange private life is one of the series' quietest running gags.",
+        "source": "Scene index (Lassoism) and episode recap (<em>Nerds and Beyond</em>).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The 'immersive theater about the menstrual cycle' line is confirmed via a scene index and a recap, upgrading the hunter's low-confidence flag. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://lassoism.com/Ted-Lasso-S03E02-i-dont-want-to-go-to-chelsea.php",
+          "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
+        ]
+      }
+    },
+    {
+      "id": "s3e2-writer-director",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia's episode page and TVmaze confirm '(I Don't Want to Go to) Chelsea' was written by Sasha Garron and directed by MJ Delaney, premiering on Apple TV+ on 22 March 2023 with a runtime of about 47 minutes. Confirmed but excluded: interest_score 58 falls below the 60 threshold (a dry credit with low surprise). Snippet-based verification.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/(I_Don%27t_Want_to_Go_to)_Chelsea_(Ted_Lasso)",
+        "https://www.tvmaze.com/episodes/2490067/ted-lasso-3x02-i-dont-want-to-go-to-chelsea/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 58,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e2-roy-keeley-breakup-fallout",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "The Spoilist and The Review Geek confirm the Roy–Keeley split is actively processed within E2, not merely carried over: Isaac deduces it from their body language, it ripples through the locker room (Sam's denial, the team's shock), and Roy insists to Jamie that he was the one who ended it. Snippet-based verification.",
+      "verified_sources": [
+        "https://www.thespoilist.com/recap-ted-lasso-season-3x02-i-dont-want-to-go-to-chelsea/",
+        "https://www.thereviewgeek.com/tedlasso-s3e2review/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e2-roy-keeley-breakup-fallout",
+        "tag": "The breakup nobody can believe",
+        "title": "The team reels at Roy and Keeley",
+        "moment": "The locker room works out that Roy and Keeley have split — Isaac reads it off their body language — and the squad reacts with pure disbelief, especially that Roy was the one who ended it.",
+        "idea": "The fallout from the season-opening breakup plays out here, not offstage. The team's shock doubles as the show telling us how beloved this couple is, and how out of character it feels for Roy to be the one who walked.",
+        "why": "It keeps the relationship thread alive and ties back to Roy's habit of leaving the moment things get hard. Watch the players' reactions — they carry the weight the characters won't say out loud.",
+        "source": "Episode recaps (<em>The Spoilist</em>, <em>The Review Geek</em>).",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The breakup is actively processed within E2 (locker-room reaction, Roy telling Jamie he ended it), confirmed across recaps. Snippet-based verification.",
+        "sourcesChecked": [
+          "https://www.thespoilist.com/recap-ted-lasso-season-3x02-i-dont-want-to-go-to-chelsea/",
+          "https://www.thereviewgeek.com/tedlasso-s3e2review/"
+        ]
+      }
+    }
+  ]
+}

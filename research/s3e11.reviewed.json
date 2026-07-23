@@ -1,0 +1,415 @@
+{
+  "episode": { "season": 3, "number": 11, "title": "Mom City" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e11-larkin-this-be-the-verse",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "ScreenRant, Collider, and Looper independently confirm Mae recites Philip Larkin's 'This Be The Verse' (1971) in S3E11, and that its theme — parents pass on inherited damage — nudges Ted to confront his mother. Larkin's authorship is well documented (Wikipedia entry for the poem).",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-mae-poem-this-be-verse-explained/",
+        "https://collider.com/ted-lasso-season-3-mae-poem-explained/",
+        "https://www.looper.com/1294687/ted-lasso-season-3-episode-11-maes-poem-sounds-familiar/",
+        "https://en.wikipedia.org/wiki/This_Be_The_Verse"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e11-larkin-this-be-the-verse",
+        "tag": "The poem behind the breakdown",
+        "title": "Mae recites Larkin in the pub",
+        "moment": "Sensing Ted's unease at his mother's visit, the pub landlady quietly recites a famously bleak short poem about how parents pass their hurt down to their children. The lines land hard and help send Ted to face his mom.",
+        "idea": "The poem is Philip Larkin's <em>This Be The Verse</em> (1971). Beneath its blunt, profane opening, its real argument is gentler: people are wounded by parents who were themselves wounded — an inherited cycle — with an unspoken plea to stop passing it on.",
+        "why": "It names the episode's whole engine. The point isn't to blame parents but to break the chain. Watch how it reframes both Ted's grief and Jamie's father wound that follow.",
+        "source": "Philip Larkin, <em>This Be The Verse</em> (1971); recaps in <strong>ScreenRant</strong>, <strong>Collider</strong>, and <strong>Looper</strong>.",
+        "category": "Relationships",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Three recaps confirm Mae recites Larkin's 'This Be The Verse' in S3E11; Larkin's 1971 authorship is well documented.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-mae-poem-this-be-verse-explained/",
+          "https://collider.com/ted-lasso-season-3-mae-poem-explained/",
+          "https://www.looper.com/1294687/ted-lasso-season-3-episode-11-maes-poem-sounds-familiar/",
+          "https://en.wikipedia.org/wiki/This_Be_The_Verse"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-forgiving-your-parents",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Hollywood Reporter ('Confronts Parental Issues in Mom City') and TV Tropes both frame the hour around two grown men forgiving imperfect parents — Ted with Dottie, Jamie with his father. Thematic throughline, not a sourced philosopher.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-forgiving-your-parents",
+        "tag": "Forgiving imperfect parents",
+        "title": "The episode's moral center",
+        "moment": "Across two storylines, grown men reckon with the parents who shaped and hurt them. The hour lands on forgiveness and honesty rather than blame.",
+        "idea": "Both lead arcs turn on the same idea: releasing anger at a flawed parent so it doesn't harden you. Ted finally voices buried resentment at his mother; Jamie's pain over his estranged father eases when he stops needing to prove anything.",
+        "why": "It's the spine the whole episode hangs on. Larkin's poem is the in-show articulation of it; the two arcs are its proof.",
+        "source": "Read of the episode in <strong>The Hollywood Reporter</strong> and the <strong>TV Tropes</strong> recap.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "HR and TV Tropes both frame the hour around forgiving imperfect parents across Ted's and Jamie's arcs.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-ted-grief-stepford-smiler",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "TheCinemaholic and TV Tropes confirm Ted confronts Dottie for performing cheerfulness after his father's death, which taught him to bottle grief; they reconcile and hug. Ted's father's suicide is Season 2 backstory, so the spoiler scope is series-level.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e11-ted-grief-stepford-smiler",
+        "tag": "Performed okayness, inherited",
+        "title": "Ted confronts his mother's cheerfulness",
+        "moment": "Ted thanks his mother for raising him, then tells her plainly that her relentless 'everything's fine' brightness after his father's death taught him to bottle his own grief — and to hide it when he wasn't okay. She owns it, and they reconcile.",
+        "idea": "Unprocessed grief gets handed down as a coping style. The 'performed okayness' Ted learned from his mom is the same habit that later fed his panic attacks. Naming it is how he starts to break it.",
+        "why": "The emotional climax of the hour, and the payoff to Ted's long, hard-won openness to therapy. (Context: his father's death is established back in Season 2 — the card keeps the focus on the coping pattern, not the loss itself.)",
+        "source": "Recaps at <strong>TheCinemaholic</strong> and <strong>TV Tropes</strong>.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "TheCinemaholic and TV Tropes confirm Ted calls out Dottie's performed cheerfulness after his father's death and that they reconcile. Father's suicide is S2 backstory — series-scope spoiler.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-jamie-fathers-shadow",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes and Nerds & Beyond / thereviewgeek recaps confirm the Manchester homecoming unravels Jamie, who admits his whole drive was about proving his estranged, abusive father wrong. The Wembley locker-room punch that estranged them is Season 2 ('Man City', S2E8), not this episode — only the homecoming and breakdown belong to E11.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
+        "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
+        "https://www.thereviewgeek.com/tedlasso-s3e11review/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e11-jamie-fathers-shadow",
+        "tag": "Swagger as a wound",
+        "title": "Jamie's bravado comes from his father",
+        "moment": "Back in his hometown to face Man City, the team's brashest player quietly admits his whole drive was about proving his estranged father wrong — and that the man's absence unsettles him more than his presence ever did.",
+        "idea": "Cockiness can be armor built around a parental wound. Jamie's mother tells him he doesn't need to prove anything to his dad anymore; letting that go is what frees him to play.",
+        "why": "It reframes three seasons of Jamie's swagger in a single confession, and rhymes with Ted's own parent reckoning happening in parallel. (The locker-room punch that estranged them is Season 2, not here.)",
+        "source": "Recaps at <strong>TV Tropes</strong>, <strong>Nerds &amp; Beyond</strong>, and <strong>The Review Geek</strong>.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm Jamie's homecoming breakdown and father wound in E11; the estranging punch is S2's 'Man City', kept distinct.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
+          "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
+          "https://www.thereviewgeek.com/tedlasso-s3e11review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-wizard-of-oz-home",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Stereogum, Rolling Stone, and Wikipedia confirm Brandi Carlile's cover of 'Home' (from The Wiz) debuts over the 'Mom City' credits as the episode turns on the pull of home. The Dottie/Dorothy and Henry name symbolism is recapper interpretation, not a confirmed creator statement — flagged as a noted reading.",
+      "verified_sources": [
+        "https://www.stereogum.com/2224825/brandi-carlile-the-wiz-home-ted-lasso/music/",
+        "https://www.rollingstone.com/music/music-news/brandi-carlile-diana-ross-the-wiz-home-ted-lasso-1234741058/",
+        "https://en.wikipedia.org/wiki/Mom_City"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-wizard-of-oz-home",
+        "tag": "There's no place like home",
+        "title": "'Home' from The Wiz over the credits",
+        "moment": "As the hour closes on the pull of home, a soaring cover of 'Home' — the showstopper from the musical The Wiz — plays over the credits, extending the show's long thread of Wizard-of-Oz nods about leaving and returning.",
+        "idea": "The needle-drop (Brandi Carlile's cover) ties the closing beat to Dorothy's longing to go home. Some viewers also note the names — Ted's mom is Dottie, short for Dorothy; his son is Henry, the name of Dorothy's uncle in Oz — though that symbolism is a fan reading, not a stated intent.",
+        "why": "A quiet aesthetic choice doing emotional heavy lifting: the song tells you where Ted is headed before he says it.",
+        "source": "<strong>Stereogum</strong> and <strong>Rolling Stone</strong> on the Carlile cover; name symbolism is a noted fan reading.",
+        "category": "Aesthetics",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The 'Home' (The Wiz) credits cue in E11 is well sourced; the Dottie/Dorothy + Henry name symbolism is recapper commentary, framed as a reading.",
+        "sourcesChecked": [
+          "https://www.stereogum.com/2224825/brandi-carlile-the-wiz-home-ted-lasso/music/",
+          "https://www.rollingstone.com/music/music-news/brandi-carlile-diana-ross-the-wiz-home-ted-lasso-1234741058/",
+          "https://en.wikipedia.org/wiki/Mom_City"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-fought-and-lost-brian-may",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia and Film Music Reporter confirm 'Fought & Lost,' performed by Sam Ryder featuring Brian May and co-written by Ryder with Tom Howe and Jamie Hartman, debuts in 'Mom City' and released as a single on 24 May 2023, the day the episode aired.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Fought_%26_Lost",
+        "https://filmmusicreporter.com/2023/05/24/sam-ryders-original-song-fought-lost-from-ted-lasso-season-3-soundtrack-released/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-fought-and-lost-brian-may",
+        "tag": "A bespoke rock ballad",
+        "title": "'Fought & Lost' debuts here",
+        "moment": "An anthemic original rock ballad scores a key emotional stretch of the penultimate episode.",
+        "idea": "'Fought & Lost' was written for the show — performed by Sam Ryder featuring Queen's Brian May, co-written by Ryder with series composer Tom Howe and Jamie Hartman. It released as a single on the same day the episode aired, 24 May 2023.",
+        "why": "A small window into how the show builds feeling with custom music rather than only borrowed tracks — right down to recruiting a legendary guitarist.",
+        "source": "<strong>Wikipedia</strong> ('Fought &amp; Lost') and <strong>Film Music Reporter</strong>.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed via Wikipedia and Film Music Reporter: Ryder/Howe/Hartman song featuring Brian May, debuts in 'Mom City', single out 24 May 2023.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Fought_%26_Lost",
+          "https://filmmusicreporter.com/2023/05/24/sam-ryders-original-song-fought-lost-from-ted-lasso-season-3-soundtrack-released/"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-becky-ann-baker-emmy",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "The Television Academy's 2023 nominees page and GoldDerby confirm Becky Ann Baker was nominated for Outstanding Guest Actress in a Comedy Series at the 2023 Emmys for playing Dottie; Judith Light won the category.",
+      "verified_sources": [
+        "https://www.televisionacademy.com/awards/nominees-winners/2023/outstanding-guest-actress-in-a-comedy-series",
+        "https://www.goldderby.com/tv/2023/emmy-nominee-profile-becky-ann-baker-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-becky-ann-baker-emmy",
+        "tag": "A one-episode Emmy turn",
+        "title": "Dottie earned an Emmy nod",
+        "moment": "Ted's mother is played by a veteran character actor whose single-episode appearance was singled out at the Emmys.",
+        "idea": "Dottie is played by Becky Ann Baker (the mom in Freaks and Geeks and Girls). Her one-episode turn here drew a 2023 Emmy nomination for Outstanding Guest Actress in a Comedy Series — a measure of how much weight this single visit carries.",
+        "why": "Worth knowing how much craft went into a character who appears for just one hour and reshapes Ted's whole backstory.",
+        "source": "<strong>Television Academy</strong> 2023 nominees list; profile at <strong>GoldDerby</strong>.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Television Academy and GoldDerby confirm a 2023 nomination for Outstanding Guest Actress in a Comedy Series for the Dottie role.",
+        "sourcesChecked": [
+          "https://www.televisionacademy.com/awards/nominees-winners/2023/outstanding-guest-actress-in-a-comedy-series",
+          "https://www.goldderby.com/tv/2023/emmy-nominee-profile-becky-ann-baker-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-title-double-meaning",
+      "type": "trivia",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The Manchester City fixture and the two-mothers focus are firmly sourced (HR, Wikipedia), and recaps note the title plays on 'Man City' (the S2E8 episode). The wordplay reading is recapper interpretation, not a confirmed creator statement, so the pun is framed as interpretation.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/",
+        "https://en.wikipedia.org/wiki/Mom_City",
+        "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 3, "insight": 2, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-title-double-meaning",
+        "tag": "A title that puns",
+        "title": "'Mom City' and 'Man City'",
+        "moment": "The episode about two men and their mothers is set around a match against Manchester City — and its title plays the two against each other.",
+        "idea": "Richmond travels to face Manchester City ('Man City'), while the hour centers on mothers — Ted's mom Dottie and Jamie's mum. Viewers read the title as a deliberate riff on the earlier Season 2 episode 'Man City,' swapping in 'Mom.' (That reading is recapper interpretation, not a stated creator intent.)",
+        "why": "A neat bit of wordplay that signals the episode's whole double focus before it starts.",
+        "source": "<strong>The Hollywood Reporter</strong> and <strong>Wikipedia</strong>; the pun reading is fan/recap interpretation.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Fixture and dual-mothers focus firmly sourced; the 'Mom City'/'Man City' pun is recapper interpretation, framed as such.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/",
+          "https://en.wikipedia.org/wiki/Mom_City",
+          "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-richmond-beats-man-city",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "First Curiosity and TV Tropes confirm Richmond beats Manchester City 2-0, with Colin scoring off a Jamie assist and Jamie adding a late second. The card keeps the focus on the 2-0 win and Jamie's growth without over-specifying.",
+      "verified_sources": [
+        "https://firstcuriosity.com/tv-show/ted-lasso-season-3-does-afc-richmond-win-against-manchester-city/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-richmond-beats-man-city",
+        "tag": "Beating the team he worshipped",
+        "title": "Richmond finally beats Man City 2-0",
+        "moment": "After years of humiliating losses to Manchester City, Richmond wins 2-0 on the day — and the player once defined by selfishness helps make the opener and scores the clincher in the city of his estranged father.",
+        "idea": "The win pays off Jamie's whole arc from selfish star to generous teammate, set up by Roy's season-long mentorship. The result matters less than who Jamie has become to earn it.",
+        "why": "A long-running rivalry finally turns, and it turns because of the change in one character — in the one place that change hurts most.",
+        "source": "Recaps at <strong>First Curiosity</strong> and <strong>TV Tropes</strong>.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Two recaps confirm the 2-0 win, Colin scoring off a Jamie assist and Jamie's late goal.",
+        "sourcesChecked": [
+          "https://firstcuriosity.com/tv-show/ted-lasso-season-3-does-afc-richmond-win-against-manchester-city/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-jamie-roy-mentorship-payoff",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes and the thereviewgeek recap confirm Roy recognizes Jamie's burnout (he confessed depression to Roy) and recruits Keeley to help. Verified but modest in insight/surprise; interest_score falls below the 60 gate.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
+        "https://www.thereviewgeek.com/tedlasso-s3e11review/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 57,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e11-nate-reconciliation-beard",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes and ComicBook confirm Nate, working at Taste of Athens, twice declines to return; after Jade gets him fired, Coach Beard seeks him out, forgives him, and invites him back to Richmond.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
+        "https://comicbook.com/tv-shows/news/ted-lasso-season-3-nate-richmond-return-ending/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-nate-reconciliation-beard",
+        "tag": "Forgiveness, given freely",
+        "title": "Beard forgives Nate",
+        "moment": "After Nate keeps refusing to come back to the club, Coach Beard seeks him out, makes peace, and personally asks him to return.",
+        "idea": "Nate's redemption advances not because he earns his way back but because someone he wronged chooses to forgive him — Beard, who was once forgiven himself. It folds the episode's parents-and-belonging theme into the idea of returning to a found family.",
+        "why": "A quiet counterpoint to the Ted and Jamie arcs: forgiveness here is something offered, not demanded. (Whether it comes too easily is a fair question critics raised.)",
+        "source": "Recaps at <strong>TV Tropes</strong> and <strong>ComicBook</strong>.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "TV Tropes and ComicBook confirm Beard forgives Nate and invites him back after Jade gets him fired from Taste of Athens.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
+          "https://comicbook.com/tv-shows/news/ted-lasso-season-3-nate-richmond-return-ending/"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-ted-decides-to-go-home",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TheCinemaholic and HR confirm Dottie reveals she came to tell Ted his son Henry misses him; paired with the reconciliation and the 'Home' needle-drop, it tips Ted toward going home, and the hour ends on a cliffhanger. Gestures at the series-ending departure, so series scope.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 2 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e11-ted-decides-to-go-home",
+        "tag": "The pull of home",
+        "title": "'Your son misses you'",
+        "moment": "Ted's mother finally admits the real reason she crossed an ocean: to tell him his boy misses him. Ted admits he misses Henry too, but fears losing him. The hour closes on Ted resolved to say something to Rebecca.",
+        "idea": "The reconciliation with his mom and this small admission shift something in Ted. Once he stops performing okayness, he can feel how far he is from home — and start moving toward it.",
+        "why": "The turn that sets up the show's ending. Watch how the parent reckoning and the 'Home' song work together to point Ted across the ocean. (It gestures at the finale, so it carries series-level weight.)",
+        "source": "Recaps at <strong>TheCinemaholic</strong> and <strong>The Hollywood Reporter</strong>.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "TheCinemaholic and HR confirm Dottie's 'your son misses you', Ted's fear of losing Henry, and the closing cliffhanger. Series-scope spoiler.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/"
+        ]
+      }
+    },
+    {
+      "id": "s3e11-jamie-mum-georgie",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes / Nerds & Beyond and the Spoilist recap confirm Roy and Keeley follow Jamie to his mother's home; she is warm and besotted with him, and his stepdad is named Simon — a pointed contrast with his abusive biological father.",
+      "verified_sources": [
+        "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
+        "https://www.thespoilist.com/3x11-mom-city/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e11-jamie-mum-georgie",
+        "tag": "Where the soft Jamie came from",
+        "title": "Jamie's loving mum and stepdad",
+        "moment": "A trip to Jamie's childhood home on his old council estate reveals a doting mother and a kind stepfather, quietly explaining where the softer, generous Jamie underneath the swagger came from.",
+        "idea": "The warmth was always there — just on his mother's side. The contrast with his abusive biological father reframes Jamie: his hunger to prove himself came from one parent, his decency from another.",
+        "why": "Easy-to-miss texture that makes Jamie's whole arc click. His stepdad is named Simon; his mum is the source of the kindness the show finally lets surface.",
+        "source": "Recaps at <strong>Nerds &amp; Beyond</strong> and <strong>The Spoilist</strong>.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Recaps confirm the council-estate visit to Jamie's warm mum and stepdad Simon, contrasting his abusive father.",
+        "sourcesChecked": [
+          "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
+          "https://www.thespoilist.com/3x11-mom-city/"
+        ]
+      }
+    }
+  ]
+}

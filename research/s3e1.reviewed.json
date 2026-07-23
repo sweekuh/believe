@@ -1,0 +1,422 @@
+{
+  "episode": { "season": 3, "number": 1, "title": "Smells Like Mean Spirit" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e1-title-nirvana",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification (WebFetch unavailable). Multiple independent sources (Wikipedia/Grokipedia episode entries, spoiler-free review) confirm the title plays on Nirvana's 1991 'Smells Like Teen Spirit', swapping 'Teen' for 'Mean' to flag the premiere's mean-spirited tone (pundits writing Richmond off, Nate's heel turn).",
+      "verified_sources": [
+        "https://grokipedia.com/page/Smells_Like_Mean_Spirit",
+        "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+        "https://spoilerfreereviews.com/post/ted-lasso-s3-ep1-smells-like-mean-spirit/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-title-nirvana",
+        "tag": "A title with two edges",
+        "title": "Smells Like Mean Spirit",
+        "moment": "The premiere's on-screen title card, no dialogue.",
+        "idea": "The title bends Nirvana's 1991 anthem 'Smells Like Teen Spirit' into 'Mean Spirit' — a pun that also names the episode's mood: the press writing Richmond off, and the meanness curdling around Nate.",
+        "why": "A small wink that tells you the season's temperature before a single scene. Hold both meanings: the rock reference and the warning about who is turning unkind.",
+        "source": "Episode title; pun on Nirvana, <em>Smells Like Teen Spirit</em> (1991).",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across Wikipedia/Grokipedia episode entries and a review; the Nirvana pun and the mean-spirited double meaning are widely asserted by recaps.",
+        "sourcesChecked": [
+          "https://grokipedia.com/page/Smells_Like_Mean_Spirit",
+          "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "https://spoilerfreereviews.com/post/ted-lasso-s3-ep1-smells-like-mean-spirit/"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-finish-twentieth",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. IMDb news, Slashfilm, and the Fandom episode page independently confirm the premiere's running joke that pundits rank newly promoted Richmond 20th (dead last), with Nate quipping it's only because there is no 21st place.",
+      "verified_sources": [
+        "https://www.imdb.com/news/ni63997811/",
+        "https://www.slashfilm.com/1228085/ted-lasso-season-3-what-happens-if-afc-richmond-finishes-20th-in-premier-league/",
+        "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-finish-twentieth",
+        "tag": "The underdog frame",
+        "title": "Picked to finish last",
+        "moment": "Pundits and press dismiss newly promoted Richmond, predicting a 20th-place — dead-last — finish.",
+        "idea": "The whole premiere is built around public doubt: everyone outside the club assumes Richmond will sink. The season asks how a team carries that weight without absorbing it.",
+        "why": "This is the doubt every other beat answers — the sewer trip, Ted's therapy call, Nate's jeering. Watch how the show keeps returning to who gets to define you.",
+        "source": "AFC Richmond's preseason 20th-place prediction, established in the premiere.",
+        "category": "Belief & hope",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across IMDb news, Slashfilm, and the Fandom episode page.",
+        "sourcesChecked": [
+          "https://www.imdb.com/news/ni63997811/",
+          "https://www.slashfilm.com/1228085/ted-lasso-season-3-what-happens-if-afc-richmond-finishes-20th-in-premier-league/",
+          "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-doubt-and-action",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. The Review Geek and The Torg recaps independently confirm that in his phone session Ted tells Dr. Sharon he fears he is doing more harm than good in London, and she answers that doubt is only removed by action. The line is the show's (Sharon's); I kept William James / precursive faith as a thematic gloss rather than crediting James in-card, since no source attributes the line to him.",
+      "verified_sources": [
+        "https://www.thereviewgeek.com/tedlasso-s3e1review/",
+        "https://thetorg.com/2025/03/02/dealing-with-doubt-our-work-personas-and-ted-lasso-season-3-premiere/",
+        "https://antagonistblog.com/ted-lasso-season-3-premiere-recap-let-it-flow/"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e1-doubt-and-action",
+        "tag": "Doubt is answered by doing",
+        "title": "Ted's therapy call",
+        "moment": "Alone tidying his flat after putting Henry on a flight home, Ted phones Dr. Sharon and admits he can't tell if his being in London helps or hurts.",
+        "idea": "Sharon reframes his rumination: doubt isn't dissolved by thinking harder, but by acting. It echoes a pragmatist idea — that conviction is tested in the doing, not settled in advance.",
+        "why": "It quietly states the season's thesis. When Ted later marches the team into the sewers, that is doubt being met with action rather than worry.",
+        "source": "Ted's phone session with Dr. Sharon Fieldstone; thematically akin to William James on belief tested through action.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across The Review Geek, The Torg, and Antagonist recaps; the 'doubt removed by action' framing is Sharon's line, with James kept as a gloss only.",
+        "sourcesChecked": [
+          "https://www.thereviewgeek.com/tedlasso-s3e1review/",
+          "https://thetorg.com/2025/03/02/dealing-with-doubt-our-work-personas-and-ted-lasso-season-3-premiere/",
+          "https://antagonistblog.com/ted-lasso-season-3-premiere-recap-let-it-flow/"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-sewer-team-building",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. Meaww and Nerds & Beyond recaps independently confirm Ted takes the squad into the London sewers as a team-building exercise, telling them to build an internal 'sewer system' so negativity can flow through and out and they can rely on one another.",
+      "verified_sources": [
+        "https://meaww.com/ted-lasso-season-3-episode-1-ted-takes-afc-richmond-to-sewers-for-an-important-team-building-session",
+        "https://www.nerdsandbeyond.com/2023/03/15/ted-lasso-recap-season-3-episode-1-smells-like-mean-spirit/",
+        "https://kenking.substack.com/p/the-underrated-brilliance-of-ted"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e1-sewer-team-building",
+        "tag": "Let the bad stuff flow through",
+        "title": "The sewer field trip",
+        "moment": "Instead of training, Ted leads the players underground into London's sewers for a lesson about discomfort and connection.",
+        "idea": "The metaphor: a team needs internal plumbing — channels to move the 'crap' (doubt, criticism) through and out, together, rather than letting it pool. Resilience as a shared system, not solo grit.",
+        "why": "The premiere's signature set-piece and its answer to the 20th-place doubt. Watch it as Ted turning anxiety into something the group can physically walk through.",
+        "source": "Ted's sewer team-building exercise in the premiere.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across Meaww, Nerds & Beyond, and a Substack essay on the scene.",
+        "sourcesChecked": [
+          "https://meaww.com/ted-lasso-season-3-episode-1-ted-takes-afc-richmond-to-sewers-for-an-important-team-building-session",
+          "https://www.nerdsandbeyond.com/2023/03/15/ted-lasso-recap-season-3-episode-1-smells-like-mean-spirit/",
+          "https://kenking.substack.com/p/the-underrated-brilliance-of-ted"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-great-stink",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. ScreenRant/IMDb explainers plus Wikipedia confirm the real history (the 1858 Great Stink, Joseph Bazalgette's outfall sewers), and a quote-aggregator snippet shows the tour guide and Coach Beard naming both Bazalgette's tunnels and the 'Great Stink of 1858' on screen — so the episode invokes them by name, not just generic 'old sewers'.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-great-stink-sewers-true-story/",
+        "https://en.wikipedia.org/wiki/Great_Stink",
+        "https://lassoism.com/Ted-Lasso-quote.php?id=644"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e1-great-stink",
+        "tag": "Real Victorian history",
+        "title": "The Great Stink of 1858",
+        "moment": "On the sewer tour, a guide and Coach Beard walk the team through how London's modern sewers came to be — naming Bazalgette and the Great Stink.",
+        "idea": "It's true history: in 1858 the Thames reeked of raw sewage, and engineer Sir Joseph Bazalgette answered with over a thousand miles of tunnels that helped end cholera outbreaks and still run today. The episode plants its metaphor in real ground.",
+        "why": "Knowing it actually happened makes Ted's lesson land harder — a city literally built its way out of its own filth. The fix was infrastructure, not wishful thinking.",
+        "source": "The 1858 Great Stink and Sir Joseph Bazalgette's London sewers, named on the episode's tour.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated: ScreenRant/Wikipedia confirm the history; a quote-aggregator snippet shows the names spoken on screen.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-great-stink-sewers-true-story/",
+          "https://en.wikipedia.org/wiki/Great_Stink",
+          "https://lassoism.com/Ted-Lasso-quote.php?id=644"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-it-pennywise",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. CBR, Screenspeck, and Hollywood Insider independently confirm the sewer trip traces to Henry, who watched Stephen King's 'It' on the flight and wanted to face his fears, and that Ted draws a parallel to the Losers' Club confronting Pennywise underground.",
+      "verified_sources": [
+        "https://www.cbr.com/ted-lasso-pennywise-thanos/",
+        "https://screenspeck.com/2023/03/15/ted-lasso-season-3-premiere-recap/",
+        "https://www.hollywoodinsider.com/ted-lasso-farewell/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 89,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e1-it-pennywise",
+        "tag": "Where the idea came from",
+        "title": "Henry, the sewer, and 'It'",
+        "moment": "Ted explains the field trip was his son's idea: Henry watched a scary clown movie set in the sewers on the plane and wanted to confront his fear.",
+        "idea": "The whole exercise grew from a child's instinct to face what frightens him. Ted maps it onto the team — like the kids in 'It' who only beat Pennywise underground, together.",
+        "why": "A sweet detail that reframes the sewer stunt as something Ted learned from his son. The lesson 'follow the kids' runs quietly under the premiere.",
+        "source": "Reference to Stephen King's <em>It</em> (Pennywise / the Losers' Club), via Henry's plane-watch.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across CBR, Screenspeck, and Hollywood Insider; the Henry-watched-It setup and the Pennywise parallel are stated in-episode.",
+        "sourcesChecked": [
+          "https://www.cbr.com/ted-lasso-pennywise-thanos/",
+          "https://screenspeck.com/2023/03/15/ted-lasso-season-3-premiere-recap/",
+          "https://www.hollywoodinsider.com/ted-lasso-farewell/"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-paddington-twitter",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. The Spoilist recap and TV Tropes character notes confirm the gag: Dani Rojos is crushed to learn Paddington Bear isn't real and that a person runs his social-media (Twitter) account. (Could not confirm which teammate delivers the news from snippets, so I left that unnamed in the card.)",
+      "verified_sources": [
+        "https://www.thespoilist.com/recap-ted-lasso-season-3x01-smells-like-mean-spirit/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Characters/TedLasso"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-paddington-twitter",
+        "tag": "A small, sad gag",
+        "title": "Paddington isn't real",
+        "moment": "A teammate gently breaks it to Dani Rojas that Paddington Bear is fictional — and that a person, not the bear, writes the posts on his social-media account.",
+        "idea": "A throwaway joke about online fan culture and the little disenchantments of growing up, played through Dani's irrepressible sincerity.",
+        "why": "A breather of warmth amid the premiere's meanness. Watch how the show uses Dani to keep a thread of pure-hearted belief alive.",
+        "source": "The Paddington social-media gag with Dani Rojas in the premiere.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated by The Spoilist recap and TV Tropes; the teammate who delivers the news isn't confirmed from snippets, so left unnamed.",
+        "sourcesChecked": [
+          "https://www.thespoilist.com/recap-ted-lasso-season-3x01-smells-like-mean-spirit/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Characters/TedLasso"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-nate-west-ham-rupert",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. Collider, Cinemablend, and Slate independently confirm Nate is installed as West Ham's manager under owner Rupert Mannion in the premiere, marking the start of his Season 3 villain arc and paying off his Season 2 betrayal of Ted.",
+      "verified_sources": [
+        "https://collider.com/ted-lasso-season-3-premiere-nate/",
+        "https://www.cinemablend.com/television/ted-lasso-star-on-nates-villain-era-in-season-3-hes-a-troubled-soul",
+        "https://slate.com/culture/2023/04/ted-lasso-season-3-nate-west-ham-zava.html"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 3 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-nate-west-ham-rupert",
+        "tag": "The betrayal pays off",
+        "title": "Nate at West Ham",
+        "moment": "Having left Richmond, Nate is now West Ham's manager, running the room coldly under owner Rupert Mannion.",
+        "idea": "His Season 2 turn against Ted curdles into a full villain arc here. Rupert — not the club — is the corrupting force, and Nate has stepped into his shadow.",
+        "why": "Sets up the season's antagonist. Watch for how Nate performs hardness he may not feel, and how Rupert keeps him small. (Needs Season 2 context to fully land.)",
+        "source": "Nate Shelley as West Ham manager under Rupert Mannion, established in the premiere.",
+        "category": "Ethics & character",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across Collider, Cinemablend, and Slate.",
+        "sourcesChecked": [
+          "https://collider.com/ted-lasso-season-3-premiere-nate/",
+          "https://www.cinemablend.com/television/ted-lasso-star-on-nates-villain-era-in-season-3-hes-a-troubled-soul",
+          "https://slate.com/culture/2023/04/ted-lasso-season-3-nate-west-ham-zava.html"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-nate-spitting",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. Originally TV-Tropes-only, but corroborated by The18's recap and a Substack character essay: Nate psychs himself up by spitting at his reflection before facing pressure, and uses the same routine to steel himself at the press conference. The 'shows he hasn't grown' reading is kept as interpretation, not asserted as fact. Rupert's separate spitting power-play was not clearly confirmed in snippets, so the card describes only Nate's self-psych spit.",
+      "verified_sources": [
+        "https://the18.com/en/soccer-news/ted-lasso-season-3-episode-1-review-recap-s3e1-show",
+        "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-963",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E01SmellsLikeMeanSpirit"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-nate-spitting",
+        "tag": "An old tic returns",
+        "title": "Nate spits at the mirror",
+        "moment": "Before high-pressure moments, Nate hypes himself by spitting at his own reflection.",
+        "idea": "The habit calls back to his anxious self-talk in earlier seasons. New title, new power — but the same frightened ritual, which suggests the man underneath hasn't changed.",
+        "why": "A tell to watch all season: the bravado is a costume over the same fear. The callback does quiet character work the dialogue never spells out.",
+        "source": "Nate's mirror-spitting self-motivation, a callback to earlier seasons.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated by The18 and a Substack essay (plus the TV Tropes recap); the 'hasn't grown' read is interpretation.",
+        "sourcesChecked": [
+          "https://the18.com/en/soccer-news/ted-lasso-season-3-episode-1-review-recap-s3e1-show",
+          "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-963",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E01SmellsLikeMeanSpirit"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-trent-crimm-book",
+      "type": "callback",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Snippet-based verification. The book-embedding is real for Season 3, BUT the reveal is placed wrong: The Mary Sue and CBR snippets state the Trent/Ted reunion where the Richmond-book plan is revealed happens in EPISODE 2, not the premiere. Trent's departure from The Independent is Season-2 setup. Held: the premiere placement the candidate asserts is not supported.",
+      "verified_sources": [
+        "https://www.themarysue.com/we-need-to-talk-about-trent-crimm/",
+        "https://www.cbr.com/ted-lasso-the-richmond-way-trent-crimm/",
+        "https://ted-lasso.fandom.com/wiki/Trent_Crimm"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 3, "relevance": 2, "spoiler_safety": 3 },
+      "interest_score": 56,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e1-keeley-kjpr",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. IMDb news, ScreenRant, and Nerds & Beyond confirm Keeley runs her own firm KJPR (Keeley Jones Public Relations), with office and staff, at the top of Season 3, shown in the premiere. Confirmed but interest_score (57) falls below the 60 threshold, so excluded.",
+      "verified_sources": [
+        "https://www.imdb.com/news/ni64104457/",
+        "https://screenrant.com/ted-lasso-season-3-keeley-kbpr-meaning/",
+        "https://www.nerdsandbeyond.com/2023/03/15/ted-lasso-recap-season-3-episode-1-smells-like-mean-spirit/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 57,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s3e1-henry-goodbye",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. The Review Geek, Fandom, and Epicdope recaps confirm the premiere opens on an unusually unshaven Ted putting Henry on a flight home after a six-week visit; Henry gives him a small (Lego) Premier League trophy as a keepsake, and the goodbye reignites Ted's guilt and homesickness.",
+      "verified_sources": [
+        "https://www.thereviewgeek.com/tedlasso-s3e1review/",
+        "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit",
+        "https://www.epicdope.com/ted-lasso-season-3-premiere-recap-and-ending-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-henry-goodbye",
+        "tag": "Long-distance fatherhood",
+        "title": "Ted and Henry's goodbye",
+        "moment": "The premiere opens on a rumpled, unshaven Ted dragging his heels at the airport before letting Henry fly home to Kansas. Henry leaves him a tiny trophy to keep.",
+        "idea": "The separation reopens Ted's guilt and the homesickness that frames his whole season. The small trophy becomes a promise and a wound at once.",
+        "why": "Everything heavy in Ted this year starts here. Notice the unshaven face — the show signaling, before any words, that he isn't okay.",
+        "source": "The opening airport farewell between Ted and his son Henry.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Snippet-corroborated across The Review Geek, the Fandom episode page, and Epicdope.",
+        "sourcesChecked": [
+          "https://www.thereviewgeek.com/tedlasso-s3e1review/",
+          "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit",
+          "https://www.epicdope.com/ted-lasso-season-3-premiere-recap-and-ending-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-sewer-set-build",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Snippet-based verification. The British Cinematographer craft interview confirms the sewer was a BUILT SET, created from an East London Victorian railway arch at Bishopsgate Goodsyard, with M.J. Delaney as block director and Paul Cripps as designer. The COVID/pandemic rationale is NOT mentioned in the craft-source snippet and could not be corroborated, so the card asserts only the location and the build, not the COVID reason.",
+      "verified_sources": [
+        "https://britishcinematographer.co.uk/david-rom-and-vanessa-whyte-ted-lasso/",
+        "https://meaww.com/ted-lasso-season-3-episode-1-ted-takes-afc-richmond-to-sewers-for-an-important-team-building-session"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e1-sewer-set-build",
+        "tag": "How it was made",
+        "title": "The sewer was a set",
+        "moment": "Behind the scenes, not on screen.",
+        "idea": "The 'sewer' was built, not found: the crew dressed an East London Victorian railway arch at Bishopsgate Goodsyard into a tunnel, lighting and extending it to read as an underground sewer.",
+        "why": "A reminder of how much craft hides behind a single field-trip scene — the team's grimy underworld was a daylight arch transformed by design and light.",
+        "source": "Season 3 production design; sewer set built at Bishopsgate Goodsyard (per the British Cinematographer interview).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Location and build confirmed by the British Cinematographer craft interview; the COVID rationale was unverifiable from snippets and is omitted.",
+        "sourcesChecked": [
+          "https://britishcinematographer.co.uk/david-rom-and-vanessa-whyte-ted-lasso/",
+          "https://meaww.com/ted-lasso-season-3-episode-1-ted-takes-afc-richmond-to-sewers-for-an-important-team-building-session"
+        ]
+      }
+    },
+    {
+      "id": "s3e1-credits",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Snippet-based verification. Wikipedia, the Fandom episode page, and IMDb confirm the premiere was written by Leann Bowen and directed by M.J. Delaney, first streaming March 15, 2023; a separate search confirms Bowen also wrote S1's 'The Diamond Dogs' and S2's 'Lavender'. Confirmed but interest_score (54) is below the 60 threshold, so excluded.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Smells_Like_Mean_Spirit",
+        "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit",
+        "https://www.imdb.com/title/tt13362962/fullcredits/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 54,
+      "tier": "bronze",
+      "include": false
+    }
+  ]
+}

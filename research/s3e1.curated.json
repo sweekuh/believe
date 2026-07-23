@@ -1,0 +1,95 @@
+{
+  "episode": { "season": 3, "number": 1, "title": "Smells Like Mean Spirit" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e1-great-stink",
+      "verdict": "promote",
+      "interest_take": "Genuine 'wait, that really happened?' — real 1858 history grounding the episode's metaphor is the strongest hook in the set.",
+      "writing_notes": "Idea is the payoff and stands on its own; moment/idea/why distinct; warm and concrete. Right category.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-it-pennywise",
+      "verdict": "promote",
+      "interest_take": "Lovely 'I never caught that' — the whole stunt traces to Henry's plane movie; 'follow the kids' is a real read, not recap.",
+      "writing_notes": "Tight, sweet, well-organized; idea earns its place. Source line correctly avoids dialogue.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-sewer-team-building",
+      "verdict": "promote",
+      "interest_take": "The premiere's signature metaphor, well-articulated (resilience as shared plumbing). Not just recap.",
+      "writing_notes": "Idea is the real payoff; distinct from the history/origin cards. Category Relationships fits.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-doubt-and-action",
+      "verdict": "promote",
+      "interest_take": "The season's quiet thesis; pragmatist gloss adds depth without overreaching. Strong insight.",
+      "writing_notes": "Clean four-part structure; James kept as gloss, not a false attribution — good restraint. Right category.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-henry-goodbye",
+      "verdict": "promote",
+      "interest_take": "The unshaven-face detail is a real 'watch for this' — the show signaling before words. Warm and human.",
+      "writing_notes": "Distinct moment/idea/why; emotionally apt for the reader. The tiny-trophy image lands.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-nate-spitting",
+      "verdict": "promote",
+      "interest_take": "Subtle character tell — bravado as costume over the same fear. Does work the dialogue never spells out.",
+      "writing_notes": "Sharp, concise, the better of the two Nate cards. Needs light S2 context but the card flags it.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e1-title-nirvana",
+      "verdict": "promote",
+      "interest_take": "Nice double-edged-title catch; sets the season's temperature. Solid if not dazzling.",
+      "writing_notes": "Well-written, two-meaning framing is clear. Meta & trivia category is already crowded but this earns it.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-paddington-twitter",
+      "verdict": "revise",
+      "interest_take": "Charming warmth-breather and a real Dani beat, but slight; insight is thin (it's mostly a cute gag).",
+      "writing_notes": "Good as a palate-cleanser. Idea slightly over-explains a small joke.",
+      "spoiler_concern": "none",
+      "suggested_edit": "Trim the 'idea' to one line about Dani's irrepressible sincerity; drop the 'disenchantments of growing up' reach so it reads as the light breather it is."
+    },
+    {
+      "id": "s3e1-nate-west-ham-rupert",
+      "verdict": "cut",
+      "interest_take": "Mostly plot recap ('sets up the season's antagonist'); surprise is low (2) and it leans forward across the season.",
+      "writing_notes": "Overlaps the spitting card on Nate's arc; this one is the recap, that one is the insight. Keep the sharper one.",
+      "spoiler_concern": "forward"
+    },
+    {
+      "id": "s3e1-finish-twentieth",
+      "verdict": "cut",
+      "interest_take": "This is the premise, not a discovery (surprise 2). 'Underdog picked to finish last' is what any viewer already sees.",
+      "writing_notes": "Reads as setup/recap; its 'why' mostly points at the other cards. Cutting tightens the set.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e1-sewer-set-build",
+      "verdict": "cut",
+      "interest_take": "Generic 'how it was made' (insight 2); fourth card on the sewer scene and the least rewarding.",
+      "writing_notes": "Adds production trivia the reader doesn't need; thins an already sewer-heavy block. Redundant in context.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e1-great-stink",
+    "s3e1-it-pennywise",
+    "s3e1-doubt-and-action",
+    "s3e1-sewer-team-building",
+    "s3e1-henry-goodbye",
+    "s3e1-nate-spitting",
+    "s3e1-title-nirvana",
+    "s3e1-paddington-twitter"
+  ],
+  "episode_notes": "Strong premiere set, but two problems the numeric gate missed. (1) Sewer overload: four included cards (team-building, great-stink, it-pennywise, set-build) all orbit one scene; I keep the three that each add a distinct angle (metaphor / real history / child's-instinct origin) and cut the set-build, which is generic 'how it was made' and the weakest. (2) Nate doubling: west-ham-rupert and spitting cover the same villain arc — west-ham is plot recap and forward-scoped, spitting does subtler character work, so keep spitting, cut west-ham. Also cut finish-twentieth: it's the premise, not a discovery. Category mix after curation is healthier: Meta & trivia (great-stink, it-pennywise, title-nirvana, paddington) still leads but each pulls its weight; Belief & hope (doubt-and-action), Relationships (sewer-team-building, henry-goodbye), Ethics & character (nate-spitting) round it out. Best-first interest ordering reads well: great-stink and it-pennywise (highest surprise, true-history and origin payoffs) lead, with the slighter paddington gag last as a deliberate warm closer. No reproduced dialogue anywhere; one revise (paddington trim)."
+}

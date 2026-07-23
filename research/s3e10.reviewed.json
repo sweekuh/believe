@@ -1,0 +1,391 @@
+{
+  "episode": { "season": 3, "number": 10, "title": "International Break" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e10-football-community-not-commodity",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiple recaps (Collider, Hollywood Reporter) confirm Rebecca's boardroom speech argues football belongs to ordinary people and should not become a closed money-first product; the owners back off the breakaway. Thematic gloss, no named philosopher.",
+      "verified_sources": [
+        "https://collider.com/ted-lasso-season-3-rebecca-speech/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-football-community-not-commodity",
+        "tag": "Belonging, not a commodity",
+        "title": "Rebecca's case for the game",
+        "moment": "In a boardroom of wealthy club owners, the only woman present argues that a breakaway league would wall off a game that belongs to everyone. The other owners back away from the plan.",
+        "idea": "Football, in her telling, is a shared public good — a place where ordinary people get to feel highs and lows they would never otherwise reach. To lock it behind elite, closed walls is to take that away.",
+        "why": "It is the episode's spine and the clearest payoff of Rebecca's three-season growth: she defends the community, not the deal.",
+        "source": "Recaps in <em>Collider</em> and <em>The Hollywood Reporter</em>.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Multiple recaps confirm the speech's community-over-commodity framing and the owners backing off. Thematic gloss, no named philosopher.",
+        "sourcesChecked": [
+          "https://collider.com/ted-lasso-season-3-rebecca-speech/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-super-league-real-basis",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Collider and fan/press write-ups confirm Akufo's breakaway league mirrors the real April 2021 European Super League (announced 18 April, collapsed within days under fan revolt); sources stress Akufo himself is fictional, not a depiction of a real billionaire. Rebecca's speech is likened to Gary Neville's 2021 on-air outburst.",
+      "verified_sources": [
+        "https://collider.com/ted-lasso-season-3-akufo-super-league-real-life/",
+        "https://www.tumblr.com/icedsodapop/717899975141588992"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e10-super-league-real-basis",
+        "tag": "Ripped from the headlines",
+        "title": "The Super League really happened",
+        "moment": "A returning billionaire pitches a breakaway league of only the richest clubs. The in-show backlash echoes a real revolt.",
+        "idea": "The subplot mirrors the actual April 2021 European Super League — twelve of Europe's wealthiest clubs proposed a closed competition and abandoned it within days after furious fan protest. The character Akufo, though, is invented, not based on any real owner.",
+        "why": "Knowing the real collapse makes Rebecca's speech land harder: it channels the genuine public anger that killed the 2021 plan.",
+        "source": "<em>Collider</em> on the Super League parallel; fan commentary on the 2021 events.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "attributed",
+        "groundingNotes": "Confirmed the subplot is 'inspired by / mirrors' the real April 2021 European Super League collapse; Akufo himself is fictional, not a real billionaire.",
+        "sourcesChecked": [
+          "https://collider.com/ted-lasso-season-3-akufo-super-league-real-life/",
+          "https://www.tumblr.com/icedsodapop/717899975141588992"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-rebecca-stoic-payoff",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Hollywood Reporter, ScreenRant and Wikipedia confirm Rebecca refuses Rupert's kiss and afterward tells Ted she no longer cares about beating Rupert — only about Richmond succeeding. The 'Stoic' label is a thematic reading, not an in-episode citation, so the card omits it.",
+      "verified_sources": [
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/",
+        "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-rebecca-stoic-payoff",
+        "tag": "Letting go of the grudge",
+        "title": "Rebecca stops needing to win",
+        "moment": "After reminiscing with Rupert, Rebecca declines his advance. Later she admits the moment brought clarity: she no longer needs Richmond to win in order to wound her ex-husband.",
+        "idea": "Her whole arc began in revenge — buying the club to ruin what Rupert loved. Here she finally wants the team to thrive on its own terms, not as a weapon.",
+        "why": "Watch how light she seems afterward. The rivalry that defined her stops running her.",
+        "source": "Recaps in <em>The Hollywood Reporter</em> and <em>ScreenRant</em>; Wikipedia episode page.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: Rebecca refuses Rupert's kiss and afterward resolves she no longer cares about beating him. 'Stoic' framing is thematic, omitted from the card.",
+        "sourcesChecked": [
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/",
+          "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-nate-father-genius",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "ScreenRant and Classic FM confirm Nate finds his old violin in the attic and reconciles with his father Lloyd, who admits he pushed too hard and only ever wanted Nate happy. (Nick Mohammed plays the violin himself — Arvo Part's 'Spiegel im Spiegel'.) The reconciliation is a turning point in Nate's redemption arc.",
+      "verified_sources": [
+        "https://screenrant.com/does-nick-mohammed-play-the-violin-in-ted-lasso-season-3/",
+        "https://www.classicfm.com/discover-music/instruments/violin/nick-mohammed-plays-ted-lasso-spiegel-im-spiegel/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-nate-father-genius",
+        "tag": "Pressure was misread love",
+        "title": "Nate and his father, by the violin",
+        "moment": "Beside a rediscovered violin in the attic, Nate's father tells him he is brilliant and that he only ever wanted him to be happy — breaking years of brusque silence.",
+        "idea": "A childhood Nate read as cold dismissal is reframed as miscommunicated love: his father pushed because he thought that was what was required, and what Nate wanted, when he really just wanted his son to be happy.",
+        "why": "It is the hinge of Nate's redemption. Also a quiet Easter egg: actor Nick Mohammed really plays the violin in the scene.",
+        "source": "Recaps via <em>ScreenRant</em> and <em>Classic FM</em>.",
+        "category": "Redemption",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed the attic violin scene and Lloyd's admission that he pushed too hard and only wanted Nate happy. Mohammed plays the violin himself (Part's 'Spiegel im Spiegel').",
+        "sourcesChecked": [
+          "https://screenrant.com/does-nick-mohammed-play-the-violin-in-ted-lasso-season-3/",
+          "https://www.classicfm.com/discover-music/instruments/violin/nick-mohammed-plays-ted-lasso-spiegel-im-spiegel/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-nate-quits-west-ham",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "ScreenRant, TheCinemaholic and TV Tropes confirm the episode opens with news that Nate and West Ham have parted, and it later emerges he quit (not fired) once he saw how vile Rupert is. Placement in E10 'International Break' verified.",
+      "verified_sources": [
+        "https://screenrant.com/ted-lasso-season-3-episode-10-recap-story-reveals/",
+        "https://thecinemaholic.com/why-was-nate-fired-from-west-ham-in-ted-lasso/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-nate-quits-west-ham",
+        "tag": "Walking away from Rupert",
+        "title": "Nate quits West Ham",
+        "moment": "Word arrives early in the episode that Nate has left West Ham. It later emerges he walked away on his own, once he understood what Rupert really is.",
+        "idea": "Nate's fall was tangled up in Rupert's influence. Quitting rather than being fired is the moment he chooses himself out of it — refusing a man he now sees clearly.",
+        "why": "It pays off the whole season-long arc of Nate drawn toward, then breaking free of, Rupert.",
+        "source": "Recaps in <em>ScreenRant</em> and <em>TheCinemaholic</em>.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: episode opens with Nate's West Ham exit; later clarified he quit, not fired, over how vile Rupert is. Placement in E10 verified.",
+        "sourcesChecked": [
+          "https://screenrant.com/ted-lasso-season-3-episode-10-recap-story-reveals/",
+          "https://thecinemaholic.com/why-was-nate-fired-from-west-ham-in-ted-lasso/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-roy-tie-dye-vulnerability",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes, Subjectify and Nerds & Beyond confirm Phoebe gifts Roy a loud tie-dye shirt; forcing himself to wear it in public (struggling with 'being perceived') and a run-in with Ms. Bowen leads Roy to name the insecurity that hurt Keeley. Shirt color is described inconsistently across recaps, so the card avoids asserting one.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+        "https://subjectifymedia.com/ted-lasso-season-3-episode-10-review/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e10-roy-tie-dye-vulnerability",
+        "tag": "Letting himself be seen",
+        "title": "Roy's tie-dye shirt",
+        "moment": "Roy reluctantly wears a loud tie-dye shirt his niece made him. Stepping out in public in it cracks open the self-protection that had kept him from being honest with the people he loves.",
+        "idea": "The all-black armor drops. Wearing something he can't control how others read — literally 'being perceived' — is what finally lets him name the insecurity that sabotaged things with Keeley.",
+        "why": "The costume shift visually tracks his emotional opening-up. A small run-in with Phoebe's teacher tips him over.",
+        "source": "Recaps via <em>TV Tropes</em> and <em>Subjectify</em>.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed the tie-dye gift, the 'being perceived' struggle, the Ms. Bowen run-in and Roy's breakthrough. Shirt color reported inconsistently, so not asserted.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+          "https://subjectifymedia.com/ted-lasso-season-3-episode-10-review/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-rebecca-only-woman-in-room",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Collider explicitly frames Rebecca as the only woman in a boardroom of older wealthy male owners who still sways them, calling it the clearest demonstration of her growth. Philosophy mapping is thematic, not in-episode, so omitted from the card.",
+      "verified_sources": [
+        "https://collider.com/ted-lasso-season-3-rebecca-speech/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-rebecca-only-woman-in-room",
+        "tag": "One voice moves the room",
+        "title": "The only woman at the table",
+        "moment": "Surrounded by men who came to carve up the game for profit, Rebecca speaks plainly about what football means — and changes their minds.",
+        "idea": "She is the lone woman in a room of older, wealthy male owners, and she is the one who shifts it. The scene is built to show how far she has come.",
+        "why": "It is the clearest single demonstration of her three-season growth, and a quiet comment on who usually holds football's power.",
+        "source": "Recaps in <em>Collider</em> and <em>The Hollywood Reporter</em>.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Collider explicitly frames Rebecca as the only woman in the boardroom who still moves it, as the clearest sign of her growth. Philosophy mapping is thematic, omitted.",
+        "sourcesChecked": [
+          "https://collider.com/ted-lasso-season-3-rebecca-speech/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-rebecca-saves-kjpr",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "TheCinemaholic and Hollywood Reporter confirm Jack's VC backers pull KJPR funding (set to close in two days) and Rebecca personally invests to keep the firm alive. Friendship-as-flourishing mapping is thematic, omitted from the card.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-why-was-keeleys-pr-agency-shut-down/",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-rebecca-saves-kjpr",
+        "tag": "Friendship as backing",
+        "title": "Rebecca bankrolls Keeley's firm",
+        "moment": "With Keeley's company about to fold after its investors walk, Rebecca steps in as backer so her friend can keep the dream alive.",
+        "idea": "The venture-capital money was conditional; friendship isn't. Rebecca wills Keeley's flourishing actively — putting her own money where the others pulled out.",
+        "why": "It quietly answers the show's question of what real friendship does: it wants the other person's good, and pays for it.",
+        "source": "Recaps via <em>TheCinemaholic</em> and <em>The Hollywood Reporter</em>.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed: VCs pull KJPR funding (closing in two days) and Rebecca personally invests to save it. Friendship-as-flourishing framing is thematic, omitted.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-why-was-keeleys-pr-agency-shut-down/",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-roy-letter-keeley",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TV Tropes, ScreenRant and Wikipedia confirm Roy writes Keeley a letter owning that the breakup was his own insecurity, not her fault, and that he loves her. (He is caught leaving it and reads it aloud rather than simply slipping it under the door.) Sets up the reconciliation.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+        "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-roy-letter-keeley",
+        "tag": "Owning the fear",
+        "title": "Roy's letter to Keeley",
+        "moment": "Roy writes Keeley a letter owning that the breakup was his own insecurity, not her fault — and that he loves her. Caught leaving it, he ends up reading it to her.",
+        "idea": "He names the thing the tie-dye shirt cracked open: he pulled away not because of anything she did, but because he was stuck in his own fear of hurting her.",
+        "why": "It is the direct payoff of his self-sabotage arc and sets the reconciliation in motion.",
+        "source": "Recaps via <em>TV Tropes</em> and <em>ScreenRant</em>; Wikipedia episode page.",
+        "category": "Relationships",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed Roy's letter taking responsibility for the breakup (his fear, not her fault) and his love for her. He is caught and reads it aloud rather than just leaving it.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+          "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-jamie-england-debut",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "FictionHorizon, TheCinemaholic and fan sources confirm Jamie is called up for his England debut during the international break, and notably wears the number 24 as a tribute to the snubbed Sam. Other Greyhounds split across national teams. Sam — not Jamie — is the one left off.",
+      "verified_sources": [
+        "https://fictionhorizon.com/ted-lasso-season-3-episode-10-recap-ending-explained/",
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 64,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-jamie-england-debut",
+        "tag": "The selfish one grows up",
+        "title": "Jamie's England call-up",
+        "moment": "Reading the international call-ups to the squad, the staff note Jamie is set for his first England appearance. He wears number 24 as a nod to a snubbed teammate.",
+        "idea": "A player once defined entirely by selfishness earns the national-team milestone — and marks it by honoring someone else. The growth is the whole point.",
+        "why": "It pays off Jamie's season-long maturation under Roy's mentorship. The 24 is a quiet tribute to Sam.",
+        "source": "Recaps via <em>Fiction Horizon</em> and <em>TheCinemaholic</em>.",
+        "category": "Redemption",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed Jamie's England debut call-up and his wearing #24 as a tribute to the snubbed Sam. Sam, not Jamie, is the one left off his national team.",
+        "sourcesChecked": [
+          "https://fictionhorizon.com/ted-lasso-season-3-episode-10-recap-ending-explained/",
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-sam-snubbed-akufo",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "TheCinemaholic, TV Tropes and the Fandom wiki independently confirm Sam is left off Nigeria's squad because Akufo bribed the Nigerian government $20 million to exclude him, as revenge for Sam rejecting his club. The $20M figure is corroborated across multiple recaps, not single-source.",
+      "verified_sources": [
+        "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-sam-snubbed-akufo",
+        "tag": "Money against a good man",
+        "title": "Sam frozen out of Nigeria",
+        "moment": "Sam learns he has been left off his national team. It emerges that the billionaire he once crossed paid to keep him out.",
+        "idea": "Akufo bribed the Nigerian football authorities a reported $20 million to keep Sam off the squad — petty, personal revenge for Sam turning down his club earlier in the season.",
+        "why": "It ties the Super League villain's greed to a player the audience loves, raising the personal stakes of the whole plot.",
+        "source": "Recaps via <em>TheCinemaholic</em> and <em>TV Tropes</em>.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed across multiple recaps that Akufo bribed the Nigerian government $20M to exclude Sam as revenge. The $20M figure is corroborated, not single-source.",
+        "sourcesChecked": [
+          "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak"
+        ]
+      }
+    },
+    {
+      "id": "s3e10-title-double-meaning",
+      "type": "trivia",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The literal meaning (the football calendar's international break framing the episode) is firmly sourced and the episode is full of relationship breaks/reconciliations. But no source confirms an intentional pun as creator intent — it is a recapper-style reading, so framed strictly as interpretation.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+        "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e10-title-double-meaning",
+        "tag": "A title doing double duty",
+        "title": "'International Break', read two ways",
+        "moment": "Set during the league's international break, the episode spends its time on the personal ruptures and mends among the characters rather than on a match.",
+        "idea": "Literally, the title names the football calendar's off-week. But it also reads as a nod to the relationship 'breaks' threaded through the hour — Roy and Keeley, Rebecca and Rupert, Nate and his father, Sam and his country.",
+        "why": "Watch how the off-field 'break' lets every personal storyline breathe. (The wordplay is a viewer reading, not a confirmed creator statement.)",
+        "source": "Recap reading via <em>TV Tropes</em>; Wikipedia episode page.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Literal meaning firmly sourced; the intentional pun is a recapper-style interpretation, not confirmed creator intent, so framed as a viewer reading.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
+          "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
+        ]
+      }
+    }
+  ]
+}

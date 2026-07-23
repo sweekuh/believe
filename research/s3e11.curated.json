@@ -1,0 +1,104 @@
+{
+  "episode": { "season": 3, "number": 11, "title": "Mom City" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e11-larkin-this-be-the-verse",
+      "verdict": "promote",
+      "interest_take": "The hidden gentle argument under a famously brutal poem — real 'I never caught that' depth, and it names the episode's engine.",
+      "writing_notes": "idea is the true payoff; moment/idea/why distinct; correctly paraphrases and quotes nothing of Larkin. Strongest card.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-ted-grief-stepford-smiler",
+      "verdict": "promote",
+      "interest_take": "'Performed okayness' as an inherited coping style ties Ted's mom to his panic attacks — genuinely illuminating.",
+      "writing_notes": "Emotional climax, well-framed; handles S2 backstory with care, focus stays on the pattern not the loss.",
+      "spoiler_concern": "series"
+    },
+    {
+      "id": "s3e11-jamie-fathers-shadow",
+      "verdict": "promote",
+      "interest_take": "Reframes three seasons of swagger as armor over a father wound in one confession.",
+      "writing_notes": "Tight 'idea'; 'Swagger as a wound' tag earns its place; rhymes well with Ted's arc.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-jamie-mum-georgie",
+      "verdict": "promote",
+      "interest_take": "Easy-to-miss texture: the soft Jamie came from his mother's side — makes the whole arc click.",
+      "writing_notes": "Distinct from the father card (decency vs drive); warm and concrete. Good pairing, not a duplicate.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-wizard-of-oz-home",
+      "verdict": "promote",
+      "interest_take": "The 'Home' needle-drop plus the Dottie/Dorothy + Henry name thread is a satisfying aesthetic catch.",
+      "writing_notes": "Names symbolism honestly flagged as fan reading; good category (Aesthetics) and variety for the set.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-ted-decides-to-go-home",
+      "verdict": "promote",
+      "interest_take": "The quiet turn that points Ted across the ocean — pays off the grief card.",
+      "writing_notes": "Clear and moving; title is a short paraphrase, not reproduced dialogue. Explicitly sets up the finale.",
+      "spoiler_concern": "forward"
+    },
+    {
+      "id": "s3e11-nate-reconciliation-beard",
+      "verdict": "promote",
+      "interest_take": "Forgiveness offered, not earned — a real counterpoint to the demanded reckonings elsewhere.",
+      "writing_notes": "Self-aware 'comes too easily' aside keeps it honest; adds a third forgiveness texture.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-becky-ann-baker-emmy",
+      "verdict": "promote",
+      "interest_take": "A single-episode guest turn drawing an Emmy nod is a tidy 'didn't know that' for a casual viewer.",
+      "writing_notes": "Clean trivia; Freaks and Geeks/Girls hook lands warmly. Good meta variety.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-richmond-beats-man-city",
+      "verdict": "promote",
+      "interest_take": "The rivalry turns because of who Jamie became, in the city of his father — decent but mostly plot.",
+      "writing_notes": "Well-written; leans recap. Result-over-character framing rescues it from being a scoreline note.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-fought-and-lost-brian-may",
+      "verdict": "promote",
+      "interest_take": "Bespoke song with Brian May is a fun production catch, though low on insight.",
+      "writing_notes": "Concise; correct Meta & trivia. Borderline but a clean change of pace from the grief cards.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-title-double-meaning",
+      "verdict": "promote",
+      "interest_take": "'Mom City'/'Man City' pun signals the dual focus — mild but pleasant.",
+      "writing_notes": "Honest about the pun being recap interpretation; weakest of the keepers but harmless and short.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e11-forgiving-your-parents",
+      "verdict": "cut",
+      "interest_take": "Abstract restatement of the theme the Larkin, Ted-grief, and two Jamie cards already prove concretely — surprise=2, no new payoff.",
+      "writing_notes": "'idea' is a summary, not a discovery; redundant with stronger cards and risks reader fatigue. Cut to keep the set tight.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e11-larkin-this-be-the-verse",
+    "s3e11-ted-grief-stepford-smiler",
+    "s3e11-jamie-fathers-shadow",
+    "s3e11-jamie-mum-georgie",
+    "s3e11-wizard-of-oz-home",
+    "s3e11-ted-decides-to-go-home",
+    "s3e11-nate-reconciliation-beard",
+    "s3e11-becky-ann-baker-emmy",
+    "s3e11-richmond-beats-man-city",
+    "s3e11-fought-and-lost-brian-may",
+    "s3e11-title-double-meaning"
+  ],
+  "episode_notes": "Strong, emotionally coherent set. One real problem: theme duplication. 'forgiving-your-parents' is an abstract recap of an idea four concrete cards already deliver (Larkin, Ted-grief, Jamie-father, Jamie-mum) — cut it; the Larkin card is the better articulation of the same throughline. Kept both Jamie cards because they split cleanly (drive from the father, decency from the mother) rather than repeat. Watch spoiler weight at the back: 'ted-grief' (series, S2 suicide backstory) and 'ted-decides-to-go-home' (forward, sets up the finale) are both fine as written because they keep the focus on the coping pattern and the 'pull home' rather than spelling out the ending — but a reader on E11 first-watch gets a nudge toward the finale. Display contract sorts by interest desc, so the gentle, high-interest cards (Larkin, grief) lead and the lighter trivia/scoreline cards trail, which is the right shape. No reproduced dialogue, including the Larkin line. The reviewer's two excludes (jamie-roy-mentorship below gate; redundant) were correctly held."
+}
