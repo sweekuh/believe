@@ -128,7 +128,7 @@ try {
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
 
   // Season picker: two seasons; switching repopulates the episode list and re-gates.
-  check("season picker present with 3 seasons (1, 2, 4 teaser)", (await page.$$eval("#seasonPicker option", o => o.length)) === 3);
+  check("season picker present with 4 seasons (1, 2, 3, 4 teaser)", (await page.$$eval("#seasonPicker option", o => o.length)) === 4);
   check("loads on season 1", (await page.$eval("#seasonPicker", el => el.value)) === "1");
   check("season 1 lists 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
 
@@ -154,6 +154,16 @@ try {
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   check("S2E12 reveals 5 verified cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
+
+  // Season 3 is fully written (12 episodes). Confirm it lists and gates like S1/S2.
+  await page.select("#seasonPicker", "3");
+  await new Promise(r => setTimeout(r, 300));
+  check("season 3 lists 12 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 12);
+  check("eyebrow reflects season 3", /Season 3/.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("S3E1 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S3E1 reveals its verified cards", (await page.$$eval("#notes .card", e => e.length)) >= 5);
 
   // Season 4 is a not-yet-aired teaser: selecting it shows the preview immediately
   // (no spoiler gate, since nothing has aired), hides the episode picker, and the

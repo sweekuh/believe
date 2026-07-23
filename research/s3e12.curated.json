@@ -1,0 +1,81 @@
+{
+  "episode": {
+    "season": 3,
+    "number": 12,
+    "title": "So Long, Farewell"
+  },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e12-believe-is-a-decision",
+      "verdict": "cut",
+      "interest_take": "The strongest idea of the lot - belief as a repeatable choice, not a sign - and a true answer to the S1E1 banner.",
+      "writing_notes": "Well written and warm, the James gloss is honestly fenced; the card itself admits it 'gives away how the show resolves.'",
+      "spoiler_concern": "series",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-kintsugi-believe-sign",
+      "verdict": "cut",
+      "interest_take": "Kintsugi is a lovely concept but the insight here is mostly the metaphor; the on-screen beat is a closing-scene reveal.",
+      "writing_notes": "Clean and evocative, idea distinct from moment; but it narrates the rehung-sign resolution.",
+      "spoiler_concern": "series",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-title-sound-of-music",
+      "verdict": "promote",
+      "interest_take": "Genuine 'oh, that's where the title comes from' - the double-meaning farewell is a real catch, not obvious.",
+      "writing_notes": "Tidy four-part structure, idea is the payoff, warm and concise; reveals a coach send-off but only what the title already telegraphs.",
+      "spoiler_concern": "forward",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-believe-team-mutiny-payoff",
+      "verdict": "cut",
+      "interest_take": "A smart critics' reading - leadership that makes itself unnecessary - but it is a synthesis of the whole ending, not a discrete catch.",
+      "writing_notes": "Clear and well-organized, but 'coached himself out of a job' is the series resolution in one line.",
+      "spoiler_concern": "series",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-a-beautiful-game-ed-sheeran",
+      "verdict": "promote",
+      "interest_take": "Bespoke Sheeran song written for the episode, Emmy-winning - surprising and verifiable production trivia that delights without plot.",
+      "writing_notes": "Distinct fields, good 'worth a listen after' nudge; idea carries the payoff. No ending reveal.",
+      "spoiler_concern": "none",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-sound-of-music-brilliant-chaos",
+      "verdict": "promote",
+      "interest_take": "The cast really surprised the lead so his reaction is genuine - a true 'I never knew that' that changes how the scene plays.",
+      "writing_notes": "Crisp, warm, watch-for line is concrete; single-source so grounding 3, but self-contained craft.",
+      "spoiler_concern": "none",
+      "suggested_edit": ""
+    },
+    {
+      "id": "s3e12-roy-diamond-dogs-can-people-change",
+      "verdict": "revise",
+      "interest_take": "Progress over perfection, spoken through the show's most guarded character - the episode's plain wisdom, genuinely worth keeping.",
+      "writing_notes": "Idea is the real payoff and the Aristotle gloss is fenced; only the 'assumes you know Roy's arc' framing leans spoilery, and the philosophy stands on its own without it.",
+      "spoiler_concern": "forward",
+      "suggested_edit": "Drop the arc-resolution framing. Present as standalone wisdom: keep moment/idea, but trim 'finally' and rewrite why to 'It states the show's progress-over-perfection ethic outright: change is the ongoing willingness to ask for help, never an arrival at perfect.' Remove the 'late-series beat that assumes you know Roy's arc' line so it doesn't flag an ending."
+    },
+    {
+      "id": "s3e12-nate-redemption-believe-callback",
+      "verdict": "cut",
+      "interest_take": "Forgiveness as belief-after-you-break-it is a fine idea, but it depends entirely on completing a multi-season redemption arc.",
+      "writing_notes": "Warm and clear, idea distinct; but it reveals the reconciliation resolves and 'pays off events across multiple seasons.'",
+      "spoiler_concern": "series",
+      "suggested_edit": ""
+    }
+  ],
+  "winners": [
+    "s3e12-a-beautiful-game-ed-sheeran",
+    "s3e12-sound-of-music-brilliant-chaos",
+    "s3e12-title-sound-of-music",
+    "s3e12-roy-diamond-dogs-can-people-change"
+  ],
+  "episode_notes": "Finale spoiler lens applied hard. The premise of the gift - 'no spoilers past the episode you pick' - collides with the fact that the finale's best ideas ARE the ending. Four of the eight included cards (believe-is-a-decision, kintsugi-sign, team-mutiny-payoff, nate-redemption) are cut: each, however well written, narrates how the show resolves (the Number 4 reveal, the rehung mended sign, Ted coaching himself out of a job, Nate's reconciliation). They belong in an after-you've-finished epilogue, not in a mid-rewatch companion. The four winners illuminate craft and philosophy without revealing who-ends-up-where. Ordering best-first: (1) Ed Sheeran's bespoke song - pure delight, zero spoiler, surprising and Emmy-validated; (2) the real surprise behind the Sound of Music number - a 'never caught that' that deepens the scene without touching the plot; (3) the title's Sound of Music origin - a satisfying reference catch, only mildly forward since the title is visible the moment the episode is chosen; (4) Roy's progress-over-perfection moment - the episode's standalone wisdom, but only if revised to strip the arc-resolution framing so it reads as a thought, not a who-ends-where reveal. If the revise is declined, ship the top three. Note two winners (the two Sound of Music music/craft cards) lean on the same set-piece, so consider spacing or leading with the song facts."
+}

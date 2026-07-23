@@ -1,0 +1,448 @@
+{
+  "episode": { "season": 3, "number": 6, "title": "Sunflowers" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s3e6-van-gogh-sowing-time",
+      "type": "philosophy",
+      "verdict": "confirmed",
+      "verification_notes": "The docent's 'life is a sowing time / the harvest is not yet here' lines paraphrase a genuine Van Gogh letter to his brother Theo (Letter 310, The Hague, 8 Feb 1883), confirmed by the Van Gogh Museum's letter archive and the vangoghletters.org primary text. The museum scene, the psilocybin tea, and Ted being moved are corroborated across the Wikipedia episode page and recaps.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+        "https://www.vangoghmuseum.nl/en/highlights/letters/310",
+        "https://vangoghletters.org/vg/letters/let310/letter.html",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e6-van-gogh-sowing-time",
+        "tag": "Life is a sowing time",
+        "title": "The docent at the Van Gogh Museum",
+        "moment": "Standing before Van Gogh's <em>Sunflowers</em>, a gently tripping Ted listens to a museum docent describe a painter who never stopped searching for beauty despite his demons — that life is a kind of sowing time and the harvest hasn't come yet — and is moved to tears.",
+        "idea": "The slump is a season, not a verdict. The harvest's absence today doesn't mean the sowing was wasted; doing what you're meant to do is its own obligation, results pending.",
+        "why": "The line the docent paraphrases is real Van Gogh — from a letter to his brother Theo (Feb 1883). It reframes Ted's low point and quietly sets up the whole episode's theme of doing your work and waiting on joy.",
+        "source": "Van Gogh's letters (to Theo, The Hague, 8 Feb 1883), via the <strong>Van Gogh Museum</strong> letter archive; episode per <em>Wikipedia</em>.",
+        "category": "Belief & hope",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Docent lines paraphrase a genuine Van Gogh letter to Theo (Letter 310, 8 Feb 1883), confirmed by the Van Gogh Museum archive and vangoghletters.org; museum scene corroborated by Wikipedia and recaps.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+          "https://www.vangoghmuseum.nl/en/highlights/letters/310",
+          "https://vangoghletters.org/vg/letters/let310/letter.html"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-sunflowers-kansas-homesickness",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "The title's nod to Van Gogh's Sunflowers is uncontested. The sunflower being the state flower of Kansas (Ted's home) is a documented fact, and recaps explicitly note Van Gogh's sunflowers reminding Ted of Kansas. The 'familiar-to-unfamiliar' reading is critical analysis but well supported.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e6-sunflowers-kansas-homesickness",
+        "tag": "A flower from home",
+        "title": "Why the episode is called Sunflowers",
+        "moment": "Ted sees Van Gogh's <em>Sunflowers</em> in Amsterdam — and the same flower is the emblem of his home state, Kansas. Recaps note the painting reminds him of home.",
+        "idea": "The thing that unlocks Ted isn't foreign at all; it's a piece of home meeting him in a strange city. Homesickness, channelled, becomes inspiration rather than ache.",
+        "why": "The title carries two meanings at once — a Dutch master's masterpiece and a Kansas roadside flower — knotting Ted's homesickness to the breakthrough that follows.",
+        "source": "<em>Wikipedia</em> (title reference) and the <em>TV Tropes</em> recap; sunflower as Kansas state flower.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Van Gogh title nod uncontested; sunflower = Kansas state flower is documented, and recaps note the painting reminds Ted of home. Thematic reading is supported analysis.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-total-football-reinvented",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Ted devises a fluid scheme and Beard names it 'Total Football'; multiple sources confirm. Total Football is real Dutch football history (Rinus Michels, embodied by Johan Cruyff at Ajax and the Netherlands in the 1970s). Sources confirm Richmond plays a friendly at Ajax (Johan Cruyff Arena) and loses 5-0. Note: the on-screen triangle inspiration is also tied to Tex Winter's triangle offense / a Chicago Bulls memory, not only Amsterdam.",
+      "verified_sources": [
+        "https://www.looper.com/1262098/ted-lasso-s3-episode-6-total-football-explained/",
+        "https://thecinemaholic.com/what-is-total-football-in-ted-lasso-teds-new-tactic-explained/",
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 5, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e6-total-football-reinvented",
+        "tag": "He reinvents Total Football",
+        "title": "Ted's napkin tactic already has a name",
+        "moment": "After his triangle epiphany, Ted sketches a fluid, position-swapping scheme; Beard recognizes it as 'Total Football' — the real Dutch philosophy in which any outfield player can fill any role.",
+        "idea": "Total Football was pioneered by coach Rinus Michels and embodied by Johan Cruyff at Ajax and the Netherlands in the 1970s. Ted reinvents in Amsterdam the very idea Amsterdam gave the sport.",
+        "why": "The setting is the joke: Richmond loses a friendly 5-0 to Ajax at the Johan Cruyff Arena, then Ted independently stumbles onto the home team's own revolutionary system.",
+        "source": "<em>Looper</em> and <em>The Cinemaholic</em> on the tactic; Michels/Cruyff/Ajax is standard football history.",
+        "category": "Meta & trivia",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Beard naming the scheme 'Total Football' and the Michels/Cruyff/Ajax origin confirmed across multiple sources; friendly is a 5-0 loss to Ajax at the Johan Cruyff Arena.",
+        "sourcesChecked": [
+          "https://www.looper.com/1262098/ted-lasso-s3-episode-6-total-football-explained/",
+          "https://thecinemaholic.com/what-is-total-football-in-ted-lasso-teds-new-tactic-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-mathmagic-land-parody",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The animated narrator is named 'The True Spirit of Adventure' and the sequence homages Disney's 1959 short 'Donald in Mathmagic Land,' where the same-named narrator (originally Paul Frees) teaches Donald math. In the episode the role is voiced by Corey Burton, who has inherited several Frees roles. Confirmed across the fan wiki, Wikipedia, and press.",
+      "verified_sources": [
+        "https://ted-lasso.fandom.com/wiki/The_True_Spirit_of_Adventure",
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+        "https://www.wfxg.com/entertainment/the-surreal-disney-cartoon-that-inspired-fever-dream-episodes-of-futurama-ted-lasso/article_fbe16cbb-32d5-587a-859d-ccd619c66ae9.html"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e6-mathmagic-land-parody",
+        "tag": "A Disney math lesson",
+        "title": "The triangle hallucination's secret source",
+        "moment": "Mid-trip, an animated narrator lectures Ted on triangles and geometry in nature — a style-perfect riff on Disney's 1959 educational short <em>Donald in Mathmagic Land</em>.",
+        "idea": "The narrator is even named 'The True Spirit of Adventure,' the same disembodied guide who taught Donald Duck about math in the original — voiced here by Corey Burton, an heir to that classic Disney narration style.",
+        "why": "It's the kind of deep-cut homage you'd never catch without knowing the 1959 short; the playful framing is doing real story work, sparking Ted's tactic.",
+        "source": "<em>Ted Lasso</em> fan wiki and <em>Wikipedia</em>; WFXG on the Mathmagic Land inspiration.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Narrator named 'The True Spirit of Adventure'; sequence homages Disney's 1959 'Donald in Mathmagic Land'; voiced by Corey Burton (heir to Paul Frees roles). Confirmed by fan wiki, Wikipedia, press.",
+        "sourcesChecked": [
+          "https://ted-lasso.fandom.com/wiki/The_True_Spirit_of_Adventure",
+          "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-pulp-fiction-burger-barn",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "The Americana restaurant ('Yankee Doodle Burger Barn') homages Pulp Fiction's Jack Rabbit Slim's: a drifting Steadicam follows Ted to his table while Ricky Nelson's 'Waitin' in School' plays — the same Ricky Nelson cut heard when Vincent and Mia enter Jack Rabbit Slim's. The episode adds further Pulp Fiction nods (foot-massage talk). Specific song match confirmed by IMDb trivia and the TV Tropes recap.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
+        "https://www.imdb.com/title/tt19655884/trivia/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 5, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s3e6-pulp-fiction-burger-barn",
+        "tag": "A Pulp Fiction diner",
+        "title": "The Yankee Doodle Burger Barn",
+        "moment": "A gliding camera leads Ted to his table at a retro all-American diner as a Ricky Nelson tune plays — staged as a loving copy of the Jack Rabbit Slim's sequence in <em>Pulp Fiction</em>.",
+        "idea": "It's the same song match: Ricky Nelson's 'Waitin' in School' scores Ted's entrance, exactly as it does when Vincent and Mia walk into Jack Rabbit Slim's. The episode even slips in foot-massage talk as a further nod.",
+        "why": "A built set and a precise needle-drop turn a throwaway diner scene into a film-buff Easter egg hiding in plain sight.",
+        "source": "<em>IMDb</em> episode trivia and the <em>TV Tropes</em> recap.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Jack Rabbit Slim's homage with the matching Ricky Nelson 'Waitin' in School' needle-drop confirmed by IMDb trivia and the TV Tropes recap; further Pulp Fiction nods noted.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
+          "https://www.imdb.com/title/tt19655884/trivia/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-roy-jamie-bike-reconciliation",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Jamie procures bikes to see a windmill; Roy admits he never learned to ride because his grandfather died before teaching him; Jamie teaches him and Roy apologizes for taking his anger out on Jamie. Corroborated across multiple recaps (TV Tropes, HollywoodReporter, CinemaBlend). spoiler_scope 'season' as it advances a multi-episode arc.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
+        "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-6-amsterdam-1235391701/",
+        "https://www.cinemablend.com/streaming-news/ted-lasso-fans-are-totally-loving-jamie-adorably-teaching-roy-how-to-ride-a-bike"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-roy-jamie-bike-reconciliation",
+        "tag": "The rivalry turns to repair",
+        "title": "Jamie teaches Roy to ride a bike",
+        "moment": "After Roy confesses he never learned to ride — his grandad died before teaching him — Jamie patiently teaches him in Amsterdam, and the two finally drop their guard.",
+        "idea": "Roy admits he's been unfairly dumping his anger on Jamie, and apologizes. The man who was Roy's antagonist since Season 1 becomes the one who helps him.",
+        "why": "It's the long Roy/Jamie thaw paying off in the gentlest possible image — an apology delivered while learning to balance on two wheels.",
+        "source": "<em>TV Tropes</em> recap; <em>The Hollywood Reporter</em> and <em>CinemaBlend</em>.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Bike lesson, the grandfather backstory, and Roy's apology corroborated across TV Tropes, The Hollywood Reporter, and CinemaBlend. Season-scope arc beat.",
+        "sourcesChecked": [
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
+          "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-6-amsterdam-1235391701/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-colin-trent-homomonument",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Colin slips to a gay bar; Trent follows, reveals he knows Colin is gay and comes out himself; they talk by the Homomonument. The Homomonument is a real Amsterdam memorial (the first to LGBTQ+ people persecuted, including by the Nazis), composed of three large pink granite triangles. Both the scene placement and the three-triangle design confirmed by CBR, the Mary Sue, and the TV Tropes recap. spoiler_scope 'season'.",
+      "verified_sources": [
+        "https://www.cbr.com/ted-lasso-colin-trent-crimm-amsterdam/",
+        "https://www.themarysue.com/ted-lasso-picked-the-perfect-location-for-its-heartwarming-colin-trent-scene/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 4, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 78,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-colin-trent-homomonument",
+        "tag": "The right place to be seen",
+        "title": "Colin and Trent at the Homomonument",
+        "moment": "Trent quietly follows Colin to a gay bar, reveals he already knows, and comes out to him too; the pair end up talking by Amsterdam's Homomonument.",
+        "idea": "The location is chosen with care: the Homomonument (1987) is the world's first monument to LGBTQ+ people persecuted — including those killed by the Nazis — built as three pink granite triangles, reclaiming the badge once used to mark them.",
+        "why": "Those three pink triangles quietly rhyme with the episode's triangle motif from Ted's tactic, letting the setting carry meaning the dialogue doesn't have to spell out.",
+        "source": "<em>CBR</em> and <em>The Mary Sue</em>; <em>TV Tropes</em> recap. Homomonument history.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Scene set at the Homomonument and its three-pink-triangle, Nazi-persecution-memorial design confirmed by CBR, The Mary Sue, and the TV Tropes recap. Season-scope.",
+        "sourcesChecked": [
+          "https://www.cbr.com/ted-lasso-colin-trent-crimm-amsterdam/",
+          "https://www.themarysue.com/ted-lasso-picked-the-perfect-location-for-its-heartwarming-colin-trent-scene/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-gezellig-rebecca-houseboat",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Rebecca falls into a canal; a Dutch stranger takes her onto his houseboat, dries her off, and they spend a warm evening — explicitly framed around 'gezellig.' Confirmed by InsideHook, the Mary Sue gezellig piece, TVLine, and TV Tropes. The KLM-poster/pilot payoff is series-scope foreshadowing (resolved in the finale), so the card stays on the self-contained gezellig night.",
+      "verified_sources": [
+        "https://www.insidehook.com/wellness/dutch-lifestyle-gezellig-ted-lasso",
+        "https://www.themarysue.com/what-does-gezellig-mean-gezellig-in-ted-lasso-explained/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 4, "spoiler_safety": 4 },
+      "interest_score": 73,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-gezellig-rebecca-houseboat",
+        "tag": "Gezellig",
+        "title": "Rebecca's night on the houseboat",
+        "moment": "After tumbling into a canal, Rebecca is taken in by a kind Dutch stranger on his houseboat, where a warm, unhurried evening together unfolds.",
+        "idea": "He names the feeling: 'gezellig' — a Dutch word with no clean English translation, gathering up coziness, conviviality, comfort and belonging all at once.",
+        "why": "It's the emotional counterweight to Rebecca's loneliness this season: not romance exactly, just the experience of being cared for and at ease.",
+        "source": "<em>InsideHook</em> and <em>The Mary Sue</em> on gezellig; <em>TV Tropes</em> recap.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Canal fall, houseboat rescue, and the 'gezellig' framing confirmed by InsideHook, The Mary Sue, and the TV Tropes recap. KLM/pilot payoff is series-scope and intentionally kept off the card.",
+        "sourcesChecked": [
+          "https://www.insidehook.com/wellness/dutch-lifestyle-gezellig-ted-lasso",
+          "https://www.themarysue.com/what-does-gezellig-mean-gezellig-in-ted-lasso-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-higgins-chet-baker-jazz",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Higgins takes Will to the Amsterdam spot tied to Chet Baker (the trumpeter died falling from a hotel window in May 1988) and then to Jazz Cafe Alto, where he's coaxed on stage to play bass. Scene placement and the Alto setting confirmed by the Trainline location guide, House of Peregrine, and the TV Tropes recap; Chet Baker's 1988 death is well-documented history.",
+      "verified_sources": [
+        "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
+        "https://house-of-peregrine.ghost.io/the-ted-lasso-sunflowers-episode-amsterdam-locations/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-higgins-chet-baker-jazz",
+        "tag": "A hidden, joyful talent",
+        "title": "Higgins, jazz, and Chet Baker",
+        "moment": "Higgins shows Will the Amsterdam spot tied to jazz great Chet Baker, then gets coaxed onto the stage at a jazz cafe — and plays bass surprisingly well.",
+        "idea": "Trumpeter Chet Baker died falling from an Amsterdam window in 1988; the venue is the real Jazz Cafe Alto, open since the 1950s. A minor character gets a moment of pure, unguarded joy.",
+        "why": "It threads the episode's 'do what you're meant to do, find your joy' idea through Higgins — the kind of quiet detail that rewards paying attention to the side stories.",
+        "source": "<em>Trainline</em> and <em>House of Peregrine</em> location guides; <em>TV Tropes</em> recap. Chet Baker's death is documented history.",
+        "category": "Belief & hope",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Chet Baker reference, Jazz Cafe Alto setting, and Higgins playing bass confirmed by the Trainline and House of Peregrine location guides and the TV Tropes recap; Baker's 1988 Amsterdam death is documented.",
+        "sourcesChecked": [
+          "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-piggy-stardust-brendan-hunt",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Beard reappears costumed as a pig-nosed 'Piggy Stardust.' SlashFilm and ScreenRant tie this to writer/actor Brendan Hunt's real Amsterdam years, when his cover band performed the whole Ziggy Stardust album; Sudeikis reportedly suggested the pig nose. Hunt is the credited writer of this episode (story by Joe Kelly and Sudeikis), confirmed by Wikipedia. Boom Chicago origin corroborated independently.",
+      "verified_sources": [
+        "https://www.slashfilm.com/1280825/ted-lasso-piggy-stardust-nod-brendan-hunt-real-life-past/",
+        "https://screenrant.com/piggy-stardust-ted-lasso-character-meaning/",
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-piggy-stardust-brendan-hunt",
+        "tag": "Piggy Stardust",
+        "title": "Beard's Bowie costume is autobiography",
+        "moment": "Beard vanishes for the night and turns up at the end costumed as a pig-nosed 'Piggy Stardust' — a David Bowie riff with strangers in tow.",
+        "idea": "It's drawn from real life: during his Amsterdam years, writer/actor Brendan Hunt — who wrote this episode — played in a cover band that performed the entire <em>Ziggy Stardust</em> album. Jason Sudeikis reportedly added the pig nose.",
+        "why": "Amsterdam is personal for the show: Hunt and Sudeikis met performing at Boom Chicago there, where Ted Lasso was first dreamed up. The gag is a private joke made public.",
+        "source": "<em>SlashFilm</em> and <em>ScreenRant</em> on Hunt's Amsterdam past; <em>Wikipedia</em> for the writing credit.",
+        "category": "Meta & trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Piggy Stardust as a nod to Brendan Hunt's real Ziggy Stardust cover band in Amsterdam confirmed by SlashFilm and ScreenRant; Hunt credited as this episode's writer per Wikipedia; Boom Chicago origin corroborated.",
+        "sourcesChecked": [
+          "https://www.slashfilm.com/1280825/ted-lasso-piggy-stardust-nod-brendan-hunt-real-life-past/",
+          "https://screenrant.com/piggy-stardust-ted-lasso-character-meaning/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-amsterdam-real-locations",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Production filmed at real Amsterdam landmarks — the Van Gogh Museum, the Magere Brug (Skinny Bridge), and the De Riekermolen windmill — while the houseboat and the American diner were built as sets in London. Confirmed by the Trainline guide, House of Peregrine, and the UPI set-design piece (which quotes production designer Paul Cripps).",
+      "verified_sources": [
+        "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
+        "https://www.upi.com/Entertainment_News/TV/2023/08/02/Set-designers-thrilled-to-go-Dutch-in-Ted-Lasso-Amsterdam-episode/9371690908036/",
+        "https://house-of-peregrine.ghost.io/the-ted-lasso-sunflowers-episode-amsterdam-locations/"
+      ],
+      "scores": { "grounding": 4, "insight": 2, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-amsterdam-real-locations",
+        "tag": "Real city, built interiors",
+        "title": "Where Sunflowers was actually shot",
+        "moment": "Much of the episode was filmed on real Amsterdam locations — the Van Gogh Museum, the Magere Brug ('Skinny Bridge'), and a working windmill — while a couple of interiors were built on London sets.",
+        "idea": "Rebecca's houseboat and Ted's Yankee Doodle Burger Barn were sets, not real venues. The production even filmed beside Van Gogh paintings worth millions; designer Paul Cripps recalled the museum staff being unfazed.",
+        "why": "Knowing which scenes are the real city and which are constructed adds to the episode's craft — the seams are invisible.",
+        "source": "<em>Trainline</em> location guide; <em>UPI</em> set-design piece quoting production designer Paul Cripps.",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Real-location filming (Van Gogh Museum, Magere Brug, De Riekermolen windmill) and London-built houseboat and diner confirmed by the Trainline guide, House of Peregrine, and UPI (quoting designer Paul Cripps).",
+        "sourcesChecked": [
+          "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
+          "https://www.upi.com/Entertainment_News/TV/2023/08/02/Set-designers-thrilled-to-go-Dutch-in-Ted-Lasso-Amsterdam-episode/9371690908036/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-bottle-episode-structure",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Credits confirmed: written by Brendan Hunt, story by Joe Kelly and Jason Sudeikis, directed by Matt Lipsey (Wikipedia). The near-anthology 'one Amsterdam night, many threads' structure drew strong critical praise (Bleeding Cool). 'Best episode' framing is critical OPINION, presented as such — not scored as objective fact.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+        "https://bleedingcool.com/tv/ted-lasso-season-3-sunflowers-deserves-serious-love-from-emmy-voters/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-bottle-episode-structure",
+        "tag": "One night, many threads",
+        "title": "The structure critics loved",
+        "moment": "The episode braids a single Amsterdam night into separate character vignettes — Ted's museum trip, Roy and Jamie, Beard's disappearance, Rebecca's houseboat, Colin and Trent, Higgins and Will — most landing on a beat of joy or honesty.",
+        "idea": "Written by Brendan Hunt (story by Joe Kelly and Jason Sudeikis) and directed by Matt Lipsey, its near-anthology craft was widely praised as among the show's finest.",
+        "why": "That 'best episode' talk is critical opinion, not fact — but the deliberate one-night, many-threads design is real, and worth watching for on a rewatch.",
+        "source": "<em>Wikipedia</em> (credits); <em>Bleeding Cool</em> (critical praise).",
+        "category": "Meta & trivia",
+        "interest": 3,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Credits (writer Brendan Hunt; story Kelly & Sudeikis; director Matt Lipsey) per Wikipedia; the praised one-night structure per Bleeding Cool. 'Best episode' framed as opinion, not objective fact.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
+          "https://bleedingcool.com/tv/ted-lasso-season-3-sunflowers-deserves-serious-love-from-emmy-voters/"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-do-what-youre-meant-to-do",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The 'do what you're meant to do, find your joy' throughline is the hunter's synthesis across recaps, anchored by the docent's real Van Gogh-derived line; reviews (Subjectify, TV Tropes) support reading every thread as characters reclaiming joy. It's interpretation rather than a quoted thesis, so partially-confirmed. Overlaps with the Kansas/title card but coexists as the character-throughline angle.",
+      "verified_sources": [
+        "https://subjectifymedia.com/ted-lasso-season-3-episode-6-review/",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+      ],
+      "scores": { "grounding": 3, "insight": 3, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 65,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s3e6-do-what-youre-meant-to-do",
+        "tag": "Do what you're meant to do",
+        "title": "The thread tying every story together",
+        "moment": "Across the night, every storyline circles one idea: Ted finds a tactic that finally makes sense to him, Higgins reclaims jazz, Colin steps toward living openly, Roy lets himself be taught, Rebecca lets herself be cared for.",
+        "idea": "The docent's Van Gogh line — when you know you're doing what you're meant to do, you have to try — is the episode's quiet mission statement, and the answer to a season-long slump of people who'd lost their spark.",
+        "why": "It's the through-line to watch for: nearly every scene resolves on someone letting joy back in.",
+        "source": "Reading drawn from <em>Subjectify</em> and the <em>TV Tropes</em> recap; anchored by the docent's Van Gogh line.",
+        "category": "Belief & hope",
+        "interest": 3,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "The 'do what you're meant to do / find your joy' throughline is a synthesis across recaps (Subjectify, TV Tropes), anchored by the docent's real Van Gogh-derived line; interpretive rather than a quoted thesis.",
+        "sourcesChecked": [
+          "https://subjectifymedia.com/ted-lasso-season-3-episode-6-review/",
+          "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
+        ]
+      }
+    },
+    {
+      "id": "s3e6-jan-maas-cruyff-pronunciation",
+      "type": "easter-egg",
+      "verdict": "contested",
+      "verification_notes": "PLACEMENT/ATTRIBUTION PROBLEM. The pronunciation-correction beat that occurs in E6 is delivered by the AFC Ajax owner correcting HIGGINS — not by Jan Maas. Jan Maas's own Cruyff-name correction (to Jamie) was an EARLIER episode; the E6 moment is a callback to it, but the candidate's framing ('Jan Maas resurfaces and corrects') is inaccurate. Held for a human and flagged: the who/whom in the candidate is wrong.",
+      "verified_sources": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
+        "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
+      ],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 3, "spoiler_safety": 3 },
+      "interest_score": 60,
+      "tier": "silver",
+      "include": false
+    }
+  ]
+}

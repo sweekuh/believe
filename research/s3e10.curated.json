@@ -1,0 +1,101 @@
+{
+  "episode": { "season": 3, "number": 10, "title": "International Break" },
+  "curated_by": "editorial-review",
+  "verdicts": [
+    {
+      "id": "s3e10-super-league-real-basis",
+      "verdict": "promote",
+      "interest_take": "Real-world hook: the 2021 European Super League collapse the subplot mirrors — outside knowledge that genuinely deepens the scene.",
+      "writing_notes": "Tight, distinct fields; the Akufo-is-fictional guardrail is responsibly placed in the idea.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-roy-tie-dye-vulnerability",
+      "verdict": "promote",
+      "interest_take": "The 'being perceived' read and costume-tracks-emotion observation is the kind of thing a rewatcher misses; strong payoff.",
+      "writing_notes": "Idea is the real insight, not recap; warm and concrete. Color-omission is the right call.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-sam-snubbed-akufo",
+      "verdict": "promote",
+      "interest_take": "The reveal that the villain personally bribed $20M to freeze Sam out is a genuine 'wait, that's why' beat.",
+      "writing_notes": "Moment teases, idea delivers; right Ethics & character category. Concise.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-nate-father-genius",
+      "verdict": "promote",
+      "interest_take": "Strong emotional reframe (pressure as misread love) plus the real Easter egg that Mohammed actually plays the violin.",
+      "writing_notes": "Idea carries the payoff; Easter egg lands in 'why' without crowding. Clear.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-title-double-meaning",
+      "verdict": "promote",
+      "interest_take": "Gives the reader a lens for the whole hour — the off-week as a field of relationship 'breaks'; a real reframe.",
+      "writing_notes": "Honest about the pun being a viewer reading, not creator intent. Good meta card.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-football-community-not-commodity",
+      "verdict": "promote",
+      "interest_take": "The clearest statement of the episode's spine; lower surprise but the thematic anchor for the boardroom plot.",
+      "writing_notes": "Well-built; idea articulates the community-as-public-good case plainly and warmly.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-rebecca-stoic-payoff",
+      "verdict": "promote",
+      "interest_take": "The grudge-to-freedom turn is a real character payoff, not just plot; 'watch how light she seems' is a good rewatch cue.",
+      "writing_notes": "Dropping the 'Stoic' label was correct; warm, distinct fields.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-roy-letter-keeley",
+      "verdict": "promote",
+      "interest_take": "The direct payoff of Roy's self-sabotage arc; pairs with the tie-dye card as cause-and-effect.",
+      "writing_notes": "Clear; idea names what the shirt cracked open. Slightly adjacent to the tie-dye card but earns its place as the reconciliation beat.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-rebecca-only-woman-in-room",
+      "verdict": "cut",
+      "interest_take": "Redundant with the community-speech card on the same boardroom moment; surprise=2, it restates 'how far she's come' without new insight.",
+      "writing_notes": "Well-written but the room already has two stronger cards; cutting tightens the Rebecca trio.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-rebecca-saves-kjpr",
+      "verdict": "cut",
+      "interest_take": "A plot beat with a thematic gloss bolted on; 'friendship pays for it' is sweet but not surprising or a new read.",
+      "writing_notes": "Competent but recappy; the set is already heavy with Rebecca and with arc-resolution cards.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-nate-quits-west-ham",
+      "verdict": "cut",
+      "interest_take": "Pure plot recap (he quit, not fired); the insight is thin and Nate's emotional turn is far better carried by the violin card.",
+      "writing_notes": "The weakest insight score; cutting removes a duplicate Nate beat.",
+      "spoiler_concern": "none"
+    },
+    {
+      "id": "s3e10-jamie-england-debut",
+      "verdict": "cut",
+      "interest_take": "The only genuinely interesting nugget — the #24 tribute to Sam — is already covered in the Sam card's 'why'; the rest is call-up recap.",
+      "writing_notes": "Solid prose but duplicative; the snub belongs to Sam's card, which is stronger.",
+      "spoiler_concern": "none"
+    }
+  ],
+  "winners": [
+    "s3e10-super-league-real-basis",
+    "s3e10-roy-tie-dye-vulnerability",
+    "s3e10-sam-snubbed-akufo",
+    "s3e10-nate-father-genius",
+    "s3e10-title-double-meaning",
+    "s3e10-football-community-not-commodity",
+    "s3e10-rebecca-stoic-payoff",
+    "s3e10-roy-letter-keeley"
+  ],
+  "episode_notes": "A late, ensemble episode whose research skews to arc-resolution recap: many cards are 'character X finally does Y.' The reviewed set had three cards on the single boardroom speech, two on Nate, and two on the Sam/Jamie call-up thread. I cut four to tighten: rebecca-only-woman-in-room (redundant with the community card, surprise=2), rebecca-saves-kjpr (plot beat with thematic gloss), nate-quits-west-ham (thinnest insight; Nate's turn is better carried by the violin), and jamie-england-debut (its one good nugget, the #24 tribute, already lives in the Sam card). The surviving eight have real variety: one real-world meta hook, two character-reframe payoffs (Roy's shirt, Nate's violin), a villain reveal, a meta title read, the thematic spine, and the two reconciliation beats. Ordered best-first: the Super League real-world parallel and Roy's tie-dye are the standouts that teach the rewatcher something. Spoiler-wise these are within-episode payoffs of season-long arcs; none reveal the finale, so no forward/series flags. Note Roy's letter and tie-dye are a deliberate cause-effect pair kept adjacent in ordering."
+}

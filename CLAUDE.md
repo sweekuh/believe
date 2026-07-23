@@ -56,10 +56,11 @@ philosophy or plot facts to fill an episode.
   single-season `{ season, episodes }` file via `normalizeData()`.) Card schema
   and the optional scoring fields (`grounding`, `interest`, `category`,
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
-  `README.md` and `docs/facts-schema.md`. Seasons 1 and 2 are fully written
-  (Season 1: 10 episodes; Season 2: 12 episodes; ~5 verified cards each, built
-  through the content pipeline). The "coming soon" placeholder path stays in the
-  app for any future season.
+  `README.md` and `docs/facts-schema.md`. Seasons 1, 2, and 3 are fully written
+  (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes, 103
+  cards, built through the full hunter → grounding-reviewer → editorial-review →
+  promotion pipeline). The "coming soon" placeholder path stays in the app for
+  any future season, and Season 4 ships as a teaser (see below).
   - **`comingSoon` (teaser) seasons/episodes.** A season (or episode) may carry
     `"comingSoon": true`. The app then **skips the spoiler gate and reveals the
     cards immediately** (nothing has aired, so there's nothing to spoil), labels

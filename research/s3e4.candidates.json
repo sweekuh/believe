@@ -1,0 +1,177 @@
+{
+  "episode": { "season": 3, "number": 4, "title": "Big Week" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s3e4-smigus-dyngus",
+      "type": "easter-egg",
+      "title": "Zava named his firstborn 'Smigus-dyngus' (a real Polish Easter tradition)",
+      "detail": "An easy-to-miss gag that recap snippets confirm lands in THIS episode (not S3E3, where it was provisionally logged): during the Zava / goalkeeper conversation in which Zoreaux decides to rebrand himself, Zava lays out his belief that everyone should name themselves, says he lets each of his children pick a name at age seven, and adds that his eldest is therefore called 'Smigus-dyngus' (rendered 'Smingus Dingus' in a transcribed snippet). It sounds like nonsense but is a real thing: Smigus-dyngus (Smigus-Dyngus / 'Wet Monday' / 'Dyngus Day') is a Polish Easter Monday custom of dousing people with water, rooted in old Slavic spring, fertility and purification rites. The joke fits Zava's globe-trotting mystic-guru affect: even his kids' names are exotic ritual borrowings. Reviewer: the Polish tradition is well documented (Wikipedia/Culture.pl). Placement in S3E4 is confirmed by the lassoism transcribed quote page (tagged S03E04) plus multiple S3E4 recaps that describe the naming gag; this corrects the tentative S3E3 logging carried in research/s3e3.candidates.json. The exact spelling of the child's name varies between snippets ('Smigus-dyngus' vs. 'Smingus Dingus') — paraphrase; do not reproduce dialogue.",
+      "moment": "In the locker-room exchange where the keeper decides to rename himself, Zava explains that he lets his children choose their own names at seven, which is why (he says) his eldest is named after the Polish Easter water custom.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=719", "note": "Transcribed quote page tagged S03E04 'Big Week' — Zava's self-naming speech and the 'Smingus Dingus' firstborn line" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap" },
+        { "url": "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus", "note": "Wikipedia — Smigus-dyngus, the Polish Easter Monday water-dousing tradition" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-van-damme-self-naming",
+      "type": "callback",
+      "title": "Zoreaux renames himself 'Van Damme' — Zava's identity philosophy in action",
+      "detail": "Inspired by Zava's 'you can be whoever you want to be' speech, Richmond's goalkeeper Zoreaux declares he is now 'Van Damme' — after Jean-Claude Van Damme, the 'Muscles from Brussels,' his favourite movie star. The bit is comic but plants a running Season 3 thread about self-chosen identity (the keeper's name keeps evolving across the season). It is also the on-screen pivot that makes Zava's self-naming monologue (and the Smigus-dyngus line) pay off. Reviewer: the rename to 'Van Damme' in this episode and the JCVD inspiration are confirmed across S3E4 recaps; flag 'his favourite movie star' as a paraphrase of the keeper's stated reason. spoiler_scope is 'season' because the gag's full arc continues in later episodes.",
+      "moment": "After Zava tells him he can be anyone he wants, the keeper announces he will now go by 'Van Damme,' citing his admiration for the action star.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap — keeper rebrands as Van Damme after JCVD" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Big_Week", "note": "Fandom episode page — Zoreaux/Van Damme name change" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e4-believe-sign-revealed-torn",
+      "type": "callback",
+      "title": "The torn BELIEVE sign is revealed as Nate's doing",
+      "detail": "Trent Crimm, embedded with the club for his book, digs through old security footage and uncovers what only the audience previously knew: Nate, on his last day at Richmond, tore the BELIEVE sign in half (the footage shows him failing to reach it, fetching a rolling chair, falling, and finally getting it on the third try). Roy and Beard bring the clip to Ted hoping he will show it to the squad as pre-match motivation against Nate's West Ham — and are frustrated when Ted instead takes the USB drive and refuses to weaponize it. The beat both resolves a season-opening mystery and re-states Ted's ethic of not motivating through contempt. This is especially resonant for the Believe app: the taped BELIEVE banner is the project's own visual signature. Reviewer: the reveal, the surveillance footage, and Ted declining to use it are consistent across recaps; confirm the 'third try / rolling chair' staging if a card leans on the physical comedy.",
+      "moment": "In the locker room the BELIEVE sign falls apart, exposing the earlier tear; Trent's recovered footage shows Nate did it, and Ted quietly refuses to use the clip to fire up the team.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap — Nate revealed as the sign-tearer; the third-try staging" },
+        { "url": "https://screenrant.com/ted-lasso-believe-sign-explained-why-nate-ripped/", "note": "ScreenRant — the BELIEVE sign reveal and why Nate tore it" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-oklahoma-safe-word",
+      "type": "callback",
+      "title": "Rebecca uses Ted's old marriage safe-word 'Oklahoma'",
+      "detail": "When Ted downplays how badly he's doing, Rebecca cuts through by saying 'Oklahoma' — the code-word Ted revealed back in S1E5 ('Tan Lines') that he and his then-wife Michelle used to signal they were being completely, vulnerably honest with each other. Rebecca deploying it forces Ted to stop deflecting. The callback is poignant on two levels: it shows how close Ted and Rebecca have become (she now holds his most private emotional tool), and it lands an instrument of his marriage in the middle of his post-divorce spiral. Reviewer: the 'Oklahoma = total honesty' origin (S1E5) and Rebecca's use of it here are confirmed across recaps; treat the emotional reading as supported interpretation, the facts as solid.",
+      "moment": "Ted brushes off Rebecca's concern; she answers with the single word 'Oklahoma,' invoking the honesty pact from his marriage, and he drops the act.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap — Rebecca says 'Oklahoma' to Ted" },
+        { "url": "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/", "note": "Mary Sue recap — Ted's emotional state and the honesty beat" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-pressure-theme",
+      "type": "theme",
+      "title": "The episode's throughline: everyone is under pressure",
+      "detail": "The central theme is pressure: Richmond's 'big week' building to the high-stakes West Ham fixture loads up nearly every character — Ted (publicly facing Nate, privately spiraling over Michelle and Dr. Jacob), Nate (his redemption/anxiety arc beginning), Rebecca (the proxy war with ex-husband Rupert, now West Ham's owner), and the squad (expected to deliver). Recaps frame the whole episode around mounting pressure, and the show has long associated that idea with Queen and David Bowie's 'Under Pressure,' which scored the Season 2 marketing built on exactly this motif. Reviewer: 'pressure as the episode's organizing theme' is well supported by recaps; the 'Under Pressure' link is contextual (Season 2 trailer / show motif), not a claim that the song plays in S3E4 — present it as thematic context, not a needle-drop in this episode.",
+      "moment": "Across storylines the week's marquee match squeezes everyone — coaches, owner, players and the departed Nate — into a pressure cooker that the episode title names directly.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)", "note": "Wikipedia episode page (snippet only; WebFetch 403 this session) — premise: everyone feels the pressure ahead of West Ham" },
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-4-recap/", "note": "ScreenRant recap — pressure as the episode's spine; start of Richmond's losing streak" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-subbuteo-callback",
+      "type": "reference",
+      "title": "Nate plans his West Ham tactics on a Subbuteo set",
+      "detail": "Preparing to out-coach his old mentor, Nate maps the Richmond-vs-West Ham game using a Subbuteo set — the classic British finger-flicking tabletop football game. Subbuteo (invented by RAF veteran Peter Adolph in 1946-47, named from a Latinized form of the hobby falcon Falco subbuteo, peak popularity in 1970s-80s Britain) is a beloved, very English piece of football culture, which makes it characterful shorthand for Nate plotting like an obsessive tactician. The moment also carries a pointed callback: Nate sweeps a tiny Ted figure off his miniature pitch, mirroring the season's opening scene where Ted moved a small Nate figure into the stands — a tidy visual of their reversed positions. Reviewer: the Subbuteo-as-real-game facts are solid (Wikipedia/FourFourTwo). Confirm the 'sweeps the Ted figure / mirrors the season opener' callback staging, which comes from recap descriptions.",
+      "moment": "Nate works out his game plan against Richmond on a tabletop Subbuteo pitch and flicks aside a little Ted figure, inverting the season's first scene.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Subbuteo", "note": "Wikipedia — Subbuteo, the British tabletop football game and its history" },
+        { "url": "https://www.fourfourtwo.com/features/the-subbuteo-story-how-a-war-veteran-cum-egg-collector-invented-britains-legendary-tabletop-favourite", "note": "FourFourTwo — Subbuteo's invention and cultural place in Britain" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap — Nate's Subbuteo planning and the figurine callback" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-zava-self-naming-identity",
+      "type": "philosophy",
+      "title": "Zava's 'you can be whoever you want to be' and the philosophy of self-naming",
+      "detail": "Zava's monologue — that people should choose their own names, and that he lets his children pick theirs at age seven — is comic on the surface but gestures at a real philosophical theme: self-authorship and the idea that identity is something one makes rather than merely inherits. It rhymes with existentialist notions of self-creation (we are not fixed by what we are given) and with the show's broader interest in reinvention (Nate's heel turn, Ted's project, the keeper's rebrand). Reviewer: this is the hunter's interpretive framing, NOT a cited philosopher named in the show — present the self-authorship/existentialist angle as an interpretation, not an attribution. The in-show content (Zava's naming speech) is confirmed; do not assert that the writers intended a specific philosopher. Paraphrase only.",
+      "moment": "Zava tells the keeper he can be anyone he chooses, framing names — and by extension selves — as things a person elects rather than inherits.",
+      "sources": [
+        { "url": "https://lassoism.com/Ted-Lasso-quote.php?id=719", "note": "Transcribed S03E04 quote — Zava's self-naming speech" },
+        { "url": "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/", "note": "Geek Girl Authority — best quotes from 'Big Week,' including Zava on naming/identity" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-ted-refuses-contempt-motivation",
+      "type": "philosophy",
+      "title": "Ted refuses to motivate through contempt for Nate",
+      "detail": "Handed a ready-made grievance — footage of Nate destroying the BELIEVE sign, plus the personal sting of facing his former protege as an enemy coach — Ted declines to use it. Where Roy and Beard want to weaponize the clip and even punish the act, Ted takes the USB drive and walks the high road, refusing to rally his players on resentment. The beat dramatizes a recurring Lasso ethic: leadership built on belief and decency rather than fear or hatred of an opponent, even a deserving one. It connects to the show's larger argument that how you win matters as much as whether you do (cf. the Ted-vs-Beard 'winning isn't how we measure success' debate). Reviewer: Ted taking the drive and declining to use it is confirmed across recaps; the philosophical framing is interpretive but well within the show's established ethic.",
+      "moment": "Shown the damning Nate footage as a motivational tool, Ted quietly pockets the USB drive rather than turning the team's anger into fuel.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek", "note": "TV Tropes S3E4 recap — Ted refuses to use the Nate footage; Roy and Beard frustrated" },
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-4-recap/", "note": "ScreenRant recap — Ted declining to motivate via contempt" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-sassy-rejects-ted",
+      "type": "theme",
+      "title": "Sassy tells Ted the hard truth: he's a mess who needs to work on himself",
+      "detail": "Ted, rattled by his ex-wife Michelle's new relationship, asks Flo 'Sassy' Collins (with whom he has a casual thing) to actually date him. She turns him down plainly, telling him he is an emotional mess who needs to sort himself out before getting into a relationship. Recaps single her out as the one character willing to tell Ted the unvarnished truth, making the scene a counterweight to the show's gentler enabling of Ted's deflection — a clear-eyed, almost Camusian honesty about his state rather than reassurance. Reviewer: the rejection and Sassy's 'you're a mess' framing are confirmed across recaps; treat any direct phrasing as paraphrase and don't reproduce dialogue. The 'only one telling Ted the truth' reading is recap interpretation.",
+      "moment": "After a casual night together, Ted floats really dating Sassy; she gently but firmly refuses, naming his unresolved divorce and telling him to work on himself first.",
+      "sources": [
+        { "url": "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/", "note": "Mary Sue — Sassy as the one giving Ted honest feedback; the rejection" },
+        { "url": "https://thecinemaholic.com/ted-lasso-season-3-episode-4-recap-and-ending-explained/", "note": "Cinemaholic recap — Sassy turns Ted down, calls him an emotional mess" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-rebecca-rupert-proxy-war",
+      "type": "theme",
+      "title": "Richmond vs. West Ham doubles as Rebecca vs. Rupert",
+      "detail": "The marquee fixture is also a personal grudge match: West Ham is now owned by Rupert Mannion, Rebecca's vindictive ex-husband, with Nate installed as his manager. So the 'big week' stakes the club's pride and Rebecca's against her ex on the same pitch — the football mirrors the divorce. This layers the episode's pressure theme with the show's running interrogation of revenge and rightly-ordered love (Rebecca's Season 1 arc was about untangling her flourishing from her need to beat Rupert). Reviewer: the Rupert-owns-West-Ham / Nate-manages-it setup and the Rebecca-vs-Rupert framing of the match are confirmed; spoiler_scope leans 'season' since the rivalry's payoff and the match outcome's consequences extend beyond this episode.",
+      "moment": "The build-up frames the West Ham game as more than three points: it is Rebecca and Richmond against Rupert (and his new manager, Nate).",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Big_Week", "note": "Fandom episode page — Richmond vs West Ham as Rupert-vs-Rebecca / Ted-vs-Nate" },
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-4-recap/", "note": "ScreenRant recap — the personal stakes of the fixture" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e4-richmond-lose-streak-begins",
+      "type": "callback",
+      "title": "Richmond lose to West Ham — Nate out-coaches Ted, starting a slump",
+      "detail": "The big match goes badly for Richmond: a fairly even first half (Richmond dominating possession) turns when Nate adjusts his tactics, West Ham score late before the break, and Richmond lose — Nate tactically out-maneuvering his former boss. Recaps mark this as the start of Richmond's mid-season losing streak and the low point that the season's later recovery is measured against. After Nate's sign-destroying reveal, the Richmond players also spend much of the second half roughing up West Ham players who had nothing to do with the incident. Reviewer: the loss, Nate's in-game tactical switch, the late goal, and 'start of the losing streak' framing are consistent across recaps; spoiler_scope 'season' because the slump's significance depends on the later arc. Treat any specific scoreline cautiously — confirm exact result before a card states it.",
+      "moment": "Nate changes shape mid-match, West Ham score late in the first half, and Richmond lose the showcase fixture, beginning a downturn.",
+      "sources": [
+        { "url": "https://screenrant.com/ted-lasso-season-3-episode-4-recap/", "note": "ScreenRant recap — Richmond's losing streak begins; Nate's tactical switch and late goal" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/", "note": "Hollywood Reporter recap — the West Ham match goes awry for Richmond" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s3e4-joker-and-the-thief",
+      "type": "reference",
+      "title": "Wolfmother's 'Joker & the Thief' as a needle-drop",
+      "detail": "The episode's soundtrack features 'Joker & the Thief' by Wolfmother (2005), the Australian band's swaggering, hard-rock single. In an episode built around a high-tension showdown and a 'joker'-ish antagonist in Nate (and the grand showman Zava), a strutting rock anthem fits the bravado of the build-up. Reviewer: the song's presence in S3E4 comes from a soundtrack listing surfaced in search (single source this session, not opened); confirm via Tunefind/IMDb soundtrack before a card relies on it, and treat the placement/why-it-was-chosen as inference rather than stated intent.",
+      "moment": "A Wolfmother rock cue ('Joker & the Thief') underscores part of the episode's big-match build-up.",
+      "sources": [
+        { "url": "https://www.imdb.com/title/tt19655944/soundtrack/", "note": "IMDb S3E4 soundtrack listing (snippet only this session) — 'Joker & the Thief' by Wolfmother" },
+        { "url": "https://www.tunefind.com/show/ted-lasso/season-3", "note": "Tunefind Ted Lasso Season 3 soundtrack index (verify episode placement)" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s3e4-goldstein-writer-actor",
+      "type": "production",
+      "title": "Written by Brett Goldstein — the actor who plays Roy Kent",
+      "detail": "'Big Week' (S3E4) premiered on Apple TV+ on April 5, 2023, directed by Destiny Ekaragha and written by Brett Goldstein — who also plays Roy Kent. Goldstein was hired into the Ted Lasso writers' room from the start; his feel for the gruff veteran led him to lobby for the on-screen role of Roy (he self-taped an audition after the Season 1 room wrapped). So this episode is partly authored by the man who embodies one of its characters — a notable writer/actor dual credit. Reviewer: writer (Goldstein), director (Ekaragha) and air date are consistent across Wikipedia/IMDb snippets; the writer-also-plays-Roy biography is well documented. Note Ekaragha also directed the prior episode (S3E3) per that file — confirm if a card states a two-episode block.",
+      "moment": "Production credit, not an on-screen moment: the episode is written by the cast member who plays Roy Kent.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)", "note": "Wikipedia — air date, writer (Brett Goldstein), director (Destiny Ekaragha)" },
+        { "url": "https://en.wikipedia.org/wiki/Brett_Goldstein", "note": "Wikipedia — Goldstein is a Ted Lasso writer who also plays Roy Kent" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    }
+  ]
+}
