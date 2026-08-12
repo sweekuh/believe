@@ -1,0 +1,329 @@
+{
+  "episode": { "season": 4, "number": 1, "title": "Home" },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s4e1-production-credits",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Wikipedia's episode page gives Joe Kelly as writer, Declan Lowney as director, 42-minute runtime, August 5 2026 release. I could not corroborate any of it from a second source I actually opened — the trade write-ups I tried (Deadline, AV Club, Forbes) are paywalled or 403. Single-source, so grounding is capped at 2 and it fails the gate.",
+      "verified_sources": ["https://en.wikipedia.org/wiki/Home_(Ted_Lasso)"],
+      "scores": { "grounding": 2, "insight": 3, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 68,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s4e1-guest-cast",
+      "type": "production",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Wikipedia's cast list resolves the hunter's open questions — Suzanne Cryer plays Tammy, Matteo van der Grijn plays Matthijs, Alex Weisman plays Principal Casey, Becky Ann Baker returns as Dottie Lasso, Andrea Anders as Michelle Keller. Useful, but again single-source: grounding capped at 2, excluded. Left here as an audit note for later episodes.",
+      "verified_sources": ["https://en.wikipedia.org/wiki/Home_(Ted_Lasso)"],
+      "scores": { "grounding": 2, "insight": 2, "surprise": 2, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 54,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s4e1-matthijs-callback",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed that Matthijs appears — Wikipedia's guest list has Matteo van der Grijn as Matthijs, and the SI recap describes the relationship as carried forward from Season 3. True, but it fails on interest, not grounding: it is a plot-continuity note a viewer gets from watching, with no hidden layer.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind"
+      ],
+      "scores": { "grounding": 3, "insight": 2, "surprise": 3, "relevance": 3, "spoiler_safety": 2 },
+      "interest_score": 51,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s4e1-underdog-thesis",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The in-episode beat is confirmed: Higgins reads that another club's women's side folded, written off as a financial drain on the men's game. I could NOT establish whether Twickenham FC is a real club, so the card does not say it is. What is independently sourced is the real funding gap Tyla cites — roughly £3m of £35m in UK football support went to the women's game in 2022–23.",
+      "verified_sources": [
+        "https://readysteadycut.com/2026/08/05/ted-lasso-season-4-episode-1-recap/",
+        "https://www.tyla.com/entertainment/tv-and-film/ted-lasso-season-four-womens-football-reality-301950-20260805",
+        "https://medium.com/critical-myth/review-ted-lasso-season-4-episode-1-home-4e936ab3b3b0"
+      ],
+      "scores": { "grounding": 4, "insight": 5, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-underdog-thesis",
+        "tag": "The real thing underneath",
+        "title": "The new underdog isn't invented",
+        "moment": "As the Richmond three lay out the plan, Higgins reads that another club has just shut down its women's side — written off in the press as a well-meaning drain on the men's game.",
+        "idea": "That framing is drawn from life. In 2022–23, of about £35 million in UK football support, roughly <strong>£3 million</strong> went to the women's game. Surveys of the grassroots game found most female players saying they would walk away without secure funding, and nearly all female coaches saying they need more.",
+        "why": "It tells you what kind of season this is. The first three years gave Ted a bad team; this one gives him a team the sport itself is under-resourcing. The obstacle stopped being a losing streak and became a structure.",
+        "source": "UK women's football funding figures via <em>Tyla</em>'s report on the season's real-world backdrop.",
+        "category": "Ethics & character",
+        "interest": 5,
+        "grounding": 4,
+        "groundingStatus": "partial",
+        "groundingNotes": "Funding figures independently sourced; the in-episode club whose team folds could not be confirmed as a real club, so it is not named here.",
+        "sourcesChecked": [
+          "https://www.tyla.com/entertainment/tv-and-film/ted-lasso-season-four-womens-football-reality-301950-20260805",
+          "https://readysteadycut.com/2026/08/05/ted-lasso-season-4-episode-1-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s4e1-negro-leagues-museum",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia's plot summary independently confirms Higgins finds inspiration at the Negro Leagues Baseball Museum, matching two recaps. Museum details verified from the institution's own site: 1616 E 18th St, Kansas City, in the Historic 18th & Vine Jazz District, founded 1990, the only national museum devoted to African-American baseball. I dropped the hunter's Satchel Paige detail — the museum site does not corroborate it and only one recap mentioned him.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://nlbm.com/",
+        "https://readysteadycut.com/2026/08/05/ted-lasso-season-4-episode-1-recap/",
+        "https://medium.com/critical-myth/review-ted-lasso-season-4-episode-1-home-4e936ab3b3b0"
+      ],
+      "scores": { "grounding": 5, "insight": 4, "surprise": 4, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-negro-leagues-museum",
+        "tag": "A real place",
+        "title": "Higgins goes to the Negro Leagues Baseball Museum",
+        "moment": "While the others chase barbecue, Higgins spends his Kansas City afternoon at the Negro Leagues Baseball Museum, and comes back changed by it.",
+        "idea": "It's a real institution — 1616 E 18th Street, in Kansas City's historic 18th &amp; Vine jazz district, founded in 1990. It calls itself the world's only national museum devoted to African-American baseball and what that history did for the country beyond the sport: a whole league of extraordinary players kept outside the one with the money.",
+        "why": "The episode puts that story next to a women's team fighting for scraps, and lets you draw the line yourself. It's the quietest scene in the premiere and the one carrying the season's argument.",
+        "source": "Negro Leagues Baseball Museum, Kansas City (nlbm.com); the museum visit is in the episode's plot.",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 5,
+        "groundingStatus": "verified",
+        "groundingNotes": "Museum facts from the museum's own site; the scene confirmed by Wikipedia's plot summary plus two independent recaps.",
+        "sourcesChecked": [
+          "https://nlbm.com/",
+          "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+          "https://readysteadycut.com/2026/08/05/ted-lasso-season-4-episode-1-recap/"
+        ]
+      }
+    },
+    {
+      "id": "s4e1-grocery-store-limbo",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The situation is confirmed across four sources: Ted is working at a Kansas City grocery store, present for Henry, and visibly hollowed out. Sources DISAGREE on the job title (Wikipedia says cashier; two recaps say assistant manager), so the card says only 'a grocery store.' The Aristotle framing is my own reading laid over confirmed facts, not a claim any critic made — marked partial for that reason.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://medium.com/critical-myth/review-ted-lasso-season-4-episode-1-home-4e936ab3b3b0",
+        "https://seat42f.com/ted-lasso-season-4-episode-1-recap-home-ending-explained/",
+        "https://alisechaffins.substack.com/p/ted-lasso-season-4-episode-1-recap-review-home-2026"
+      ],
+      "scores": { "grounding": 3, "insight": 5, "surprise": 3, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 86,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-grocery-store-limbo",
+        "tag": "Aristotle, quietly",
+        "title": "Nothing is wrong, and nothing is right",
+        "moment": "Ted has the life he left England for — a job at a grocery store, school runs, time with Henry. He still helps whoever's in front of him. The spark is gone anyway.",
+        "idea": "Aristotle wouldn't ask Ted whether he's comfortable. He'd ask whether he's <em>exercising</em> what he's actually good at. On that view a life can be pleasant and still be going wrong, because a capacity you don't use doesn't sit quietly — it aches.",
+        "why": "This is why the premiere spends so long on nothing much happening. It isn't padding; it's the case for why he says yes. He isn't running from a bad life, he's running toward a used one.",
+        "source": "Aristotle's virtue ethics — character as capacity exercised, not comfort attained; the show's virtue-ethics thread is the subject of ch. 6 of <em>Ted Lasso and Philosophy</em> (Wiley, 2024).",
+        "category": "Ethics & character",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Ted's situation confirmed by four sources (they disagree on his exact job title, so it isn't stated). The Aristotle reading is interpretation, not a sourced claim about the episode.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+          "https://medium.com/critical-myth/review-ted-lasso-season-4-episode-1-home-4e936ab3b3b0",
+          "https://seat42f.com/ted-lasso-season-4-episode-1-recap-home-ending-explained/"
+        ]
+      }
+    },
+    {
+      "id": "s4e1-ted-memorabilia",
+      "type": "easter-egg",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The SI recap lists the three items in Ted's home office — a Trent Crimm byline clipping, a LEGO football pitch, a framed photo with Nathan Shelley — and a TV Tropes recap of this episode repeats them, though TV Tropes returned 403 when I tried to open it directly, so I am counting that as weak corroboration only. Grounding held at 3.",
+      "verified_sources": ["https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind"],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 5, "relevance": 4, "spoiler_safety": 3 },
+      "interest_score": 85,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-ted-memorabilia",
+        "tag": "Look at the shelf",
+        "title": "He never actually put Richmond down",
+        "moment": "Ted stands in his home office with a cup of tea. Around him: a newspaper clipping with Trent Crimm's byline, a football pitch built out of LEGO, and a framed photo of Ted with Nate.",
+        "idea": "Every one of those is a person he chose to keep. The Crimm clipping is the reporter who came to expose him and stayed to understand him. The Nate photo is the hardest relationship in the whole series, framed and on a shelf — Ted kept the picture.",
+        "why": "It's the answer to a question the episode never asks out loud. He tells everyone he's happy; the room tells you what he misses. Watch for it before Rebecca ever knocks.",
+        "source": "Set details in Ted's home office, as catalogued in recaps of the premiere.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Catalogued in one recap I opened, echoed in a second I could not open directly. The items are described consistently, but treat the detail as reported rather than doubly verified.",
+        "sourcesChecked": ["https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind"]
+      }
+    },
+    {
+      "id": "s4e1-auden-leap-before-you-look",
+      "type": "reference",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The poem is real and verified: W.H. Auden, 'Leap Before You Look,' written 1940, collected in The Double Man (1941), and it deliberately inverts the proverb 'look before you leap.' Apple's season framing and Sudeikis's own comments use the same inverted phrase. What is NOT established — and the card says so outright — is that the show meant Auden. No source connects them. Presented as a resonance, never as an attribution.",
+      "verified_sources": [
+        "https://poemanalysis.com/w-h-auden/leap-before-you-look/",
+        "https://www.techradar.com/streaming/apple-tv-plus/ted-lasso-season-4-gets-big-release-window-update-from-apple-and-we-dont-have-long-to-wait-until-we-can-believe-in-the-hit-apple-tv-show-again"
+      ],
+      "scores": { "grounding": 3, "insight": 4, "surprise": 5, "relevance": 3, "spoiler_safety": 4 },
+      "interest_score": 83,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-auden-leap-before-you-look",
+        "tag": "Attributed carefully",
+        "title": "A poem with the season's motto for a title",
+        "moment": "Apple's description of this season, and Jason Sudeikis talking about it, both turn the old proverb around: this year Richmond learns to leap before it looks.",
+        "idea": "W.H. Auden wrote a poem called exactly that — <em>Leap Before You Look</em>, 1940, collected in <em>The Double Man</em>. It argues that the sense of danger shouldn't go away, that safety is the illusion, and that you will have to leap regardless of how long you study the drop.",
+        "why": "<strong>Nobody has said the show meant Auden</strong> — no source connects them, and this page won't pretend otherwise. But the poem is real, the title is the same, and it's the better version of the thought: not that the leap is safe, but that looking longer was never going to make it safe.",
+        "source": "W.H. Auden, <em>Leap Before You Look</em> (1940; in <em>The Double Man</em>, 1941). The connection to the show is unestablished.",
+        "category": "Belief &amp; hope",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "attributed",
+        "groundingNotes": "The poem, its date, and its inversion of the proverb are verified. That the show intends the reference is NOT verified and is stated as unknown on the card.",
+        "sourcesChecked": ["https://poemanalysis.com/w-h-auden/leap-before-you-look/"]
+      }
+    },
+    {
+      "id": "s4e1-precursive-faith-returns",
+      "type": "philosophy",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The episode facts are confirmed (Ted takes a job rebuilding a women's side with no evidence it will work, and moves his family for it). The William James mapping rests on the same sourcing as this app's Season 1 cards — ch. 3 of Ted Lasso and Philosophy — which I did not re-open this session, so grounding stays at 3 and the card presents it as a lens, not a discovery.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://seat42f.com/ted-lasso-season-4-episode-1-recap-home-ending-explained/"
+      ],
+      "scores": { "grounding": 3, "insight": 5, "surprise": 3, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e1-precursive-faith-returns",
+        "tag": "Precursive faith",
+        "title": "The same bet he made the first time",
+        "moment": "Ted takes a job building a second-division women's team almost from scratch, and moves his family across an ocean for it, before there's any sign it will work.",
+        "idea": "William James called this <em>precursive faith</em> — belief that runs ahead of the evidence and helps bring about the thing believed in. James's point was that for some things the evidence <em>cannot</em> arrive first: the team only becomes worth believing in after somebody believes in it.",
+        "why": "It's the BELIEVE sign again, on a bigger canvas. Season one you could read as luck. Doing it twice, on purpose, knowing the cost — that's the philosophy, not the temperament.",
+        "source": "William James on precursive faith and the ethics of belief; treated in ch. 3 of <em>Ted Lasso and Philosophy</em> (Wiley, 2024).",
+        "category": "Belief &amp; hope",
+        "interest": 4,
+        "grounding": 3,
+        "groundingStatus": "partial",
+        "groundingNotes": "Episode facts verified. The James framing is the same sourced lens this app uses for Season 1, applied here as interpretation.",
+        "sourcesChecked": ["https://en.wikipedia.org/wiki/Home_(Ted_Lasso)"]
+      }
+    },
+    {
+      "id": "s4e1-childhood-home-sale",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Wikipedia's plot summary confirms Ted learns his mother plans to sell the childhood home, and that this is what tips him toward calling Michelle and Henry about London. I did not verify the critical-myth reviewer's suggestion that Dottie's stance conflicts with Season 3, so the card says nothing about it.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://medium.com/critical-myth/review-ted-lasso-season-4-episode-1-home-4e936ab3b3b0"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 3, "relevance": 5, "spoiler_safety": 4 },
+      "interest_score": 77,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e1-childhood-home-sale",
+        "tag": "The title, literally",
+        "title": "Dottie is selling the house he grew up in",
+        "moment": "After his friends fly home, Ted finds out his mother is putting his childhood house on the market. Then he calls Michelle and Henry about London.",
+        "idea": "The episode is called <em>Home</em> and it spends forty minutes making the word slippery. The fixed point Ted had been orbiting — the house, the town, the idea that Kansas is simply where he's from — quietly stops being fixed.",
+        "why": "Notice the order of events. He doesn't decide and then get freed; he gets freed and then decides. The episode is careful about which came first.",
+        "source": "Episode plot: Ted learns of the sale of his childhood home before contacting his family about relocating.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Confirmed from the episode's plot summary; the sequence (sale, then the call) is as described.",
+        "sourcesChecked": ["https://en.wikipedia.org/wiki/Home_(Ted_Lasso)"]
+      }
+    },
+    {
+      "id": "s4e1-public-enemy-notebook",
+      "type": "easter-egg",
+      "verdict": "confirmed",
+      "verification_notes": "Confirmed across five sources: Ted and Michelle are called to Henry's school over a disturbing 'poem' that turns out to be song lyrics — Public Enemy, per four recaps; Wikipedia's plot says song lyrics without naming the artist. A specific track title circulates in search results sourced to a paywalled Deadline soundtrack piece I could not open, so the card does NOT name the song.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+        "https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind",
+        "https://www.pinkvilla.com/entertainment/hollywood/ted-lasso-season-4-premiere-ending-explained-is-ted-heading-back-to-afc-richmond-with-michelle-and-henry-1404761",
+        "https://alisechaffins.substack.com/p/ted-lasso-season-4-episode-1-recap-review-home-2026",
+        "https://readysteadycut.com/2026/08/05/ted-lasso-season-4-episode-1-recap/"
+      ],
+      "scores": { "grounding": 4, "insight": 3, "surprise": 4, "relevance": 4, "spoiler_safety": 5 },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e1-public-enemy-notebook",
+        "tag": "The joke you might miss",
+        "title": "Henry's 'disturbing poem' is a rap lyric",
+        "moment": "The school calls Ted and Michelle in over something alarming in Henry's notebook. It turns out he'd copied out song lyrics — Public Enemy — and the principal, reading them cold, didn't recognise them.",
+        "idea": "Public Enemy built their reputation in the late 1980s on exactly this: political rap written to sound like a threat to anyone hearing it out of context. Read aloud in a principal's office thirty-odd years later, the words do precisely what they were designed to do.",
+        "why": "It's a gag, but it's the season's thesis in miniature — a grown-up panicking at something they never bothered to be curious about. Be curious, not judgmental, aimed at a man holding a notebook.",
+        "source": "Public Enemy lyrics copied into Henry's notebook, per recaps of the premiere.",
+        "category": "Meta &amp; trivia",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "The scene and the Public Enemy attribution are corroborated across four recaps plus the episode's plot summary. The specific song is not named here — the only source for a title was one I could not open.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Home_(Ted_Lasso)",
+          "https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind",
+          "https://www.pinkvilla.com/entertainment/hollywood/ted-lasso-season-4-premiere-ending-explained-is-ted-heading-back-to-afc-richmond-with-michelle-and-henry-1404761"
+        ]
+      }
+    },
+    {
+      "id": "s4e1-home-as-state-of-mind",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Three independent write-ups converge on the same reading, and one attributes the thesis line to Rebecca (paraphrased here, not quoted): home as something continually redefined rather than chosen once, with Ted refusing the either/or by bringing his family rather than trading one home for the other.",
+      "verified_sources": [
+        "https://thefilmgordon.com/ted-lasso-season-4-episode-1-explained/",
+        "https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind",
+        "https://seat42f.com/ted-lasso-season-4-episode-1-recap-home-ending-explained/"
+      ],
+      "scores": { "grounding": 4, "insight": 4, "surprise": 2, "relevance": 5, "spoiler_safety": 5 },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e1-home-as-state-of-mind",
+        "tag": "What the title means",
+        "title": "He doesn't choose between them",
+        "moment": "Kansas is where his family is. Richmond is where he found out who he could be. Rebecca offers him the way through — the idea that home might be a state of mind rather than an address.",
+        "idea": "The neat version of this story makes Ted pick, and calls whichever he picks the sacrifice. The episode refuses. He goes back <em>and</em> brings them, which is harder and less tidy and much more like an actual life.",
+        "why": "Season one Ted left his family to chase the job. That's the wound the whole series is built on. This time he does the same thing without doing the same thing — that's the growth, and it's the last shot of the premiere.",
+        "source": "The premiere's central theme, as read across contemporaneous reviews of the episode.",
+        "category": "Relationships",
+        "interest": 4,
+        "grounding": 4,
+        "groundingStatus": "verified",
+        "groundingNotes": "Three independent reviews land on the same reading of the title and the ending.",
+        "sourcesChecked": [
+          "https://thefilmgordon.com/ted-lasso-season-4-episode-1-explained/",
+          "https://www.si.com/media/ted-lasso-recap-review-home-is-a-state-of-mind",
+          "https://seat42f.com/ted-lasso-season-4-episode-1-recap-home-ending-explained/"
+        ]
+      }
+    }
+  ]
+}

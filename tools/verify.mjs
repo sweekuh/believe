@@ -128,7 +128,7 @@ try {
   check("switching back re-gates the cards", (await page.$eval("#notes", el => !el.classList.contains("open"))));
 
   // Season picker: two seasons; switching repopulates the episode list and re-gates.
-  check("season picker present with 4 seasons (1, 2, 3, 4 teaser)", (await page.$$eval("#seasonPicker option", o => o.length)) === 4);
+  check("season picker present with 4 seasons", (await page.$$eval("#seasonPicker option", o => o.length)) === 4);
   check("loads on season 1", (await page.$eval("#seasonPicker", el => el.value)) === "1");
   check("season 1 lists 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
 
@@ -165,23 +165,25 @@ try {
   await new Promise(r => setTimeout(r, 500));
   check("S3E1 reveals its verified cards", (await page.$$eval("#notes .card", e => e.length)) >= 5);
 
-  // Season 4 is a not-yet-aired teaser: selecting it shows the preview immediately
-  // (no spoiler gate, since nothing has aired), hides the episode picker, and the
-  // eyebrow reads "Coming soon" rather than an episode number.
+  // Season 4 began airing on 2026-08-05, so it is now an ordinary gated season that
+  // grows an episode a week. The comingSoon teaser path itself still lives in the app
+  // for any future season; it just has no season using it right now.
   await page.select("#seasonPicker", "4");
   await new Promise(r => setTimeout(r, 300));
-  check("season 4 hides the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === true);
-  check("season 4 eyebrow reads coming soon", /Coming soon/i.test(await page.$eval("#eyebrow", el => el.textContent)));
-  check("season 4 skips the spoiler gate", (await page.$eval("#gate", el => el.hidden)) === true);
-  check("season 4 reveals its teaser immediately", (await page.$eval("#notes", el => el.classList.contains("open"))) === true);
-  check("season 4 shows 4 teaser cards", (await page.$$eval("#notes .card", e => e.length)) === 4);
-  check("season 4 teaser leads with the release date", /August 5/i.test(await page.$eval("#notes .card h2", el => el.textContent)));
-  if (shots) await page.screenshot({ path: join(outDir, "07-season4-teaser.png"), fullPage: true });
+  check("season 4 shows the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === false);
+  check("season 4 lists only aired episodes", (await page.$$eval("#epPicker option", o => o.length)) >= 1);
+  check("eyebrow reflects season 4", /Season 4/.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("season 4 no longer reads coming soon", !/Coming soon/i.test(await page.$eval("#eyebrow", el => el.textContent)));
+  check("S4E1 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S4E1 reveals its verified cards", (await page.$$eval("#notes .card", e => e.length)) === 9);
+  if (shots) await page.screenshot({ path: join(outDir, "07-season4-e1.png"), fullPage: true });
 
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));
-  check("leaving the teaser restores the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === false);
+  check("switching seasons keeps the episode picker visible", (await page.$eval("#epPickerField", el => el.hidden)) === false);
   await new Promise(r => setTimeout(r, 300));
   check("switching back to season 1 restores 10 episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
   check("season 1 re-gates real-content episode", (await page.$eval("#gate", el => el.hidden)) === false);
