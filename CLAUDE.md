@@ -59,18 +59,21 @@ philosophy or plot facts to fill an episode.
   `README.md` and `docs/facts-schema.md`. Seasons 1, 2, and 3 are fully written
   (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes, 103
   cards, built through the full hunter → grounding-reviewer → editorial-review →
-  promotion pipeline). The "coming soon" placeholder path stays in the app for
-  any future season, and Season 4 ships as a teaser (see below).
+  promotion pipeline). **Season 4 is airing** — it premiered 2026-08-05 and runs
+  weekly through 2026-10-07, ten episodes in all. It is an ordinary gated season
+  that grows by one episode a week as each airs; the teaser it launched with has
+  been replaced by real E1 cards. Write an episode only **after** it has aired.
+  The "coming soon" placeholder path stays in the app for any future season, with
+  no season currently using it (see below).
   - **`comingSoon` (teaser) seasons/episodes.** A season (or episode) may carry
     `"comingSoon": true`. The app then **skips the spoiler gate and reveals the
     cards immediately** (nothing has aired, so there's nothing to spoil), labels
     the eyebrow "Season N · Coming soon", hides the episode picker for a teaser
-    season, and marks it "· coming soon" in the season `<select>`. Season 4 ships
-    as exactly this: one teaser "episode" of preview cards (release date, premise,
-    cast) drawn **only from Apple's official announcement**, plus one card
-    explicitly flagged as the author's unconfirmed hunch. The cardinal rule still
-    binds — real per-episode cards replace the teaser through the normal pipeline
-    as the season airs.
+    season, and marks it "· coming soon" in the season `<select>`. Season 4 shipped
+    as exactly this before it aired — one teaser "episode" of preview cards drawn
+    only from Apple's official announcement — and on 2026-08-12 that teaser was
+    replaced by real E1 cards, dropping the season's `comingSoon` flag. Keep the
+    path working: the next unaired season will use it again.
 
 ## Content pipeline (how cards get written)
 
