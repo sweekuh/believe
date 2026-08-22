@@ -1,0 +1,316 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 2,
+    "title": "Curiouser and Curiouser!"
+  },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e2-title-alice-wonderland",
+      "type": "reference",
+      "title": "The title is Alice's line — and it is broken grammar on purpose",
+      "detail": "The episode title is taken from Lewis Carroll's Alice's Adventures in Wonderland, chapter II ('The Pool of Tears'), where Alice exclaims it as she begins to grow. Carroll immediately has the narrator note that she was so surprised she momentarily forgot how to speak good English — the comparative should be 'more curious'. The bad grammar is the joke, and the book flags it itself.",
+      "moment": "Not an on-screen moment: the title frames Ted arriving at a version of Richmond where everything familiar has been rearranged.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — Wikipedia episode page confirms title, air date 2026-08-12, writer and director"
+        },
+        {
+          "url": "https://etc.usf.edu/lit2go/1/alices-adventures-in-wonderland/3/chapter-ii-the-pool-of-tears/",
+          "note": "LEAD, NOT YET OPENED — Lit2Go full text of chapter II, for the primary-source wording"
+        },
+        {
+          "url": "https://www.cs.cmu.edu/~rgs/alice-II.html",
+          "note": "LEAD, NOT YET OPENED — second full text of chapter II for corroboration"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-alice-chilton-name",
+      "type": "easter-egg",
+      "title": "The new assistant coach is called Alice",
+      "detail": "The episode that borrows Alice's most famous exclamation for its title is also the episode that introduces Alice Chilton (Tanya Reynolds), the Lady Greyhounds' assistant coach. NO SOURCE FOUND stating the naming is deliberate — no writer or creator has been quoted on it. The reviewer must decide whether to present this as an observed coincidence rather than an established wink.",
+      "moment": "Alice Chilton is introduced as the internal candidate who expected the head-coach job and got Ted instead.",
+      "sources": [
+        {
+          "url": "https://www.tvline.com/2231788/alice-chilton-ted-lasso-actress-tanya-reynolds/",
+          "note": "OPENED — confirms Alice Chilton, played by Tanya Reynolds, introduced in episode 2"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — episode page names Alice Chilton in the plot summary"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-bowen-curiosity-writer",
+      "type": "production",
+      "title": "The same writer wrote the show's other curiosity episode",
+      "detail": "'Curiouser and Curiouser!' is written by Leann Bowen. Bowen also wrote season one's 'The Diamond Dogs' — the darts episode built around curiosity, and the one critics singled out for its thematic focus on curiosity and conversation. Directed here by MJ Delaney, a returning Ted Lasso director.",
+      "moment": "Not an on-screen moment: a credits-level echo across five seasons of story.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — Wikipedia credits Leann Bowen as writer and MJ Delaney as director of S4E2"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)",
+          "note": "OPENED — Wikipedia credits Leann Bowen as writer of S1E8 'The Diamond Dogs'; notes critics praised its thematic focus on curiosity"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-curious-not-judgmental-callback",
+      "type": "callback",
+      "title": "The title reaches back to the show's most quoted line",
+      "detail": "Recaps read the title as an echo of Ted's 'be curious, not judgmental' from the season-one darts scene. Worth handling carefully: the show credits that line to Walt Whitman and no source for it has ever been located in Whitman's writings — it is a documented misattribution, which the project already treats as 'attributed to, not by'. The thematic echo is asserted by multiple recaps; deliberate intent is NOT sourced.",
+      "moment": "Not an on-screen moment: the title sets curiosity as the tool Ted has to use on a squad that has no reason to trust him.",
+      "sources": [
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-2-recap-review-curiouser-and-curiouser/",
+          "note": "OPENED — connects the title to Ted's 'curious not judgmental' philosophy"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-2-explained/",
+          "note": "OPENED — reads the title as Ted returning to a state of discovery rather than certainty"
+        },
+        {
+          "url": "docs/factsheet.md",
+          "note": "INTERNAL — the project's existing, verified handling of the Whitman misattribution"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-acl-womens-football",
+      "type": "theme",
+      "title": "Alice's ended career is the defining injury story of the women's game",
+      "detail": "Alice Chilton is a former footballer whose playing career was cut short by multiple ACL injuries, and Ted wins her over by having learned that. The detail is not invented for drama: ACL rupture is the signature epidemic of elite women's football. A study of the 2022 men's and 2023 women's World Cups found 12.5% of the women's players had undergone a previous ACL reconstruction against 7.7% of the men's; FIFPRO runs a dedicated multi-year study, Project ACL, into why. Roughly two-thirds of these injuries in the women's game happen with no contact at all.",
+      "moment": "Ted tells Alice he knows her story; the episode also has striker Josie go down with a season-ending injury in training.",
+      "sources": [
+        {
+          "url": "https://www.tvline.com/2231788/alice-chilton-ted-lasso-actress-tanya-reynolds/",
+          "note": "OPENED — states Alice is a former footballer whose career was cut short by multiple ACL injuries"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — plot summary: Ted researches Alice's career-ending injury; Josie's season-ending injury"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11848145/",
+          "note": "LEAD, NOT YET OPENED — peer-reviewed World Cup comparison, 12.5% vs 7.7% prior ACL reconstruction"
+        },
+        {
+          "url": "https://www.fifpro.org/en/articles/2025/08/project-acl-concludes-first-year-of-ground-breaking-research",
+          "note": "LEAD, NOT YET OPENED — FIFPRO Project ACL, first-year findings"
+        },
+        {
+          "url": "https://www.skysports.com/football/news/11095/12926431/future-of-football-why-acl-injuries-have-been-on-rise-in-womens-game-and-the-technology-and-solutions-to-fix-it",
+          "note": "LEAD, NOT YET OPENED — Sky Sports overview including the non-contact share"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-ted-does-his-homework",
+      "type": "philosophy",
+      "title": "He does not persuade her — he pays attention to her",
+      "detail": "Ted does not win Alice round with optimism or a speech. He wins her by having gone and learned what happened to her, and reflecting it back. The philosophical frame is attention as a moral act: Simone Weil's claim that attention is the rarest and purest form of generosity (from a 1942 letter to Joe Bousquet), and Kant's respect for persons, already used in this project — treat people as ends, never merely as means. VERIFY THE WEIL ATTRIBUTION before shipping; it is widely quoted and the reviewer should confirm the letter, not a quote site.",
+      "moment": "Alice arrives ready to resign; Ted shows he has done the reading on her, and she stays.",
+      "sources": [
+        {
+          "url": "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
+          "note": "OPENED — Ted persuades Alice to stay by acknowledging her backstory and potential"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — Ted recognises Alice's potential after researching her similar career-ending injury"
+        },
+        {
+          "url": "https://www.goodreads.com/quotes/tag/simone-weil",
+          "note": "LEAD, NOT YET OPENED — WEAK; reviewer must find the Weil letter in a scholarly edition, not a quote aggregator"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-sisters-doin-it",
+      "type": "reference",
+      "title": "A 1985 feminist anthem lands on the Lady Greyhounds",
+      "detail": "The episode closes out with 'Sisters Are Doin' It for Themselves' by Eurythmics featuring Aretha Franklin — the 1985 duet written as an answer record to the era's pop songs about women waiting to be rescued. Dropping it over a women's side scrapping for a locker room is the show doing its usual trick of making the needle-drop carry the argument.",
+      "moment": "Late in the episode, over the women's team.",
+      "sources": [
+        {
+          "url": "https://www.tunefind.com/show/ted-lasso/season-4/274388",
+          "note": "LEAD, NOT YET OPENED — episode song list with timecodes"
+        },
+        {
+          "url": "https://deadline.com/feature/ted-lasso-season-4-songs-soundtrack-1237018779/",
+          "note": "LEAD, NOT YET OPENED — Deadline season 4 soundtrack rundown"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-honky-cat-open",
+      "type": "reference",
+      "title": "The episode opens on Elton John's country boy in the city",
+      "detail": "'Honky Cat' (Honky Chateau, 1972) opens the episode. Its subject is someone who leaves the countryside for the city and is told he has changed. Whether the show intends the parallel to Ted's second uprooting is NOT SOURCED — treat as resonance unless the reviewer finds a music-supervision interview.",
+      "moment": "Opening moments of the episode.",
+      "sources": [
+        {
+          "url": "https://www.tunefind.com/show/ted-lasso/season-4/274388",
+          "note": "LEAD, NOT YET OPENED — lists 'Honky Cat' at the episode open"
+        },
+        {
+          "url": "https://fandomwire.com/ted-lasso-season-4-soundtrack-all-songs-listed/",
+          "note": "LEAD, NOT YET OPENED — corroborating season 4 song list"
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-crown-and-anchor-returns",
+      "type": "trivia",
+      "title": "The guest list is a roll-call of the old Richmond",
+      "detail": "The episode's guest cast includes Annette Badland, Adam Colborne, Kevin Garry and Bronson Webb — Mae and the Crown & Anchor regulars — alongside Dame Harriet Walter, who plays Rebecca's mother Deborah Welton and earned an Emmy nomination for the role. A season about a brand-new team quietly brings back the pub.",
+      "moment": "Not a single moment: it is who turns up around the edges of the episode.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — guest cast list for the episode"
+        },
+        {
+          "url": "https://variety.com/2023/tv/awards/harriet-walter-emmy-guest-nomination-succession-ted-lasso-1235687765/",
+          "note": "LEAD, NOT YET OPENED — Harriet Walter's Emmy guest nomination for Ted Lasso"
+        },
+        {
+          "url": "https://www.distractify.com/p/who-plays-rebeccas-mom-in-ted-lasso",
+          "note": "LEAD, NOT YET OPENED — confirms Walter plays Deborah, Rebecca's mother"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-josie-injury-setup",
+      "type": "callback",
+      "title": "The injury that forces the next episode",
+      "detail": "Striker Josie suffers a season-ending injury in training. It is a setup, not a beat: it opens the hole that the following episode ('Richmond's Got Talent', 19 Aug 2026) fills by going out to recruit players. Direction: this episode sets up, episode three pays off.",
+      "moment": "During a training session.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — plot summary states striker Josie sustains a season-ending injury"
+        },
+        {
+          "url": "https://deadline.com/lists/ted-lasso-season-4-womens-team-players-new-cast-characters/",
+          "note": "LEAD, NOT YET OPENED — Deadline piece on the players recruited in episode 3"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e2-locker-room-and-budget",
+      "type": "theme",
+      "title": "The obstacle this season is a budget, not a villain",
+      "detail": "There is no Rupert-shaped antagonist in this episode. The opposition is structural: Higgins finds the women's team's long-term viability extremely low, the press keep pointing their cameras at the men's squad, and the team is stuffed into cramped quarters until Roy and Keeley give up the visitors' room and Ted has it done up. Rebecca commits to the side anyway.",
+      "moment": "Higgins and Rebecca talk finances privately; the locker-room handover and reveal run alongside it.",
+      "sources": [
+        {
+          "url": "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
+          "note": "OPENED — Higgins on long-term viability; locker room handover; Rebecca's commitment"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — Rebecca and Higgins privately express concerns about financial viability"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-2-recap-review-curiouser-and-curiouser/",
+          "note": "OPENED — the episode as an introduction to the challenges of women's football"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-beard-follows-ted",
+      "type": "callback",
+      "title": "Beard changes sides again",
+      "detail": "Beard ends up on Ted's staff. SOURCES CONFLICT on how: one recap has Roy dismissing Beard precisely because he knows Beard wants to follow Ted, another describes Beard taking a role with the men's side, and Wikipedia states simply that Beard joins the coaching staff. The reviewer must resolve the mechanism before this ships, or write only the part all sources agree on. The underlying idea is the project's existing Aristotle mapping: Ted and Beard as a virtue friendship rather than one of utility.",
+      "moment": "Around Roy's men's-team staffing.",
+      "sources": [
+        {
+          "url": "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
+          "note": "OPENED — Roy dismisses Beard, respecting his unspoken wish to join Ted"
+        },
+        {
+          "url": "https://thekoalition.com/2026/ted-lasso-season-4-episode-2-curiouser-and-curiouser-breakdown-recap-review",
+          "note": "OPENED — CONFLICTING: describes Beard taking a coaching position with the men's side"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
+          "note": "OPENED — states Beard joins the coaching staff"
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-boots-no-gloves",
+      "type": "easter-egg",
+      "title": "The goalkeeper who will not wear gloves",
+      "detail": "Among the Lady Greyhounds is Katie, known as Boots, played by Jude Mack — a goalkeeper who refuses to wear gloves so she feels the sting of every save she makes. A one-line character detail that tells you what the squad is like before any of them have an arc.",
+      "moment": "In the introduction of the women's squad.",
+      "sources": [
+        {
+          "url": "https://thekoalition.com/2026/ted-lasso-season-4-episode-2-curiouser-and-curiouser-breakdown-recap-review",
+          "note": "OPENED — names Boots (Jude Mack) and the no-gloves detail"
+        },
+        {
+          "url": "https://www.primetimer.com/features/ted-lasso-season-4-cast-guide-meet-the-full-cast-and-characters",
+          "note": "LEAD, NOT YET OPENED — season 4 cast guide corroborating the character"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e2-beginner-again",
+      "type": "theme",
+      "title": "The season's real subject is starting over without the old advantages",
+      "detail": "Every recap lands on the same throughline: Ted cannot rerun the season-one playbook. He arrives with a reputation instead of anonymity, meets scepticism rather than a squad ready to be charmed, and has to build a culture for people whose situation is not the men's team's. Alice is the episode's embodiment of that resistance.",
+      "moment": "Across the episode, and specifically in Alice's refusal to be won over easily.",
+      "sources": [
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-2-explained/",
+          "note": "OPENED — adaptability over repetition; the philosophy must evolve for different people"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-2-recap-review-curiouser-and-curiouser/",
+          "note": "OPENED — Ted must earn trust, a departure from the season-one formula"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
+          "note": "OPENED — the institutional obstacles the team faces"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    }
+  ]
+}
