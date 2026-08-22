@@ -1,0 +1,476 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 3,
+    "title": "Richmond's Got Talent"
+  },
+  "reviewed_by": "grounding-reviewer",
+  "threshold": 60,
+  "facts": [
+    {
+      "id": "s4e3-shannon-soccer-girl-payoff",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "The hunter flagged this as circumstantial; it is not. TVInsider names 'Ted's favourite park player' among those who make the team, TMDB confirms Shannon Hayes was credited as 'Soccer Girl' in season one's second episode 'Biscuits' (2020), and two recaps independently record her signing as a midfielder — one of them explicitly calling it a season-one callback.",
+      "verified_sources": [
+        "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/",
+        "https://www.themoviedb.org/tv/97546-ted-lasso/season/1/episode/2/cast",
+        "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/"
+      ],
+      "scores": {
+        "grounding": 5,
+        "insight": 4,
+        "surprise": 5,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
+      "interest_score": 93,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e3-shannon-soccer-girl-payoff",
+        "tag": "The girl from the park",
+        "title": "A background character from episode two just made the team",
+        "moment": "At the open trials, one of the hopefuls is the girl Ted used to pass playing football in the street on his walk home — the one who gave him cheek and could do things with a ball in her school uniform. Neither Beard nor Alice rates her. Ted signs her anyway.",
+        "idea": "She has been in this show since its second episode, credited then only as 'Soccer Girl', turning up now and then over three seasons for a few seconds at a time. Six years later she is a professional midfielder at Richmond.",
+        "why": "Watch for her when you get to <em>Biscuits</em> — she is easy to miss, and she is the longest-running joke in the show that turned out not to be a joke. It is also the cleanest statement of what the season is about: the talent was always there, on that street, unlooked at.",
+        "source": "<em>TVInsider</em> on who made the team; <em>The Movie Database</em> for the season-one 'Soccer Girl' credit; recaps at <em>Nerd Initiative</em> and <em>DMTalkies</em>.",
+        "category": "Belief & hope",
+        "groundingStatus": "verified",
+        "interest": 5,
+        "grounding": 5,
+        "groundingNotes": "The hunter flagged this as circumstantial; it is not. TVInsider names 'Ted's favourite park player' among those who make the team, TMDB confirms Shannon Hayes was credited as 'Soccer Girl' in season one's second episode 'Biscuits' (2020), and two recaps independently record her signing as a midfielder — one of them explicitly calling it a season-one callback.",
+        "sourcesChecked": [
+          "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/",
+          "https://www.themoviedb.org/tv/97546-ted-lasso/season/1/episode/2/cast",
+          "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
+          "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-pregnancy-fifa-maternity",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "The plot beat is corroborated by the episode's Wikipedia summary and two recaps: the side loses its remaining striker to pregnancy, which is what forces the open trials. The regulatory backdrop is verified from FIFA's own announcement and FIFPRO's explainer — at least fourteen weeks' paid maternity leave at no less than two thirds of salary, approved December 2020 and in force from January 2021, with a stated right to return and a bar on disadvantaging a player for being pregnant. FIFPRO notes implementation remains uneven between countries.",
+      "verified_sources": [
+        "https://inside.fifa.com/legal/news/fifa-steps-up-protection-of-female-players-and-football-coaches",
+        "https://fifpro.org/en/supporting-players/conditions-of-employment/maternity-and-parental-provision/maternity-and-parental-provisions-in-focus-on-latest-playerstalk",
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/"
+      ],
+      "scores": {
+        "grounding": 5,
+        "insight": 4,
+        "surprise": 4,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e3-pregnancy-fifa-maternity",
+        "tag": "A rule that is younger than the show",
+        "title": "Losing a striker to pregnancy used to mean losing her",
+        "moment": "With one striker already gone for the season, the other announces she is pregnant. The squad is now short, and Ted turns Alice's sarcastic suggestion of open trials into an actual open call.",
+        "idea": "Football only wrote maternity protection into its rulebook in December 2020, in force from January 2021: a minimum of fourteen weeks' paid leave at no less than two thirds of salary, a right to return, and a ban on penalising a player for being pregnant. Before that, a pregnancy could simply end a career.",
+        "why": "The show treats it as a scheduling problem, which is quietly the point — it is only a scheduling problem because of a rule that is younger than <em>Ted Lasso</em> itself. Players' unions still report the protections are unevenly applied.",
+        "source": "<strong>FIFA</strong>'s own announcement of the reforms and <strong>FIFPRO</strong>'s explainer; episode per <em>Wikipedia</em> and <em>DMTalkies</em>.",
+        "category": "Meta & trivia",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 5,
+        "groundingNotes": "The plot beat is corroborated by the episode's Wikipedia summary and two recaps: the side loses its remaining striker to pregnancy, which is what forces the open trials. The regulatory backdrop is verified from FIFA's own announcement and FIFPRO's explainer — at least fourteen weeks' paid maternity leave at no less than two thirds of salary, approved December 2020 and in force from January 2021, with a stated right to return and a bar on disadvantaging a player for being pregnant. FIFPRO notes implementation remains uneven between countries.",
+        "sourcesChecked": [
+          "https://inside.fifa.com/legal/news/fifa-steps-up-protection-of-female-players-and-football-coaches",
+          "https://fifpro.org/en/supporting-players/conditions-of-employment/maternity-and-parental-provision/maternity-and-parental-provisions-in-focus-on-latest-playerstalk",
+          "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-lizzie-childcare",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Two independent sources: the A.V. Club recap records Lizzie arriving as a single mother who could not find childcare and bringing her son, and TVLine's cast interview has Faye Marsay describing her turning up lonely and terrified precisely because she had her boy with her.",
+      "verified_sources": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+        "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/",
+        "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 3,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e3-lizzie-childcare",
+        "tag": "She brought her son to the trial",
+        "title": "The obstacle is childcare, not talent",
+        "moment": "Lizzie Davis turns up to the open trial with her boy in tow, because there was nobody to leave him with. The actor who plays her describes her arriving lonely and frightened.",
+        "idea": "Nothing about her ability is in question. What nearly kept her out of professional football is an ordinary Tuesday-afternoon logistics problem, which is how most people are actually kept out of things.",
+        "why": "The episode could have made her story about grit. Instead it makes it about arrangements — and then signs her.",
+        "source": "<em>The A.V. Club</em> recap and <em>TVLine</em>'s interview with Faye Marsay; <em>TVInsider</em> on the signings.",
+        "category": "Ethics & character",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "Two independent sources: the A.V. Club recap records Lizzie arriving as a single mother who could not find childcare and bringing her son, and TVLine's cast interview has Faye Marsay describing her turning up lonely and terrified precisely because she had her boy with her.",
+        "sourcesChecked": [
+          "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/",
+          "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-maria-rojas-real-sister",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "Corroborated twice: the episode's Wikipedia production notes state Paloma Cinco is Cristo Fernandez's real-life sister and that the two pitched the concept together, and TVInsider independently confirms the sibling relationship and the role. Reporting of the fuller origin story sits behind a paywall and is not relied on here.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+        "https://www.tvinsider.com/1279304/ted-lasso-season-4-cristo-fernandez-sister-paloma-cinco/",
+        "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 5,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 82,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e3-maria-rojas-real-sister",
+        "tag": "Actually his sister",
+        "title": "Dani Rojas's sister is played by Cristo Fernandez's sister",
+        "moment": "Among the hopefuls at the open trials is Maria Rojas — Dani's sister — who turns out to have almost no football in her, and is entirely happy about it.",
+        "idea": "She is played by Paloma Cinco, who is Cristo Fernandez's real sister. According to the episode's production notes the two of them pitched the idea of Dani having a sister themselves.",
+        "why": "The joke is sharper for it. Dani Rojas's whole being is that football is life; the show introduces his actual sister to say, mildly, that it is not.",
+        "source": "Production notes via <em>Wikipedia</em>; <em>TVInsider</em> on the casting.",
+        "category": "Meta & trivia",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "Corroborated twice: the episode's Wikipedia production notes state Paloma Cinco is Cristo Fernandez's real-life sister and that the two pitched the concept together, and TVInsider independently confirms the sibling relationship and the role. Reporting of the fuller origin story sits behind a paywall and is not relied on here.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "https://www.tvinsider.com/1279304/ted-lasso-season-4-cristo-fernandez-sister-paloma-cinco/",
+          "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-jill-scott-cameo",
+      "type": "trivia",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Only one source I could open — the A.V. Club recap — mentions Jill Scott and Rebecca Lower calling the friendly, and neither appears in the episode's Wikipedia guest cast. Single-source support caps grounding at 2, so it fails the gate despite being a good detail. Her honours check out (161 England caps, Euro 2022 winner, now a pundit) if it is ever corroborated.",
+      "verified_sources": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+        "https://en.wikipedia.org/wiki/Jill_Scott_(footballer)"
+      ],
+      "scores": {
+        "grounding": 2,
+        "insight": 3,
+        "surprise": 4,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s4e3-henry-recast",
+      "type": "production",
+      "verdict": "confirmed",
+      "verification_notes": "TVLine and ScreenRant independently confirm Grant Feely replaced Gus Turner, reported March 2025, and that Feely played the young Luke Skywalker in Obi-Wan Kenobi. IMPORTANT NUANCE: Apple has issued no official reason — the football explanation comes from Feely's own remark about how much he had to practise, and ScreenRant notes Turner was invited to re-audition. The card attributes it accordingly rather than stating it as studio fact.",
+      "verified_sources": [
+        "https://www.tvline.com/2234731/henry-lasso-ted-lasso-season-4-actor-grant-feely/",
+        "https://screenrant.com/ted-lasso-season-4-recast-henry-bigger-role-change/",
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 4,
+        "relevance": 3,
+        "spoiler_safety": 5
+      },
+      "interest_score": 71,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e3-henry-recast",
+        "tag": "A new Henry",
+        "title": "Ted's son is played by someone new, and football is the likeliest reason",
+        "moment": "Henry arrives in London and starts school here — a much bigger part of the season than he has ever been.",
+        "idea": "He is played by Grant Feely, who took over from Gus Turner between seasons; the change was reported in March 2025. Apple never gave an official reason, but Feely has said how much football he had to practise for the role, and Henry now plays on screen rather than just being talked about. Feely had previously played the young Luke Skywalker.",
+        "why": "Worth knowing before it jars. The recast is not a story point — it is a production choice about what the character now has to do.",
+        "source": "<em>TVLine</em> and <em>ScreenRant</em>; episode details per <em>Wikipedia</em>. No official studio explanation exists.",
+        "category": "Meta & trivia",
+        "groundingStatus": "partial",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "TVLine and ScreenRant independently confirm Grant Feely replaced Gus Turner, reported March 2025, and that Feely played the young Luke Skywalker in Obi-Wan Kenobi. IMPORTANT NUANCE: Apple has issued no official reason — the football explanation comes from Feely's own remark about how much he had to practise, and ScreenRant notes Turner was invited to re-audition. The card attributes it accordingly rather than stating it as studio fact.",
+        "sourcesChecked": [
+          "https://www.tvline.com/2234731/henry-lasso-ted-lasso-season-4-actor-grant-feely/",
+          "https://screenrant.com/ted-lasso-season-4-recast-henry-bigger-role-change/",
+          "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-gemma-law-school",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Multiply corroborated: Wikipedia and two recaps have Gemma as Alice's former team-mate who left football for law and who scores the winner on debut, with DMTalkies adding that Alice had discouraged her years earlier. TVLine's interview with Abbie Hern confirms Gemma intends to keep studying while playing and frames that double life as the reality of the women's game — which is how the card puts it, rather than as a statistic I could not source.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+        "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+        "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 3,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
+      "interest_score": 79,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e3-gemma-law-school",
+        "tag": "Head against heart",
+        "title": "The striker who left for law school",
+        "moment": "Out of options, Alice reaches for a former team-mate she once talked out of the game. Gemma comes on late in a friendly that is drifting to nothing and scores the winner.",
+        "idea": "She has no intention of giving up her studies to do it. The actor who plays her describes the balancing act as the actual condition of women's football — a sport many of its players have to fit around another career rather than instead of one.",
+        "why": "It reframes the win. The player who rescues the match is the one who has the least riding on football, and the coach who found her is the one who once told her to walk away.",
+        "source": "<em>Wikipedia</em>, <em>Seat42F</em> and <em>DMTalkies</em> recaps; <em>TVLine</em>'s interview with Abbie Hern.",
+        "category": "Belief & hope",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "Multiply corroborated: Wikipedia and two recaps have Gemma as Alice's former team-mate who left football for law and who scores the winner on debut, with DMTalkies adding that Alice had discouraged her years earlier. TVLine's interview with Abbie Hern confirms Gemma intends to keep studying while playing and frames that double life as the reality of the women's game — which is how the card puts it, rather than as a statistic I could not source.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+          "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-title-talent-show",
+      "type": "reference",
+      "verdict": "confirmed",
+      "verification_notes": "The format reference checks out — Britain's Got Talent premiered on ITV1 on 9 June 2007 and runs open auditions, per its Wikipedia entry — and the episode earns the title in-story: Seat42F records Alice joking about open tryouts and Ted taking her literally, while the Nerd Initiative recap notes running Susan Boyle references, Boyle having been the 2009 series runner-up.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Britain%27s_Got_Talent",
+        "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+        "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 3,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e3-title-talent-show",
+        "tag": "Named after a talent show",
+        "title": "The title is doing more than a pun",
+        "moment": "Alice suggests open tryouts sarcastically. Ted hears a good idea, and Richmond ends up running an open call for anyone who fancies it.",
+        "idea": "The title borrows the <em>Got Talent</em> format — Britain's version has been on ITV since 2007 — and the episode keeps returning to Susan Boyle, its most famous audition, the one where everybody in the room had already decided before she opened her mouth.",
+        "why": "That is the same joke as the trials themselves, and the same joke as Ted's whole method: the room's verdict arrives before the evidence does.",
+        "source": "<em>Wikipedia</em> on the format and on Susan Boyle's 2009 run; recaps at <em>Seat42F</em> and <em>Nerd Initiative</em>.",
+        "category": "Meta & trivia",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "The format reference checks out — Britain's Got Talent premiered on ITV1 on 9 June 2007 and runs open auditions, per its Wikipedia entry — and the episode earns the title in-story: Seat42F records Alice joking about open tryouts and Ted taking her literally, while the Nerd Initiative recap notes running Susan Boyle references, Boyle having been the 2009 series runner-up.",
+        "sourcesChecked": [
+          "https://en.wikipedia.org/wiki/Britain%27s_Got_Talent",
+          "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-both-teams-are-richmond",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Only the A.V. Club recap reports Phoebe's line, and no other source I opened mentions it. Single-source, so grounding is capped at 2 and it cannot ship, however good it is.",
+      "verified_sources": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent"
+      ],
+      "scores": {
+        "grounding": 2,
+        "insight": 4,
+        "surprise": 3,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 75,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s4e3-rebecca-sponsorship-argument",
+      "type": "theme",
+      "verdict": "partially-confirmed",
+      "verification_notes": "The sponsor crisis itself is well corroborated — the leaked viability report, Pinter & Sons withdrawing, Rebecca and Keeley working to hold them. But Rebecca's specific argument about what boys grow up expecting to see appears in one recap only. Held back for a second reason too: the verified half duplicates the season's budget-versus-belief card already drafted for the previous episode, and the reader does not need the same point twice in two weeks.",
+      "verified_sources": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 3,
+        "surprise": 2,
+        "relevance": 4,
+        "spoiler_safety": 5
+      },
+      "interest_score": 61,
+      "tier": "silver",
+      "include": false
+    },
+    {
+      "id": "s4e3-michelle-returns",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "Andrea Anders is in the Wikipedia guest cast and the A.V. Club recap has Michelle at the match with the state of things left deliberately open. True, but it scores 46 — low insight and surprise, and it costs spoiler safety by dangling a question the episode does not answer.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 2,
+        "surprise": 2,
+        "relevance": 3,
+        "spoiler_safety": 3
+      },
+      "interest_score": 46,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s4e3-jones-report",
+      "type": "easter-egg",
+      "verdict": "partially-confirmed",
+      "verification_notes": "Single source again — only the A.V. Club mentions Roy's pink binder. Grounding capped at 2; excluded. The hunter was right to flag it.",
+      "verified_sources": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent"
+      ],
+      "scores": {
+        "grounding": 2,
+        "insight": 2,
+        "surprise": 3,
+        "relevance": 3,
+        "spoiler_safety": 5
+      },
+      "interest_score": 57,
+      "tier": "bronze",
+      "include": false
+    },
+    {
+      "id": "s4e3-seriousness-not-skill",
+      "type": "theme",
+      "verdict": "confirmed",
+      "verification_notes": "Four opened sources converge: the leaked financial report, sponsors backing away, sparse press and small crowds, and kits that do not turn up. The episode's problem is credibility rather than ability.",
+      "verified_sources": [
+        "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+        "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+        "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
+      ],
+      "scores": {
+        "grounding": 5,
+        "insight": 4,
+        "surprise": 2,
+        "relevance": 5,
+        "spoiler_safety": 5
+      },
+      "interest_score": 72,
+      "tier": "silver",
+      "include": true,
+      "card": {
+        "id": "s4e3-seriousness-not-skill",
+        "tag": "Being taken seriously",
+        "title": "The hard part is not the football",
+        "moment": "A financial report leaks, a sponsor walks, the press barely turn up, and the kits do not arrive. Meanwhile the actual football gets sorted out in an afternoon of open trials.",
+        "idea": "Richmond can find eleven players. What it cannot easily find is anyone outside the building willing to treat the exercise as real. The obstacles this week are all reputational.",
+        "why": "It is the show setting out the season's terms. Belief was an internal problem in season one — getting a squad to believe in itself. Here it is an external one, and goodwill inside the club does not fix it.",
+        "source": "Recaps at <em>Seat42F</em>, <em>Nerd Initiative</em> and <em>DMTalkies</em>; <em>Wikipedia</em>.",
+        "category": "Belief & hope",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 5,
+        "groundingNotes": "Four opened sources converge: the leaked financial report, sponsors backing away, sparse press and small crowds, and kits that do not turn up. The episode's problem is credibility rather than ability.",
+        "sourcesChecked": [
+          "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
+          "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+          "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
+        ]
+      }
+    },
+    {
+      "id": "s4e3-matthijs-amsterdam",
+      "type": "callback",
+      "verdict": "confirmed",
+      "verification_notes": "ADDED BY THE REVIEWER — not in the candidate pool; surfaced while verifying the episode's subplots. DMTalkies records Rebecca and Matthijs struggling to find time before finally getting their date in this episode, and an independent relationship rundown confirms Matthijs is the man from the Amsterdam houseboat in season three's 'Sunflowers', played by Matteo van der Grijn. Sources differ on the precise mechanics of their season-three finale reunion, so the card does not describe it.",
+      "verified_sources": [
+        "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+        "https://www.swooon.com/gallery/ted-lasso-ships-couples-ranked/"
+      ],
+      "scores": {
+        "grounding": 4,
+        "insight": 4,
+        "surprise": 4,
+        "relevance": 4,
+        "spoiler_safety": 4
+      },
+      "interest_score": 80,
+      "tier": "gold",
+      "include": true,
+      "card": {
+        "id": "s4e3-matthijs-amsterdam",
+        "tag": "The man from the houseboat",
+        "title": "Rebecca's boyfriend is the Amsterdam stranger",
+        "moment": "Rebecca keeps missing time with Matthijs because the team eats everything, and the episode finally lets them have their evening.",
+        "idea": "Matthijs is not a new character. He is the man who fished her out of a canal and put her up on his houseboat for one night in Amsterdam — a stranger she was never supposed to see again, played by Matteo van der Grijn.",
+        "why": "The Amsterdam episode framed that night as a gift you take and then give back. Seasons later it turns out to have been the start of something, which is a quietly generous answer to it.",
+        "source": "<em>DMTalkies</em> recap for this episode; relationship history via <em>Swooon</em>'s rundown of the show's couples.",
+        "category": "Relationships",
+        "groundingStatus": "verified",
+        "interest": 4,
+        "grounding": 4,
+        "groundingNotes": "ADDED BY THE REVIEWER — not in the candidate pool; surfaced while verifying the episode's subplots. DMTalkies records Rebecca and Matthijs struggling to find time before finally getting their date in this episode, and an independent relationship rundown confirms Matthijs is the man from the Amsterdam houseboat in season three's 'Sunflowers', played by Matteo van der Grijn. Sources differ on the precise mechanics of their season-three finale reunion, so the card does not describe it.",
+        "sourcesChecked": [
+          "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
+          "https://www.swooon.com/gallery/ted-lasso-ships-couples-ranked/"
+        ]
+      }
+    }
+  ]
+}
