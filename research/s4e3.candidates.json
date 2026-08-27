@@ -1,0 +1,285 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 3,
+    "title": "Richmond's Got Talent"
+  },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e3-shannon-soccer-girl-payoff",
+      "type": "callback",
+      "title": "The girl from the park, six years later",
+      "detail": "Shannon Hayes is in this episode's guest cast, and one of the players recruited at the open trials is called Shannon. Hayes has played the character since season one's second episode, 'Biscuits' (2020), credited then simply as 'Soccer Girl' — the kid Ted keeps running into playing football near his flat, who gives him sass and beats the boys in her school uniform. If the recruit is her, a throwaway street-corner character planted in the show's second-ever episode has just made a professional squad. IMPORTANT FOR THE REVIEWER: confirm the recruit IS that character and not a coincidence of names — Hayes's presence in the cast list plus a recruit named Shannon is strong but circumstantial.",
+      "moment": "At the open trials, among the players who make the team.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — guest cast for S4E3 includes Shannon Hayes"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — lists Shannon among the roster members introduced"
+        },
+        {
+          "url": "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
+          "note": "OPENED — Zach Braff on the 'Soccer Girl' scenes in 'Biscuits' and what they establish about Ted"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt10989890/characters/nm3109482",
+          "note": "LEAD, NOT YET OPENED — IMDb credit, Shannon Hayes as Soccer Girl in 'Biscuits' (S1E2)"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt23743570/characters/nm3109482",
+          "note": "LEAD, NOT YET OPENED — IMDb credit for the same actor in the season 3 finale"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-pregnancy-fifa-maternity",
+      "type": "theme",
+      "title": "Losing a striker to pregnancy is a rules story, not just a plot",
+      "detail": "The squad loses a striker to pregnancy leave, which is what forces the open trials. The real-world backdrop: FIFA only wrote maternity protection into the Regulations on the Status and Transfer of Players in 2020, in force from 1 January 2021 — a minimum of 14 weeks' paid leave at no less than two thirds of salary, at least eight of those weeks after the birth, and sanctions for a club that terminates a contract over a pregnancy. The protections were extended to female coaches in 2024. Within living memory of the sport, the plot of this episode would have ended a career rather than opened a trial.",
+      "moment": "Early in the episode, when a player learns she is pregnant and the coaches face a hole in the squad.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — plot summary: the Lady Greyhounds lose their striker to pregnancy leave"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "note": "OPENED — recap opens on a player learning she is pregnant, prompting the tryouts"
+        },
+        {
+          "url": "https://inside.fifa.com/legal/news/fifa-steps-up-protection-of-female-players-and-football-coaches",
+          "note": "LEAD, NOT YET OPENED — FIFA's own announcement of the extended protections"
+        },
+        {
+          "url": "https://media.fifpro.org/media/k2bdmt23/fifpro-maternity-regulations-english.pdf",
+          "note": "LEAD, NOT YET OPENED — FIFPRO explainer of the maternity regulations"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-lizzie-childcare",
+      "type": "theme",
+      "title": "The centre back brings her son to the trial",
+      "detail": "Lizzie Davis turns up to the open trial as a single mother who could not find childcare, so she brings her boy with her. The recap reads it as proof of how much she wants it. It is also the episode being specific about the everyday obstacle that keeps women out of the semi-professional game — not talent, logistics.",
+      "moment": "During the open trials.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — Lizzie described as a centre back and single mother who could not find childcare"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — confirms Lizzie Davis among the recruits"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-maria-rojas-real-sister",
+      "type": "production",
+      "title": "Dani Rojas's sister is played by Cristo Fernandez's actual sister",
+      "detail": "Maria Rojas auditions at the open trials. She is played by Paloma Cinco, who is Cristo Fernandez's real-life sister — and according to the episode's production notes the two of them pitched the idea together. Her character cannot really play, and is at peace with a life that is not football, which is a quiet joke at the expense of her screen brother's entire personality.",
+      "moment": "At the open trials.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — production notes state Paloma Cinco is Cristo Fernandez's real sister and that they pitched the concept together"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — Dani Rojas's sister Maria auditions but lacks the ability, and values life beyond football"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-jill-scott-cameo",
+      "type": "trivia",
+      "title": "A real England international calls the match",
+      "detail": "The Lady Greyhounds' first friendly is commentated by Jill Scott, the former England midfielder, alongside the broadcaster Rebecca Lower. REVIEWER: verify Scott's honours before writing them into a card — she is a long-serving England international and part of the Euro 2022-winning squad, but confirm the specifics rather than trusting memory.",
+      "moment": "Over the friendly at the end of the episode.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — names Jill Scott and Rebecca Lower as the commentators"
+        },
+        {
+          "url": "https://www.themoviedb.org/tv/97546-ted-lasso/season/4/cast",
+          "note": "LEAD, NOT YET OPENED — season 4 cast listing for corroboration"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-henry-recast",
+      "type": "production",
+      "title": "Henry is played by a new actor, and football is the reason",
+      "detail": "Henry arrives in London and starts school here. He is played by Grant Feely, who took over from Gus Turner between seasons — reported by Deadline in March 2025. The stated reason is practical rather than dramatic: Henry's football is now front and centre, so the part needed a child actor who could actually play. Feely had previously played the young Luke Skywalker in Obi-Wan Kenobi.",
+      "moment": "Henry's arrival in London and first day at school.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — Grant Feely in the guest cast; Henry starts school in London"
+        },
+        {
+          "url": "https://www.tvline.com/2234731/henry-lasso-ted-lasso-season-4-actor-grant-feely/",
+          "note": "LEAD, NOT YET OPENED — TVLine on Feely, his previous roles, and the recast"
+        },
+        {
+          "url": "https://screenrant.com/ted-lasso-season-4-recast-henry-bigger-role-change/",
+          "note": "LEAD, NOT YET OPENED — ScreenRant on why the role was recast and Henry's expanded part"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-gemma-law-school",
+      "type": "theme",
+      "title": "The striker who quit for law school",
+      "detail": "Alice's route out of the crisis is Gemma, a former team-mate who walked away from football to study law. She comes on with the friendly drifting to nothing and scores the winner. REVIEWER: the dual-career detail is worth grounding in the real second tier of the English women's game, where players commonly hold jobs or study alongside playing — but find a proper source for that before asserting it; the show detail itself is sourced, the generalisation is not yet.",
+      "moment": "Alice suggests her; Gemma comes off the bench late in the friendly and scores.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — Gemma is Alice's former team-mate and scores the winning goal in their first match"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "note": "OPENED — Gemma quit football to study law; Chilton proposes her; she scores late"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — Gemma described as juggling law school, with undisclosed history with Alice"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-title-talent-show",
+      "type": "reference",
+      "title": "The title borrows a talent show",
+      "detail": "The episode is named after the Got Talent television format — Britain's Got Talent has run on ITV since 2007 — because Ted turns Alice's sarcastic remark about holding open tryouts into an actual open call. The show's habit of naming episodes after other things it is quietly parodying continues.",
+      "moment": "Alice makes a joke about open trials; Ted takes it literally and runs it.",
+      "sources": [
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "note": "OPENED — Alice jokes about open tryouts and Ted decides to run with it"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — episode title and plot"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Britain%27s_Got_Talent",
+          "note": "LEAD, NOT YET OPENED — for the format's name and start year"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-both-teams-are-richmond",
+      "type": "theme",
+      "title": "Phoebe settles the argument in five words",
+      "detail": "Roy's niece Phoebe cuts through the episode's whole dispute about whether the women's side is a distraction from the men's with the observation that both teams are Richmond. The show has a long habit of putting its thesis in the mouth of the youngest person in the room.",
+      "moment": "Phoebe's line, quoted in recaps as the episode's key message.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — Phoebe delivers the message that both teams are Richmond"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-rebecca-sponsorship-argument",
+      "type": "theme",
+      "title": "Rebecca's pitch is about the boys watching",
+      "detail": "Selling the women's team to sponsors, Rebecca does not argue fairness. She argues that funding it changes what the next generation of boys grows up expecting to see as normal. It is the same structure as her season-one arc in reverse — using the club as an instrument, but now for something worth building.",
+      "moment": "Rebecca's meeting with sponsors, against the backdrop of the bad financial reports.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — paraphrases Rebecca's sponsorship argument about what little boys grow up expecting"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — Keeley and Rebecca work to salvage the team's reputation after negative financial reports"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-michelle-returns",
+      "type": "callback",
+      "title": "Michelle is back in the stands",
+      "detail": "Andrea Anders returns as Michelle, Ted's ex-wife, attending the match while Henry settles into school in London. Recaps note the episode deliberately leaves the state of her relationship with Ted unresolved. SPOILER NOTE: this points forward rather than back — flag scope accordingly.",
+      "moment": "Michelle at the friendly; Henry's arrival in London.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — Andrea Anders in the guest cast; Henry starts school in London"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — Michelle attends the match, leaving the reconciliation question open"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e3-jones-report",
+      "type": "easter-egg",
+      "title": "Roy's pink binder",
+      "detail": "Roy compiles something he calls The Jones Report for Keeley, in a pink binder. SINGLE SOURCE ONLY — one recap mentions it and no other source found. The reviewer should either corroborate it or drop it rather than ship a detail on one witness.",
+      "moment": "In the Roy and Keeley subplot.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
+          "note": "OPENED — mentions Roy creating 'The Jones Report' in a pink binder for Keeley"
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e3-seriousness-not-skill",
+      "type": "theme",
+      "title": "The obstacle is being taken seriously, not being good",
+      "detail": "Every recap converges on the same throughline: Richmond's hard problem this week is not assembling a competent side, it is persuading sponsors, press and the club itself that the women's team is worth taking seriously. The trials, the financial reports and Rebecca's pitch are three angles on one argument.",
+      "moment": "Across the episode.",
+      "sources": [
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
+          "note": "OPENED — the biggest challenge is convincing everyone the women deserve to be taken seriously"
+        },
+        {
+          "url": "https://thekoalition.com/2026/ted-lasso-season-4-episode-3-richmonds-got-talent-breakdown-recap-review",
+          "note": "OPENED — Rebecca working to convince sponsors the team is worth backing"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent",
+          "note": "OPENED — Keeley and Rebecca salvaging the team's reputation after negative financial reports"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    }
+  ]
+}
