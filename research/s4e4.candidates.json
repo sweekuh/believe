@@ -1,0 +1,341 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 4,
+    "title": "Greyhounds' Day Off"
+  },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e4-title-ferris-bueller",
+      "type": "reference",
+      "title": "The title is a Ferris Bueller joke, and the film is in the episode",
+      "detail": "The episode title riffs on John Hughes's 'Ferris Bueller's Day Off' (1986). It is not just a pun on the title: the film is used inside the episode as the tool that finally makes the team's clique problem legible to Ted. Alice first tries to explain the three groups through the Harry Potter trio and it fails, because Ted has never read the books; Beard re-translates the same structure through Ferris Bueller and it lands. The film's most-quoted line is the school secretary running through every tribe at the high school and reporting that all of them adore Ferris — i.e. a catalogue of cliques, and one person who moves freely between all of them. That is a fairly exact description of what Ted is trying to become for this squad. IMPORTANT FOR THE REVIEWER: confirm (a) that the title is being read as a Ferris Bueller nod by more than one outlet and not just inferred, and (b) that the Harry Potter / Ferris Bueller exchange actually happens on screen.",
+      "moment": "The coaches try to work out why the squad has split into three. A Harry Potter analogy misses Ted entirely; a Ferris Bueller one gets through.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — names Harry Potter and Ferris Bueller as the tools used to understand the cliques"
+        },
+        {
+          "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+          "note": "OPENED — episode review covering the same scene and the cliques"
+        },
+        {
+          "url": "https://fangirlish.com/2026/08/26/ted-lasso-season-4-episode-4-review-the-greyhounds-unite-at-trivia-night/",
+          "note": "OPENED — independently notes Ted's use of Harry Potter and Ferris Bueller's Day Off"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off",
+          "note": "OPENED — confirms John Hughes wrote and directed, 1986"
+        },
+        {
+          "url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/FerrisBuellersDayOff",
+          "note": "LEAD, NOT OPENED (403) — for the secretary's clique-catalogue line"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-superordinate-goal",
+      "type": "philosophy",
+      "title": "Mixing the cliques into quiz teams is a textbook superordinate goal",
+      "detail": "The squad has fractured into three position-based cliques. Ted's fix is not a speech and not simply 'spend time together' — he puts them into quiz teams that cut across the cliques, so that winning requires people who dislike each other to pool what they each happen to know. That is precisely the mechanism Muzafer Sherif isolated in the 1954 Robbers Cave study: two hostile groups of boys were NOT reconciled by contact or shared social events, which is the part usually forgotten. What worked was a 'superordinate goal' — a task beyond the resources of either group alone (unblocking the camp water supply, freeing a stuck truck, pooling money for a film). By the end, roughly two-thirds of the boys' friendship choices crossed the old group line. The episode is running the same experiment with a pub quiz. Sherif's paper: 'Superordinate Goals in the Reduction of Intergroup Conflict', American Journal of Sociology 63(4), 1958.",
+      "moment": "Ted cancels training and takes the squad to Mae's for quiz night, deliberately splitting the cliques across teams.",
+      "sources": [
+        {
+          "url": "https://www.simplypsychology.org/robbers-cave.html",
+          "note": "OPENED — Robbers Cave stages; contact/social events failed, superordinate goals worked; full Sherif citations"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — confirms the cliques are by position and the quiz is the intervention"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — confirms the quiz night mixes the groups together"
+        },
+        {
+          "url": "https://brocku.ca/MeadProject/Sherif/Sherif_1958a.html",
+          "note": "LEAD, NOT OPENED (403) — full text of Sherif 1958, the primary source"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-common-enemy-cheap-version",
+      "type": "philosophy",
+      "title": "What actually fuses them is a common enemy — the fast fix, not the durable one",
+      "detail": "The quiz mixes them, but the thing that visibly welds the squad together is a group of sexist men at the pub: the players unite against a shared adversary, win, and the night ends in a brawl and a cell. Sherif also tested this — the 'common enemy' method — and treated it as an expedient rather than a solution, because uniting two groups against a third does not dissolve the conflict, it just relocates it upward into a bigger one. So the episode arguably shows both mechanisms in one night: the durable one (a shared task nobody can win alone) and the cheap one (someone to be against), with the cheap one getting the cheer. IMPORTANT FOR THE REVIEWER: the superordinate-goal finding is solidly sourced; Sherif's specific caution about the common-enemy method is the part I could only reach through secondary summaries because the primary text 403'd. If a second independent source for that caution cannot be opened, this should be scored down or dropped rather than softened — the point only works if the caution is really Sherif's.",
+      "moment": "Harassment from men at the next table does in five minutes what four episodes of coaching could not.",
+      "sources": [
+        {
+          "url": "https://www.simplypsychology.org/robbers-cave.html",
+          "note": "OPENED — establishes the superordinate-goal finding, but does NOT cover the common-enemy caution"
+        },
+        {
+          "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+          "note": "OPENED — states the team is united by a shared enemy and calls it temporary"
+        },
+        {
+          "url": "https://fangirlish.com/2026/08/26/ted-lasso-season-4-episode-4-review-the-greyhounds-unite-at-trivia-night/",
+          "note": "OPENED — the squad bonds over a common adversary, misogyny"
+        },
+        {
+          "url": "https://pollackpeacebuilding.com/blog/intergroup-conflict-robbers-cave/",
+          "note": "LEAD, NOT OPENED — secondary summary said to cover the common-enemy expedient and its limits"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-tracey-ullman-zelda",
+      "type": "production",
+      "title": "The trailblazer is played by an actual trailblazer",
+      "detail": "Zelda Southport, the investor who turns up as keynote speaker at the Women's Football Business Summit, calls out the men in the room for shallow support of women's sport, and later quietly bails the arrested squad out, is played by Tracey Ullman. Brendan Hunt has said the writers first imagined a younger executive, then realised an older woman would give Rebecca something she has almost never had on this show — a female mentor — and that once they settled on that, Ullman was the only name they considered. The casting rhymes with the part: 'The Tracey Ullman Show' ran on Fox from April 1987 to May 1990, was the first Fox primetime series to win an Emmy, and won ten in all. Ullman is described as the first British woman offered her own sketch show in the United States. And the animated Simpsons shorts that ran inside her show were spun off into the longest-running American primetime scripted series.",
+      "moment": "A keynote speaker at a women's football business summit tells the men in the room what their support is actually worth.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/brendan-hunt-says-ted-lasso-203444000.html",
+          "note": "OPENED — Brendan Hunt on the mentor rethink, on Ullman being the only name, and on the August 26 episode"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Tracey_Ullman_Show",
+          "note": "OPENED — Fox, Apr 1987–May 1990, ten Emmys, first British woman offered her own US sketch show, Simpsons spin-off"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — Zelda bails the team out"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/08/26/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — Zelda introduced at the Women's Football Business Summit, bails them out"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-clique-movie-canon",
+      "type": "reference",
+      "title": "Three teen-movie solutions, all rejected on the grounds of homicide",
+      "detail": "Brainstorming how to break up cliques, Ted and Beard run through the films that have already answered the question — 'Mean Girls', 'Heathers' and 'The Lost Boys' — and rule each out because the method in each case is, respectively, vehicular manslaughter, serial murder and a stake through the heart. It is a decent joke about how much of the cultural canon on cliques is actually about killing people, and it also quietly places the episode in a lineage: Janis's hand-drawn cafeteria map in 'Mean Girls' (written by Tina Fey, 2004) is the definitive pop-culture diagram of a room divided into tribes, which is exactly what Alice has to draw for Ted. IMPORTANT FOR THE REVIEWER: the three-film list comes from one recap so far — corroborate before including.",
+      "moment": "The coaches list every film that has solved a clique problem and notice the solutions are all felonies.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — names Mean Girls, Heathers and The Lost Boys as the clique examples"
+        },
+        {
+          "url": "https://shmoop.com/study-guides/movie/mean-girls/summary/scene-2",
+          "note": "LEAD, NOT OPENED — Janis's cafeteria clique map"
+        },
+        {
+          "url": "https://www.refinery29.com/en-us/2019/04/230395/mean-girls-cafeteria-map-cliques-racist-stereotypes",
+          "note": "LEAD, NOT OPENED — the cafeteria map scene in detail"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-sharon-returns-academic",
+      "type": "callback",
+      "title": "Sharon Fieldstone is back, and the subject is now her field",
+      "detail": "Dr Sharon Fieldstone (Sarah Niles) returns, appearing on Trent's podcast to talk about how cliques wreck a dressing room — reportedly now working as an academic with a book on locker-room culture. The shape of that is worth noticing. Sharon was hired in the season-two premiere, 'Goodbye Earl', for one narrow job: Dani Rojas had the yips after a penalty killed the club's dog. By the end of that episode other players were quietly queueing at her door. The club brought her in as a patch and she turned out to be the thing the club was missing. Four seasons on, the specific problem Ted is facing is literally what she now writes about — the show's answer to a coach who cannot get into the dressing room is the person who taught him the inside of his own head. IMPORTANT FOR THE REVIEWER: verify the 'professor' and 'book' details specifically; they come from recaps rather than anything primary.",
+      "moment": "The episode opens on a podcast interview about what cliques do to a squad.",
+      "sources": [
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-4-recap",
+          "note": "OPENED — Trent interviewing Dr Sharon about how cliques can doom a team"
+        },
+        {
+          "url": "https://fangirlish.com/2026/08/26/ted-lasso-season-4-episode-4-review-the-greyhounds-unite-at-trivia-night/",
+          "note": "OPENED — Sharon returns via podcast, described as now a sports psychology professor"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — Sharon returns discussing her new book on locker room culture"
+        },
+        {
+          "url": "https://www.tvline.com/news/ted-lasso-recap-season-2-episode-1-sharon-psychologist-1234696584/",
+          "note": "LEAD, NOT OPENED — Sharon's arrival in the season-two premiere, hired for Dani's yips"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e4-trent-podcast-third-format",
+      "type": "callback",
+      "title": "Trent Crimm has now told this story in three different media",
+      "detail": "Trent turns up hosting a podcast. Track the format: he began as the Richmond beat writer for The Independent, introduced by his own byline; he left the paper at the end of season two; he spent season three embedded with the club writing a book, which he titled 'The Lasso Way' until Ted sent him a note saying the story was never about him, at which point it became 'The Richmond Way'. Now he has a microphone and a guest. The man whose entire function in the show is to observe Richmond from outside keeps having to change vehicle to keep doing it — and each change moves him closer in. IMPORTANT FOR THE REVIEWER: the Independent → book → podcast chain needs the book-title change confirmed independently; that detail is widely reported but check it.",
+      "moment": "The old newspaperman is now a podcast host, and his first guest is the club's former psychologist.",
+      "sources": [
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-4-recap",
+          "note": "OPENED — Trent Crimm hosting the podcast interview"
+        },
+        {
+          "url": "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234",
+          "note": "LEAD, NOT OPENED — season-three ending, Trent's book"
+        },
+        {
+          "url": "https://screenrant.com/ted-lasso-the-richmond-way-book-roy-change/",
+          "note": "LEAD, NOT OPENED — 'The Richmond Way' as the final title"
+        },
+        {
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-recaps/ted-lasso-season-3-finale-recap-bad-season-jason-sudeikis-brett-goldstein-1234744458/",
+          "note": "LEAD, NOT OPENED — season-three finale recap covering Ted's note about the title"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e4-roy-knee-same-knee",
+      "type": "callback",
+      "title": "It is the same knee",
+      "detail": "Roy's knee gives out during his run of dates, sending him for a scan. That knee has a history and a date. In the season-one finale, 'The Hope That Kills You', Roy came on against Manchester City, chased down Jamie Tartt to stop him scoring, and wrecked his knee doing it — the injury that ended his playing career, with commentators wondering aloud on the night whether that was his last game. The joke of this episode is that the injury he took for a football club, in the act of stopping the boy he could not stand, is now the thing that interrupts him trying to win Keeley back. Careers end; the knee stays. NOTE FOR THE REVIEWER: the app already carries a card on that injury at S1E10 (s1e10-roy-kent-last-stand-injury) and an S1E9 card on Roy being benched. This card is only worth including if it is clearly about the recurrence rather than re-telling the original injury.",
+      "moment": "Mid-date, the knee goes, and Roy ends up in front of a specialist.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)",
+          "note": "OPENED — Roy injures his knee stopping Jamie; commentators wonder if it was his last game"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/08/26/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — Roy's knee gives out, leading to a scan with a specialist"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — Roy and Dr Erin Beaumont, chronic knee injury"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-ten-dates-plot",
+      "type": "theme",
+      "title": "Roy tries to speedrun ten dates and that is the whole character note",
+      "detail": "Keeley's condition for trying again is that Roy go on ten proper dates with other people first, so that choosing her is a choice rather than a default. Roy responds by booking the dates back-to-back in one venue — treating a test designed to measure sincerity as a fixture list to be cleared. He then has a genuine, unplanned connection with a barmaid, which is the only part of the night that was not scheduled. It is a neat statement of Roy's lifelong problem: he is excellent at effort and terrible at openness, and the exercise only works on the one occasion he stops running it as an exercise. NOTE FOR THE REVIEWER: Alan Sepinwall's review calls this one of the worst sitcom plots ever and criticises season four's padding, particularly of its women — worth weighing before this ships as an admiring card.",
+      "moment": "Ten dates, one venue, one evening, with Higgins keeping count.",
+      "sources": [
+        {
+          "url": "https://readysteadycut.com/2026/08/26/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — the ten dates, Higgins tracking, the back-to-back scheduling, the barmaid"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — Roy/Keeley subplot"
+        },
+        {
+          "url": "https://www.whatsalanwatching.com/ted-lasso-season-4-episode-4-greyhounds-day-off/",
+          "note": "OPENED (paywalled preview) — Sepinwall's headline and criticism of the season's padding"
+        },
+        {
+          "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+          "note": "OPENED — Roy treats the ten dates as a game rather than self-improvement"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-beard-jane-poster",
+      "type": "callback",
+      "title": "Beard is taken out of the game by a poster",
+      "detail": "Beard is carrying the quiz — he is the one with the recall — until he goes to the gents and finds a poster for his ex-girlfriend's show, at which point he is useless for the rest of the night. Jane Payne was Beard's on-and-off partner across three seasons; the app already carries a card at S3E2 on her immersive-theatre work. The gag is that the encyclopaedic man is undone by one piece of paper, and the episode does not stop to explain it. NOTE FOR THE REVIEWER: recaps say 'ex-girlfriend' and 'a poster of Jane' with varying specificity; confirm the poster is Jane and confirm what the show has established about Beard's return from Amsterdam before this ships, since the status of that relationship is a season-three-finale matter. Also check against the existing S3E2 card so this is not the same point twice.",
+      "moment": "A trip to the toilets at the pub ends Beard's usefulness as a quiz weapon.",
+      "sources": [
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-4-recap",
+          "note": "OPENED — a poster of his ex-girlfriend in the bathroom puts Beard in a catatonic state"
+        },
+        {
+          "url": "https://www.whatsalanwatching.com/ted-lasso-season-4-episode-4-greyhounds-day-off/",
+          "note": "OPENED (preview) — Beard incapacitated by a poster of Jane in the men's bathroom"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — Beard discovers a flyer for Jane's show during the quiz"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e4-cohesion-research",
+      "type": "philosophy",
+      "title": "A night at the pub is a defensible coaching decision, not a soft option",
+      "detail": "Ted cancels training to take the squad drinking, which reads as the sitcom answer. The sports-science literature is friendlier to it than you would expect. Carron, Colman, Wheeler and Stevens's 2002 meta-analysis 'Cohesion and Performance in Sport' (Journal of Sport and Exercise Psychology 24(2), 168–188) pooled 46 studies and 164 effect sizes and found a moderate-to-large relationship between cohesion and performance, and the field distinguishes task cohesion (commitment to the shared job) from social cohesion (liking each other) — with the practical upshot reported as both task-oriented and social-oriented team-building being worth doing. That does not make Ted right about the brawl. It does mean the thing he cancelled training for is a measured variable rather than a vibe. IMPORTANT FOR THE REVIEWER: I could not open the Human Kinetics abstract (403). The figures above come from secondary reports of the meta-analysis and must be confirmed against a source you can actually open, or the numbers must come out.",
+      "moment": "Training is cancelled in favour of quiz night at the pub.",
+      "sources": [
+        {
+          "url": "https://journals.humankinetics.com/view/journals/jsep/24/2/article-p168.xml",
+          "note": "LEAD, NOT OPENED (403) — the meta-analysis itself, JSEP 24(2)"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/Cohesion-and-performance-in-sport:-a-meta-analysis.-Carron-Colman/1a9363d9032310c7042389d0d06d6b46b4d06893",
+          "note": "LEAD, NOT OPENED — Semantic Scholar record for the same paper"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3916931/",
+          "note": "LEAD, NOT OPENED — open-access soccer cohesion paper citing Carron et al."
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-cliques-by-position",
+      "type": "theme",
+      "title": "The cliques are drawn along positional lines",
+      "detail": "The squad has not split by age, nationality or seniority — the three groups are the midfielders, the defenders and the attackers, and the recaps describe them in the terms football uses about those positions anyway: the midfielders as the logical ones, the defenders as protective and anxious, the attackers as thrilling and selfish. That is a real piece of the sport's folk psychology being used as characterisation: the shape a coach draws on a whiteboard has hardened into three social groups who will not eat together. It also makes the problem structurally different from the men's-team problems Ted solved before, which were mostly about individuals.",
+      "moment": "Alice maps the dressing room for Ted and it comes out as a formation.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — three cliques based on position: midfielders, defenders, attackers"
+        },
+        {
+          "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+          "note": "OPENED — position-based cliques described as logical midfielders, anxious defenders, selfish attackers"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-4-recap/",
+          "note": "OPENED — squad split into three cliques of defenders, attackers and midfielders"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-ted-locked-out-of-dressing-room",
+      "type": "theme",
+      "title": "Ted's best tool is a room he is not allowed into",
+      "detail": "Almost everything Ted has ever fixed, he fixed in a dressing room — the biscuits, the suggestion box, the speeches, the reading of a mood before anyone says anything. Coaching a women's team, he cannot walk in, so the information reaches him second-hand through Alice Chilton, and by the time he acts on it the cliques have set. It is the season's quiet structural joke: the obstacle is not a villain and not a budget line this time but a doorway, and his response is to invent a dressing room somewhere else, which is what the pub turns out to be. NOTE FOR THE REVIEWER: the app's S4E2 card s4e2-locker-room-and-budget is already about the women's dressing room, though from the facilities-and-funding angle. Check these are genuinely different points before including.",
+      "moment": "Ted cannot get into the room where he usually does his best work, and has to be told what is happening in it.",
+      "sources": [
+        {
+          "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+          "note": "OPENED — Ted cannot freely enter the women's dressing room as he did with the men's, requiring Alice to bridge the gap"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+          "note": "OPENED — Ted frustrated about access to the women's locker room"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-episode-404-preview/",
+          "note": "LEAD, NOT OPENED — episode preview material"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}
