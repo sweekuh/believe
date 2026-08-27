@@ -1,0 +1,198 @@
+{
+  "episode": { "season": 4, "number": 4, "title": "Greyhounds' Day Off" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e4-title-ferris-bueller",
+      "type": "reference",
+      "title": "The title is a Ferris Bueller joke",
+      "detail": "The episode title echoes John Hughes's 1986 film Ferris Bueller's Day Off. It is not only a title gag: within the episode Beard reportedly reaches for Ferris Bueller as a shorthand when the coaches are trying to describe the shape of the team's cliques, and TV Tropes records the title as a shout-out to the film. Worth the reviewer checking whether the film is actually named on screen or only alluded to.",
+      "moment": "Ted cancels training and sends the squad out for a night that is not football.",
+      "sources": [
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS4E04GreyhoundsDayOff", "note": "LEAD (403 on fetch; surfaced via search summary) - records the title as a Ferris Bueller's Day Off shout-out" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off", "note": "OPENED - Ted, Beard and Alice use Harry Potter and Ferris Bueller references to identify the team divisions" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/", "note": "OPENED - the coaches' references range from Harry Potter to Ferris Bueller's Day Off" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-crown-and-anchor-darts-echo",
+      "type": "callback",
+      "title": "The team-building night happens in the darts pub",
+      "detail": "The quiz night is at the Crown & Anchor - the same pub where, in season one's 'The Diamond Dogs', Ted beat Rupert at darts and made the show's most famous speech about people who judge instead of asking. Six years later the same room is where a group of men decide in advance what a women's football team is worth. REVIEWER: confirm (a) the S4E4 quiz is at the Crown & Anchor and (b) the S1E8 darts match is at the same pub. Both look solid but the pairing is the whole point of the card.",
+      "moment": "Ted moves the squad's evening to the local pub the club has always used.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - Ted organises a quiz night at the Crown & Anchor with mixed teams" },
+        { "url": "https://ladygeeksmedia.com/2026/08/26/ted-lasso-season-4-episode-4-review-greyhounds-day-off/", "note": "OPENED - names the trivia night venue as the Crown and Anchor" },
+        { "url": "https://ted-lasso.fandom.com/wiki/The_Crown_%26_Anchor", "note": "LEAD, NOT OPENED (402) - wiki page for the pub" },
+        { "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)", "note": "LEAD - S1E8, the darts match against Rupert" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-common-enemy-superordinate-goals",
+      "type": "philosophy",
+      "title": "Cliques dissolve against a shared opponent",
+      "detail": "The episode's mechanism is textbook intergroup psychology. Muzafer Sherif's 1954 Robbers Cave study divided 22 boys into two groups, manufactured hostility between them, then found that contact and conversation did not fix it - only 'superordinate goals', tasks too big for one group alone, did. By the end roughly two thirds of the boys' friendship choices crossed group lines. The episode stages both halves: a common antagonist, and then a shared task. NOTE: nobody connected with the show has cited Sherif; this is a mapping, not a claimed influence, and the card must say so.",
+      "moment": "Three position-based cliques stop being three the moment a rival quiz team turns on one of them.",
+      "sources": [
+        { "url": "https://www.simplypsychology.org/robbers-cave.html", "note": "OPENED via search - Sherif 1954, three phases, superordinate goals resolve conflict where contact does not" },
+        { "url": "https://www.spring.org.uk/2022/12/robbers-cave-experiment.php", "note": "OPENED via search - group formation, conflict, resolution; friendship choices cross group lines" },
+        { "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/", "note": "OPENED - the episode's thesis that relationships ending at the final whistle cannot sustain a team" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-sharon-book-i-in-team",
+      "type": "callback",
+      "title": "Sharon Fieldstone wrote a book, and its title is an argument",
+      "detail": "Dr Sharon Fieldstone (Sarah Niles) returns, now a professor of sports psychology, promoting a book reported as 'Unlocking the I in Team'. The title inverts the oldest cliche in team sport - there is no I in team - and the episode then proves the book's point: the squad does not cohere until the individuals inside it become legible to one another. REVIEWER: the exact book title comes from a search summary of recap coverage; corroborate it before it ships, and drop the title if only one source has it.",
+      "moment": "Sharon talks about what makes a team tick on a podcast, and the episode plays out underneath her.",
+      "sources": [
+        { "url": "https://seat42f.com/ted-lasso-season-4-episode-4-recap-greyhounds-day-off/", "note": "OPENED - Sharon opens the episode on the podcast discussing trust-building" },
+        { "url": "https://www.thereviewgeek.com/tedlasso-s4e4review/", "note": "LEAD (403 on fetch; search summary gives the book title 'Unlocking the I in Team' and podcast name 'Through the Laces')" },
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - Trent invites Dr Sharon on his podcast to discuss her book; Sarah Niles credited" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-trent-podcast-framing",
+      "type": "callback",
+      "title": "Trent Crimm is a podcaster now, and he is narrating",
+      "detail": "James Lance returns as Trent Crimm, who has left the paper and the book behind and now hosts a podcast (reported as 'Through the Laces'). His interview with Sharon is used as the episode's framing device - the two of them describe the problem in the abstract while the episode shows it happening. The show has used Trent as an outside observer since season one; this is the first time it lets him narrate.",
+      "moment": "The episode opens and returns to two people talking about teams, over footage of one failing to be a team.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - James Lance credited; Trent invites Sharon on his podcast" },
+        { "url": "https://fandomwire.com/ted-lasso-season-4-brings-back-trent-crimm-dr-sharon-fieldstone/", "note": "LEAD, NOT OPENED - season 4 brings back Trent Crimm and Sharon Fieldstone" },
+        { "url": "https://seat42f.com/ted-lasso-season-4-episode-4-recap-greyhounds-day-off/", "note": "OPENED - the podcast frames the episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-mae-season-ticket-holder",
+      "type": "easter-egg",
+      "title": "Mae already had a season ticket for the women",
+      "detail": "Annette Badland returns as Mae Green, the Crown & Anchor's landlady, and at least one recap notes she is already a season-ticket holder for the women's team - i.e. she was supporting them before the club, the press or the sponsors got interested. REVIEWER: this is the detail I am least sure of; it came through a search summary rather than a page I opened. Verify or drop.",
+      "moment": "The squad arrives at the pub and the landlady is already one of theirs.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - Annette Badland credited as Mae Green" },
+        { "url": "https://readysteadycut.com/2026/08/26/ted-lasso-season-4-episode-4-recap/", "note": "LEAD, NOT OPENED - search summary reports Mae is already a season-ticket holder for the women" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-harry-potter-percy-jackson",
+      "type": "trivia",
+      "title": "Ted has never read Harry Potter",
+      "detail": "Alice tries to explain the three cliques using Harry Potter's central trio and it lands on nobody, because Ted has never read the books - reportedly because Henry went for Percy Jackson instead. Beard translates via Ferris Bueller. The joke is also the episode's thesis in miniature: the coaches cannot describe the team's problem because the room has no shared frame of reference.",
+      "moment": "Three coaches try three different stories to name the same problem.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off", "note": "OPENED - Harry Potter and Ferris Bueller used to identify team divisions" },
+        { "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS4E04GreyhoundsDayOff", "note": "LEAD (403 on fetch; search summary has the Percy Jackson detail and Beard translating via the film)" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/", "note": "OPENED - the players lack a shared cultural language; references from Harry Potter to Ferris Bueller" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-cliques-by-position",
+      "type": "theme",
+      "title": "The cliques are drawn along position lines",
+      "detail": "The squad has split into attackers, midfielders and defenders - not by age, nationality or status, but by job. Recaps describe the split in character terms (logical midfielders, anxious defenders, selfish attackers) and it boils over in the changing room over small things: socks, and a refusal to swap shirt numbers. Football itself made the factions; the tactical structure of the sport is the thing dividing them.",
+      "moment": "A changing-room argument about socks and squad numbers turns out to be about something else.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off", "note": "OPENED - three cliques by position, characterised as logical midfielders, anxious defenders, selfish attackers" },
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - a locker room altercation prompts Ted to cancel training" },
+        { "url": "https://readysteadycut.com/2026/08/26/ted-lasso-season-4-episode-4-recap/", "note": "LEAD, NOT OPENED - search summary names the socks and the shirt-number refusal as the flashpoint" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-common-enemy-is-sexism",
+      "type": "theme",
+      "title": "What finally unites them is being underestimated together",
+      "detail": "The thing that ends the factions is not a drill or a speech. A rival quiz team abuses the players and pours a drink over one of them, and the squad answers as one. Multiple reviews land on the same reading: their common ground is the experience of being dismissed, and the episode is honest that this is a grim way to find each other. It also rhymes with the season's stated subject - a women's team nobody outside the building takes seriously.",
+      "moment": "One player is humiliated by a group of men and the whole squad moves at once.",
+      "sources": [
+        { "url": "https://fangirlish.com/2026/08/26/ted-lasso-season-4-episode-4-review-the-greyhounds-unite-at-trivia-night/", "note": "OPENED - the team's common ground is their shared experience of sexism" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off", "note": "OPENED - male patrons harass Gemma and pour a drink on her; the squad rallies" },
+        { "url": "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/", "note": "OPENED - Zelda challenges performative support of women's sport at the summit" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-punishment-clean-the-pub",
+      "type": "philosophy",
+      "title": "The punishment is to go back and clean it up",
+      "detail": "Ted's discipline for the brawl is reported as making the squad run to the pub and clean it. That is restitution rather than penalty - the wrong is repaired where it happened, in front of the person who was wronged, rather than paid off in laps. It is also the most consistent thing the character does: the response to a mess is to go back to it.",
+      "moment": "The morning after, the punishment is a bucket.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - as punishment Ted requires the team to run to the pub and clean it" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/", "note": "OPENED - the Lady Greyhounds complete their transformation by cleaning the pub" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-tracey-ullman-zelda",
+      "type": "production",
+      "title": "Tracey Ullman was the only name they considered",
+      "detail": "Zelda Southport, managing partner of a firm investing solely in women's sport, is played by Tracey Ullman. Brendan Hunt has said the part was first imagined as a younger male executive; once they made her older than Rebecca, so she could be a mentor - something Rebecca has rarely had, and never from a woman - Ullman was the first and only name raised. Hunt describes the cast as giddy when she signed.",
+      "moment": "Rebecca and Keeley meet the investor at a women's football business summit.",
+      "sources": [
+        { "url": "https://www.aol.com/articles/brendan-hunt-says-ted-lasso-203444000.html", "note": "OPENED - Hunt on the pivot from a younger male executive to an older female mentor, and on casting Ullman" },
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - Tracey Ullman credited as Zelda Southport" },
+        { "url": "https://www.comicbasics.com/ted-lasso-season-4-brendan-hunt-reveals-why-the-cast-was-giddy-to-welcome-tracey-ullman-as-zelda-southport/", "note": "LEAD, NOT OPENED - secondary write-up of the same interview" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-walker-heydon-debuts",
+      "type": "production",
+      "title": "Two people's first episode",
+      "detail": "The episode was written by co-executive producer Sarah Walker and directed by Ellie Heydon, and is reported as the first writing credit and the first directing credit on the show for each of them. Runtime 44 minutes; aired 26 August 2026.",
+      "moment": "n/a - production credit.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - written by co-EP Sarah Walker, directed by Ellie Heydon, both inaugural credits; 44 minutes; 26 Aug 2026" },
+        { "url": "https://ladygeeksmedia.com/2026/08/26/ted-lasso-season-4-episode-4-review-greyhounds-day-off/", "note": "OPENED - independently names Sarah Walker as writer and Ellie Heydon as director" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e4-zelda-leaks-the-arrest",
+      "type": "theme",
+      "title": "The rescue comes with a bill",
+      "detail": "Zelda uses her connections to get the squad released without a record - and is then reported to have leaked the arrest to the press herself, turning a private mess into publicity for the women's game, with Rebecca separately finding that Zelda once changed her name and was previously arrested after threatening a club owner. REVIEWER: the leak, the name change and the prior arrest all come from a single outlet's ending-explained piece. Corroborate or cut; this is exactly the kind of claim the app should not ship on one source.",
+      "moment": "Bail is posted by someone nobody at the club has agreed to work with yet.",
+      "sources": [
+        { "url": "https://meaww.com/is-tracey-ullman-in-ted-lasso-season-4-episode-4-zelda-southport-isabelle-bonfrer-banana-clip-baby-jane-nelson-road-sofia-barclay", "note": "OPENED - Zelda leaks the arrest to media; Rebecca learns of a name change and a prior arrest for threatening a club owner" },
+        { "url": "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off", "note": "OPENED - Zelda uses her connections to secure the team's release (no mention of a leak)" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e4-two-aces-parallel",
+      "type": "callback",
+      "title": "Ted has run this play before",
+      "detail": "At least one review reads the episode as a deliberate rhyme with season one's 'Two Aces', where Ted's answer to a divided squad was also a staged, faintly ridiculous group ritual - the midnight curse-lifting ceremony - that worked for reasons other than the ones advertised. REVIEWER: one outlet makes the comparison explicitly; treat the parallel as an interpretation rather than a production fact, and check whether the S1 episode number given anywhere is right (Two Aces is S1E6).",
+      "moment": "The team-building exercise that is obviously not going to work, and does.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2026/08/26/ted-lasso-season-4-episode-4-review-greyhounds-day-off/", "note": "OPENED - reads the episode as paralleling the debut season's 'Two Aces'" },
+        { "url": "https://en.wikipedia.org/wiki/Ted_Lasso", "note": "LEAD - for confirming Two Aces is season one episode six" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}

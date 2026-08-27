@@ -4825,6 +4825,199 @@
               ]
             }
           ]
+        },
+        {
+          "number": 4,
+          "title": "Greyhounds' Day Off",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s4e4-sharon-book-i-in-team",
+              "tag": "The title is the argument",
+              "title": "Sharon Fieldstone wrote a book, and its name is a rebuttal",
+              "moment": "The episode opens away from Richmond entirely: Trent Crimm, a journalist turned author turned podcaster, interviewing Dr Sharon Fieldstone about what makes a team work. She is a professor now. Their conversation runs underneath the episode while the team fails to be a team.",
+              "idea": "Her book is called <em>Unlocking the I in Team</em>. The oldest thing anyone says in a changing room is that there is no I in team, and the title refuses it. Sharon's position is the harder one: a group does not cohere by dissolving the individuals inside it, but by making them legible to one another.",
+              "why": "The episode is a forty-minute proof. Three groups of players who know each other only as positions &mdash; the ones who defend, the ones who score &mdash; and nothing changes until they have to sit at a table and find out what the others happen to know. Sharon has always been the character who says the quiet thing plainly; putting her in a framing device lets the show state its thesis at the top and then spend the hour earning it.",
+              "source": "<em>Wikipedia</em> for the episode and Sarah Niles's credit; recaps at <em>Seat42F</em> and Alise Chaffins's newsletter for the book and podcast titles.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "The podcast framing and Sharon's return are on Wikipedia and in two recaps. The book title is reported by two outlets; a longer subtitle appears in some coverage and has been left off deliberately.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://seat42f.com/ted-lasso-season-4-episode-4-recap-greyhounds-day-off/",
+                "https://alisechaffins.substack.com/p/ted-lasso-season-4-episode-4-recap-review-greyhounds-day-off-2026"
+              ],
+              "order": 1
+            },
+            {
+              "id": "s4e4-common-enemy-superordinate-goals",
+              "tag": "Why the quiz worked",
+              "title": "Talking it out was never going to fix this",
+              "moment": "The squad has split into three groups and Ted's answer is not a meeting, a drill or a speech. He cancels training and makes them spend an evening being bad at general knowledge together, in teams he has deliberately scrambled.",
+              "idea": "There is a famous experiment underneath this. In 1954 Muzafer Sherif took 22 boys to a camp at Robbers Cave in Oklahoma, split them into two groups, and made them enemies. Then he tried to fix it. Simply putting them in the same room did nothing &mdash; shared meals and a shared film left the hostility exactly where it was. What worked was giving them a problem too big for one group: a broken water supply, a truck stuck in the road. By the end of the camp about two thirds of the boys' friendships crossed the lines that had been drawn.",
+              "why": "Ted does both halves of the experiment in one night. First an outside antagonist &mdash; a table of men who decide what a women's team is worth before a single question is asked &mdash; and then, the next morning, an actual shared task. It is worth noticing what the players turn out to have in common: not a position or a friendship group, but the experience of being written off. The episode is honest that this is a bleak way for people to find each other, and it works anyway. Nobody on the show has mentioned Sherif; the resemblance is the interesting part, not a claim about intent.",
+              "source": "Sherif's Robbers Cave study as summarised by <em>Simply Psychology</em> and <em>PsyBlog</em>; episode detail from <em>Wikipedia</em>, <em>But Why Tho</em> and <em>DMTalkies</em>.",
+              "category": "Relationships",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "The experiment is well documented and independently checked. The link to the episode is this card's own reading &mdash; no one involved in the show has cited it &mdash; which is why it is marked partial rather than verified.",
+              "sourcesChecked": [
+                "https://www.simplypsychology.org/robbers-cave.html",
+                "https://www.spring.org.uk/2022/12/robbers-cave-experiment.php",
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+                "https://dmtalkies.com/ted-lasso-season-4-episode-4-ending-explained-2026/"
+              ],
+              "order": 2
+            },
+            {
+              "id": "s4e4-crown-and-anchor-darts-echo",
+              "tag": "The same room",
+              "title": "This is the pub with the dartboard in it",
+              "moment": "Ted takes the squad to the Crown &amp; Anchor for quiz night &mdash; Mae's pub, the one the club has always used.",
+              "idea": "It is the room where, in season one, Ted played Rupert at darts and explained that people had spent his whole life judging him instead of asking him anything. That speech is the show's single most quoted scene, and the sign he describes reading &mdash; be curious, not judgmental &mdash; is the closest thing the series has to a thesis.",
+              "why": "Six years later the same room fills up with men who have decided in advance what a women's football team amounts to. The women do not answer them with a speech about curiosity. They win the quiz and then they fight. Whether you read that as the show growing up or as the show losing its nerve is genuinely open &mdash; but it is not an accident that it happens under that dartboard. Worth remembering that the line on the sign is credited to Walt Whitman in the show and has never been traced to him; attributed to, not by.",
+              "source": "Episode location per <em>Wikipedia</em>, <em>Lady Geeks Media</em> and <em>DMTalkies</em>; the season-one darts match per <em>Wikipedia</em>'s page for <em>The Diamond Dogs</em> and a Ted Lasso filming-locations guide.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Three sources put this episode's quiz at the Crown &amp; Anchor. Wikipedia's page for the season-one episode says only 'a pub' without naming it, so the identification of the darts pub rests on the filming-locations guide and other coverage rather than on Wikipedia.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://ladygeeksmedia.com/2026/08/26/ted-lasso-season-4-episode-4-review-greyhounds-day-off/",
+                "https://dmtalkies.com/ted-lasso-season-4-episode-4-ending-explained-2026/",
+                "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)",
+                "https://candaceabroad.com/ted-lasso-filming-locations/"
+              ],
+              "order": 3
+            },
+            {
+              "id": "s4e4-cliques-by-position",
+              "tag": "Divided by the job",
+              "title": "The cliques run along position lines",
+              "moment": "The squad has split into three: the attackers, the midfielders, the defenders. Not by age, not by nationality, not by who was signed when. By what they do on the pitch.",
+              "idea": "That is a more interesting choice than it first looks. The team is not divided by anything the team brought in with it &mdash; it is divided by football itself. The tactical structure of the sport sorted these women into groups with different jobs, different anxieties and different ways of being blamed, and then the groups hardened. Reviewers describe them almost as three temperaments: the ones who think, the ones who worry, the ones who want the ball.",
+              "why": "Note that they are unbeaten while this is happening. Nothing is going wrong on the results sheet, which is exactly why nobody has fixed it. The problem the coaches can see is one nobody has any external reason to care about yet &mdash; and the episode's argument is that a group whose relationships end at the final whistle is not yet a team, however good the table looks.",
+              "source": "Recaps and reviews at <em>The A.V. Club</em>, <em>But Why Tho</em> and <em>DMTalkies</em>; <em>Wikipedia</em>'s episode page.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "Four independent accounts of the three-way split and the changing-room flare-up. A more specific version of the flashpoint circulating in search results could not be found on the page it was credited to, so it has been left out.",
+              "sourcesChecked": [
+                "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/",
+                "https://dmtalkies.com/ted-lasso-season-4-episode-4-ending-explained-2026/"
+              ],
+              "order": 4
+            },
+            {
+              "id": "s4e4-harry-potter-percy-jackson",
+              "tag": "Speaking his language",
+              "title": "Alice explains the problem in stories, because that is how Ted thinks",
+              "moment": "Trying to get the shape of the three cliques across, Alice reaches for Harry Potter and the central trio. It does not land the way she expects &mdash; by one account Ted never read them, his son having gone for Percy Jackson instead &mdash; and Beard ends up translating the whole thing through <em>Ferris Bueller's Day Off</em>.",
+              "idea": "The reason this is more than a gag is who is doing it. Alice is the newest person in the building, and she has evidently worked out that Ted does not process a problem until someone hands it to him as a story. So she brings him one. That is not flattery; it is the work of paying enough attention to someone to learn their dialect.",
+              "why": "It also quietly states the episode's problem. Three coaches need three different films to describe one changing room, and the changing room itself has no shared references at all. That is precisely what is wrong with the team: eleven people with nothing in common except a fixture list. A pub quiz is a strange fix for it, and a surprisingly literal one.",
+              "source": "Recaps at <em>The A.V. Club</em> and <em>The Film Gordon</em>; <em>TellTale TV</em> on Alice choosing a story Ted would respond to.",
+              "category": "Relationships",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "The Harry Potter and Ferris Bueller references are carried by three independent outlets. The Percy Jackson explanation comes from one recap that could not be opened directly, so the card attributes it rather than asserting it.",
+              "sourcesChecked": [
+                "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+                "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/",
+                "https://telltaletv.com/2026/08/ted-lasso-season-4-episode-4-review-u-n-i-t-y-u-n-i-t-y-thats-a-unity/"
+              ],
+              "order": 5
+            },
+            {
+              "id": "s4e4-title-ferris-bueller",
+              "tag": "Where the title comes from",
+              "title": "It is a Ferris Bueller joke",
+              "moment": "The episode is called <em>Greyhounds' Day Off</em>, and inside it Beard reaches for <em>Ferris Bueller's Day Off</em> to get an idea across to Ted.",
+              "idea": "John Hughes's 1986 film is about one engineered day away from the institution &mdash; a truant afternoon that turns out to do more for the three people in it than the school was ever going to. Ted's plan is the same shape: cancel training, leave the building, and let the thing you actually needed happen somewhere the work cannot reach.",
+              "why": "The show has done this with every title this season &mdash; <em>Home</em>, <em>Curiouser and Curiouser!</em>, <em>Richmond's Got Talent</em> &mdash; naming the episode after the borrowed thing and then arguing with it. Here the argument is that the day off is the training.",
+              "source": "<em>The A.V. Club</em> and <em>The Film Gordon</em> on the references in the episode; <em>Wikipedia</em>'s episode page.",
+              "category": "Meta & trivia",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Two independent recaps place the Ferris Bueller reference inside the episode. A further claim that the film's Yello song plays over the cell scene comes from a single source that could not be opened, so it is left out.",
+              "sourcesChecked": [
+                "https://www.avclub.com/ted-lasso-recap-season-4-episode-4-greyhounds-day-off",
+                "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/",
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off"
+              ],
+              "order": 6
+            },
+            {
+              "id": "s4e4-tracey-ullman-zelda",
+              "tag": "Casting as an argument",
+              "title": "Zelda started life as a young man",
+              "moment": "Rebecca and Keeley meet Zelda Southport, who runs a fund that invests only in women's sport, at a business summit &mdash; and who asks out loud whether the money in the room actually cares about the game or about being seen to.",
+              "idea": "Brendan Hunt has said the character was first imagined as a younger male executive. The decision to make her a woman older than Rebecca changed what the part could do: it gave Rebecca a mentor, which the show has almost never given her, and never a female one. Once that was settled, Tracey Ullman was the first and only name raised, and Hunt says the cast was giddy when she signed.",
+              "why": "Worth watching what the change buys. A young male money-man would have been another Rupert &mdash; a threat with a chequebook. An older woman who got there first is something the series has not had: someone Rebecca might actually have to learn from, and might also be wrong to trust. The show does not tell you which yet.",
+              "source": "Brendan Hunt interview via <em>AOL</em>; casting credit from <em>Wikipedia</em>; summit scene per <em>But Why Tho</em>.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "The casting account comes from a Brendan Hunt interview I opened, with the credit confirmed on Wikipedia. Widely syndicated elsewhere, but this rests on the interview itself.",
+              "sourcesChecked": [
+                "https://www.aol.com/articles/brendan-hunt-says-ted-lasso-203444000.html",
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://butwhytho.net/2026/08/ted-lasso-season-4-episode-4-review/"
+              ],
+              "order": 7
+            },
+            {
+              "id": "s4e4-punishment-clean-the-pub",
+              "tag": "Repair, not laps",
+              "title": "The punishment is a bucket",
+              "moment": "After the arrest, Ted's discipline is not fitness work. He makes the squad run to the pub and clean it.",
+              "idea": "There is a real distinction here between punishment and restitution. Laps would pay an abstract debt to the coach. Cleaning the pub repairs the actual damage, in the actual room, in front of the person whose floor it was. The wrong is made good where it happened rather than settled somewhere else.",
+              "why": "It is also the most in-character thing Ted does all episode, and one of the few times the show lets him be genuinely hard. At least one reviewer thought he came off stern to the point of treating grown women like children &mdash; which is a fair reading, and worth holding alongside the neater one. The morning after is also, quietly, the second half of the team-building: a shared task, which is the thing that actually makes groups stick.",
+              "source": "<em>Wikipedia</em>'s episode page and <em>The Film Gordon</em>'s recap; the dissenting read from <em>Pop Culture Maniacs</em>.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Two independent accounts of the punishment, plus a third review that reads Ted's sternness less generously. Noted rather than smoothed over.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Greyhounds%27_Day_Off",
+                "https://thefilmgordon.com/ted-lasso-season-4-episode-4-recap/",
+                "https://popculturemaniacs.com/ted-lasso-greyhounds-day-off-review/"
+              ],
+              "order": 8
+            },
+            {
+              "id": "s4e4-unity-needle-drop",
+              "tag": "The song over the credits",
+              "title": "Thirty years earlier, someone already wrote this episode",
+              "moment": "The episode is reported to go out on Queen Latifah's <em>U.N.I.T.Y.</em>",
+              "idea": "It came out in November 1993 on the album <em>Black Reign</em>, and in 1995 it won the Grammy for Best Rap Solo Performance &mdash; the first time a woman won that award. It is not a general-purpose song about togetherness. Its verses are about street harassment, about domestic violence, and about the words men reach for when they want a woman smaller; the chorus is a question aimed straight at the man doing it.",
+              "why": "Which makes it an exact fit rather than a mood. The episode's uniting event is a group of men in a pub deciding what these women are worth out loud. The song has been answering that specific thing since before most of the squad was born, and the show puts it at the end without explaining itself.",
+              "source": "<em>TellTale TV</em>'s review of the episode for the needle-drop; <em>Wikipedia</em> for the song's release, subject and Grammy.",
+              "category": "Aesthetics",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "partial",
+              "groundingNotes": "The song's own history is thoroughly documented. Its use in this particular episode is stated by one review, whose headline quotes the hook; a season-wide soundtrack round-up lists Queen Latifah under the previous episode, but that page's episode-four section was cut off, so the two are not necessarily in conflict.",
+              "sourcesChecked": [
+                "https://telltaletv.com/2026/08/ted-lasso-season-4-episode-4-review-u-n-i-t-y-u-n-i-t-y-thats-a-unity/",
+                "https://en.wikipedia.org/wiki/U.N.I.T.Y.",
+                "https://www.nme.com/news/tv/every-song-on-the-ted-lasso-season-four-soundtrack-3961169"
+              ],
+              "order": 9
+            }
+          ]
         }
       ]
     }
