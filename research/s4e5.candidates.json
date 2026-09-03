@@ -1,0 +1,123 @@
+{
+  "episode": { "season": 4, "number": 5, "title": "Riches of Embarrassment" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e5-nin-appell-blossom",
+      "type": "philosophy",
+      "title": "The blossom quote Ted borrows isn't really Anaïs Nin's",
+      "detail": "In his halftime talk, Ted reaches for the line about the day coming when the risk of staying tight in a bud hurts more than the risk of blossoming. It is one of the most-shared 'Anaïs Nin' quotes on the internet, but it appears nowhere in Nin's published work. In 2013 Elizabeth Appell (writing as Lassie Benton in 1979) came forward as its actual author — she wrote it for the cover of an adult-education class schedule at John F. Kennedy University while on deadline. This is the same kind of confident misattribution the show has always played with (the darts-scene 'be curious, not judgmental' credited to Whitman, which has no located source). FLAG FOR REVIEWER: verify (a) that Ted actually uses this line in the episode, (b) whether the show explicitly attributes it to Nin on screen or leaves it unattributed, and (c) the Appell authorship claim from a strong source.",
+      "moment": "Down at halftime, Ted sets tactics aside and offers the players the old image of the bud that finally finds staying closed more painful than opening — a case for risking embarrassment over playing safe.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/", "note": "Recap describing Ted's halftime speech and naming the blossom quote (attributes it to Elizabeth Appell)" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Review describing the same halftime speech and 'blossom' quote (calls it an Anaïs Nin quote)" },
+        { "url": "https://www.wildmind.org/blogs/quote-of-the-month/anais-nin-getting-unstuck", "note": "Documents that the quote is not in Nin's work and was written by Elizabeth Appell" },
+        { "url": "https://www.mchristinedelea.com/post/risk-by-elizabeth-appell", "note": "On Elizabeth Appell as the author of 'Risk'" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-low-and-slow",
+      "type": "philosophy",
+      "title": "Coaching as barbecue: low and slow beats poking the meat",
+      "detail": "Ted pushes back on Coach Alice Chilton's harsh, high-pressure handling of the women's team with a cooking metaphor: barbecue is cooked low and slow, and constantly poking and prodding the meat only makes it tough. It restates his long-running developmental philosophy — patience and warmth grow people; pressure and control harden them — against a coach who wants results now. FLAG FOR REVIEWER: confirm the metaphor is Ted's (not the recapper's paraphrase) and that it is aimed at Alice's method.",
+      "moment": "As Alice leans on the players hard, Ted answers with a barbecue analogy — good results come from patience, not from constantly prodding what's cooking.",
+      "sources": [
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Describes Ted's barbecue 'low and slow' metaphor and its meaning" },
+        { "url": "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/", "note": "Recap noting Ted uses a barbecue analogy to critique Alice's harsh approach" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-title-embarrassment-of-riches",
+      "type": "reference",
+      "title": "The title flips a 300-year-old idiom",
+      "detail": "The episode title inverts the familiar phrase 'an embarrassment of riches' — meaning an overwhelming abundance of good things. That idiom entered English from the French 'L'Embarras des richesses,' the title of a 1726 comedy (usually credited to the Abbé d'Allainval). By reversing it to 'Riches of Embarrassment,' the episode names its own thesis: the valuable things (the 'riches') are on the far side of being willing to look foolish in public. FLAG FOR REVIEWER: verify the idiom's French-play origin from a reference source; the reversal-as-thesis reading is interpretive, so keep the card's claim to the wordplay itself.",
+      "moment": "The title itself: 'Riches of Embarrassment,' a deliberate inversion of 'an embarrassment of riches.'",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Riches_of_Embarrassment", "note": "Episode title and page" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Review reading the title as the paradox that growth requires risking embarrassment" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-embarrassment-as-threshold",
+      "type": "theme",
+      "title": "Fear of embarrassment is the thing standing in the way",
+      "detail": "The episode's throughline: the players (and Ted, and Keeley, and Rebecca) are each held back less by lack of ability than by the fear of being seen failing. The women's team plays scared of humiliation in their first big match; the growth on offer is only reachable by accepting the risk of looking bad. This is the theme the title and the halftime speech both point at. FLAG FOR REVIEWER: this is a thematic reading, not a single sourceable fact — corroborate that reviewers identify embarrassment/vulnerability as the episode's central theme, and keep the card modest.",
+      "moment": "Across the hour, the drama turns on characters deciding whether the reward is worth the risk of public embarrassment.",
+      "sources": [
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Frames the episode around external judgment constraining performance and self-worth" },
+        { "url": "https://fangirlish.com/2026/09/02/ted-lasso-season-4-episode-5-review-the-greyhounds-redefine-embarrassment", "note": "Review headline reading the episode as redefining embarrassment" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-accountability-as-care",
+      "type": "philosophy",
+      "title": "Supporting someone can mean benching them",
+      "detail": "Ted sits Coach Alice down from the next match after her harsh treatment of the players — an unusually firm disciplinary move for him. It dramatizes a point the show keeps circling: kindness is not the same as permissiveness, and genuinely having someone's back sometimes means holding them accountable rather than smoothing things over. FLAG FOR REVIEWER: verify the suspension happens and its stated reason; check this doesn't simply duplicate an existing 'kindness isn't weakness' card from an earlier episode.",
+      "moment": "After the match, Ted suspends Alice from the following game — choosing accountability over comfort.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/", "note": "Recap: Ted suspends Alice from the next match, an unusually strict decision" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Notes Ted must hold Alice accountable; supporting her means challenging her methods" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-empty-seats",
+      "type": "theme",
+      "title": "Sold out on paper, half empty in the seats",
+      "detail": "Richmond's women's team fills the stadium on paper through donated and discounted tickets, but on matchday half the seats sit empty — a pointed picture of the gap between stated support for women's football and people actually turning up. It grounds the season's shift toward the women's game in a real-world problem. FLAG FOR REVIEWER: this is more social observation than philosophy; verify the empty-seats detail and keep the card factual rather than editorializing.",
+      "moment": "The much-hyped first big match at Nelson Road opens to a stadium that's only half full despite a reported sell-out.",
+      "sources": [
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/", "note": "Notes the sell-out via donations but half-empty seats on matchday" },
+        { "url": "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/", "note": "Recap: sparse crowd; Keeley struggles with low attendance" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-dedication-joel-stevens",
+      "type": "production",
+      "title": "The episode ends with a dedication",
+      "detail": "The episode closes on a card reading 'In memory of Joel Stevens.' Reporting identifies Stevens as a youth football coach at Burgess Hill Town FC in the UK who died in August 2025 after a short illness. Apple has not officially explained the tribute, and the suggested link to the production team is circumstantial. FLAG FOR REVIEWER: the dedication card itself is verifiable, but the identity and any production connection are LOW confidence — only ship the part that can be corroborated, and do not assert an unproven connection.",
+      "moment": "A memorial card appears at the end of the episode.",
+      "sources": [
+        { "url": "https://showsnob.com/ted-lasso-season-4-episode-5-honors-joel-stevens-dedication-explained", "note": "Reports the 'In memory of Joel Stevens' card and identifies Stevens; production link is circumstantial (note: this source conflates writer Phoebe Walsh with Phoebe Waller-Bridge)" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-credits-walsh-heydon",
+      "type": "production",
+      "title": "Who made the episode",
+      "detail": "Search results credit 'Riches of Embarrassment' to writer Phoebe Walsh (an actress-writer on the show, who plays Beard's partner Jane Payne) and director Ellie Heydon. FLAG FOR REVIEWER: credits are UNVERIFIED from a strong source — one recap source visibly confused Phoebe Walsh with Phoebe Waller-Bridge, so confirm both the writer and director from a reliable credit listing (Wikipedia episode page or the Apple TV episode page) before shipping, and drop if it cannot be confirmed.",
+      "moment": "n/a (production credit).",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Riches_of_Embarrassment", "note": "Fandom episode page (check infobox for writer/director)" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e5-jane-one-woman-show",
+      "type": "callback",
+      "title": "Jane turns the fake pregnancy into a one-woman show",
+      "detail": "Beard's partner Jane stages a one-woman show drawn from their earlier fake-pregnancy storyline, and invites Beard (and Ted) to attend. It's a callback that pays off the season's earlier Beard–Jane thread. FLAG FOR REVIEWER: confirm the show is about the fake pregnancy and that this is a genuine callback to an earlier S4 beat; spoiler scope widens because it needs the earlier Jane storyline.",
+      "moment": "Beard learns of Jane's one-woman show and brings Ted along; the piece revisits their fake-pregnancy saga.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/", "note": "Recap: Beard attends Jane's one-woman show about their fake pregnancy" },
+        { "url": "https://alisechaffins.substack.com/p/ted-lasso-season-4-episode-5-recap-review-riches-of-embarrassment-2026", "note": "Recap noting Beard learns of Jane's one-woman show and invites Ted" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    }
+  ]
+}

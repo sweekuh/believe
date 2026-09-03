@@ -5133,6 +5133,113 @@
               "order": 10
             }
           ]
+        },
+        {
+          "number": 5,
+          "title": "Riches of Embarrassment",
+          "intro": "",
+          "footer": "",
+          "cards": [
+            {
+              "id": "s4e5-embarrassment-as-threshold",
+              "tag": "Risking embarrassment",
+              "title": "The whole episode is about being willing to look foolish",
+              "moment": "Richmond's women play their first real showpiece &mdash; a home match against Chelsea &mdash; and play it frightened of humiliation. Down at the break, Ted sets tactics aside and, instead of a team talk, offers the old image of the bud that finally finds staying closed more painful than opening.",
+              "idea": "The barrier in front of these players isn't ability; it's the fear of being seen to fail. The episode's argument &mdash; and the argument of the line Ted reaches for &mdash; is that the things worth having sit on the far side of a risk of embarrassment. You can't bloom without first being willing to be seen not yet blooming.",
+              "why": "It's the key the title turns (see the title note). Watch how often the hour's drama is really one person deciding whether the reward is worth the risk of looking foolish in front of everyone else.",
+              "source": "The halftime image &mdash; the bud that risks opening &mdash; is one of the internet's most-shared &ldquo;Ana&iuml;s Nin&rdquo; lines, though it isn't found anywhere in her work. Episode themes per multiple reviews.",
+              "category": "Belief & hope",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Halftime speech and the episode's embarrassment/growth theme corroborated by several independent reviews; the quote itself is a documented Elizabeth Appell line (1979) long misattributed to Anaïs Nin.",
+              "sourcesChecked": [
+                "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/",
+                "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/",
+                "https://fangirlish.com/2026/09/02/ted-lasso-season-4-episode-5-review-the-greyhounds-redefine-embarrassment",
+                "https://adventuresinjournalism.substack.com/p/whose-line-is-it-anyway"
+              ],
+              "order": 1
+            },
+            {
+              "id": "s4e5-title-embarrassment-of-riches",
+              "tag": "The title, inverted",
+              "title": "&ldquo;Riches of Embarrassment&rdquo; flips a very old phrase",
+              "moment": "The episode's title.",
+              "idea": "It reverses the set idiom <em>an embarrassment of riches</em> &mdash; meaning an overwhelming abundance of good things, so many you can hardly choose. That phrase came into English from the French <em>L'Embarras des richesses</em>, the title of a 1726 comedy, through an 18th-century translation. Turned around, the title points the other way: the real riches here are on the far side of being willing to be embarrassed.",
+              "why": "A neat one-line key to the whole hour &mdash; the good stuff (the &ldquo;riches&rdquo;) is what you get for risking the embarrassment, not the other way round.",
+              "source": "Idiom sense and French origin per <em>Merriam-Webster</em> and Wiktionary; episode title per the Rotten Tomatoes listing.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Idiom meaning confirmed by two dictionaries; French-play origin per Wiktionary; title inversion is plain from the episode name.",
+              "sourcesChecked": [
+                "https://en.wiktionary.org/wiki/embarrassment_of_riches",
+                "https://www.merriam-webster.com/dictionary/embarrassment%20of%20riches",
+                "https://www.rottentomatoes.com/tv/ted_lasso/s04/e05"
+              ],
+              "order": 2
+            },
+            {
+              "id": "s4e5-low-and-slow",
+              "tag": "Low and slow",
+              "title": "Ted's barbecue theory of coaching",
+              "moment": "With the new coach, Alice, leaning hard on the players under pressure, Ted answers not with tactics but with a cooking analogy: good barbecue is done low and slow, and the surest way to toughen the meat is to keep poking and prodding it.",
+              "idea": "It's Ted's developmental philosophy in one image. People, like a slow cook, need patience and steady warmth to turn tender; constant pressure and control just harden them. His disagreement with Alice isn't about caring less &mdash; it's about whether results come from squeezing people or from giving them room.",
+              "why": "It's the clearest statement this season of why Ted coaches the way he does, and it lights the fuse on the friction with Alice that the episode pays off.",
+              "source": "Episode recaps describing Ted's barbecue metaphor and its contrast with Coach Alice's high-pressure approach.",
+              "category": "Ethics & character",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Two independent recaps describe the same barbecue 'low and slow' metaphor from Ted, aimed at Alice's harsh method.",
+              "sourcesChecked": [
+                "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/",
+                "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/"
+              ],
+              "order": 3
+            },
+            {
+              "id": "s4e5-accountability-as-care",
+              "tag": "Support with a spine",
+              "title": "Ted benches the coach",
+              "moment": "After Alice handles the players harshly and the match slips away, Ted sits her out of the next game &mdash; an unusually firm call for him.",
+              "idea": "It's a quiet correction to the notion that kindness means never saying no. Having someone's back can mean holding them to account rather than smoothing things over; sometimes the caring move and the firm move are the same move.",
+              "why": "Read it as the flip side of the barbecue talk: patience with the players, but a real consequence for the coach. Warmth and standards aren't opposites here.",
+              "source": "Episode recaps and reviews describing Ted suspending Coach Alice from the following match.",
+              "category": "Ethics & character",
+              "interest": 3,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Three independent reviews report Ted benching Alice from the next match and read it as accountability rather than punishment.",
+              "sourcesChecked": [
+                "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/",
+                "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/",
+                "https://fangirlish.com/2026/09/02/ted-lasso-season-4-episode-5-review-the-greyhounds-redefine-embarrassment"
+              ],
+              "order": 4
+            },
+            {
+              "id": "s4e5-empty-seats",
+              "tag": "Sold out, half empty",
+              "title": "The seats tell the truth about support",
+              "moment": "The women's big match at Nelson Road is a sell-out on paper &mdash; filled out with donated and discounted tickets &mdash; but on the day, roughly half the seats sit empty.",
+              "idea": "It's a pointed, real-world picture: saying you support women's football and actually turning up are two different things, and the gap between them shows in an empty stand. The show lets the image make the argument without a speech.",
+              "why": "A quiet detail worth catching &mdash; it's the season's women's-football story told in one wide shot of the crowd.",
+              "source": "Episode reviews noting the paper sell-out via donations against a half-empty stadium on matchday.",
+              "category": "Meta & trivia",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Two independent recaps describe the sell-out-on-paper vs. half-empty-in-the-seats contrast at the Chelsea match.",
+              "sourcesChecked": [
+                "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-5-review/",
+                "https://readysteadycut.com/2026/09/02/ted-lasso-season-4-episode-5-recap/"
+              ],
+              "order": 5
+            }
+          ]
         }
       ]
     }
