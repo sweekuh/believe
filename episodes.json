@@ -2336,7 +2336,8 @@
                 "https://www.thereviewgeek.com/tedlasso-s3e1review/",
                 "https://thetorg.com/2025/03/02/dealing-with-doubt-our-work-personas-and-ted-lasso-season-3-premiere/",
                 "https://antagonistblog.com/ted-lasso-season-3-premiere-recap-let-it-flow/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e1-sewer-team-building",
@@ -2355,7 +2356,8 @@
                 "https://meaww.com/ted-lasso-season-3-episode-1-ted-takes-afc-richmond-to-sewers-for-an-important-team-building-session",
                 "https://www.nerdsandbeyond.com/2023/03/15/ted-lasso-recap-season-3-episode-1-smells-like-mean-spirit/",
                 "https://kenking.substack.com/p/the-underrated-brilliance-of-ted"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e1-henry-goodbye",
@@ -2374,7 +2376,8 @@
                 "https://www.thereviewgeek.com/tedlasso-s3e1review/",
                 "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit",
                 "https://www.epicdope.com/ted-lasso-season-3-premiere-recap-and-ending-explained/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e1-nate-spitting",
@@ -2393,7 +2396,8 @@
                 "https://the18.com/en/soccer-news/ted-lasso-season-3-episode-1-review-recap-s3e1-show",
                 "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-963",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E01SmellsLikeMeanSpirit"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e1-title-nirvana",
@@ -2457,7 +2461,8 @@
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/",
                 "https://uproxx.com/tv/ted-lasso-power-ranking-season-3-episode-2-trent-crimm-zava/",
                 "https://www.thereviewgeek.com/tedlasso-s3e2review/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e2-rebecca-reverse-psychology",
@@ -2476,7 +2481,8 @@
                 "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
                 "https://www.thespoilist.com/recap-ted-lasso-season-3x02-i-dont-want-to-go-to-chelsea/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e2-roy-left-at-his-peak",
@@ -2494,7 +2500,8 @@
               "sourcesChecked": [
                 "https://thecinemaholic.com/why-did-roy-kent-leave-chelsea-in-ted-lasso-explained/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e2-title-elvis-costello",
@@ -2550,7 +2557,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E02IDontWantToGoToChelsea",
                 "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e2-beard-jane-immersive-theater",
@@ -2594,7 +2602,8 @@
               "sourcesChecked": [
                 "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
                 "https://ted-lasso.fandom.com/wiki/Zava"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e3-superstar-murray-head",
@@ -2612,7 +2621,8 @@
               "sourcesChecked": [
                 "https://www.imdb.com/title/tt19655880/soundtrack/",
                 "https://en.wikipedia.org/wiki/Murray_Head"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e3-prisencolinensinainciusol",
@@ -2630,7 +2640,8 @@
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
                 "https://www.tunefind.com/show/ted-lasso/season-3/235145"
-              ]
+              ],
+              "order": 5
             },
             {
               "id": "s3e3-zava-zlatan",
@@ -2666,7 +2677,8 @@
               "sourcesChecked": [
                 "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
                 "https://www.themarysue.com/fans-are-appalled-at-the-bad-behavior-in-ted-lasso-episode-3/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e3-zava-empty-vessel",
@@ -2684,7 +2696,8 @@
               "sourcesChecked": [
                 "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
                 "https://ted-lasso.fandom.com/wiki/Zava"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e3-ted-panic-attack",
@@ -2702,7 +2715,8 @@
               "sourcesChecked": [
                 "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
                 "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-season-3-anxiety-depression-therapy-mental-health"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e3-title-formation",
@@ -2738,7 +2752,8 @@
               "sourcesChecked": [
                 "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
                 "https://ted-lasso.fandom.com/wiki/Colin_Hughes"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e3-maria-sound-of-music",
@@ -2774,7 +2789,8 @@
               "sourcesChecked": [
                 "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-3-roy-jamie-training-explained-1234953694/",
                 "https://www.imdb.com/news/ni64019825/"
-              ]
+              ],
+              "order": 8
             }
           ]
         },
@@ -2801,7 +2817,8 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
                 "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e4-oklahoma-safe-word",
@@ -2820,7 +2837,8 @@
                 "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-4/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
                 "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e4-smigus-dyngus",
@@ -2875,7 +2893,8 @@
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-4-recap-and-ending-explained/",
                 "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e4-subbuteo-callback",
@@ -2912,7 +2931,8 @@
               "sourcesChecked": [
                 "https://lassoism.com/Ted-Lasso-quote.php?id=719",
                 "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e4-joker-and-the-thief",
@@ -2930,7 +2950,8 @@
               "sourcesChecked": [
                 "https://www.tunefind.com/show/ted-lasso/season-3/235593",
                 "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)"
-              ]
+              ],
+              "order": 5
             }
           ]
         },
@@ -2957,7 +2978,9 @@
                 "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
                 "https://www.highonfilms.com/ted-lasso-season-3-episode-5-recap-ending-explained/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
-              ]
+              ],
+              "order": 6,
+              "tier": "spine"
             },
             {
               "id": "s3e5-fate-vs-free-will-signs",
@@ -2975,7 +2998,8 @@
               "sourcesChecked": [
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/",
                 "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e5-shite-in-nining-armour",
@@ -2993,7 +3017,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
                 "https://screenrant.com/ted-lasso-season-3-rebecca-psychic-predictions-came-true/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e5-zava-retires-avocado-farm",
@@ -3029,7 +3054,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
                 "https://screenrant.com/ted-lasso-season-3-episode-5-recap/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e5-green-matchbook-omen",
@@ -3047,7 +3073,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
                 "https://www.themarysue.com/lets-feverishly-speculate-about-rebeccas-green-matchbook-in-ted-lasso/"
-              ]
+              ],
+              "order": 5
             },
             {
               "id": "s3e5-ted-panic-attack-henry",
@@ -3065,7 +3092,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
                 "https://www.thereviewgeek.com/tedlasso-s3e5review/"
-              ]
+              ],
+              "order": 3
             }
           ]
         },
@@ -3092,7 +3120,9 @@
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
                 "https://www.vangoghmuseum.nl/en/highlights/letters/310",
                 "https://vangoghletters.org/vg/letters/let310/letter.html"
-              ]
+              ],
+              "order": 5,
+              "tier": "spine"
             },
             {
               "id": "s3e6-tea-was-a-dud",
@@ -3111,7 +3141,8 @@
                 "https://www.nerdsandbeyond.com/2023/04/19/ted-lasso-recap-season-3-episode-6-sunflowers/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e6-total-football-reinvented",
@@ -3183,7 +3214,9 @@
               "sourcesChecked": [
                 "https://www.cbr.com/ted-lasso-colin-trent-crimm-amsterdam/",
                 "https://www.themarysue.com/ted-lasso-picked-the-perfect-location-for-its-heartwarming-colin-trent-scene/"
-              ]
+              ],
+              "order": 4,
+              "tier": "spine"
             },
             {
               "id": "s3e6-gezellig-rebecca-houseboat",
@@ -3201,7 +3234,8 @@
               "sourcesChecked": [
                 "https://www.insidehook.com/wellness/dutch-lifestyle-gezellig-ted-lasso",
                 "https://www.themarysue.com/what-does-gezellig-mean-gezellig-in-ted-lasso-explained/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e6-piggy-stardust-brendan-hunt",
@@ -3237,7 +3271,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-6-amsterdam-1235391701/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e6-higgins-chet-baker-jazz",
@@ -3255,7 +3290,8 @@
               "sourcesChecked": [
                 "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e6-sunflowers-kansas-homesickness",
@@ -3273,7 +3309,8 @@
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e6-amsterdam-real-locations",
@@ -3317,7 +3354,9 @@
               "sourcesChecked": [
                 "https://www.tvline.com/recaps/ted-lasso-recap-season-3-episode-7-sam-dad-nonso-anozie-1234977704/",
                 "https://www.highonfilms.com/ted-lasso-season-3-episode-7-recap-and-ending-explained/"
-              ]
+              ],
+              "order": 5,
+              "tier": "spine"
             },
             {
               "id": "s3e7-red-string-of-fate",
@@ -3335,7 +3374,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs",
                 "https://en.wikipedia.org/wiki/Red_thread_of_fate"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e7-jamie-heart-not-head",
@@ -3353,7 +3393,8 @@
               "sourcesChecked": [
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/",
                 "https://screenrant.com/ted-lasso-season-3-episode-7-recap-story-reveals/"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e7-shut-up-and-dribble",
@@ -3371,7 +3412,8 @@
               "sourcesChecked": [
                 "https://www.npr.org/sections/thetwo-way/2018/02/19/587097707/laura-ingraham-told-lebron-james-to-shutup-and-dribble-he-went-to-the-hoop",
                 "https://popculture.com/streaming/news/ted-lasso-season-3-episode-7-real-world-problem-hits-afc-richmond/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e7-total-football-selflessness",
@@ -3389,7 +3431,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e7-team-restores-restaurant-community",
@@ -3407,7 +3450,8 @@
               "sourcesChecked": [
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-7-the-strings-that-bind-us/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e7-love-bombing-warning",
@@ -3425,7 +3469,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-7-recap-story-reveals/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e7-enjoy-tekno-ending",
@@ -3443,7 +3488,8 @@
               "sourcesChecked": [
                 "https://www.tunefind.com/blog/2023/05/top-tv-song-last-week-enjoy-tekno-ted-lasso/",
                 "https://en.wikipedia.org/wiki/Tekno_(musician)"
-              ]
+              ],
+              "order": 8
             }
           ]
         },
@@ -3470,7 +3516,8 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
                 "https://screenrant.com/ted-lasso-beatles-hey-jude-song-meaning/",
                 "https://www.themarysue.com/apple-tvs-ted-lasso-season-3-episode-8-beard-and-henry-had-one-of-the-most-heartwarming-conversations/"
-              ]
+              ],
+              "order": 10
             },
             {
               "id": "s3e8-locker-room-consent-debate",
@@ -3489,7 +3536,8 @@
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e8-ted-lets-go-henry-happiness",
@@ -3507,7 +3555,8 @@
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
-              ]
+              ],
+              "order": 9
             },
             {
               "id": "s3e8-roy-jealousy-undercuts-support",
@@ -3526,7 +3575,8 @@
                 "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-8-recap-and-ending-explained/"
-              ]
+              ],
+              "order": 8
             },
             {
               "id": "s3e8-consent-autonomy-theme",
@@ -3545,7 +3595,8 @@
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e8-victim-blaming-jack-statement",
@@ -3564,7 +3615,8 @@
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e8-casablanca-title-inversion",
@@ -3583,7 +3635,9 @@
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://content.time.com/time/specials/packages/article/0,28804,1900025_1900019_1899929,00.html",
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
-              ]
+              ],
+              "order": 1,
+              "tier": "more"
             },
             {
               "id": "s3e8-nate-love-hounds",
@@ -3602,7 +3656,9 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
-              ]
+              ],
+              "order": 5,
+              "tier": "more"
             },
             {
               "id": "s3e8-rebecca-i-got-you",
@@ -3620,7 +3676,8 @@
               "sourcesChecked": [
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e8-keeley-hazell-writing-debut",
@@ -3657,7 +3714,8 @@
               "sourcesChecked": [
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/"
-              ]
+              ],
+              "order": 2
             }
           ]
         },
@@ -3683,7 +3741,8 @@
               "sourcesChecked": [
                 "https://www.cinemablend.com/streaming-news/i-absolutely-loved-how-ted-lasso-thoughtfully-handled-colins-big-moment",
                 "https://alisechaffins.substack.com/p/ted-lasso-colin-comes-out-episode-9-recap"
-              ]
+              ],
+              "order": 5
             },
             {
               "id": "s3e9-isaac-betrayal-not-bigotry",
@@ -3701,7 +3760,8 @@
               "sourcesChecked": [
                 "https://www.thedigitalfix.com/ted-lasso/ted-lasso-season-3-episode-9-recap",
                 "https://readysteadycut.com/2023/05/10/ted-lasso-season-3-episode-9-recap/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e9-la-cage-aux-folles-title",
@@ -3719,7 +3779,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/",
                 "https://www.looper.com/1281752/ted-lasso-s3e9-most-meaningful-episode-title-yet/"
-              ]
+              ],
+              "order": 8
             },
             {
               "id": "s3e9-i-am-what-i-am-anthem",
@@ -3737,7 +3798,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/",
                 "https://moviesost.com/show/ted-lasso/season-3/episode-9"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e9-coming-out-never-said-aloud",
@@ -3755,7 +3817,8 @@
               "sourcesChecked": [
                 "https://www.cinemablend.com/streaming-news/i-absolutely-loved-how-ted-lasso-thoughtfully-handled-colins-big-moment",
                 "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e9-visibility-belonging-theme",
@@ -3773,7 +3836,8 @@
               "sourcesChecked": [
                 "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-9-colin-isaac-roy-1235483955/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e9-real-world-gay-footballers",
@@ -3809,7 +3873,8 @@
               "sourcesChecked": [
                 "https://www.thedigitalfix.com/ted-lasso/ted-lasso-season-3-episode-9-recap",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-9-colin-isaac-roy-1235483955/"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e9-trent-crimm-gay-mentor",
@@ -3826,7 +3891,8 @@
               "groundingNotes": "E9 recaps confirm Trent advises Colin to give Isaac time; the Amsterdam/Homomonument beats that ground the bond are S3E6, not E9 — noted as the callback's origin.",
               "sourcesChecked": [
                 "https://www.looper.com/1282172/ted-lasso-season-3-episode-9-review-colin-scores-big-with-his-story/"
-              ]
+              ],
+              "order": 2
             }
           ]
         },
@@ -3870,7 +3936,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://subjectifymedia.com/ted-lasso-season-3-episode-10-review/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e10-sam-snubbed-akufo",
@@ -3888,7 +3955,8 @@
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e10-nate-father-genius",
@@ -3906,7 +3974,8 @@
               "sourcesChecked": [
                 "https://screenrant.com/does-nick-mohammed-play-the-violin-in-ted-lasso-season-3/",
                 "https://www.classicfm.com/discover-music/instruments/violin/nick-mohammed-plays-ted-lasso-spiegel-im-spiegel/"
-              ]
+              ],
+              "order": 5
             },
             {
               "id": "s3e10-title-double-meaning",
@@ -3942,7 +4011,8 @@
               "sourcesChecked": [
                 "https://collider.com/ted-lasso-season-3-rebecca-speech/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e10-rebecca-stoic-payoff",
@@ -3960,7 +4030,8 @@
               "sourcesChecked": [
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e10-roy-letter-keeley",
@@ -3978,7 +4049,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
-              ]
+              ],
+              "order": 6
             }
           ]
         },
@@ -4006,7 +4078,9 @@
                 "https://collider.com/ted-lasso-season-3-mae-poem-explained/",
                 "https://www.looper.com/1294687/ted-lasso-season-3-episode-11-maes-poem-sounds-familiar/",
                 "https://en.wikipedia.org/wiki/This_Be_The_Verse"
-              ]
+              ],
+              "order": 5,
+              "tier": "spine"
             },
             {
               "id": "s3e11-ted-grief-stepford-smiler",
@@ -4024,7 +4098,9 @@
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
-              ]
+              ],
+              "order": 6,
+              "tier": "spine"
             },
             {
               "id": "s3e11-jamie-fathers-shadow",
@@ -4043,7 +4119,8 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
                 "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
                 "https://www.thereviewgeek.com/tedlasso-s3e11review/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e11-jamie-mum-georgie",
@@ -4061,7 +4138,8 @@
               "sourcesChecked": [
                 "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
                 "https://www.thespoilist.com/3x11-mom-city/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e11-wizard-of-oz-home",
@@ -4080,7 +4158,8 @@
                 "https://www.stereogum.com/2224825/brandi-carlile-the-wiz-home-ted-lasso/music/",
                 "https://www.rollingstone.com/music/music-news/brandi-carlile-diana-ross-the-wiz-home-ted-lasso-1234741058/",
                 "https://en.wikipedia.org/wiki/Mom_City"
-              ]
+              ],
+              "order": 8
             },
             {
               "id": "s3e11-ted-decides-to-go-home",
@@ -4098,7 +4177,8 @@
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e11-nate-reconciliation-beard",
@@ -4116,7 +4196,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
                 "https://comicbook.com/tv-shows/news/ted-lasso-season-3-nate-richmond-return-ending/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e11-becky-ann-baker-emmy",
@@ -4152,7 +4233,8 @@
               "sourcesChecked": [
                 "https://firstcuriosity.com/tv-show/ted-lasso-season-3-does-afc-richmond-win-against-manchester-city/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s3e11-fought-and-lost-brian-may",
@@ -4252,7 +4334,8 @@
                 "https://www.slashfilm.com/1301514/ted-lasso-finale-sound-of-music-reference/",
                 "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
                 "https://www.npr.org/2023/05/31/1179117616/ted-lasso-finale-recap"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s3e12-roy-diamond-dogs-can-people-change",
@@ -4270,7 +4353,8 @@
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E12SoLongFarewell",
                 "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234"
-              ]
+              ],
+              "order": 1
             }
           ]
         }
@@ -4351,7 +4435,7 @@
               "idea": "William James called this <em>precursive faith</em> — belief that runs ahead of the evidence and helps bring about the thing believed in. James's point was that for some things the evidence <em>cannot</em> arrive first: the team only becomes worth believing in after somebody believes in it.",
               "why": "It's the BELIEVE sign again, on a bigger canvas. Season one you could read as luck. Doing it twice, on purpose, knowing the cost — that's the philosophy, not the temperament.",
               "source": "William James on precursive faith and the ethics of belief; treated in ch. 3 of <em>Ted Lasso and Philosophy</em> (Wiley, 2024).",
-              "category": "Belief &amp; hope",
+              "category": "Belief & hope",
               "interest": 4,
               "grounding": 3,
               "groundingStatus": "partial",
@@ -4426,7 +4510,7 @@
               "idea": "Public Enemy built their reputation in the late 1980s on exactly this: political rap written to sound like a threat to anyone hearing it out of context. Read aloud in a principal's office thirty-odd years later, the words do precisely what they were designed to do.",
               "why": "It's a gag, but it's the season's thesis in miniature — a grown-up panicking at something they never bothered to be curious about. Be curious, not judgmental, aimed at a man holding a notebook.",
               "source": "Public Enemy lyrics copied into Henry's notebook, per recaps of the premiere.",
-              "category": "Meta &amp; trivia",
+              "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
@@ -4446,7 +4530,7 @@
               "idea": "W.H. Auden wrote a poem called exactly that — <em>Leap Before You Look</em>, 1940, collected in <em>The Double Man</em>. It argues that the sense of danger shouldn't go away, that safety is the illusion, and that you will have to leap regardless of how long you study the drop.",
               "why": "<strong>Nobody has said the show meant Auden</strong> — no source connects them, and this page won't pretend otherwise. But the poem is real, the title is the same, and it's the better version of the thought: not that the leap is safe, but that looking longer was never going to make it safe.",
               "source": "W.H. Auden, <em>Leap Before You Look</em> (1940; in <em>The Double Man</em>, 1941). The connection to the show is unestablished.",
-              "category": "Belief &amp; hope",
+              "category": "Belief & hope",
               "interest": 4,
               "grounding": 3,
               "groundingStatus": "attributed",
@@ -4504,7 +4588,8 @@
                 "https://www.cs.cmu.edu/~rgs/alice-II.html",
                 "https://etc.usf.edu/lit2go/1/alices-adventures-in-wonderland/3/chapter-ii-the-pool-of-tears/",
                 "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s4e2-bowen-curiosity-writer",
@@ -4544,7 +4629,9 @@
                 "https://www.forbes.com/sites/hannahabraham/2026/08/12/ted-lasso-season-4-episode-2-recap-and-review-were-getting-warmer/",
                 "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
                 "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!"
-              ]
+              ],
+              "order": 5,
+              "tier": "spine"
             },
             {
               "id": "s4e2-locker-room-and-budget",
@@ -4564,7 +4651,8 @@
                 "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
                 "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!",
                 "https://seat42f.com/ted-lasso-season-4-episode-2-recap-review-curiouser-and-curiouser/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s4e2-beard-follows-ted",
@@ -4583,7 +4671,8 @@
                 "https://www.forbes.com/sites/hannahabraham/2026/08/12/ted-lasso-season-4-episode-2-recap-and-review-were-getting-warmer/",
                 "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
                 "https://en.wikipedia.org/wiki/Curiouser_and_Curiouser!"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s4e2-boots-no-gloves",
@@ -4601,7 +4690,8 @@
               "sourcesChecked": [
                 "https://thekoalition.com/2026/ted-lasso-season-4-episode-2-curiouser-and-curiouser-breakdown-recap-review",
                 "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s4e2-beginner-again",
@@ -4621,7 +4711,8 @@
                 "https://seat42f.com/ted-lasso-season-4-episode-2-recap-review-curiouser-and-curiouser/",
                 "https://readysteadycut.com/2026/08/12/ted-lasso-season-4-episode-2-recap/",
                 "https://www.forbes.com/sites/hannahabraham/2026/08/12/ted-lasso-season-4-episode-2-recap-and-review-were-getting-warmer/"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s4e2-alice-chilton-name",
@@ -4668,7 +4759,8 @@
                 "https://www.themoviedb.org/tv/97546-ted-lasso/season/1/episode/2/cast",
                 "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
                 "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/"
-              ]
+              ],
+              "order": 3
             },
             {
               "id": "s4e3-pregnancy-fifa-maternity",
@@ -4707,7 +4799,8 @@
                 "https://www.avclub.com/ted-lasso-recap-season-4-episode-3-richmonds-got-talent",
                 "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/",
                 "https://www.tvinsider.com/1282169/ted-lasso-season-4-open-tryouts-lizzie-gemma-alice-rebecca-keeley/"
-              ]
+              ],
+              "order": 2
             },
             {
               "id": "s4e3-maria-rojas-real-sister",
@@ -4765,7 +4858,8 @@
                 "https://seat42f.com/ted-lasso-season-4-episode-3-recap-richmonds-got-talent/",
                 "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
                 "https://www.tvline.com/2239146/ted-lasso-season-4-episode-3-gemma-lizzie-boots-interview/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s4e3-title-talent-show",
@@ -4804,7 +4898,8 @@
                 "https://nerdinitiative.com/2026/08/19/ted-lasso-season-4-episode-3-recap-tryouts/",
                 "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
                 "https://en.wikipedia.org/wiki/Richmond%27s_Got_Talent"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s4e3-matthijs-amsterdam",
@@ -4822,7 +4917,8 @@
               "sourcesChecked": [
                 "https://dmtalkies.com/ted-lasso-season-4-episode-3-recap-2026/",
                 "https://www.swooon.com/gallery/ted-lasso-ships-couples-ranked/"
-              ]
+              ],
+              "order": 5
             }
           ]
         },

@@ -140,13 +140,30 @@ The reviewer drafts this for every included fact. These are exactly the fields
   "groundingStatus": "verified | attributed | partial | unverified | disputed",
   "groundingNotes": "Short note (mirror verification_notes).",
   "sourcesChecked": [ "https://…" ],
-  "order": 1
+  "order": 1,
+  "tier": "spine"
 }
 ```
 
-`order` is **optional** and set by the human curator, not the reviewer: an
-integer giving the card's position within its episode (ascending) so the page
-reads in a sensible narrative order. Omit it and the card sorts by `interest`.
+`order` and `tier` are **optional** and set by the human curator, not the
+reviewer.
+
+`order` is an integer giving **where the moment falls in the episode**
+(ascending), so the page reads in the order she just watched it. Omit it and the
+card sorts by `interest`. Leave trivia unordered — a casting note has no place
+in a scene sequence, and unordered cards sort to the end.
+
+Derive `order` from the episode's beats, not from memory: anchor each card at
+the **earliest** beat its `moment` describes, and check the sequence against a
+plot summary. Where a summary does not place a beat, say so in a comment rather
+than inventing precision — an abbreviated summary omitting a scene is not
+evidence the scene is absent.
+
+`tier` overrides the fold for one card: `"spine"` reserves a slot above the fold
+outright (rather than competing for one on position), `"more"` folds a card away.
+Reach for `"spine"` when an episode's central moment happens last and chronology
+would bury it; reach for `"more"` when two cards cover the same beat, or when a
+card's position is a guess and it should not displace a confirmed beat.
 
 ### Mapping reviewed fact → card
 
@@ -167,6 +184,9 @@ reads in a sensible narrative order. Omit it and the card sorts by `interest`.
 - **Cards with `grounding` < 3 are withheld from the reader.**
 - Displayed cards are **sorted by `interest`, highest first** — unless the
   curator gives the episode an explicit `order` (then they read in that order).
+- An episode showing **7+ cards** then splits: a **spine of 4** above the fold,
+  the rest behind a "Show N more notes" button. `tier` overrides which cards
+  lead; `Meta & trivia` folds away by default. Shorter episodes read whole.
 
 So withhold rather than inflate. A fascinating but unverifiable fact is
 excluded, not ranked highly.

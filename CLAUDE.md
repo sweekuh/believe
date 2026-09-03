@@ -26,14 +26,27 @@ philosophy or plot facts to fill an episode.
     `believe:lastEpisode`) and are both restored on load.
   - **Re-gate on every episode switch** — a new episode's cards stay hidden
     behind the spoiler button until tapped. `selectEpisode()` resets this.
-  - **Display contract** (`displayCards()` + the `GROUNDING_MIN` /
-    `DEFAULT_INTEREST` constants at the top of the script): cards with
-    `grounding` < 3 are **withheld from the reader**. Order is **curated per
-    episode** when any card carries an integer `order` (ascending, so a page
-    reads intros-before-the-cards-that-reference-them); episodes with no `order`
-    fall back to **most-interesting-first** (`interest`). Ties break by interest
-    then original index. Backward-compatible — unscored/unordered cards sort
-    neutrally.
+  - **Display contract** (`sortCards()` / `displayCards()` + the `GROUNDING_MIN`,
+    `DEFAULT_INTEREST`, `TIER_MIN`, `SPINE_MAX` and `EXTRA_CATEGORY` constants at
+    the top of the script): cards with `grounding` < 3 are **withheld from the
+    reader**. Order is **chronological per episode** when any card carries an
+    integer `order` (ascending — where the moment falls in the episode, so a page
+    reads in the order she just watched it); episodes with no `order` fall back to
+    **most-interesting-first** (`interest`). Ties break by interest then original
+    index. Backward-compatible — unscored/unordered cards sort neutrally.
+    - Note the `interest` scores are **nearly flat** (199 of 251 cards score 4),
+      so that fallback resolves to paste order in practice. `order` is what
+      actually organizes a page; treat the `interest` sort as a legacy default.
+  - **The fold** (`displayCards()`): an episode showing **7+ cards** opens on a
+    **spine of 4** and folds the rest behind a "Show N more notes" button
+    (`#moreGate` / `#moreNotes`); shorter episodes render whole, so S1/S2 at 5
+    cards are untouched. Cards marked `tier: "spine"` reserve their slots first,
+    then the earliest scene-anchored cards fill the rest; `Meta & trivia` folds
+    away by default (a casting note has no moment to be chronological about), and
+    `tier: "more"` folds a card by hand. Both groups keep chronological order.
+    The fold **re-collapses on every episode switch**, like the spoiler gate, and
+    opens one-way. Card tilt (`.tilt-l`/`.tilt-r`) is assigned by a running index
+    across **both** containers — `nth-child` would restart the alternation.
   - Card `id`s must stay stable and unique (they identify placeholder cards and
     keep content addressable); never reuse/reindex them.
   - **Display options** (`setupDisplayOptions()`): a "Display options" panel
@@ -88,7 +101,11 @@ contract):
    (`7*insight + 7*surprise + 4*relevance + 2*spoiler_safety`), gates inclusion
    (default threshold 60), and drafts ready-to-paste cards →
    `research/<ep>.reviewed.json`. It never edits `episodes.json`.
-3. A human promotes `include: true` cards into `episodes.json`.
+3. A human promotes `include: true` cards into `episodes.json`, then assigns
+   each scene-anchored card an `order` (where its moment falls in the episode).
+   Anchor a card at the **earliest** beat its `moment` describes and check the
+   sequence against a plot summary; leave trivia unordered. `tools/set_order.py`
+   applies an `{id: order}` map without hand-editing the JSON.
 
 `docs/factsheet.md` is the sourced research scratch pad the hunter reuses.
 
@@ -103,7 +120,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 34)
+node tools/verify.mjs                # run all checks (currently 62)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

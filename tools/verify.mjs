@@ -93,6 +93,8 @@ try {
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 700));
   check("E1 reveals 5 cards", (await page.$$eval("#notes .card", e => e.length)) === 5);
+  check("a short episode is not split", (await page.$eval("#moreGate", el => el.hidden)));
+  check("a short episode folds nothing away", (await page.$$eval("#moreNotes .card", e => e.length)) === 0);
   check("first card is the BELIEVE sign", /yellow sign/i.test(await page.$eval("#notes .card h2", el => el.textContent)));
   check("cards carry no note box", (await page.$$eval("#notes .yours", e => e.length)) === 0);
   if (shots) await page.screenshot({ path: join(outDir, "02-notes-revealed.png"), fullPage: true });
@@ -163,7 +165,44 @@ try {
   check("S3E1 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
-  check("S3E1 reveals its verified cards", (await page.$$eval("#notes .card", e => e.length)) >= 5);
+  // S3 episodes run long, so they split: a capped spine above the fold, the rest behind
+  // a second disclosure. S1/S2 are short enough to stay whole (checked above).
+  check("S3E1 leads with a capped spine", (await page.$$eval("#notes .card", e => e.length)) === 4);
+  check("S3E1 folds the rest away", (await page.$$eval("#moreNotes .card", e => e.length)) > 0);
+  check("S3E1 spine reads chronologically, not by paste order",
+    (await page.$eval("#notes .card h2", el => el.textContent)) === "Why Isaac goes cold" ||
+    (await page.$eval("#notes .card h2", el => el.textContent)) === "Ted and Henry's goodbye");
+  check("fold button appears once the gate is open", (await page.$eval("#moreGate", el => !el.hidden)));
+  check("folded cards stay hidden until asked for",
+    (await page.$eval("#moreNotes", el => el.classList.contains("open"))) === false);
+  {
+    const label = await page.$eval("#moreBtn", el => el.textContent);
+    const hidden = await page.$$eval("#moreNotes .card", e => e.length);
+    check("fold button names the count", label === `Show ${hidden} more notes`);
+  }
+  await page.click("#moreBtn");
+  await new Promise(r => setTimeout(r, 300));
+  check("fold opens on tap", (await page.$eval("#moreNotes", el => el.classList.contains("open"))));
+  check("fold button retires once opened", (await page.$eval("#moreGate", el => el.hidden)));
+  check("card tilt alternates across both groups",
+    (await page.$$eval("#notes .card, #moreNotes .card",
+      ns => ns.every((n, i) => n.classList.contains(i % 2 === 0 ? "tilt-l" : "tilt-r")))));
+
+  // Switching episodes re-collapses the fold, the same way it re-gates the cards.
+  await page.select("#epPicker", "6");
+  await new Promise(r => setTimeout(r, 300));
+  check("switching episodes re-collapses the fold",
+    (await page.$eval("#moreNotes", el => el.classList.contains("open"))) === false);
+  check("switching episodes re-hides the fold button", (await page.$eval("#moreGate", el => el.hidden)));
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 300));
+  check("S3E6 spine is capped too", (await page.$$eval("#notes .card", e => e.length)) === 4);
+  check("a card marked tier:spine keeps its slot despite landing late",
+    (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
+      .includes("The docent at the Van Gogh Museum"));
+  check("trivia is folded away, not left in the spine",
+    (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
+      .every(t => !/Yankee Doodle|Bowie costume|actually shot|Mathmagic/.test(t)));
 
   // Season 4 began airing on 2026-08-05, so it is now an ordinary gated season that
   // grows an episode a week. The comingSoon teaser path itself still lives in the app
@@ -177,7 +216,10 @@ try {
   check("S4E1 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
-  check("S4E1 reveals its verified cards", (await page.$$eval("#notes .card", e => e.length)) === 9);
+  check("S4E1 leads with a capped spine", (await page.$$eval("#notes .card", e => e.length)) === 4);
+  check("S4E1 folds its remaining 5 cards away", (await page.$$eval("#moreNotes .card", e => e.length)) === 5);
+  check("S4E1 spine still opens on the grocery-store card",
+    (await page.$eval("#notes .card h2", el => el.textContent)) === "Nothing is wrong, and nothing is right");
   if (shots) await page.screenshot({ path: join(outDir, "07-season4-e1.png"), fullPage: true });
 
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.

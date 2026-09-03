@@ -88,7 +88,8 @@ reviewer** (see below). The app reads these at render time:
 |-------|---------|
 | `grounding` (1–5) | How well the card's claims hold up to independent web checks. **Cards with `grounding` < 3 are withheld from the reader.** |
 | `interest` (1–5) | Editorial "oh, I never caught that" value. **Cards sort by `interest`, highest first** — unless the episode sets an explicit `order`. |
-| `order` (int, optional) | Curated reading order within an episode (ascending). When any card in an episode has it, the page reads in that order — so an intro comes before the card that references it — instead of by `interest`. |
+| `order` (int, optional) | **Where the moment happens in the episode** (ascending), so the page reads in the order she just watched it. When any card in an episode has it, the page reads in that order instead of by `interest`. Trivia is left unordered and sorts to the end. |
+| `tier` (optional) | `spine` reserves a slot above the fold for a card chronology would otherwise bury; `more` folds one away. Only meaningful on episodes long enough to split. |
 | `category` | One of `Belief & hope`, `Ethics & character`, `Relationships`, `Redemption`, `Meta & trivia`, `Aesthetics`. |
 | `groundingStatus` | `verified` \| `attributed` \| `partial` \| `unverified` \| `disputed`. |
 | `groundingNotes` | What the reviewer found. |
@@ -97,8 +98,25 @@ reviewer** (see below). The app reads these at render time:
 These fields are **optional and backward-compatible**: a card without them is
 shown and sorts neutrally (so the original E1 cards and the placeholders are
 unaffected). The thresholds live at the top of the script in `index.html`
-(`GROUNDING_MIN`, `DEFAULT_INTEREST`). None of this metadata is shown to the
-reader — it only decides *which* cards appear and *in what order*.
+(`GROUNDING_MIN`, `DEFAULT_INTEREST`, `TIER_MIN`, `SPINE_MAX`,
+`EXTRA_CATEGORY`). None of this metadata is shown to the reader — it only
+decides *which* cards appear, *in what order*, and *how many arrive at once*.
+
+### The fold (long episodes only)
+
+An episode showing **7 or more** cards opens on a **spine of 4** and folds the
+rest behind a "Show N more notes" button; a shorter episode is untouched and
+reads straight through as it always has. Season 1 and 2 episodes are 5 cards, so
+nothing about them changes — the fold exists because season 3 runs to 12 cards
+and season 4 to 10, which is a 1,900-word sitting on a phone.
+
+What leads: cards marked `tier: "spine"` take their slots first, then the
+earliest scene-anchored cards fill what is left. `Meta & trivia` folds away by
+default — production and casting notes have no moment to be chronological about.
+Both groups keep chronological order, so the extras read in sequence too.
+
+Opening the fold is one-way, like the spoiler gate; switching episodes collapses
+it again.
 
 ### The fact pipeline (Claude Code skills)
 

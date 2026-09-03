@@ -119,6 +119,20 @@
   .notes.open{display:block;animation:rise .5s ease both;}
   @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
 
+  /* ---- The "more notes" fold (long episodes only) ---- */
+  .more-gate{text-align:center;margin:36px 0 0;}
+  button.more{
+    font-family:"Inter",sans-serif;font-weight:600;font-size:16px;
+    color:var(--paper);background:transparent;
+    border:1.5px solid rgba(243,232,208,.4);border-radius:999px;
+    padding:13px 24px;min-height:48px;cursor:pointer;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  button.more:hover{border-color:rgba(243,232,208,.8);background:rgba(243,232,208,.06);}
+  button.more:focus-visible{outline:3px solid var(--pitch);outline-offset:3px;}
+  .more-notes{display:none;}
+  .more-notes.open{display:block;}
+
   /* ---- The torn-paper notes ---- */
   .card{
     position:relative;
@@ -129,8 +143,11 @@
     margin:30px 0;
     box-shadow:0 12px 30px rgba(0,0,0,.4);
   }
-  .card:nth-child(odd){transform:rotate(-.5deg);}
-  .card:nth-child(even){transform:rotate(.5deg);}
+  /* The tilt alternates down the whole page. Once an episode is long enough to
+     split, its cards live in two containers, so nth-child would restart the
+     alternation — the class is assigned by a running index at build time. */
+  .card.tilt-l{transform:rotate(-.5deg);}
+  .card.tilt-r{transform:rotate(.5deg);}
   .card::before{
     content:"";position:absolute;top:-11px;left:50%;
     width:84px;height:22px;margin-left:-42px;
@@ -226,6 +243,7 @@
   body.hc .card{box-shadow:0 12px 30px rgba(0,0,0,.6);border:1px solid rgba(24,17,9,.18);}
   body.hc .settings-toggle,
   body.hc .seg-btn,
+  body.hc button.more,
   body.hc .switch{border-color:rgba(243,232,208,.78);}
 
   /* ---- Load error ---- */
@@ -239,7 +257,8 @@
   @media (prefers-reduced-motion:reduce){
     .notes.open{animation:none;}
     button.reveal{transition:none;}
-    .card,.card:nth-child(odd),.card:nth-child(even),.banner{transform:none;}
+    .card,.card.tilt-l,.card.tilt-r,.banner{transform:none;}
+    button.more{transition:none;}
   }
 </style>
 </head>
@@ -297,6 +316,11 @@
 
     <section class="notes" id="notes" aria-hidden="true"></section>
 
+    <div class="more-gate" id="moreGate" hidden>
+      <button class="more" id="moreBtn" aria-expanded="false" aria-controls="moreNotes"></button>
+    </div>
+    <section class="more-notes" id="moreNotes" aria-hidden="true"></section>
+
     <div class="footer" id="footer" hidden></div>
   </main>
 
@@ -318,6 +342,14 @@
     var GROUNDING_MIN = 3;     // cards with grounding < this are not shown
     var DEFAULT_INTEREST = 3;  // used when a card has no interest score
 
+    // Reading contract. A short episode reads straight through, as it always has.
+    // A long one leads with a capped spine of scene-anchored cards and folds the
+    // rest away, so the page opens at roughly the length of a season-one episode
+    // instead of asking for a 1,900-word sitting.
+    var TIER_MIN = 7;          // episodes showing this many cards or more get split
+    var SPINE_MAX = 4;         // cards above the fold once an episode is split
+    var EXTRA_CATEGORY = "Meta & trivia";  // folded away by default: no scene to anchor to
+
     var els = {
       fromMom: document.getElementById("fromMom"),
       seasonPicker: document.getElementById("seasonPicker"),
@@ -332,6 +364,9 @@
       notes: document.getElementById("notes"),
       footer: document.getElementById("footer"),
       epPickerField: document.getElementById("epPickerField"),
+      moreGate: document.getElementById("moreGate"),
+      moreBtn: document.getElementById("moreBtn"),
+      moreNotes: document.getElementById("moreNotes"),
       settingsToggle: document.getElementById("settingsToggle"),
       settingsPanel: document.getElementById("settingsPanel"),
       segBtns: document.querySelectorAll(".seg-btn"),
@@ -393,9 +428,11 @@
     }
 
     // ---- Render one card into the notes section ----
-    function buildCard(card){
+    // `tiltIndex` runs across the spine and the folded extras together, so the
+    // taped-paper alternation reads continuously down the page.
+    function buildCard(card, tiltIndex){
       var article = document.createElement("article");
-      article.className = "card";
+      article.className = "card " + (tiltIndex % 2 === 0 ? "tilt-l" : "tilt-r");
 
       // A lone dash ("—"/"-") is an author placeholder for "no source"; treat it as empty
       // so it never renders as an orphan dash under the card.
@@ -420,13 +457,21 @@
       return article;
     }
 
-    // Choose the reader's card order. An explicit curated `order` (per card,
-    // ascending) wins, so an episode can read top-to-bottom with intros ahead of
-    // the cards that reference them; episodes with no `order` fall back to
-    // most-interesting-first. Either way, weak-grounding cards are dropped and
-    // ties break by interest then original index. Unscored/unordered cards sort
-    // neutrally, so older content keeps working unchanged.
-    function displayCards(ep){
+    // A card the reader meets as trivia rather than as a moment: it has no place in
+    // the episode's chronology, so it is folded away rather than ordered.
+    // `category` has been stored HTML-escaped before now, so compare it decoded.
+    function isExtra(card){
+      var cat = String(card.category || "").replace(/&amp;/g, "&");
+      return cat === EXTRA_CATEGORY;
+    }
+
+    // Choose the reader's card order. An explicit `order` (per card, ascending)
+    // wins: it is the chronological position of the moment in the episode, so a
+    // page reads in the order she just watched it. Episodes with no `order` fall
+    // back to most-interesting-first. Either way, weak-grounding cards are dropped
+    // and ties break by interest then original index. Unscored/unordered cards
+    // sort neutrally, so older content keeps working unchanged.
+    function sortCards(ep){
       var rows = ep.cards
         .filter(function(card){
           return typeof card.grounding !== "number" || card.grounding >= GROUNDING_MIN;
@@ -446,6 +491,39 @@
         return (b.interest - a.interest) || (a.i - b.i);
       });
       return rows.map(function(x){ return x.card; });
+    }
+
+    // Split the sorted cards into what the page opens with and what waits behind
+    // the fold. A short episode is returned whole — the fold only exists to stop a
+    // twelve-card page from arriving all at once.
+    //
+    // Chronology alone would bury an episode whose biggest moment lands last, so
+    // `tier: "spine"` reserves a slot outright rather than competing for one on
+    // position; `tier: "more"` folds a card away. Everything unmarked follows the
+    // default: trivia folds (it has no moment to be chronological about) and the
+    // earliest scene-anchored cards take the slots that are left. Both lists come
+    // back in sorted order, so the spine reads chronologically and so do the extras.
+    function displayCards(ep){
+      var ordered = sortCards(ep);
+      if (ordered.length < TIER_MIN) return { spine: ordered, more: [] };
+
+      var picked = [];
+      ordered.forEach(function(card){
+        if (card.tier === "spine" && picked.length < SPINE_MAX) picked.push(card);
+      });
+      ordered.forEach(function(card){
+        var auto = card.tier !== "spine" && card.tier !== "more" && !isExtra(card);
+        if (auto && picked.length < SPINE_MAX) picked.push(card);
+      });
+
+      // An episode of nothing but trivia would otherwise open on an empty page.
+      if (!picked.length) return { spine: ordered, more: [] };
+
+      var spine = [], more = [];
+      ordered.forEach(function(card){
+        (picked.indexOf(card) === -1 ? more : spine).push(card);
+      });
+      return { spine: spine, more: more };
     }
 
     // ---- Switch to a season: repopulate the episode picker, then pick an episode ----
@@ -505,15 +583,36 @@
       els.notes.setAttribute("aria-hidden", "true");
       els.notes.innerHTML = "";
 
+      // The fold re-collapses on every switch too, for the same reason the spoiler
+      // gate does: a new episode starts from the short version.
+      els.moreNotes.className = "more-notes";
+      els.moreNotes.setAttribute("aria-hidden", "true");
+      els.moreNotes.innerHTML = "";
+      els.moreGate.hidden = true;
+      els.moreBtn.setAttribute("aria-expanded", "false");
+      els.moreBtn.textContent = "";
+
       var placeholderOnly = ep.cards.length === 1 && isPlaceholder(ep.cards[0]);
       // Skip the spoiler gate when there's nothing to spoil: a lone "coming soon"
       // placeholder, or a teaser for an unaired episode/season.
       var skipGate = placeholderOnly || teaser;
 
-      // Pre-build cards (kept hidden by the section until revealed), best first
+      // Pre-build cards (kept hidden by the section until revealed). A long episode
+      // opens on its spine and keeps the rest behind the fold; a short one is whole.
+      var groups = displayCards(ep);
+      var tilt = 0;
       var frag = document.createDocumentFragment();
-      displayCards(ep).forEach(function(card){ frag.appendChild(buildCard(card)); });
+      groups.spine.forEach(function(card){ frag.appendChild(buildCard(card, tilt++)); });
       els.notes.appendChild(frag);
+
+      if (groups.more.length){
+        var moreFrag = document.createDocumentFragment();
+        groups.more.forEach(function(card){ moreFrag.appendChild(buildCard(card, tilt++)); });
+        els.moreNotes.appendChild(moreFrag);
+        els.moreBtn.textContent = groups.more.length === 1
+          ? "Show 1 more note"
+          : "Show " + groups.more.length + " more notes";
+      }
 
       // Footer
       if (ep.footer && ep.footer !== ""){
@@ -541,12 +640,24 @@
       els.notes.setAttribute("aria-hidden", "false");
       els.revealBtn.setAttribute("aria-expanded", "true");
       els.revealBtn.style.display = "none";
+      // The fold is a spoiler too, so its button waits for the gate.
+      els.moreGate.hidden = !els.moreNotes.childElementCount;
       if (scroll){
         els.notes.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       }
     }
 
+    // Opening the fold is one-way, like the spoiler gate: nothing she is reading
+    // disappears from under her. Switching episodes is what collapses it again.
+    function revealMore(){
+      els.moreNotes.classList.add("open");
+      els.moreNotes.setAttribute("aria-hidden", "false");
+      els.moreBtn.setAttribute("aria-expanded", "true");
+      els.moreGate.hidden = true;
+    }
+
     els.revealBtn.addEventListener("click", function(){ revealNotes(true); });
+    els.moreBtn.addEventListener("click", function(){ revealMore(); });
 
     // ---- Display options: text size + high contrast (persisted) ----
     function applyScale(scale){
