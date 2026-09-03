@@ -2701,20 +2701,21 @@
             },
             {
               "id": "s3e3-ted-panic-attack",
-              "tag": "Optimism isn't processing",
+              "tag": "Relief isn't repair",
               "title": "Ted's panic attack",
-              "moment": "A call home goes wrong — Ted learns his ex-wife has begun a relationship with the man who was once their marriage counselor. As the match starts, anxiety swallows him; he ends up in Sharon's office, trying to unpack it.",
-              "idea": "The show keeps insisting that sunny coping is not the same as healing. Ted's relentless optimism can't metabolize this pain on its own — so therapy, and Sharon, become the honest counterweight.",
-              "why": "A serious beat on men's mental health under the comedy. Notice that the breakthrough isn't a pep talk — it's sitting down and feeling it.",
-              "source": "<em>TVLine</em> and <em>Paste</em> recaps of S3E3.",
+              "moment": "Ted rings home at an odd hour and the man who used to be his and Michelle's marriage counselor picks up. Before the Wolves match the panic starts to take hold — and then Zava scores from the halfway line, seconds in, and the feeling is gone.",
+              "idea": "Notice what actually stopped it. Not breathing, not a conversation, not anything Ted did — something spectacular happened and took his attention. A feeling can end without anything that caused it being touched, and that gap is the whole difference between relief and repair.",
+              "why": "He does take the news to Sharon, and that is the honest part of the hour. But the episode lets a win be the thing that made the panic stop. Which is why it comes back a couple of episodes later, over something with nothing to do with Michelle.",
+              "source": "Episode plot: the panic begins before the Wolverhampton match and breaks when Zava scores from the halfway line; Ted also takes the news to Sharon in this episode.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Panic attack tied to the Michelle/Dr. Jacob news, easing during the match and continued in Sharon's office, confirmed across recaps. Snippet-based.",
+              "groundingNotes": "Corrected. An earlier version of this card had Ted ending up 'in Sharon's office' after the panic attack, and read the beat as therapy doing the work. He does take the news to Sharon here, but there is no office scene, and what halts the panic is Zava's goal. Trigger (Jacob answering the house phone), timing (before the Wolves match) and resolution confirmed across Wikipedia and episode recaps.",
               "sourcesChecked": [
-                "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
-                "https://www.pastemagazine.com/tv/ted-lasso/ted-lasso-season-3-anxiety-depression-therapy-mental-health"
+                "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
+                "https://thecinemaholic.com/ted-lasso-season-3-episode-3-recap-and-ending-explained/",
+                "https://screenrant.com/ted-lasso-season-3-sharon-fieldstone-not-used-disappointing/"
               ],
               "order": 4
             },
