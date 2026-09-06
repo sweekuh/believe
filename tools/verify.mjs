@@ -222,6 +222,18 @@ try {
     (await page.$eval("#notes .card h2", el => el.textContent)) === "Nothing is wrong, and nothing is right");
   if (shots) await page.screenshot({ path: join(outDir, "07-season4-e1.png"), fullPage: true });
 
+  // S4E5's strongest card is the half-time speech, which falls sixth in the episode's
+  // chronology and would otherwise be folded away. It carries tier:"spine" for exactly
+  // that reason — this guards the curation decision, not just the tier mechanism.
+  await page.select("#epPicker", "5");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E5 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  check("S4E5 keeps the half-time card above the fold despite landing sixth",
+    (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
+      .includes("Ted has done this before, with Whitman"));
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));
