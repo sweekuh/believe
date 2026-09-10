@@ -234,6 +234,25 @@ try {
     (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
       .includes("Ted has done this before, with Whitman"));
 
+  // S4E6 pins two late-landing cards to the spine: Jamie's misattributed Voltaire
+  // (ninth) and the BELIEVE sign Michelle paints (eleventh, and the episode's whole
+  // point). Chronology would fold both away, and two of the four spine slots are
+  // left for the sort to fill — so this guards both overrides and the auto-fill.
+  await page.select("#epPicker", "6");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E6 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e6spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+  check("S4E6 leads with a capped spine", e6spine.length === 4);
+  check("S4E6 folds its remaining 7 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 7);
+  check("S4E6 keeps the Voltaire card above the fold despite landing ninth",
+    e6spine.includes("Jamie\u2019s philosopher is called Voltron"));
+  check("S4E6 ends the spine on the BELIEVE sign despite it landing last",
+    e6spine[e6spine.length - 1] === "The man who hands out belief gets handed some");
+  if (shots) await page.screenshot({ path: join(outDir, "09-season4-e6.png"), fullPage: true });
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));

@@ -1,0 +1,343 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 6,
+    "title": "Don't Jump Around Much Anymore"
+  },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e6-believe-sign-new",
+      "type": "philosophy",
+      "title": "Someone makes Ted a BELIEVE sign",
+      "detail": "Ted skips the team's New Year's Eve parties for a quiet night with his ex-wife Michelle and their son Henry. He admits he feels adrift. When he comes back upstairs she has painted him a fresh BELIEVE sign out of Henry's school-project supplies, with a note. Multiple recaps describe the reversal plainly: the man who spent three seasons handing that word to other people is on the receiving end of it. Maps to the project's existing William James chapter — precursive faith, believing in advance of the evidence — because the sign only means anything when the evidence is thin.",
+      "moment": "Ted comes back up from a long, honest talk to find a hand-painted sign waiting, made from a kid's leftover craft supplies, with a short note beside it.",
+      "sources": [
+        {
+          "url": "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+          "note": "Michelle makes a new BELIEVE sign; calls it the fifth in the series"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "beat-by-beat placement of the Crown & Anchor scene"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "quotes the note: felt like you could use another one of these"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "freshly painted sign, note about divorce not being failure"
+        },
+        {
+          "url": "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+          "note": "reads it as life coming full circle for Ted"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-believe-sign-origin",
+      "type": "callback",
+      "title": "Where the sign came from",
+      "detail": "Several reviews say the episode finally fills in the backstory of the original BELIEVE sign and ties it to Ted and Michelle's marriage; at least one summary goes further and states Michelle made the first one. The details are NOT consistent across sources I could open — the strongest direct sources describe an origin story being 'revealed' and the women's team getting a sign of their own, without pinning down who painted the first. FLAG FOR REVIEWER: do not let this ship as a settled fact unless a second directly-opened source states it. Deadline and GoldDerby, which appear to carry the specifics, are paywalled (HTTP 402).",
+      "moment": "The conversation between Ted and Michelle turns back to where the word came from in the first place.",
+      "sources": [
+        {
+          "url": "https://fangirlish.com/2026/09/09/ted-lasso-season-4-episode-6-review-a-new-year-with-the-greyhounds",
+          "note": "says the episode reveals the sign's origin story and connects it to Ted and Michelle's past; does not say who made the first sign"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "new sign only; no origin claim"
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e6-voltaire-voltron",
+      "type": "philosophy",
+      "title": "Voltaire, or as Jamie has it, Voltron",
+      "detail": "At the hospital, Jamie tries to talk Rebecca out of her own perfectionism and offers a maxim to the effect that perfect is the opposite of good — crediting it to 'Voltron' rather than Voltaire. The underlying maxim is real and is genuinely associated with Voltaire: 'le mieux est l'ennemi du bien.' What makes it a good card is that Voltaire himself presented it as borrowed — he cites it as an Italian proverb ('Il meglio e l'inimico del bene') in Questions sur l'Encyclopedie (1770) and repeats it in the poem La Begueule (1772) as the saying of a wise Italian. Montesquieu had written something close in his Pensees decades earlier. So a garbled attribution sits on top of a maxim that was already a second-hand attribution — the same shape as the show's Whitman sign. FLAG: the wording of Jamie's line comes from reviewers' paraphrase, not a transcript; the card must paraphrase, not quote.",
+      "moment": "In a hospital corridor, Jamie tells Rebecca she is chasing something perfect instead of accepting something good, and confidently credits the wrong name.",
+      "sources": [
+        {
+          "url": "https://movieweb.com/ted-lasso-season-4-jamie-tartt-return-redemption/",
+          "note": "reports the line and the Voltron misattribution, and that it lands with Rebecca re: Matthijs"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+          "note": "independently notes Jamie quoting Voltaire but saying Voltron"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good",
+          "note": "primary-text trail: Questions sur l'Encyclopedie 1770, La Begueule 1772, Montesquieu antecedent"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-title-two-songs",
+      "type": "reference",
+      "title": "The title is two songs stitched together",
+      "detail": "The episode title folds Duke Ellington's standard 'Don't Get Around Much Anymore' into House of Pain's 'Jump Around.' Ellington recorded the tune as an instrumental called 'Never No Lament' in May 1940; Bob Russell added the lyric in 1942 and it became a hit — a song about a man who no longer goes out. 'Jump Around' (House of Pain, 1992, produced by DJ Muggs of Cypress Hill) is the opposite: the song stadiums play to get everyone off their seats. It is also the song Roy's knee gives out to. The joke and the ache are the same joke: a man who used to jump around.",
+      "moment": "The title card, read against the dance-floor scene it is named for.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Don%27t_Get_Around_Much_Anymore",
+          "note": "Ellington 1940 as Never No Lament; Bob Russell lyric 1942"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jump_Around",
+          "note": "House of Pain 1992, DJ Muggs, stadium-anthem status"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "confirms Jump Around is the needle drop Roy is injured to"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-roy-knee-again",
+      "type": "callback",
+      "title": "Roy's knee, again",
+      "detail": "Roy dances with Jamie at the vodka launch and his knee goes. The knee is the show's oldest running injury — it is what forced him out of the game in the first season — and here it takes him out of a party rather than a match. Reviewers read the scene as the season's clearest statement of the aging-athlete thread that has followed Roy since he stopped playing.",
+      "moment": "Roy is talked onto the dance floor, goes all in for about one chorus, and ends the night in a hospital gown.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "Roy injures knee dancing with Jamie, hospitalized"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "same beat, with the hospital follow-on"
+        },
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+          "note": "knee gives out mid-dance"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e6-ted-adrift",
+      "type": "theme",
+      "title": "The encourager admits he is adrift",
+      "detail": "Ted tells Michelle he has been feeling adrift and is unsure he is getting it right with the team, including the coach he suspended. Reviews across the board single this out as the episode's most honest material and note the picture it paints: lonely, not settled in the new job, quietly struggling underneath the optimism. It is the counterweight the show has always needed for the BELIEVE sign, and it arrives in the same scene as the sign.",
+      "moment": "Over a slow pub evening, Ted says out loud that he does not know if he is doing the right thing.",
+      "sources": [
+        {
+          "url": "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+          "note": "Ted lonely, not at home in the job, suffering underneath"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "calls the Ted/Michelle material the episode's most touching"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+          "note": "Ted confesses feeling adrift, doubts about Chilton suspension"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "Ted confesses feeling adrift and worried about his coaching decisions"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-understanding-without-reconciling",
+      "type": "philosophy",
+      "title": "Understanding without getting back together",
+      "detail": "Michelle talks about how lonely she was after the divorce and encourages Ted to start dating again, pointing him at a stage manager he has already met. Reviewers describe the scene as a rare screen version of two divorced people reaching real understanding without that understanding pointing toward reconciliation, and the note she leaves him reportedly says as much: divorce is not a failure. FLAG: recaps differ on the exact wording of the note and on how much detail she gives about her own relationship since — paraphrase only, and do not assert specifics about who she is with now.",
+      "moment": "Two people who used to be married talk honestly about the years since, and neither one is angling to fix it.",
+      "sources": [
+        {
+          "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-6-review/",
+          "note": "explicitly: understanding does not require reconciliation; both build separate lives"
+        },
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+          "note": "Michelle on Ted's isolation, encourages him to pursue relationships"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "note about divorce not making you a failure"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "Michelle raises the stage manager; Ted admits feeling adrift"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-anais-nin-spy",
+      "type": "easter-egg",
+      "title": "The book in Alice's flat",
+      "detail": "In the domestic scene at Alice Chilton's home, her girlfriend is reading Anais Nin's novel A Spy in the House of Love (1954) — a book about a woman living several incompatible versions of herself and dreading being found out. It lands on the same character the episode is about: Alice is one person at home and a guarded, hard-to-know person around the team. It also continues an Anais Nin thread the previous episode started. FLAG: sourced to two reviews; I could not find a third or a production source.",
+      "moment": "A paperback in shot during the quiet flat scene before Alice decides whether to go to the party.",
+      "sources": [
+        {
+          "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-6-review/",
+          "note": "names the Nin novel and reads it against Alice's public/private split"
+        },
+        {
+          "url": "https://themoviestate.com/2026/09/09/ted-lasso-season-4-episode-6-review/",
+          "note": "references the Nin novel among the episode's touchstones"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-michelle-mark-twain",
+      "type": "reference",
+      "title": "Michelle is writing about Mark Twain",
+      "detail": "Michelle is revealed to be a writer, working on a book about Mark Twain's time in London — and Ted uses the book as a way to change the subject when she asks about his personal life. Twain really did spend extended stretches in London in the early 1870s. FLAG: sources agree she is writing on Twain abroad but differ slightly on framing (London specifically vs. Twain in Europe).",
+      "moment": "Asked something personal, Ted redirects to her book.",
+      "sources": [
+        {
+          "url": "https://fangirlish.com/2026/09/09/ted-lasso-season-4-episode-6-review-a-new-year-with-the-greyhounds",
+          "note": "Michelle is a writer, with a lot of Mark Twain references"
+        },
+        {
+          "url": "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "book on Twain's European experiences"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-alice-reinstated",
+      "type": "theme",
+      "title": "Back at practice, like nothing happened",
+      "detail": "Alice, suspended in the previous episode, turns up anyway after being talked into it at home. Ted finds her at the party, wishes her a happy new year and tells her he will see her at practice as if nothing happened. It is the show's usual position on punishment — the sanction ends when it ends, and the person is not made to carry it afterward — which maps to the project's existing chapter on forgiveness and treating people as full moral agents.",
+      "moment": "Ted arrives late to the team's celebration and settles the suspension in one short exchange.",
+      "sources": [
+        {
+          "url": "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+          "note": "Ted tells Alice he will see her at practice like nothing happened"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "lists Ted reinstating Alice as a late beat"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e6-spoken-for-behind-your-back",
+      "type": "theme",
+      "title": "Advocated for, without being asked",
+      "detail": "Gemma reassures Alice that the team does not dislike her, they just do not know her. Then Lizzie lets slip that Gemma had already told the team about Alice's worries. The kindness and the betrayal are the same act — someone explained you to a room you were not in. It is a sharper piece of ethics than the episode's romantic misunderstandings, and reviewers noticed the contrast.",
+      "moment": "A reassurance lands well until a third party mentions where it came from.",
+      "sources": [
+        {
+          "url": "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+          "note": "Lizzie reveals Gemma spoke to the team; tension about whether Alice can open up"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-6-recap-ending-explained-roys-drunken-hospital-confession-changes-everything/",
+          "note": "Gemma's attempt to help backfires when Alice learns the team was told behind her back"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+          "note": "Alice feels betrayed by the gossip"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-masked-boat-party",
+      "type": "reference",
+      "title": "Masks on the boat",
+      "detail": "Zelda's investor party on the boat gets steadily stranger and ends with masks handed to the guests. Two reviewers reach for Eyes Wide Shut to describe it, and the AV Club review reads the whole event as an upstairs/downstairs setup that positions Zelda against the team. FLAG: the film comparison is a critic's reading, not a stated production reference — the card must say so or say nothing.",
+      "moment": "The benefactor's glossy fundraiser tips over into something the players are clearly not the intended guests of.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "describes an Eyes Wide Shut-style masked event"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+          "note": "masks distributed as the signal to leave"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-jamie-apple-tartt",
+      "type": "trivia",
+      "title": "Apple Tartt",
+      "detail": "Jamie returns — Phil Dunster guesting, and blond again — to launch a vodka brand called Apple Tartt, with dancers and an Adam-and-Eve-themed entrance. The detail reviewers keep pointing at is that the bottle art distorts his face and he does not mind: the vanity is still there, but it no longer runs him. He also drops everything to take Roy to the hospital.",
+      "moment": "A launch party built entirely around a pun, hosted by someone who used to need the room to look at him.",
+      "sources": [
+        {
+          "url": "https://movieweb.com/ted-lasso-season-4-jamie-tartt-return-redemption/",
+          "note": "Apple Tartt, Adam and Eve entrance, distorted bottle art, takes Roy to hospital"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "Jamie as the episode's highlight; vodka launch"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-6-recap-ending-explained-roys-drunken-hospital-confession-changes-everything/",
+          "note": "Apple Tartt launch as one of the three venues"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-declan-lowney",
+      "type": "production",
+      "title": "Directed by Declan Lowney",
+      "detail": "Declan Lowney directed this one. He has directed roughly eight episodes across the series, including 'The Diamond Dogs' in season one and the season three finale — which makes him the show's usual choice for big ensemble episodes where the cast splits into rooms and has to be reassembled by the end. FLAG: episode count is from a search summary of his credits; verify against a credits page before shipping the number, or drop the number and keep the two named episodes.",
+      "moment": "n/a - production credit.",
+      "sources": [
+        {
+          "url": "https://www.metacritic.com/tv/ted-lasso/season-4/episode-6-dont-jump-around-much-anymore/",
+          "note": "director credit for this episode"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Diamond_Dogs_(Ted_Lasso)",
+          "note": "Lowney directed S1E8"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e6-dylan-marron-writer",
+      "type": "production",
+      "title": "Written by Dylan Marron",
+      "detail": "The AV Club review credits the teleplay to Dylan Marron — who, outside the show, made 'Conversations with People Who Hate Me,' a project built on talking to people who attacked him online. If true it is a neat fit for an episode about being misunderstood and about advocating for someone behind their back. FLAG, IMPORTANT: this is a single source. Metacritic lists only the show's developers for this episode, which is a generic series-level credit rather than a contradiction, but I could not find a second source naming Marron. Do not ship without corroboration.",
+      "moment": "n/a - production credit.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+          "note": "names Dylan Marron as writer"
+        },
+        {
+          "url": "https://www.metacritic.com/tv/ted-lasso/season-4/episode-6-dont-jump-around-much-anymore/",
+          "note": "lists developers generically; no episode-specific writer"
+        }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}
