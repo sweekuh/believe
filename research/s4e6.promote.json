@@ -1,0 +1,245 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 6,
+    "title": "Don't Jump Around Much Anymore"
+  },
+  "promoted_by": "human curation step",
+  "note": "order is the chronological position of each moment in the episode. Two cards on the pub scene are folded ('more') so the scene does not take three of four spine slots. The Voltaire card and the BELIEVE-sign card are pinned 'spine' because both land late and chronology would bury them.",
+  "cards": [
+    {
+      "id": "s4e6-anais-nin-spy",
+      "tag": "The book on the sofa",
+      "title": "A second Ana&iuml;s Nin, one episode later",
+      "moment": "In the flat, before Alice decides whether to go to the party at all, her girlfriend is reading a novel. Reviewers who caught the cover identify it as Ana&iuml;s Nin&rsquo;s <em>A Spy in the House of Love</em>.",
+      "idea": "Nin published it in 1954, later collecting it into <em>Cities of the Interior</em>. Its subject is Sabina, an actress in New York who keeps several relationships running at once, each of which calls out a different version of her, and none of which adds up to a whole person. What drives the book is not the affairs but the dread underneath them &mdash; the constant fear of being found out, and the suspicion that there may be no single self under the performances to find.",
+      "why": "It is sitting in the flat of a woman who is one person at home and an unreadable one at work &mdash; and the thing that goes wrong for her this episode is precisely being explained to a room in her absence. Being found out is the plot. Worth noting too that this is the second Nin in two episodes, and the last one turned out not to be by Nin at all.",
+      "source": "Ana&iuml;s Nin, <em>A Spy in the House of Love</em> (1954), later part of <em>Cities of the Interior</em>.",
+      "category": "Aesthetics",
+      "groundingStatus": "partial",
+      "groundingNotes": "Two reviews report a Nin novel in the scene; only one names this title, so the card credits it to the reviewers rather than asserting it flat. The novel&rsquo;s own details are independently verified.",
+      "interest": 4,
+      "grounding": 3,
+      "sourcesChecked": [
+        "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-6-review/",
+        "https://themoviestate.com/2026/09/09/ted-lasso-season-4-episode-6-review/",
+        "https://en.wikipedia.org/wiki/A_Spy_in_the_House_of_Love"
+      ],
+      "order": 1,
+      "tier": "more"
+    },
+    {
+      "id": "s4e6-ted-adrift",
+      "tag": "Adrift",
+      "title": "He says the quiet part at the pub",
+      "moment": "Away from both parties, Ted tells Michelle he has been feeling adrift &mdash; that he is not sure he is doing the right thing with this team, and not sure about the coach he suspended.",
+      "idea": "It is the admission the character is built to avoid. Ted&rsquo;s optimism has always been a discipline rather than a mood, something he performs on purpose for a room that needs it; the cost of performing it is that there is nowhere to put the doubt. Reviewers watching this episode describe what surfaces underneath: a man lonely, not at home in the new job, and quietly struggling.",
+      "why": "Worth noticing where he says it. Not to Beard, not to the Diamond Dogs, not to a therapist &mdash; to the person who already knows the whole story and has no stake in him being fine. That is the same reason Michelle gives for her own choices after the divorce: there is a particular relief in not having to explain yourself from the beginning.",
+      "source": "Reported in compatible terms by <em>The A.V. Club</em>, <em>Ready Steady Cut</em>, <em>The Cinemaholic</em> and <em>DMTalkies</em>.",
+      "category": "Belief & hope",
+      "groundingStatus": "verified",
+      "groundingNotes": "Four independent reviews agree on the admission and on the reading of Ted as lonely and unsettled beneath the optimism.",
+      "interest": 4,
+      "grounding": 5,
+      "sourcesChecked": [
+        "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+        "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+        "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/"
+      ],
+      "order": 2
+    },
+    {
+      "id": "s4e6-michelle-mark-twain",
+      "tag": "Michelle&rsquo;s book",
+      "title": "She has a subject of her own",
+      "moment": "Michelle, it turns out, is a writer, currently at work on a book about Mark Twain. When she starts asking Ted about his personal life, he steers the conversation onto her book instead.",
+      "idea": "Three seasons had Michelle almost entirely as a fact about Ted &mdash; the marriage that ended, the reason he took the job. Here she has a working life, a research subject, and enough of it to bore people with. One reviewer&rsquo;s complaint is that she has one Twain reference too many, which is itself the point: she is finally specific enough to be slightly annoying about something.",
+      "why": "Watch what Ted does with it. Asked something about himself, he reaches for her book &mdash; a genuine interest in another person, deployed as a way of not being asked anything. It is the most efficient illustration the show has given of how his curiosity actually functions: real, generous, and a very effective door.",
+      "source": "Episode reviews at <em>Fangirlish</em> and <em>Seat42F</em>.",
+      "category": "Relationships",
+      "groundingStatus": "partial",
+      "groundingNotes": "Two reviews agree she is a writer working on Twain and that Ted deflects onto it. They differ on whether the book is about Twain in London or in Europe, so the card names neither and makes no claim about Twain&rsquo;s own life.",
+      "interest": 3,
+      "grounding": 3,
+      "sourcesChecked": [
+        "https://fangirlish.com/2026/09/09/ted-lasso-season-4-episode-6-review-a-new-year-with-the-greyhounds",
+        "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+        "https://en.wikipedia.org/wiki/Mark_Twain"
+      ],
+      "order": 3,
+      "tier": "more"
+    },
+    {
+      "id": "s4e6-understanding-without-reconciling",
+      "tag": "Understanding is not reconciling",
+      "title": "Two divorced people talk properly, and stay divorced",
+      "moment": "Over a long pub evening, Ted and Michelle talk honestly about the divorce and about the years since. She names his isolation, tells him to start seeing someone, and has a specific person in mind. Neither of them is angling to undo anything.",
+      "idea": "Almost every story about a former couple reaching real understanding treats the understanding as a stage on the way back to each other &mdash; as if getting each other right and getting back together were the same movement. This scene separates them. They arrive at a genuinely accurate account of what happened and of who the other person is now, and that account points away from reconciliation rather than towards it. The note she leaves reportedly says the same thing in one line: the divorce is not the failure.",
+      "why": "For a show whose central claim is that people are worth the effort of understanding, this is the harder version of the claim &mdash; understanding someone properly does not entitle you to keep them. It is also the episode quietly upgrading Michelle from backstory to person: she has her own work, her own reasoning about her own life, and opinions about Ted that she is not obliged to act on.",
+      "source": "Episode reviews at <em>But Why Tho</em>, <em>Show Snob</em>, <em>Seat42F</em> and <em>The Cinemaholic</em>.",
+      "category": "Relationships",
+      "groundingStatus": "verified",
+      "groundingNotes": "Four reviews agree on the substance and on the pointed absence of reconciliation. They differ on the note&rsquo;s exact wording and on how much Michelle says about her own relationships, so the card does not fix either.",
+      "interest": 4,
+      "grounding": 4,
+      "sourcesChecked": [
+        "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-6-review/",
+        "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+        "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+        "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/"
+      ],
+      "order": 4
+    },
+    {
+      "id": "s4e6-spoken-for-behind-your-back",
+      "tag": "Explained to a room you were not in",
+      "title": "The kindness and the betrayal are the same act",
+      "moment": "Gemma tells Alice the squad does not dislike her &mdash; they simply do not know her. It lands, and it is true. Then Lizzie mentions in passing that Gemma had already taken Alice&rsquo;s worries to the team.",
+      "idea": "Nothing happened twice here. One event is both the advocacy and the injury, and there is no version of the advocacy that does not contain the injury: to speak for someone you have to hand over the part of them they had not chosen to hand over. Alice&rsquo;s specific privacy was the fact that she was struggling. Gemma spent it on her behalf, kindly, and got her a warmer room in exchange for the one thing she was keeping.",
+      "why": "It is much sharper ethics than the romantic misunderstandings running alongside it in this episode, and it is the same question the show asked about Ted in season one, when Trent Crimm decided what to print. Being understood is not free. Somebody has to do the explaining, and the explaining is a disclosure, whoever is doing it and however well they mean it.",
+      "source": "Episode recaps at <em>Show Snob</em>, <em>Ready Steady Cut</em> and <em>Comic Basics</em>.",
+      "category": "Ethics & character",
+      "groundingStatus": "verified",
+      "groundingNotes": "Three independent recaps agree on both halves of the beat: the reassurance, then Lizzie revealing where it came from.",
+      "interest": 4,
+      "grounding": 4,
+      "sourcesChecked": [
+        "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+        "https://www.comicbasics.com/ted-lasso-season-4-episode-6-recap-ending-explained-roys-drunken-hospital-confession-changes-everything/",
+        "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/"
+      ],
+      "order": 5
+    },
+    {
+      "id": "s4e6-jamie-apple-tartt",
+      "tag": "Apple Tartt",
+      "title": "The vanity is still there. It just is not driving",
+      "moment": "Jamie is back, blond again, launching a vodka called Apple Tartt &mdash; dancers, a themed entrance, the whole apparatus. The bottle artwork distorts his face. He does not mind. Later he walks out of his own launch party to sit in a hospital with Roy.",
+      "idea": "The detail reviewers keep pointing at is the bottle. The Jamie of season one could not have let an unflattering picture of himself go out on ten thousand units of anything; the ego was load-bearing and had to be defended at every point. It is still entirely intact here &mdash; nobody would call this modest &mdash; but it has been demoted. He can be laughed at without it costing him anything.",
+      "why": "This is what growth looks like when a show declines to sand a character down: he did not become humble, he became someone whose self-regard no longer outranks other people. The test is the exit. He leaves the party that is entirely about him, on the night it happens, for the man who used to be his enemy.",
+      "source": "Episode coverage at <em>MovieWeb</em>, <em>The A.V. Club</em> and <em>Comic Basics</em>.",
+      "category": "Redemption",
+      "groundingStatus": "verified",
+      "groundingNotes": "Three sources confirm the brand, the launch, the distorted bottle art and Jamie leaving to take Roy to hospital.",
+      "interest": 4,
+      "grounding": 4,
+      "sourcesChecked": [
+        "https://movieweb.com/ted-lasso-season-4-jamie-tartt-return-redemption/",
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+        "https://www.comicbasics.com/ted-lasso-season-4-episode-6-recap-ending-explained-roys-drunken-hospital-confession-changes-everything/"
+      ],
+      "order": 6
+    },
+    {
+      "id": "s4e6-title-two-songs",
+      "tag": "The title",
+      "title": "Two songs, fifty years apart, jammed into one sentence",
+      "moment": "The title card, read against the scene it is named for: Roy on a dance floor for roughly one chorus before his knee ends the evening.",
+      "idea": "It is a collision of two songs that want opposite things. Duke Ellington recorded the tune in May 1940 as an instrumental called &lsquo;Never No Lament&rsquo;; Bob Russell put a lyric on it in 1942 and it became &lsquo;Don&rsquo;t Get Around Much Anymore&rsquo; &mdash; a standard sung by a man who has stopped going out. House of Pain&rsquo;s &lsquo;Jump Around&rsquo; (1992, produced by DJ Muggs of Cypress Hill) is the other thing entirely: the record stadiums put on to get an entire stand off its seats, still doing that job at Camp Randall decades later.",
+      "why": "The title puts the going-out song and the staying-in song in the same breath, which is exactly the shape of the episode. Everyone is out; Ted stays in and gets the better night. Roy jumps around and is punished for it immediately. And the joke has an ache under it &mdash; the standard is about a man who <em>could</em> go out and no longer wants to, while Roy is a man who wants to and no longer can.",
+      "source": "Duke Ellington, &lsquo;Never No Lament&rsquo; (1940), lyric by Bob Russell (1942); House of Pain, &lsquo;Jump Around&rsquo; (1992).",
+      "category": "Meta & trivia",
+      "groundingStatus": "verified",
+      "groundingNotes": "Both songs verified against their own records. Three recaps confirm &lsquo;Jump Around&rsquo; is the song Roy is injured to; the Ellington half of the title is plain from the construction.",
+      "interest": 5,
+      "grounding": 5,
+      "sourcesChecked": [
+        "https://en.wikipedia.org/wiki/Don%27t_Get_Around_Much_Anymore",
+        "https://en.wikipedia.org/wiki/Jump_Around",
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+        "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+        "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/"
+      ],
+      "order": 7
+    },
+    {
+      "id": "s4e6-roy-knee-again",
+      "tag": "The same knee, the same Jamie",
+      "title": "It went stopping Jamie. Now it goes dancing with him",
+      "moment": "Jamie talks Roy onto the dance floor at his own vodka launch. About one chorus later the knee goes, and Jamie drops the entire party to take him to hospital and sit with him there.",
+      "idea": "That knee has a Jamie Tartt attached to it. In the season one finale it went in the act of running Jamie down to stop him scoring against Manchester City &mdash; the injury that finished Roy as a player, with the commentators asking live on air whether they had just watched his last game. By the start of season two he has retired. The joint has now failed twice in front of the same man: once opposing him, once beside him.",
+      "why": "You could not draw the arc more plainly if you tried, and the show does not comment on it, which is why it works. The first time, the knee cost him a career and he was doing it <em>against</em> a boy he could not stand. This time it costs him a party, and the boy carries him out. Note that this is also the second knee card of the season &mdash; it went in Episode 4 as well. The body keeps making the same point.",
+      "source": "<em>Ted Lasso</em> S1E10, <em>The Hope That Kills You</em>, and S2E1, <em>Goodbye Earl</em>; episode recaps.",
+      "category": "Relationships",
+      "groundingStatus": "verified",
+      "groundingNotes": "Season-one injury and season-two retirement confirmed against the episode record. Three recaps confirm the recurrence and that Jamie takes him to hospital.",
+      "interest": 4,
+      "grounding": 4,
+      "sourcesChecked": [
+        "https://www.avclub.com/ted-lasso-recap-season-4-episode-6-dont-jump-around-much-anymore",
+        "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+        "https://showsnob.com/ted-lasso-season-4-episode-6-recap",
+        "https://movieweb.com/ted-lasso-season-4-jamie-tartt-return-redemption/",
+        "https://en.wikipedia.org/wiki/The_Hope_That_Kills_You_(Ted_Lasso)",
+        "https://en.wikipedia.org/wiki/Goodbye_Earl_(Ted_Lasso)"
+      ],
+      "order": 8
+    },
+    {
+      "id": "s4e6-voltaire-voltron",
+      "tag": "Attributed to, and then attributed again",
+      "title": "Jamie&rsquo;s philosopher is called Voltron",
+      "moment": "In a hospital corridor, with Roy&rsquo;s knee being seen to down the hall, Jamie tries to talk Rebecca out of holding her relationship to a standard nothing could meet. He offers her a maxim &mdash; that perfect is the opposite of good &mdash; and credits it, with complete confidence, to Voltron.",
+      "idea": "The maxim is real, and it is the one filed under Voltaire: <em>le mieux est l&rsquo;ennemi du bien</em>, the best is the enemy of the good. But Voltaire did not claim it either. In <em>Questions sur l&rsquo;Encyclop&eacute;die</em> (1770) he offers it as an Italian proverb, <em>il meglio &egrave; l&rsquo;inimico del bene</em>, and in his 1772 verse tale <em>La B&eacute;gueule</em> he hands it to an unnamed wise Italian. Montesquieu had written something very close in his <em>Pens&eacute;es</em> decades before that. The line everyone credits to Voltaire is a line Voltaire went out of his way to credit to someone else.",
+      "why": "This is the third time this show has put real wisdom in a character&rsquo;s mouth under the wrong name &mdash; the Whitman sign above the dartboard, the bud-and-blossom line in the last episode, and now this. The pattern is starting to look less like carelessness and more like the point: a saying survives by being repeated, and being repeated is exactly what wears the author&rsquo;s name off it. Rebecca takes the advice. It works. Nobody in the corridor is any the worse for the fact that Voltron did not say it.",
+      "source": "Voltaire, <em>Questions sur l&rsquo;Encyclop&eacute;die</em> (1770) and <em>La B&eacute;gueule</em> (1772), with the Montesquieu antecedent in his <em>Pens&eacute;es</em>.",
+      "category": "Ethics & character",
+      "groundingStatus": "attributed",
+      "groundingNotes": "Two recaps independently report the Voltron misattribution. The wording of Jamie&rsquo;s line is reviewers&rsquo; paraphrase &mdash; no transcript was reachable &mdash; so the card paraphrases rather than quotes. The provenance of the maxim is documented.",
+      "interest": 5,
+      "grounding": 4,
+      "sourcesChecked": [
+        "https://movieweb.com/ted-lasso-season-4-jamie-tartt-return-redemption/",
+        "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+        "https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good"
+      ],
+      "order": 9,
+      "tier": "spine"
+    },
+    {
+      "id": "s4e6-alice-reinstated",
+      "tag": "The punishment ends when it ends",
+      "title": "See you at practice",
+      "moment": "Alice, suspended at the end of the last episode, turns up to the team&rsquo;s celebration anyway. Ted arrives late, wishes her a happy new year, and tells her he will see her at practice as if nothing had happened.",
+      "idea": "There is a real position buried in that shrug. A sanction is meant to be a fixed quantity &mdash; it runs, it ends, and the person walks out of it owing nothing further. What usually happens instead is that the formal punishment ends and an informal one continues indefinitely: the wariness, the shortened leash, the thing everyone remembers. Ted refuses the second half, and refuses it in public, in one sentence, in front of the team who watched her get suspended.",
+      "why": "This is the same instinct that made Roy forgive Nate quickly, and the show has been argued with about it before &mdash; whether letting someone off that fast treats them as a full moral agent or as someone who cannot be held to much. Here it reads as the generous version, because Alice had to cross a room to be there at all. The suspension did its work. Extending it would only have done work on her.",
+      "source": "Episode reviews at <em>DMTalkies</em> and <em>The Film Gordon</em>.",
+      "category": "Redemption",
+      "groundingStatus": "partial",
+      "groundingNotes": "Two reviews report the reinstatement in compatible terms; no third source and no transcript was reachable, so the card keeps to the substance of the exchange rather than its wording.",
+      "interest": 4,
+      "grounding": 3,
+      "sourcesChecked": [
+        "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+        "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/"
+      ],
+      "order": 10
+    },
+    {
+      "id": "s4e6-believe-sign-returned",
+      "tag": "Solomon&rsquo;s paradox",
+      "title": "The man who hands out belief gets handed some",
+      "moment": "Ted skips both of the team&rsquo;s New Year&rsquo;s Eve parties for a quiet night at the pub with Michelle and Henry, and says out loud that he has been feeling adrift &mdash; unsure he is getting it right with this team, including the coach he suspended. He goes back upstairs and finds a freshly painted BELIEVE sign waiting for him, made out of what was left of Henry&rsquo;s school project, with a short note propped beside it.",
+      "idea": "Psychologists have a name for the specific failure this scene fixes. Igor Grossmann and Ethan Kross called it <em>Solomon&rsquo;s paradox</em> &mdash; after the king renowned for the counsel he gave everyone else and the disaster he made of his own household. Across three studies with 693 participants, they found people reasoned markedly less wisely about their own close-relationship problems than about the identical problem handed to them as a friend&rsquo;s. The remedy that worked was not more thinking. It was <em>self-distancing</em>: describing your own situation in the third person, as though it belonged to somebody else. The gap closed.",
+      "why": "Ted&rsquo;s whole method is one sentence on a sheet of paper, and the one person he cannot hold it up for is himself. That is not hypocrisy and it is not a plot hole &mdash; it is the ordinary shape of the thing, and it is why the sentence has to arrive from outside, in someone else&rsquo;s handwriting. Notice what it is made of. The original was homemade too. Belief in this show is never delivered by an institution; it is always somebody&rsquo;s leftover craft supplies and twenty minutes.",
+      "source": "Igor Grossmann and Ethan Kross, &lsquo;Exploring Solomon&rsquo;s Paradox&rsquo;, <em>Psychological Science</em> 25(8), 2014, pp. 1571&ndash;1580.",
+      "category": "Belief & hope",
+      "groundingStatus": "verified",
+      "groundingNotes": "Five independent recaps agree on the scene and the sign; they differ on the note&rsquo;s exact wording, so the card paraphrases. Solomon&rsquo;s paradox is a pairing offered for the idea, not a reference the show is making.",
+      "interest": 5,
+      "grounding": 5,
+      "sourcesChecked": [
+        "https://readysteadycut.com/2026/09/09/ted-lasso-season-4-episode-6-recap/",
+        "https://thecinemaholic.com/ted-lasso-season-4-episode-6-recap/",
+        "https://thefilmgordon.com/ted-lasso-season-4-episode-6-recap/",
+        "https://seat42f.com/ted-lasso-season-4-episode-6-recap/",
+        "https://dmtalkies.com/ted-lasso-season-4-episode-6-ending-explained-2026/",
+        "https://en.wikipedia.org/wiki/Solomon%27s_paradox",
+        "https://journals.sagepub.com/doi/10.1177/0956797614535400"
+      ],
+      "order": 11,
+      "tier": "spine"
+    }
+  ]
+}
