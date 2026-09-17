@@ -253,6 +253,28 @@ try {
     e6spine[e6spine.length - 1] === "The man who hands out belief gets handed some");
   if (shots) await page.screenshot({ path: join(outDir, "09-season4-e6.png"), fullPage: true });
 
+  // S4E7 reserves three spine slots rather than one or two: chronology would open
+  // the page on the montage and Roy's break-up and fold away both the episode's
+  // argument and the principle it is named after. The fourth slot auto-fills with
+  // the earliest unpinned card, so the spine should read song → principle →
+  // the creed tested → the answer to it, in that order.
+  await page.select("#epPicker", "7");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E7 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e7spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+  check("S4E7 leads with a capped spine", e7spine.length === 4);
+  check("S4E7 folds its remaining 7 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 7);
+  check("S4E7 opens on the montage card the sort filled in",
+    e7spine[0] === "What is playing under the opening montage");
+  check("S4E7 pins the title principle above the fold despite landing fifth",
+    e7spine.includes("The two words the episode is named after"));
+  check("S4E7 ends the spine on the Post-it that answers the sign",
+    e7spine[e7spine.length - 1] === "Two more words, on a Post-it");
+  if (shots) await page.screenshot({ path: join(outDir, "10-season4-e7.png"), fullPage: true });
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));
