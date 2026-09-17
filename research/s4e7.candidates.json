@@ -1,0 +1,191 @@
+{
+  "episode": { "season": 4, "number": 7, "title": "Yes & Baby" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e7-yes-and-improv",
+      "type": "philosophy",
+      "title": "The improv rule the episode is named after",
+      "detail": "Alice tries saying yes to everything and it collapses under its own weight. Ted and Beard give her the improviser's version instead: accept what you are handed, then add something of your own. The principle is standard improv-theatre practice, but its authorship is genuinely murky. The usual lineage runs through the Compass Players' 'Kitchen Rules' in the 1950s (David Shepherd and Paul Sills), Viola Spolin's idea of group agreement, and Del Close, a Spolin student who taught the 'yes, and' formulation and named a production company Yes And with Charna Halpern in the 1980s. Spolin's own estate says the phrase is not formally in her Improvisation for the Theater, and none of the standard histories credit a single coiner.",
+      "moment": "Alice's blanket-yes approach snarls up a training session; Ted and Beard take her aside and hand her the two-word upgrade.",
+      "sources": [
+        { "url": "https://spolin.com/?p=605", "note": "Spolin estate on the trouble with 'Yes, And' and its relation to her work" },
+        { "url": "https://wiki.improvresourcecenter.com/index.php?title=Yes_And", "note": "Improv Resource Center on the principle and its disputed origin" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "A.V. Club recap: Ted and Beard teach Alice 'yes, and'" },
+        { "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-7-recap-ending-explained-does-yes-baby-finally-give-ted-his-fairytale-moment/", "note": "names it explicitly as the improv principle" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-say-yes-to-everything",
+      "type": "reference",
+      "title": "Where the say-yes-to-everything advice comes from",
+      "detail": "Reviewers do not agree on what Alice is actually following. TVLine and Ready Steady Cut describe a self-help tape; the A.V. Club calls it a grindset guru online; Lady Geeks and Comic Basics just say a motivational speaker. No source reports the show naming a source on screen. Worth flagging for the reviewer: the best-known version of the doctrine is Danny Wallace's 2005 memoir Yes Man, a year of saying yes to every offer, loosely adapted into the 2008 Jim Carrey film. There is no evidence the episode references Wallace, and the card must not claim it does.",
+      "moment": "Alice arrives back from suspension committed to agreeing with everything put in front of her.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "describes an online grindset guru" },
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "TVLine recap" },
+        { "url": "https://en.wikipedia.org/wiki/Yes_Man_(book)", "note": "Danny Wallace's memoir — context only, NOT an asserted on-screen reference" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-believe-not-enough",
+      "type": "theme",
+      "title": "The sign meets a room it does not answer",
+      "detail": "The BELIEVE sign goes up in the women's changing room and the players push back: they already believe. What is in their way is childcare, rent, a car that will not start, a second job. Multiple reviewers read this as the season turning its own slogan over and finding the limit of it — optimism as a strategy works differently for people whose problems are material. Ready Steady Cut headlined its recap on exactly this point.",
+      "moment": "The sign is hung; the room's response is that belief is not the thing they are short of.",
+      "sources": [
+        { "url": "https://readysteadycut.com/2026/09/16/ted-lasso-season-4-episode-7-recap/", "note": "'Maybe Believing Isn't Enough' — the sign's limits" },
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "the sign triggers discussion of the slogan's limitations" },
+        { "url": "https://themoviestate.com/2026/09/16/ted-lasso-season-4-episode-7-review/", "note": "players already believe; the obstacles are concrete" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-and-win-postit",
+      "type": "callback",
+      "title": "Two more words on a Post-it",
+      "detail": "Alice answers the room not by defending the sign but by amending it — a Post-it adding a second clause about winning. Reviewers describe the moment landing when Lizzie's young son reads the amended sign aloud. The gesture makes the borrowed sign the women's own rather than a hand-me-down from the men's side; it is also, structurally, a 'yes, and' applied to Ted's own creed.",
+      "moment": "Alice adds a Post-it beneath the sign; the boy in the changing room reads it out.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "Alice moves the sign and adds the Post-it" },
+        { "url": "https://themoviestate.com/2026/09/09/ted-lasso-season-4-episode-6-review/", "note": "series context for the sign (E6)" },
+        { "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-7-recap-ending-explained-does-yes-baby-finally-give-ted-his-fairytale-moment/", "note": "Lizzie's son reads the words aloud" },
+        { "url": "https://ladygeeksmedia.com/2026/09/16/ted-lasso-season-4-episode-7-review-yes-baby/", "note": "makes the sign theirs rather than inherited" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-unpretty-opening",
+      "type": "reference",
+      "title": "The song over the opening montage",
+      "detail": "The cold-open montage of the players' ordinary mornings runs under TLC's 'Unpretty' (1999, from FanMail). The song was co-written by Tionne 'T-Boz' Watkins and Dallas Austin from a poem Watkins wrote and published in her collection Thoughts, written while she was in and out of intensive care with complications from sickle-cell anaemia. Its subject is the gap between what you are worth and what you are told you are worth — which is the episode's whole argument, transposed from bodies to paycheques.",
+      "moment": "Before the title card: childcare falling through, rent going up, a car that will not start, a delivery shift, all scored to the TLC track.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2026/09/16/ted-lasso-season-4-episode-7-review-yes-baby/", "note": "names 'Unpretty' over the opening montage" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-7-recap/", "note": "independently reports a TLC song over the opening montage" },
+        { "url": "https://en.wikipedia.org/wiki/Unpretty", "note": "songwriting credits, FanMail, origin as a T-Boz poem" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-exposure-doesnt-pay",
+      "type": "theme",
+      "title": "What the women's team is actually asking for",
+      "detail": "The players confront Ted over pay: their popularity is not reaching their wages. Reviewers note the men's side has never had to hold this conversation. Real-world anchor, kept separate from the fiction: English women's football only reached full-time salaries league-wide from the 2025-26 season, when the Women's Super League and WSL2 introduced minimum salary requirements developed with the Professional Footballers' Association. Reported WSL wages still range from roughly £20,000-£27,000 at smaller clubs to £40,000-£60,000 for regular squad players at the bigger ones. The show never states which league Richmond's women play in, so the comparison is context, not a claim about the fiction.",
+      "moment": "The squad puts the pay question to Ted directly rather than to the club.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "'Stop making cents' — the pay-equity spine of the episode" },
+        { "url": "https://pitchpearls.com/how-much-do-womens-super-league-players-earn/", "note": "reported WSL salary bands and the 2025-26 full-time minimum" },
+        { "url": "https://ladygeeksmedia.com/2026/09/16/ted-lasso-season-4-episode-7-review-yes-baby/", "note": "resources limited in every way; not the Premier League" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-red-right-hand-milton",
+      "type": "reference",
+      "title": "Roy's entrance music is a line from Milton",
+      "detail": "Nick Cave and the Bad Seeds' 'Red Right Hand' (1994, Let Love In) plays as Roy rolls in on his mobility scooter. Cave took the title from Paradise Lost, Book II, where Belial imagines God's vengeance reaching down for the fallen angels — Milton's phrase for divine retribution. Scoring a knee-injured man on a scooter to the sound of the wrath of God is the joke; it is also the show's standard move of giving Roy an aura several sizes larger than his circumstances.",
+      "moment": "Roy arrives at the training ground on the scooter, underscored by the Cave track.",
+      "sources": [
+        { "url": "https://dmtalkies.com/ted-lasso-season-4-episode-7-ending-explained-2026/", "note": "reports the song playing for Roy's scooter entrance" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "independently names the Nick Cave track in the episode" },
+        { "url": "https://www.openculture.com/2021/10/demystifying-nick-cave-and-the-bad-seeds-red-right-hand-and-how-it-was-inspired-by-miltons-paradise-lost.html", "note": "the Paradise Lost derivation" },
+        { "url": "https://en.wikipedia.org/wiki/Red_Right_Hand", "note": "release details and Milton origin" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-beard-blue-contacts",
+      "type": "theme",
+      "title": "Beard buys a new face",
+      "detail": "Beard turns up altered — a spray tan and blue contact lenses — after being called old on New Year's Eve. Reviewers describe it as an ego death followed by a reinvention aimed at the wrong layer. It rhymes directly with the opening song: the chorus of 'Unpretty' is about buying the fix rather than addressing the hurt, and Beard is the episode's literal demonstration of it.",
+      "moment": "Beard arrives at work visibly changed, and the change fools nobody.",
+      "sources": [
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "spray tan and blue contacts after rejection" },
+        { "url": "https://dmtalkies.com/ted-lasso-season-4-episode-7-ending-explained-2026/", "note": "called old; ego death; blue-eyed reinvention" },
+        { "url": "https://showsnob.com/ted-lasso-season-4-episode-7-recap", "note": "style refresh after being called old on New Year's Eve" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e7-haddock-goldstein-superbob",
+      "type": "production",
+      "title": "The third time these two have played this",
+      "detail": "Dr. Erin Beaumont is played by Laura Haddock, who has now worked opposite Brett Goldstein three times: the 2013 short For Life, the 2015 comedy SuperBob, and this. In each of the first two they played potential love interests. The A.V. Club flags SuperBob specifically in its recap of this episode, the one in which the relationship ends.",
+      "moment": "Production note; no single scene.",
+      "sources": [
+        { "url": "https://www.imdb.com/title/tt10986410/characters/nm2652095/", "note": "Haddock as Dr. Erin Beaumont" },
+        { "url": "https://thecinemaholic.com/erin-beaumont-ted-lasso/", "note": "the For Life / SuperBob history with Goldstein" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "names SuperBob in this episode's recap" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e7-erin-ends-it-generously",
+      "type": "philosophy",
+      "title": "A break-up conducted as an act of accuracy",
+      "detail": "Dr. Erin ends the relationship herself, on the grounds that Roy is still in love with Keeley — a fact she says he let slip while medicated at New Year. She does not argue or bargain; she names what is true and releases him, framing it as his deserving to be with the person he loves. It is the rare TV break-up where the person with less power in the scene is the one being honest.",
+      "moment": "Erin tells Roy what she has worked out and ends things on her own terms.",
+      "sources": [
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "Erin ends it; the New Year's Eve admission" },
+        { "url": "https://showsnob.com/ted-lasso-season-4-episode-7-recap", "note": "she recognises he is still in love with Keeley" },
+        { "url": "https://readysteadycut.com/2026/09/16/ted-lasso-season-4-episode-7-recap/", "note": "describes the break-up as gracefully done" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e7-bantr-returns",
+      "type": "callback",
+      "title": "Bantr is still running",
+      "detail": "Keeley's anonymous dating app from season two resurfaces twice: Ted builds a profile on it with Keeley's help, and two of the women players turn up matched with each other on it despite being on a break. Ted deletes the profile and asks someone out in person instead.",
+      "moment": "Ted's profile-building session with Keeley; separately, the Bantr match in the opening montage.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "Ted on Bantr, and deleting it" },
+        { "url": "https://www.whatsalanwatching.com/ted-lasso-recap-season-4-episode-7-yes-baby/", "note": "two players matched on Bantr during their break" },
+        { "url": "https://ladygeeksmedia.com/2026/09/16/ted-lasso-season-4-episode-7-review-yes-baby/", "note": "Ted's Bantr profile with Keeley" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e7-i-am-lovable",
+      "type": "philosophy",
+      "title": "The three words Ted puts on the profile",
+      "detail": "Pressed to describe himself for a dating profile, Ted lands on being lovable — and then asks out the stage manager in person and is turned down, because she is already seeing someone. The episode deliberately declines to make the claim contingent on the result. Reviewers read the willingness to ask as the growth, not the answer he gets.",
+      "moment": "The profile session with Keeley, then the approach at the theatre and the polite no.",
+      "sources": [
+        { "url": "https://showsnob.com/ted-lasso-season-4-episode-7-recap", "note": "the self-description and the rejection" },
+        { "url": "https://ladygeeksmedia.com/2026/09/16/ted-lasso-season-4-episode-7-review-yes-baby/", "note": "independently reports the same phrase" },
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "reads the leap itself as emotional growth" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e7-dolly-partonberg",
+      "type": "easter-egg",
+      "title": "Dolly Partonberg, agent, of Chicago",
+      "detail": "To call the bluff of Dani Rojas's agent, Zelda invents a rival agent from Chicago under the name Dolly Partonberg and gathers intel in character. It works, and Rebecca makes her a special advisor at the club. Chicago is also where Ted Lasso's own performers come from — the character was built by Jason Sudeikis, Brendan Hunt and Joe Kelly out of Chicago-school improv — which makes the fake city a quiet fit for an episode about 'yes, and'.",
+      "moment": "Zelda works the agent by phone in character.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-7-yes-and-baby", "note": "the Dolly Partonberg alias and the Chicago detail" },
+        { "url": "https://www.tvline.com/2260838/ted-lasso-season-4-episode-7-recap-yes-and-baby/", "note": "Zelda helps with the agent; earns the advisor role" },
+        { "url": "https://www.recorderonline.com/features/entertainment_news/q-a-ted-lasso-s-brendan-hunt-talks-about-his-roots-in-chicago-improv-and/article_bbfdf698-d2a8-5255-9bae-7d0e6b980bfa.html", "note": "Hunt and Sudeikis's Chicago improv roots" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    }
+  ]
+}
