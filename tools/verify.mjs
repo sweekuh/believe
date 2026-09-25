@@ -275,6 +275,27 @@ try {
     e7spine[e7spine.length - 1] === "Two more words, on a Post-it");
   if (shots) await page.screenshot({ path: join(outDir, "10-season4-e7.png"), fullPage: true });
 
+  // S4E8 is the longest episode in the app at 14 cards, and three of its beats
+  // carry a second, context-only card (the knee and the real-world injury rate;
+  // the speech and its Messi example; the ceremony and the real Shed Wall). Those
+  // companions are Meta & trivia or marked "more", so a single scene cannot take
+  // several spine slots. Two cards are pinned: chronology would otherwise open the
+  // page on the sign and the injury and fold away both moments the hour is about.
+  await page.select("#epPicker", "8");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E8 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e8spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+  check("S4E8 leads with a capped spine", e8spine.length === 4);
+  check("S4E8 folds its remaining 10 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 10);
+  check("S4E8 pins the wordless scene above the fold despite landing sixth",
+    e8spine.includes("Ted does nothing, and it is the most deliberate thing he does all year"));
+  check("S4E8 ends the spine on the title speech despite it landing eighth",
+    e8spine[e8spine.length - 1] === "Ted reverses the most famous sentence in American sports cinema");
+  if (shots) await page.screenshot({ path: join(outDir, "11-season4-e8.png"), fullPage: true });
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));

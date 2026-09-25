@@ -1,0 +1,212 @@
+{
+  "episode": { "season": 4, "number": 8, "title": "Follow the Anger" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e8-crying-in-football",
+      "type": "reference",
+      "title": "Ted inverts the most famous line in American sports-movie history",
+      "detail": "Ted tells the squad there is crying in football. The sentence is built on 'There's no crying in baseball!' — Tom Hanks as Jimmy Dugan in A League of Their Own (1992), ranked 54th on AFI's 2005 list of the 100 greatest movie quotations. The film is a fictionalised account of the real All-American Girls Professional Baseball League, a women's league founded during the Second World War, and it was directed by Penny Marshall, the first woman director to take a film past $100m at the box office. In the same speech Ted names Beaches (1988) — directed by Garry Marshall, Penny's older brother, who also appears in A League of Their Own as the candy magnate who founds the league. So the line Ted inverts and the film he names come from a brother and sister. VERIFY CAREFULLY: the A League of Their Own connection is the hunter's reading of the sentence structure; no recap located states it as the show's intention. The Marshall facts are all independently documented.",
+      "moment": "In the changing room, Ted tells the players they do not have to hide, apologise for, or be ashamed of what they feel — there is, he says, crying in football.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/A_League_of_Their_Own", "note": "1992, dir. Penny Marshall; Hanks as Jimmy Dugan; the line; AFI #54; AAGPBL basis; Garry Marshall as Walter Harvey" },
+        { "url": "https://en.wikipedia.org/wiki/Beaches_(1988_film)", "note": "1988, dir. Garry Marshall; states Penny Marshall is his sister" },
+        { "url": "https://en.wikipedia.org/wiki/Penny_Marshall", "note": "Garry was her brother; first woman director past $100m (Big, 1988)" },
+        { "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-emotionally-charged-episode-190855851.html", "note": "Hollywood Reporter recap: Ted's 'there is crying in football' speech, and that he names Beaches" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-8-review/", "note": "independently reports the 'there is crying in football' line" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-messi-tears",
+      "type": "reference",
+      "title": "The player Ted picks to prove his point",
+      "detail": "Ted's example of a man crying at work is Lionel Messi. The choice is load-bearing: Messi's tears are among the most reproduced images in the sport. He wept after Argentina won the 2022 World Cup final, and he wept again after Argentina lost the 2026 final to Spain in extra time on 19 July 2026. VERIFY: recaps report Ted framing it around Messi finally winning the World Cup, i.e. 2022, but the wording comes through a paraphrase — do not assert which final Ted names.",
+      "moment": "Making his case that crying is not weakness, Ted reaches for the best player of his generation rather than for a sentimental example.",
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-emotionally-charged-episode-190855851.html", "note": "Hollywood Reporter recap: Ted's speech conjures Messi sobbing" },
+        { "url": "https://www.aljazeera.com/news/2022/12/18/tears-of-relief-and-joy-as-messi-lifts-world-cup-for-argentina", "note": "Messi and Argentina in tears after the 2022 final" },
+        { "url": "https://www.espn.com/soccer/story/_/id/49405653/lionel-messi-argentina-spain-2026-world-cup-final", "note": "Messi in tears after the 2026 final loss to Spain" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-ted-sits-and-breathes",
+      "type": "philosophy",
+      "title": "Ted does nothing, on purpose",
+      "detail": "Finding Alice sobbing, Ted neither fixes the problem nor produces one of his stories with a lesson folded inside. He sits down next to her and breathes. Reviewers singled it out as the strongest scene of the season; several noted that Ted is managing his own panic at the same moment, so the two of them are sitting through separate crises side by side without addressing either. The interest here is that the show's most talkative character is shown that the useful thing is presence, not language.",
+      "moment": "Alice breaks down where the team can be seen training. Ted sits beside her in their shared office and they breathe, wordlessly, together.",
+      "sources": [
+        { "url": "https://fangirlish.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger-and-do-it-scared/", "note": "Ted does not try to fix her or turn it into a lesson; he sits beside her and breathes" },
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "calls the wordless scene the season's most memorable moment; notes Ted calming his own panic attack" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-8-review/", "note": "praises Ted's simple presence beside Alice as one of the season's best" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-liverpool-callback",
+      "type": "callback",
+      "title": "The same scene, with Ted on the other chair",
+      "detail": "Reviewers read the Ted-and-Alice scene as a deliberate inversion of Season 1, Episode 7, 'Make Rebecca Great Again' — the Liverpool trip, where Ted has his first full panic attack during Rebecca's karaoke turn, stumbles outside, and Rebecca follows him out and stays with him. That was the first time those two spoke without a pretence between them. Six years of story later, Ted is the one who sits down.",
+      "moment": "Ted lowers himself next to a crying colleague and offers company rather than counsel — the thing that was once done for him.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger/", "note": "explicitly reads the scene as echoing the Season 1 moment where Rebecca supported Ted" },
+        { "url": "https://readysteadycut.com/2026/09/23/ted-lasso-season-4-episode-8-recap/", "note": "also names the Season 1 Liverpool episode as the callback" },
+        { "url": "https://en.wikipedia.org/wiki/Make_Rebecca_Great_Again", "note": "S1E7: the Liverpool trip, karaoke, Ted's panic attack, Rebecca following him out" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e8-alice-acl",
+      "type": "callback",
+      "title": "Alice left her on for a hat-trick, and knows exactly what she cost her",
+      "detail": "Alice Chilton was an Arsenal academy player whose own career was ended by repeated anterior cruciate ligament injuries; coaching was the way she stayed in the game. In this episode she declines to substitute Gemma, who has already scored twice, so she can chase a third — and Gemma's knee goes. The guilt is specific rather than general: she is the one person in the building who knows precisely what she has handed her.",
+      "moment": "Richmond are comfortably ahead. Gemma wants to stay on; Alice lets her. Minutes later Gemma comes off on a stretcher.",
+      "sources": [
+        { "url": "https://variety.com/2026/tv/news/ted-lasso-tanya-reynolds-season-4-1236825258/", "note": "Tanya Reynolds interview: Alice's career ended by recurring ACL injury, hence coaching" },
+        { "url": "https://www.hollywoodreporter.com/tv/tv-features/ted-lasso-season-4-new-coach-alice-interview-1236653466/", "note": "Alice as former Arsenal academy player sidelined by ACL injuries" },
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-8-review/", "note": "Alice confronting her own injury history while supporting Gemma" },
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "Alice chose not to bench Gemma, hoping for a hat-trick" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e8-acl-womens-game",
+      "type": "reference",
+      "title": "The injury the women's game cannot get out from under",
+      "detail": "The episode builds its crisis on the single most-discussed structural problem in women's football. Published work puts women's ACL injury rates somewhere between two and eight times men's depending on the study and league, with football-specific work at the higher end; one large cross-league database found roughly fourfold variation between women's leagues, and no significant gap at all in some. Follow-up outcomes are worse too: women are markedly less likely to return fully, and re-tear rates within five years are high. The causes are genuinely contested — anatomy, hormonal cycle, pitch and boot design, training load and the historic under-resourcing of women's medical provision are all argued. NOTE: the show does not name Gemma's injury as an ACL tear; it is a knee injury awaiting an MRI. Do not close that gap.",
+      "moment": "A knee goes in a match Richmond are already winning, and the club discovers it has no functioning medical answer.",
+      "sources": [
+        { "url": "https://www.skysports.com/football/news/11095/12926431/future-of-football-why-acl-injuries-have-been-on-rise-in-womens-game-and-the-technology-and-solutions-to-fix-it", "note": "Sky Sports overview of the rise in ACL injuries in the women's game and the contested causes" },
+        { "url": "https://www.boa.ac.uk/resource/how-to-tackle-the-increased-rate-of-acl-injuries-in-women-s-football.html", "note": "British Orthopaedic Association on the elevated rate and return-to-play outcomes" },
+        { "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11860710/", "note": "peer-reviewed review of sex-specific injury risk and prevention in female footballers" },
+        { "url": "https://www.researchsquare.com/article/rs-7349933/v1", "note": "cross-league database showing large variation between women's leagues" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-shed-wall",
+      "type": "reference",
+      "title": "Roy's tribute is on a real wall, and a real woman got there first",
+      "detail": "Roy is honoured at Chelsea's Shed Wall — an actual installation at Stamford Bridge, built from the surviving section of the old Shed End terrace, carrying portraits and biographies of club legends including Peter Osgood, Ray Wilkins, Peter Bonetti, Frank Lampard, Jimmy Floyd Hasselbaink and John Terry, with QR codes for visitors. In 2024 Emma Hayes was added at the CFC Awards on her departure after twelve years and fifteen trophies as manager of Chelsea Women — the first of the women's legends to appear there. A fictional Chelsea legend collects his tribute in the episode where the show is arguing hardest for the women's team.",
+      "moment": "Roy is due at Chelsea for a Shed Wall induction, resists going, and arrives late to a ceremony that has mostly emptied out.",
+      "sources": [
+        { "url": "https://www.chelseafc.com/en/news/article/hayes-joins-shed-end-legends-at-stamford-bridge", "note": "Chelsea FC official: Hayes added at CFC Awards 2024, first of the Chelsea Women legends on the wall; names other legends" },
+        { "url": "https://www.versus.uk.com/articles/emma-hayes-honoured-with-shed-end-tribute-at-stamford-bridge/", "note": "independent report of the Hayes tribute" },
+        { "url": "https://other.media/work/chelsea-shed-wall/", "note": "the studio that built the wall: surviving piece of the old terrace, portraits, biographies, QR codes" },
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "Roy's Chelsea legends induction and the near-empty ceremony" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-follow-the-anger",
+      "type": "philosophy",
+      "title": "The title is a correction to a line that was never really said",
+      "detail": "Higgins finds supporters quietly selling shares, some well above value, and cannot work out who is buying. Mae's advice — follow the anger — supplies the episode's title and reframes the search: stop asking who profits and start asking who is aggrieved. It sits directly against 'follow the money', which most people believe came out of Watergate. It did not: the line is Hal Holbrook's as Deep Throat in the 1976 film All the President's Men, screenplay by William Goldman. Mark Felt, later confirmed as Deep Throat, is not documented saying it, and it does not appear in Woodward and Bernstein's book. NOTE: the 'follow the money' contrast is the hunter's reading; no recap states it. The Goldman attribution is independently documented and is exactly the kind of misattribution this app already flags for Whitman.",
+      "moment": "In the pub, Higgins lays out the share-buying he cannot explain, and Mae tells him to follow the anger instead.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/All_the_President%27s_Men_(film)", "note": "1976 film, dir. Alan J. Pakula, screenplay William Goldman; Holbrook as Deep Throat" },
+        { "url": "https://www.npr.org/2012/06/16/154997482/follow-the-money-on-the-trail-of-watergate-lore", "note": "NPR: the phrase is not in the book and is not documented from Felt; it is the film's" },
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "Mae's advice to Higgins and the share investigation" },
+        { "url": "https://readysteadycut.com/2026/09/23/ted-lasso-season-4-episode-8-recap/", "note": "independently reports Mae's line and the inflated share prices" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-doctor-quits-over-pay",
+      "type": "theme",
+      "title": "The club doctor walks, and the plot follows",
+      "detail": "Richmond's doctor, Strudwick, has been covering both the men's and the women's teams without a corresponding rise in pay, and cuts ties with the club. That is why Gemma lies at home undiagnosed while the squad waits on an MRI — the injury crisis is administrative before it is medical. It reads as the direct continuation of the previous episode's argument about what the women's team is paid, moved from the players to the staff: a club can announce a women's side and simply not fund the second set of everything it requires.",
+      "moment": "Rebecca leans on the doctor to see Gemma quickly and finds out what the club has actually been asking of him.",
+      "sources": [
+        { "url": "https://dmtalkies.com/ted-lasso-season-4-episode-8-recap-2026/", "note": "Strudwick unhappy at covering both teams without a meaningful rise, cuts ties with the club" },
+        { "url": "https://thecinemaholic.com/ted-lasso-season-4-episode-8-recap/", "note": "the doctor refuses prompt attention, citing being stretched across both teams" },
+        { "url": "https://readysteadycut.com/2026/09/23/ted-lasso-season-4-episode-8-recap/", "note": "medical delays prevent diagnosis; the team cannot train properly" },
+        { "url": "https://www.themoviedb.org/tv/97546-ted-lasso/season/4/cast", "note": "Dr. Strutwick credited in the season cast list" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e8-erin-returns-as-doctor",
+      "type": "callback",
+      "title": "Last week's break-up is this week's emergency appointment",
+      "detail": "Dr Erin Beaumont — the doctor Roy met as a patient, and who ended their relationship in the previous episode by naming out loud that he was still in love with Keeley — is the one who takes Gemma's care on, because Keeley rings her for an emergency appointment. Erin says yes. The generosity she showed in ending it is still operating a week later, and it is Keeley, the other woman in that triangle, who makes the call.",
+      "moment": "With the club's own doctor gone, Keeley phones Erin, and Erin takes Gemma on.",
+      "sources": [
+        { "url": "https://dmtalkies.com/ted-lasso-season-4-episode-8-recap-2026/", "note": "Keeley calls Erin for an emergency appointment; Erin takes over Gemma's care" },
+        { "url": "https://ladygeeksmedia.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger/", "note": "describes Keeley calling Erin as a full-circle moment" },
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-8-biggest-questions/", "note": "Erin stays on good terms with Keeley despite ending things with Roy" },
+        { "url": "https://www.themoviedb.org/tv/97546-ted-lasso/season/4/cast", "note": "Laura Haddock credited as Erin Beaumont; IMDb credits her as Dr. Erin Beaumont" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e8-believe-postits",
+      "type": "easter-egg",
+      "title": "The BELIEVE sign gets edited by committee",
+      "detail": "In the opening montage the players start sticking their own addenda onto the BELIEVE sign until it is buried in Post-its — one turning it into a threat, another softening it into a pleasantry. Recaps read it as the squad applying Alice's 'yes, and' lesson from the previous episode to the club's oldest object: accept what you are handed, then add something of your own. That is a real change in the sign's meaning. For three seasons it was Ted's, handed down; here it is amended by the people underneath it. NOTE: one recap reports Ted himself adding a line about letting it out; others describe only the players' Post-its. Do not state the wording of any individual note as settled.",
+      "moment": "A montage of hands reaching up to the taped-together sign above the door, each leaving something behind.",
+      "sources": [
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "the sign expands into Post-it addenda; reads it as echoing Alice's 'yes, and' exercise" },
+        { "url": "https://ladygeeksmedia.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger/", "note": "the women's team adds Post-its during a montage, Ted contributing too" },
+        { "url": "https://fangirlish.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger-and-do-it-scared/", "note": "the team adding different Post-its to the BELIEVE sign" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-8-recap/", "note": "reports Ted adding a line about letting it out — the outlier account" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e8-jamie-lee-wrote-man-city",
+      "type": "production",
+      "title": "The crying episode was written by the panic-attack writer",
+      "detail": "'Follow the Anger' was written by Jamie Lee and Brett Goldstein and directed by Erica Dunton. Jamie Lee also wrote 'Man City' (Season 2, Episode 8) — the episode in which Ted's panic attack sends him off the touchline and he tells Dr Sharon about his father's suicide, and in which Jamie Tartt punches his father in the changing room. The same writer who put Ted's worst hour on screen has now written the hour in which Ted sits with somebody else through theirs and tells a room full of players that crying is allowed at work. Goldstein, meanwhile, co-wrote the episode in which his own character is inducted onto a legends wall and uses the microphone to talk about somebody else.",
+      "moment": "Credits.",
+      "sources": [
+        { "url": "https://fangirlish.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger-and-do-it-scared/", "note": "written by Jamie Lee & Brett Goldstein, directed by Erica Dunton" },
+        { "url": "https://ladygeeksmedia.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger/", "note": "independently gives the same writer and director credits" },
+        { "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)", "note": "S2E8 written by Jamie Lee; Ted's panic attack, the disclosure to Sharon, Jamie and his father" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e8-roy-cannot-take-praise",
+      "type": "theme",
+      "title": "Handed a microphone about himself, Roy talks about her",
+      "detail": "Roy resists the induction from the start, and the journey there collapses into farce — a failed smart car, a claustrophobic stretch on the Underground, a scooter. When he finally gets to the microphone in front of an almost empty room, he does not talk about his career. He talks about Keeley and what she is worth, and about what she makes him feel he is worth. Reviewers read his whole resistance to the ceremony as an inability to accept praise rather than indifference to it.",
+      "moment": "The ceremony has mostly dispersed. Roy speaks anyway, to a handful of people, and the speech turns out not to be about football.",
+      "sources": [
+        { "url": "https://butwhytho.net/2026/09/ted-lasso-season-4-episode-8-review/", "note": "Roy resists the ceremony; frames it as struggling to accept praise" },
+        { "url": "https://www.avclub.com/ted-lasso-season-4-episode-8-recap-follow-the-anger", "note": "the near-empty room; the speech becomes a confession to Keeley" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-8-recap/", "note": "the stuck automated car and Underground breakdown; the speech delivered to Keeley" },
+        { "url": "https://readysteadycut.com/2026/09/23/ted-lasso-season-4-episode-8-recap/", "note": "the comic journey across London and the confession at Stamford Bridge" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e8-tube-needle-drop",
+      "type": "production",
+      "title": "The song on the Underground",
+      "detail": "One review names the needle-drop over the Roy-and-Keeley Tube sequence as 'When I Get My Hands on You', crediting it with easing Roy's claustrophobia as it builds the scene. SHAKY — flagged for the reviewer. Only one source names the track, and the title is ambiguous: there is a 1973 country single of that name by Diana Trask, and a 2014 recording by The New Basement Tapes in which Marcus Mumford sets unused 1967 Bob Dylan lyrics to his own music, produced by T Bone Burnett. If it is the latter, the link is worth having — Mumford wrote and performs Ted Lasso's theme — but nothing located confirms which recording is used. Do not assert the Dylan/Mumford version without a second source.",
+      "moment": "Roy and Keeley on a crowded Underground carriage, passengers boarding and alighting around them.",
+      "sources": [
+        { "url": "https://ladygeeksmedia.com/2026/09/23/ted-lasso-season-4-episode-8-review-follow-the-anger/", "note": "the single source naming the needle-drop over the Tube scene" },
+        { "url": "https://en.wikipedia.org/wiki/Lost_on_the_River:_The_New_Basement_Tapes", "note": "2014 album; unused 1967 Dylan lyrics; Mumford, Costello, Giddens, Goldsmith, James; prod. T Bone Burnett" },
+        { "url": "https://en.wikipedia.org/wiki/When_I_Get_My_Hands_on_You", "note": "the competing 1973 Diana Trask single of the same title" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}
