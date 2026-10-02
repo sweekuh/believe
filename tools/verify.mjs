@@ -296,6 +296,33 @@ try {
     e8spine[e8spine.length - 1] === "Ted reverses the most famous sentence in American sports cinema");
   if (shots) await page.screenshot({ path: join(outDir, "11-season4-e8.png"), fullPage: true });
 
+  // S4E9 is the only episode so far whose spine is pinned outright, all four slots.
+  // Chronology would open the hour on Keeley's pregnancy and fold away everything the
+  // episode is named after, so the curation reserves the lot and reads: what Mae was
+  // shut out of, where she chose to stand, the girl who got what Mae did not, and then
+  // the hour ending. The last card is unordered on purpose — it spans three beats
+  // rather than sitting at one — which is also what puts it last in the spine.
+  await page.select("#epPicker", "9");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E9 title is Mae Rides the Bus", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Mae Rides the Bus");
+  check("S4E9 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e9spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+  check("S4E9 leads with a capped spine", e9spine.length === 4);
+  check("S4E9 folds its remaining 8 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 8);
+  check("S4E9 opens on the FA-ban card, not the pregnancy subplot",
+    e9spine[0] === "The thing Mae was shut out of was shut by a committee");
+  check("S4E9 keeps the goal that seals promotion above the fold despite landing seventh",
+    e9spine.includes("The girl with the ball scores the one that seals it"));
+  check("S4E9 ends the spine on the hour ending, which has no single beat to sit at",
+    e9spine[e9spine.length - 1] === "She is given the thing, and then the hour ends");
+  check("S4E9 folds the second card on the dressing-room speech rather than spending a slot on it",
+    (await page.$$eval("#moreNotes .card h2", ns => ns.map(n => n.textContent.trim())))
+      .includes("Her whole girlhood fits inside the ban"));
+  if (shots) await page.screenshot({ path: join(outDir, "12-season4-e9.png"), fullPage: true });
+
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
   await new Promise(r => setTimeout(r, 300));

@@ -1,0 +1,245 @@
+{
+  "episode": { "season": 4, "number": 9, "title": "Mae Rides the Bus" },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e9-fa-ban",
+      "type": "reference",
+      "title": "The ban Mae is describing was real, and it lasted fifty years",
+      "detail": "In her speech to the squad Mae says she wanted to be a footballer growing up but women were not allowed to play officially. That is not a vague complaint about sexism; it is a specific piece of English football administration. On 5 December 1921 the Football Association resolved that the game was unsuitable for females and ought not to be encouraged, and barred women's matches from grounds belonging to FA-affiliated clubs. Because almost every usable pitch in the country was affiliated, the effect was a ban. The FA did not recognise women's football again until July 1971 — fifty years later. Reviewers report that the speech names the prohibition rather than merely implying it; the exact wording should be checked, and the card must paraphrase.",
+      "moment": "Before the deciding match, Mae speaks to the Richmond women's squad in the away dressing room and tells them that the game she wanted as a girl was closed to women.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bans_of_women's_association_football", "note": "dates of the 1921 FA resolution and the 1971 lifting, plus the FA's own wording" },
+        { "url": "https://www.fourfourtwo.com/features/womens-football-banned-england-50-years-fa-world-cup-history", "note": "narrative account of the fifty-year ban" },
+        { "url": "https://www.tandfonline.com/doi/full/10.1080/17460263.2020.1726441", "note": "peer-reviewed study of the 1921 ban in the contemporary press" },
+        { "url": "https://www.aol.com/articles/em-ted-lasso-em-kills-153511000.html", "note": "reports the content of Mae's speech" },
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-9-questions-explained/", "note": "independently reports the speech as being about football being closed to her" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-dick-kerr-goodison",
+      "type": "reference",
+      "title": "What the ban interrupted: 53,000 people at Goodison Park",
+      "detail": "The ban is usually told as a story about prudishness, but the year before it the women's game was drawing crowds the men's game would recognise. On Boxing Day 1920 more than 53,000 spectators came through the turnstiles at Goodison Park to watch Dick, Kerr Ladies beat St Helens Ladies 4-0, with thousands more locked outside; the gate receipts went to wounded and unemployed ex-servicemen. That attendance record for a women's club match in England stood for roughly a century. The FA's resolution came eleven and a half months later. This is context for Mae's speech, not something stated on screen.",
+      "moment": "Context for Mae's dressing-room speech about not being allowed to play.",
+      "sources": [
+        { "url": "https://www.womeninfootball.co.uk/news/2020/12/26/remembering-dick,-kerr-ladies-100-years-on/", "note": "the 53,000 figure, the 4-0 scoreline, the locked-out crowd, the charity purpose" },
+        { "url": "https://en.wikipedia.org/wiki/Dick,_Kerr_Ladies_F.C.", "note": "club history and the Boxing Day 1920 match" },
+        { "url": "https://www.abc.net.au/news/2020-12-25/how-a-capacity-crowd-on-boxing-day-saw-womens-football-banned/13002160", "note": "links the crowd directly to the ban a year later" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-mae-inside-the-ban",
+      "type": "theme",
+      "title": "The dates line up exactly against Mae's life",
+      "detail": "The show has never given Mae's age, so this has to be done carefully. But Annette Badland was 76 at the time the episode aired, and the character is plainly of that generation — the Crown & Anchor's long-standing landlady, old enough to be the pub's matriarch. For an Englishwoman born around 1950, the FA's recognition of women's football in July 1971 arrives at about twenty-one: her entire girlhood, every year in which she might have been coached, picked, or given a pitch, falls inside the ban. That is why her line is a fact about administration rather than a lament about talent. Flagged for the reviewer: the arithmetic rests on the actress's age and the character's evident generation, not on anything the script states.",
+      "moment": "Mae's speech to the squad, read against the dates of the FA ban.",
+      "sources": [
+        { "url": "https://www.aol.com/articles/em-ted-lasso-em-kills-153511000.html", "note": "gives Badland's age as 76 in September 2026" },
+        { "url": "https://en.wikipedia.org/wiki/Bans_of_women's_association_football", "note": "ban 1921 to July 1971" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-solon-complete-life",
+      "type": "philosophy",
+      "title": "Why the show kills her on her best day",
+      "detail": "Mae gets the thing she was denied — a dressing room, a bus, a team that wants her there, a promotion won in front of her — and then dies within the hour. There is an old idea underneath that shape. In Herodotus, Solon tells Croesus that no life can be called happy until it is finished, because fortune can still undo it; Aristotle takes the puzzle seriously in the Nicomachean Ethics, where eudaimonia is a property of a complete life rather than of a good afternoon. Badland's own reading of the ending is close to it: she has said Mae's last day was probably her best and that she was very happy. The reviewer should check that this is offered as a frame the card brings, in the app's established voice, and not as a reference the episode makes.",
+      "moment": "The gap of minutes between Mae's speech, the promotion, and her collapse.",
+      "sources": [
+        { "url": "https://www.gutenberg.org/files/2707/2707-h/2707-h.htm", "note": "Herodotus, Histories I.30-32 — Solon and Croesus, the 'call no man happy' exchange" },
+        { "url": "https://classics.mit.edu/Aristotle/nicomachaen.1.i.html", "note": "Nicomachean Ethics I.9-10, happiness and the complete life" },
+        { "url": "https://www.aol.com/articles/em-ted-lasso-em-kills-153511000.html", "note": "Badland on Mae's last day being her best" },
+        { "url": "https://www.tvline.com/2272724/ted-lasso-season-4-episode-9-mae-death-annette-badland/", "note": "Badland on Mae dying happy" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-deprivation-inverted",
+      "type": "philosophy",
+      "title": "The standard account of why death is bad, run backwards",
+      "detail": "The most influential modern answer to why death harms you is Thomas Nagel's deprivation account: death is bad not because being dead is unpleasant but because it takes away goods you would otherwise have had. Mae's death is built to sit awkwardly on that. She spent fifty-odd years deprived of the thing, got it, and died — so the deprivation ran before the death rather than after it, and the last hour is the one stretch of her life the account cannot call a loss. This is an interpretive frame, not a reference the episode makes; flagged as such.",
+      "moment": "Mae's collapse after the promotion is sealed.",
+      "sources": [
+        { "url": "https://plato.stanford.edu/entries/death/", "note": "Stanford Encyclopedia on the deprivation account and Nagel's 'Death' (1970)" },
+        { "url": "https://www.collider.com/ted-lasso-season-4-episode-9-mae-green-fate-death/", "note": "the staging of the collapse after the win" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-shannon-pilot-callback",
+      "type": "callback",
+      "title": "The kid from the Pilot scores the goal that seals it",
+      "detail": "Shannon is the girl with the ball Ted keeps running into around Richmond in Season 1 — they have a kickabout in the Pilot, when Ted knows almost nothing about football and she is one of the few locals not hostile to him. She turns up again at the end of Season 3 getting Trent Crimm's book signed. In Season 4 she auditions for the new women's team in Episode 3, underperforms, and is kept on anyway. Here, reportedly on her debut, she scores the goal that completes a 4-2 comeback and clinches promotion. Six years of setup paid off by a single goal. The reviewer should confirm whether this match is formally her debut and whether her goal is the winner or the clincher — recaps word it both ways.",
+      "moment": "Richmond, two goals down, come back to win 4-2; Shannon scores the decisive goal.",
+      "sources": [
+        { "url": "https://ted-lasso.fandom.com/wiki/Shannon", "note": "Shannon's appearances from the Pilot onward" },
+        { "url": "https://screenrant.com/ted-lasso-season-4-shannon-return-star-player/", "note": "Shannon's Season 1 kickabout with Ted and her Season 4 return as a player" },
+        { "url": "https://www.tvfanatic.com/ted-lasso-season-4-episode-3-richmonds-got-talent-review-recap/", "note": "her Season 4 Episode 3 audition and being kept on" },
+        { "url": "https://fandomwire.com/ted-lasso-season-4-episode-9-recap-is-mae-really-dead-after-richmond-promotion/", "note": "Shannon scores the decisive goal in the 4-2 win" },
+        { "url": "https://showsnob.com/ted-lasso-season-4-episode-9-recap", "note": "independently reports Shannon's goal sealing promotion" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e9-mae-turns-down-the-box",
+      "type": "easter-egg",
+      "title": "She is offered the owner's box and goes to stand with the fans",
+      "detail": "Collider's recap says Mae declines a seat in Rebecca's private box and watches from the supporters' section instead, and that she skips her half-time break to dance. Other coverage describes her as sitting beside Rebecca when she collapses. The two are not flatly incompatible — Rebecca could have come down — but the detail is genuinely in dispute across recaps and the card must not pretend otherwise. What is agreed is where she ends up: in the away end, among Richmond supporters, not upstairs.",
+      "moment": "At the stadium, Mae chooses the supporters' section over the directors' box.",
+      "sources": [
+        { "url": "https://www.collider.com/ted-lasso-season-4-episode-9-mae-green-fate-death/", "note": "Mae turns down the private box and sits with the supporters" },
+        { "url": "https://fandomwire.com/ted-lasso-season-4-episode-9-recap-is-mae-really-dead-after-richmond-promotion/", "note": "places her in the supporters' section" },
+        { "url": "https://www.aol.com/articles/em-ted-lasso-em-kills-153511000.html", "note": "conflicting account: describes her beside Rebecca" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-jump-around",
+      "type": "reference",
+      "title": "What she is dancing to at half-time",
+      "detail": "Collider reports that Mae gives up her half-time break to dance to 'Jump Around' — House of Pain's 1992 single, long since naturalised as a stadium record played over PA systems at grounds and arenas. Two things to check. First, whether any second source confirms the song. Second, whether it reads against Episode 6 of this season, titled 'Don't Jump Around Much Anymore' — itself a play on the Duke Ellington standard 'Don't Get Around Much Anymore'. If the echo is deliberate it is a nice piece of construction; if not, the card should drop the connection rather than assert it.",
+      "moment": "Half-time at the away match: Mae stays in the stand and dances.",
+      "sources": [
+        { "url": "https://www.collider.com/ted-lasso-season-4-episode-9-mae-green-fate-death/", "note": "names 'Jump Around' and the half-time dance" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-anthony-head-tribute",
+      "type": "production",
+      "title": "The card at the very end is not about Mae",
+      "detail": "The episode closes on an in-memoriam card for Anthony Head, who played Rupert Mannion. Head died in June 2026, aged 72, of complications from pneumonia, according to a statement his daughters gave the BBC; Season 4 had long since finished filming. So the hour that kills off one Richmond institution ends by marking the loss of the actor who played its antagonist — a coincidence of scheduling rather than a plan. The reviewer should confirm the card's exact wording and that it is Episode 9 rather than the finale.",
+      "moment": "The final seconds of the episode, after the last scene.",
+      "sources": [
+        { "url": "https://variety.com/2026/tv/news/anthony-head-dead-buffy-ted-lasso-1236767881/", "note": "Head's death, age, and cause" },
+        { "url": "https://deadline.com/2026/09/ted-lasso-tribute-anthony-head-why-in-episode-409-1237114670/", "note": "the tribute card running at the end of episode 409" },
+        { "url": "https://www.gbnews.com/celebrity/ted-lasso-tribute-anthony-head-dead", "note": "independent report of the tribute" },
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-9-questions-explained/", "note": "independently notes the dedication closing the episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-death-withheld",
+      "type": "production",
+      "title": "The show refuses to show you the worst moment",
+      "detail": "The death is staged almost entirely by omission. Mae is seen collapsed rather than collapsing; a steward reaches her; a stadium official finds Rebecca and tells her there has been an incident involving Ms Green; Rebecca then tells Ted in a conversation the audience watches but cannot hear. Nothing on screen states that Mae has died — that came from cast interviews afterwards. Multiple recaps independently describe this structure, which makes it one of the better-sourced facts about the episode.",
+      "moment": "After the final whistle: a steward, an official's message to Rebecca, and a silent exchange between Rebecca and Ted.",
+      "sources": [
+        { "url": "https://meaww.com/did-mae-die-ted-lasso-season-4-episode-9-apple-tv-recap-mae-rides-the-bus-reddit-ending-explained-annette-badland-cliffhanger", "note": "the steward, the 'incident' message, the unheard Rebecca-Ted conversation" },
+        { "url": "https://www.collider.com/ted-lasso-season-4-episode-9-mae-green-fate-death/", "note": "notes the episode withholds specifics and ends on a cliffhanger" },
+        { "url": "https://fandomwire.com/ted-lasso-season-4-episode-9-recap-is-mae-really-dead-after-richmond-promotion/", "note": "ambiguity left for the finale" },
+        { "url": "https://www.tvline.com/2272724/ted-lasso-season-4-episode-9-mae-death-annette-badland/", "note": "Badland confirming the death outside the episode" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-milk-sisters-return",
+      "type": "callback",
+      "title": "The 2.9% that has been sitting there since Season 1",
+      "detail": "The ownership plot turns on the Milk sisters, the elderly minority shareholders from Season 1 who held 2.9% of AFC Richmond until Rupert bought them out. They are shareholders again in Season 4, and the episode ends with Zelda's associate Hugo Riddles sitting down with them about selling to Zelda. Rebecca holds 51% following her decision in the Season 3 finale, so Zelda cannot outvote her — the point of the scene is how close she can get. A long-dormant background detail turned into the season's pivot.",
+      "moment": "Late in the episode: Hugo meets the Milk sisters; Rebecca and Higgins work out that the buyer is Zelda, not Rupert.",
+      "sources": [
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-9-questions-explained/", "note": "the Milk sisters' 2.9%, Rupert's buyout, Hugo locating them, Rebecca's 51%" },
+        { "url": "https://collider.com/ted-lasso-season-4-villain-zelda-southport/", "note": "Zelda as the buyer and Hugo Riddles as her proxy" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-9-mae-rides-the-bus", "note": "independently notes the Season 2 Milk sisters' stake and the share plot" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e9-promotion-first-season",
+      "type": "trivia",
+      "title": "How hard what they just did actually is",
+      "detail": "Richmond's women go up in their first season of existence. In the real English pyramid as it stands for 2026-27, exactly one club is promoted automatically from WSL2 — the champions — while the runners-up and third place fight a pre-qualifier for the right to play the thirteenth-placed WSL side in a play-off. So a first-season side winning automatic promotion means finishing first, with one guaranteed slot available. The reviewer should check whether the episode names the division or the mechanism at all; if it does not, the card must present this as real-world background and say so.",
+      "moment": "The 4-2 win at Bristol clinches promotion to the Women's Super League.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Women%27s_Super_League_2", "note": "promotion format from 2026-27: champions auto-promoted, play-off for the rest" },
+        { "url": "https://shekicks.net/wsl-expansion-playoff-changes/", "note": "WSL expansion, promotion and play-off changes" },
+        { "url": "https://tv.apple.com/us/episode/mae-rides-the-bus/umc.cmc.2pe27sig98nb5bjh33cr91sgu?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy", "note": "Apple's own synopsis: promotion to the Women's Super League" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-gemma-comes-off",
+      "type": "callback",
+      "title": "The same decision as last week, made the other way",
+      "detail": "Episode 8 turned on Alice leaving Gemma on the pitch while Richmond were comfortably ahead, chasing a hat-trick, and Gemma's knee going. Here Gemma is back, scores, and comes off at half-time with the knee sore and the game not yet won — recaps describe her accepting the substitution rather than arguing for it. The structural point is that the episode restages last week's choice and lets both of them get it right. Recaps differ on the specifics: whether her goal is a penalty, whether she is medically cleared beforehand, and whether she asks to come off or is taken off. The card should stay at the level the sources agree on.",
+      "moment": "First half at Bristol: Gemma scores; at half-time she does not come back out.",
+      "sources": [
+        { "url": "https://seat42f.com/ted-lasso-season-4-episode-9-recap-mae-rides-the-bus/", "note": "Gemma returns and scores a penalty, knee still a concern" },
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-9-questions-explained/", "note": "Gemma scores before half-time, re-injures, sits out the second half" },
+        { "url": "https://fandomwire.com/ted-lasso-season-4-episode-9-recap-is-mae-really-dead-after-richmond-promotion/", "note": "reads her accepting substitution as maturity" },
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-9-recap/", "note": "conflicting account: Gemma not cleared to play" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e9-boots-gloves",
+      "type": "easter-egg",
+      "title": "The goalkeeper who finally puts gloves on",
+      "detail": "Boots plays on with a broken finger and accepts protective gloves, which recaps describe as mattering to the result. Worth checking whether the gag is that she has been keeping goal without gloves until now — if so it is a small character beat about accepting help, in an episode largely about people accepting things they had refused.",
+      "moment": "During the match, Boots takes the gloves.",
+      "sources": [
+        { "url": "https://movieweb.com/ted-lasso-season-4-episode-9-questions-explained/", "note": "Boots begins wearing goalkeeping gloves after breaking a finger" },
+        { "url": "https://seat42f.com/ted-lasso-season-4-episode-9-recap-mae-rides-the-bus/", "note": "Boots accepts protective gloves for an injured finger" }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-ms-green",
+      "type": "easter-egg",
+      "title": "The one time anyone uses her surname",
+      "detail": "The stadium official who brings Rebecca the news refers to Mae by surname rather than by the first name everyone in Richmond uses. Several write-ups treat this as pointed — a stranger's register for someone the whole pub calls Mae. The claim that her surname is otherwise never spoken on screen is NOT established: fan references list the character as Mae Green throughout, and at least one write-up contradicts itself on the point. The reviewer should either establish the first-use claim properly or the card should make only the narrow observation about register.",
+      "moment": "A stadium official tells Rebecca there has been an incident, naming Mae formally.",
+      "sources": [
+        { "url": "https://meaww.com/did-mae-die-ted-lasso-season-4-episode-9-apple-tv-recap-mae-rides-the-bus-reddit-ending-explained-annette-badland-cliffhanger", "note": "the official's wording, using the surname" },
+        { "url": "https://ted-lasso.fandom.com/wiki/Mae_Green", "note": "the character is listed under the surname Green generally — undercuts a first-use claim" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-keeley-pregnancy",
+      "type": "theme",
+      "title": "The other arrival",
+      "detail": "Keeley faints in the stands at a Richmond women's match, learns she is roughly eight weeks pregnant, tells Rebecca before she tells Roy, and tells Roy at the end of the episode. Structurally the hour is bookended by a life beginning and a life ending, with the promotion in between; several reviewers note the pairing, and several also complain the relationship beats were skipped over. Low on hidden ideas, high on 'what the episode is doing'.",
+      "moment": "Keeley faints at the match, takes tests, tells Rebecca over lunch, and tells Roy at the end.",
+      "sources": [
+        { "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-9-recap/", "note": "the faint, the eight weeks, the tests, keeping it from Roy" },
+        { "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-9-mae-rides-the-bus", "note": "the order of the beats and the lunch with Rebecca" },
+        { "url": "https://fangirlish.com/2026/09/30/ted-lasso-season-4-episode-9-everything-has-changed", "note": "critical reading of the pregnancy reveal" }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e9-director",
+      "type": "production",
+      "title": "Who made it",
+      "detail": "Matt Lipsey is credited as director by two independent listings. The writing credit is genuinely unsettled in the sources: one listing gives Jack Burditt, Julia Lindon and Dylan Marron, another gives the series-level names Jason Sudeikis, Bill Lawrence, Brendan Hunt and Joe Kelly, which looks like a database defaulting to the show's creators. Do not ship a writing credit unless it can be confirmed against the episode's own titles or Apple's listing.",
+      "moment": "Episode credits.",
+      "sources": [
+        { "url": "https://www.metacritic.com/tv/ted-lasso/season-4/episode-9-mae-rides-the-bus/", "note": "director Matt Lipsey; writing credit listed as the series creators" },
+        { "url": "https://www.tvmaze.com/episodes/3605515/ted-lasso-4x09-mae-rides-the-bus", "note": "second listing for credits and air date" }
+      ],
+      "hunter_confidence": "low",
+      "spoiler_scope": "self"
+    }
+  ]
+}
