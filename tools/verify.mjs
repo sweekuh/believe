@@ -204,13 +204,13 @@ try {
     (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
       .every(t => !/Yankee Doodle|Bowie costume|actually shot|Mathmagic/.test(t)));
 
-  // Season 4 began airing on 2026-08-05, so it is now an ordinary gated season that
-  // grows an episode a week. The comingSoon teaser path itself still lives in the app
-  // for any future season; it just has no season using it right now.
+  // Season 4 aired weekly from 2026-08-05 to the finale on 2026-10-07, so it is now a
+  // complete, ordinary gated season like the three before it. The comingSoon teaser path
+  // itself still lives in the app for any future season; it just has no season using it.
   await page.select("#seasonPicker", "4");
   await new Promise(r => setTimeout(r, 300));
   check("season 4 shows the episode picker", (await page.$eval("#epPickerField", el => el.hidden)) === false);
-  check("season 4 lists only aired episodes", (await page.$$eval("#epPicker option", o => o.length)) >= 1);
+  check("season 4 lists all ten episodes", (await page.$$eval("#epPicker option", o => o.length)) === 10);
   check("eyebrow reflects season 4", /Season 4/.test(await page.$eval("#eyebrow", el => el.textContent)));
   check("season 4 no longer reads coming soon", !/Coming soon/i.test(await page.$eval("#eyebrow", el => el.textContent)));
   check("S4E1 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
@@ -322,6 +322,32 @@ try {
     (await page.$$eval("#moreNotes .card h2", ns => ns.map(n => n.textContent.trim())))
       .includes("Her whole girlhood fits inside the ban"));
   if (shots) await page.screenshot({ path: join(outDir, "12-season4-e9.png"), fullPage: true });
+
+  // S4E10 is the season finale and the last episode in the app. Its spine is pinned three
+  // deep: chronology would open the page on the wake and fold away both the line the
+  // episode is named after (sixth) and the Mary Oliver poem it ends on (last). The fourth
+  // slot is left for the sort to fill, which it does with the wake — so the spine should
+  // read song → lie → title → poem. The five production cards are unordered on purpose.
+  await page.select("#epPicker", "10");
+  await new Promise(r => setTimeout(r, 300));
+  check("S4E10 title is Being Alive", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Being Alive");
+  check("S4E10 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 500));
+  const e10spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+  check("S4E10 leads with a capped spine", e10spine.length === 4);
+  check("S4E10 folds its remaining 11 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 11);
+  check("S4E10 opens on the wake card the sort filled in",
+    e10spine[0] === "The song at Mae\u2019s wake is Scottish, and older than the club");
+  check("S4E10 pins the title line above the fold despite landing sixth",
+    e10spine.includes("The title is quoting Rebecca"));
+  check("S4E10 ends the spine on the poem, which closes the episode",
+    e10spine[e10spine.length - 1] === "The poem in Mae\u2019s voice at the end is arguing with death");
+  check("S4E10 folds the second card on Ted's lie rather than spending a slot on it",
+    (await page.$$eval("#moreNotes .card h2", ns => ns.map(n => n.textContent.trim())))
+      .includes("Philosophy has a name for what Ted does at the wake, and it does not let him off"));
+  if (shots) await page.screenshot({ path: join(outDir, "13-season4-e10.png"), fullPage: true });
 
   // Back to season 1, episode 1 — leaves persisted state clean for the reload checks below.
   await page.select("#seasonPicker", "1");
