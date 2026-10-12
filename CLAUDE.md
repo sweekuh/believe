@@ -64,6 +64,9 @@ philosophy or plot facts to fill an episode.
   banner / torn-paper cards live here and are mirrored in `index.html`. It
   reflects the **default** theme + text size (high contrast off, scale 1); the
   display options layer on top of that baseline and aren't in the reference.
+  Its five cards mirror the live Pilot cards in `episodes.json` (regenerated in the
+  2026-10-12 season review). If the Pilot's cards change, regenerate them there too;
+  the dashed "your own note" box is prototype-only design and stays.
 - **`episodes.json`** is the only content file. Its top level is
   `{ show, fromMom, seasons: [ { season, episodes: [...] } ] }` — a `seasons`
   array, each holding that season's `episodes`. (The app also tolerates a legacy
