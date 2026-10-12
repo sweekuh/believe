@@ -139,5 +139,10 @@ or fewer.
   The owner confirmed this.
 - It keeps its `s1e1-biscuits` id, per the never-reindex rule. Do not move it back to the Pilot,
   and do not rename it.
-- The approved prototype (`design-reference/believe-s1e1.html`) still shows it in the Pilot. The
-  prototype governs visual design, not content, so it is left as is.
+- At the owner's request, `design-reference/believe-s1e1.html` was updated to match. Its five
+  Pilot cards were regenerated from `episodes.json`, along with the intro and footer text. That
+  also fixed three errors in the prototype's sample text:
+  - Camus's view of hope was backwards.
+  - It said "three seasons".
+  - It placed the darts scene in the finale.
+- The reference's markup, styles and the dashed note-box design are unchanged.
