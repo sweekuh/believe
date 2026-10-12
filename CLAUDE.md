@@ -34,8 +34,9 @@ philosophy or plot facts to fill an episode.
     reads in the order she just watched it); episodes with no `order` fall back to
     **most-interesting-first** (`interest`). Ties break by interest then original
     index. Backward-compatible — unscored/unordered cards sort neutrally.
-    - Note the `interest` scores are **nearly flat** (199 of 251 cards score 4),
-      so that fallback resolves to paste order in practice. `order` is what
+    - Note the `interest` scores are **nearly flat** (231 of 325 cards score 4;
+      Season 4 was rescored to a real 3/4/5 spread in its season review), so that
+      fallback resolves to paste order in practice. `order` is what
       actually organizes a page; treat the `interest` sort as a legacy default.
   - **The fold** (`displayCards()`): an episode showing **7+ cards** opens on a
     **spine of 4** and folds the rest behind a "Show N more notes" button
@@ -71,10 +72,14 @@ philosophy or plot facts to fill an episode.
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
   `README.md` and `docs/facts-schema.md`. **All four seasons are now fully
   written** (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes,
-  103 cards; Season 4: 10 episodes), each built through the full hunter →
+  103 cards; Season 4: 10 episodes, 111 cards), each built through the full hunter →
   grounding-reviewer → promotion pipeline. Season 4 aired weekly from 2026-08-05
   to its finale on 2026-10-07 and was written an episode at a time, the morning
   after each broadcast; the teaser it launched with was replaced by real E1 cards.
+  After the finale, Season 4 had a whole-season consistency review
+  (`research/s4-season-review.md`): re-ordered against plot summaries, cross-card
+  contradictions fixed, later cards rewritten to build on earlier ones instead of
+  repeating them, and spines re-curated. Do the same pass after any future season.
   Write an episode only **after** it has aired. The "coming soon" placeholder path
   stays in the app for any future season, with no season currently using it
   (see below).
@@ -120,7 +125,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 96)
+node tools/verify.mjs                # run all checks (currently 105)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

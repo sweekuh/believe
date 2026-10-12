@@ -220,6 +220,11 @@ try {
   check("S4E1 folds its remaining 5 cards away", (await page.$$eval("#moreNotes .card", e => e.length)) === 5);
   check("S4E1 spine still opens on the grocery-store card",
     (await page.$eval("#notes .card h2", el => el.textContent)) === "Nothing is wrong, and nothing is right");
+  // The season review pinned the premiere's three best beats (museum, plaques, tea) so that
+  // the name-tag card is the only one the sort fills in.
+  check("S4E1 pins the tea-bag farewell above the fold",
+    (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim())))
+      .includes("He doesn't choose between them"));
   if (shots) await page.screenshot({ path: join(outDir, "07-season4-e1.png"), fullPage: true });
 
   // S4E5's strongest card is the half-time speech, which falls sixth in the episode's
@@ -232,12 +237,14 @@ try {
   await new Promise(r => setTimeout(r, 500));
   check("S4E5 keeps the half-time card above the fold despite landing sixth",
     (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
-      .includes("Ted has done this before, with Whitman"));
+      .includes("The line everyone credits to Ana\u00efs Nin"));
 
-  // S4E6 pins two late-landing cards to the spine: Jamie's misattributed Voltaire
-  // (ninth) and the BELIEVE sign Michelle paints (eleventh, and the episode's whole
-  // point). Chronology would fold both away, and two of the four spine slots are
-  // left for the sort to fill — so this guards both overrides and the auto-fill.
+
+  // S4E6 pins three late-landing cards to the spine: Jamie's misattributed Voltaire,
+  // Michelle's two Mark Twains (one real, one not) and the BELIEVE sign Michelle paints
+  // (the episode's whole point). Jamie's launch and the knee are marked "more", so the
+  // one slot left for the sort goes to Ted and Michelle's pub conversation. The Nin
+  // novel card is withheld (single-sourced), which is why one fewer card folds.
   await page.select("#epPicker", "6");
   await new Promise(r => setTimeout(r, 300));
   check("S4E6 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
@@ -245,19 +252,26 @@ try {
   await new Promise(r => setTimeout(r, 500));
   const e6spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
   check("S4E6 leads with a capped spine", e6spine.length === 4);
-  check("S4E6 folds its remaining 7 cards away",
-    (await page.$$eval("#moreNotes .card", e => e.length)) === 7);
-  check("S4E6 keeps the Voltaire card above the fold despite landing ninth",
+  // Tags are inserted escaped, so an HTML entity stored in one shows up literally on
+  // screen. E6 and E9 both shipped tags like "Solomon&rsquo;s paradox" before the review.
+  check("no S4E6 tag shows a raw HTML entity",
+    (await page.$$eval(".card .tag", ts => ts.map(t => t.textContent))).every(t => !/&[a-z]+;/i.test(t)));
+  check("S4E6 folds its remaining 6 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 6);
+  check("S4E6 opens on the pub conversation the sort filled in",
+    e6spine[0] === "Two divorced people talk properly, and stay divorced");
+  check("S4E6 keeps the two-Twains card above the fold",
+    e6spine.includes("Michelle quotes Mark Twain twice. Only one of them is Twain"));
+  check("S4E6 keeps the Voltaire card above the fold despite landing eighth",
     e6spine.includes("Jamie\u2019s philosopher is called Voltron"));
   check("S4E6 ends the spine on the BELIEVE sign despite it landing last",
     e6spine[e6spine.length - 1] === "The man who hands out belief gets handed some");
   if (shots) await page.screenshot({ path: join(outDir, "09-season4-e6.png"), fullPage: true });
 
-  // S4E7 reserves three spine slots rather than one or two: chronology would open
-  // the page on the montage and Roy's break-up and fold away both the episode's
-  // argument and the principle it is named after. The fourth slot auto-fills with
-  // the earliest unpinned card, so the spine should read song → principle →
-  // the creed tested → the answer to it, in that order.
+  // S4E7 pins all four spine slots: the principle the episode is named after, Archie
+  // reading the sign as "Some pig" (Charlotte's Web), the creed tested, and the answer
+  // to it. The opening-song card is marked "more", so the spine should read
+  // principle → web → sign tested → sign amended.
   await page.select("#epPicker", "7");
   await new Promise(r => setTimeout(r, 300));
   check("S4E7 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
@@ -265,10 +279,12 @@ try {
   await new Promise(r => setTimeout(r, 500));
   const e7spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
   check("S4E7 leads with a capped spine", e7spine.length === 4);
-  check("S4E7 folds its remaining 7 cards away",
-    (await page.$$eval("#moreNotes .card", e => e.length)) === 7);
-  check("S4E7 opens on the montage card the sort filled in",
-    e7spine[0] === "What is playing under the opening montage");
+  check("S4E7 folds its remaining 8 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 8);
+  check("S4E7 opens on the title principle",
+    e7spine[0] === "The two words the episode is named after");
+  check("S4E7 keeps the Charlotte's Web card above the fold",
+    e7spine.includes("The first thing Archie reads off the sign is \u2018Some pig\u2019"));
   check("S4E7 pins the title principle above the fold despite landing fifth",
     e7spine.includes("The two words the episode is named after"));
   check("S4E7 ends the spine on the Post-it that answers the sign",
@@ -279,8 +295,9 @@ try {
   // carry a second, context-only card (the knee and the real-world injury rate;
   // the speech and its Messi example; the ceremony and the real Shed Wall). Those
   // companions are Meta & trivia or marked "more", so a single scene cannot take
-  // several spine slots. Two cards are pinned: chronology would otherwise open the
-  // page on the sign and the injury and fold away both moments the hour is about.
+  // several spine slots. Three cards are pinned (the wordless scene, the speech, and
+  // Roy's speech at Stamford Bridge); the Post-it montage is marked "more", so the
+  // one slot left for the sort goes to Gemma's injury.
   await page.select("#epPicker", "8");
   await new Promise(r => setTimeout(r, 300));
   check("S4E8 re-gates its cards", (await page.$eval("#gate", el => el.hidden)) === false);
@@ -292,8 +309,12 @@ try {
     (await page.$$eval("#moreNotes .card", e => e.length)) === 10);
   check("S4E8 pins the wordless scene above the fold despite landing sixth",
     e8spine.includes("Ted does nothing, and it is the most deliberate thing he does all year"));
-  check("S4E8 ends the spine on the title speech despite it landing eighth",
-    e8spine[e8spine.length - 1] === "Ted reverses the most famous sentence in American sports cinema");
+  check("S4E8 opens on the injury the sort filled in",
+    e8spine[0] === "The coach who left her on was once the player who came off");
+  check("S4E8 keeps the crying speech above the fold despite landing eighth",
+    e8spine.includes("Ted reverses the most famous sentence in American sports cinema"));
+  check("S4E8 ends the spine on Roy's speech, which lands last",
+    e8spine[e8spine.length - 1] === "Roy takes the honour and talks about someone else");
   if (shots) await page.screenshot({ path: join(outDir, "11-season4-e8.png"), fullPage: true });
 
   // S4E9 is the only episode so far whose spine is pinned outright, all four slots.
@@ -310,8 +331,10 @@ try {
   await new Promise(r => setTimeout(r, 500));
   const e9spine = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
   check("S4E9 leads with a capped spine", e9spine.length === 4);
-  check("S4E9 folds its remaining 8 cards away",
-    (await page.$$eval("#moreNotes .card", e => e.length)) === 8);
+  check("no S4E9 tag shows a raw HTML entity",
+    (await page.$$eval(".card .tag", ts => ts.map(t => t.textContent))).every(t => !/&[a-z]+;/i.test(t)));
+  check("S4E9 folds its remaining 7 cards away",
+    (await page.$$eval("#moreNotes .card", e => e.length)) === 7);
   check("S4E9 opens on the FA-ban card, not the pregnancy subplot",
     e9spine[0] === "The thing Mae was shut out of was shut by a committee");
   check("S4E9 keeps the goal that seals promotion above the fold despite landing seventh",
@@ -323,11 +346,10 @@ try {
       .includes("Her whole girlhood fits inside the ban"));
   if (shots) await page.screenshot({ path: join(outDir, "12-season4-e9.png"), fullPage: true });
 
-  // S4E10 is the season finale and the last episode in the app. Its spine is pinned three
-  // deep: chronology would open the page on the wake and fold away both the line the
-  // episode is named after (sixth) and the Mary Oliver poem it ends on (last). The fourth
-  // slot is left for the sort to fill, which it does with the wake — so the spine should
-  // read song → lie → title → poem. The five production cards are unordered on purpose.
+  // S4E10 is the season finale and the last episode in the app. Its spine is pinned all
+  // four deep, on the hour's payoffs: the lie Ted tells Henry, Mae's will deciding who
+  // owns the club, Ted asking to step down, and the Mary Oliver poem it ends on. The wake
+  // song and the title line fold. The five production cards are unordered on purpose.
   await page.select("#epPicker", "10");
   await new Promise(r => setTimeout(r, 300));
   check("S4E10 title is Being Alive", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Being Alive");
@@ -338,10 +360,12 @@ try {
   check("S4E10 leads with a capped spine", e10spine.length === 4);
   check("S4E10 folds its remaining 11 cards away",
     (await page.$$eval("#moreNotes .card", e => e.length)) === 11);
-  check("S4E10 opens on the wake card the sort filled in",
-    e10spine[0] === "The song at Mae\u2019s wake is Scottish, and older than the club");
-  check("S4E10 pins the title line above the fold despite landing sixth",
-    e10spine.includes("The title is quoting Rebecca"));
+  check("S4E10 opens on the lie Ted tells his son",
+    e10spine[0] === "The lie Ted tells his son is the lie Ted was told");
+  check("S4E10 pins Mae's will above the fold",
+    e10spine.includes("The landlady decides who owns the football club"));
+  check("S4E10 pins Ted stepping down above the fold",
+    e10spine.includes("Ted asks to be demoted, not promoted"));
   check("S4E10 ends the spine on the poem, which closes the episode",
     e10spine[e10spine.length - 1] === "The poem in Mae\u2019s voice at the end is arguing with death");
   check("S4E10 folds the second card on Ted's lie rather than spending a slot on it",
