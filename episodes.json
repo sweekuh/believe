@@ -3302,16 +3302,18 @@
               "title": "Ted’s panic attack, and Henry’s call",
               "moment": "Before the match Ted learns from Michelle that Henry was the bully, not the bullied. After the heavy home defeat it catches up with him in the locker room: the panic starts, he breathes through it, and a video call from Henry, who has apologised to the other boy, helps him the rest of the way.",
               "idea": "Two episodes ago a wonder goal is what ended his panic. This time nothing spectacular happens. He does the slow, unglamorous work himself, which is the difference between relief and repair.",
-              "why": "Watch how the show treats the panic as ordinary and survivable rather than a crisis. To feel the weight of this beat, it helps to remember the Season 2 mental-health storyline it pays off.",
+              "why": "Watch how the show treats the panic as ordinary and survivable rather than a crisis. And listen to what Henry quotes back at him: Ted’s own rule for anger, count to ten, and if that doesn’t work, do it again. It is older than either of them. Thomas Jefferson put almost the same rule last in a list of advice he wrote in 1825 for a newborn namesake, Thomas Jefferson Smith: count ten before you speak, and a hundred if you are very angry.",
               "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (TV Tropes; The Review Geek).",
               "category": "Ethics & character",
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: Ted has panic-attack symptoms after learning Henry was the bully; a call from Henry helps him through it, continuing the Season 2 anxiety arc. Season review 2026-10-12: CORRECTED: the news and the panic are separate scenes; the panic comes after the match. ‘Tingling fingers’ was unsupported (transcript).",
+              "groundingNotes": "Confirmed: Ted has panic-attack symptoms after learning Henry was the bully; a call from Henry helps him through it, continuing the Season 2 anxiety arc. Season review 2026-10-12: CORRECTED: the news and the panic are separate scenes; the panic comes after the match. ‘Tingling fingers’ was unsupported (transcript). Season review follow-up 2026-10-12: Henry quoting Ted’s count-to-ten rule is in the episode subtitles (Forever Dreaming, Springfield) and independently in the Geek. Dad. Life. review. Jefferson’s letter to Thomas Jefferson Smith, 21 February 1825, per Wikiquote’s sourced section (Library of Congress manuscript image) and 19FortyFive (citing the National Archives). That Ted says the rule was his own father’s rests on the subtitles alone, so the card calls it Ted’s rule.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
-                "https://www.thereviewgeek.com/tedlasso-s3e5review/"
+                "https://www.thereviewgeek.com/tedlasso-s3e5review/",
+                "https://geekdadlife.com/2023/04/review-ted-lasso-s3-e5-signs/",
+                "https://en.wikiquote.org/wiki/Thomas_Jefferson"
               ],
               "order": 6
             }
@@ -4210,7 +4212,7 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://subjectifymedia.com/ted-lasso-season-3-episode-10-review/"
               ],
-              "order": 2,
+              "order": 3,
               "tier": "more"
             },
             {
@@ -4230,7 +4232,7 @@
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak"
               ],
-              "order": 1
+              "order": 2
             },
             {
               "id": "s3e10-nate-father-genius",
@@ -4249,7 +4251,7 @@
                 "https://screenrant.com/does-nick-mohammed-play-the-violin-in-ted-lasso-season-3/",
                 "https://www.classicfm.com/discover-music/instruments/violin/nick-mohammed-plays-ted-lasso-spiegel-im-spiegel/"
               ],
-              "order": 5
+              "order": 6
             },
             {
               "id": "s3e10-title-double-meaning",
@@ -4286,7 +4288,7 @@
                 "https://collider.com/ted-lasso-season-3-rebecca-speech/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
               ],
-              "order": 3
+              "order": 4
             },
             {
               "id": "s3e10-rebecca-stoic-payoff",
@@ -4305,7 +4307,7 @@
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
               ],
-              "order": 6
+              "order": 7
             },
             {
               "id": "s3e10-roy-letter-keeley",
@@ -4324,7 +4326,7 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
               ],
-              "order": 7
+              "order": 8
             },
             {
               "id": "s3e10-jamie-wears-sams-number",
@@ -4343,7 +4345,28 @@
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)",
                 "https://www.thewrap.com/ted-lasso-season-3-episode-10-shocking-moments/"
               ],
-              "order": 4
+              "order": 5
+            },
+            {
+              "id": "s3e10-ted-real-whitman",
+              "tag": "Attributed to, and by",
+              "category": "Ethics & character",
+              "title": "This time the Whitman is real",
+              "moment": "Talking to the squad before the international break, Ted jokes that he is the strong, silent type and also loud and weak, because, like all humans, he contains multitudes.",
+              "idea": "That one really is Walt Whitman. Near the end of <em>Song of Myself</em>, Whitman shrugs off the charge that he contradicts himself: he is large, he says, he contains multitudes. It is the poet’s defence of being more than one thing at once, which is exactly the joke Ted is making about himself.",
+              "why": "Three seasons after the darts match, where Ted credited Whitman with a line Whitman never wrote, he quotes him correctly, without naming him, in passing. A small, fitting repair for a show that keeps losing track of who said what.",
+              "source": "Walt Whitman, <em>Song of Myself</em>, section 51 (<em>Leaves of Grass</em>); Ted’s line per the episode subtitles and quote round-ups.",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review follow-up 2026-10-12: The line is in the episode subtitles (Forever Dreaming and Springfield, which share one caption source) and independently in Lo Myrick’s episode-by-episode round-up, which places it in S3E10 as said to the team, and Minimize My Mess’s quote list, which credits it to Ted. Whitman’s text per Project Gutenberg’s Leaves of Grass. The show does not name Whitman here; the card does.",
+              "sourcesChecked": [
+                "https://www.lomyrick.com/blog/ted-lasso-key-moments-and-life-lessons-across-all-3-seasons",
+                "https://www.minimizemymess.com/blog/ted-lasso-quotes",
+                "https://www.gutenberg.org/files/1322/1322-0.txt"
+              ],
+              "tier": "more",
+              "order": 1
             }
           ]
         },

@@ -128,8 +128,8 @@ or fewer.
 
 - **Cristo Fernández's 2026 professional debut.** It is well sourced, but its injury details
   conflict across sources, and S1E6 is already at its card limit.
-- **Jefferson's "count to ten" (S3E5) and Ted's "I contain multitudes" (S3E10).** Each is
-  single-source.
+- **Jefferson's "count to ten" (S3E5) and Ted's "I contain multitudes" (S3E10).** Both have
+  since been second-sourced and shipped; see `s3-season-review.md`.
 - **S2E10 Molly Drake's "I Remember", S2E8's staff-confession scene, and S2E4's closing
   singalong.** These are good, but the slots went to stronger cards.
 

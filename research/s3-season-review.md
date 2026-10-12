@@ -147,11 +147,27 @@ also checked how Season 4 (2026) recasts Season 3. Each changed card carries a
   - Jane's pregnancy is not stated as fact.
   - Anthony Head is now in the past tense ("who played Rupert").
 
+## Follow-up: second sources found (2026-10-12)
+
+Two facts held back as single-source now ship.
+
+- **Ted's "I contain multitudes" (E10)** is the new card `s3e10-ted-real-whitman`, folded behind
+  "Show more" so the spine is unchanged.
+  - **Sources:** the subtitles, plus two independent pages: Lo Myrick's round-up, which places
+    the line in S3E10 as said to the team, and Minimize My Mess's quote list.
+  - **Whitman's text:** *Song of Myself* §51, checked in Project Gutenberg.
+- **Henry's "count to ten" (E5)** went into the existing panic card rather than a new one, because
+  it is the same scene.
+  - **Sources:** the subtitles, plus Geek. Dad. Life.'s review, which reports the line.
+  - **Jefferson's 1825 letter to Thomas Jefferson Smith:** confirmed by Wikiquote's sourced
+    section (with a Library of Congress manuscript image) and by 19FortyFive, citing the
+    National Archives.
+  - **Left out:** the claim that Ted's own father coined the rule rests on the subtitles alone.
+- **A note on transcripts.** The Forever Dreaming and Springfield transcripts carry identical
+  caption tags. They are copies of one subtitle file, so they count as **one** source, not two.
+
 ## Considered and not done
 
-- **Ted's "I contain multitudes" in E10.** It is real Walt Whitman, but only a fan transcript
-  records the line, so it is single-source.
-- **Jefferson's "count to ten" (E5).** The on-screen line is transcript-only.
 - **Rupert's *Return of the Jedi* office (E1).** The design intent is single-source.
 - **Merging overlapping Jamie and Roy cards (E2, E10, E11).** They were folded by tier
   instead, to keep ids stable.
