@@ -133,8 +133,11 @@ or fewer.
 - **S2E10 Molly Drake's "I Remember", S2E8's staff-confession scene, and S2E4's closing
   singalong.** These are good, but the slots went to stronger cards.
 
-## Decision for the owner
+## Owner decision (settled 2026-10-12)
 
-- The biscuits card is now in S1E2 but keeps its `s1e1-biscuits` id, per the never-reindex rule.
-- The approved prototype still shows it in the Pilot. Content accuracy won over the prototype's
-  sample content; the prototype's visual design is untouched.
+- **The biscuits card stays in S1E2 "Biscuits"**, where Biscuits with the Boss actually starts.
+  The owner confirmed this.
+- It keeps its `s1e1-biscuits` id, per the never-reindex rule. Do not move it back to the Pilot,
+  and do not rename it.
+- The approved prototype (`design-reference/believe-s1e1.html`) still shows it in the Pilot. The
+  prototype governs visual design, not content, so it is left as is.
