@@ -106,11 +106,11 @@ try {
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   const e8titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
-  check("E8 shows 5 verified cards", e8titles.length === 5);
-  check("E8 leads with the darts scene", e8titles[0] === "The darts scene");
-  const iBowie = e8titles.findIndex(t => /Bowie/.test(t));
-  const iName = e8titles.findIndex(t => /^Why /.test(t));
-  check("E8 curated order introduces Bowie before the name-origin card", iBowie !== -1 && iName !== -1 && iBowie < iName);
+  // The season review removed the unsupported name-origin card and re-ordered E8 by where
+  // each moment falls: the darts match comes near the end of the episode.
+  check("E8 shows 4 verified cards", e8titles.length === 4);
+  check("E8 opens on the Diamond Dogs forming", e8titles[0] === "The Diamond Dogs assemble");
+  check("E8 ends on the darts scene, where it falls in the episode", e8titles[e8titles.length - 1] === "The darts scene");
   if (shots) await page.screenshot({ path: join(outDir, "04-e8-verified.png"), fullPage: true });
 
   // Every Season 1 episode now ships verified cards (no "coming soon" placeholders),
@@ -122,7 +122,9 @@ try {
   await page.click("#revealBtn");
   await new Promise(r => setTimeout(r, 500));
   const e2titles = await page.$$eval("#notes .card h2", els => els.map(e => e.textContent.trim()));
-  check("E2 reveals 5 verified cards", e2titles.length === 5);
+  // Biscuits with the Boss starts in this episode, not the Pilot, so the card moved here.
+  check("E2 reveals 6 verified cards", e2titles.length === 6);
+  check("E2 opens on Biscuits with the Boss", e2titles[0] === "Biscuits with the Boss");
   if (shots) await page.screenshot({ path: join(outDir, "03-e2-cards.png"), fullPage: true });
 
   await page.select("#epPicker", "1");

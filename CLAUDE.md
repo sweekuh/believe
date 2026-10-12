@@ -34,14 +34,14 @@ philosophy or plot facts to fill an episode.
     reads in the order she just watched it); episodes with no `order` fall back to
     **most-interesting-first** (`interest`). Ties break by interest then original
     index. Backward-compatible — unscored/unordered cards sort neutrally.
-    - Note the `interest` scores are **nearly flat** (227 of 336 cards score 4;
-      Seasons 3 and 4 were rescored to a real 3/4/5 spread in their season reviews), so that
+    - Note the `interest` scores are **nearly flat** (216 of 338 cards score 4;
+      every season was rescored toward a real 3/4/5 spread in its season review), so that
       fallback resolves to paste order in practice. `order` is what
       actually organizes a page; treat the `interest` sort as a legacy default.
   - **The fold** (`displayCards()`): an episode showing **7+ cards** opens on a
     **spine of 4** and folds the rest behind a "Show N more notes" button
-    (`#moreGate` / `#moreNotes`); shorter episodes render whole, so S1/S2 at 5
-    cards are untouched. Cards marked `tier: "spine"` reserve their slots first,
+    (`#moreGate` / `#moreNotes`); shorter episodes render whole, so S1/S2 (5–6
+    cards each, deliberately capped at 6) are untouched. Cards marked `tier: "spine"` reserve their slots first,
     then the earliest scene-anchored cards fill the rest; `Meta & trivia` folds
     away by default (a casting note has no moment to be chronological about), and
     `tier: "more"` folds a card by hand. Both groups keep chronological order.
@@ -71,14 +71,14 @@ philosophy or plot facts to fill an episode.
   and the optional scoring fields (`grounding`, `interest`, `category`,
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
   `README.md` and `docs/facts-schema.md`. **All four seasons are now fully
-  written** (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes,
+  written** (Season 1: 10 episodes, 50 cards; Season 2: 12 episodes, 62 cards; Season 3: 12 episodes,
   115 cards; Season 4: 10 episodes, 111 cards), each built through the full hunter →
   grounding-reviewer → promotion pipeline. Season 4 aired weekly from 2026-08-05
   to its finale on 2026-10-07 and was written an episode at a time, the morning
   after each broadcast; the teaser it launched with was replaced by real E1 cards.
   After the finale, Season 4 had a whole-season consistency review
-  (`research/s4-season-review.md`), and Season 3 got the same pass
-  (`research/s3-season-review.md`): re-ordered against plot summaries, cross-card
+  (`research/s4-season-review.md`), and Seasons 1–3 got the same pass
+  (`research/s3-season-review.md`, `research/s1-s2-season-review.md`): re-ordered against plot summaries, cross-card
   contradictions fixed, later cards rewritten to build on earlier ones instead of
   repeating them, and spines re-curated. Do the same pass after any future season.
   Write an episode only **after** it has aired. The "coming soon" placeholder path
@@ -126,7 +126,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 111)
+node tools/verify.mjs                # run all checks (currently 112)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content
