@@ -76,7 +76,9 @@ This file is the audit trail. Each changed card also carries a
   - E6: Michelle's two Twains.
   - E7: "Some pig".
   - E8: Roy's speech.
-  - E10: Mae's will and Ted stepping down.
+  - E10: Mae's will, Ted stepping down, the title line and the poem. Ted's lie to
+    Henry folds, since two folded cards already carry that beat (title line restored
+    above the fold on request, 2026-10-12).
 - **Rendering bug.** Five tags stored HTML entities (`&rsquo;`, `&mdash;`). Tags are
   escaped on render, so the codes showed literally on screen. Fixed, and
   `verify.mjs` now fails if it happens again.

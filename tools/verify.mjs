@@ -347,9 +347,10 @@ try {
   if (shots) await page.screenshot({ path: join(outDir, "12-season4-e9.png"), fullPage: true });
 
   // S4E10 is the season finale and the last episode in the app. Its spine is pinned all
-  // four deep, on the hour's payoffs: the lie Ted tells Henry, Mae's will deciding who
-  // owns the club, Ted asking to step down, and the Mary Oliver poem it ends on. The wake
-  // song and the title line fold. The five production cards are unordered on purpose.
+  // four deep, on the hour's payoffs: Mae's will deciding who owns the club, Ted asking
+  // to step down, the line the episode is named after, and the Mary Oliver poem it ends
+  // on. Ted's lie to Henry is marked "more": two folded cards (Bok, the cut-away) already
+  // carry that beat. The wake song folds. The five production cards are unordered on purpose.
   await page.select("#epPicker", "10");
   await new Promise(r => setTimeout(r, 300));
   check("S4E10 title is Being Alive", (await page.$eval("#epTitle", el => el.textContent.trim())) === "Being Alive");
@@ -360,14 +361,17 @@ try {
   check("S4E10 leads with a capped spine", e10spine.length === 4);
   check("S4E10 folds its remaining 11 cards away",
     (await page.$$eval("#moreNotes .card", e => e.length)) === 11);
-  check("S4E10 opens on the lie Ted tells his son",
-    e10spine[0] === "The lie Ted tells his son is the lie Ted was told");
-  check("S4E10 pins Mae's will above the fold",
-    e10spine.includes("The landlady decides who owns the football club"));
+  check("S4E10 opens on Mae's will",
+    e10spine[0] === "The landlady decides who owns the football club");
+  check("S4E10 pins the title line above the fold despite landing eighth",
+    e10spine.includes("The title is quoting Rebecca"));
   check("S4E10 pins Ted stepping down above the fold",
     e10spine.includes("Ted asks to be demoted, not promoted"));
   check("S4E10 ends the spine on the poem, which closes the episode",
     e10spine[e10spine.length - 1] === "The poem in Mae\u2019s voice at the end is arguing with death");
+  check("S4E10 folds the stairs card, whose beat two folded cards already carry",
+    (await page.$$eval("#moreNotes .card h2", ns => ns.map(n => n.textContent.trim())))
+      .includes("The lie Ted tells his son is the lie Ted was told"));
   check("S4E10 folds the second card on Ted's lie rather than spending a slot on it",
     (await page.$$eval("#moreNotes .card h2", ns => ns.map(n => n.textContent.trim())))
       .includes("Philosophy has a name for what Ted does at the wake, and it does not let him off"));

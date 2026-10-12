@@ -6510,7 +6510,7 @@
                 "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive"
               ],
               "order": 2,
-              "tier": "spine"
+              "tier": "more"
             },
             {
               "id": "s4e10-bok-white-lies",
@@ -6600,7 +6600,8 @@
                 "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
                 "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/"
               ],
-              "order": 8
+              "order": 8,
+              "tier": "spine"
             },
             {
               "id": "s4e10-truth-off-screen",
