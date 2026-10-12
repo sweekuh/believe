@@ -173,7 +173,7 @@ try {
   check("S3E1 folds the rest away", (await page.$$eval("#moreNotes .card", e => e.length)) > 0);
   check("S3E1 spine reads chronologically, not by paste order",
     (await page.$eval("#notes .card h2", el => el.textContent)) === "Why Isaac goes cold" ||
-    (await page.$eval("#notes .card h2", el => el.textContent)) === "Ted and Henry's goodbye");
+    (await page.$eval("#notes .card h2", el => el.textContent)) === "Ted and Henry\u2019s goodbye");
   check("fold button appears once the gate is open", (await page.$eval("#moreGate", el => !el.hidden)));
   check("folded cards stay hidden until asked for",
     (await page.$eval("#moreNotes", el => el.classList.contains("open"))) === false);
@@ -248,7 +248,7 @@ try {
   // the name-tag card is the only one the sort fills in.
   check("S4E1 pins the tea-bag farewell above the fold",
     (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim())))
-      .includes("He doesn't choose between them"));
+      .includes("He doesn\u2019t choose between them"));
   if (shots) await page.screenshot({ path: join(outDir, "07-season4-e1.png"), fullPage: true });
 
   // S4E5's strongest card is the half-time speech, which falls sixth in the episode's
@@ -433,6 +433,27 @@ try {
 
   check("no app console / network errors", errors.length === 0);
   if (errors.length) log("  errors:", errors);
+
+  // Content checks that need no browser.
+  const data = JSON.parse(await readFile(join(repoRoot, "episodes.json"), "utf8"));
+  const READER_FIELDS = ["tag", "title", "moment", "idea", "why", "source"];
+  // Card text follows the prototype's typography: curly quotes and real dashes. Straight
+  // quotes and "--" crept in during rewrites and showed up literally on screen.
+  const plainTypography = [];
+  for (const season of data.seasons) for (const ep of season.episodes) for (const card of ep.cards)
+    for (const k of READER_FIELDS) if (/['"]|--/.test(card[k] || "")) plainTypography.push(`${card.id}.${k}`);
+  check("card text uses curly quotes and real dashes", plainTypography.length === 0);
+  if (plainTypography.length) log("  straight quotes or -- in:", plainTypography.slice(0, 10));
+
+  // The design reference's cards mirror the live Pilot. If the Pilot changes, regenerate them.
+  const reference = await readFile(join(repoRoot, "design-reference", "believe-s1e1.html"), "utf8");
+  const refTitles = [...reference.matchAll(/<h2>(.*?)<\/h2>/g)].map(m => m[1]);
+  const pilot = data.seasons[0].episodes[0].cards
+    .map((card, i) => ({ card, i }))
+    .sort((a, b) => ((b.card.interest ?? 3) - (a.card.interest ?? 3)) || (a.i - b.i))
+    .map(x => x.card.title);
+  check("design reference shows the live Pilot cards, in order",
+    JSON.stringify(refTitles) === JSON.stringify(pilot));
 
   log(`\n${failures === 0 ? "ALL CHECKS PASSED" : failures + " CHECK(S) FAILED"}`);
   if (shots) log(`screenshots in ${outDir}`);

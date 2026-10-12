@@ -129,7 +129,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 112)
+node tools/verify.mjs                # run all checks (currently 114)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content
@@ -152,6 +152,8 @@ python3 -c "import json; json.load(open('episodes.json'))"
 ## Hard rules when editing
 
 - Paraphrase the show; **never reproduce dialogue** (any source quote < 15 words).
+- Card text uses the prototype's typography: curly quotes (‘ ’ “ ”) and spaced em
+  dashes, never straight quotes or `--`. `verify.mjs` fails on either.
 - Verify every attribution before it ships; withhold rather than inflate. The
   standing example is "be curious, not judgmental" — credited to Whitman in the
   show but a documented misattribution ("attributed to, not by").
