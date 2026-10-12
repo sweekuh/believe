@@ -69,15 +69,15 @@ philosophy or plot facts to fill an episode.
   single-season `{ season, episodes }` file via `normalizeData()`.) Card schema
   and the optional scoring fields (`grounding`, `interest`, `category`,
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
-  `README.md` and `docs/facts-schema.md`. Seasons 1, 2, and 3 are fully written
-  (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes, 103
-  cards, built through the full hunter → grounding-reviewer → editorial-review →
-  promotion pipeline). **Season 4 is airing** — it premiered 2026-08-05 and runs
-  weekly through 2026-10-07, ten episodes in all. It is an ordinary gated season
-  that grows by one episode a week as each airs; the teaser it launched with has
-  been replaced by real E1 cards. Write an episode only **after** it has aired.
-  The "coming soon" placeholder path stays in the app for any future season, with
-  no season currently using it (see below).
+  `README.md` and `docs/facts-schema.md`. **All four seasons are now fully
+  written** (Season 1: 10 episodes; Season 2: 12 episodes; Season 3: 12 episodes,
+  103 cards; Season 4: 10 episodes), each built through the full hunter →
+  grounding-reviewer → promotion pipeline. Season 4 aired weekly from 2026-08-05
+  to its finale on 2026-10-07 and was written an episode at a time, the morning
+  after each broadcast; the teaser it launched with was replaced by real E1 cards.
+  Write an episode only **after** it has aired. The "coming soon" placeholder path
+  stays in the app for any future season, with no season currently using it
+  (see below).
   - **`comingSoon` (teaser) seasons/episodes.** A season (or episode) may carry
     `"comingSoon": true`. The app then **skips the spoiler gate and reveals the
     cards immediately** (nothing has aired, so there's nothing to spoil), labels
@@ -120,7 +120,7 @@ python3 -m http.server 8000          # then open http://localhost:8000
 # Headless-browser verification (asserts gate, reveal,
 # display-contract sort/filter, display options; writes screenshots to tools/shots/)
 bash tools/setup.sh                  # first run per container: installs Puppeteer + Chrome
-node tools/verify.mjs                # run all checks (currently 88)
+node tools/verify.mjs                # run all checks (currently 96)
 node tools/verify.mjs --no-shots     # checks only, no screenshots
 
 # Validate content

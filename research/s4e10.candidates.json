@@ -1,0 +1,407 @@
+{
+  "episode": {
+    "season": 4,
+    "number": 10,
+    "title": "Being Alive"
+  },
+  "generated_by": "episode-fact-hunter",
+  "candidates": [
+    {
+      "id": "s4e10-two-titles",
+      "type": "production",
+      "title": "The finale has two titles, and the one on screen is the old one",
+      "detail": "Apple's listing, the press and every review call the episode 'Being Alive'. But the title card that plays in the episode itself reads 'The Departing Lass', and several recaps written on the night filed under that name. Co-creator Brendan Hunt told Deadline the change was made a few weeks before air, that it was Jason Sudeikis's call entirely, that he did not know the full reasoning, and that the title card had not caught up with the change. Transcript sites list the episode as 'Being Alive (AKA: The Departing Lass)'. Worth checking whether the card really still reads the old title on screen, or whether the recaps simply used a pre-air listing.",
+      "moment": "The title card after the cold open.",
+      "sources": [
+        {
+          "url": "https://tv.apple.com/us/episode/being-alive/umc.cmc.3bnak1y0hzh5r3beo5wgmb7rt",
+          "note": "Apple's official title: Being Alive"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt: change made weeks before air, Sudeikis's call, title card did not reflect it"
+        },
+        {
+          "url": "https://thefilmgordon.com/ted-lasso-season-4-episode-10-recap/",
+          "note": "a recap filed under 'The Departing Lass'"
+        },
+        {
+          "url": "https://tvshowtranscripts.ourboard.org/viewtopic.php?f=1020&t=78379",
+          "note": "listed as 'Being Alive (AKA: The Departing Lass)' — fan site, weak"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-being-alive-sondheim",
+      "type": "reference",
+      "title": "'Being Alive' is the last song in a Sondheim musical about exactly this",
+      "detail": "'Being Alive' is the closing number of Stephen Sondheim's Company (1970, book by George Furth). Robert, a bachelor of thirty-five who has spent the whole show watching his married friends from a safe distance, stops watching and asks to be needed, crowded and hurt rather than left alone. Sondheim wrote it after three other closing songs were tried and dropped, the last of them judged too bleak. The finale's last act is a row of people choosing exactly that: Rebecca proposing, Roy walking into fatherhood, Ted telling his son a true thing that hurts. IMPORTANT FOR THE REVIEWER: nothing found says the show intended the Sondheim reference. Hunt, asked about the title, pointed instead at Hannah Waddingham's line in the episode. Treat the song as a real and relevant artefact, not as a confirmed allusion, and say so on the card.",
+      "moment": "The episode's title.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Being_Alive",
+          "note": "Sondheim, Company, 1970; closes Act Two; Robert's arc; the three discarded predecessors"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt attributes the title to Sudeikis and to Waddingham's line, not to Sondheim"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-messy-means-alive",
+      "type": "theme",
+      "title": "The line the title is echoing is Rebecca's",
+      "detail": "Rebecca, talking about Mae, says that being messy just means being alive, and that everyone could do with being a bit more alive. Hunt told Deadline that Waddingham's line is the echo that gives the title more meaning than a pun — which makes this the episode's stated thesis rather than a throwaway. It also reads as an answer to the season: a hundred-year-old pub, a club in two hands, a man who lied to his son, a coach who left a player on too long. None of it tidy, all of it alive.",
+      "moment": "Rebecca reflecting on Mae's death.",
+      "sources": [
+        {
+          "url": "https://fangirlish.com/2026/10/07/ted-lasso-season-4-episode-10-review-being-alive/",
+          "note": "quotes the line and its follow-up"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt names the line as what the title echoes"
+        },
+        {
+          "url": "https://www.thereviewgeek.com/tedlasso-s4endingexplained/",
+          "note": "same reflection reported in the ending explainer"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-parting-glass",
+      "type": "reference",
+      "title": "The song at the wake is older than the club, and it is Scottish",
+      "detail": "The Harrigan twins sing 'The Parting Glass' over the room at Mae's wake, introducing it as an Irish tradition — and somebody in the pub points out that Mae was not Irish. The song is Scottish in origin (Roud 3004): a related tune, 'Good Night, and God Be With Yow', sits in the Skene Manuscript of 1615-1635, and the first full text close to the modern one appears on a broadside dated 1654. The 'parting glass' itself is the stirrup cup, the last drink handed to a guest already on their way out. It was the most popular parting song in Scotland until Burns wrote 'Auld Lang Syne' and displaced it. The version everyone knows now is largely Irish and North American, which is how the twins can be both wrong and right. Note the small structural irony for the card: it is a song for someone who is leaving, sung for someone already gone.",
+      "moment": "The wake at the Crown & Anchor. The twins sing; the room toasts Mae.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Parting_Glass",
+          "note": "Scottish origin, Roud 3004, Skene MS tune, 1654 broadside, stirrup cup, displaced by Auld Lang Syne"
+        },
+        {
+          "url": "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/",
+          "note": "names the song and the singers at the wake"
+        },
+        {
+          "url": "https://fangirlish.com/2026/10/07/ted-lasso-season-4-episode-10-review-being-alive/",
+          "note": "twins singing The Parting Glass listed as a high point"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-10-finale-recap-ending-explained-maes-last-move-roys-big-exit-and-teds-question-for-rebecca/",
+          "note": "Niamh and Siobhan lead the room; described as a traditional farewell song"
+        },
+        {
+          "url": "https://www.filmifeed.com/ted-lasso-season-4-episode-10-finale-recap-and-ending-explained-does-zelda-take-over-afc-richmond/",
+          "note": "corroborates the performance; the 'Mae wasn't Irish' beat"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-when-death-comes",
+      "type": "philosophy",
+      "title": "The poem in Mae's voice at the end is Mary Oliver, and it argues with death",
+      "detail": "The closing montage is narrated by Mae — Annette Badland's voice — reading Mary Oliver's poem 'When Death Comes'. The poem first appeared in the Virginia Quarterly Review in 1991 and was collected in New and Selected Poems (1992), which won the National Book Award. Its argument, paraphrased: death is coming and there is no arguing with that, so the only question left is what kind of life it finds. Oliver's answer is attention — she wants to have gone through the world amazed by it rather than merely passing through, and she is explicit that she does not want to end up having only visited. The link worth making for this app is that Oliver's answer to mortality is curiosity, which is the creed on the sign the show has been arguing about for four seasons. STRICT: paraphrase only, the poem is in copyright; any quoted phrase must stay under 15 words.",
+      "moment": "The final montage: Mae's voice over check-ins on everyone.",
+      "sources": [
+        {
+          "url": "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/",
+          "note": "Mae's voice recites Mary Oliver's 'When Death Comes'"
+        },
+        {
+          "url": "https://fangirlish.com/2026/10/07/ted-lasso-season-4-episode-10-review-being-alive/",
+          "note": "lists Mae reading 'When Death Comes'"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-10-finale-recap-ending-explained-maes-last-move-roys-big-exit-and-teds-question-for-rebecca/",
+          "note": "closing montage features Mae reciting the poem"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/10/07/ted-lasso-season-4-episode-10-recap/",
+          "note": "Mae's voice reads a Mary Oliver poem over the montage"
+        },
+        {
+          "url": "https://poemanalysis.com/mary-oliver/when-death-comes",
+          "note": "poem's content and reading"
+        },
+        {
+          "url": "https://penguinrandomhouse.ca/books/206038/new-and-selected-poems-volume-one-by-mary-oliver/9780807068786",
+          "note": "collection details, National Book Award"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-stairs-story",
+      "type": "callback",
+      "title": "The lie Ted tells his son is the lie Ted was told",
+      "detail": "Henry, rattled by Mae's death, asks how Ted's father died. The family's version is a fall — down the stairs in most accounts, hitting his head in one — and Ted does not correct it. By the end of the episode he does. Season 2's 'Man City' is where the show established the truth: Ted, on the phone to Sharon after the loss, says his father died by suicide when Ted was sixteen. That episode was written by Jamie Lee and directed by Matt Lipsey, who also directed this one. Sources disagree on who gave Henry the falling story — Michelle in some accounts, his grandmother in another — and on whether Ted actively repeats it or simply lets it stand; the card should not pick a side it cannot support.",
+      "moment": "Upstairs at the wake, Henry asks; and then again, after the match, when Ted goes back to him.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)",
+          "note": "S2E8 establishes the suicide and Ted's age; writer and director credits"
+        },
+        {
+          "url": "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/",
+          "note": "Ted repeats the family story, then tells the truth"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-finale-recap-ending/",
+          "note": "his mom had told him his grandpa fell down the stairs; Ted does not correct it"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-season-4-finale-061003992.html",
+          "note": "the grandmother is named as the source of the falling story"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive",
+          "note": "first claims a fall down the stairs, then admits the truth"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e10-bok-white-lies",
+      "type": "philosophy",
+      "title": "There is a whole book about the kind of lie Ted tells, and it does not let him off",
+      "detail": "Sissela Bok's Lying: Moral Choice in Public and Private Life (Pantheon, 1978; it won the Orwell Award that year) is the standard philosophical treatment of the small protective lie. Bok is the source of the modern philosophical use of 'white lies', and her position, as the Stanford Encyclopedia summarises it, is that every lie carries an inherent negative weight which something else must outweigh — lying is wrong by default, and the default can be beaten, but it has to be beaten rather than waved away. That is precisely the shape of the episode: a kind lie to a grieving child, told for good reasons, and then withdrawn anyway. FOR THE REVIEWER: I could not verify from a primary text the stronger claims often attached to Bok — that liars systematically overrate the benefit of their lies and underrate the damage to trust. Leave those out unless you can source them.",
+      "moment": "The two halves of Ted's answer to Henry, at the wake and after the match.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sissela_Bok",
+          "note": "publication details: Pantheon 1978, Orwell Award"
+        },
+        {
+          "url": "https://plato.stanford.edu/entries/lying-definition/",
+          "note": "Bok on white lies; lying as defeasibly wrong, carrying negative weight that can be overridden"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-truth-off-screen",
+      "type": "theme",
+      "title": "The show will not let you watch the most important conversation in it",
+      "detail": "Ted tells Henry the truth, and the episode does not show it. Reviewers noticed and several of them objected: the scene is set up, Ted starts talking about his father, and the episode cuts away, so the audience never hears what he actually said. It is the same move the show made one week earlier, when Mae's death happened out of frame, and arguably the same move as the final match, whose result at least one recap says is never given. Treat the withholding as a deliberate pattern worth pointing out, but note that it is also the finale's most-criticised choice — the A.V. Club graded the episode C-minus largely over this. Sources conflict on the match: one account says the Lady Greyhounds win, another that the result is never learned, so do not assert either.",
+      "moment": "After the match, Ted goes back to Henry — and the episode moves on.",
+      "sources": [
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive",
+          "note": "the truth is admitted in a conversation the episode does not show; C- grade"
+        },
+        {
+          "url": "https://readysteadycut.com/2026/10/07/ted-lasso-season-4-episode-10-recap/",
+          "note": "the audience never hears what actually happened"
+        },
+        {
+          "url": "https://fangirlish.com/2026/10/07/ted-lasso-season-4-episode-10-review-being-alive/",
+          "note": "a substantial scene, then a cut away from it"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-10-finale-recap-ending-explained-maes-last-move-roys-big-exit-and-teds-question-for-rebecca/",
+          "note": "we never learn the result of the final match"
+        },
+        {
+          "url": "https://yahoo.com/entertainment/tv/articles/did-ted-lasso-season-4-070010456.html",
+          "note": "conflicting account: says the Lady Greyhounds win"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e10-carlile-theme",
+      "type": "production",
+      "title": "A different voice sings the theme tune over this one",
+      "detail": "The finale's opening credits do not use the usual theme. Brandi Carlile sings a cover of it instead of Marcus Mumford, who co-wrote the song with composer Tom Howe and has sung it over every episode but two. Hunt's stated reason is tonal: coming out of Mae's wake and straight into the up-tempo original would have been abrupt, and the first cut of the episode used Jeff Tweedy's spare acoustic version — the one from Season 2's 'Beard After Hours', the only previous substitution. He also said Sudeikis had wanted for a while for the theme to register the show's move from the men's team to the women's by being sung by a woman, as long as the handover felt gradual. Carlile is a friend of Sudeikis's and had contributed to the show before; one account specifies a cover of 'Home' from The Wiz in Season 3 — check that, it is single-source. Hunt has said he wants the full-length version released.",
+      "moment": "The opening titles.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-co-creator-brandan-182349901.html",
+          "note": "Hunt's explanation; Mumford and Howe as writers; Tweedy version in 'Beard After Hours'; not yet decided if permanent"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive",
+          "note": "independent note that Carlile sings the theme in place of Mumford"
+        },
+        {
+          "url": "https://www.rollingstone.com/music/music-news/brandi-carlile-ted-lasso-theme-song-1235638871/",
+          "note": "news coverage of the special theme"
+        },
+        {
+          "url": "https://variety.com/2026/tv/news/ted-lasso-theme-song-brandi-carlile-marcus-mumford-finale-1236904456/",
+          "note": "why Carlile took over and whether it is permanent"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-army-man-roy",
+      "type": "callback",
+      "title": "The toy Ted leaves Roy came from a son in the first place",
+      "detail": "Packing up, Roy finds a note from Ted saying he will be a good father, and with it a little green plastic army man, which he pockets. The army men are a four-season motif: Henry sent Ted to England with a bag of them to keep him safe, and Ted has been handing them out ever since to people who need looking after — Rebecca after a press mauling, Sam for his birthday (who gently declines to keep it, given what the American military means to him), Jamie after his father humiliated him. So the object a son gave his father to feel protected is what Ted gives a man about to become a father. Check the details: sources disagree on whether the bag arrives in the pilot or in 'Biscuits', and the A.V. Club describes the object as a little green statue rather than an army man.",
+      "moment": "Roy clearing out his office, with Keeley waiting.",
+      "sources": [
+        {
+          "url": "https://screenrant.com/ted-lasso-army-men-characters-gift-meaning-every/",
+          "note": "catalogue of who receives an army man and what each one means"
+        },
+        {
+          "url": "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS1E10TheHopeThatKillsYou",
+          "note": "places the bag and the first gifts in 'Biscuits' — conflicts with Screen Rant's pilot"
+        },
+        {
+          "url": "https://www.comicbasics.com/ted-lasso-season-4-episode-10-finale-recap-ending-explained-maes-last-move-roys-big-exit-and-teds-question-for-rebecca/",
+          "note": "Roy finds the note and the small green army man and pockets it"
+        },
+        {
+          "url": "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/",
+          "note": "note plus green army man, then he leaves with Keeley"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive",
+          "note": "describes it as a 'little green statue'"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "series"
+    },
+    {
+      "id": "s4e10-mae-two-percent",
+      "type": "callback",
+      "title": "Two per cent, left in a will, decides who owns the football club",
+      "detail": "The shareholders' meeting ends in a tie: Zelda's secretly accumulated holding against Rebecca's, 49 per cent each, after Hugo Riddles turns and the Milk Sisters' stake lands with Rebecca. What breaks it is Mae's will, read out by a solicitor: her two per cent goes to Rebecca, giving her fifty-one and control. Mae also leaves the Crown & Anchor to Baz, Jeremy and Paul, reportedly with an instruction not to ruin it. The thing to notice is who the decisive shareholder turned out to be — the landlady who, as Episode 9 spent its running time establishing, grew up barred from playing the game at all, and who turned down the owner's box to stand with the fans. Episode 9's cards already cover the ban and the Milk Sisters' shareholding; keep this one on the will.",
+      "moment": "The shareholders' meeting, and the reading of Mae's will.",
+      "sources": [
+        {
+          "url": "https://www.tvline.com/2279638/ted-lasso-season-4-finale-recap-episode-10-explained/",
+          "note": "the 49/49 deadlock and Mae's 2% giving Rebecca 51%"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-finale-recap-ending/",
+          "note": "the will, the solicitor, the pub left to the three regulars"
+        },
+        {
+          "url": "https://www.filmifeed.com/ted-lasso-season-4-episode-10-finale-recap-and-ending-explained-does-zelda-take-over-afc-richmond/",
+          "note": "Hugo's betrayal; the pub bequest and the instruction not to ruin it"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-season-4-finale-061003992.html",
+          "note": "corroborates the arithmetic and the bequests"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e10-ted-steps-down",
+      "type": "theme",
+      "title": "Ted asks to be demoted, and most of the internet misread the line",
+      "detail": "Ted goes to Rebecca about a 'newly open' position and asks to come down to assistant so he can be at more of Henry's games; Alice takes the manager's job, with Ted and a newly shaved Beard as her assistants. Several recaps read the line as Ted angling for the men's job that Roy is vacating. Hunt said flatly that it was not about the men's team: Ted was telling Rebecca he was no longer managing the women's. He also said being an assistant might not be as easy as Ted thinks. Two small payoffs land in the same scene: the promotion gift Ted bought back in Episode 2 and never gave, and the running joke of Ted's badly adjusted chair, which turns out to have been Alice all season. The nameplate reads manager, and she no longer has to touch the chair.",
+      "moment": "Ted in Rebecca's office with biscuits; then the office handover.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt corrects the men's-job reading; Ted's reason is Henry; 'might not be as easy as he thinks'"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-finale-recap-ending/",
+          "note": "Alice becomes manager, Ted and Beard assistants, the withheld gift, the chair, the nameplate"
+        },
+        {
+          "url": "https://www.filmifeed.com/ted-lasso-season-4-episode-10-finale-recap-and-ending-explained-does-zelda-take-over-afc-richmond/",
+          "note": "an example of the misreading — has Ted asking about the vacant men's job"
+        },
+        {
+          "url": "https://yahoo.com/entertainment/tv/articles/did-ted-lasso-season-4-070010456.html",
+          "note": "Ted asks to be demoted; Alice revealed as the chair culprit"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-generativity",
+      "type": "philosophy",
+      "title": "There is a name for the thing all three men are doing at once",
+      "detail": "Erik Erikson coined 'generativity' in 1950 for the seventh stage of his model of psychosocial development, the middle-adulthood conflict he set against stagnation and summarised as a concern with establishing and guiding the next generation. The finale runs three versions of it in parallel and never names any of them: Ted gives up the top job to be at his son's matches, Ted hands the job to the young coach he spent the season teaching, and Roy — handed a toy soldier and a note — walks towards fatherhood instead of away from it, having spent the episode asking a room full of men whether he will be any good at it. Erikson is the card's lens, not the show's reference, and the card must say so. FOR THE REVIEWER: Wikipedia gives 1950 for the coinage but does not confirm the book; it is usually attributed to Childhood and Society. Confirm before naming the book.",
+      "moment": "Ted's request to Rebecca, Alice's promotion, and the Diamond Dogs meeting on fatherhood.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Generativity",
+          "note": "Erikson coined it in 1950; stage 7; generativity vs stagnation; 'establishing and guiding the next generation'"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-finale-recap-ending/",
+          "note": "the Diamond Dogs scene: Roy's fear of being a bad father; Alice's advice not to lie to your children or bail"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt on Ted's reason for stepping back being time with Henry"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "self"
+    },
+    {
+      "id": "s4e10-head-finale-plan",
+      "type": "production",
+      "title": "Rupert was supposed to be in the room where the club changes hands",
+      "detail": "Hunt told Deadline that the team had an outside hope of bringing Anthony Head back for the finale, which Hunt co-wrote with Sudeikis, and that they were told it would not be possible, so a small idea they had went unused. The scene he would most likely have been in is the shareholders' showdown — the one place the finale's plot has a Rupert-shaped hole. Head died on 1 June 2026, aged 72, of complications of pneumonia, after Season 4 had finished shooting; Annette Badland said she had assumed he would be in the final season and did not know he was ill. The In Memoriam card ran at the end of Episode 9. Episode 9's cards already cover the tribute itself, so this one is about the scene that did not happen.",
+      "moment": "The shareholders' meeting — the scene Rupert is absent from.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-team-hoped-bring-192858025.html",
+          "note": "Hunt on the outside hope and the unused idea; the shareholders' showdown; death date, age and cause; Badland's assumption; shooting finished before his death"
+        },
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt co-wrote the finale with Sudeikis"
+        }
+      ],
+      "hunter_confidence": "high",
+      "spoiler_scope": "season"
+    },
+    {
+      "id": "s4e10-passing-the-torch",
+      "type": "production",
+      "title": "The men's-team cameos are a deliberate handover, not fan service",
+      "detail": "Nate turns up in Ted's office, the Diamond Dogs reconvene with Alice joining in as a cat, and old players appear in the crowd at Nelson Road. Hunt said the men's-team cameos in the finale were meant as a passing-of-the-torch moment and that he thought it worked, and that they may be the last we see of the men's team. He explained Jamie Tartt's absence in character terms: Phil Dunster's Jamie lives in Spain now, playing for Barcelona, and had already appeared in Episode 6. Recaps differ on exactly who shows up — Dani Rojas and Sam Obisanya are both named, and one account has Nate arriving with his wife and baby while another says he is now coaching Poland — so keep the card to the gesture rather than the guest list.",
+      "moment": "Ted's office and the Diamond Dogs; the stands at Nelson Road.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-brendan-hunt-breaks-224101808.html",
+          "note": "Hunt: cameos meant as passing of the torch, possibly the last of the men's team; Jamie's absence explained"
+        },
+        {
+          "url": "https://www.avclub.com/ted-lasso-recap-season-4-episode-10-being-alive",
+          "note": "names Dani Rojas and Sam Obisanya cameos"
+        },
+        {
+          "url": "https://thecinemaholic.com/ted-lasso-season-4-finale-recap-ending/",
+          "note": "Nate in Ted's office, said to be coaching Poland; Diamond Dogs reunion; Alice as a cat"
+        },
+        {
+          "url": "https://yahoo.com/entertainment/tv/articles/did-ted-lasso-season-4-070010456.html",
+          "note": "conflicting detail: Nate visits with his wife and new baby"
+        }
+      ],
+      "hunter_confidence": "medium",
+      "spoiler_scope": "season"
+    }
+  ]
+}

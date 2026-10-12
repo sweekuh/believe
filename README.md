@@ -74,9 +74,9 @@ Rules:
   a stretch, cut it rather than invent.
 - A card's `title`, `moment`, `idea`, `why`, and `source` may contain simple
   inline HTML (`<em>`, `<strong>`). Empty fields are simply not rendered.
-- Seasons 1 and 2 are both fully written (~5 verified cards per episode). A
-  future season can be added as episodes whose only card is a "coming soon"
-  placeholder (`tag: "Coming soon"` or an id ending in `-placeholder`); such an
+- All four seasons are fully written (seasons 1 and 2 at ~5 verified cards per
+  episode; seasons 3 and 4 run longer). A future season can be added as episodes
+  whose only card is a "coming soon" placeholder (`tag: "Coming soon"` or an id ending in `-placeholder`); such an
   episode shows with no spoiler gate until real cards replace the placeholder.
 
 ## Grounding scores & the display contract
@@ -108,7 +108,7 @@ An episode showing **7 or more** cards opens on a **spine of 4** and folds the
 rest behind a "Show N more notes" button; a shorter episode is untouched and
 reads straight through as it always has. Season 1 and 2 episodes are 5 cards, so
 nothing about them changes — the fold exists because season 3 runs to 12 cards
-and season 4 to 10, which is a 1,900-word sitting on a phone.
+and season 4 to 15, which is a 1,900-word sitting on a phone.
 
 What leads: cards marked `tier: "spine"` take their slots first, then the
 earliest scene-anchored cards fill what is left. `Meta & trivia` folds away by
