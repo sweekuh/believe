@@ -203,6 +203,28 @@ try {
   check("trivia is folded away, not left in the spine",
     (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
       .every(t => !/Yankee Doodle|Bowie costume|actually shot|Mathmagic/.test(t)));
+  // The Season 3 review pinned the Roy/Jamie bike lesson: its corrected place in the
+  // episode (fourth) would otherwise have pushed it below the fold.
+  check("S3E6 keeps the bike lesson above the fold",
+    (await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent)))
+      .includes("Jamie teaches Roy to ride a bike"));
+  check("no S3E6 tag shows a raw HTML entity",
+    (await page.$$eval(".card .tag", ts => ts.map(t => t.textContent))).every(t => !/&[a-z]+;/i.test(t)));
+
+  // S3E12 was the thinnest finale in the app (4 cards) until the season review; it now
+  // folds, and its spine is the sign rebuilt, Beard staying and the last goldfish.
+  await page.select("#epPicker", "12");
+  await new Promise(r => setTimeout(r, 300));
+  await page.click("#revealBtn");
+  await new Promise(r => setTimeout(r, 300));
+  {
+    const e12 = await page.$$eval("#notes .card h2", ns => ns.map(n => n.textContent.trim()));
+    check("S3E12 leads with a capped spine", e12.length === 4);
+    check("S3E12 keeps the rebuilt BELIEVE sign above the fold",
+      e12.includes("The pieces of the sign come back"));
+    check("S3E12 ends the spine on the final scene",
+      e12[e12.length - 1] === "Be a goldfish, one last time");
+  }
 
   // Season 4 aired weekly from 2026-08-05 to the finale on 2026-10-07, so it is now a
   // complete, ordinary gated season like the three before it. The comingSoon teaser path

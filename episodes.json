@@ -2285,7 +2285,7 @@
               "id": "s3e1-great-stink",
               "tag": "Real Victorian history",
               "title": "The Great Stink of 1858",
-              "moment": "On the sewer tour, a guide and Coach Beard walk the team through how London's modern sewers came to be — naming Bazalgette and the Great Stink.",
+              "moment": "On the sewer tour, the guide walks the team through how London's modern sewers came to be, naming Bazalgette and the Great Stink.",
               "idea": "It's true history: in 1858 the Thames reeked of raw sewage, and engineer Sir Joseph Bazalgette answered with over a thousand miles of tunnels that helped end cholera outbreaks and still run today. The episode plants its metaphor in real ground.",
               "why": "Knowing it actually happened makes Ted's lesson land harder — a city literally built its way out of its own filth. The fix was infrastructure, not wishful thinking.",
               "source": "The 1858 Great Stink and Sir Joseph Bazalgette's London sewers, named on the episode's tour.",
@@ -2293,49 +2293,53 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated: ScreenRant/Wikipedia confirm the history; a quote-aggregator snippet shows the names spoken on screen.",
+              "groundingNotes": "Snippet-corroborated: ScreenRant/Wikipedia confirm the history; a quote-aggregator snippet shows the names spoken on screen. Season review 2026-10-12: Coach Beard's part in the explanation is unconfirmed and removed.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-great-stink-sewers-true-story/",
                 "https://en.wikipedia.org/wiki/Great_Stink",
                 "https://lassoism.com/Ted-Lasso-quote.php?id=644"
-              ]
+              ],
+              "order": 6
             },
             {
               "id": "s3e1-it-pennywise",
               "tag": "Where the idea came from",
               "title": "Henry, the sewer, and 'It'",
-              "moment": "Ted explains the field trip was his son's idea: Henry watched a scary clown movie set in the sewers on the plane and wanted to confront his fear.",
-              "idea": "The whole exercise grew from a child's instinct to face what frightens him. Ted maps it onto the team — like the kids in 'It' who only beat Pennywise underground, together.",
-              "why": "A sweet detail that reframes the sewer stunt as something Ted learned from his son. The lesson 'follow the kids' runs quietly under the premiere.",
-              "source": "Reference to Stephen King's <em>It</em> (Pennywise / the Losers' Club), via Henry's plane-watch.",
+              "moment": "Ted explains the field trip was Henry's idea: Henry watched a scary clown movie on the flight over and wanted to face what frightened him.",
+              "idea": "The whole exercise grew from a child's instinct to walk towards the thing that scares him, and Ted hands that instinct to a team the newspapers have already written off.",
+              "why": "A sweet detail that reframes the sewer stunt as something Ted learned from his son. Listen for the setup in the very first minute, when Ted asks Henry for fewer films about clowns in sewers.",
+              "source": "Henry's plane-watch of Stephen King's <em>It</em>, per the episode transcript and <em>The Review Geek</em>.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated across CBR, Screenspeck, and Hollywood Insider; the Henry-watched-It setup and the Pennywise parallel are stated in-episode.",
+              "groundingNotes": "Snippet-corroborated across CBR, Screenspeck, and Hollywood Insider; the Henry-watched-It setup and the Pennywise parallel are stated in-episode. Season review 2026-10-12: CORRECTED: Ted never draws a Pennywise or Losers' Club parallel, and the ‘follow the kids’ lesson was invented; both removed (transcript, Review Geek). The airport setup line is in the transcript and Review Geek.",
               "sourcesChecked": [
                 "https://www.cbr.com/ted-lasso-pennywise-thanos/",
                 "https://screenspeck.com/2023/03/15/ted-lasso-season-3-premiere-recap/",
                 "https://www.hollywoodinsider.com/ted-lasso-farewell/"
-              ]
+              ],
+              "order": 5
             },
             {
               "id": "s3e1-doubt-and-action",
               "tag": "Doubt is answered by doing",
               "title": "Ted's therapy call",
               "moment": "Alone tidying his flat after putting Henry on a flight home, Ted phones Dr. Sharon and admits he can't tell if his being in London helps or hurts.",
-              "idea": "Sharon reframes his rumination: doubt isn't dissolved by thinking harder, but by acting. It echoes a pragmatist idea — that conviction is tested in the doing, not settled in advance.",
-              "why": "It quietly states the season's thesis. When Ted later marches the team into the sewers, that is doubt being met with action rather than worry.",
-              "source": "Ted's phone session with Dr. Sharon Fieldstone; thematically akin to William James on belief tested through action.",
+              "idea": "Sharon reframes his rumination: doubt isn't dissolved by thinking harder, but by acting. Conviction gets tested in the doing, not settled in advance.",
+              "why": "It quietly states the season's thesis. And it has a real author. Sharon introduces it only as something a man once said; the man is Thomas Carlyle, whose <em>Sartor Resartus</em> (1830s) says doubt of any sort can only be removed by action, and says in the line before it that conviction is worthless until it turns into conduct. When Ted later marches the team into the sewers, that is doubt being met with action rather than worry.",
+              "source": "Ted's phone session with Dr. Sharon Fieldstone. Thomas Carlyle, <em>Sartor Resartus</em>, Book II, ch. IX, ‘The Everlasting Yea’, where Carlyle himself credits it to ‘a wise man’; repeated in his <em>Past and Present</em> (1843).",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated across The Review Geek, The Torg, and Antagonist recaps; the 'doubt removed by action' framing is Sharon's line, with James kept as a gloss only.",
+              "groundingNotes": "Snippet-corroborated across The Review Geek, The Torg, and Antagonist recaps; the 'doubt removed by action' framing is Sharon's line, with James kept as a gloss only. Season review 2026-10-12: CORRECTED: the earlier gloss pointed at William James. The line Sharon quotes is Carlyle's (Sartor Resartus, checked in the Project Gutenberg text; Past and Present via Wikiquote). The credit sometimes given to Goethe is undocumented and is not used.",
               "sourcesChecked": [
                 "https://www.thereviewgeek.com/tedlasso-s3e1review/",
                 "https://thetorg.com/2025/03/02/dealing-with-doubt-our-work-personas-and-ted-lasso-season-3-premiere/",
-                "https://antagonistblog.com/ted-lasso-season-3-premiere-recap-let-it-flow/"
+                "https://antagonistblog.com/ted-lasso-season-3-premiere-recap-let-it-flow/",
+                "https://www.gutenberg.org/cache/epub/1051/pg1051.txt",
+                "https://en.wikiquote.org/wiki/Doubts"
               ],
               "order": 2
             },
@@ -2357,21 +2361,21 @@
                 "https://www.nerdsandbeyond.com/2023/03/15/ted-lasso-recap-season-3-episode-1-smells-like-mean-spirit/",
                 "https://kenking.substack.com/p/the-underrated-brilliance-of-ted"
               ],
-              "order": 3
+              "order": 4
             },
             {
               "id": "s3e1-henry-goodbye",
               "tag": "Long-distance fatherhood",
               "title": "Ted and Henry's goodbye",
-              "moment": "The premiere opens on a rumpled, unshaven Ted dragging his heels at the airport before letting Henry fly home to Kansas. Henry leaves him a tiny trophy to keep.",
+              "moment": "The premiere opens on a rumpled, unshaven Ted reluctantly handing Henry over at the airport for his flight home to Kansas. Henry leaves him a tiny trophy to keep.",
               "idea": "The separation reopens Ted's guilt and the homesickness that frames his whole season. The small trophy becomes a promise and a wound at once.",
-              "why": "Everything heavy in Ted this year starts here. Notice the unshaven face — the show signaling, before any words, that he isn't okay.",
+              "why": "Everything heavy in Ted this year starts here. Notice the unshaven face: the show signalling, before any words, that he isn't okay. And watch where the trophy ends up by the end of the hour: on Ted's Lego model of the stadium, where he also moves the little Nate figure back in.",
               "source": "The opening airport farewell between Ted and his son Henry.",
               "category": "Relationships",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated across The Review Geek, the Fandom episode page, and Epicdope.",
+              "groundingNotes": "Snippet-corroborated across The Review Geek, the Fandom episode page, and Epicdope. Season review 2026-10-12: Softened ‘dragging his heels’. The trophy's payoff on the Lego stadium is in the transcript, The Cinemaholic and Screenspeck.",
               "sourcesChecked": [
                 "https://www.thereviewgeek.com/tedlasso-s3e1review/",
                 "https://ted-lasso.fandom.com/wiki/Smells_Like_Mean_Spirit",
@@ -2382,22 +2386,23 @@
             {
               "id": "s3e1-nate-spitting",
               "tag": "An old tic returns",
-              "title": "Nate spits at the mirror",
-              "moment": "Before high-pressure moments, Nate hypes himself by spitting at his own reflection.",
-              "idea": "The habit calls back to his anxious self-talk in earlier seasons. New title, new power — but the same frightened ritual, which suggests the man underneath hasn't changed.",
+              "title": "Nate's old ritual, under the table",
+              "moment": "At his first press conference as West Ham manager, a rattled Nate excuses himself, ducks under the table for his old spitting pep talk, then comes back up and turns cruel.",
+              "idea": "It is the ritual he used in Season 2 to psych himself up. New title, new power, but the same frightened habit, now done in hiding, which suggests the man underneath hasn't changed.",
               "why": "A tell to watch all season: the bravado is a costume over the same fear. The callback does quiet character work the dialogue never spells out.",
-              "source": "Nate's mirror-spitting self-motivation, a callback to earlier seasons.",
+              "source": "Nate's spitting pep talk under the press-conference table, a callback to his Season 2 ritual (<em>The Spool</em>, <em>The18</em>).",
               "category": "Ethics & character",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated by The18 and a Substack essay (plus the TV Tropes recap); the 'hasn't grown' read is interpretation.",
+              "groundingNotes": "Snippet-corroborated by The18 and a Substack essay (plus the TV Tropes recap); the 'hasn't grown' read is interpretation. Season review 2026-10-12: CORRECTED: in this episode he does not spit at a mirror (that is Season 2); he does it under the press-conference table (The Spool, The18, transcript).",
               "sourcesChecked": [
                 "https://the18.com/en/soccer-news/ted-lasso-season-3-episode-1-review-recap-s3e1-show",
                 "https://alisechaffins.substack.com/p/the-ted-lasso-relationship-guide-963",
-                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E01SmellsLikeMeanSpirit"
+                "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E01SmellsLikeMeanSpirit",
+                "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-1/"
               ],
-              "order": 4
+              "order": 7
             },
             {
               "id": "s3e1-title-nirvana",
@@ -2428,13 +2433,34 @@
               "source": "The Paddington social-media gag with Dani Rojas in the premiere.",
               "category": "Meta & trivia",
               "interest": 3,
-              "grounding": 4,
-              "groundingStatus": "verified",
-              "groundingNotes": "Snippet-corroborated by The Spoilist recap and TV Tropes; the teammate who delivers the news isn't confirmed from snippets, so left unnamed.",
+              "grounding": 2,
+              "groundingStatus": "unverified",
+              "groundingNotes": "Snippet-corroborated by The Spoilist recap and TV Tropes; the teammate who delivers the news isn't confirmed from snippets, so left unnamed. Season review 2026-10-12: WITHHELD: nobody says Paddington is fictional, and Dani is not the player let down (the speaker is unclear; Screenspeck says Sam, single-source).",
               "sourcesChecked": [
                 "https://www.thespoilist.com/recap-ted-lasso-season-3x01-smells-like-mean-spirit/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Characters/TedLasso"
-              ]
+              ],
+              "order": 3
+            },
+            {
+              "id": "s3e1-two-press-conferences",
+              "tag": "Answering an insult",
+              "category": "Ethics & character",
+              "title": "Two press conferences",
+              "moment": "Nate's first West Ham press conference is all jabs at his old boss. Ted's answer, at his own, is to praise Nate, wish him well, and then turn the jokes on himself.",
+              "idea": "Ted answers the insult the only way that leaves the other man nothing to push against: he agrees that he is easy to laugh at, and declines to make it a fight. It is also, quite literally, his reply to Rebecca, who spent the episode telling him to fight back.",
+              "why": "Hold the two press conferences side by side. One man is performing toughness to hide his fear; the other is performing silliness to hide his hurt. Only one of them is being kind.",
+              "source": "Episode plot per <em>Wikipedia</em>, <em>High on Films</em> and <em>The Review Geek</em>.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. The episode's climax and its most praised beat (A.V. Club); confirmed by Wikipedia, High on Films, Review Geek and the transcript.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Smells_Like_Mean_Spirit",
+                "https://www.highonfilms.com/ted-lasso-season-3-episode-1-recap-ending-explained"
+              ],
+              "tier": "spine",
+              "order": 8
             }
           ]
         },
@@ -2466,17 +2492,17 @@
             },
             {
               "id": "s3e2-rebecca-reverse-psychology",
-              "tag": "Winning by insulting",
-              "title": "Rebecca lands Zava",
-              "moment": "Watching Rupert work to lure Zava to West Ham, Rebecca corners him and lets him have it — calling his bluff and daring him to join a team that genuinely needs him. At the press conference, he stuns everyone, herself included, by picking Richmond.",
-              "idea": "It is reverse psychology with Rebecca's signature bluntness. She does not flatter the superstar; she challenges his ego head-on, and that is what lands him.",
-              "why": "A neat continuation of the combative fire she has shown since season one — and a reminder that with some people, a dare works where a sales pitch fails.",
+              "tag": "Winning by losing her temper",
+              "title": "Rebecca lands Zava, by accident",
+              "moment": "Rebecca means to charm Zava away from Rupert. She corners him in the men's toilets, ends up shouting at him instead, and leaves sure she has blown it. At the press conference he stuns everyone, her included, by picking Richmond.",
+              "idea": "The pitch she meant to make would have been one more piece of flattery in a life full of it. The one she actually made was not. Whatever Zava heard in it, it was not what everyone else was telling him.",
+              "why": "A neat continuation of the combative fire she has shown since season one, and a reminder that the pitch you rehearse is not always the one that lands.",
               "source": "Episode recaps (<em>Ready Steady Cut</em>, <em>TheCinemaholic</em>, <em>The Spoilist</em>).",
               "category": "Relationships",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Rebecca's confrontation and Zava's surprise Richmond signing are confirmed across recaps, which present the insult as the cause of his switch. Snippet-based verification.",
+              "groundingNotes": "Rebecca's confrontation and Zava's surprise Richmond signing are confirmed across recaps, which present the insult as the cause of his switch. Snippet-based verification. Season review 2026-10-12: CORRECTED: she confronts Zava, not Rupert; she never mentions Richmond; and she meant to sweet-talk him and thought she had failed, so this is not reverse psychology (transcript, recaps).",
               "sourcesChecked": [
                 "https://readysteadycut.com/2023/03/22/ted-lasson-season-3-episode-2-recap/",
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-2-recap-and-ending-explained/",
@@ -2501,7 +2527,7 @@
                 "https://thecinemaholic.com/why-did-roy-kent-leave-chelsea-in-ted-lasso-explained/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-2-recap-roy-rebecca-1235358020/"
               ],
-              "order": 3
+              "order": 4
             },
             {
               "id": "s3e2-title-elvis-costello",
@@ -2527,14 +2553,14 @@
               "tag": "The real player behind Zava",
               "title": "Who Zava is based on",
               "moment": "A production note behind the character introduced this episode, not a single on-screen beat.",
-              "idea": "Zava was built mainly on Sweden's Zlatan Ibrahimovic, with touches of France's Eric Cantona and Poland's Robert Lewandowski. Actor Maximilian Osinski has said the brief was an 'Ibrahimovic or Cantona type, not a villain, an agitator,' and that he prepared by reading Ibrahimovic's autobiography <em>I Am Football</em> and studying the players' cocky, self-mythologizing public personas.",
+              "idea": "Zava was built mainly on Sweden's Zlatan Ibrahimović, with touches of France's Eric Cantona and Poland's Robert Lewandowski. Actor Maximilian Osinski has described the brief as an Ibrahimović or Cantona type, an agitator rather than a villain, and said he prepared by reading Ibrahimović's autobiography <em>I Am Football</em> and studying the players' cocky, self-mythologising public personas.",
               "why": "Knowing the model makes the swagger land. Zava's serene, guru-like grandiosity is a deliberate nod to a real footballer famous for declaring his own greatness with a straight face.",
               "source": "Cast interviews and reporting (<em>iMore</em>, <em>Goal</em>, <em>Today</em>).",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "attributed",
-              "groundingNotes": "Inspiration (Ibrahimovic chiefly, plus Cantona and Lewandowski) and Osinski's prep — including reading I Am Football — confirmed across independent outlets. Snippet-based verification.",
+              "groundingNotes": "Inspiration (Ibrahimovic chiefly, plus Cantona and Lewandowski) and Osinski's prep — including reading I Am Football — confirmed across independent outlets. Snippet-based verification. Season review 2026-10-12: Quotation marks removed: the earlier quote blended two interview wordings. This is now the season's only Zava-inspiration card (the Episode 3 duplicate was removed).",
               "sourcesChecked": [
                 "https://www.imore.com/music-movies-tv/turns-out-zlatan-ibrahimovic-isnt-the-only-inspiration-for-ted-lassos-zava",
                 "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
@@ -2550,7 +2576,7 @@
               "why": "It echoes the show's steady refusal to dwell on roads not taken. Notice how Ted turns a regret into gratitude without denying that it hurt.",
               "source": "Episode recaps (TV Tropes, <em>Nerds and Beyond</em>).",
               "category": "Belief & hope",
-              "interest": 4,
+              "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
               "groundingNotes": "The Roy/Ted 'we'd never have met' exchange is confirmed across recaps; framed as a thematic reading, not an attributed philosophy. Snippet-based verification.",
@@ -2558,7 +2584,8 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E02IDontWantToGoToChelsea",
                 "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
               ],
-              "order": 4
+              "order": 5,
+              "tier": "more"
             },
             {
               "id": "s3e2-beard-jane-immersive-theater",
@@ -2576,7 +2603,28 @@
               "sourcesChecked": [
                 "https://lassoism.com/Ted-Lasso-S03E02-i-dont-want-to-go-to-chelsea.php",
                 "https://www.nerdsandbeyond.com/2023/03/22/ted-lasso-recap-season-3-episode-2-i-dont-want-to-go-to-chelsea/"
-              ]
+              ],
+              "order": 3
+            },
+            {
+              "id": "s3e2-ray-wilkins-banner",
+              "tag": "A real tribute, borrowed",
+              "category": "Meta & trivia",
+              "title": "They don't make them like Ray anymore",
+              "moment": "Roy's return to Stamford Bridge, where the crowd still honours him.",
+              "idea": "For the match scenes the show digitally altered a real banner at Stamford Bridge. Chelsea fans had paid for it to remember Ray Wilkins, the former Chelsea captain who died in 2018, and it says they don't make them like Ray anymore. On screen it says Roy. Chelsea supporters objected, and the club's co-owner and chairman, Todd Boehly, apologised, saying the filming deal predated his ownership. Wilkins's son Ross answered generously: what matters, he said, is the real banner in the real stadium.",
+              "why": "A gentle lesson hiding behind the episode's warmest homecoming: a tribute in fiction can step on a real one without meaning to.",
+              "source": "<em>The A.V. Club</em>, <em>Football365</em> and <em>Goal</em> (2023); <em>Wikipedia</em>'s episode page.",
+              "interest": 4,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Four sources agree on the banner wording, the edit, the Supporters' Trust objection, Boehly's apology and Ross Wilkins's response. Season 4's Shed Wall card refers back to this.",
+              "sourcesChecked": [
+                "https://avclub.com/ted-lasso-chelsea-banner-edit-controversial-1850257274",
+                "https://www.football365.com/news/todd-boehly-blames-abramovich-disrespectful-edit-ray-wikins-ted-lasso",
+                "https://en.wikipedia.org/wiki/(I_Don%27t_Want_to_Go_to)_Chelsea_(Ted_Lasso)"
+              ],
+              "tier": "spine"
             }
           ]
         },
@@ -2603,63 +2651,45 @@
                 "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
                 "https://ted-lasso.fandom.com/wiki/Zava"
               ],
-              "order": 2
+              "order": 3
             },
             {
               "id": "s3e3-superstar-murray-head",
               "tag": "Kept in the family",
               "title": "The \"Superstar\" needle-drop",
               "moment": "As Richmond's winning streak plays out, the episode reaches for \"Superstar\" from <em>Jesus Christ Superstar</em> — and the cue lands over a scene with Rupert, watching the team.",
-              "idea": "The song's lead vocal is Murray Head, the real-life brother of Anthony Head, who plays Rupert. In the musical that number is sung by the spirit of Judas, layering a sly \"false messiah / betrayer\" note over a story about a dazzling new superstar.",
+              "idea": "The song's lead vocal is Murray Head, the real-life brother of Anthony Head, who played Rupert. In the musical the number is sung by the spirit of Judas, layering a sly false-messiah, betrayer note over a story about a dazzling new superstar.",
               "why": "A double Easter egg — a family in-joke and a thematic wink — hiding in a montage you might hum right past.",
               "source": "IMDb soundtrack and trivia; <em>Wikipedia</em> on Murray and Anthony Head.",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Song in the episode and the brothers fact confirmed; the cue's placement over a Rupert scene corroborated via IMDb trivia and recaps. Snippet-based.",
+              "groundingNotes": "Song in the episode and the brothers fact confirmed; the cue's placement over a Rupert scene corroborated via IMDb trivia and recaps. Snippet-based. Season review 2026-10-12: Tense changed: Anthony Head died in June 2026 (see the Season 4 Episode 9 tribute card).",
               "sourcesChecked": [
                 "https://www.imdb.com/title/tt19655880/soundtrack/",
                 "https://en.wikipedia.org/wiki/Murray_Head"
               ],
-              "order": 6
+              "order": 7
             },
             {
               "id": "s3e3-prisencolinensinainciusol",
               "tag": "Confident nonsense",
               "title": "The gibberish song over the winning streak",
               "moment": "The team's hot streak plays out over a long montage scored by Adriano Celentano's \"Prisencolinensinainciusol\" — a 1972 Italian track whose lyrics are pure gibberish.",
-              "idea": "Celentano built the song to sound like fluent American English to non-English speakers — to dramatize how confident-sounding nonsense can pass for meaning. Dropped over Zava's reign, it's a witty rhyme: catchy, assured, and meaning-light.",
+              "idea": "Celentano said the song was about the inability to communicate, and built it to sound like fluent American English to people who don't speak it. Dropped over Zava's reign, this card reads it as a sly rhyme: catchy, assured, and light on meaning.",
               "why": "The thematic match is an inference, but a sharp one — the sound of impressive emptiness, under the man selling it.",
               "source": "<em>Wikipedia</em> (episode and song); soundtrack listings at Tunefind.",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Song's presence in the episode and its gibberish-by-design nature confirmed across independent sources. Zava connection is interpretation. Snippet-based.",
+              "groundingNotes": "Song's presence in the episode and its gibberish-by-design nature confirmed across independent sources. Zava connection is interpretation. Snippet-based. Season review 2026-10-12: Celentano's own stated theme added; the Zava reading is labelled as the card's.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
                 "https://www.tunefind.com/show/ted-lasso/season-3/235145"
               ],
-              "order": 5
-            },
-            {
-              "id": "s3e3-zava-zlatan",
-              "tag": "A real superstar, fictionalized",
-              "title": "Who Zava is based on",
-              "moment": "Zava's whole bearing this episode — third-person grandiosity, the demand to reshape the side around himself, the acrobatic goals and shirtless celebration — is an archetype dramatized.",
-              "idea": "He's a fictionalized Zlatan Ibrahimovic: the legendary-but-diva reputation, the man-bun, the lean frame, the mythmaking. The actor described him as a mix of Zlatan and Eric Cantona, with traces of Robert Lewandowski.",
-              "why": "Once you see Zlatan in him, Zava's swagger reads as affectionate parody rather than pure invention.",
-              "source": "<em>Goal.com</em>, <em>Today</em>, <em>SlashFilm</em>; actor Maximilian Osinski's own comments. An \"based on\" attribution.",
-              "category": "Meta & trivia",
-              "interest": 4,
-              "grounding": 4,
-              "groundingStatus": "attributed",
-              "groundingNotes": "Strongly supported across outlets and the actor's comments; the Cantona/Lewandowski additions are corroborated too. Attribution, not an official confirmation. Snippet-based.",
-              "sourcesChecked": [
-                "https://www.goal.com/en-us/news/ted-lasso-character-zava-zlatan-ibrahimovic/bltb0b86ab06bb87464",
-                "https://www.today.com/popculture/tv/zava-ted-lasso-real-inspiration-rcna78516"
-              ]
+              "order": 6
             },
             {
               "id": "s3e3-dr-jacob-ethics",
@@ -2678,13 +2708,13 @@
                 "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
                 "https://www.themarysue.com/fans-are-appalled-at-the-bad-behavior-in-ted-lasso-episode-3/"
               ],
-              "order": 3
+              "order": 4
             },
             {
               "id": "s3e3-zava-empty-vessel",
               "tag": "Humble words, vast ego",
               "title": "Zava's guru act",
-              "moment": "Zava arrives wrapped in spiritual mystique — meditation, an avocado farm, grand pronouncements — and gives a stirring speech about \"we, not I.\" Then he reshapes the coaches' board so the new formation is one dot ahead of ten behind.",
+              "moment": "Zava arrives wrapped in spiritual mystique (meditation, grand pronouncements) and gives a stirring speech about ‘we, not I.’ Then he asks which dot on the coaches' board is him, and redraws it: one dot ahead, ten behind.",
               "idea": "The language he borrows is the language of egolessness and humility. What it actually serves is one of the biggest egos the club has ever housed. The act is the joke.",
               "why": "A pointed foil for Ted's earnest, other-directed leadership. Listen to the words, then watch what his hands do to the whiteboard.",
               "source": "Recaps at <em>subjectmedia</em> and the <em>Ted Lasso</em> Fandom wiki; cast comments to <em>Today</em>.",
@@ -2692,7 +2722,7 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Guru-speak followed by the self-centering whiteboard redraw confirmed across recaps. Paraphrased; no dialogue reproduced. Snippet-based.",
+              "groundingNotes": "Guru-speak followed by the self-centering whiteboard redraw confirmed across recaps. Paraphrased; no dialogue reproduced. Snippet-based. Season review 2026-10-12: CORRECTED: the avocado farm belongs to Episode 5 and is removed here, where it also gave that episode away.",
               "sourcesChecked": [
                 "https://subjectmedia.org/2023/03/31/ted-lasso-s3e3-4-5-1/",
                 "https://ted-lasso.fandom.com/wiki/Zava"
@@ -2703,7 +2733,7 @@
               "id": "s3e3-ted-panic-attack",
               "tag": "Relief isn't repair",
               "title": "Ted's panic attack",
-              "moment": "Ted rings home at an odd hour and the man who used to be his and Michelle's marriage counselor picks up. Before the Wolves match the panic starts to take hold — and then Zava scores from the halfway line, seconds in, and the feeling is gone.",
+              "moment": "Without his phone and unable to remember Michelle's number, Ted calls the house landline, and the man who used to be their marriage counselor picks up. Before the Wolves match the panic starts to take hold, and then Zava scores from the halfway line, seconds in, and the feeling is gone.",
               "idea": "Notice what actually stopped it. Not breathing, not a conversation, not anything Ted did — something spectacular happened and took his attention. A feeling can end without anything that caused it being touched, and that gap is the whole difference between relief and repair.",
               "why": "He does take the news to Sharon, and that is the honest part of the hour. But the episode lets a win be the thing that made the panic stop. Which is why it comes back a couple of episodes later, over something with nothing to do with Michelle.",
               "source": "Episode plot: the panic begins before the Wolverhampton match and breaks when Zava scores from the halfway line; Ted also takes the news to Sharon in this episode.",
@@ -2711,13 +2741,13 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Corrected. An earlier version of this card had Ted ending up 'in Sharon's office' after the panic attack, and read the beat as therapy doing the work. He does take the news to Sharon here, but there is no office scene, and what halts the panic is Zava's goal. Trigger (Jacob answering the house phone), timing (before the Wolves match) and resolution confirmed across Wikipedia and episode recaps.",
+              "groundingNotes": "Corrected. An earlier version of this card had Ted ending up 'in Sharon's office' after the panic attack, and read the beat as therapy doing the work. He does take the news to Sharon here, but there is no office scene, and what halts the panic is Zava's goal. Trigger (Jacob answering the house phone), timing (before the Wolves match) and resolution confirmed across Wikipedia and episode recaps. Season review 2026-10-12: ‘An odd hour’ was unsupported; the reason he rings the landline is in Wikipedia and the transcript.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/4-5-1_(Ted_Lasso)",
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-3-recap-and-ending-explained/",
                 "https://screenrant.com/ted-lasso-season-3-sharon-fieldstone-not-used-disappointing/"
               ],
-              "order": 4
+              "order": 5
             },
             {
               "id": "s3e3-title-formation",
@@ -2754,7 +2784,7 @@
                 "https://tvline.com/2023/03/29/ted-lasso-recap-season-3-episode-3-michelle-doctor-jacob-colin-twist",
                 "https://ted-lasso.fandom.com/wiki/Colin_Hughes"
               ],
-              "order": 7
+              "order": 8
             },
             {
               "id": "s3e3-maria-sound-of-music",
@@ -2778,7 +2808,7 @@
               "id": "s3e3-roy-trains-jamie",
               "tag": "Rivals turned mentor",
               "title": "Roy offers to train Jamie",
-              "moment": "Outshone by Zava and frustrated, Jamie goes to Roy for help. Roy — once his bitterest rival — agrees to spend his own time training him.",
+              "moment": "Outshone by Zava, Jamie is sulking. Roy, once his bitterest rival, finds him and offers to train him himself, at five in the morning.",
               "idea": "It quietly inverts their Season 1 enmity and starts one of the show's richest relationships. Roy sees the raw talent and the missing work ethic, and decides he can hand over what he built.",
               "why": "Keep an eye on this pairing — a grudge becoming a mentorship, and eventually something like friendship.",
               "source": "<em>TVLine</em>; a Goldstein/Dunster interview at IMDb.",
@@ -2786,12 +2816,31 @@
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "The training pairing and Roy's motivation confirmed via TVLine and the cast interview. Season-arc setup. Snippet-based.",
+              "groundingNotes": "The training pairing and Roy's motivation confirmed via TVLine and the cast interview. Season-arc setup. Snippet-based. Season review 2026-10-12: CORRECTED: Roy makes the offer; Jamie does not ask (Wikipedia, TVLine, transcript).",
               "sourcesChecked": [
                 "https://www.tvline.com/interviews/ted-lasso-recap-season-3-episode-3-roy-jamie-training-explained-1234953694/",
                 "https://www.imdb.com/news/ni64019825/"
               ],
-              "order": 8
+              "order": 9
+            },
+            {
+              "id": "s3e3-tish-kintsugi",
+              "tag": "Mended with gold",
+              "category": "Belief & hope",
+              "title": "Tish explains kintsugi",
+              "moment": "Before her reading, Rebecca's mother's psychic, Tish, explains kintsugi, the Japanese craft of mending broken pottery with gold. Then she makes a string of oddly specific predictions, and Rebecca storms out.",
+              "idea": "Kintsugi repairs a cracked bowl with lacquer mixed or dusted with gold, so that the break is not hidden but picked out. The repair becomes part of the object's history, and arguably the most beautiful part of it.",
+              "why": "Hold on to two things from this scene. The predictions, because Episode 5 is built on them coming true. And the gold, because this is a season about a sign that has already been torn once.",
+              "source": "Kintsugi per <em>Wikipedia</em>; the scene per the episode transcript and <em>Lady Geeks Media</em>.",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Tish's kintsugi explanation and the reading are in the Forever Dreaming transcript and Lady Geeks Media's review. The rhyme with the sign is this card's hint, not a claim.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/Kintsugi",
+                "https://ladygeeksmedia.com/2023/03/29/ted-lasso-3x03-4-5-1-review/"
+              ],
+              "order": 2
             }
           ]
         },
@@ -2804,61 +2853,64 @@
             {
               "id": "s3e4-believe-sign-revealed-torn",
               "tag": "Who tore the sign",
-              "title": "The BELIEVE sign reveal",
-              "moment": "The taped-up BELIEVE sign in the locker room finally falls apart, exposing an old tear. Trent, embedded for his book, has dug up security footage showing it was Nate who ripped it on his last day. Roy and Beard want Ted to play the clip to fire up the squad. Ted takes the drive and refuses.",
-              "idea": "Handed a ready-made grievance, Ted declines to motivate his players through contempt. The beat resolves a season-opening mystery and restates his ethic: belief and decency over fueling the team on resentment, even toward someone who earned it.",
-              "why": "This is the project's own emblem. The taped BELIEVE banner is the gift app's visual signature, and here the show stages both its destruction and Ted's refusal to weaponize it.",
+              "title": "The footage Ted wouldn't have shown",
+              "moment": "Before the West Ham match, a player testing a karate chop splits the taped-up BELIEVE sign along an old tear. Trent, embedded for his book, has dug up security footage showing it was Nate who ripped it. At half-time, while Ted is out of the room, Beard and Roy play the clip to the squad themselves. Richmond come out furious, pick up three red cards and lose 4–1.",
+              "idea": "Anger is a fast fuel and a bad one. The squad goes out wanting to hurt someone rather than wanting to play, and the scoreline is what that looks like. Afterwards Ted does not blame his coaches. He just takes the drive.",
+              "why": "It is the episode's argument for Ted's whole method, made by showing what happens without it. And it sets up next week, when Ted has to decide what the sign is actually for.",
               "source": "S3E4 recaps (<em>TV Tropes</em>; <em>ScreenRant</em>; <em>The Hollywood Reporter</em>).",
               "category": "Ethics & character",
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "The sign falling apart, Trent's footage revealing Nate, and Ted taking the drive but declining to use it are consistent across independent recaps. Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "The sign falling apart, Trent's footage revealing Nate, and Ted taking the drive but declining to use it are consistent across independent recaps. Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: CORRECTED: Ted does not refuse to play the clip; Beard and Roy show it while he is out, the team gets three red cards and loses 4–1, and Ted takes the drive afterwards without blaming them (Wikipedia, Cult of Mac, Screen Rant, transcript). The sign splits along its old tear after a karate chop.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
                 "https://screenrant.com/ted-lasso-season-3-episode-4-recap/",
-                "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/"
+                "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-4-nate-ted-1235367247/",
+                "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)",
+                "https://www.cultofmac.com/reviews/ted-lasso-apple-tv-recap-big-week"
               ],
-              "order": 2
+              "order": 5
             },
             {
               "id": "s3e4-oklahoma-safe-word",
               "tag": "A code-word for honesty",
               "title": "Rebecca says 'Oklahoma'",
               "moment": "Ted brushes off Rebecca's concern about how he's really doing. She answers with a single word, 'Oklahoma', and he drops the act.",
-              "idea": "'Oklahoma' is the honesty signal Ted revealed back in Season 1 (Tan Lines): the code he and his then-wife used to tell each other they were being completely, vulnerably truthful. Rebecca using it means she now holds his most private emotional tool.",
+              "idea": "‘Oklahoma’ is the honesty signal Ted explained to Rebecca back in Season 1 (‘Tan Lines’): the code he and his then-wife used to say they were being completely, vulnerably truthful. Using it back on him is Rebecca showing she remembers, and that she means it.",
               "why": "Quietly moving on two levels. It shows how close Ted and Rebecca have grown, and it lands an instrument of his marriage in the middle of his post-divorce spiral.",
               "source": "S3E4 recaps and explainer; origin in S1E5 &ldquo;Tan Lines&rdquo; (<em>The Spool</em>; <em>TV Tropes</em>).",
               "category": "Relationships",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Rebecca's use of 'Oklahoma' in S3E4 and its S1E5 origin as Ted's marital honesty code are confirmed across independent recaps. Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "Rebecca's use of 'Oklahoma' in S3E4 and its S1E5 origin as Ted's marital honesty code are confirmed across independent recaps. Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: Softened ‘holds his most private tool’: he told her the word himself in S1E5.",
               "sourcesChecked": [
                 "https://thespool.net/reviews/tv/tv-recap-ted-lasso-season-3-episode-4/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
                 "https://fictionhorizon.com/what-does-oklahoma-mean-in-ted-lasso/"
               ],
-              "order": 4
+              "order": 6
             },
             {
               "id": "s3e4-smigus-dyngus",
               "tag": "A real tradition hiding in a joke",
               "title": "Zava's child named for a Polish water festival",
               "moment": "Explaining his belief that everyone should choose their own name, Zava says he lets each of his children pick one at age seven, which is why his eldest is named after a Polish Easter custom. It plays as nonsense, but the name is real.",
-              "idea": "Smigus-dyngus (Poland's Easter Monday, also called Wet Monday or Dyngus Day) is a custom of playfully dousing people with water. Its roots run back through old Slavic spring rites tied to fertility, renewal, and purification before the Christian calendar absorbed it.",
+              "idea": "Śmigus-dyngus (Poland's Easter Monday, also called Wet Monday or Dyngus Day) is a custom of playfully dousing people with water. It may have roots in older Slavic spring rites of renewal and purification, absorbed later into the Christian calendar.",
               "why": "A throwaway gag that rewards a pause: the absurd name is a genuine folk tradition, fitting Zava's globe-trotting mystic-guru affect. Spellings vary in transcripts, so it is easy to miss as a real reference.",
               "source": "Documented Polish Easter tradition (<em>Culture.pl</em>; <em>Wikipedia</em>, &ldquo;Śmigus-dyngus&rdquo;); episode placement per transcript and recaps.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Smigus-dyngus is a well-documented Polish Easter Monday water custom with pre-Christian Slavic roots; the line is tagged S03E04 in a transcript and described in recaps. Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "Smigus-dyngus is a well-documented Polish Easter Monday water custom with pre-Christian Slavic roots; the line is tagged S03E04 in a transcript and described in recaps. Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: Hedged: Wikipedia says only that pre-Christian roots are possible.",
               "sourcesChecked": [
                 "https://lassoism.com/Ted-Lasso-quote.php?id=719",
                 "https://culture.pl/en/article/smigus-dyngus-polands-national-water-fight-day",
                 "https://en.wikipedia.org/wiki/%C5%9Amigus-dyngus"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e4-goldstein-writer-actor",
@@ -2882,7 +2934,7 @@
               "id": "s3e4-sassy-rejects-ted",
               "tag": "The hard, kind truth",
               "title": "Sassy turns Ted down",
-              "moment": "Rattled by news of his ex-wife's new relationship, Ted asks Sassy to take their casual thing further. She refuses, gently but plainly, naming his unresolved divorce and telling him to sort himself out before putting that on someone else.",
+              "moment": "Rattled by news of his ex-wife's new relationship, Ted asks Sassy to take their casual thing further. She says no, kindly and plainly: they are both a mess, she is three years further down this road than he is, and she would rather they stayed as they are.",
               "idea": "She is the rare character willing to give Ted the unvarnished truth instead of reassurance. The scene is a clear-eyed counterweight to the show's gentler tendency to enable his deflection.",
               "why": "Honest care that refuses to flatter. Watch how the same verdict, that he's a mess, gets echoed afterward by his closest friends.",
               "source": "S3E4 recaps (<em>The Cinemaholic</em>; <em>The Mary Sue</em>).",
@@ -2890,31 +2942,32 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Sassy refusing Ted and calling him an emotional mess who needs to work on himself is confirmed across independent recaps; the 'only one telling him the truth' reading is interpretive. Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "Sassy refusing Ted and calling him an emotional mess who needs to work on himself is confirmed across independent recaps; the 'only one telling him the truth' reading is interpretive. Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: Softened: she does not tell him to sort himself out before putting it on someone else (transcript).",
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-4-recap-and-ending-explained/",
                 "https://www.themarysue.com/sassy-is-the-only-one-telling-ted-like-it-is-on-ted-lasso/"
               ],
-              "order": 1
+              "order": 2
             },
             {
               "id": "s3e4-subbuteo-callback",
               "tag": "Plotting on a toy pitch",
               "title": "Nate's Subbuteo tactics",
-              "moment": "Preparing to out-coach his old mentor, Nate maps the Richmond game by moving little figures around a tabletop football pitch, nudging a tiny figure off the board as he plans.",
+              "moment": "In the cold open, preparing to out-coach his old mentor, Nate moves little figures around a tabletop football pitch, and flicks the tiny Ted figure off the board.",
               "idea": "He is using a Subbuteo set, the classic British finger-flicking tabletop football game, invented in 1947 by Peter Adolph and named after the hobby falcon (Falco subbuteo). It is a deeply English piece of football culture and perfect shorthand for an obsessive tactician.",
-              "why": "Characterful set dressing that also reads as a quiet inversion of the season's opening image, with Nate now the one rearranging the pieces. Easy to miss as a real, beloved game rather than a generic prop.",
+              "why": "Characterful set dressing, and a precise one: of all the figures on the table, the one he knocks over is Ted. Easy to miss as a real, beloved game rather than a generic prop.",
               "source": "Subbuteo history (<em>FourFourTwo</em>; <em>Wikipedia</em>); scene per S3E4 recaps.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Nate planning tactics on a Subbuteo set is described in recaps; the game's 1947 invention and falcon-derived name are well documented. Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "Nate planning tactics on a Subbuteo set is described in recaps; the game's 1947 invention and falcon-derived name are well documented. Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: The figure knocked over is Ted's (transcript, recaps); the ‘inversion of the opening image’ reading was unsupported and removed.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E04BigWeek",
                 "https://www.fourfourtwo.com/features/the-subbuteo-story-how-a-war-veteran-cum-egg-collector-invented-britains-legendary-tabletop-favourite",
                 "https://en.wikipedia.org/wiki/Subbuteo"
-              ]
+              ],
+              "order": 1
             },
             {
               "id": "s3e4-zava-self-naming-identity",
@@ -2933,13 +2986,14 @@
                 "https://lassoism.com/Ted-Lasso-quote.php?id=719",
                 "https://www.geekgirlauthority.com/ted-lasso-season-3-episode-4-big-week-quotes/"
               ],
-              "order": 3
+              "order": 3,
+              "tier": "more"
             },
             {
               "id": "s3e4-joker-and-the-thief",
               "tag": "Music cue",
               "title": "A rock anthem out of the tunnel",
-              "moment": "As Richmond emerge after the halftime break in the big match, a swaggering hard-rock track kicks in: 'Joker & the Thief' by the Australian band Wolfmother (2005).",
+              "moment": "As Richmond come out for the second half, still furious from the Nate video, a swaggering hard-rock track kicks in: ‘Joker & the Thief’ by the Australian band Wolfmother (2006).",
               "idea": "The strutting, bravado-soaked cue suits an episode built around a high-tension showdown and a showman's confidence. The pick leans into the bluster of the build-up.",
               "why": "An easy needle-drop to enjoy on rewatch once you can name it. The song's cocky energy plays against how the match actually turns out.",
               "source": "Soundtrack listing (<em>Tunefind</em>, S3E4; <em>Wikipedia</em>).",
@@ -2947,12 +3001,51 @@
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Tunefind, Wikipedia, and Dexerto place 'Joker & the Thief' by Wolfmother in S3E4 (Richmond emerging after halftime). Snippet-based verification (WebFetch blocked this session).",
+              "groundingNotes": "Tunefind, Wikipedia, and Dexerto place 'Joker & the Thief' by Wolfmother in S3E4 (Richmond emerging after halftime). Snippet-based verification (WebFetch blocked this session). Season review 2026-10-12: Single year corrected to 2006; the cue follows the video at half-time.",
               "sourcesChecked": [
                 "https://www.tunefind.com/show/ted-lasso/season-3/235593",
                 "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)"
               ],
-              "order": 5
+              "order": 7
+            },
+            {
+              "id": "s3e4-grant-wahl",
+              "tag": "In memory",
+              "category": "Meta & trivia",
+              "title": "The episode is dedicated to Grant Wahl",
+              "moment": "The card after the final scene, and a book in Beard's hands.",
+              "idea": "Grant Wahl was an American football journalist who died in December 2022 while covering the World Cup in Qatar. He had answered the writers' questions, at length, about what it is like for a reporter to embed with a team and how a superstar's arrival changes a club: the raw material for Trent's book and for Zava. Beard is seen holding Wahl's own book, <em>The Beckham Experiment</em>, an Easter egg filmed before his death.",
+              "why": "Trent's whole storyline this season exists partly because of him. His widow, Dr. Céline Gounder, said the tribute meant a great deal to her family.",
+              "source": "<em>Awful Announcing</em> (with Brendan Hunt on Wahl's answers) and <em>The Daily Beast</em>; <em>Wikipedia</em>'s episode page.",
+              "interest": 5,
+              "grounding": 5,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Dedication, Wahl's role advising the writers, the book prop and Gounder's response confirmed by four sources. The book's year is reported inconsistently and is not given.",
+              "sourcesChecked": [
+                "https://awfulannouncing.com/soccer/ted-lasso-pays-tribute-to-grant-wahl.html",
+                "https://thedailybeast.com/how-ted-lasso-honored-journalist-grant-wahl-who-died-at-world-cup",
+                "https://en.wikipedia.org/wiki/Big_Week_(Ted_Lasso)"
+              ],
+              "tier": "spine"
+            },
+            {
+              "id": "s3e4-henry-laozi",
+              "tag": "Attributed to, not by",
+              "category": "Ethics & character",
+              "title": "Thierry Henry's Laozi isn't Laozi",
+              "moment": "On the post-match punditry, Thierry Henry, playing himself, credits Laozi with a line about the student and the teacher: when the student is ready the teacher appears, and when the student is truly ready the teacher disappears. It is a jab at Ted, whose old pupil has just beaten him.",
+              "idea": "It is not in the <em>Tao Te Ching</em> or anywhere else in Laozi. People who have traced it find the first half in the Theosophical movement of roughly a century ago and the second half in much more recent self-help writing. No reliable ancient source has turned up.",
+              "why": "The show has done this before, with the Whitman line on the sign. A wise-sounding sentence finds an ancient name to travel under, and the name sticks. The advice is not bad. It just isn't his.",
+              "source": "Stefan Stenudd's survey of misattributed Laozi quotes (taoistic.com) and the 1000 Quotes Project.",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "attributed",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Henry's line is in the transcript and on lassoism.com. Two independent investigations find no Laozi source; exact first appearances are debated, so no dates are given.",
+              "sourcesChecked": [
+                "https://www.taoistic.com/fake-laotzu-quotes/fake-laotzu-quote-When_the_student_is_ready_the_teacher_will_appear.htm",
+                "https://1000quotesproject.wordpress.com/2019/05/17/845-when-the-student-is-ready-the-teacher-will-appear-when-the-student-is-truly-ready-the-teacher-will-disappear/"
+              ],
+              "order": 8
             }
           ]
         },
@@ -2980,7 +3073,7 @@
                 "https://www.highonfilms.com/ted-lasso-season-3-episode-5-recap-ending-explained/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-5-signs-ted-rebecca-1235371820/"
               ],
-              "order": 6,
+              "order": 7,
               "tier": "spine"
             },
             {
@@ -3037,13 +3130,14 @@
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-5-recap/",
                 "https://comicbook.com/tv-shows/news/ted-lasso-season-3-richmond-setback-zava-quits-match/"
-              ]
+              ],
+              "order": 4
             },
             {
               "id": "s3e5-nate-taste-of-athens-date",
               "tag": "His real self outshines the act",
               "title": "Nate's date at A Taste of Athens",
-              "moment": "Flush with new status, Nate brings a model to his family's modest Greek restaurant. She sneers at the unglamorous choice and leaves, but his heartfelt account of what the place means to his family softens the hostess Jade, who stays and shares baklava with him.",
+              "moment": "Flush with new status, Nate brings a model to his family's modest Greek restaurant. She sneers at the unglamorous choice and leaves. Jade, the hostess, stays, and shares baklava with him.",
               "idea": "A redemptive flicker inside Nate's villain arc: the sincere, family-loving version of him is more appealing than the borrowed bravado he has been performing. Authenticity lands where the act fails.",
               "why": "Watch the contrast between the persona Nate thinks impresses and the sincerity that actually does. It quietly sets up where his story is heading.",
               "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (TV Tropes; ScreenRant).",
@@ -3051,50 +3145,52 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: Nate's date with the model at A Taste of Athens sours, but his sincerity wins over the hostess Jade, who shares baklava with him.",
+              "groundingNotes": "Confirmed: Nate's date with the model at A Taste of Athens sours, but his sincerity wins over the hostess Jade, who shares baklava with him. Season review 2026-10-12: No source says Jade overheard his speech, so the causal link is removed.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
                 "https://screenrant.com/ted-lasso-season-3-episode-5-recap/"
               ],
-              "order": 4
+              "order": 5
             },
             {
               "id": "s3e5-green-matchbook-omen",
-              "tag": "The prediction made literal",
-              "title": "The green matchbook from Sam's restaurant",
-              "moment": "About to throw away a green matchbook, Rebecca realizes it is the one given out at the opening of Sam's Nigerian restaurant — exactly the 'special' green matchbook a psychic had told her would matter. The omen she dismissed has materialized.",
-              "idea": "The matchbook is the concrete hinge of Rebecca's fate-versus-skepticism arc: a prediction she could shrug off becomes a physical object she is already carrying, making the 'signs' impossible to wave away.",
-              "why": "A small object doing heavy thematic lifting. Its meaning keeps developing later in the season, so it rewards a rewatch — watch Rebecca try, and fail, to be rid of it.",
-              "source": "Recaps and explainers of <em>Ted Lasso</em> S3 (ScreenRant; The Mary Sue).",
+              "tag": "The sign she didn't want",
+              "title": "The clinic calls",
+              "moment": "Rebecca asks a fertility doctor whether she can still have children. After the match the clinic calls, and the news is not what she hoped for. The hour ends on her holding the green matchbook from the opening of Sam's restaurant: the one Tish said would matter.",
+              "idea": "Every sign in this episode points somewhere, and this is the cruellest of them: a prediction about a future she has just been told she cannot have. One reviewer read it as the psychic being half right and half wrong at once, which is exactly where Rebecca is left standing.",
+              "why": "It is the emotional centre of Rebecca's season, played almost without words.",
+              "source": "Recaps of <em>Ted Lasso</em> S3E5 ‘Signs’ (<em>Wikipedia</em>, <em>Lady Geeks Media</em>, <em>TVLine</em>, <em>Cult of Mac</em>).",
               "category": "Belief & hope",
-              "interest": 4,
+              "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Corroborated by multiple sources: the matchbook from Sam's restaurant opening is the one the psychic foretold; the recognition lands in S3E5 (the reading itself is an earlier S3 episode).",
+              "groundingNotes": "Corroborated by multiple sources: the matchbook from Sam's restaurant opening is the one the psychic foretold; the recognition lands in S3E5 (the reading itself is an earlier S3 episode). Season review 2026-10-12: REWRITTEN: recognising the matchbook happens in Episode 3, not here. What Episode 5 has is the fertility news and the closing image of the matchbook (Wikipedia, Lady Geeks, TVLine, Cult of Mac); the fertility beat had no card anywhere in Season 3.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-rebecca-green-matchbook-psychic-explained/",
-                "https://www.themarysue.com/lets-feverishly-speculate-about-rebeccas-green-matchbook-in-ted-lasso/"
+                "https://www.themarysue.com/lets-feverishly-speculate-about-rebeccas-green-matchbook-in-ted-lasso/",
+                "https://en.wikipedia.org/wiki/Signs_(Ted_Lasso)",
+                "https://www.cultofmac.com/reviews/ted-lasso-apple-tv-recap-signs"
               ],
-              "order": 5
+              "order": 3
             },
             {
               "id": "s3e5-ted-panic-attack-henry",
               "tag": "Anxiety resurfaces",
               "title": "Ted's panic attack, and Henry's call",
-              "moment": "Hearing that Henry was the bully rather than the bullied, Ted feels a panic attack coming on — tingling fingers, short breath. He steadies himself with breathing and a reassuring call from Henry, who says he apologized, before he can face the team.",
-              "idea": "A direct continuation of the Season 2 arc in which Ted's untreated anxiety surfaced. Here he is the one managing it in real time — quiet evidence that the work he did is holding.",
+              "moment": "Before the match Ted learns from Michelle that Henry was the bully, not the bullied. After the heavy home defeat it catches up with him in the locker room: the panic starts, he breathes through it, and a video call from Henry, who has apologised to the other boy, helps him the rest of the way.",
+              "idea": "Two episodes ago a wonder goal is what ended his panic. This time nothing spectacular happens. He does the slow, unglamorous work himself, which is the difference between relief and repair.",
               "why": "Watch how the show treats the panic as ordinary and survivable rather than a crisis. To feel the weight of this beat, it helps to remember the Season 2 mental-health storyline it pays off.",
               "source": "Recaps of <em>Ted Lasso</em> S3E5 “Signs” (TV Tropes; The Review Geek).",
               "category": "Ethics & character",
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: Ted has panic-attack symptoms after learning Henry was the bully; a call from Henry helps him through it, continuing the Season 2 anxiety arc.",
+              "groundingNotes": "Confirmed: Ted has panic-attack symptoms after learning Henry was the bully; a call from Henry helps him through it, continuing the Season 2 anxiety arc. Season review 2026-10-12: CORRECTED: the news and the panic are separate scenes; the panic comes after the match. ‘Tingling fingers’ was unsupported (transcript).",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E05Signs",
                 "https://www.thereviewgeek.com/tedlasso-s3e5review/"
               ],
-              "order": 3
+              "order": 6
             }
           ]
         },
@@ -3108,7 +3204,7 @@
               "id": "s3e6-van-gogh-sowing-time",
               "tag": "Life is a sowing time",
               "title": "The docent at the Van Gogh Museum",
-              "moment": "Standing before Van Gogh's <em>Sunflowers</em>, a gently tripping Ted listens to a museum docent describe a painter who never stopped searching for beauty despite his demons — that life is a kind of sowing time and the harvest hasn't come yet — and is moved to tears.",
+              "moment": "Standing before Van Gogh's <em>Sunflowers</em>, a gently tripping Ted listens to a museum docent describe a painter who never stopped searching for beauty despite his demons: that life is a kind of sowing time, and the harvest hasn't come yet.",
               "idea": "The slump is a season, not a verdict. The harvest's absence today doesn't mean the sowing was wasted; doing what you're meant to do is its own obligation, results pending.",
               "why": "The line the docent paraphrases is real Van Gogh — from a letter to his brother Theo (Feb 1883). It reframes Ted's low point and quietly sets up the whole episode's theme of doing your work and waiting on joy.",
               "source": "Van Gogh's letters (to Theo, The Hague, 8 Feb 1883), via the <strong>Van Gogh Museum</strong> letter archive; episode per <em>Wikipedia</em>.",
@@ -3116,7 +3212,7 @@
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Docent lines paraphrase a genuine Van Gogh letter to Theo (Letter 310, 8 Feb 1883), confirmed by the Van Gogh Museum archive and vangoghletters.org; museum scene corroborated by Wikipedia and recaps.",
+              "groundingNotes": "Docent lines paraphrase a genuine Van Gogh letter to Theo (Letter 310, 8 Feb 1883), confirmed by the Van Gogh Museum archive and vangoghletters.org; museum scene corroborated by Wikipedia and recaps. Season review 2026-10-12: ‘Moved to tears’ is unsupported by the transcript and five recaps and is removed.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)",
                 "https://www.vangoghmuseum.nl/en/highlights/letters/310",
@@ -3130,7 +3226,7 @@
               "tag": "The idea was his all along",
               "title": "Beard tells Ted the tea was a dud",
               "moment": "Back on the bus the next morning — Beard still in his pig-nosed Bowie costume, the pair of them wrecked — Ted is scribbling his new tactic on a napkin when Beard mentions, almost in passing, that the psychedelic tea did nothing at all.",
-              "idea": "Ted has been crediting the trip for his breakthrough: the tears at the Van Gogh, the cartoon lecture on triangles, the whole epiphany. Beard's report quietly hands it back to him. Whatever opened up that night was already inside him; the tea only gave him permission to look.",
+              "idea": "Ted has been crediting the trip for his breakthrough: the Van Gogh docent, the cartoon lecture on triangles, the whole epiphany. Beard's report quietly hands it back to him. Whatever opened up that night was already inside him; the tea only gave him permission to look.",
               "why": "It is the episode's gentlest argument — that people in a slump usually don't need to become someone else, they need an excuse to trust what they already know. And the show immediately keeps Ted humble: Beard points out the Dutch invented the same system fifty years ago.",
               "source": "Recaps of <em>Sunflowers</em> at <em>Nerds and Beyond</em> and <em>TV Tropes</em>; episode details per <em>Wikipedia</em>.",
               "category": "Belief & hope",
@@ -3143,7 +3239,7 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
               ],
-              "order": 7
+              "order": 9
             },
             {
               "id": "s3e6-total-football-reinvented",
@@ -3161,25 +3257,27 @@
               "sourcesChecked": [
                 "https://www.looper.com/1262098/ted-lasso-s3-episode-6-total-football-explained/",
                 "https://thecinemaholic.com/what-is-total-football-in-ted-lasso-teds-new-tactic-explained/"
-              ]
+              ],
+              "order": 10
             },
             {
               "id": "s3e6-pulp-fiction-burger-barn",
               "tag": "A Pulp Fiction diner",
               "title": "The Yankee Doodle Burger Barn",
               "moment": "A gliding camera leads Ted to his table at a retro all-American diner as a Ricky Nelson tune plays — staged as a loving copy of the Jack Rabbit Slim's sequence in <em>Pulp Fiction</em>.",
-              "idea": "It's the same song match: Ricky Nelson's 'Waitin' in School' scores Ted's entrance, exactly as it does when Vincent and Mia walk into Jack Rabbit Slim's. The episode even slips in foot-massage talk as a further nod.",
+              "idea": "It's the same song: Ricky Nelson's ‘Waitin' in School’ scores Ted's entrance; at Jack Rabbit Slim's it is performed on stage by a Ricky Nelson look-alike as Vincent and Mia walk in. The episode even slips in foot-massage talk as a further nod.",
               "why": "A built set and a precise needle-drop turn a throwaway diner scene into a film-buff Easter egg hiding in plain sight.",
               "source": "<em>IMDb</em> episode trivia and the <em>TV Tropes</em> recap.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Jack Rabbit Slim's homage with the matching Ricky Nelson 'Waitin' in School' needle-drop confirmed by IMDb trivia and the TV Tropes recap; further Pulp Fiction nods noted.",
+              "groundingNotes": "Jack Rabbit Slim's homage with the matching Ricky Nelson 'Waitin' in School' needle-drop confirmed by IMDb trivia and the TV Tropes recap; further Pulp Fiction nods noted. Season review 2026-10-12: Corrected: in Pulp Fiction the song is sung live by a look-alike, not played from Nelson's record.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
                 "https://www.imdb.com/title/tt19655884/trivia/"
-              ]
+              ],
+              "order": 7
             },
             {
               "id": "s3e6-mathmagic-land-parody",
@@ -3197,7 +3295,8 @@
               "sourcesChecked": [
                 "https://ted-lasso.fandom.com/wiki/The_True_Spirit_of_Adventure",
                 "https://en.wikipedia.org/wiki/Sunflowers_(Ted_Lasso)"
-              ]
+              ],
+              "order": 8
             },
             {
               "id": "s3e6-colin-trent-homomonument",
@@ -3205,18 +3304,18 @@
               "title": "Colin and Trent at the Homomonument",
               "moment": "Trent quietly follows Colin to a gay bar, reveals he already knows, and comes out to him too; the pair end up talking by Amsterdam's Homomonument.",
               "idea": "The location is chosen with care: the Homomonument (1987) is the world's first monument to LGBTQ+ people persecuted — including those killed by the Nazis — built as three pink granite triangles, reclaiming the badge once used to mark them.",
-              "why": "Those three pink triangles quietly rhyme with the episode's triangle motif from Ted's tactic, letting the setting carry meaning the dialogue doesn't have to spell out.",
+              "why": "The setting does the talking: a conversation about no longer hiding, held beside a memorial to people who were persecuted for who they were.",
               "source": "<em>CBR</em> and <em>The Mary Sue</em>; <em>TV Tropes</em> recap. Homomonument history.",
               "category": "Relationships",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Scene set at the Homomonument and its three-pink-triangle, Nazi-persecution-memorial design confirmed by CBR, The Mary Sue, and the TV Tropes recap. Season-scope.",
+              "groundingNotes": "Scene set at the Homomonument and its three-pink-triangle, Nazi-persecution-memorial design confirmed by CBR, The Mary Sue, and the TV Tropes recap. Season-scope. Season review 2026-10-12: The link between the pink triangles and Ted's triangle tactic was no source's reading and is removed.",
               "sourcesChecked": [
                 "https://www.cbr.com/ted-lasso-colin-trent-crimm-amsterdam/",
                 "https://www.themarysue.com/ted-lasso-picked-the-perfect-location-for-its-heartwarming-colin-trent-scene/"
               ],
-              "order": 4,
+              "order": 3,
               "tier": "spine"
             },
             {
@@ -3225,18 +3324,20 @@
               "title": "Rebecca's night on the houseboat",
               "moment": "After tumbling into a canal, Rebecca is taken in by a kind Dutch stranger on his houseboat, where a warm, unhurried evening together unfolds.",
               "idea": "He names the feeling: 'gezellig' — a Dutch word with no clean English translation, gathering up coziness, conviviality, comfort and belonging all at once.",
-              "why": "It's the emotional counterweight to Rebecca's loneliness this season: not romance exactly, just the experience of being cared for and at ease.",
+              "why": "It's the emotional counterweight to Rebecca's loneliness this season: not a fling (they never even swap names), just the experience of being cared for and at ease. And listen to what they sing along to over dinner: André Hazes's ‘Zij gelooft in mij’, his 1981 Dutch version of Kenny Rogers's ‘She Believes in Me’. In an app called Believe, it seemed worth pointing out.",
               "source": "<em>InsideHook</em> and <em>The Mary Sue</em> on gezellig; <em>TV Tropes</em> recap.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Canal fall, houseboat rescue, and the 'gezellig' framing confirmed by InsideHook, The Mary Sue, and the TV Tropes recap. KLM/pilot payoff is series-scope and intentionally kept off the card.",
+              "groundingNotes": "Canal fall, houseboat rescue, and the 'gezellig' framing confirmed by InsideHook, The Mary Sue, and the TV Tropes recap. KLM/pilot payoff is series-scope and intentionally kept off the card. Season review 2026-10-12: Hazes song per the transcript and TVLine; song history per Wikipedia (‘She Believes in Me’, ‘André Hazes’). Consistent with Season 4, where the stranger returns; he stays unnamed here because Season 3 never names him.",
               "sourcesChecked": [
                 "https://www.insidehook.com/wellness/dutch-lifestyle-gezellig-ted-lasso",
-                "https://www.themarysue.com/what-does-gezellig-mean-gezellig-in-ted-lasso-explained/"
+                "https://www.themarysue.com/what-does-gezellig-mean-gezellig-in-ted-lasso-explained/",
+                "https://en.wikipedia.org/wiki/She_Believes_in_Me",
+                "https://en.wikipedia.org/wiki/Andr%C3%A9_Hazes"
               ],
-              "order": 2
+              "order": 1
             },
             {
               "id": "s3e6-piggy-stardust-brendan-hunt",
@@ -3244,13 +3345,13 @@
               "title": "Beard's Bowie costume is autobiography",
               "moment": "Beard vanishes for the night and turns up at the end costumed as a pig-nosed 'Piggy Stardust' — a David Bowie riff with strangers in tow.",
               "idea": "It's drawn from real life: during his Amsterdam years, writer/actor Brendan Hunt — who wrote this episode — played in a cover band that performed the entire <em>Ziggy Stardust</em> album. Jason Sudeikis reportedly added the pig nose.",
-              "why": "Amsterdam is personal for the show: Hunt and Sudeikis met performing at Boom Chicago there, where Ted Lasso was first dreamed up. The gag is a private joke made public.",
+              "why": "Amsterdam is personal for the show: Hunt and Sudeikis met performing at Boom Chicago there, and the Ted-and-Beard double act started on that stage. The gag is a private joke made public.",
               "source": "<em>SlashFilm</em> and <em>ScreenRant</em> on Hunt's Amsterdam past; <em>Wikipedia</em> for the writing credit.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Piggy Stardust as a nod to Brendan Hunt's real Ziggy Stardust cover band in Amsterdam confirmed by SlashFilm and ScreenRant; Hunt credited as this episode's writer per Wikipedia; Boom Chicago origin corroborated.",
+              "groundingNotes": "Piggy Stardust as a nod to Brendan Hunt's real Ziggy Stardust cover band in Amsterdam confirmed by SlashFilm and ScreenRant; Hunt credited as this episode's writer per Wikipedia; Boom Chicago origin corroborated. Season review 2026-10-12: Overstatement removed: the Ted Lasso character itself was created for NBC's 2013 promos, not at Boom Chicago.",
               "sourcesChecked": [
                 "https://www.slashfilm.com/1280825/ted-lasso-piggy-stardust-nod-brendan-hunt-real-life-past/",
                 "https://screenrant.com/piggy-stardust-ted-lasso-character-meaning/"
@@ -3268,31 +3369,32 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Bike lesson, the grandfather backstory, and Roy's apology corroborated across TV Tropes, The Hollywood Reporter, and CinemaBlend. Season-scope arc beat.",
+              "groundingNotes": "Bike lesson, the grandfather backstory, and Roy's apology corroborated across TV Tropes, The Hollywood Reporter, and CinemaBlend. Season-scope arc beat. Season review 2026-10-12: Pinned: the corrected order would otherwise fold it, and critics single it out.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-6-amsterdam-1235391701/"
               ],
-              "order": 1
+              "order": 4,
+              "tier": "spine"
             },
             {
               "id": "s3e6-higgins-chet-baker-jazz",
               "tag": "A hidden, joyful talent",
               "title": "Higgins, jazz, and Chet Baker",
               "moment": "Higgins shows Will the Amsterdam spot tied to jazz great Chet Baker, then gets coaxed onto the stage at a jazz cafe — and plays bass surprisingly well.",
-              "idea": "Trumpeter Chet Baker died falling from an Amsterdam window in 1988; the venue is the real Jazz Cafe Alto, open since the 1950s. A minor character gets a moment of pure, unguarded joy.",
+              "idea": "Trumpeter Chet Baker died falling from an Amsterdam hotel window in 1988, and Higgins takes Will to the spot. The jazz club is modelled on the real Café Alto (the production designer says the room was recreated on a set, because the real one is too small). A minor character gets a moment of pure, unguarded joy.",
               "why": "It threads the episode's 'do what you're meant to do, find your joy' idea through Higgins — the kind of quiet detail that rewards paying attention to the side stories.",
               "source": "<em>Trainline</em> and <em>House of Peregrine</em> location guides; <em>TV Tropes</em> recap. Chet Baker's death is documented history.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Chet Baker reference, Jazz Cafe Alto setting, and Higgins playing bass confirmed by the Trainline and House of Peregrine location guides and the TV Tropes recap; Baker's 1988 Amsterdam death is documented.",
+              "groundingNotes": "Chet Baker reference, Jazz Cafe Alto setting, and Higgins playing bass confirmed by the Trainline and House of Peregrine location guides and the TV Tropes recap; Baker's 1988 Amsterdam death is documented. Season review 2026-10-12: ‘Open since the 1950s’ rested on ticketing blurbs and is removed; the set recreation is per UPI (single source, attributed).",
               "sourcesChecked": [
                 "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E06Sunflowers"
               ],
-              "order": 3
+              "order": 2
             },
             {
               "id": "s3e6-sunflowers-kansas-homesickness",
@@ -3303,7 +3405,7 @@
               "why": "The title carries two meanings at once — a Dutch master's masterpiece and a Kansas roadside flower — knotting Ted's homesickness to the breakthrough that follows.",
               "source": "<em>Wikipedia</em> (title reference) and the <em>TV Tropes</em> recap; sunflower as Kansas state flower.",
               "category": "Belief & hope",
-              "interest": 4,
+              "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
               "groundingNotes": "Van Gogh title nod uncontested; sunflower = Kansas state flower is documented, and recaps note the painting reminds Ted of home. Thematic reading is supported analysis.",
@@ -3330,6 +3432,24 @@
                 "https://www.thetrainline.com/en-us/via/europe/netherlands/amsterdam/where-the-ted-lasso-sunflowers-amsterdam-episode-was-filmed",
                 "https://www.upi.com/Entertainment_News/TV/2023/08/02/Set-designers-thrilled-to-go-Dutch-in-Ted-Lasso-Amsterdam-episode/9371690908036/"
               ]
+            },
+            {
+              "id": "s3e6-three-little-birds",
+              "tag": "A bookend",
+              "category": "Aesthetics",
+              "title": "The song that bookends the trip",
+              "moment": "The episode opens on Ajax fans singing Bob Marley's ‘Three Little Birds’, which Rebecca finds depressing, and ends with the whole Richmond bus singing it on the way home.",
+              "idea": "The song has been an Ajax anthem since a pre-season friendly at Cardiff City in 2008, when the stadium played it while the visiting fans were held back after the match, and they took it home with them. Ajax have since put Marley on a kit.",
+              "why": "It is the hour's shape in one song: an anthem a Dutch club picked up from a British one after a friendly, which a British club now carries home from Amsterdam after a friendly. Notice how far the bus has come from ‘depressing’.",
+              "source": "<em>Nation.Cymru</em> and <em>SoccerBible</em> on the Cardiff origin and the Ajax kit; the scenes per the episode transcript.",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Both bookend scenes are in the transcript. The Cardiff origin is in two outlets that may share a press release, so it is counted cautiously; no year beyond 2008 is given.",
+              "sourcesChecked": [
+                "https://nation.cymru/culture/ajax-unveil-special-bob-marley-kit-and-its-all-thanks-to-cardiff-city/",
+                "https://www.soccerbible.com/performance/football-apparel/2021/08/adidas-drop-bob-marley-inspired-ajax-2122-third-shirt/"
+              ]
             }
           ]
         },
@@ -3343,7 +3463,7 @@
               "id": "s3e7-forgive-them-to-spite-them",
               "tag": "Forgiveness as defiance",
               "title": "Sam's father reframes revenge",
-              "moment": "Standing in his wrecked restaurant, Sam rages. His father (Nonso Anozie) holds him and tells him the way to truly defeat the people who did this is not revenge but to forgive them and refuse to let it poison him.",
+              "moment": "Before the Arsenal match, in the Nelson Road dressing room, Sam breaks down over his vandalised restaurant. His father (Nonso Anozie) arrives, holds him, and tells him the way to truly defeat the people who did this is not revenge but to forgive them and refuse to let it poison him.",
               "idea": "Forgiveness here is not weakness or surrender — it is strength and defiance, a refusal to hand the haters the bitterness they were trying to provoke. It resonates with the show's strands on redemption and not letting cruelty define you.",
               "why": "It's the emotional counterweight to the hate crime, and one of the season's clearest statements of its ethics. Watch how it quietly steadies Sam.",
               "source": "<em>Ted Lasso</em> S3E7 recaps (TVLine, High on Films)",
@@ -3351,7 +3471,7 @@
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm Sam's father (Nonso Anozie) gives the forgiveness-as-defiance advice in the vandalized restaurant, which is the family's namesake.",
+              "groundingNotes": "Recaps confirm Sam's father (Nonso Anozie) gives the forgiveness-as-defiance advice in the vandalized restaurant, which is the family's namesake. Season review 2026-10-12: CORRECTED: the scene is in the dressing room, not the restaurant; his father sees the damage only after the match (Wikipedia, High on Films, TVLine, transcript).",
               "sourcesChecked": [
                 "https://www.tvline.com/recaps/ted-lasso-recap-season-3-episode-7-sam-dad-nonso-anozie-1234977704/",
                 "https://www.highonfilms.com/ted-lasso-season-3-episode-7-recap-and-ending-explained/"
@@ -3363,20 +3483,21 @@
               "id": "s3e7-red-string-of-fate",
               "tag": "The strings that bind us",
               "title": "The red-string drill and the soulmate thread",
-              "moment": "To teach the interconnection Total Football needs, the coaches tie red string between the players. Ted explains the imagery through the legend that destined people are joined by an invisible red thread that may stretch or tangle but never breaks — while Roy has tied the strings somewhere far less romantic.",
-              "idea": "The Red String (or Thread) of Fate is a genuine piece of folklore, rooted in Chinese myth — a crimson cord, overseen by the lunar matchmaker, binding people destined to meet. It is popular across East Asia, and the show frames it as Japanese.",
+              "moment": "To teach the interconnection Total Football needs, the coaches tie red string between the players. Ted explains the imagery through the legend that people destined to meet are joined by an invisible red thread, while Roy has tied the strings somewhere far less romantic.",
+              "idea": "The Red String (or Thread) of Fate is a genuine piece of folklore, rooted in Chinese myth: a crimson cord, overseen by the lunar matchmaker, binding people destined to meet. Ted's version, tied to the little finger, is the Japanese telling of it; in the Chinese original the cord binds the ankles.",
               "why": "It is the title made literal: the same thread that ties soulmates is what ties the team — and the gag (Roy's placement of the strings) is the comic engine of the whole episode.",
               "source": "<em>Ted Lasso</em> S3E7; folklore of the Red Thread of Fate (Chinese origin)",
               "category": "Relationships",
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Drill and Ted's explanation confirmed in E7 recaps. The myth is real; its roots are Chinese (popular across East Asia), though the show calls it Japanese.",
+              "groundingNotes": "Drill and Ted's explanation confirmed in E7 recaps. The myth is real; its roots are Chinese (popular across East Asia), though the show calls it Japanese. Season review 2026-10-12: Corrected: the ‘stretch or tangle but never break’ wording is Wikipedia's, not Ted's; and his little-finger version is a real Japanese variant rather than a mistake.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs",
                 "https://en.wikipedia.org/wiki/Red_thread_of_fate"
               ],
-              "order": 4
+              "order": 4,
+              "tier": "spine"
             },
             {
               "id": "s3e7-jamie-heart-not-head",
@@ -3395,7 +3516,8 @@
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/",
                 "https://screenrant.com/ted-lasso-season-3-episode-7-recap-story-reveals/"
               ],
-              "order": 6
+              "order": 6,
+              "tier": "spine"
             },
             {
               "id": "s3e7-shut-up-and-dribble",
@@ -3419,19 +3541,21 @@
             {
               "id": "s3e7-total-football-selflessness",
               "tag": "The collective over the self",
-              "title": "Total Football as an ethic, not a formation",
-              "moment": "Back home after Amsterdam, Richmond drills 'Total Football' hard — a fluid system where any player who vacates a position is instantly covered, so the eleven have to move as one connected unit.",
-              "idea": "The real Dutch philosophy of <em>Totaalvoetbal</em> — pioneered by coach Rinus Michels and embodied by Johan Cruyff at Ajax and the 1970s Netherlands side — keeps no fixed positions. Writers consistently read it as a moral idea as much as a tactic: it demands constant awareness of teammates and a willingness to give up individual glory for the group.",
-              "why": "It is the episode's spine. The red-string drill and Jamie's breakthrough are both dramatizations of the same demand — that the team act as one interconnected organism.",
-              "source": "Football histories of Total Football (Michels, Cruyff, Ajax); <em>Ted Lasso</em> S3E7 recaps",
+              "title": "Beard's history lesson is true",
+              "moment": "Back home after Amsterdam, Beard gives the squad a history lecture on Total Football before Richmond commit to it against Arsenal.",
+              "idea": "Episode 6 told you where the system came from. Beard's best fact checks out too: in the 1974 World Cup final in Munich, the Netherlands scored from a penalty about ninety seconds in, before a single West German player had touched the ball, and still lost 2–1.",
+              "why": "Which is the warning folded inside the system: beautiful, collective football guarantees nothing. What it asks of a team is trust, and Trent realises in this episode that trust is exactly what Ted has spent three seasons building.",
+              "source": "1974 FIFA World Cup final per <em>Wikipedia</em> and Guinness World Records; Trent's realisation per <em>Wikipedia</em>'s episode page.",
               "category": "Ethics & character",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "E7 recaps confirm the Total Football commitment; the Michels/Cruyff origin is standard history. The selflessness framing is well-attested interpretation, kept as a gloss rather than a single definition.",
+              "groundingNotes": "E7 recaps confirm the Total Football commitment; the Michels/Cruyff origin is standard history. The selflessness framing is well-attested interpretation, kept as a gloss rather than a single definition. Season review 2026-10-12: REWRITTEN to stop repeating Episode 6's Michels/Cruyff history.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs",
-                "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/"
+                "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-7-sam-jamie-1235402410/",
+                "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_final",
+                "https://www.guinnessworldrecords.com/world-records/482322-fastest-goal-scored-by-a-football-soccer-player-in-a-fifa-world-cup-final"
               ],
               "order": 1
             },
@@ -3439,7 +3563,7 @@
               "id": "s3e7-team-restores-restaurant-community",
               "tag": "Community closes ranks",
               "title": "The team rebuilds Sam's restaurant",
-              "moment": "Sam returns to find his teammates have quietly repaired his trashed restaurant. His father cooks for the whole team in the room that was a crime scene that morning.",
+              "moment": "After the match, Sam goes to his restaurant and finds his teammates already at work repairing the damage done the day before. His father cooks for the whole team in the room the vandals wrecked.",
               "idea": "The interconnection the red-string drill teaches on the pitch is expressed off it as a community closing ranks around a wounded member — restoring Sam's shaken faith in people. Connection is both tactic and ethic.",
               "why": "It's the title's real meaning. The strings that bind the team in training are the same ones that bind them to Sam when it matters.",
               "source": "<em>Ted Lasso</em> S3E7 recaps (Geek Girl Authority, TV Tropes)",
@@ -3447,18 +3571,19 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm the team restores the restaurant and gathers there as Sam's father cooks. The 'on-pitch drill equals off-pitch community' reading is interpretive.",
+              "groundingNotes": "Recaps confirm the team restores the restaurant and gathers there as Sam's father cooks. The 'on-pitch drill equals off-pitch community' reading is interpretive. Season review 2026-10-12: Corrected: the vandalism was the day before, and the team is mid-repair when Sam arrives (Wikipedia, transcript).",
               "sourcesChecked": [
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-7-the-strings-that-bind-us/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs"
               ],
-              "order": 7
+              "order": 7,
+              "tier": "spine"
             },
             {
               "id": "s3e7-love-bombing-warning",
               "tag": "When generosity is a warning",
               "title": "Rebecca names 'love bombing'",
-              "moment": "Uneasy at being constantly swept off her feet, Keeley tells Rebecca about Jack's lavish gifts. Rebecca warns it could be 'love bombing' and to watch for red flags — the way Rupert once courted her.",
+              "moment": "Over dinner Keeley gushes about Jack's lavish gifts. Rebecca warns it could be ‘love bombing’ and to watch for red flags: the way Rupert once courted her.",
               "idea": "'Love bombing' is a recognized term for overwhelming generosity used as a control tactic. The weight of the scene is that Rebecca is describing her own early days with Rupert — charm as coercion — so the show threads its long meditation on self-respect in relationships.",
               "why": "It reframes the grand-gesture romance the episode has been playing for fun as something to be wary of. Watch how Rebecca's hard-won experience becomes the warning.",
               "source": "<em>Ted Lasso</em> S3E7 recaps (ScreenRant, TV Tropes)",
@@ -3466,7 +3591,7 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm Rebecca names Jack's gifts as possible 'love bombing' and ties the warning to her history with Rupert. The term is a recognized pop-psychology concept.",
+              "groundingNotes": "Recaps confirm Rebecca names Jack's gifts as possible 'love bombing' and ties the warning to her history with Rupert. The term is a recognized pop-psychology concept. Season review 2026-10-12: Corrected: Keeley is delighted, not uneasy, in this scene.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-7-recap-story-reveals/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E07TheStringsThatBindUs"
@@ -3504,27 +3629,28 @@
               "id": "s3e8-hey-jude-divorce-comfort",
               "tag": "A song born to console a child",
               "title": "Why 'Hey Jude' belongs in this episode",
-              "moment": "A busker plays 'Hey Jude,' and Beard tells Ted's young son Henry the story behind it — then Ted, losing his own marriage, joins in and sings it with them.",
-              "idea": "Paul McCartney wrote 'Hey Jude' in 1968 (originally 'Hey Jules') to comfort five-year-old Julian Lennon as his parents, John and Cynthia, divorced. A song made to steady a boy through his parents' split is the exact thing Ted is living through with Henry.",
+              "moment": "A busker plays ‘Hey Jude’, and Beard tells Henry the story behind it. Then Ted, whose marriage ended long ago but whose son is still living through it, joins in and sings it with them.",
+              "idea": "Paul McCartney wrote ‘Hey Jude’ in 1968 (originally ‘Hey Jules’) to comfort five-year-old Julian Lennon after his parents, John and Cynthia, separated. A song made to steady a boy through his parents' split is the exact thing Henry is living through.",
               "why": "The reference isn't decoration — it's the episode's emotional core stated in a melody. Listen for who it's really being sung to.",
               "source": "Episode scene; documented origin of <em>Hey Jude</em> (McCartney for Julian Lennon).",
               "category": "Relationships",
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm Beard gives the song's origin to Henry in E8; the McCartney/'Hey Jules'/Julian Lennon history is well-documented.",
+              "groundingNotes": "Recaps confirm Beard gives the song's origin to Henry in E8; the McCartney/'Hey Jules'/Julian Lennon history is well-documented. Season review 2026-10-12: Corrected: Ted's divorce was final in Season 1, and the Lennons had separated, not yet divorced, when the song was written (Wikipedia).",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
                 "https://screenrant.com/ted-lasso-beatles-hey-jude-song-meaning/",
                 "https://www.themarysue.com/apple-tvs-ted-lasso-season-3-episode-8-beard-and-henry-had-one-of-the-most-heartwarming-conversations/"
               ],
-              "order": 10
+              "order": 11,
+              "tier": "spine"
             },
             {
               "id": "s3e8-locker-room-consent-debate",
               "tag": "Working out consent in real time",
               "title": "The locker room goes quiet",
-              "moment": "The usual banter about saved images stops cold when the players realize the leaked video is Keeley's. Isaac tells everyone to delete such images, and the team argues out what privacy actually asks of them.",
+              "moment": "The usual banter about saved private images turns into an argument about whether anyone should keep them at all. Then the players realise the leaked video is Keeley's, and Isaac orders every phone wiped.",
               "idea": "Consent isn't only the sender's concern — recipients hold a duty too. The scene shows a room of men reasoning their way to the point that a woman's authority over her own images doesn't end when she shares them.",
               "why": "A small drama of ethics among friends: watch decent people decide, on the spot, that protecting someone's privacy is their job, not just hers.",
               "source": "Episode plot; recaps of the locker-room scene.",
@@ -3532,19 +3658,19 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm the banter-stops beat and Isaac ordering deletion; specific player positions vary across recaps, so the card keeps the debate general.",
+              "groundingNotes": "Recaps confirm the banter-stops beat and Isaac ordering deletion; specific player positions vary across recaps, so the card keeps the debate general. Season review 2026-10-12: Sequence corrected: the argument comes before they learn it is Keeley's (transcript).",
               "sourcesChecked": [
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis"
               ],
-              "order": 4
+              "order": 6
             },
             {
               "id": "s3e8-ted-lets-go-henry-happiness",
               "tag": "Loving the right things in order",
               "title": "Ted chooses Henry over his own jealousy",
-              "moment": "Having gone so far as to have Michelle and Jake followed, Ted reaches the brink — then, putting Henry to bed and starting to fish for information, he stops himself.",
+              "moment": "Having gone so far as to have Michelle and Dr. Jacob followed, Ted reaches the brink. Putting Henry to bed, he starts fishing for information, and stops himself.",
               "idea": "What matters, Ted decides, is that Michelle is happy and Henry is loved — not whether Ted gets to keep a future he can't have. It's the quiet discipline of caring about the right things in the right order, even when jealousy points the other way.",
               "why": "This is the real story under the comic 'engagement' panic. The growth isn't the no-ring relief at the end — it's the choice to let go.",
               "source": "Episode plot; recaps of Ted's resolution and the no-ring ending.",
@@ -3557,13 +3683,13 @@
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
               ],
-              "order": 9
+              "order": 10
             },
             {
               "id": "s3e8-roy-jealousy-undercuts-support",
               "tag": "Support that centers the supporter",
               "title": "The wrong question",
-              "moment": "Roy seems to have Keeley's back over the leak — then asks who the video was for, turning her violation into his jealousy, just as Jamie arrives to own his part and apologize.",
+              "moment": "Roy seems to have Keeley's back over the leak, then asks who the video was for, turning her violation into his jealousy. The next morning Jamie turns up at her door to own his part and apologise.",
               "idea": "Care that's really about the carer isn't care. Roy's question shifts the focus from Keeley's exposure to his own insecurity; set against Jamie's plain apology, the episode shows the difference between standing with someone and making their pain about you.",
               "why": "Listen for the moment Roy's comfort curdles into a question he needed answered for himself. The contrast with Jamie the next morning is deliberate.",
               "source": "Episode plot; recaps of the Roy/Jamie contrast. Roy's question paraphrased.",
@@ -3571,13 +3697,13 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps consistently confirm Roy's jealous question and Jamie's next-morning apology and Keeley's forgiveness; Roy's line paraphrased, not reproduced.",
+              "groundingNotes": "Recaps consistently confirm Roy's jealous question and Jamie's next-morning apology and Keeley's forgiveness; Roy's line paraphrased, not reproduced. Season review 2026-10-12: Corrected: Jamie arrives the next morning.",
               "sourcesChecked": [
                 "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-8-recap-and-ending-explained/"
               ],
-              "order": 8
+              "order": 9
             },
             {
               "id": "s3e8-consent-autonomy-theme",
@@ -3588,7 +3714,7 @@
               "why": "Notice how the episode refuses to ask Keeley to feel ashamed. The ethical weight falls on the privacy violation, not on her having trusted someone.",
               "source": "Episode plot; recap framing of consent, privacy, and autonomy.",
               "category": "Ethics & character",
-              "interest": 4,
+              "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
               "groundingNotes": "Thematic framing (consent, privacy, autonomy) is well-supported and consistent across recaps; the show places the wrong with the leaker, not the victim.",
@@ -3597,13 +3723,14 @@
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
               ],
-              "order": 3
+              "order": 2,
+              "tier": "more"
             },
             {
               "id": "s3e8-victim-blaming-jack-statement",
               "tag": "Victim-blaming made concrete",
               "title": "The apology she was handed",
-              "moment": "Keeley is handed a prepared statement to post — written for her, apologizing for having made the video at all. She refuses to sign it.",
+              "moment": "Keeley is handed a prepared statement to post, written for her and apologising for having made the video at all. Later Jack tells her, more or less, that she shouldn't have made it. She refuses to post anything of the kind, and tells him she regrets neither making the video nor sending it.",
               "idea": "Victim-blaming rarely announces itself; here it arrives as crisis management. Pressuring the wronged person to perform shame so a brand stays clean quietly reassigns the blame to her — the exact inversion of where it belongs.",
               "why": "Watch the gap between protecting an image and protecting a person. Keeley's refusal is the episode insisting she has nothing to apologize for.",
               "source": "Episode plot; recaps of Barbara delivering Jack's drafted statement.",
@@ -3611,34 +3738,35 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm the drafted apology delivered via Barbara on Jack's behalf and Keeley's refusal; victim-blaming read is consistent across sources.",
+              "groundingNotes": "Recaps confirm the drafted apology delivered via Barbara on Jack's behalf and Keeley's refusal; victim-blaming read is consistent across sources. Season review 2026-10-12: Corrected: it is a statement to post, not to sign; Jack's own view and Keeley's reply added (Wikipedia, Autostraddle, transcript).",
               "sourcesChecked": [
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/"
               ],
-              "order": 6
+              "order": 5,
+              "tier": "spine"
             },
             {
               "id": "s3e8-casablanca-title-inversion",
               "tag": "Letting go of a future",
               "title": "A title that flips Casablanca",
-              "moment": "Told his ex-wife is heading to Paris with her new partner, Ted convinces himself they are about to get engaged — while the episode's name quietly negates one of cinema's most famous goodbyes.",
+              "moment": "Told his ex-wife is going to Paris with her new partner, Ted is sure a proposal is coming. Later Rebecca asks the obvious question: why did he never take Michelle to Paris himself? They were too broke for a honeymoon, he says, and he always thought there would be more time.",
               "idea": "In <em>Casablanca</em> (1942), Rick's parting line to Ilsa — that they will <em>always</em> have Paris — accepts a beautiful past that can't be a future. The episode inverts it: Ted has to relinquish a future he was clinging to. The same city, the opposite lesson.",
-              "why": "Watch how the title reframes Ted's whole arc here: not nostalgia for what was, but releasing what won't be — for Henry's sake.",
+              "why": "That is the real wound under the comic panic: not jealousy of another man, but grief for a trip that never happened. Rebecca's answer is to stop letting yesterday get in the way of today.",
               "source": "<em>Casablanca</em> (1942, dir. Michael Curtiz); episode-title inversion noted across recaps.",
               "category": "Relationships",
-              "interest": 4,
+              "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Casablanca line and director are settled film history; the title-as-inversion reading is widely-repeated critic interpretation, not an on-screen statement.",
+              "groundingNotes": "Casablanca line and director are settled film history; the title-as-inversion reading is widely-repeated critic interpretation, not an on-screen statement. Season review 2026-10-12: The honeymoon reveal is in the transcript and MEAWW; it turns the title card into the episode's emotional centre and stops it overlapping the Henry card.",
               "sourcesChecked": [
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://content.time.com/time/specials/packages/article/0,28804,1900025_1900019_1899929,00.html",
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
               ],
               "order": 1,
-              "tier": "more"
+              "tier": "spine"
             },
             {
               "id": "s3e8-nate-love-hounds",
@@ -3658,7 +3786,7 @@
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/",
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)"
               ],
-              "order": 5,
+              "order": 4,
               "tier": "more"
             },
             {
@@ -3678,13 +3806,13 @@
                 "https://www.geekgirlauthority.com/ted-lasso-recap-season-3-episode-8-well-never-have-paris/",
                 "https://www.nerdsandbeyond.com/2023/05/03/ted-lasso-recap-season-3-episode-8-well-never-have-paris/"
               ],
-              "order": 7
+              "order": 8
             },
             {
               "id": "s3e8-keeley-hazell-writing-debut",
               "tag": "Who wrote it",
               "title": "An actor steps behind the page",
-              "moment": "This privacy-and-consent episode was co-written by Keeley Hazell — who plays Rupert's wife Bex on the show — in her first screen-writing credit, alongside fellow first-time TV writer Dylan Marron.",
+              "moment": "This privacy-and-consent episode was co-written by Keeley Hazell, who plays Rupert's wife Bex on the show, in what is listed as her first screenwriting credit, alongside fellow first-time TV writer Dylan Marron.",
               "idea": "A cast member crossing over into the writers' room — a small note about how this show was made, shaping one of the season's most careful, character-first episodes alongside fellow first-timer Dylan Marron.",
               "why": "A nice piece of trivia for a rewatch — the actor you've been watching as Bex helped write the words.",
               "source": "Episode credits (written by Keeley Hazell &amp; Dylan Marron; dir. Erica Dunton).",
@@ -3692,7 +3820,7 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Writing/directing credits and 'first credit' claims verified from the episode page and credits; card deliberately covers only the writing credit, no real-person private detail.",
+              "groundingNotes": "Writing/directing credits and 'first credit' claims verified from the episode page and credits; card deliberately covers only the writing credit, no real-person private detail. Season review 2026-10-12: ‘First credit’ rests on Wikipedia citing the Writers Guild directory, so it is attributed.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/We'll_Never_Have_Paris_(Ted_Lasso)",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E08WellNeverHaveParis",
@@ -3703,20 +3831,39 @@
               "id": "s3e8-jumping-to-conclusions-find-out-before-flip-out",
               "tag": "Proportion belief to evidence",
               "title": "Don't build a catastrophe on one fact",
-              "moment": "From a single detail — a trip to Paris — Ted spins an entire engagement story. The Diamond Dogs tell him he is jumping to conclusions and try to talk him down.",
+              "moment": "From a single detail, a trip to Paris, Ted spins an entire engagement story. At Trent's first Diamond Dogs meeting, the group tells him to find out before he flips out.",
               "idea": "The show's running ethic of believing responsibly, inverted into a caution against catastrophizing. Proportion your belief to the evidence in front of you, not to your fear of what might be.",
               "why": "It's the comic flip side of 'Believe' — the same care about evidence, aimed at not spiraling. Watch how little it takes for Ted to convince himself.",
               "source": "Episode scene; recaps of the Diamond Dogs calling out Ted's conclusion-jumping. Lines paraphrased.",
               "category": "Belief & hope",
               "interest": 4,
-              "grounding": 3,
-              "groundingStatus": "partial",
-              "groundingNotes": "The Diamond Dogs / jumping-to-conclusions beat is confirmed; the exact 'find out before you flip out' wording and its attribution to a specific character are not independently corroborated, so the card stays general.",
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "The Diamond Dogs / jumping-to-conclusions beat is confirmed; the exact 'find out before you flip out' wording and its attribution to a specific character are not independently corroborated, so the card stays general. Season review 2026-10-12: Upgraded: the ‘find out before you flip out’ line is in the transcript, and Ted repeats it later; who says it first is unclear, so the card credits the group.",
               "sourcesChecked": [
                 "https://thespool.net/reviews/tv/recap/tv-recap-ted-lasso-season-3-episode-8/",
                 "https://www.thereviewgeek.com/tedlasso-s3e8review/"
               ],
-              "order": 2
+              "order": 3
+            },
+            {
+              "id": "s3e8-isaac-sees-colins-phone",
+              "tag": "Found out, and silent",
+              "category": "Relationships",
+              "title": "Isaac sees Colin's phone",
+              "moment": "When Isaac orders the squad's phones wiped, Colin hesitates. Isaac takes his phone, sees what is on it, and hands it back without a word.",
+              "idea": "This is how Colin's best friend finds out he is gay: not by being told, but by accident, in the middle of an argument about privacy. Isaac's silence protects Colin in the room. What it costs the two of them comes next week.",
+              "why": "Easy to miss among the episode's bigger scenes, and it is the hinge of the next one. Watch Isaac's face more than his hands.",
+              "source": "<em>Wikipedia</em>'s episode page; recaps at <em>Ready Steady Cut</em> and <em>The Cinemaholic</em>.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. The discovery and the silent return of the phone confirmed by Wikipedia (episode page and episode table), Ready Steady Cut and The Cinemaholic. Isaac's nod is single-sourced and not mentioned.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/We%27ll_Never_Have_Paris_(Ted_Lasso)"
+              ],
+              "tier": "spine",
+              "order": 7
             }
           ]
         },
@@ -3732,7 +3879,7 @@
               "title": "Allyship past tolerance",
               "moment": "The team rushes to tell Colin they don't care that he's gay; Ted nudges them past that — the point isn't not caring, it's caring, so he never has to carry it alone again.",
               "idea": "There's a real difference between not minding someone's difference and actually showing up for them. Tolerance as a polite shrug isn't the same as acceptance as active support. Ted reframes 'we don't care' into 'we care about you.'",
-              "why": "The sharpest idea in the episode, and the team fumbles earnestly toward the right words the way real people do. (Critics note Ted's fandom analogy slightly undercuts it.)",
+              "why": "The sharpest idea in the episode, and the team fumbles earnestly toward the right words the way real people do. (Ted's sports-fan analogy slightly undercuts it, and the show knows: a player calls it out and Ted admits he fumbled it.)",
               "source": "Recaps from CinemaBlend and others; AV Club review on the analogy.",
               "category": "Ethics & character",
               "interest": 5,
@@ -3769,14 +3916,14 @@
               "tag": "The hidden title",
               "title": "Why the episode is named after a drag-club musical",
               "moment": "The hour about a footballer coming out in the locker room is titled by reworking the name of a celebrated stage musical about a gay couple who run a drag club.",
-              "idea": "<em>La Cage aux Folles</em> (1973 French play by Jean Poiret; 1983 Broadway musical by Jerry Herman and Harvey Fierstein; remade on screen as <em>The Birdcage</em>) is widely credited as the first Broadway musical built around a same-sex couple. It centers on a man pressured to hide who he is — the same ache at the heart of this episode.",
+              "idea": "<em>La Cage aux Folles</em> (a 1973 French play by Jean Poiret, filmed in 1978 and remade in Hollywood as <em>The Birdcage</em>; a 1983 Broadway musical by Jerry Herman and Harvey Fierstein) is described as the first hit Broadway musical centred on a gay relationship. It centres on a man pressured to hide who he is: the same ache at the heart of this episode.",
               "why": "The title quietly tells you the theme before a word is spoken: the cost of being made to play someone you're not.",
               "source": "ScreenRant and Looper on the title's meaning; lineage per coverage of <em>La Cage aux Folles</em>.",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Multiple recaps confirm the title reworks 'La Cage aux Folles,' a musical about a gay couple running a drag club, mirroring Colin's storyline; play/musical/remake lineage verified.",
+              "groundingNotes": "Multiple recaps confirm the title reworks 'La Cage aux Folles,' a musical about a gay couple running a drag club, mirroring Colin's storyline; play/musical/remake lineage verified. Season review 2026-10-12: Corrected: The Birdcage remakes the 1978 film, not the musical; ‘first hit’ is Wikipedia's wording.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/",
                 "https://www.looper.com/1281752/ted-lasso-s3e9-most-meaningful-episode-title-yet/"
@@ -3787,15 +3934,15 @@
               "id": "s3e9-i-am-what-i-am-anthem",
               "tag": "I am what I am",
               "title": "The song that closes the episode",
-              "moment": "The hour ends on the <em>La Cage aux Folles</em> number about refusing to apologize for who you are — as a footballer steps out of hiding.",
+              "moment": "The hour ends on the <em>La Cage aux Folles</em> number about refusing to apologise for who you are, as a footballer comes out to the people he works with.",
               "idea": "'I Am What I Am' (Jerry Herman) is the musical's act-one finale, sung by Albin as a declaration of self without apology. It became a wider anthem of self-acceptance. Using it to close Colin's coming-out lands the theme directly: declaring your own identity, plainly.",
-              "why": "Listen for the bookends — the musical opens the episode and its proudest song closes it, framing the whole hour as a step into the open.",
+              "why": "Listen for the bookends: the musical opens the episode and its proudest song closes it. Worth knowing that some critics found the anthem a little loud for a man who has chosen, for now, not to go public.",
               "source": "ScreenRant on the title and closing cue; episode music listing.",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recap and music-cue listing confirm the La Cage prologue opens the episode and 'I Am What I Am' closes it; song authorship and anthem status verified.",
+              "groundingNotes": "Recap and music-cue listing confirm the La Cage prologue opens the episode and 'I Am What I Am' closes it; song authorship and anthem status verified. Season review 2026-10-12: Softened: Colin comes out to the team only and decides not to go public (Wikipedia, A.V. Club, Telltale), which is why some critics objected to this closing song.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-episode-9-title-secret-meaning/",
                 "https://moviesost.com/show/ted-lasso/season-3/episode-9"
@@ -3808,13 +3955,13 @@
               "title": "A coming-out without the label",
               "moment": "We never actually hear the words — Colin's coming-out registers through the team's fumbling, loving reaction, not a single declarative line.",
               "idea": "Recappers single out the choice to keep the explicit words off-screen. The reading: the only people who needed to hear Colin say it were his teammates, not the audience — centering his agency and treating the moment as ordinary humanity rather than spectacle.",
-              "why": "Once you notice it, the restraint is the point — the camera gives Colin his privacy even as it gives him his team.",
+              "why": "Once you notice it, the restraint is the point: the camera gives Colin his privacy even as it gives him his team. Not everyone agreed; some critics felt the choice took the moment away from him instead.",
               "source": "CinemaBlend and The Spoilist (noted critical reading, not stated creator intent).",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm Colin's words are never shown and the coming-out reads through the team's reaction; framed as a noted craft reading rather than creator-stated intent.",
+              "groundingNotes": "Recaps confirm Colin's words are never shown and the coming-out reads through the team's reaction; framed as a noted craft reading rather than creator-stated intent. Season review 2026-10-12: Balanced with the dissenting reading (Telltale, Lady Geeks).",
               "sourcesChecked": [
                 "https://www.cinemablend.com/streaming-news/i-absolutely-loved-how-ted-lasso-thoughtfully-handled-colins-big-moment",
                 "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/"
@@ -3825,7 +3972,7 @@
               "id": "s3e9-visibility-belonging-theme",
               "tag": "The cost of hiding",
               "title": "Two lives, finally one",
-              "moment": "A player who has lived a split life — hidden at work, himself only in private — tells his team the truth so the two halves can finally be one, and they take him in.",
+              "moment": "A player who has lived a split life, hidden at work and himself only in private, tells his teammates the truth, and they take him in. For now, he decides not to tell the wider world.",
               "idea": "The episode's spine is visibility and belonging. Colin's motive isn't activism; it's wanting his work life and his love life to be a single life — to stop performing a self and simply be known by the people he spends his days with.",
               "why": "Watch how the relief lands as belonging, not as a speech. Hiding is its own kind of labor; being seen sets it down.",
               "source": "Recaps from The Spoilist and The Hollywood Reporter.",
@@ -3838,21 +3985,22 @@
                 "https://www.thespoilist.com/recap-ted-lasso-3x09-la-locker-room-aux-folles/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-9-colin-isaac-roy-1235483955/"
               ],
-              "order": 4
+              "order": 4,
+              "tier": "more"
             },
             {
               "id": "s3e9-real-world-gay-footballers",
               "tag": "The real-world silence",
               "title": "Why this storyline matters off-screen",
               "moment": "The show stages something English football itself has barely seen: a player coming out while still playing.",
-              "idea": "Justin Fashanu became the first openly gay British male professional footballer when he came out in 1990; he faced hostility and died by suicide in 1998. Not until May 2022 did Blackpool's Jake Daniels become the first active UK male pro to come out since — a 32-year silence. At the show's 2023 release, no openly gay man had played in a Premier League first-team squad.",
+              "idea": "Justin Fashanu became the first openly gay British male professional footballer when he came out in 1990; he faced hostility and died by suicide in 1998. Not until May 2022 did Blackpool's Jake Daniels become the first active UK male pro to come out since: a 32-year silence. Thomas Hitzlsperger, who had played in the Premier League, came out in 2014, after retiring. As of 2026, no man has played in the Premier League while openly gay.",
               "why": "Context the episode is consciously answering: the game has stayed mostly closeted, which is exactly why Colin's arc reads as significant rather than ordinary.",
               "source": "Britannica and the Peter Tatchell Foundation on Fashanu; ESPN on Jake Daniels (2022).",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Fashanu (out 1990, died 1998) and Daniels (May 2022, first active UK male pro since) verified; 'no out Premier League player' true as of the show's 2023 window.",
+              "groundingNotes": "Fashanu (out 1990, died 1998) and Daniels (May 2022, first active UK male pro since) verified; 'no out Premier League player' true as of the show's 2023 window. Season review 2026-10-12: CORRECTED: the old wording (no openly gay man had played in a Premier League squad) was false because of Hitzlsperger; the accurate claim is that none has played while out (Wikipedia, 2026).",
               "sourcesChecked": [
                 "https://www.britannica.com/biography/Justin-Fashanu",
                 "https://www.espn.com/soccer/story/_/id/37628506/blackpool-jake-daniels-becomes-uk-first-active-openly-gay-male-footballer-32-years"
@@ -3881,7 +4029,7 @@
               "id": "s3e9-trent-crimm-gay-mentor",
               "tag": "Visibility, passed on",
               "title": "Trent Crimm, steady older hand",
-              "moment": "Trent — out and steady, the one person who already knew — guides Colin through the week, telling him to give Isaac room to process.",
+              "moment": "Trent, out and steady, guides Colin through the week, telling him to give Isaac room to process.",
               "idea": "Colin's confidence is built on his bond with Trent, who is himself gay. The foundation was laid earlier in Amsterdam (S3E6), where Trent shared his own story instead of exposing Colin's. Here that becomes mentorship: visibility handed from one person to the next.",
               "why": "A quiet callback that makes the season's coming-out a relay, not a solo act — someone who's been through it lighting the way.",
               "source": "Looper and Cinemaholic recaps; Amsterdam origin in S3E6 ('Sunflowers').",
@@ -3889,11 +4037,12 @@
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "partial",
-              "groundingNotes": "E9 recaps confirm Trent advises Colin to give Isaac time; the Amsterdam/Homomonument beats that ground the bond are S3E6, not E9 — noted as the callback's origin.",
+              "groundingNotes": "E9 recaps confirm Trent advises Colin to give Isaac time; the Amsterdam/Homomonument beats that ground the bond are S3E6, not E9 — noted as the callback's origin. Season review 2026-10-12: ‘The one person who already knew’ was wrong: Isaac knowing is the premise of the episode.",
               "sourcesChecked": [
                 "https://www.looper.com/1282172/ted-lasso-season-3-episode-9-review-colin-scores-big-with-his-story/"
               ],
-              "order": 2
+              "order": 2,
+              "tier": "more"
             }
           ]
         },
@@ -3908,14 +4057,14 @@
               "tag": "Ripped from the headlines",
               "title": "The Super League really happened",
               "moment": "A returning billionaire pitches a breakaway league of only the richest clubs. The in-show backlash echoes a real revolt.",
-              "idea": "The subplot mirrors the actual April 2021 European Super League — twelve of Europe's wealthiest clubs proposed a closed competition and abandoned it within days after furious fan protest. The character Akufo, though, is invented, not based on any real owner.",
+              "idea": "The subplot mirrors the actual April 2021 European Super League: twelve of Europe's wealthiest clubs proposed a breakaway competition with permanent places reserved for themselves, and abandoned it within days after furious fan protest. Akufo himself is fictional.",
               "why": "Knowing the real collapse makes Rebecca's speech land harder: it channels the genuine public anger that killed the 2021 plan.",
               "source": "<em>Collider</em> on the Super League parallel; fan commentary on the 2021 events.",
               "category": "Meta & trivia",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "attributed",
-              "groundingNotes": "Confirmed the subplot is 'inspired by / mirrors' the real April 2021 European Super League collapse; Akufo himself is fictional, not a real billionaire.",
+              "groundingNotes": "Confirmed the subplot is 'inspired by / mirrors' the real April 2021 European Super League collapse; Akufo himself is fictional, not a real billionaire. Season review 2026-10-12: Corrected: the real league was semi-closed, not fully closed; ‘not based on any real owner’ had no source and is replaced by ‘fictional’.",
               "sourcesChecked": [
                 "https://collider.com/ted-lasso-season-3-akufo-super-league-real-life/",
                 "https://www.tumblr.com/icedsodapop/717899975141588992"
@@ -3926,33 +4075,34 @@
               "tag": "Letting himself be seen",
               "title": "Roy's tie-dye shirt",
               "moment": "Roy reluctantly wears a loud tie-dye shirt his niece made him. Stepping out in public in it cracks open the self-protection that had kept him from being honest with the people he loves.",
-              "idea": "The all-black armor drops. Wearing something he can't control how others read — literally 'being perceived' — is what finally lets him name the insecurity that sabotaged things with Keeley.",
+              "idea": "The all-black armour drops. Wearing something whose effect on other people he cannot control is what finally lets him name the insecurity that sabotaged things with Keeley.",
               "why": "The costume shift visually tracks his emotional opening-up. A small run-in with Phoebe's teacher tips him over.",
               "source": "Recaps via <em>TV Tropes</em> and <em>Subjectify</em>.",
               "category": "Relationships",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed the tie-dye gift, the 'being perceived' struggle, the Ms. Bowen run-in and Roy's breakthrough. Shirt color reported inconsistently, so not asserted.",
+              "groundingNotes": "Confirmed the tie-dye gift, the 'being perceived' struggle, the Ms. Bowen run-in and Roy's breakthrough. Shirt color reported inconsistently, so not asserted. Season review 2026-10-12: The ‘being perceived’ quote appears in no transcript or recap opened and is removed.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://subjectifymedia.com/ted-lasso-season-3-episode-10-review/"
               ],
-              "order": 2
+              "order": 2,
+              "tier": "more"
             },
             {
               "id": "s3e10-sam-snubbed-akufo",
               "tag": "Money against a good man",
               "title": "Sam frozen out of Nigeria",
-              "moment": "Sam learns he has been left off his national team. It emerges that the billionaire he once crossed paid to keep him out.",
-              "idea": "Akufo bribed the Nigerian football authorities a reported $20 million to keep Sam off the squad — petty, personal revenge for Sam turning down his club earlier in the season.",
+              "moment": "Sam learns he has been left out of the Nigeria squad. It emerges that the billionaire he turned down at the end of Season 2 has paid to keep him out.",
+              "idea": "Akufo bribed the Nigerian government a reported $20 million to keep Sam off the squad: the threat he made when Sam refused to join his club, made good.",
               "why": "It ties the Super League villain's greed to a player the audience loves, raising the personal stakes of the whole plot.",
               "source": "Recaps via <em>TheCinemaholic</em> and <em>TV Tropes</em>.",
               "category": "Ethics & character",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed across multiple recaps that Akufo bribed the Nigerian government $20M to exclude Sam as revenge. The $20M figure is corroborated, not single-source.",
+              "groundingNotes": "Confirmed across multiple recaps that Akufo bribed the Nigerian government $20M to exclude Sam as revenge. The $20M figure is corroborated, not single-source. Season review 2026-10-12: CORRECTED: Sam turned Akufo down in the Season 2 finale, and the bribe went to the government, not the football authorities (Wikipedia for S2E11–12 and this episode; Distractify).",
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-season-3-episode-10-recap-and-ending-explained/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak"
@@ -3963,7 +4113,7 @@
               "id": "s3e10-nate-father-genius",
               "tag": "Pressure was misread love",
               "title": "Nate and his father, by the violin",
-              "moment": "Beside a rediscovered violin in the attic, Nate's father tells him he is brilliant and that he only ever wanted him to be happy — breaking years of brusque silence.",
+              "moment": "Beside a rediscovered violin, Nate's father tells him he is brilliant and that he only ever wanted him to be happy, breaking years of brusque silence.",
               "idea": "A childhood Nate read as cold dismissal is reframed as miscommunicated love: his father pushed because he thought that was what was required, and what Nate wanted, when he really just wanted his son to be happy.",
               "why": "It is the hinge of Nate's redemption. Also a quiet Easter egg: actor Nick Mohammed really plays the violin in the scene.",
               "source": "Recaps via <em>ScreenRant</em> and <em>Classic FM</em>.",
@@ -3971,7 +4121,7 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed the attic violin scene and Lloyd's admission that he pushed too hard and only wanted Nate happy. Mohammed plays the violin himself (Part's 'Spiegel im Spiegel').",
+              "groundingNotes": "Confirmed the attic violin scene and Lloyd's admission that he pushed too hard and only wanted Nate happy. Mohammed plays the violin himself (Part's 'Spiegel im Spiegel'). Season review 2026-10-12: ‘In the attic’ rested on one source and is removed.",
               "sourcesChecked": [
                 "https://screenrant.com/does-nick-mohammed-play-the-violin-in-ted-lasso-season-3/",
                 "https://www.classicfm.com/discover-music/instruments/violin/nick-mohammed-plays-ted-lasso-spiegel-im-spiegel/"
@@ -3987,7 +4137,7 @@
               "why": "Watch how the off-field 'break' lets every personal storyline breathe. (The wordplay is a viewer reading, not a confirmed creator statement.)",
               "source": "Recap reading via <em>TV Tropes</em>; Wikipedia episode page.",
               "category": "Meta & trivia",
-              "interest": 4,
+              "interest": 3,
               "grounding": 3,
               "groundingStatus": "partial",
               "groundingNotes": "Literal meaning firmly sourced; the intentional pun is a recapper-style interpretation, not confirmed creator intent, so framed as a viewer reading.",
@@ -4000,7 +4150,7 @@
               "id": "s3e10-football-community-not-commodity",
               "tag": "Belonging, not a commodity",
               "title": "Rebecca's case for the game",
-              "moment": "In a boardroom of wealthy club owners, the only woman present argues that a breakaway league would wall off a game that belongs to everyone. The other owners back away from the plan.",
+              "moment": "In a boardroom of wealthy club owners, the only woman present argues that a breakaway league would wall off a game that belongs to everyone. She tells them about a poor local boy who used to sneak into matches, grew up to buy the club, and gave the man on the gate a raise. The boy was Rupert. Afterwards, word comes that the owners have backed away.",
               "idea": "Football, in her telling, is a shared public good — a place where ordinary people get to feel highs and lows they would never otherwise reach. To lock it behind elite, closed walls is to take that away.",
               "why": "It is the episode's spine and the clearest payoff of Rebecca's three-season growth: she defends the community, not the deal.",
               "source": "Recaps in <em>Collider</em> and <em>The Hollywood Reporter</em>.",
@@ -4008,7 +4158,7 @@
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Multiple recaps confirm the speech's community-over-commodity framing and the owners backing off. Thematic gloss, no named philosopher.",
+              "groundingNotes": "Multiple recaps confirm the speech's community-over-commodity framing and the owners backing off. Thematic gloss, no named philosopher. Season review 2026-10-12: The boy in her story is Rupert (transcript); the owners' withdrawal is reported afterwards rather than shown.",
               "sourcesChecked": [
                 "https://collider.com/ted-lasso-season-3-rebecca-speech/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/"
@@ -4032,7 +4182,7 @@
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-10-rebecca-keeley-roy-1235493567/",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
               ],
-              "order": 4
+              "order": 6
             },
             {
               "id": "s3e10-roy-letter-keeley",
@@ -4051,7 +4201,26 @@
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E10InternationalBreak",
                 "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)"
               ],
-              "order": 6
+              "order": 7
+            },
+            {
+              "id": "s3e10-jamie-wears-sams-number",
+              "tag": "His big night, spent on someone else",
+              "category": "Redemption",
+              "title": "Jamie wears Sam's number",
+              "moment": "Intercut with Rebecca's speech, Jamie makes his England debut at Wembley wearing Sam's shirt number, in protest at Sam being kept out of the Nigeria squad.",
+              "idea": "The Jamie of Season 1 mocked his teammates for sport. This one spends the biggest night of his career making a point on someone else's behalf, in front of the whole country.",
+              "why": "No speech, no explanation in the dressing room: the commentator just notices. It is the plainest measure of how far he has come.",
+              "source": "<em>Wikipedia</em>'s episode page; <em>TheWrap</em>; reviews at <em>Telltale TV</em> and <em>Lady Geeks Media</em>.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Four sources. The number itself is not given, because no opened source states it.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/International_Break_(Ted_Lasso)",
+                "https://www.thewrap.com/ted-lasso-season-3-episode-10-shocking-moments/"
+              ],
+              "order": 4
             }
           ]
         },
@@ -4065,22 +4234,22 @@
               "id": "s3e11-larkin-this-be-the-verse",
               "tag": "The poem behind the breakdown",
               "title": "Mae recites Larkin in the pub",
-              "moment": "Sensing Ted's unease at his mother's visit, the pub landlady quietly recites a famously bleak short poem about how parents pass their hurt down to their children. The lines land hard and help send Ted to face his mom.",
-              "idea": "The poem is Philip Larkin's <em>This Be The Verse</em> (1971). Beneath its blunt, profane opening, its real argument is gentler: people are wounded by parents who were themselves wounded — an inherited cycle — with an unspoken plea to stop passing it on.",
+              "moment": "Sensing Ted's unease at his mother's visit, the pub landlady quietly recites a famously bleak short poem about how parents pass their hurt down to their children. The lines land hard, and hang over everything that follows.",
+              "idea": "The poem is Philip Larkin's <em>This Be The Verse</em> (1971). Beneath its blunt, profane opening, its argument is that people are wounded by parents who were wounded themselves; its last lines are a bleak instruction to end the cycle by not having children. The episode takes the gentler lesson: stop handing the hurt on.",
               "why": "It names the episode's whole engine. The point isn't to blame parents but to break the chain. Watch how it reframes both Ted's grief and Jamie's father wound that follow.",
               "source": "Philip Larkin, <em>This Be The Verse</em> (1971); recaps in <strong>ScreenRant</strong>, <strong>Collider</strong>, and <strong>Looper</strong>.",
               "category": "Relationships",
               "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Three recaps confirm Mae recites Larkin's 'This Be The Verse' in S3E11; Larkin's 1971 authorship is well documented.",
+              "groundingNotes": "Three recaps confirm Mae recites Larkin's 'This Be The Verse' in S3E11; Larkin's 1971 authorship is well documented. Season review 2026-10-12: Corrected: the plea is stated outright in the poem's last lines; the confrontation with Ted's mother comes much later, so the poem no longer ‘sends’ him.",
               "sourcesChecked": [
                 "https://screenrant.com/ted-lasso-season-3-mae-poem-this-be-verse-explained/",
                 "https://collider.com/ted-lasso-season-3-mae-poem-explained/",
                 "https://www.looper.com/1294687/ted-lasso-season-3-episode-11-maes-poem-sounds-familiar/",
                 "https://en.wikipedia.org/wiki/This_Be_The_Verse"
               ],
-              "order": 5,
+              "order": 1,
               "tier": "spine"
             },
             {
@@ -4092,7 +4261,7 @@
               "why": "The emotional climax of the hour, and the payoff to Ted's long, hard-won openness to therapy. (Context: his father's death is established back in Season 2 — the card keeps the focus on the coping pattern, not the loss itself.)",
               "source": "Recaps at <strong>TheCinemaholic</strong> and <strong>TV Tropes</strong>.",
               "category": "Relationships",
-              "interest": 4,
+              "interest": 5,
               "grounding": 4,
               "groundingStatus": "verified",
               "groundingNotes": "TheCinemaholic and TV Tropes confirm Ted calls out Dottie's performed cheerfulness after his father's death and that they reconcile. Father's suicide is S2 backstory — series-scope spoiler.",
@@ -4108,20 +4277,20 @@
               "tag": "Swagger as a wound",
               "title": "Jamie's bravado comes from his father",
               "moment": "Back in his hometown to face Man City, the team's brashest player quietly admits his whole drive was about proving his estranged father wrong — and that the man's absence unsettles him more than his presence ever did.",
-              "idea": "Cockiness can be armor built around a parental wound. Jamie's mother tells him he doesn't need to prove anything to his dad anymore; letting that go is what frees him to play.",
+              "idea": "Cockiness can be armour built around a parental wound. His mum tells him he has nothing left to prove to his dad; at the match, Ted's advice to forgive his father, as a gift to himself, is what sends him back on.",
               "why": "It reframes three seasons of Jamie's swagger in a single confession, and rhymes with Ted's own parent reckoning happening in parallel. (The locker-room punch that estranged them is Season 2, not here.)",
               "source": "Recaps at <strong>TV Tropes</strong>, <strong>Nerds &amp; Beyond</strong>, and <strong>The Review Geek</strong>.",
               "category": "Redemption",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Recaps confirm Jamie's homecoming breakdown and father wound in E11; the estranging punch is S2's 'Man City', kept distinct.",
+              "groundingNotes": "Recaps confirm Jamie's homecoming breakdown and father wound in E11; the estranging punch is S2's 'Man City', kept distinct. Season review 2026-10-12: Corrected: what frees him to play is Ted's advice at the match, not his mum's (Wikipedia, transcript).",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
                 "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
                 "https://www.thereviewgeek.com/tedlasso-s3e11review/"
               ],
-              "order": 1
+              "order": 3
             },
             {
               "id": "s3e11-jamie-mum-georgie",
@@ -4140,7 +4309,8 @@
                 "https://www.nerdsandbeyond.com/2023/05/24/ted-lasso-recap-season-3-episode-11-mom-city/",
                 "https://www.thespoilist.com/3x11-mom-city/"
               ],
-              "order": 2
+              "order": 2,
+              "tier": "more"
             },
             {
               "id": "s3e11-wizard-of-oz-home",
@@ -4166,26 +4336,27 @@
               "id": "s3e11-ted-decides-to-go-home",
               "tag": "The pull of home",
               "title": "'Your son misses you'",
-              "moment": "Ted's mother finally admits the real reason she crossed an ocean: to tell him his boy misses him. Ted admits he misses Henry too, but fears losing him. The hour closes on Ted resolved to say something to Rebecca.",
+              "moment": "Ted's mother finally admits the real reason she crossed an ocean: to tell him his boy misses him. Ted admits he misses Henry too, but fears losing him. The hour closes on Ted telling Rebecca he has a truth bomb of his own.",
               "idea": "The reconciliation with his mom and this small admission shift something in Ted. Once he stops performing okayness, he can feel how far he is from home — and start moving toward it.",
-              "why": "The turn that sets up the show's ending. Watch how the parent reckoning and the 'Home' song work together to point Ted across the ocean. (It gestures at the finale, so it carries series-level weight.)",
+              "why": "The turn that sets up the end of the season. Watch how the parent reckoning and the ‘Home’ song work together to point Ted across the ocean.",
               "source": "Recaps at <strong>TheCinemaholic</strong> and <strong>The Hollywood Reporter</strong>.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "TheCinemaholic and HR confirm Dottie's 'your son misses you', Ted's fear of losing Henry, and the closing cliffhanger. Series-scope spoiler.",
+              "groundingNotes": "TheCinemaholic and HR confirm Dottie's 'your son misses you', Ted's fear of losing Henry, and the closing cliffhanger. Series-scope spoiler. Season review 2026-10-12: ‘The show's ending’ is out of date now that Season 4 exists.",
               "sourcesChecked": [
                 "https://thecinemaholic.com/ted-lasso-who-plays-teds-mom-does-ted-make-up-with-dottie/",
                 "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-season-3-episode-11-ted-jamie-man-city-1235499241/"
               ],
-              "order": 7
+              "order": 7,
+              "tier": "spine"
             },
             {
               "id": "s3e11-nate-reconciliation-beard",
               "tag": "Forgiveness, given freely",
               "title": "Beard forgives Nate",
-              "moment": "After Nate keeps refusing to come back to the club, Coach Beard seeks him out, makes peace, and personally asks him to return.",
+              "moment": "Fired from his family's restaurant and already drafting a long apology to Ted, Nate opens the door to Coach Beard, sent by Ted, who makes peace with him and asks him to come back.",
               "idea": "Nate's redemption advances not because he earns his way back but because someone he wronged chooses to forgive him — Beard, who was once forgiven himself. It folds the episode's parents-and-belonging theme into the idea of returning to a found family.",
               "why": "A quiet counterpoint to the Ted and Jamie arcs: forgiveness here is something offered, not demanded. (Whether it comes too easily is a fair question critics raised.)",
               "source": "Recaps at <strong>TV Tropes</strong> and <strong>ComicBook</strong>.",
@@ -4193,12 +4364,12 @@
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "TV Tropes and ComicBook confirm Beard forgives Nate and invites him back after Jade gets him fired from Taste of Athens.",
+              "groundingNotes": "TV Tropes and ComicBook confirm Beard forgives Nate and invites him back after Jade gets him fired from Taste of Athens. Season review 2026-10-12: Corrected: Nate refused once and had already decided to return before Beard arrived (Wikipedia, The Spool, transcript).",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity",
                 "https://comicbook.com/tv-shows/news/ted-lasso-season-3-nate-richmond-return-ending/"
               ],
-              "order": 4
+              "order": 5
             },
             {
               "id": "s3e11-becky-ann-baker-emmy",
@@ -4220,7 +4391,7 @@
             },
             {
               "id": "s3e11-richmond-beats-man-city",
-              "tag": "Beating the team he worshipped",
+              "tag": "Beating his hometown club",
               "title": "Richmond finally beats Man City 2-0",
               "moment": "After years of humiliating losses to Manchester City, Richmond wins 2-0 on the day — and the player once defined by selfishness helps make the opener and scores the clincher in the city of his estranged father.",
               "idea": "The win pays off Jamie's whole arc from selfish star to generous teammate, set up by Roy's season-long mentorship. The result matters less than who Jamie has become to earn it.",
@@ -4230,12 +4401,12 @@
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Two recaps confirm the 2-0 win, Colin scoring off a Jamie assist and Jamie's late goal.",
+              "groundingNotes": "Two recaps confirm the 2-0 win, Colin scoring off a Jamie assist and Jamie's late goal. Season review 2026-10-12: Tag corrected: none of the posters in Jamie's childhood room are City players (transcript).",
               "sourcesChecked": [
                 "https://firstcuriosity.com/tv-show/ted-lasso-season-3-does-afc-richmond-win-against-manchester-city/",
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E11MomCity"
               ],
-              "order": 3
+              "order": 4
             },
             {
               "id": "s3e11-fought-and-lost-brian-may",
@@ -4243,13 +4414,13 @@
               "title": "'Fought & Lost' debuts here",
               "moment": "An anthemic original rock ballad scores a key emotional stretch of the penultimate episode.",
               "idea": "'Fought & Lost' was written for the show — performed by Sam Ryder featuring Queen's Brian May, co-written by Ryder with series composer Tom Howe and Jamie Hartman. It released as a single on the same day the episode aired, 24 May 2023.",
-              "why": "A small window into how the show builds feeling with custom music rather than only borrowed tracks — right down to recruiting a legendary guitarist.",
+              "why": "A small window into how the show builds feeling with custom music rather than only borrowed tracks, right down to recruiting a legendary guitarist. It was nominated for the Emmy for original music and lyrics, and lost to the song written for the very next episode.",
               "source": "<strong>Wikipedia</strong> ('Fought &amp; Lost') and <strong>Film Music Reporter</strong>.",
               "category": "Meta & trivia",
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed via Wikipedia and Film Music Reporter: Ryder/Howe/Hartman song featuring Brian May, debuts in 'Mom City', single out 24 May 2023.",
+              "groundingNotes": "Confirmed via Wikipedia and Film Music Reporter: Ryder/Howe/Hartman song featuring Brian May, debuts in 'Mom City', single out 24 May 2023. Season review 2026-10-12: Emmy nomination and loss to ‘A Beautiful Game’ per Wikipedia's 75th Creative Arts Emmys list.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Fought_%26_Lost",
                 "https://filmmusicreporter.com/2023/05/24/sam-ryders-original-song-fought-lost-from-ted-lasso-season-3-soundtrack-released/"
@@ -4287,56 +4458,41 @@
               "tag": "An original send-off song",
               "title": "Ed Sheeran wrote a song just for the finale",
               "moment": "Part of the farewell is scored by a brand-new song written for the show, rather than an existing track pulled off a record.",
-              "idea": "Ed Sheeran wrote and performed 'A Beautiful Game' (co-written with Foy Vance and Max Martin) specifically for this episode. It was released as a single the same day the finale aired, and later won a Creative Arts Emmy for Outstanding Original Music and Lyrics.",
+              "idea": "Ed Sheeran wrote and performed ‘A Beautiful Game’ (co-written with Foy Vance and Max Martin) specifically for this episode. It was released alongside the finale and later won the Creative Arts Emmy for Outstanding Original Music and Lyrics, beating, among others, ‘Fought & Lost’ from the episode before.",
               "why": "A measure of how much care went into the goodbye: the show commissioned bespoke music to close it out. Worth a listen on its own after the episode.",
               "source": "Billboard and Deadline reporting; 2023 Creative Arts Emmy for Outstanding Original Music and Lyrics.",
               "category": "Meta & trivia",
               "interest": 3,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: Sheeran original co-written with Foy Vance and Max Martin, released finale day, plays over Beard's video, later an Emmy winner.",
+              "groundingNotes": "Confirmed: Sheeran original co-written with Foy Vance and Max Martin, released finale day, plays over Beard's video, later an Emmy winner. Season review 2026-10-12: ‘Same day’ softened (sources differ by a day); ‘plays over Beard's video’ is unverified and dropped.",
               "sourcesChecked": [
                 "https://www.billboard.com/music/pop/ed-sheeran-ted-lasso-season-3-finale-song-beautiful-game-1235343189/",
                 "https://deadline.com/2024/01/ed-sheeran-emmy-award-winner-ted-lasso-a-beautiful-game-1235697113/"
               ]
             },
             {
-              "id": "s3e12-sound-of-music-brilliant-chaos",
-              "tag": "Behind the send-off",
-              "title": "The team's musical surprise was real",
-              "moment": "The squad's goodbye performance lands as a genuine surprise because it was staged to actually surprise the lead actor.",
-              "idea": "Director Declan Lowney has said the cast rehearsed the number separately so Jason Sudeikis hadn't seen it before the camera rolled, making the emotion on screen real. A drone was brought in to capture the celebration from above.",
-              "why": "Knowing the reaction is unrehearsed changes how the scene plays: you're watching a real send-off, not a performance of one. Watch the lead's face the first time the song starts.",
-              "source": "Director Declan Lowney, interviews with CinemaBlend and Awards Radar.",
-              "category": "Meta & trivia",
-              "interest": 4,
-              "grounding": 3,
-              "groundingStatus": "partial",
-              "groundingNotes": "From Lowney interviews (essentially single-source); cast rehearsed separately so the star's reaction was genuine, captured with a drone. Self-contained production fact.",
-              "sourcesChecked": [
-                "https://www.cinemablend.com/interviews/ted-lassos-season-3-finale-director-why-sound-of-music-number-brilliant-chaos",
-                "https://awardsradar.com/2023/08/16/interview-ted-lasso-director-declan-lowney-says-so-long-farewell-discusses-fan-theories-and-the-final-shot/"
-              ]
-            },
-            {
               "id": "s3e12-title-sound-of-music",
               "tag": "A musical farewell",
               "title": "The title comes from The Sound of Music",
-              "moment": "At his final training session, the squad ambushes the coach with a full performance of a children's goodbye number from a classic musical he adores, turning a routine into a send-off.",
-              "idea": "The episode is named for 'So Long, Farewell,' the von Trapp children's goodnight song from Rodgers &amp; Hammerstein's <em>The Sound of Music</em>. The title does double duty: a farewell to the coach inside the story, and a farewell to the series.",
-              "why": "A small key to the coach's sentimental streak: his love of the old musical becomes the team's way of saying goodbye. Listen for the children's-song structure under the football setting.",
-              "source": "<em>So Long, Farewell</em> from <strong>The Sound of Music</strong> (Rodgers &amp; Hammerstein, 1959 musical / 1965 film); SlashFilm and NPR finale recaps.",
+              "moment": "At the final training session, the squad ambushes Ted and Beard with a full performance of the von Trapp children's goodbye number from <em>The Sound of Music</em>, turning a routine into a send-off.",
+              "idea": "The episode is named for ‘So Long, Farewell’, the song the von Trapp children sing to excuse themselves to bed in Rodgers & Hammerstein's <em>The Sound of Music</em>. Watch Roy, who owned up to his Julie Andrews devotion back in Episode 3, mouthing along.",
+              "why": "A goodbye delivered as a children's song, by grown men who have been rehearsing behind the coaches' backs. Director Declan Lowney has said the cast sang it live on the day, and that most of what you hear is that live take, roughness and all.",
+              "source": "<em>So Long, Farewell</em> from <strong>The Sound of Music</strong> (Rodgers & Hammerstein, 1959 musical / 1965 film); NPR and TVLine finale coverage; Declan Lowney interviews with <em>Awards Radar</em> and <em>AwardsDaily</em>.",
               "category": "Aesthetics",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: episode title is the von Trapp goodbye song, performed by the squad as a send-off; a self-contained reference that does not spoil endings.",
+              "groundingNotes": "Confirmed: episode title is the von Trapp goodbye song, performed by the squad as a send-off; a self-contained reference that does not spoil endings. Season review 2026-10-12: CORRECTED: the number is for Ted and Beard, and no source says Ted adores the musical; Roy is the Julie Andrews fan (NPR, TVLine). ‘A farewell to the series’ removed now that Season 4 exists. The separate behind-the-scenes card was merged in here; its drone claim was contradicted by its own source and its ‘surprise’ claim was single-sourced.",
               "sourcesChecked": [
                 "https://www.slashfilm.com/1301514/ted-lasso-finale-sound-of-music-reference/",
                 "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
-                "https://www.npr.org/2023/05/31/1179117616/ted-lasso-finale-recap"
+                "https://www.npr.org/2023/05/31/1179117616/ted-lasso-finale-recap",
+                "https://www.vpm.org/npr-news/2023-05-31/five-great-moments-from-the-ted-lasso-finale",
+                "https://tvline.com/lists/ted-lasso-series-finale-easter-eggs-references-list/",
+                "https://awardsradar.com/2023/08/16/interview-ted-lasso-director-declan-lowney-says-so-long-farewell-discusses-fan-theories-and-the-final-shot/"
               ],
-              "order": 2
+              "order": 3
             },
             {
               "id": "s3e12-roy-diamond-dogs-can-people-change",
@@ -4344,18 +4500,119 @@
               "title": "Roy asks if people can really change",
               "moment": "The gruff loner asks to join the support circle, admits he's struggling to change, and is told no one ever reaches perfect — you just keep asking for help and keep moving toward better.",
               "idea": "The episode's plain wisdom: change isn't arriving at perfection, it's the ongoing willingness to ask for and accept help. (The Aristotelian 'habit of virtue' framing is an interpretive gloss, not named on screen.)",
-              "why": "It states the show's progress-over-perfection ethic outright: change is the ongoing willingness to ask for help, never an arrival at perfect.",
+              "why": "Three seasons ago Roy would have left the room rather than ask this question. Here he asks to join the one group whose whole method is asking.",
               "source": "TV Tropes recap; Today finale explainer. Aristotle link is interpretive.",
               "category": "Ethics & character",
               "interest": 3,
               "grounding": 3,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed: Roy asks to join the Diamond Dogs and the group debates whether people can really change and chase perfection. The Aristotle / habit-of-virtue links are factsheet framing, not named on screen, kept as a gloss. Series-scope payoff.",
+              "groundingNotes": "Confirmed: Roy asks to join the Diamond Dogs and the group debates whether people can really change and chase perfection. The Aristotle / habit-of-virtue links are factsheet framing, not named on screen, kept as a gloss. Series-scope payoff. Season review 2026-10-12: WHY rewritten: it repeated the IDEA.",
               "sourcesChecked": [
                 "https://tvtropes.org/pmwiki/pmwiki.php/Recap/TedLassoS3E12SoLongFarewell",
                 "https://www.today.com/popculture/tv/ted-lasso-season-3-ending-explained-finale-rcna87234"
               ],
+              "order": 4
+            },
+            {
+              "id": "s3e12-the-richmond-way",
+              "tag": "It's not about me",
+              "category": "Ethics & character",
+              "title": "The Lasso Way becomes The Richmond Way",
+              "moment": "Trent hands Ted and Beard his finished manuscript, <em>The Lasso Way</em>. Ted reads it, loves it, and leaves Trent a note with one request: change the title, because it isn't about him. In the final montage Trent is signing copies of <em>The Richmond Way</em>.",
+              "idea": "Ted's last act as Richmond's coach is to give the credit away. It is the creed he laid out to Trent over curry back in Season 1, that the job is helping people become the best versions of themselves, applied to the one thing with his own name on it.",
+              "why": "A show named after one man ends its third season by insisting it was never about him.",
+              "source": "<em>Wikipedia</em>'s episode page; <em>Today</em>'s finale explainer; <em>The Ringer</em>.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. The manuscript, Ted's note and the retitled book confirmed by Wikipedia, Today and The Ringer.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
+                "https://www.today.com/today/amp/rcna87234",
+                "https://www.theringer.com/2023/05/31/tv/ted-lasso-season-3-finale-so-long-farewell-review"
+              ],
               "order": 1
+            },
+            {
+              "id": "s3e12-forty-nine-percent",
+              "tag": "Owned by the fans",
+              "category": "Ethics & character",
+              "title": "Rebecca sells 49% to the supporters",
+              "moment": "Higgins suggests selling 49% of the club to raise money while keeping control, and Rebecca wonders aloud what the whole thing would fetch. At the airport, the newspaper reports what she chose: 49% to the supporters, and the club still hers.",
+              "idea": "The club Rebecca bought in Season 1 to destroy something her ex-husband loved ends up partly owned by the people who love it most. It is the argument she made to the Super League owners in Episode 10, turned into a decision.",
+              "why": "The revenge purchase of the pilot ends as a gift to the community, made without a speech: you learn it from a newspaper over Ted's shoulder.",
+              "source": "<em>Wikipedia</em>'s episode page; <em>Today</em>; <em>The Ringer</em>; <em>High on Films</em>.",
+              "interest": 4,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Higgins's proposal and the 49% sale with Rebecca keeping control confirmed by four sources. Worded only as ‘49% to the fans, club still hers’, to stay consistent with Season 4's ownership plot.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
+                "https://www.today.com/today/amp/rcna87234"
+              ],
+              "order": 2
+            },
+            {
+              "id": "s3e12-believe-sign-rebuilt",
+              "tag": "Mended, not replaced",
+              "category": "Belief & hope",
+              "title": "The pieces of the sign come back",
+              "moment": "Two goals down at half-time, the players produce the pieces of the BELIEVE sign that came down in Episode 5. They have been hiding them all season, tucked into books and socks and behind photographs, and they put it back together in front of Ted. In the closing montage it goes back up on the wall, repaired, with Nate helping to hang it.",
+              "idea": "In Episode 5 Ted argued that belief lives in people, not on a wall. The squad's answer is that it lives in both: they took his point, and they kept the pieces anyway. TVLine's finale guide notes the repair is done in gold, the kintsugi Tish described back in Episode 3, where the break becomes the most visible part of the object rather than something to hide.",
+              "why": "This is the whole life of the show's emblem, and this app's: torn by Nate at the end of Season 2, split open in Episode 4, taken down in Episode 5, and mended here, with the man who first tore it helping to put it back.",
+              "source": "<em>Wikipedia</em>'s episode page; NPR; <em>The Ringer</em>; <em>Today</em>; the gold repair per <em>TVLine</em>.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. The half-time reassembly is in four sources; Nate helping rehang it per Wikipedia. The gold, kintsugi-style repair rests on TVLine plus one blog, so it is attributed to TVLine in the card. Completes the thread promised on s2e12-nate-believe-sign-torn.",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
+                "https://www.vpm.org/npr-news/2023-05-31/five-great-moments-from-the-ted-lasso-finale",
+                "https://tvline.com/lists/ted-lasso-series-finale-easter-eggs-references-list/"
+              ],
+              "order": 5,
+              "tier": "spine"
+            },
+            {
+              "id": "s3e12-beard-stays",
+              "tag": "Willis",
+              "category": "Relationships",
+              "title": "Beard gets off the plane",
+              "moment": "On the flight home, Beard admits he wants to stay in England for Jane, and fakes appendicitis to be carried off. Ted lets him go, and calls him by his first name, Willis.",
+              "idea": "The two of them flew into England together in the pilot, and for three seasons Beard has been the shadow at Ted's shoulder. The finale's last gift is to separate them, gently, and make it a happy ending for both.",
+              "why": "Brendan Hunt has said the Stonehenge wedding in the closing montage is real, not a dream, which settles a fan theory.",
+              "source": "<em>Wikipedia</em>'s episode page; <em>TVLine</em> and <em>ScreenRant</em> on Brendan Hunt's comments.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. The plane scene and ‘Willis’ confirmed by Wikipedia and TVLine; Hunt's ‘real, not a dream’ by TVLine and ScreenRant. Jane's pregnancy is not mentioned (Season 4 casts doubt on it).",
+              "sourcesChecked": [
+                "https://en.wikipedia.org/wiki/So_Long,_Farewell_(Ted_Lasso)",
+                "https://tvline.com/2023/06/02/ted-lasso-dream-theory-debunked-dreaming-finale-flash-forwards-explained",
+                "https://screenrant.com/ted-lasso-season-3-finale-secrets-reveals-brendan-hunt/"
+              ],
+              "order": 6,
+              "tier": "spine"
+            },
+            {
+              "id": "s3e12-be-a-goldfish",
+              "tag": "A short memory",
+              "category": "Belief & hope",
+              "title": "Be a goldfish, one last time",
+              "moment": "The final scene: back in Kansas, Ted is coaching Henry's youth team. After a miss, he tells his son to be a goldfish.",
+              "idea": "It is the first piece of coaching the show ever gave you, Ted to Sam in the second episode of Season 1: keep a short memory for your mistakes and let them go. The last scene hands the same advice from coach to son.",
+              "why": "The show's first lesson becomes its last image. Nothing new is said; it is simply passed on.",
+              "source": "<em>TVLine</em>; <em>Today</em>; <em>Wikipedia</em>'s episode page; callback to S1E2 ‘Biscuits’.",
+              "interest": 5,
+              "grounding": 4,
+              "groundingStatus": "verified",
+              "groundingNotes": "Season review 2026-10-12: Added in the season review. Final scene confirmed by TVLine, Today, Wikipedia and the transcript.",
+              "sourcesChecked": [
+                "https://tvline.com/lists/ted-lasso-series-finale-easter-eggs-references-list/",
+                "https://www.today.com/today/amp/rcna87234"
+              ],
+              "order": 7,
+              "tier": "spine"
             }
           ]
         }
@@ -6349,14 +6606,14 @@
               "tag": "Six years of setup, one goal",
               "title": "The girl with the ball scores the one that seals it",
               "moment": "Richmond go two goals down at Bristol and come back to win 4&ndash;2. Shannon scores, and three recaps have her goal as the one that clinches promotion.",
-              "idea": "Shannon is the girl from the park Ted kept running into in Season 1. They have a proper kickabout in the second episode, and she turns up again and again, including at the end of Season 3 getting Trent Crimm's book about Ted signed. In Episode 3 of this season Ted signed her over both his coaches' doubts. Here she scores the goal that takes Richmond up.",
+              "idea": "Shannon is the girl from the park Ted kept running into in Season 1. They have a proper kickabout in the second episode, and she turns up again and again, including in the queue at Trent Crimm's book signing in Season 3's final montage. In Episode 3 of this season Ted signed her over both his coaches' doubts. Here she scores the goal that takes Richmond up.",
               "why": "The show has never made a speech about her. She was a recurring joke about how football-mad this corner of London is, and she has been sitting in the background for six years with a ball under her arm. Then the club builds a women's side and the joke turns out to have been a plan.",
               "source": "<em>Ted Lasso</em> S1E2, <em>Biscuits</em>, and her recurring Season 1&ndash;3 appearances; Season 4 Episode 9 recaps.",
               "category": "Belief & hope",
               "interest": 4,
               "grounding": 4,
               "groundingStatus": "partial",
-              "groundingNotes": "Six recaps confirm Shannon scores in the 4&ndash;2 win and three that her goal seals promotion; nothing calls it her debut, so that is not claimed here. The kickabout is placed in Episode 2 on the authority of that episode&rsquo;s own director, who says she is not in the pilot, plus a contemporaneous recap; one feature says the pilot and is contradicted. Recaps disagree about the other goalscorers, so they are not listed.",
+              "groundingNotes": "Six recaps confirm Shannon scores in the 4&ndash;2 win and three that her goal seals promotion; nothing calls it her debut, so that is not claimed here. The kickabout is placed in Episode 2 on the authority of that episode&rsquo;s own director, who says she is not in the pilot, plus a contemporaneous recap; one feature says the pilot and is contradicted. Recaps disagree about the other goalscorers, so they are not listed. Season review 2026-10-12: ‘Trent Crimm's book about Ted’ corrected: in the Season 3 finale Ted has the book retitled precisely because it is not about him.",
               "sourcesChecked": [
                 "https://www.awardsdaily.com/2021/06/13/zach-braff-biscuits-ted-lasso/",
                 "https://readysteadycut.com/2020/08/14/recap-ted-lasso-season-1-episode-2-biscuits-apple-tv-plus-series/",
@@ -6494,13 +6751,13 @@
               "title": "The lie Ted tells his son is the lie Ted was told",
               "moment": "Upstairs at the wake, Henry asks how Ted&rsquo;s father died, and whether Ted might leave too. Ted says his dad fell down some stairs &mdash; which is the version Henry had already had from his Nana &mdash; and promises he is not going anywhere. He admits to Beard afterwards that he was not straight with him. After the match he goes back and tells Henry the truth.",
               "idea": "Season 2&rsquo;s &lsquo;Man City&rsquo; is where the programme put the fact on the record: Ted, on the phone to Sharon after a heavy defeat, said his father died by suicide when Ted was sixteen. So the fall down the stairs is not Ted&rsquo;s invention. It is his mother&rsquo;s, repeated to her grandson, and Ted&rsquo;s only contribution is to let it stand for an afternoon. Matt Lipsey directed both episodes.",
-              "why": "A family lie is rarely a decision. It is a thing somebody said once to protect a child, which then has to be said again every time that child&rsquo;s child asks. Ted is thirty years downstream of a sentence his mother chose, and the only way out of it is to be the one who stops repeating it. It takes him the length of a football match.",
+              "why": "A family lie is rarely a decision. It is a thing somebody said once to protect a child, which then has to be said again every time that child's child asks. Ted is thirty years downstream of a sentence his mother chose, and the only way out of it is to be the one who stops repeating it. It takes him the length of a football match. (It is the same mother he told, in Season 3's ‘Mom City’, that her cheerfulness after his father's death had taught him to hide his own grief.)",
               "source": "Season 4, Episode 10; and Season 2, Episode 8, &lsquo;Man City&rsquo; (written by Jamie Lee, directed by Matt Lipsey), where Ted tells Sharon his father died by suicide when he was sixteen.",
               "category": "Ethics & character",
               "interest": 5,
               "grounding": 5,
               "groundingStatus": "verified",
-              "groundingNotes": "Confirmed in six independent write-ups, and the &lsquo;Man City&rsquo; details from that episode&rsquo;s own record. Two corrections to the research: no source makes Michelle the origin of the fall story &mdash; three name Ted&rsquo;s mother, Henry&rsquo;s Nana &mdash; and most report Ted repeating it rather than merely failing to correct it.",
+              "groundingNotes": "Confirmed in six independent write-ups, and the &lsquo;Man City&rsquo; details from that episode&rsquo;s own record. Two corrections to the research: no source makes Michelle the origin of the fall story &mdash; three name Ted&rsquo;s mother, Henry&rsquo;s Nana &mdash; and most report Ted repeating it rather than merely failing to correct it. Season review 2026-10-12: Cross-season link to s3e11-ted-grief-stepford-smiler added.",
               "sourcesChecked": [
                 "https://en.wikipedia.org/wiki/Man_City_(Ted_Lasso)",
                 "https://www.yahoo.com/entertainment/tv/articles/ted-lasso-season-4-finale-172601153.html",
