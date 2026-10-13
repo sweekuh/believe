@@ -14,6 +14,22 @@ Treat the gift framing as a hard constraint, not flavor text. The cardinal rule:
 **a wrong philosophical attribution is worse than a missing one.** Never invent
 philosophy or plot facts to fill an episode.
 
+### Believe vs Afterword (owner decision, 2026-10-13)
+
+- **Believe stays internal: it is the gift for the author's mom.** Keep its voice,
+  its personal framing (`fromMom`, the from-me text) and its gift scope. Do not
+  commercialize it.
+- **Afterword (`sweekuh/afterword`) is the commercial product.** It is an iOS app
+  whose Ted Lasso pack (`Sources/AfterwordModels/Resources/tedlasso.json`) was
+  ported from this file and shares its schema and card ids. Commercial editing
+  (unified length and voice, no in-body hedging, no personal framing) belongs
+  in Afterword, never in `episodes.json`.
+- **Believe is still where facts get verified.** The hunter → reviewer
+  pipeline, `research/`, and the season reviews live here. A factual
+  correction made here must also reach Afterword's copy, matched by card id.
+  Afterword's pack once shipped 7 removed cards and 252 stale texts because it
+  had not been synced since before the season reviews.
+
 ## Architecture (the parts that span files)
 
 - **`index.html`** is the whole app: one IIFE `fetch`es `./episodes.json`, builds
@@ -34,7 +50,7 @@ philosophy or plot facts to fill an episode.
     reads in the order she just watched it); episodes with no `order` fall back to
     **most-interesting-first** (`interest`). Ties break by interest then original
     index. Backward-compatible — unscored/unordered cards sort neutrally.
-    - Note the `interest` scores are **nearly flat** (216 of 338 cards score 4;
+    - Note the `interest` scores are **nearly flat** (217 of 339 cards score 4;
       every season was rescored toward a real 3/4/5 spread in its season review), so that
       fallback resolves to paste order in practice. `order` is what
       actually organizes a page; treat the `interest` sort as a legacy default.
@@ -75,7 +91,7 @@ philosophy or plot facts to fill an episode.
   `groundingStatus`, `groundingNotes`, `sourcesChecked`) are documented in
   `README.md` and `docs/facts-schema.md`. **All four seasons are now fully
   written** (Season 1: 10 episodes, 50 cards; Season 2: 12 episodes, 62 cards; Season 3: 12 episodes,
-  115 cards; Season 4: 10 episodes, 111 cards), each built through the full hunter →
+  116 cards; Season 4: 10 episodes, 111 cards), each built through the full hunter →
   grounding-reviewer → promotion pipeline. Season 4 aired weekly from 2026-08-05
   to its finale on 2026-10-07 and was written an episode at a time, the morning
   after each broadcast; the teaser it launched with was replaced by real E1 cards.
